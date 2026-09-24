@@ -1,0 +1,290 @@
+{
+  "title": "State Government, Centre-State Relations, Emergency and Local Government",
+  "subject": "Indian Polity",
+  "topic": "Governor, Chief Minister and state legislature, High Courts and subordinate courts, legislative, administrative and financial relations, inter-state bodies, national and financial emergency and President's rule, Panchayati Raj and municipalities, Union Territories, Fifth and Sixth Schedules",
+  "description": "UPSC/BPSC-level questions on Part VI and Parts IX to XVIII of the Constitution: the discretionary powers of the Governor and the judgments that limit them, the bicameral legislatures including Bihar's, the High Court system, the distribution of powers and mechanisms of cooperation, the three emergencies with S.R. Bommai and the Bihar dissolution case, and the framework of the 73rd and 74th Amendments.",
+  "timeLimitMinutes": 40,
+  "createdAt": "2026-09-24",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Consider the following statements about the Governor:\n1. The Governor is appointed by the President under Article 155 and holds office during the President's pleasure, with a normal term of five years.\n2. A person must be a citizen of India and at least 35 years of age, and the 7th Amendment Act of 1956 allows the same person to be Governor of two or more states.\n3. The oath is administered by the Chief Justice of the High Court of the state.\n4. In B.P. Singhal (2010) the Supreme Court held that a Governor can be removed at any time without reason, but not arbitrarily or for reasons of political difference with the Centre.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Sarkaria Commission recommended that Governors be eminent persons from outside the state, not active in politics, appointed after consulting the Chief Minister, and the Punchhi Commission proposed a fixed five-year tenure and removal by impeachment."
+    },
+    {
+      "id": "q2",
+      "question": "Consider the following statements about the powers of the Governor:\n1. Under Article 200 the Governor may assent to a bill, withhold assent, return it for reconsideration if it is not a money bill, or reserve it for the President.\n2. Under Article 213 the Governor can promulgate ordinances when the legislature is not in session, but needs the President's instructions if the bill would have required the President's sanction.\n3. Under Article 161 the Governor can pardon, commute or remit sentences for offences against state laws, but cannot pardon a sentence of death.\n4. Under Article 174 the Governor summons, prorogues and dissolves the legislative assembly.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. In State of Punjab v. Principal Secretary to the Governor (2023) the Supreme Court held that a Governor cannot indefinitely sit on bills and must act 'as soon as possible' under Article 200."
+    },
+    {
+      "id": "q3",
+      "question": "Consider the following statements about the discretionary powers of the Governor under Article 163:\n1. The Governor has constitutional discretion in reserving a bill for the President, recommending President's rule and seeking information from the Chief Minister under Article 167.\n2. The Governor has situational discretion in appointing a Chief Minister when no party has a clear majority and in dismissing a ministry that has lost its majority.\n3. In Nabam Rebia (2016) the Supreme Court held that the Governor cannot summon or advance a session of the assembly on his own without the aid and advice of the Council of Ministers.\n4. In Shamsher Singh (1974) the Court held that the Governor, like the President, is a constitutional head who acts on ministerial advice except in the specified areas of discretion.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Governor's discretion is wider than the President's, since Article 163 expressly mentions it and the Sixth Schedule and Articles 371 to 371J confer special responsibilities in some states."
+    },
+    {
+      "id": "q4",
+      "question": "Consider the following statements about the Chief Minister and the state Council of Ministers:\n1. Under Article 164(1A), inserted by the 91st Amendment, the number of ministers including the Chief Minister must not exceed 15 per cent of the assembly's strength, subject to a minimum of twelve.\n2. Article 164(1) requires a minister in charge of tribal welfare in Chhattisgarh, Jharkhand, Madhya Pradesh and Odisha; Bihar was removed from this requirement by the 94th Amendment Act of 2006.\n3. The Council of Ministers is collectively responsible to the legislative assembly.\n4. A person not a member of the state legislature can be a minister for six months, and a member of the legislative council can become Chief Minister.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Advocate General under Article 165 is the state's counterpart of the Attorney General and can participate in the proceedings of the state legislature without voting."
+    },
+    {
+      "id": "q5",
+      "question": "Consider the following statements about state legislatures:\n1. Six states currently have legislative councils: Andhra Pradesh, Bihar, Karnataka, Maharashtra, Telangana and Uttar Pradesh.\n2. Under Article 169 a council can be created or abolished by Parliament by simple majority if the state assembly passes a resolution by a special majority, and such a law is not deemed a constitutional amendment.\n3. The council's strength must not exceed one-third of the assembly's strength and must not be less than 40.\n4. The assembly's strength must be between 60 and 500, with exceptions such as Sikkim (32), Goa (40) and Mizoram (40).\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Tamil Nadu, West Bengal and Punjab abolished their councils, and Jammu and Kashmir's council ended with the 2019 reorganisation. The nomination of one Anglo-Indian to assemblies ended with the 104th Amendment."
+    },
+    {
+      "id": "q6",
+      "question": "Consider the following statements about the composition of a legislative council under Article 171:\n1. One-third of the members are elected by members of local bodies such as municipalities and district boards.\n2. One-twelfth each are elected by graduates of three years' standing and by teachers of three years' standing in secondary or higher institutions.\n3. One-third are elected by the members of the legislative assembly from among non-members.\n4. The remainder, about one-sixth, are nominated by the Governor from persons distinguished in literature, science, art, the cooperative movement and social service.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Like the Rajya Sabha, the council is a permanent body with one-third retiring every two years and a six-year term for members. The Bihar Legislative Council has 75 members."
+    },
+    {
+      "id": "q7",
+      "question": "Consider the following statements about the powers of a legislative council compared with the Rajya Sabha:\n1. A council can delay an ordinary bill passed by the assembly for a maximum of four months (three months on first reference and one month on second).\n2. A council can delay a money bill for fourteen days only.\n3. There is no provision for a joint sitting of the two Houses of a state legislature.\n4. A council can amend or reject a bill originating in it that the assembly does not accept, but the assembly's will prevails ultimately.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The council's position is therefore weaker than that of the Rajya Sabha; it has no role in the election of the President or the ratification of constitutional amendments, and its members do not vote for the Rajya Sabha."
+    },
+    {
+      "id": "q8",
+      "question": "Consider the following statements about High Courts:\n1. Article 214 provides a High Court for each state, and the 7th Amendment allowed a common High Court for two or more states or Union Territories.\n2. The High Courts of Calcutta, Bombay and Madras were established in 1862 under the Indian High Courts Act of 1861.\n3. There are 25 High Courts, the newest being those of Telangana and Andhra Pradesh, separated in 2019.\n4. High Court judges retire at 65 years.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "High Court judges retire at 62, raised from 60 by the 15th Amendment of 1963; Supreme Court judges retire at 65. The Gauhati High Court serves four states, and Punjab and Haryana share a High Court at Chandigarh."
+    },
+    {
+      "id": "q9",
+      "question": "Consider the following statements about High Court judges:\n1. A judge must have held a judicial office for ten years or been an advocate of a High Court for ten years; there is no 'distinguished jurist' category.\n2. Judges are appointed by the President after consultation with the Chief Justice of India, the Governor and the Chief Justice of the High Court.\n3. A judge can be transferred from one High Court to another by the President under Article 222 after consulting the Chief Justice of India.\n4. The procedure for removal is the same as for Supreme Court judges.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The salaries of judges are charged on the state's Consolidated Fund, but their pensions are charged on the Consolidated Fund of India. A retired judge cannot practise in the same High Court."
+    },
+    {
+      "id": "q10",
+      "question": "Consider the following statements about the jurisdiction of High Courts:\n1. Under Article 226 a High Court can issue writs for the enforcement of Fundamental Rights and 'for any other purpose', making its writ jurisdiction wider than the Supreme Court's.\n2. Under Article 227 a High Court has superintendence over all courts and tribunals within its territory except military tribunals.\n3. Under Article 235 the High Court controls the subordinate judiciary, including posting, promotion and leave of district judges.\n4. Under Article 215 every High Court is a court of record with the power to punish for contempt.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. A High Court can issue writs to authorities outside its territory if the cause of action arises within it (15th Amendment). Article 230 allows Parliament to extend a High Court's jurisdiction to Union Territories."
+    },
+    {
+      "id": "q11",
+      "question": "Consider the following statements about subordinate courts and alternative dispute resolution:\n1. Under Article 233 district judges are appointed by the Governor in consultation with the High Court, and an advocate needs seven years' practice to be eligible.\n2. Lok Adalats, given statutory status by the Legal Services Authorities Act of 1987, deliver awards that are final and binding with no appeal.\n3. The Gram Nyayalayas Act of 2008 provides for village-level courts presided over by a Nyayadhikari.\n4. The National Legal Services Authority is headed by the Chief Justice of India as patron-in-chief.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Free legal aid under Article 39A is available to women, children, SCs, STs, industrial workmen, victims of disasters and persons with income below a limit. Family Courts were established under a 1984 Act."
+    },
+    {
+      "id": "q12",
+      "question": "Consider the following statements about the distribution of legislative powers:\n1. The Seventh Schedule contains the Union List (originally 97 entries, now about 100), the State List (originally 66, now about 61) and the Concurrent List (originally 47, now 52).\n2. The 42nd Amendment transferred education, forests, protection of wild animals and birds, weights and measures, and administration of justice from the State List to the Concurrent List.\n3. Residuary powers, including residuary taxation, belong to Parliament under Article 248 and Entry 97 of the Union List.\n4. In case of conflict between Union and state laws on a Concurrent subject, the Union law prevails, but a state law reserved for and assented to by the President prevails in that state under Article 254(2), subject to Parliament's power to override it.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Parliament may legislate on State List subjects under Article 249 (Rajya Sabha resolution), 250 (national emergency), 252 (request of two or more states), 253 (international agreements) and 356 (President's rule)."
+    },
+    {
+      "id": "q13",
+      "question": "Consider the following statements about administrative relations between the Centre and the states:\n1. Article 256 requires states to exercise their executive power so as to ensure compliance with Union laws, and Article 257 requires them not to impede the Union's executive power.\n2. Under Article 258 the President may entrust Union functions to a state with its consent, and under Article 258A a Governor may entrust state functions to the Union.\n3. Article 262 empowers Parliament to provide for the adjudication of inter-state river water disputes and to exclude the jurisdiction of the Supreme Court over them.\n4. Article 263 empowers the President to establish an Inter-State Council, which was set up in 1990 on the recommendation of the Sarkaria Commission.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Inter-State Council is chaired by the Prime Minister and includes all Chief Ministers and six Union Cabinet ministers. The Inter-State River Water Disputes Act of 1956 provides for tribunals such as those for the Cauvery and Krishna."
+    },
+    {
+      "id": "q14",
+      "question": "Consider the following statements about Zonal Councils:\n1. They are statutory bodies established under the States Reorganisation Act of 1956, not constitutional bodies.\n2. There are five Zonal Councils, each chaired by the Union Home Minister, with the Chief Ministers of member states as vice-chairmen by rotation.\n3. Bihar is a member of the Eastern Zonal Council along with Jharkhand, Odisha and West Bengal.\n4. The North Eastern Council was created by a separate Act of 1971.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Councils are advisory forums for cooperation on matters of common interest, such as border disputes, linguistic minorities and inter-state transport, and their secretariat is in the Inter-State Council Secretariat."
+    },
+    {
+      "id": "q15",
+      "question": "Consider the following statements about financial relations under Part XII:\n1. Article 268 covers duties levied by the Union but collected and appropriated by the states, such as stamp duties on bills of exchange.\n2. Article 270 provides for taxes levied and collected by the Union and distributed between the Union and the states on the recommendation of the Finance Commission.\n3. Article 275 provides statutory grants-in-aid to needy states, while Article 282 permits discretionary grants for any public purpose.\n4. Article 271 allows Parliament to levy a surcharge for Union purposes, the proceeds of which are not shared with states.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. During a financial emergency the President can direct states to observe canons of financial propriety. The Rajamannar Committee (1969), Sarkaria Commission (1988) and Punchhi Commission (2010) reviewed Centre-state relations."
+    },
+    {
+      "id": "q16",
+      "question": "Consider the following statements about trade, commerce and intercourse under Part XIII:\n1. Article 301 guarantees freedom of trade, commerce and intercourse throughout the territory of India.\n2. Parliament can impose restrictions in the public interest under Article 302, and states can impose reasonable restrictions under Article 304 with the President's prior sanction.\n3. Article 307 provides for an authority to carry out these provisions, but none has been appointed.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. In Jindal Stainless (2017) a nine-judge bench held that non-discriminatory taxes do not violate Article 301. The provisions were drawn from Section 92 of the Australian Constitution."
+    },
+    {
+      "id": "q17",
+      "question": "Consider the following statements about a national emergency under Article 352:\n1. It can be proclaimed on grounds of war, external aggression or armed rebellion, the last having replaced 'internal disturbance' by the 44th Amendment.\n2. The proclamation must be approved by both Houses within one month by a special majority and continues for six months at a time, indefinitely with repeated approvals.\n3. The Lok Sabha can disapprove the emergency by a simple majority, and one-tenth of its members can require a special sitting for this purpose.\n4. National emergencies have been proclaimed three times: 1962, 1971 and 1975.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. In Minerva Mills (1980) the Supreme Court held that the proclamation is subject to judicial review for mala fides. During the emergency Parliament can legislate on State List subjects and the Centre can direct states on any matter."
+    },
+    {
+      "id": "q18",
+      "question": "Consider the following statements about President's rule under Article 356:\n1. It can be imposed on the Governor's report or otherwise when the President is satisfied that the government of a state cannot be carried on in accordance with the Constitution, and under Article 365 when a state fails to comply with Union directions.\n2. It must be approved by both Houses within two months by simple majority, and can continue for six months at a time up to a maximum of three years.\n3. The 44th Amendment provided that extension beyond one year is possible only if a national emergency is in operation and the Election Commission certifies that elections cannot be held.\n4. It was first imposed in Punjab in 1951 and has been used most often in Uttar Pradesh.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. During President's rule the state legislature's powers are exercised by Parliament and the state executive by the President through the Governor; the High Court's powers are unaffected. Ambedkar hoped Article 356 would remain a 'dead letter'."
+    },
+    {
+      "id": "q19",
+      "question": "Consider the following statements about S.R. Bommai v. Union of India (1994):\n1. The Supreme Court held that the proclamation under Article 356 is subject to judicial review and can be struck down for mala fides or irrelevant grounds.\n2. It held that the majority of a government must be tested on the floor of the House, not in the Governor's chamber.\n3. It held that the state assembly should not be dissolved until Parliament approves the proclamation, and can be revived if the proclamation is struck down.\n4. It declared secularism to be part of the basic structure and upheld the dismissal of state governments after the Babri demolition.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Bommai drastically reduced the misuse of Article 356, which had been invoked over a hundred times before 1994. The Sarkaria Commission had recommended its use only as a last resort."
+    },
+    {
+      "id": "q20",
+      "question": "Consider the following statements about Rameshwar Prasad v. Union of India (2006), arising from Bihar:\n1. After the February 2005 Bihar assembly election produced a hung house, President's rule was imposed and the assembly was kept in suspended animation.\n2. On Governor Buta Singh's report that attempts were being made to cobble a majority through horse-trading, the assembly was dissolved in May 2005 before it ever met.\n3. The Supreme Court held the dissolution unconstitutional, finding the Governor's report based on unsubstantiated allegations, but declined to restore the assembly as fresh elections had been announced.\n4. The Court held that a Governor cannot prevent a claim to form a government merely on suspicion of unethical means, and that the remedy for defection lies in the Tenth Schedule.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Buta Singh resigned as Governor after the judgment. The case, along with Bommai, defines the limits of the Governor's role in government formation."
+    },
+    {
+      "id": "q21",
+      "question": "Consider the following statements about a financial emergency under Article 360:\n1. It can be proclaimed when the financial stability or credit of India or any part of it is threatened.\n2. It must be approved by both Houses within two months by simple majority and then continues indefinitely until revoked, with no maximum period.\n3. During its operation the President can direct reduction of salaries of all persons serving the Union and the states, including Supreme Court and High Court judges, and require state money bills to be reserved.\n4. It has been proclaimed once, in 1991.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "A financial emergency has never been proclaimed, even during the 1991 crisis. The 38th Amendment had made the President's satisfaction final, but the 44th Amendment removed that bar."
+    },
+    {
+      "id": "q22",
+      "question": "Consider the following statements about the evolution of Panchayati Raj:\n1. The Balwant Rai Mehta Committee (1957) recommended a three-tier system, which Rajasthan first adopted at Nagaur on 2 October 1959, followed by Andhra Pradesh.\n2. The Ashok Mehta Committee (1978) recommended a two-tier system of Mandal Panchayat and Zila Parishad and treated the district as the first point of decentralisation.\n3. The G.V.K. Rao Committee (1985) and the L.M. Singhvi Committee (1986) recommended constitutional recognition for panchayats.\n4. The 64th Amendment Bill of 1989 failed in the Rajya Sabha before the 73rd Amendment was enacted in 1992.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Thungon Committee (1988) and Gadgil Committee (1988) also contributed. Panchayati Raj Day is observed on 24 April, the date the 73rd Amendment came into force in 1993."
+    },
+    {
+      "id": "q23",
+      "question": "Consider the following statements about the 73rd Amendment Act of 1992:\n1. It added Part IX (Articles 243 to 243-O) and the Eleventh Schedule with 29 functional items.\n2. It provides for a three-tier system, though states with a population below 20 lakh may omit the intermediate level.\n3. It mandates direct elections at all levels, reservation of seats for SCs and STs in proportion to population and not less than one-third for women, a five-year term, and elections within six months of dissolution.\n4. It applies to all states without exception.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "The Act does not apply to Nagaland, Meghalaya and Mizoram, the hill areas of Manipur with district councils, and the Darjeeling hill areas of West Bengal. Scheduled Areas are covered through the PESA Act of 1996."
+    },
+    {
+      "id": "q24",
+      "question": "Consider the following statements about the institutions created by Part IX:\n1. Article 243B provides for the Gram Sabha as the foundation of the system, consisting of all registered voters of the village.\n2. Article 243K provides for a State Election Commission headed by a State Election Commissioner appointed by the Governor, who can be removed only in the manner of a High Court judge.\n3. Article 243-I requires a State Finance Commission every five years to recommend the distribution of resources between the state and the panchayats.\n4. The minimum age for contesting panchayat elections is 21 years.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Reservation of chairperson posts is left to the states, and many states, beginning with Bihar in 2006, have raised women's reservation to 50 per cent. Article 243-O bars courts from interfering in electoral matters."
+    },
+    {
+      "id": "q25",
+      "question": "Consider the following statements about the Provisions of the Panchayats (Extension to the Scheduled Areas) Act, 1996:\n1. It extends Part IX to the Fifth Schedule areas with modifications, on the recommendation of the Bhuria Committee.\n2. It makes the Gram Sabha the central institution, with powers over minor forest produce, minor minerals, land acquisition consultation and control over local plans.\n3. It requires reservation of the chairperson posts at all levels for Scheduled Tribes.\n4. It applies to the Sixth Schedule areas of the north-east.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "PESA applies to the ten Fifth Schedule states, not the Sixth Schedule areas, which have Autonomous District Councils. Bihar has no Scheduled Areas after the creation of Jharkhand."
+    },
+    {
+      "id": "q26",
+      "question": "Consider the following statements about the 74th Amendment Act of 1992:\n1. It added Part IXA (Articles 243P to 243ZG) and the Twelfth Schedule with 18 functional items.\n2. It provides for three types of urban local bodies: Nagar Panchayat for transitional areas, Municipal Council for smaller urban areas and Municipal Corporation for larger urban areas.\n3. It requires Ward Committees in municipalities with a population of three lakh or more, a District Planning Committee under Article 243ZD and a Metropolitan Planning Committee under Article 243ZE for areas with ten lakh or more.\n4. The first municipal corporation in India was set up at Madras in 1688, and Lord Ripon's resolution of 1882 is regarded as the 'Magna Carta' of local self-government.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Other urban bodies outside the Amendment include cantonment boards (central), notified area committees, town area committees, port trusts and special purpose agencies."
+    },
+    {
+      "id": "q27",
+      "question": "Consider the following statements about Union Territories:\n1. Part VIII (Articles 239 to 241) governs Union Territories, which are administered by the President through an administrator appointed under Article 239.\n2. The 69th Amendment Act of 1991 inserted Article 239AA, giving Delhi a legislative assembly and Council of Ministers while excluding public order, police and land from its purview.\n3. In Government of NCT of Delhi v. Union of India (2018 and 2023) the Supreme Court held that the Lieutenant Governor is bound by the aid and advice of the Delhi ministers on matters within the assembly's competence, including services.\n4. Under Article 240 the President can make regulations for the Andaman and Nicobar Islands, Lakshadweep, Dadra and Nagar Haveli and Daman and Diu, and Ladakh.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Following the 2023 judgment Parliament enacted the Government of NCT of Delhi (Amendment) Act, 2023 placing services under the Lieutenant Governor. Puducherry and Jammu and Kashmir also have legislatures."
+    },
+    {
+      "id": "q28",
+      "question": "Consider the following statements about the Fifth Schedule:\n1. It applies to Scheduled Areas in ten states: Andhra Pradesh, Telangana, Chhattisgarh, Gujarat, Himachal Pradesh, Jharkhand, Madhya Pradesh, Maharashtra, Odisha and Rajasthan.\n2. The President declares Scheduled Areas after consulting the Governor, and the Governor submits an annual report to the President.\n3. Each state with Scheduled Areas has a Tribes Advisory Council of up to 20 members, three-fourths of whom are ST members of the assembly.\n4. The Governor can direct that any Act of Parliament or the state legislature shall not apply to a Scheduled Area or shall apply with modifications.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Fifth Schedule can be amended by Parliament by simple majority. The Dhebar Commission (1960-61) and the Bhuria Commission (2002-04) reviewed tribal administration."
+    },
+    {
+      "id": "q29",
+      "question": "Consider the following statements about the Sixth Schedule:\n1. It applies to tribal areas in Assam, Meghalaya, Tripura and Mizoram.\n2. Autonomous District Councils have up to 30 members, of whom four are nominated by the Governor and 26 elected for five years.\n3. The councils can make laws on land, forests, inheritance, marriage and social customs, with the Governor's assent, and constitute village councils and courts.\n4. The Bodoland Territorial Council in Assam is one such council with an enlarged membership.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Schedule was based on the Bardoloi Committee's recommendations to protect tribal identity. Regional councils may be created for other tribes within a district."
+    },
+    {
+      "id": "q30",
+      "question": "Which of the following pairs of special provision and state is/are correctly matched?\n1. Article 371A : Nagaland, protecting Naga religious and social practices and customary law\n2. Article 371F : Sikkim, incorporated by the 36th Amendment\n3. Article 371J : Karnataka, special status for the Hyderabad-Karnataka region\n4. Article 371 : Maharashtra and Gujarat, development boards for Vidarbha, Marathwada, Saurashtra and Kutch\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Article 371G covers Mizoram and Article 371H Arunachal Pradesh. The Inner Line Permit system in some north-eastern states derives from the Bengal Eastern Frontier Regulation of 1873."
+    },
+    {
+      "id": "q31",
+      "question": "Consider the following statements about the Governor's address and other legislative functions:\n1. Under Article 176 the Governor addresses the first session after each general election and the first session of every year.\n2. The Governor nominates one-sixth of the members of the legislative council.\n3. The Governor lays before the legislature the reports of the State Finance Commission, the State Public Service Commission and the CAG's audit of state accounts.\n4. The Governor decides questions of disqualification of members of the state legislature after obtaining the opinion of the Election Commission.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Governor's role in relation to the legislature mirrors the President's role in relation to Parliament, with the additional discretionary power to reserve bills."
+    },
+    {
+      "id": "q32",
+      "question": "Consider the following statements about the Speaker of a state legislative assembly:\n1. The Speaker submits his resignation to the Deputy Speaker, and the Deputy Speaker to the Speaker.\n2. While a resolution for the Speaker's removal is under consideration, the Speaker cannot preside but may speak, take part in the proceedings and vote in the first instance, though not exercise a casting vote.\n3. The Speaker continues in office after the dissolution of the assembly until immediately before the first meeting of the new assembly.\n4. The Speaker presides over joint sittings of the assembly and council.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "There are no joint sittings in state legislatures, so the assembly's decision prevails after the council's delay period. In Keisham Meghachandra Singh (2020) the Supreme Court held that a Speaker should decide defection petitions within three months."
+    },
+    {
+      "id": "q33",
+      "question": "Consider the following statements about the doctrine of pith and substance and other rules of interpretation of the legislative lists:\n1. Under the doctrine of pith and substance, a law is valid if its true nature falls within the competent legislature's list, even if it incidentally touches another list.\n2. Under the doctrine of colourable legislation, a legislature cannot do indirectly what it cannot do directly.\n3. Under the doctrine of territorial nexus, a state law can apply to objects outside the state if there is a sufficient connection.\n4. The Union List has predominance over the Concurrent List, and the Concurrent List over the State List, under Article 246.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Pith and substance was applied in Prafulla Kumar Mukherjee (1947), colourable legislation in K.C. Gajapati Narayan Deo (1953) and territorial nexus in State of Bombay v. R.M.D. Chamarbaugwala (1957)."
+    },
+    {
+      "id": "q34",
+      "question": "Consider the following statements about the Chief Minister:\n1. The Chief Minister is appointed by the Governor under Article 164, and there is no requirement that the person be a member of the legislature at the time of appointment.\n2. The Chief Minister communicates the decisions of the Council of Ministers to the Governor under Article 167.\n3. The Chief Minister is a member of the Inter-State Council and the Zonal Council of the region.\n4. The Chief Minister's resignation dissolves the Council of Ministers.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. In S.R. Chaudhuri (2001) the Supreme Court held that a non-member cannot be repeatedly appointed minister for six-month terms without getting elected."
+    },
+    {
+      "id": "q35",
+      "question": "Consider the following statements about the effect of a national emergency on Centre-state relations:\n1. The Centre can give executive directions to states on any matter.\n2. Parliament can make laws on State List subjects, which remain in force for six months after the emergency ends.\n3. The President can modify the distribution of revenues between the Centre and the states.\n4. The state legislatures are suspended.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "State legislatures and governments continue to function during a national emergency; they are not suspended as under President's rule. The Constitution acquires a unitary character without formally becoming unitary."
+    },
+    {
+      "id": "q36",
+      "question": "Consider the following statements about the composition and functions of a Gram Panchayat and Gram Sabha:\n1. The Gram Sabha approves the village development plan and the list of beneficiaries and conducts social audit under MGNREGA.\n2. The Gram Panchayat is the executive body with elected ward members and a chairperson called Mukhiya in Bihar, Sarpanch in many states and Pradhan in Uttar Pradesh.\n3. The Eleventh Schedule includes agriculture, minor irrigation, rural housing, drinking water, primary education, health and poverty alleviation among 29 items.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Devolution of the '3Fs' (functions, funds and functionaries) remains uneven across states, which is measured by the Panchayat Devolution Index."
+    },
+    {
+      "id": "q37",
+      "question": "Consider the following statements about the Bihar Legislative Assembly:\n1. It has 243 members elected from single-member constituencies, of which seats are reserved for Scheduled Castes and Scheduled Tribes.\n2. Its strength was reduced from 324 to 243 after the creation of Jharkhand in 2000.\n3. Bihar sends 40 members to the Lok Sabha and 16 to the Rajya Sabha.\n4. The assembly building at Patna was completed in 1920 for the Bihar and Orissa Legislative Council.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Bihar and Uttar Pradesh together account for more than a fifth of Lok Sabha seats, giving them decisive weight in national politics. Bihar's 40 Lok Sabha seats include six reserved for SCs."
+    },
+    {
+      "id": "q38",
+      "question": "Consider the following statements about the powers of a state legislature over money matters:\n1. A money bill can be introduced only in the legislative assembly on the recommendation of the Governor.\n2. The assembly's decision on whether a bill is a money bill rests with the Speaker.\n3. The state Contingency Fund is placed at the disposal of the Governor under Article 267(2).\n4. State legislatures can borrow abroad without the consent of the Centre.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "States cannot borrow outside India; under Article 293 they borrow within India on the security of their Consolidated Fund, with the Centre's consent if they are indebted to it."
+    },
+    {
+      "id": "q39",
+      "question": "Consider the following statements about the powers of the High Court of Patna:\n1. It exercises jurisdiction over the whole of Bihar, with its seat at Patna.\n2. Before 2000 its Ranchi bench served the Chotanagpur region, which became the Jharkhand High Court.\n3. It was established under the Government of India Act 1915 and inaugurated in 1916.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. The Ranchi bench, created in 1976, became the seat of the Jharkhand High Court under the Bihar Reorganisation Act, 2000. Sir Edward Chamier was the first Chief Justice of the Patna High Court."
+    },
+    {
+      "id": "q40",
+      "question": "Consider the following statements about the Governor of Bihar:\n1. Jairamdas Daulatram was the first Governor of Bihar after independence.\n2. Zakir Husain served as Governor of Bihar before becoming Vice-President and President of India.\n3. The Governor is the Chancellor of the state universities of Bihar.\n4. The official residence of the Governor is the Raj Bhavan at Patna.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Zakir Husain was Governor from 1957 to 1962. Governors of Bihar have included R.R. Diwakar and, more recently, Ram Nath Kovind, who became President of India in 2017."
+    }
+  ]
+}

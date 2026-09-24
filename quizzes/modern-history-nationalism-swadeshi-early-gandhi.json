@@ -1,0 +1,305 @@
+{
+  "title": "Rise of Nationalism, Swadeshi, Revolutionaries and Gandhi's Early Years (1858-1919)",
+  "subject": "Modern History",
+  "topic": "Political associations and the founding of Congress, Moderates and Extremists, Partition of Bengal and Swadeshi, Morley-Minto reforms, revolutionary nationalism at home and abroad, Home Rule, Lucknow Pact, Champaran, Rowlatt and Jallianwala Bagh",
+  "description": "UPSC/BPSC-level questions on the growth of organised nationalism from the pre-Congress associations to the end of the First World War, including the Surat split, the Muzaffarpur bomb case, the Ghadar movement, the creation of Bihar and Orissa province, and Gandhi's first satyagrahas in India.",
+  "timeLimitMinutes": 40,
+  "createdAt": "2026-09-23",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Which of the following pairs of pre-Congress political association and founder is/are correctly matched?\n1. East India Association (London, 1866) : Dadabhai Naoroji\n2. Poona Sarvajanik Sabha (1870) : M.G. Ranade and G.V. Joshi\n3. Indian Association (Calcutta, 1876) : Surendranath Banerjea and Ananda Mohan Bose\n4. Madras Mahajan Sabha (1884) : W.C. Bonnerjee\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "The Madras Mahajan Sabha was founded by M. Viraraghavachari, G. Subramania Iyer and P. Anandacharlu. The Indian Association convened the Indian National Conference in 1883 and 1885, a forerunner of the Congress."
+    },
+    {
+      "id": "q2",
+      "question": "Consider the following statements about the first session of the Indian National Congress:\n1. It met at the Gokuldas Tejpal Sanskrit College, Bombay, on 28 December 1885 with 72 delegates.\n2. It was presided over by W.C. Bonnerjee.\n3. The venue was originally Poona but was shifted because of an outbreak of cholera.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. A.O. Hume, a retired ICS officer, was the moving spirit. The 'safety valve' theory of its origin was popularised by Lala Lajpat Rai in 'Young India' (1916) and is now largely discounted."
+    },
+    {
+      "id": "q3",
+      "question": "Which of the following pairs of Congress session and 'first' associated with it is/are correctly matched?\n1. Madras, 1887 : Badruddin Tyabji, the first Muslim president\n2. Allahabad, 1888 : George Yule, the first English president\n3. Calcutta, 1917 : Annie Besant, the first woman president\n4. Kanpur, 1925 : Sarojini Naidu, the first Indian woman president\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. 'Vande Mataram' was first sung at the Calcutta session of 1896, and the Belgaum session of 1924 was the only one presided over by Gandhi."
+    },
+    {
+      "id": "q4",
+      "question": "Consider the following statements about the Moderate phase of the Congress (1885-1905):\n1. The Moderates used the methods of petitions, resolutions and constitutional agitation, described by critics as 'political mendicancy'.\n2. They demanded expansion of legislative councils, Indianisation of services and simultaneous ICS examinations in India and England.\n3. Lord Dufferin dismissed the Congress as representing only a 'microscopic minority'.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. The Indian Councils Act of 1892, which introduced indirect election and the right to discuss the budget, was a limited response to Moderate demands. Lord Curzon later hoped to assist the Congress 'to a peaceful demise'."
+    },
+    {
+      "id": "q5",
+      "question": "Consider the following statements about the Partition of Bengal:\n1. It took effect on 16 October 1905 under Lord Curzon, creating the province of Eastern Bengal and Assam with Dacca as capital.\n2. The day was observed as a day of mourning, with Rakhi Bandhan and the singing of Rabindranath Tagore's 'Amar Sonar Bangla'.\n3. The partition was annulled in 1911 and announced at the Delhi Durbar by King George V, along with the shifting of the capital to Delhi.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. The official justification was administrative convenience, but the real aim was to divide Hindus and Muslims and weaken Bengal, the centre of nationalism. Bihar and Orissa were separated from Bengal at the same time in 1912."
+    },
+    {
+      "id": "q6",
+      "question": "Which of the following were features of the Swadeshi movement (1905-08)?\n1. Boycott of British goods and institutions and promotion of Indian industries such as the Bengal Chemicals of P.C. Ray\n2. The National Council of Education (1906) and the Bengal National College with Aurobindo Ghosh as principal\n3. Use of samitis such as the Swadesh Bandhab Samiti of Ashwini Kumar Dutt for mass mobilisation\n4. Congress adoption of the Swaraj goal at the Calcutta session of 1906 presided over by Dadabhai Naoroji\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Calcutta session also passed resolutions on Swadeshi, boycott and national education, a rare occasion when Moderates and Extremists agreed on a programme."
+    },
+    {
+      "id": "q7",
+      "question": "The Surat split of 1907 in the Congress occurred over:",
+      "options": [
+        "The question of partition of Bengal",
+        "The choice of president, with Extremists opposing Rash Behari Ghosh, and disagreements over extending Swadeshi and boycott to the whole country",
+        "The demand for complete independence",
+        "Muslim representation in the Congress"
+      ],
+      "answer": 1,
+      "explanation": "The Moderates, led by Gokhale and Pherozeshah Mehta, wanted to confine boycott to Bengal; the Extremists led by Tilak wanted a wider programme and Lala Lajpat Rai as president. The two wings reunited at Lucknow in 1916."
+    },
+    {
+      "id": "q8",
+      "question": "Consider the following statements about Bal Gangadhar Tilak:\n1. He started the Ganapati festival (1893) and Shivaji festival (1895) to mobilise popular support.\n2. He was transported to Mandalay for six years in 1908 for his writings in 'Kesari' on the Muzaffarpur bomb incident.\n3. He founded the Home Rule League at Belgaum in April 1916.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Tilak's declaration 'Swaraj is my birthright and I shall have it' belongs to the Home Rule period. His league covered Maharashtra, Karnataka, the Central Provinces and Berar; Annie Besant's league (September 1916) covered the rest of India."
+    },
+    {
+      "id": "q9",
+      "question": "Consider the following statements about the Muzaffarpur bomb incident of 30 April 1908:\n1. Khudiram Bose and Prafulla Chaki attempted to kill Magistrate Kingsford but killed two English women, Mrs and Miss Kennedy, instead.\n2. Prafulla Chaki shot himself to avoid arrest, and Khudiram Bose was hanged at Muzaffarpur on 11 August 1908.\n3. The incident led to the Alipore Bomb Conspiracy Case in which Aurobindo Ghosh was tried and acquitted.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Khudiram was about 18 at his execution, making him one of the youngest revolutionary martyrs. C.R. Das defended Aurobindo, who was acquitted in 1909 and later withdrew to Pondicherry."
+    },
+    {
+      "id": "q10",
+      "question": "Which of the following pairs of revolutionary organisation and associated person is/are correctly matched?\n1. Anushilan Samiti (1902) : Pramatha Nath Mitra\n2. Abhinav Bharat (1904) : V.D. Savarkar\n3. India House, London (1905) : Shyamji Krishna Varma\n4. Ghadar Party (1913) : Lala Har Dayal\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Madan Lal Dhingra of India House shot Sir Curzon Wyllie in London in 1909. The Ghadar Party, based in San Francisco, published the weekly 'Ghadar' and planned an uprising in India in 1915 that was foiled."
+    },
+    {
+      "id": "q11",
+      "question": "The Komagata Maru incident of 1914 involved:",
+      "options": [
+        "A ship carrying Indian immigrants, chartered by Gurdit Singh, that was refused entry to Canada and fired upon by police on its return to Calcutta at Budge Budge",
+        "A mutiny of Indian sailors at Bombay",
+        "The sinking of a British ship by German submarines with Indian troops aboard",
+        "The deportation of Ghadar leaders from the United States"
+      ],
+      "answer": 0,
+      "explanation": "The incident inflamed the Punjabi diaspora and fed into the Ghadar movement. Rash Behari Bose and Kartar Singh Sarabha planned the February 1915 rising, after which Sarabha was hanged at Lahore."
+    },
+    {
+      "id": "q12",
+      "question": "Consider the following statements about the Indian Councils Act (Morley-Minto Reforms) of 1909:\n1. It introduced separate electorates for Muslims.\n2. It increased the size of legislative councils and allowed members to ask supplementary questions and move resolutions.\n3. For the first time an Indian, Satyendra Prasad Sinha, was appointed to the Viceroy's Executive Council as Law Member.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Separate electorates followed the Simla Deputation of Muslim leaders under the Aga Khan in 1906, the year the All India Muslim League was founded at Dacca with Nawab Salimullah's support."
+    },
+    {
+      "id": "q13",
+      "question": "Consider the following statements about the Lucknow Pact of December 1916:\n1. It was an agreement between the Congress and the Muslim League on a scheme of constitutional reforms.\n2. The Congress accepted separate electorates for Muslims.\n3. Muhammad Ali Jinnah played a leading role in bringing it about.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. The Lucknow session, presided over by Ambica Charan Majumdar, also reunited Moderates and Extremists. Jinnah was then called the 'ambassador of Hindu-Muslim unity'."
+    },
+    {
+      "id": "q14",
+      "question": "Consider the following statements about the Home Rule Movement:\n1. Annie Besant's league had its headquarters at Madras and published 'New India'.\n2. Besant's internment in 1917 led to widespread protest and her election as Congress president the same year.\n3. The movement declined after the Montagu Declaration of August 1917 and Gandhi's rise.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Montagu's declaration of 20 August 1917 promised 'the progressive realisation of responsible government' and was followed by the Government of India Act of 1919."
+    },
+    {
+      "id": "q15",
+      "question": "The Provisional Government of India set up in Kabul in 1915 during the First World War had as its President and Prime Minister respectively:",
+      "options": ["Raja Mahendra Pratap and Maulana Barkatullah", "Lala Har Dayal and Bhai Parmanand", "Champakaraman Pillai and Virendranath Chattopadhyay", "Rash Behari Bose and Sachindranath Sanyal"],
+      "answer": 0,
+      "explanation": "The Kabul government, supported by the Berlin Committee (Indian Independence Committee of Virendranath Chattopadhyay and Bhupendranath Datta), sought German and Turkish help. Obaidullah Sindhi served as Home Minister."
+    },
+    {
+      "id": "q16",
+      "question": "Consider the following statements about the Champaran Satyagraha of 1917:\n1. Gandhi came to Champaran at the persistent request of Rajkumar Shukla, a local cultivator.\n2. The grievance concerned the 'tinkathia' system, under which ryots had to grow indigo on three-twentieths of their land for the planters.\n3. Rajendra Prasad, Brajkishore Prasad, Anugrah Narayan Sinha and J.B. Kripalani assisted Gandhi in recording peasants' statements.\n4. The Champaran Agrarian Act of 1918 abolished the tinkathia system.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Gandhi defied an order to leave the district, and the government appointed an inquiry committee with Gandhi as a member. Champaran was Gandhi's first civil disobedience in India."
+    },
+    {
+      "id": "q17",
+      "question": "Consider the following statements about Gandhi's satyagrahas of 1918:\n1. At Ahmedabad he led mill workers demanding a 35 per cent wage increase and undertook his first fast in India.\n2. At Kheda in Gujarat he led peasants seeking remission of land revenue after crop failure, with Vallabhbhai Patel as a key lieutenant.\nWhich of the statements given above is/are correct?",
+      "options": ["1 only", "2 only", "Both 1 and 2", "Neither 1 nor 2"],
+      "answer": 2,
+      "explanation": "Both are correct. Anasuya Sarabhai supported the Ahmedabad workers against her brother Ambalal Sarabhai, the mill-owners' leader. Kheda brought Patel and Indulal Yagnik into Gandhi's circle."
+    },
+    {
+      "id": "q18",
+      "question": "Consider the following statements about the Rowlatt Act of 1919:\n1. It was formally titled the Anarchical and Revolutionary Crimes Act and allowed detention without trial and trial without jury.\n2. All Indian members of the Imperial Legislative Council opposed it, and Madan Mohan Malaviya, Jinnah and Mazharul Haque resigned in protest.\n3. Gandhi called for a nationwide hartal on 6 April 1919 against it.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Based on the Sedition Committee report of Justice Rowlatt, the 'Black Act' extended wartime powers into peacetime. Mazharul Haque of Bihar later founded the Sadaqat Ashram at Patna."
+    },
+    {
+      "id": "q19",
+      "question": "Consider the following statements about the Jallianwala Bagh massacre of 13 April 1919:\n1. The crowd had gathered on Baisakhi day partly to protest the arrest of Dr Saifuddin Kitchlew and Dr Satyapal.\n2. General Dyer ordered firing without warning on the unarmed gathering.\n3. Rabindranath Tagore renounced his knighthood and Gandhi returned the Kaiser-i-Hind medal in protest.\n4. The Hunter Commission appointed to inquire into the events censured Dyer, and Michael O'Dwyer was later shot dead in London by Udham Singh in 1940.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Martial law followed in Punjab under Lieutenant-Governor O'Dwyer. The Congress appointed its own inquiry committee including Gandhi, Motilal Nehru and C.R. Das."
+    },
+    {
+      "id": "q20",
+      "question": "Consider the following statements about the creation of the province of Bihar and Orissa in 1912:\n1. It was carved out of the Bengal Presidency during the viceroyalty of Lord Hardinge II.\n2. Sachchidananda Sinha and Mahesh Narayan led the campaign for a separate Bihar, using the journal 'The Bihar Times'.\n3. Orissa was separated from Bihar to form a distinct province in 1936.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. The Patna High Court was established in 1916 and Patna University in 1917, both milestones of the new province. Sachchidananda Sinha later became the interim President of the Constituent Assembly in 1946."
+    },
+    {
+      "id": "q21",
+      "question": "Which of the following measures were taken during the viceroyalty of Lord Lytton (1876-80)?\n1. The Vernacular Press Act of 1878\n2. The Arms Act of 1878\n3. The Delhi Durbar of 1877 proclaiming Queen Victoria as Empress of India\n4. Reduction of the maximum age for the ICS examination from 21 to 19\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Durbar was held amid the great famine of 1876-78, and the Strachey Famine Commission of 1880 followed. Lytton's reactionary measures stimulated the growth of nationalist opinion."
+    },
+    {
+      "id": "q22",
+      "question": "Consider the following statements about Lord Ripon (1880-84):\n1. He repealed the Vernacular Press Act in 1882.\n2. His resolution of 1882 on local self-government earned him the title 'father of local self-government in India'.\n3. The Ilbert Bill controversy of 1883 arose from his attempt to allow Indian judges to try Europeans.\n4. The Hunter Commission on education was appointed during his tenure.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The fierce European agitation against the Ilbert Bill, which forced a compromise, taught Indians the value of organised agitation and contributed to the founding of the Congress two years later."
+    },
+    {
+      "id": "q23",
+      "question": "The 'Indian Councils Act of 1861' is significant because it:",
+      "options": [
+        "Introduced direct elections",
+        "Began the association of Indians with the legislative process by allowing the Viceroy to nominate non-official members, and restored legislative powers to Bombay and Madras",
+        "Created the Federal Court",
+        "Introduced separate electorates"
+      ],
+      "answer": 1,
+      "explanation": "The Act also empowered the Viceroy to issue ordinances and introduced the portfolio system in the Executive Council under Canning. Raja of Benares, Maharaja of Patiala and Sir Dinkar Rao were among the first nominated Indians."
+    },
+    {
+      "id": "q24",
+      "question": "Consider the following statements about Dadabhai Naoroji:\n1. He was the first Indian elected to the British House of Commons, in 1892 from Central Finsbury.\n2. He presided over the Congress three times, in 1886, 1893 and 1906.\n3. He founded the Rast Goftar newspaper in Gujarati.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Known as the 'Grand Old Man of India', Naoroji was a member of the Welby Commission on Indian expenditure and first used the word 'Swaraj' from the Congress platform in 1906."
+    },
+    {
+      "id": "q25",
+      "question": "Consider the following statements about Gopal Krishna Gokhale:\n1. He founded the Servants of India Society in 1905 to train national missionaries.\n2. Gandhi regarded him as his political guru.\n3. He gave evidence before the Welby Commission and opposed the partition of Bengal as Congress president in 1905.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Gokhale presided over the Banaras session of 1905. His Elementary Education Bill of 1911 for compulsory primary education was rejected by the Imperial Legislative Council."
+    },
+    {
+      "id": "q26",
+      "question": "Which of the following pairs of newspaper and founder or editor is/are correctly matched?\n1. Bande Mataram (English daily, 1906) : Aurobindo Ghosh and Bipin Chandra Pal\n2. Al-Hilal (1912) : Abul Kalam Azad\n3. Comrade (1911) : Mohammad Ali\n4. Yugantar : Barindra Kumar Ghosh and Bhupendranath Datta\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Newspapers (Incitement to Offences) Act of 1908 and the Indian Press Act of 1910 were used against such nationalist journals during the Swadeshi and pre-war years."
+    },
+    {
+      "id": "q27",
+      "question": "Consider the following statements about Lala Lajpat Rai:\n1. He was deported to Mandalay in 1907 along with Ajit Singh for leading agrarian agitation in Punjab.\n2. He founded the Indian Home Rule League of America in New York in 1917.\n3. He died in November 1928 from injuries received in a lathi charge while protesting the Simon Commission at Lahore.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Known as 'Punjab Kesari', he also founded the Servants of the People Society (1921) and presided over the Calcutta Congress special session of 1920. His death led Bhagat Singh's group to kill Saunders."
+    },
+    {
+      "id": "q28",
+      "question": "Which of the following pairs of famine commission and Viceroy is/are correctly matched?\n1. Strachey Commission (1880) : Lord Lytton\n2. Lyall Commission (1897) : Lord Elgin II\n3. MacDonnell Commission (1900) : Lord Curzon\nSelect the correct answer using the code given below.",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. The Strachey Commission's Famine Code of 1883 laid down relief principles. Repeated famines in the late nineteenth century were a central theme of the nationalist economic critique."
+    },
+    {
+      "id": "q29",
+      "question": "Consider the following statements about the Indian Universities Act of 1904 passed under Lord Curzon:\n1. It followed the Raleigh Commission of 1902.\n2. It increased official control over universities by reducing the number of elected fellows.\n3. Nationalists criticised it as an attempt to curb the spread of higher education.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Curzon's other measures included the Calcutta Corporation Act (1899), the Ancient Monuments Preservation Act (1904), the Police Commission (1902) and the founding of the Imperial Agricultural Research Institute at Pusa in Bihar in 1905."
+    },
+    {
+      "id": "q30",
+      "question": "The Imperial Agricultural Research Institute established in 1905 at Pusa was located in which present-day district of Bihar, before it shifted to New Delhi after the 1934 earthquake?",
+      "options": ["Muzaffarpur", "Samastipur", "Darbhanga", "Vaishali"],
+      "answer": 1,
+      "explanation": "Pusa in Samastipur district was chosen with a donation from the American philanthropist Henry Phipps. The institute became the Indian Agricultural Research Institute in New Delhi; the Pusa campus now houses Dr Rajendra Prasad Central Agricultural University."
+    },
+    {
+      "id": "q31",
+      "question": "Consider the following statements about the Delhi Conspiracy of 1912:\n1. A bomb was thrown at Viceroy Lord Hardinge during his state entry into Delhi in December 1912.\n2. Rash Behari Bose was the chief organiser, and Basant Kumar Biswas was among those hanged.\nWhich of the statements given above is/are correct?",
+      "options": ["1 only", "2 only", "Both 1 and 2", "Neither 1 nor 2"],
+      "answer": 2,
+      "explanation": "Both are correct. Hardinge was wounded but survived. Rash Behari Bose escaped, later organised the Ghadar rising of 1915 and fled to Japan, where he founded the Indian Independence League."
+    },
+    {
+      "id": "q32",
+      "question": "The Vernacular Press Act of 1878 was also called the 'Gagging Act'. Which newspaper switched overnight from Bengali to English to escape its provisions?",
+      "options": ["Amrita Bazar Patrika", "Som Prakash", "Bengalee", "Hindu Patriot"],
+      "answer": 0,
+      "explanation": "Founded by Sisir Kumar Ghosh in 1868, the Amrita Bazar Patrika became an English paper in 1878. The Act applied only to vernacular papers, exempting English ones, and 'Som Prakash' was the first to be proceeded against."
+    },
+    {
+      "id": "q33",
+      "question": "Consider the following statements about the Simla Deputation of 1906 and the founding of the Muslim League:\n1. A deputation of Muslim leaders led by the Aga Khan met Viceroy Minto at Simla to demand separate electorates and weightage.\n2. The All India Muslim League was founded at Dacca in December 1906 with Nawab Salimullah as a key patron.\n3. The League adopted self-government as its goal at its Lucknow session of 1913.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Younger leaders such as Jinnah and Mohammad Ali moved the League closer to the Congress after 1913, culminating in the Lucknow Pact."
+    },
+    {
+      "id": "q34",
+      "question": "Which of the following statements about the economic critique of colonialism by early nationalists is/are correct?\n1. R.C. Dutt's 'Economic History of India' analysed the impact of British rule on agriculture and industry.\n2. The nationalists argued that 'Home Charges', paid in England for pensions, interest and administration, formed a major part of the drain.\n3. They demanded tariff protection for Indian industries and reduction of military expenditure.\nSelect the correct answer using the code given below.",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. The critique undermined the moral claim of British rule to be benevolent and gave the national movement a firm economic foundation."
+    },
+    {
+      "id": "q35",
+      "question": "Consider the following statements about Bipin Chandra Pal:\n1. He was one of the 'Lal-Bal-Pal' trio of Extremist leaders.\n2. He edited 'New India' and toured Madras in 1907 delivering fiery Swadeshi speeches.\n3. He later opposed Gandhi's Non-Cooperation programme.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Pal was jailed in 1907 for refusing to testify against Aurobindo in the Bande Mataram sedition case. He is remembered as the 'father of revolutionary thought' in Bengal."
+    },
+    {
+      "id": "q36",
+      "question": "The Anushilan Samiti and the Dacca Anushilan Samiti were revolutionary societies in Bengal. The Dacca branch was led by:",
+      "options": ["Pulin Behari Das", "Barindra Ghosh", "Jatindranath Mukherjee", "Hemchandra Kanungo"],
+      "answer": 0,
+      "explanation": "The Dacca Anushilan Samiti under Pulin Das grew to several hundred branches. Jatindranath Mukherjee ('Bagha Jatin') led the Jugantar group and died fighting police at Balasore in 1915 while awaiting German arms."
+    },
+    {
+      "id": "q37",
+      "question": "Consider the following statements about the Montagu-Chelmsford Report and the Government of India Act, 1919:\n1. The Act introduced dyarchy in the provinces, dividing subjects into 'reserved' and 'transferred'.\n2. It created a bicameral central legislature with a Council of State and a Legislative Assembly.\n3. It extended separate electorates to Sikhs, Indian Christians, Anglo-Indians and Europeans.\n4. It provided for a statutory commission after ten years to review its working.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Congress at its Amritsar session of 1919 called the reforms 'inadequate, unsatisfactory and disappointing'. The Simon Commission of 1927 was the statutory review body."
+    },
+    {
+      "id": "q38",
+      "question": "Consider the following statements about Annie Besant:\n1. She started the newspapers 'New India' and 'Commonweal'.\n2. She was the first woman to preside over a Congress session, at Calcutta in 1917.\n3. She opposed the Non-Cooperation Movement of 1920.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Besant considered Gandhi's methods unconstitutional and drifted from the Congress. She had earlier founded the Women's Indian Association (1917) with Margaret Cousins."
+    },
+    {
+      "id": "q39",
+      "question": "Consider the following statements about Mazharul Haque of Bihar:\n1. He was a Congress leader and lawyer from Patna who attended the Lucknow session of 1916 and supported the Home Rule movement.\n2. He founded the Sadaqat Ashram at Patna and the newspaper 'The Motherland'.\n3. He founded the Bihar Vidyapeeth, a national university, along with Rajendra Prasad during Non-Cooperation.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Sadaqat Ashram (1921), on the banks of the Ganga at Patna, became the headquarters of the Bihar Congress, and the Bihar Vidyapeeth trained students who left government institutions."
+    },
+    {
+      "id": "q40",
+      "question": "Consider the following statements about the Ghadar Party's plan of 1915:\n1. The party planned a coordinated mutiny in Punjab cantonments in February 1915.\n2. The plan was betrayed by an informer, Kirpal Singh, and leaders such as Kartar Singh Sarabha were executed after the Lahore Conspiracy Case.\n3. Vishnu Ganesh Pingle, associated with the plan, was also hanged.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Sarabha, aged 19 at his execution, was later described by Bhagat Singh as his hero. The Defence of India Act of 1915 was used to crush the movement."
+    }
+  ]
+}

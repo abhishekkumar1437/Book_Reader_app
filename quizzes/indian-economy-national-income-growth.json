@@ -1,0 +1,420 @@
+{
+  "title": "National Income, Growth and Development",
+  "subject": "Indian Economy",
+  "topic": "GDP, GVA, national income accounting, measurement, growth history, development indices and economic concepts",
+  "description": "UPSC/BPSC-level questions on national income aggregates and their relationships, methods of measurement, price indices used for deflating, India's growth experience, human development measures and the economic laws and curves commonly asked in examinations.",
+  "timeLimitMinutes": 40,
+  "createdAt": "2026-09-23",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Consider the following statements regarding Gross Value Added (GVA) and Gross Domestic Product (GDP) in India:\n1. GDP at market prices is obtained by adding product taxes and subtracting product subsidies from GVA at basic prices.\n2. Since the 2011-12 base year series, India measures GVA at factor cost rather than at basic prices.\nWhich of the statements given above is/are correct?",
+      "options": ["1 only", "2 only", "Both 1 and 2", "Neither 1 nor 2"],
+      "answer": 0,
+      "explanation": "GDP (market prices) = GVA (basic prices) + product taxes - product subsidies. The 2011-12 series introduced in 2015 moved from GVA at factor cost to GVA at basic prices, so statement 2 is wrong."
+    },
+    {
+      "id": "q2",
+      "question": "Which one of the following best describes the GDP deflator?",
+      "options": [
+        "The ratio of real GDP to nominal GDP expressed as a percentage",
+        "The ratio of nominal GDP to real GDP expressed as a percentage",
+        "The difference between GDP at market prices and GDP at factor cost",
+        "The share of indirect taxes in nominal GDP"
+      ],
+      "answer": 1,
+      "explanation": "GDP deflator = (Nominal GDP / Real GDP) x 100. It is the broadest measure of inflation because it covers all goods and services produced in the economy, not just a fixed basket."
+    },
+    {
+      "id": "q3",
+      "question": "Consider the following statements:\n1. GDP deflator covers a wider range of goods and services than the Consumer Price Index.\n2. Unlike CPI, the GDP deflator excludes prices of imported goods.\n3. GDP deflator is based on a fixed basket of goods.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 0,
+      "explanation": "The deflator covers all domestically produced output, and since imports are not domestic production they are excluded. Its basket changes every year with actual output, unlike the fixed CPI basket, so statement 3 is incorrect."
+    },
+    {
+      "id": "q4",
+      "question": "Net Factor Income from Abroad (NFIA) is positive for a country when:",
+      "options": [
+        "Its exports of goods exceed imports of goods",
+        "Income earned by its residents from abroad exceeds income earned by non-residents within the country",
+        "Foreign direct investment inflows exceed outflows",
+        "Its foreign exchange reserves rise during the year"
+      ],
+      "answer": 1,
+      "explanation": "NFIA = factor income received from abroad - factor income paid abroad. When it is positive, GNP exceeds GDP. Trade and investment flows are recorded elsewhere in the balance of payments."
+    },
+    {
+      "id": "q5",
+      "question": "If a country's GDP at market prices is Rs 200 lakh crore, depreciation is Rs 20 lakh crore, net indirect taxes are Rs 15 lakh crore and net factor income from abroad is minus Rs 5 lakh crore, its National Income (NNP at factor cost) is:",
+      "options": ["Rs 160 lakh crore", "Rs 165 lakh crore", "Rs 170 lakh crore", "Rs 180 lakh crore"],
+      "answer": 0,
+      "explanation": "GNP at market prices = 200 + (-5) = 195. NNP at market prices = 195 - 20 = 175. NNP at factor cost = 175 - 15 = 160 lakh crore."
+    },
+    {
+      "id": "q6",
+      "question": "Which one of the following is NOT one of the three standard approaches to measuring national income?",
+      "options": ["Product (value added) method", "Income method", "Expenditure method", "Money supply method"],
+      "answer": 3,
+      "explanation": "National income is estimated by the product method (sum of value added), income method (sum of factor incomes) and expenditure method (C + I + G + X - M). Money supply is a monetary aggregate, not a method of national income accounting."
+    },
+    {
+      "id": "q7",
+      "question": "In the expenditure method of calculating GDP, which of the following is NOT included?",
+      "options": [
+        "Government purchase of new vehicles for police",
+        "A household's purchase of a newly built house",
+        "Purchase of a second-hand car from a neighbour",
+        "A firm's addition to its inventory of finished goods"
+      ],
+      "answer": 2,
+      "explanation": "Only final goods and services produced in the current period count. Second-hand sales merely transfer existing goods; only the dealer's commission, if any, is counted as a service."
+    },
+    {
+      "id": "q8",
+      "question": "Consider the following statements about transfer payments:\n1. Old-age pensions paid by the government are included in GDP.\n2. Scholarships to students are excluded from national income because no productive service is rendered in exchange.\nWhich of the statements given above is/are correct?",
+      "options": ["1 only", "2 only", "Both 1 and 2", "Neither 1 nor 2"],
+      "answer": 1,
+      "explanation": "Transfer payments such as pensions, scholarships and unemployment benefits are one-way payments with no corresponding production, so they are excluded from national income."
+    },
+    {
+      "id": "q9",
+      "question": "The problem of 'double counting' in national income estimation is avoided by:",
+      "options": [
+        "Counting only the value of intermediate goods",
+        "Counting only the value of final goods or the value added at each stage",
+        "Excluding the services sector from GDP",
+        "Adding depreciation to the value of output"
+      ],
+      "answer": 1,
+      "explanation": "Counting both raw materials and the products made from them would inflate GDP. Either only final goods are counted, or the value added at each stage of production is summed."
+    },
+    {
+      "id": "q10",
+      "question": "Which of the following is counted in GDP even though no market transaction takes place?",
+      "options": [
+        "Services of a housewife in her own home",
+        "Imputed rent of an owner-occupied house",
+        "Vegetables grown and consumed by a household for its own use in the informal sector",
+        "Both 2 and 3"
+      ],
+      "answer": 3,
+      "explanation": "Imputed rent of owner-occupied dwellings and production for own consumption (own-account production of goods) are imputed and included. Unpaid domestic services within the household are conventionally excluded."
+    },
+    {
+      "id": "q11",
+      "question": "Personal Disposable Income is obtained from Personal Income by:",
+      "options": [
+        "Adding transfer payments",
+        "Subtracting personal direct taxes and non-tax payments such as fines",
+        "Subtracting undistributed profits",
+        "Adding corporate taxes"
+      ],
+      "answer": 1,
+      "explanation": "Personal disposable income = personal income - personal taxes and other compulsory payments. It is the amount households can actually spend or save."
+    },
+    {
+      "id": "q12",
+      "question": "In India, the estimates of national income and GDP are released by:",
+      "options": [
+        "Reserve Bank of India",
+        "National Statistical Office under the Ministry of Statistics and Programme Implementation",
+        "NITI Aayog",
+        "Department of Economic Affairs, Ministry of Finance"
+      ],
+      "answer": 1,
+      "explanation": "The National Statistical Office (NSO), formed in 2019 by merging the Central Statistical Office and the National Sample Survey Office, compiles and releases national accounts statistics."
+    },
+    {
+      "id": "q13",
+      "question": "Consider the following statements about the base year revision of India's GDP series introduced in January 2015:\n1. The base year was shifted from 2004-05 to 2011-12.\n2. Data from the MCA-21 database of the Ministry of Corporate Affairs began to be used for the corporate sector.\n3. The headline measure of growth changed from GDP at factor cost to GDP at market prices.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "1 and 3 only", "2 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three were features of the 2015 revision, which aligned Indian national accounts with the UN System of National Accounts 2008 and used MCA-21 corporate filings instead of the older Annual Survey of Industries-based approach for much of manufacturing."
+    },
+    {
+      "id": "q14",
+      "question": "'Gross Fixed Capital Formation' as a component of GDP represents:",
+      "options": [
+        "Government revenue expenditure on salaries",
+        "Investment in fixed assets such as machinery, buildings and infrastructure",
+        "Household spending on durable consumer goods",
+        "Net exports of capital goods"
+      ],
+      "answer": 1,
+      "explanation": "GFCF measures net additions to fixed assets by producers. Its ratio to GDP is the investment rate, a key driver of long-run growth."
+    },
+    {
+      "id": "q15",
+      "question": "Incremental Capital-Output Ratio (ICOR) indicates:",
+      "options": [
+        "The share of capital in national income",
+        "The additional units of capital required to produce one additional unit of output",
+        "The rate of depreciation of capital stock",
+        "The ratio of foreign capital to domestic capital"
+      ],
+      "answer": 1,
+      "explanation": "ICOR = change in capital stock / change in output. A lower ICOR means capital is being used more efficiently. In the Harrod-Domar framework, growth = savings rate / ICOR."
+    },
+    {
+      "id": "q16",
+      "question": "The term 'Hindu rate of growth', describing India's low growth of about 3.5 per cent per annum in the decades after independence, was coined by:",
+      "options": ["Jagdish Bhagwati", "Raj Krishna", "K.N. Raj", "Amartya Sen"],
+      "answer": 1,
+      "explanation": "Economist Raj Krishna used the term in 1978 to describe the sluggish and stable growth rate of the Indian economy from the 1950s to the 1980s."
+    },
+    {
+      "id": "q17",
+      "question": "Consider the following statements about the Human Development Index (HDI):\n1. It is published by the World Bank in its World Development Report.\n2. Its three dimensions are health, education and standard of living.\n3. Standard of living is measured by Gross National Income per capita at purchasing power parity.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 1,
+      "explanation": "The HDI is published by the UNDP in the Human Development Report, first released in 1990 under Mahbub ul Haq with Amartya Sen's involvement. Health is measured by life expectancy, education by expected and mean years of schooling, and living standards by GNI per capita (PPP)."
+    },
+    {
+      "id": "q18",
+      "question": "The concept of 'Purchasing Power Parity' (PPP) is used in international comparisons of income because:",
+      "options": [
+        "Market exchange rates fluctuate too often to be reported",
+        "It adjusts for differences in the price levels of goods and services across countries",
+        "It measures the value of exports in a common currency",
+        "It reflects the gold backing of each currency"
+      ],
+      "answer": 1,
+      "explanation": "PPP exchange rates equalise the purchasing power of currencies by comparing what a common basket costs in each country. At PPP, India's economy ranks third in the world, well above its rank at market exchange rates."
+    },
+    {
+      "id": "q19",
+      "question": "The Lorenz curve is a graphical representation of:",
+      "options": [
+        "The trade-off between inflation and unemployment",
+        "The distribution of income or wealth in a population",
+        "The relationship between tax rates and tax revenue",
+        "The relationship between income and expenditure on food"
+      ],
+      "answer": 1,
+      "explanation": "The Lorenz curve plots the cumulative share of income against the cumulative share of population. The farther it lies from the 45-degree line of equality, the greater the inequality; the Gini coefficient is derived from it."
+    },
+    {
+      "id": "q20",
+      "question": "A Gini coefficient of zero implies:",
+      "options": [
+        "Perfect inequality, where one person has all the income",
+        "Perfect equality, where everyone has the same income",
+        "Zero economic growth",
+        "Absence of poverty"
+      ],
+      "answer": 1,
+      "explanation": "The Gini coefficient ranges from 0 (perfect equality) to 1 (perfect inequality). It says nothing about the level of income or poverty, only about how income is distributed."
+    },
+    {
+      "id": "q21",
+      "question": "According to the Kuznets curve hypothesis, as an economy develops:",
+      "options": [
+        "Inequality falls continuously",
+        "Inequality first rises and then falls",
+        "Inequality first falls and then rises",
+        "Inequality remains unchanged"
+      ],
+      "answer": 1,
+      "explanation": "Simon Kuznets proposed an inverted-U relationship: inequality increases in the early stages of industrialisation as labour moves from agriculture, and declines later as the benefits spread and redistribution improves."
+    },
+    {
+      "id": "q22",
+      "question": "Engel's law states that as household income rises:",
+      "options": [
+        "The proportion of income spent on food falls, even if absolute spending on food rises",
+        "The proportion of income spent on food rises",
+        "Savings fall as a proportion of income",
+        "Spending on luxury goods falls"
+      ],
+      "answer": 0,
+      "explanation": "Ernst Engel observed that food is a necessity with low income elasticity, so its share in the budget declines with income. A falling food share is therefore an indicator of rising prosperity."
+    },
+    {
+      "id": "q23",
+      "question": "Which one of the following situations is described by the term 'jobless growth'?",
+      "options": [
+        "GDP grows while employment fails to grow proportionately",
+        "Employment grows without any rise in GDP",
+        "Both GDP and employment stagnate",
+        "GDP falls while employment rises"
+      ],
+      "answer": 0,
+      "explanation": "Jobless growth refers to output expansion driven by capital-intensive or productivity-led activity that does not generate commensurate employment, a concern frequently raised about India's post-1991 growth."
+    },
+    {
+      "id": "q24",
+      "question": "Consider the following statements about India's economic growth history:\n1. The 1991 balance of payments crisis led to a package of liberalisation, privatisation and globalisation reforms.\n2. India's GDP contracted in 2020-21 for the first time since 1979-80.\nWhich of the statements given above is/are correct?",
+      "options": ["1 only", "2 only", "Both 1 and 2", "Neither 1 nor 2"],
+      "answer": 2,
+      "explanation": "The 1991 crisis, with reserves barely enough for a few weeks of imports, triggered the New Economic Policy. The pandemic year 2020-21 saw the first annual contraction of GDP in over four decades."
+    },
+    {
+      "id": "q25",
+      "question": "Which of the following statements best explains the concept of 'demographic dividend'?",
+      "options": [
+        "A rise in the birth rate that increases future consumption",
+        "Economic growth potential arising from a larger share of working-age population relative to dependents",
+        "The benefit of a declining population on per capita income",
+        "Higher government revenue from a growing population"
+      ],
+      "answer": 1,
+      "explanation": "When fertility falls and the working-age share (15-64 years) rises relative to the young and old, an economy can grow faster provided the workforce is educated, skilled and employed. India's dividend window is estimated to last until around 2055."
+    },
+    {
+      "id": "q26",
+      "question": "Which of the following correctly distinguishes 'economic growth' from 'economic development'?",
+      "options": [
+        "Growth is a broader concept that includes development",
+        "Development is measured only by GDP, whereas growth includes social indicators",
+        "Growth is a quantitative increase in output, while development also involves structural, distributional and qualitative change",
+        "There is no difference between the two"
+      ],
+      "answer": 2,
+      "explanation": "Growth is a necessary but not sufficient condition for development, which encompasses improvements in health, education, equity, institutions and quality of life."
+    },
+    {
+      "id": "q27",
+      "question": "Amartya Sen's 'capability approach' views development primarily as:",
+      "options": [
+        "Growth in per capita income",
+        "Expansion of people's freedoms and their ability to lead lives they value",
+        "Accumulation of physical capital",
+        "Industrialisation and urbanisation"
+      ],
+      "answer": 1,
+      "explanation": "Sen argued in 'Development as Freedom' that income is only a means; development should be judged by the real capabilities and freedoms people enjoy, an idea that underpins the HDI."
+    },
+    {
+      "id": "q28",
+      "question": "The 'Multidimensional Poverty Index' released globally is jointly published by:",
+      "options": [
+        "World Bank and IMF",
+        "UNDP and the Oxford Poverty and Human Development Initiative",
+        "UNICEF and WHO",
+        "NITI Aayog and UNDP"
+      ],
+      "answer": 1,
+      "explanation": "The global MPI, developed by OPHI at Oxford with UNDP, uses ten indicators across health, education and living standards. NITI Aayog publishes a separate national MPI with twelve indicators."
+    },
+    {
+      "id": "q29",
+      "question": "Which of the following pairs of report and publishing organisation is/are correctly matched?\n1. World Economic Outlook : International Monetary Fund\n2. Global Gender Gap Report : World Economic Forum\n3. World Investment Report : World Bank\nSelect the correct answer using the code given below.",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 0,
+      "explanation": "The World Investment Report is published by UNCTAD, not the World Bank. The World Bank publishes the World Development Report."
+    },
+    {
+      "id": "q30",
+      "question": "The 'Global Hunger Index' is published annually by:",
+      "options": [
+        "Food and Agriculture Organization",
+        "World Food Programme",
+        "Concern Worldwide and Welthungerhilfe",
+        "International Food Policy Research Institute alone"
+      ],
+      "answer": 2,
+      "explanation": "The GHI is a peer-reviewed report published by the Irish NGO Concern Worldwide and the German NGO Welthungerhilfe. It combines undernourishment, child wasting, child stunting and child mortality."
+    },
+    {
+      "id": "q31",
+      "question": "Okun's law describes the empirical relationship between:",
+      "options": [
+        "Inflation and money supply",
+        "Unemployment and output (GDP) growth",
+        "Interest rates and investment",
+        "Savings and income"
+      ],
+      "answer": 1,
+      "explanation": "Arthur Okun found that a fall in unemployment is associated with a rise in output above trend, and vice versa. He also devised the 'misery index', the sum of inflation and unemployment rates."
+    },
+    {
+      "id": "q32",
+      "question": "Consider the following statements about the Economic Survey of India:\n1. It is prepared by the Department of Economic Affairs under the guidance of the Chief Economic Adviser.\n2. It is presented in Parliament a day before the Union Budget.\n3. Its recommendations are binding on the government.\nWhich of the statements given above is/are correct?",
+      "options": ["1 only", "1 and 2 only", "2 and 3 only", "1, 2 and 3"],
+      "answer": 1,
+      "explanation": "The Survey reviews the economy and suggests policy, but its recommendations are advisory and not binding. The first Economic Survey was presented for 1950-51."
+    },
+    {
+      "id": "q33",
+      "question": "Which one of the following best describes 'potential GDP'?",
+      "options": [
+        "The GDP achieved in the year of highest growth",
+        "The level of output an economy can sustain at full employment of resources without accelerating inflation",
+        "The GDP forecast by the IMF",
+        "Nominal GDP adjusted for exchange rate changes"
+      ],
+      "answer": 1,
+      "explanation": "Potential output is the economy's maximum sustainable level. The gap between actual and potential GDP is the 'output gap', a key input for monetary policy decisions."
+    },
+    {
+      "id": "q34",
+      "question": "Green GDP is a measure that:",
+      "options": [
+        "Counts only the output of the agricultural sector",
+        "Adjusts conventional GDP for environmental degradation and depletion of natural resources",
+        "Measures the output of renewable energy industries",
+        "Excludes government spending from GDP"
+      ],
+      "answer": 1,
+      "explanation": "Green GDP subtracts the monetised cost of pollution, resource depletion and ecosystem loss from GDP to give a truer picture of sustainable welfare."
+    },
+    {
+      "id": "q35",
+      "question": "Consider the following statements about the informal sector's treatment in India's GDP:\n1. Output of the unorganised sector is largely estimated indirectly using indicators from the organised sector and periodic surveys.\n2. The unorganised sector accounts for a negligible share of India's employment.\nWhich of the statements given above is/are correct?",
+      "options": ["1 only", "2 only", "Both 1 and 2", "Neither 1 nor 2"],
+      "answer": 0,
+      "explanation": "Because the informal sector is not covered by regular administrative data, its contribution is estimated using benchmark surveys and proxies from the formal sector. It employs the overwhelming majority of India's workforce, so statement 2 is wrong."
+    },
+    {
+      "id": "q36",
+      "question": "Which of the following is a 'stock' variable rather than a 'flow' variable?",
+      "options": ["National income", "Investment during a year", "Capital stock of the economy", "Exports in a year"],
+      "answer": 2,
+      "explanation": "Stocks are measured at a point in time (wealth, capital, money supply, foreign exchange reserves). Flows are measured over a period (income, investment, exports, savings)."
+    },
+    {
+      "id": "q37",
+      "question": "Consider the following statements:\n1. 'Nominal GDP growth' is generally used as the denominator for measuring the fiscal deficit as a percentage of GDP.\n2. Real GDP growth is always higher than nominal GDP growth.\nWhich of the statements given above is/are correct?",
+      "options": ["1 only", "2 only", "Both 1 and 2", "Neither 1 nor 2"],
+      "answer": 0,
+      "explanation": "Fiscal ratios use nominal GDP because revenue and expenditure are in current prices. Real growth is lower than nominal growth whenever inflation is positive, so statement 2 is incorrect."
+    },
+    {
+      "id": "q38",
+      "question": "The 'Big Mac Index' published by The Economist is an informal way of measuring:",
+      "options": [
+        "Inflation in fast-food prices",
+        "Purchasing power parity between currencies",
+        "Global obesity trends",
+        "Trade in agricultural commodities"
+      ],
+      "answer": 1,
+      "explanation": "By comparing the price of an identical product across countries, the index estimates whether currencies are over- or under-valued relative to PPP."
+    },
+    {
+      "id": "q39",
+      "question": "Which of the following correctly describes the 'structural transformation' typically observed in developing economies?",
+      "options": [
+        "Shift of employment and output from services to agriculture",
+        "Shift of employment and output from agriculture to industry and services",
+        "Growth of the primary sector at the expense of the tertiary sector",
+        "Decline in the share of the secondary sector from the beginning"
+      ],
+      "answer": 1,
+      "explanation": "Development usually moves resources out of agriculture into manufacturing and then services. India's pattern is unusual in that services grew rapidly while manufacturing's share stayed relatively small."
+    },
+    {
+      "id": "q40",
+      "question": "Bihar was bifurcated in November 2000, with the creation of Jharkhand. Which of the following was a major economic consequence for Bihar?",
+      "options": [
+        "Bihar gained the bulk of the region's coal and iron ore deposits",
+        "Bihar lost most of its mineral resources and heavy industries, leaving the state's economy predominantly agrarian",
+        "Bihar's coastline was transferred to Jharkhand",
+        "Bihar's share in national GDP doubled"
+      ],
+      "answer": 1,
+      "explanation": "The mineral-rich Chotanagpur plateau, with its coal, iron ore, mica and industrial towns like Jamshedpur, Bokaro and Dhanbad, went to Jharkhand. Bihar retained the fertile Gangetic plains, making agriculture the backbone of its economy."
+    }
+  ]
+}

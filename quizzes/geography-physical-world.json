@@ -1,0 +1,295 @@
+{
+  "title": "Physical Geography of the World",
+  "subject": "Geography",
+  "topic": "Earth's interior and plate tectonics, rocks and landforms, earthquakes and volcanoes, atmosphere, pressure belts and winds, cyclones, climate classification, ocean relief, currents, tides and El Nino",
+  "description": "UPSC/BPSC-level questions on geomorphology, climatology and oceanography: the structure of the earth, plate boundaries, weathering and erosional landforms, the layers and heat budget of the atmosphere, global wind systems, tropical and temperate cyclones, Koppen's climates, ocean currents, tides, coral reefs and ENSO.",
+  "timeLimitMinutes": 40,
+  "createdAt": "2026-09-24",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Consider the following statements about the interior of the earth:\n1. The Mohorovicic discontinuity separates the crust from the mantle.\n2. The Gutenberg discontinuity separates the mantle from the core.\n3. The outer core is liquid, as shown by the fact that S-waves do not pass through it.\n4. The inner core is believed to be solid and composed mainly of iron and nickel.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Conrad discontinuity lies within the crust between the sial and sima, and the Lehmann discontinuity separates the outer from the inner core. The core is often called 'NiFe'."
+    },
+    {
+      "id": "q2",
+      "question": "Consider the following statements about plate tectonics:\n1. At divergent boundaries, such as the Mid-Atlantic Ridge, new oceanic crust is formed by sea-floor spreading.\n2. At convergent boundaries where oceanic plate meets continental plate, the denser oceanic plate is subducted, forming deep trenches and volcanic mountain arcs such as the Andes.\n3. The collision of two continental plates, as between the Indian and Eurasian plates, produces fold mountains like the Himalayas.\n4. The San Andreas Fault is an example of a transform boundary.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Alfred Wegener's continental drift theory (1912) was revived through Harry Hess's sea-floor spreading and the paleomagnetic evidence of the 1960s. Convection currents in the mantle are the driving force."
+    },
+    {
+      "id": "q3",
+      "question": "Which of the following pairs of rock and its type is/are correctly matched?\n1. Granite : Intrusive igneous\n2. Basalt : Extrusive igneous\n3. Marble : Metamorphosed limestone\n4. Slate : Metamorphosed shale\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Sandstone becomes quartzite and granite becomes gneiss under metamorphism. Sedimentary rocks such as limestone, sandstone and shale cover about 75 per cent of the earth's land surface though they form only a small part of the crust by volume."
+    },
+    {
+      "id": "q4",
+      "question": "Consider the following statements about earthquakes:\n1. The point of origin of an earthquake within the earth is the focus (hypocentre), and the point on the surface directly above it is the epicentre.\n2. The Richter scale measures magnitude (energy released), while the Mercalli scale measures intensity (observed damage).\n3. P-waves are compressional and travel fastest; S-waves are transverse and cannot travel through liquids.\n4. The 'shadow zone' for S-waves extends over more than 40 per cent of the earth's surface opposite the epicentre.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Surface waves (L-waves) are the most destructive. Most earthquakes occur along plate boundaries, with the Circum-Pacific belt accounting for about two-thirds of the world's earthquakes."
+    },
+    {
+      "id": "q5",
+      "question": "Which of the following pairs of volcanic feature and description is/are correctly matched?\n1. Shield volcano : Broad, gently sloping, formed of basaltic lava, such as Mauna Loa in Hawaii\n2. Composite (strato) volcano : Steep cone of alternating lava and ash layers, such as Mount Fuji\n3. Caldera : Large depression formed by the collapse of a volcano's summit after a massive eruption\n4. Batholith : Large mass of intrusive igneous rock exposed by erosion\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Other intrusive forms are laccoliths (dome-shaped), lopoliths (saucer-shaped), phacoliths (in folds), sills (horizontal) and dykes (vertical). Flood basalts formed the Deccan Traps."
+    },
+    {
+      "id": "q6",
+      "question": "Consider the following statements about weathering:\n1. Frost wedging and exfoliation are forms of physical (mechanical) weathering.\n2. Carbonation, in which rainwater containing carbon dioxide dissolves limestone, is a form of chemical weathering.\n3. Chemical weathering is most active in hot, humid climates.\n4. Weathering involves the transport of material by rivers and glaciers.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "Weathering is the in-situ breakdown of rocks; transport of material is erosion. Mass movement (landslides, soil creep) is the downslope movement of weathered material under gravity."
+    },
+    {
+      "id": "q7",
+      "question": "Which of the following landforms are produced by river erosion?\n1. V-shaped valleys and gorges\n2. Waterfalls and potholes\n3. Meanders and oxbow lakes\n4. Cirques and aretes\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "Cirques, aretes, horns and U-shaped valleys are glacial features. Rivers also produce depositional features such as alluvial fans, floodplains, natural levees and deltas."
+    },
+    {
+      "id": "q8",
+      "question": "Which of the following pairs of landform and the agent that produces it is/are correctly matched?\n1. Drumlin and esker : Glacier\n2. Barchan and loess : Wind\n3. Stalactite and doline : Underground water in limestone (karst)\n4. Stack and tombolo : Sea waves\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Drumlins are depositional glacial hills, eskers are ridges of glacial meltwater deposits, barchans are crescent-shaped dunes, dolines are sinkholes, and a tombolo is a bar joining an island to the mainland."
+    },
+    {
+      "id": "q9",
+      "question": "Consider the following statements about the layers of the atmosphere:\n1. The troposphere, where all weather occurs, extends to about 8 km at the poles and 18 km at the equator, and temperature falls with height at about 6.5 degrees Celsius per km.\n2. The stratosphere contains the ozone layer and temperature rises with height.\n3. The mesosphere is the coldest layer, where meteors burn up.\n4. The ionosphere, within the thermosphere, reflects radio waves.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The boundaries are the tropopause, stratopause and mesopause. Jet aircraft fly in the lower stratosphere for its stable conditions. The exosphere is the outermost layer merging into space."
+    },
+    {
+      "id": "q10",
+      "question": "Consider the following statements about the composition of the atmosphere:\n1. Nitrogen (about 78 per cent) and oxygen (about 21 per cent) make up about 99 per cent of dry air.\n2. Argon is the third most abundant gas.\n3. Carbon dioxide and water vapour are the chief absorbers of terrestrial (long-wave) radiation.\n4. Water vapour content decreases with altitude and from the equator to the poles.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Ozone in the stratosphere absorbs ultraviolet radiation. Dust particles act as condensation nuclei and scatter light, producing the colours of sunrise and sunset."
+    },
+    {
+      "id": "q11",
+      "question": "Consider the following statements about the earth's heat budget:\n1. About 35 units of every 100 units of incoming solar radiation are reflected back to space as the earth's albedo.\n2. The atmosphere is heated mainly from below by terrestrial radiation rather than directly by sunlight.\n3. The tropics have a surplus of radiation and the poles a deficit, and this imbalance is redressed by winds and ocean currents.\n4. The greenhouse effect is caused by the atmosphere's transparency to long-wave radiation.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "The greenhouse effect arises because the atmosphere is transparent to incoming short-wave radiation but absorbs outgoing long-wave radiation. Without it the earth's average temperature would be about minus 18 degrees Celsius instead of 15."
+    },
+    {
+      "id": "q12",
+      "question": "Consider the following statements about temperature inversion:\n1. It occurs when temperature increases with height instead of decreasing.\n2. It is common on clear, calm winter nights in valleys, where cold air drains downslope.\n3. It traps pollutants and causes fog and smog.\n4. It promotes vertical mixing of air and the formation of cumulonimbus clouds.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "Inversion makes the air stable and suppresses vertical movement. Fruit growers in hilly areas avoid valley floors because of frost caused by inversion."
+    },
+    {
+      "id": "q13",
+      "question": "Consider the following statements about global pressure belts:\n1. The equatorial low is a belt of rising air and calm conditions called the doldrums.\n2. The subtropical highs at about 30 degrees latitude are zones of descending air, where most of the world's hot deserts lie; the calm belts here are called the horse latitudes.\n3. The subpolar lows at about 60 degrees are zones where warm westerlies meet cold polar easterlies.\n4. The pressure belts shift northward in the northern summer and southward in the northern winter following the sun.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The subtropical highs are dynamically induced by the descending limb of the Hadley cell, not by temperature, while the equatorial low and polar highs are thermally induced."
+    },
+    {
+      "id": "q14",
+      "question": "Consider the following statements about the Coriolis force:\n1. It deflects moving air to the right in the northern hemisphere and to the left in the southern hemisphere.\n2. It is zero at the equator and maximum at the poles.\n3. It is directly proportional to the speed of the wind.\n4. It causes winds to blow directly from high to low pressure across isobars.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "The Coriolis force makes winds blow at an angle to the pressure gradient; in the upper atmosphere the balance of pressure gradient and Coriolis forces produces the geostrophic wind parallel to isobars. The force is named after Gaspard de Coriolis."
+    },
+    {
+      "id": "q15",
+      "question": "Which of the following pairs of planetary wind and direction is/are correctly matched?\n1. Trade winds in the northern hemisphere : North-east\n2. Westerlies in the southern hemisphere : North-west\n3. Polar easterlies in the northern hemisphere : North-east\nSelect the correct answer using the code given below.",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. The southern westerlies, uninterrupted by land, are strong and are called the Roaring Forties, Furious Fifties and Shrieking Sixties. The trade winds converge at the Inter-Tropical Convergence Zone."
+    },
+    {
+      "id": "q16",
+      "question": "Which of the following pairs of local wind and region is/are correctly matched?\n1. Chinook : Warm dry wind on the eastern slopes of the Rockies, called 'snow eater'\n2. Foehn : Warm dry wind on the northern slopes of the Alps\n3. Mistral : Cold dry wind blowing down the Rhone valley to the Mediterranean\n4. Sirocco : Hot dusty wind from the Sahara across the Mediterranean\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Other local winds include the Bora (cold, Adriatic), Harmattan (dry, West Africa, called 'the doctor'), Loo (hot, north India), Khamsin (Egypt), Zonda (Argentina) and Brickfielder (Australia)."
+    },
+    {
+      "id": "q17",
+      "question": "Consider the following statements about jet streams:\n1. They are narrow bands of high-speed westerly winds in the upper troposphere near the tropopause.\n2. The subtropical jet stream lies at about 30 degrees latitude and the polar-front jet at about 60 degrees.\n3. The tropical easterly jet stream develops over India in summer and is linked to the monsoon.\n4. Jet streams blow from east to west in both hemispheres.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "Jet streams are predominantly westerly; the tropical easterly jet is an exception found only in summer over the Indian Ocean and Africa. They steer weather systems and influence the movement of cyclones."
+    },
+    {
+      "id": "q18",
+      "question": "Consider the following statements about tropical cyclones:\n1. They form over warm oceans with sea surface temperatures above about 27 degrees Celsius, generally between 5 and 20 degrees latitude.\n2. They do not form at the equator because the Coriolis force there is negligible.\n3. The 'eye' is a calm, clear centre surrounded by the eye wall where winds are strongest.\n4. They are called hurricanes in the Atlantic and eastern Pacific, typhoons in the western Pacific and willy-willies in Australia.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Tropical cyclones weaken over land because their source of energy, latent heat from evaporation, is cut off. The Saffir-Simpson scale classifies hurricanes into five categories."
+    },
+    {
+      "id": "q19",
+      "question": "Which of the following correctly distinguishes temperate (extra-tropical) cyclones from tropical cyclones?",
+      "options": [
+        "Temperate cyclones form over warm oceans only and have an eye",
+        "Temperate cyclones form along the polar front where warm and cold air masses meet, have fronts, cover a larger area and move from west to east",
+        "Temperate cyclones are more destructive and have higher wind speeds",
+        "Temperate cyclones form only in the southern hemisphere"
+      ],
+      "answer": 1,
+      "explanation": "Temperate cyclones, explained by the Bjerknes polar front theory, bring prolonged rain over a wide area. In India, western disturbances are temperate cyclones from the Mediterranean bringing winter rain to the north-west."
+    },
+    {
+      "id": "q20",
+      "question": "Consider the following statements about precipitation:\n1. Convectional rainfall, common in equatorial regions, occurs in the afternoon from cumulonimbus clouds.\n2. Orographic rainfall occurs on the windward side of mountains, while the leeward side is a rain shadow.\n3. Frontal (cyclonic) rainfall occurs when warm air rises over cold air along a front.\n4. Hail forms when raindrops are carried repeatedly above the freezing level in strong updrafts.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Cherrapunji-Mawsynram in Meghalaya, on the windward Khasi hills, receive the world's highest rainfall, while Shillong on the leeward side gets much less."
+    },
+    {
+      "id": "q21",
+      "question": "Which of the following pairs of cloud type and characteristic is/are correctly matched?\n1. Cirrus : High, feathery, composed of ice crystals\n2. Cumulonimbus : Towering cloud associated with thunderstorms\n3. Stratus : Layered low cloud producing drizzle\n4. Nimbostratus : Dark, thick rain cloud\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Clouds are classified by height as high (cirrus family), middle (alto) and low (stratus), and by form as cumuliform (heap) and stratiform (layer). Luke Howard devised the classification in 1803."
+    },
+    {
+      "id": "q22",
+      "question": "Which of the following pairs of Koppen climate type and region is/are correctly matched?\n1. Af (tropical rainforest) : Amazon and Congo basins\n2. Aw (tropical savanna) : Sudan and the Brazilian campos\n3. Cs (Mediterranean) : California, central Chile and the Cape region\n4. Df (humid continental) : Central Canada and Russia\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Koppen's scheme uses letters for temperature and precipitation. BW is desert, BS steppe, Cw the monsoon-type humid subtropical climate of north India, E polar and H highland."
+    },
+    {
+      "id": "q23",
+      "question": "Consider the following statements about the Mediterranean climate:\n1. It is found on the western margins of continents between 30 and 45 degrees latitude.\n2. It has hot dry summers under the influence of the subtropical high and mild wet winters under the westerlies.\n3. Typical vegetation includes evergreen sclerophyllous shrubs and trees such as olive, cork oak and citrus.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Winter rain results from the poleward shift of the westerlies in winter. The climate supports viticulture and fruit farming, and its scrub is called maquis, chaparral or mallee in different regions."
+    },
+    {
+      "id": "q24",
+      "question": "Consider the following statements about the ocean floor:\n1. The continental shelf is the shallow, gently sloping submerged margin of the continent, rich in fisheries and petroleum.\n2. The continental slope descends steeply from the shelf to the deep-sea plain and is cut by submarine canyons.\n3. Mid-oceanic ridges are the longest mountain chains on earth.\n4. The Mariana Trench in the Pacific is the deepest point of the oceans.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Challenger Deep in the Mariana Trench is about 11,000 metres deep. Seamounts, guyots (flat-topped seamounts) and atolls are other features of the deep ocean floor."
+    },
+    {
+      "id": "q25",
+      "question": "Consider the following statements about ocean salinity:\n1. The average salinity of the oceans is about 35 parts per thousand.\n2. Salinity is highest in the subtropical high-pressure belts where evaporation exceeds precipitation, and lower at the equator and poles.\n3. The Red Sea and Persian Gulf have salinity above 40 parts per thousand, while the Baltic Sea has very low salinity.\n4. The Dead Sea and Lake Van are hypersaline inland water bodies.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Salinity is reduced by river inflow, rainfall and melting ice, and increased by evaporation and freezing (which excludes salt). The halocline is the zone of rapid change of salinity with depth."
+    },
+    {
+      "id": "q26",
+      "question": "Which of the following pairs of ocean current and nature is/are correctly matched?\n1. Gulf Stream : Warm current of the North Atlantic\n2. Kuroshio : Warm current of the North Pacific\n3. Benguela : Cold current off south-west Africa\n4. Labrador : Warm current off north-east Canada\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "The Labrador current is cold; its meeting with the warm Gulf Stream off Newfoundland creates dense fog and the rich Grand Banks fishery. Other cold currents are the Canary, Peru (Humboldt), California, Oyashio and West Australian."
+    },
+    {
+      "id": "q27",
+      "question": "Consider the following statements about the effects of ocean currents:\n1. Warm currents raise the temperature of adjacent coasts, keeping ports such as Murmansk ice-free.\n2. Cold currents along western coasts of continents in the tropics contribute to the formation of coastal deserts such as the Atacama and Namib.\n3. The meeting of warm and cold currents creates major fishing grounds.\n4. Currents in the northern hemisphere circulate anticlockwise in the subtropical gyres.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "Subtropical gyres circulate clockwise in the northern hemisphere and anticlockwise in the southern, owing to the Coriolis effect. The Sargasso Sea lies at the centre of the North Atlantic gyre."
+    },
+    {
+      "id": "q28",
+      "question": "Consider the following statements about tides:\n1. Tides are caused mainly by the gravitational pull of the moon and, to a lesser extent, the sun.\n2. Spring tides of maximum range occur at new and full moon when the sun, moon and earth are aligned.\n3. Neap tides occur at the first and third quarters when the sun and moon are at right angles.\n4. The interval between two successive high tides is about 12 hours 25 minutes.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Bay of Fundy in Canada has the world's highest tidal range. A tidal bore is a wave travelling up a river against the current, seen in the Hooghly."
+    },
+    {
+      "id": "q29",
+      "question": "Consider the following statements about El Nino and La Nina:\n1. El Nino is the abnormal warming of surface waters in the central and eastern equatorial Pacific off Peru.\n2. During El Nino the Walker circulation weakens, and India tends to receive deficient monsoon rainfall.\n3. La Nina is the opposite phase with cooler eastern Pacific waters and is generally associated with good monsoons in India.\n4. The Southern Oscillation refers to the see-saw of surface pressure between Tahiti and Darwin.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The combined phenomenon is called ENSO. El Nino brings floods to Peru and droughts to Australia and Indonesia, and disrupts the anchovy fishery off South America."
+    },
+    {
+      "id": "q30",
+      "question": "Consider the following statements about coral reefs:\n1. Corals require warm (above 20 degrees Celsius), shallow, clear and saline waters, and are therefore found mainly within the tropics.\n2. Fringing reefs lie close to the shore, barrier reefs are separated from it by a lagoon, and atolls are ring-shaped reefs enclosing a lagoon.\n3. Darwin's subsidence theory explains atolls by the gradual sinking of a volcanic island.\n4. The Great Barrier Reef lies off the east coast of Australia.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Coral bleaching occurs when stressed corals expel their symbiotic algae (zooxanthellae). In India reefs occur around Lakshadweep, the Andaman and Nicobar Islands, the Gulf of Kutch and the Gulf of Mannar."
+    },
+    {
+      "id": "q31",
+      "question": "Consider the following statements about the earth's motions:\n1. The earth's axis is inclined at 66.5 degrees to the plane of its orbit (23.5 degrees from the perpendicular), which causes the seasons.\n2. Perihelion, the earth's closest approach to the sun, occurs in early January.\n3. On the summer solstice (21 June) the sun is overhead at the Tropic of Cancer.\n4. On the equinoxes (21 March and 23 September) the sun is overhead at the equator and day and night are equal everywhere.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Aphelion occurs in early July, showing that distance from the sun is not the cause of seasons. The circle of illumination divides day from night."
+    },
+    {
+      "id": "q32",
+      "question": "Consider the following statements about latitude, longitude and time:\n1. Each degree of longitude corresponds to four minutes of time, so 15 degrees equal one hour.\n2. The International Date Line roughly follows the 180-degree meridian, and a traveller crossing it eastward gains a day.\n3. Indian Standard Time is based on the 82.5-degree east meridian passing through Mirzapur and is 5 hours 30 minutes ahead of GMT.\n4. The length of a degree of latitude is roughly constant at about 111 km, while the length of a degree of longitude decreases towards the poles.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Crossing the date line westward a traveller loses a day. Russia and the United States use multiple time zones, while India and China use a single zone."
+    },
+    {
+      "id": "q33",
+      "question": "Which of the following pairs of biome and characteristic vegetation is/are correctly matched?\n1. Taiga : Coniferous forests of spruce, fir and pine in Canada and Siberia\n2. Tundra : Mosses, lichens and dwarf shrubs on permafrost\n3. Steppe : Temperate grasslands of Eurasia, called prairies in North America and pampas in Argentina\n4. Savanna : Tropical grassland with scattered trees, such as the llanos of Venezuela\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Temperate grasslands are also called the veld in South Africa and the downs in Australia. The taiga is the world's largest terrestrial biome and a major source of softwood and paper pulp."
+    },
+    {
+      "id": "q34",
+      "question": "Consider the following statements about soils:\n1. Laterite soils form in hot, wet tropical regions through leaching, leaving behind iron and aluminium oxides.\n2. Podzols are acidic soils of the cool coniferous forest zone.\n3. Chernozems are fertile black soils of the temperate grasslands.\n4. The soil profile consists of horizons, with the A horizon being the topsoil rich in humus.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Soil formation depends on parent material, climate, organisms, topography and time. Zonal soils reflect climate, while azonal soils such as alluvium reflect recent deposition."
+    },
+    {
+      "id": "q35",
+      "question": "Consider the following statements about the Hadley, Ferrel and Polar cells:\n1. In the Hadley cell, air rises at the equator, flows poleward aloft and sinks at about 30 degrees latitude.\n2. The Ferrel cell between 30 and 60 degrees is driven indirectly by the other two cells.\n3. The Polar cell has sinking air at the poles and rising air at about 60 degrees.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. This tri-cellular model explains the surface wind belts: trades under the Hadley cell, westerlies under the Ferrel cell and polar easterlies under the Polar cell."
+    },
+    {
+      "id": "q36",
+      "question": "Consider the following statements about deserts:\n1. Most hot deserts lie on the western sides of continents in the trade-wind belt between 15 and 30 degrees latitude.\n2. The Sahara is the largest hot desert and the Antarctic is the largest cold desert.\n3. The Gobi is a rain-shadow, mid-latitude desert in the interior of Asia.\n4. Deserts receive less than 250 mm of rainfall a year.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Offshore trade winds, cold currents and subsiding air of the subtropical highs combine to produce the hot deserts. The Thar is an example in India."
+    },
+    {
+      "id": "q37",
+      "question": "Consider the following statements about humidity:\n1. Relative humidity is the ratio of the actual water vapour content of air to its capacity at that temperature, expressed as a percentage.\n2. Warm air can hold more moisture than cold air, so relative humidity falls as temperature rises without a change in moisture content.\n3. The dew point is the temperature at which air becomes saturated.\n4. Absolute humidity is measured in grams of water vapour per cubic metre of air.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Condensation occurs when air cools to the dew point, producing dew, frost, fog or clouds depending on conditions; the hygrometer measures humidity."
+    },
+    {
+      "id": "q38",
+      "question": "Consider the following statements about the Ring of Fire:\n1. It is a belt of volcanoes and earthquakes encircling the Pacific Ocean along subduction zones.\n2. It contains about three-quarters of the world's active volcanoes.\n3. Japan, Indonesia, the Philippines, Chile and the western United States lie on it.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. The other major belt is the Mid-Continental (Alpine-Himalayan) belt from the Mediterranean to Indonesia, along which India's Himalayan earthquakes occur. The mid-Atlantic belt is the third."
+    },
+    {
+      "id": "q39",
+      "question": "Consider the following statements about isostasy:\n1. It is the concept of a state of balance between the crust and the mantle, with the lighter crust floating on the denser substratum.\n2. Airy's theory explains mountains as having deep roots, like icebergs, with uniform density.\n3. Pratt's theory explains that columns of the crust have different densities but a common depth of compensation.\n4. The post-glacial uplift of Scandinavia is an example of isostatic adjustment.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The term was coined by Dutton in 1889. Isostatic rebound also occurs when erosion removes material from mountains, causing them to rise."
+    },
+    {
+      "id": "q40",
+      "question": "Consider the following statements about thunderstorms and tornadoes:\n1. Thunderstorms develop from cumulonimbus clouds in unstable, moist air with strong convection.\n2. A tornado is a violently rotating column of air extending from a thunderstorm cloud to the ground, most frequent in the central United States.\n3. Tornado intensity is measured on the Enhanced Fujita scale.\n4. A waterspout is a tornado over water.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The 'Tornado Alley' of the Great Plains sees collisions of warm moist Gulf air and cold dry continental air. Norwesters ('Kalbaisakhi') in Bengal and Bihar are pre-monsoon thunderstorms."
+    }
+  ]
+}

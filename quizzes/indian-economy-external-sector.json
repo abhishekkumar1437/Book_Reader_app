@@ -1,0 +1,365 @@
+{
+  "title": "External Sector, Trade and International Institutions",
+  "subject": "Indian Economy",
+  "topic": "Balance of payments, foreign exchange reserves, convertibility and exchange rates, FDI/FPI and external borrowing, trade policy, WTO, IMF, World Bank and other multilateral bodies",
+  "description": "UPSC/BPSC-level questions on the structure of the balance of payments, reserve management, currency convertibility and exchange-rate concepts, foreign investment rules, external commercial borrowing, trade agreements and the institutions that govern the global economy.",
+  "timeLimitMinutes": 40,
+  "createdAt": "2026-09-23",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Which of the following are recorded in the current account of India's balance of payments?\n1. Export of software services\n2. Remittances from Indians working in the Gulf\n3. Foreign direct investment in an Indian factory\n4. Interest paid on external commercial borrowings\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 4 only", "1 and 3 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "The current account covers trade in goods and services, primary income (interest, dividends, compensation) and secondary income (remittances, transfers). FDI is a financial/capital account flow."
+    },
+    {
+      "id": "q2",
+      "question": "Consider the following statements:\n1. India's balance of trade has generally been in deficit, while its balance on services has been in surplus.\n2. India is the world's largest recipient of inward remittances.\nWhich of the statements given above is/are correct?",
+      "options": ["1 only", "2 only", "Both 1 and 2", "Neither 1 nor 2"],
+      "answer": 2,
+      "explanation": "Merchandise imports, dominated by crude oil, gold and electronics, exceed exports, while IT and business services generate a surplus. Remittances exceeding 100 billion dollars a year make India the top recipient globally."
+    },
+    {
+      "id": "q3",
+      "question": "'Invisibles' in the balance of payments include:",
+      "options": [
+        "Only services",
+        "Services, transfers and income flows",
+        "Foreign direct investment and portfolio investment",
+        "Errors and omissions only"
+      ],
+      "answer": 1,
+      "explanation": "Invisibles are the non-merchandise components of the current account: services (software, travel, transport), private transfers (remittances) and income (investment income, compensation of employees)."
+    },
+    {
+      "id": "q4",
+      "question": "Consider the following statements about the balance of payments:\n1. The overall balance of payments always balances in an accounting sense.\n2. Changes in foreign exchange reserves are the 'accommodating' item that offsets the net balance of autonomous transactions.\nWhich of the statements given above is/are correct?",
+      "options": ["1 only", "2 only", "Both 1 and 2", "Neither 1 nor 2"],
+      "answer": 2,
+      "explanation": "Under double-entry accounting the BoP sums to zero. A surplus or deficit refers to autonomous transactions 'above the line'; official reserve movements 'below the line' settle the difference."
+    },
+    {
+      "id": "q5",
+      "question": "India's foreign exchange reserves, as reported by the RBI, consist of which of the following components?\n1. Foreign currency assets\n2. Gold\n3. Special Drawing Rights\n4. Reserve Tranche Position in the IMF\nSelect the correct answer using the code given below.",
+      "options": ["1 and 2 only", "1, 2 and 3 only", "1, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are included, with foreign currency assets forming the bulk. The reserve tranche position is the portion of India's IMF quota that can be drawn without conditions."
+    },
+    {
+      "id": "q6",
+      "question": "Consider the following statements about currency convertibility in India:\n1. The rupee became fully convertible on the current account in 1994 when India accepted Article VIII of the IMF Articles of Agreement.\n2. The rupee is fully convertible on the capital account.\n3. The Tarapore Committees of 1997 and 2006 examined the roadmap to capital account convertibility.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "1 and 3 only", "2 and 3 only", "1, 2 and 3"],
+      "answer": 1,
+      "explanation": "The rupee remains only partially convertible on the capital account; limits such as the Liberalised Remittance Scheme ceiling of 250,000 dollars per person per year apply. Full capital account convertibility was deferred after the 1997 Asian crisis."
+    },
+    {
+      "id": "q7",
+      "question": "The Liberalised Exchange Rate Management System (LERMS) introduced in March 1992 involved:",
+      "options": [
+        "A fixed peg of the rupee to the US dollar",
+        "A dual exchange rate, with part of export earnings converted at the official rate and the rest at the market rate",
+        "Full capital account convertibility",
+        "Abolition of the RBI's role in the forex market"
+      ],
+      "answer": 1,
+      "explanation": "Under LERMS, 40 per cent of receipts were surrendered at the official rate and 60 per cent converted at the market rate. The rates were unified in March 1993, moving India to a market-determined, managed-float system."
+    },
+    {
+      "id": "q8",
+      "question": "Which of the following correctly distinguishes 'devaluation' from 'depreciation' of a currency?",
+      "options": [
+        "Devaluation is a market-driven fall; depreciation is a deliberate official decision",
+        "Devaluation is a deliberate lowering of the official value under a fixed or pegged regime; depreciation is a market-driven fall under a floating regime",
+        "Both terms mean the same in all contexts",
+        "Devaluation applies to gold, depreciation to paper currency"
+      ],
+      "answer": 1,
+      "explanation": "India devalued the rupee in 1949, 1966 and July 1991 under administered regimes. Since 1993 movements in the rupee are described as depreciation or appreciation, though the RBI intervenes to curb volatility."
+    },
+    {
+      "id": "q9",
+      "question": "Consider the following statements about effective exchange rate indices:\n1. The Nominal Effective Exchange Rate (NEER) is a weighted average of the rupee's bilateral exchange rates against a basket of currencies of major trading partners.\n2. The Real Effective Exchange Rate (REER) adjusts NEER for inflation differentials between India and its trading partners.\n3. A rise in REER indicates a loss of export competitiveness.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. The RBI publishes 6-currency and 40-currency NEER and REER indices. A REER above 100 relative to the base period suggests the rupee is overvalued in real terms."
+    },
+    {
+      "id": "q10",
+      "question": "The 'J-curve effect' describes the phenomenon that after a currency depreciation:",
+      "options": [
+        "The trade balance improves immediately and then worsens",
+        "The trade balance first worsens and improves only after a lag, once export and import volumes adjust",
+        "Inflation falls sharply before rising",
+        "Capital inflows rise and then fall"
+      ],
+      "answer": 1,
+      "explanation": "Because contracts and volumes are sticky in the short run, the immediate effect of depreciation is costlier imports and a wider deficit. According to the Marshall-Lerner condition, the trade balance improves only if the sum of export and import demand elasticities exceeds one."
+    },
+    {
+      "id": "q11",
+      "question": "The 'impossible trinity' or trilemma in open-economy macroeconomics states that a country cannot simultaneously have:",
+      "options": [
+        "Low inflation, low unemployment and high growth",
+        "A fixed exchange rate, free capital mobility and an independent monetary policy",
+        "A trade surplus, a fiscal surplus and a current account surplus",
+        "High savings, high investment and high consumption"
+      ],
+      "answer": 1,
+      "explanation": "The Mundell-Fleming trilemma implies only two of the three goals are attainable. India chooses a managed exchange rate with partial capital controls to retain monetary autonomy."
+    },
+    {
+      "id": "q12",
+      "question": "As per the definition adopted by India in 2014, an investment by a non-resident in an Indian company is classified as Foreign Direct Investment (FDI) if it is:",
+      "options": [
+        "Any investment in a listed company",
+        "10 per cent or more of the post-issue paid-up equity capital of a listed company",
+        "Less than 10 per cent of equity",
+        "Investment only in unlisted companies"
+      ],
+      "answer": 1,
+      "explanation": "Following the IMF/OECD convention, holdings of 10 per cent or more are FDI, reflecting a lasting interest; holdings below 10 per cent in listed companies are Foreign Portfolio Investment."
+    },
+    {
+      "id": "q13",
+      "question": "Consider the following statements about India's FDI policy:\n1. FDI policy is framed by the Department for Promotion of Industry and Internal Trade, while the RBI administers it under the Foreign Exchange Management Act.\n2. Since 2020, investments from entities of countries sharing a land border with India require prior government approval regardless of sector.\n3. The Foreign Investment Promotion Board continues to approve investments under the government route.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 0,
+      "explanation": "The FIPB was abolished in 2017; government-route proposals are now cleared by the concerned ministries through the Foreign Investment Facilitation Portal. Press Note 3 of 2020 introduced the neighbouring-country rule."
+    },
+    {
+      "id": "q14",
+      "question": "In which of the following sectors is FDI prohibited in India?\n1. Lottery business and gambling\n2. Chit funds and Nidhi companies\n3. Manufacturing of cigars and cigarettes\n4. Single-brand retail trading\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 2 only", "3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "Prohibited sectors also include atomic energy, real estate business (not construction development) and railway operations. Single-brand retail permits 100 per cent FDI under the automatic route since 2019."
+    },
+    {
+      "id": "q15",
+      "question": "Which of the following pairs of sector and FDI limit is/are correctly matched?\n1. Defence manufacturing : 74 per cent under automatic route\n2. Print media (newspapers) : 26 per cent under government route\n3. Multi-brand retail trading : 100 per cent under automatic route\nSelect the correct answer using the code given below.",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 0,
+      "explanation": "Multi-brand retail allows only up to 51 per cent FDI under the government route with conditions such as minimum investment and local sourcing. Defence was raised to 74 per cent automatic in 2020."
+    },
+    {
+      "id": "q16",
+      "question": "Consider the following statements about 'Masala bonds':\n1. They are rupee-denominated bonds issued in overseas markets.\n2. The currency risk is borne by the investor rather than the Indian issuer.\n3. The International Finance Corporation issued the first Masala bond in 2014.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. HDFC was the first Indian corporate to issue Masala bonds in 2016. Because repayment is in rupees, a depreciation of the rupee hurts the foreign investor, not the issuer."
+    },
+    {
+      "id": "q17",
+      "question": "Participatory Notes (P-Notes) are:",
+      "options": [
+        "Government bonds sold to foreign central banks",
+        "Instruments issued by SEBI-registered Foreign Portfolio Investors to overseas investors who wish to invest in Indian securities without registering with SEBI",
+        "Notes issued by the RBI to sterilise capital inflows",
+        "Certificates of deposit issued abroad by Indian banks"
+      ],
+      "answer": 1,
+      "explanation": "Because the end beneficiary is not directly known to the regulator, P-Notes have raised concerns about round-tripping and money laundering; SEBI has tightened disclosure norms since 2017."
+    },
+    {
+      "id": "q18",
+      "question": "External Commercial Borrowings (ECBs) are regulated by:",
+      "options": ["SEBI", "The RBI under the Foreign Exchange Management Act, 1999", "The Ministry of Commerce", "The Export-Import Bank of India"],
+      "answer": 1,
+      "explanation": "ECBs are loans raised by Indian entities from non-resident lenders. The RBI's framework prescribes eligible borrowers, recognised lenders, minimum average maturity and all-in-cost ceilings, with automatic and approval routes."
+    },
+    {
+      "id": "q19",
+      "question": "Consider the following statements about the Foreign Exchange Management Act (FEMA), 1999:\n1. It replaced the Foreign Exchange Regulation Act (FERA) of 1973.\n2. Violations under FEMA are treated as civil offences rather than criminal offences.\n3. It came into force on 1 June 2000.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "FEMA shifted the approach from 'regulation' to 'management' of foreign exchange in line with liberalisation. The Enforcement Directorate handles investigations, and penalties are monetary rather than imprisonment."
+    },
+    {
+      "id": "q20",
+      "question": "'Hot money' refers to:",
+      "options": [
+        "Foreign direct investment in manufacturing",
+        "Short-term speculative capital flows, such as portfolio investment, that can be withdrawn quickly",
+        "Money supply growth during high inflation",
+        "Counterfeit currency in circulation"
+      ],
+      "answer": 1,
+      "explanation": "Hot money chases interest-rate and exchange-rate gains and can reverse abruptly, as during the 2013 'taper tantrum' when the rupee fell sharply after the US Federal Reserve signalled a reduction in bond purchases."
+    },
+    {
+      "id": "q21",
+      "question": "Consider the following statements about the World Trade Organization (WTO):\n1. It came into existence on 1 January 1995 under the Marrakesh Agreement, replacing the GATT of 1947 as an institution.\n2. The Ministerial Conference is its highest decision-making body and meets at least once every two years.\n3. Decisions are taken by weighted voting according to the size of members' economies.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 0,
+      "explanation": "WTO decisions are taken by consensus, with each member having one vote if voting is needed, unlike the IMF and World Bank where votes are weighted by quota or shareholding. India was a founding member of GATT in 1947."
+    },
+    {
+      "id": "q22",
+      "question": "Under the WTO Agreement on Agriculture, subsidies that are considered minimally trade-distorting and are permitted without limit, such as research, extension and income support decoupled from production, fall in the:",
+      "options": ["Amber box", "Blue box", "Green box", "Red box"],
+      "answer": 2,
+      "explanation": "Amber box subsidies (like price support) distort trade and are subject to reduction commitments, with a de minimis allowance of 10 per cent of production value for developing countries. Blue box covers payments under production-limiting programmes. There is no red box."
+    },
+    {
+      "id": "q23",
+      "question": "The 'Peace Clause' agreed at the WTO Bali Ministerial Conference in 2013 relates to:",
+      "options": [
+        "Suspension of anti-dumping duties among members",
+        "Protection of developing countries' public stockholding programmes for food security from legal challenge even if amber box limits are breached",
+        "A ceasefire on retaliatory tariffs between the US and China",
+        "Elimination of agricultural export subsidies"
+      ],
+      "answer": 1,
+      "explanation": "India's procurement at MSP for the public distribution system risked breaching the 10 per cent de minimis limit. The interim peace clause, later made available until a permanent solution is found, shields such programmes from dispute."
+    },
+    {
+      "id": "q24",
+      "question": "At which WTO Ministerial Conference did members agree to eliminate agricultural export subsidies?",
+      "options": ["Doha, 2001", "Bali, 2013", "Nairobi, 2015", "Buenos Aires, 2017"],
+      "answer": 2,
+      "explanation": "The Nairobi Package required developed countries to remove export subsidies immediately and developing countries by 2018. The Doha Round launched in 2001 remains formally incomplete."
+    },
+    {
+      "id": "q25",
+      "question": "Consider the following statements about trade remedies in India:\n1. Anti-dumping investigations are conducted by the Directorate General of Trade Remedies under the Ministry of Commerce and Industry.\n2. The final decision to impose anti-dumping duty is taken by the Ministry of Finance.\n3. Countervailing duties are imposed to offset subsidies given by the exporting country.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Safeguard duties, a third remedy, are temporary measures against a sudden surge in imports that injures domestic industry, irrespective of dumping or subsidy."
+    },
+    {
+      "id": "q26",
+      "question": "Which of the following currencies constitute the basket that determines the value of the IMF's Special Drawing Right (SDR)?",
+      "options": [
+        "US dollar, euro, pound sterling, Japanese yen and Swiss franc",
+        "US dollar, euro, Chinese renminbi, Japanese yen and pound sterling",
+        "US dollar, euro, Indian rupee, Chinese renminbi and Japanese yen",
+        "US dollar, euro and gold"
+      ],
+      "answer": 1,
+      "explanation": "The Chinese renminbi joined the basket in October 2016. The SDR, created in 1969, is an international reserve asset allocated to members in proportion to their quotas; a large allocation was made in 2021 to fight the pandemic."
+    },
+    {
+      "id": "q27",
+      "question": "Consider the following statements about the International Monetary Fund:\n1. It was conceived at the Bretton Woods Conference of 1944.\n2. A member's quota determines its voting power, financial contribution and access to IMF financing.\n3. By convention, the Managing Director of the IMF is a European and the President of the World Bank is an American.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. India's quota is about 2.75 per cent. The IMF conducts annual Article IV consultations with members and publishes the World Economic Outlook and the Global Financial Stability Report."
+    },
+    {
+      "id": "q28",
+      "question": "Which of the following institutions of the World Bank Group provides interest-free loans and grants to the poorest countries?",
+      "options": [
+        "International Bank for Reconstruction and Development (IBRD)",
+        "International Development Association (IDA)",
+        "International Finance Corporation (IFC)",
+        "Multilateral Investment Guarantee Agency (MIGA)"
+      ],
+      "answer": 1,
+      "explanation": "IDA (1960) is the concessional arm; IBRD lends to middle-income countries; IFC (1956) finances the private sector; MIGA (1988) provides political risk insurance; ICSID (1966) settles investment disputes. India graduated from IDA lending in 2014."
+    },
+    {
+      "id": "q29",
+      "question": "Consider the following statements about the Asian Infrastructure Investment Bank (AIIB):\n1. It is headquartered in Beijing and began operations in 2016.\n2. India is its second-largest shareholder after China.\n3. India has been among the largest recipients of AIIB financing.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. The New Development Bank of the BRICS countries, headquartered in Shanghai, was established in 2015 with equal shareholding among the five founders and K.V. Kamath as its first president."
+    },
+    {
+      "id": "q30",
+      "question": "The Asian Development Bank (ADB) is headquartered at:",
+      "options": ["Tokyo", "Manila", "Singapore", "Jakarta"],
+      "answer": 1,
+      "explanation": "ADB was established in 1966 in Manila. Japan and the United States are its largest shareholders, and India, a founding member, is among its largest borrowers."
+    },
+    {
+      "id": "q31",
+      "question": "Consider the following statements about India's Foreign Trade Policy 2023:\n1. It is administered by the Directorate General of Foreign Trade under the Ministry of Commerce and Industry.\n2. Unlike earlier five-year policies, it has no fixed end date and is to be updated as required.\n3. It reintroduced the Merchandise Exports from India Scheme (MEIS).\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 0,
+      "explanation": "MEIS was discontinued after a WTO panel found it to be a prohibited export subsidy; it was replaced by the WTO-compatible Remission of Duties and Taxes on Exported Products (RoDTEP) scheme in 2021."
+    },
+    {
+      "id": "q32",
+      "question": "Asia's first Export Processing Zone was set up in 1965 at:",
+      "options": ["Santacruz", "Kandla", "Noida", "Falta"],
+      "answer": 1,
+      "explanation": "The Kandla EPZ in Gujarat was Asia's first. The Special Economic Zones Act, 2005 later converted EPZs into SEZs, treating them as foreign territory for trade and tariff purposes."
+    },
+    {
+      "id": "q33",
+      "question": "Consider the following statements about India's trade relations:\n1. India withdrew from negotiations on the Regional Comprehensive Economic Partnership in 2019.\n2. China is the country with which India runs its largest bilateral trade deficit.\n3. India has signed a comprehensive economic partnership agreement with the United Arab Emirates.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. India left RCEP over concerns about Chinese imports and rules of origin. The India-UAE CEPA (2022) was followed by agreements with Australia (ECTA, 2022) and the EFTA states (TEPA, 2024)."
+    },
+    {
+      "id": "q34",
+      "question": "The Trade and Economic Partnership Agreement signed by India in 2024 with a 100-billion-dollar investment commitment was with:",
+      "options": ["The European Union", "The European Free Trade Association (Switzerland, Norway, Iceland and Liechtenstein)", "The United Kingdom", "The Gulf Cooperation Council"],
+      "answer": 1,
+      "explanation": "The India-EFTA TEPA was the first Indian trade agreement with a binding commitment on investment and job creation, in return for tariff concessions."
+    },
+    {
+      "id": "q35",
+      "question": "Under the mechanism announced by the RBI in July 2022 for settling international trade in rupees, foreign banks open which type of account with authorised Indian banks?",
+      "options": ["Nostro accounts", "Special Rupee Vostro Accounts", "FCNR(B) accounts", "Escrow accounts"],
+      "answer": 1,
+      "explanation": "A vostro account is an account a foreign bank holds with a domestic bank in domestic currency; a nostro account is the reverse. The mechanism aims to reduce dependence on the US dollar and promote rupee internationalisation."
+    },
+    {
+      "id": "q36",
+      "question": "Which of the following pairs of NRI deposit scheme and feature is correctly matched?",
+      "options": [
+        "NRE account : rupee account, fully repatriable",
+        "NRO account : foreign currency account, fully repatriable",
+        "FCNR(B) account : rupee savings account, non-repatriable",
+        "NRE account : foreign currency account, non-repatriable"
+      ],
+      "answer": 0,
+      "explanation": "NRE accounts hold rupees and are freely repatriable; NRO accounts hold rupee income earned in India with limited repatriation; FCNR(B) are term deposits in foreign currency, protecting depositors from exchange risk."
+    },
+    {
+      "id": "q37",
+      "question": "'Terms of trade' of a country is defined as:",
+      "options": [
+        "The ratio of exports to imports",
+        "The ratio of the export price index to the import price index",
+        "The share of trade in GDP",
+        "The difference between tariff rates on exports and imports"
+      ],
+      "answer": 1,
+      "explanation": "An improvement in the terms of trade means a unit of exports buys more imports. Trade openness, by contrast, is measured as exports plus imports as a share of GDP."
+    },
+    {
+      "id": "q38",
+      "question": "The 'import cover' of foreign exchange reserves refers to:",
+      "options": [
+        "Insurance taken on imported goods",
+        "The number of months of imports that the reserves can finance",
+        "The customs duty collected on imports",
+        "The share of imports paid for in rupees"
+      ],
+      "answer": 1,
+      "explanation": "Import cover is a standard measure of reserve adequacy. In 1991 India's reserves covered barely two to three weeks of imports, triggering the crisis; they now cover well over ten months."
+    },
+    {
+      "id": "q39",
+      "question": "Consider the following statements about the Bank for International Settlements (BIS):\n1. It is headquartered in Basel, Switzerland.\n2. It is often described as the 'bank for central banks'.\n3. The Basel norms on bank capital are issued by a committee hosted by the BIS.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "Established in 1930, the BIS is the oldest international financial institution. The Basel Committee on Banking Supervision, hosted by it, framed the Basel I, II and III standards. The RBI is a member."
+    },
+    {
+      "id": "q40",
+      "question": "The Export Credit Guarantee Corporation of India (ECGC) primarily:",
+      "options": [
+        "Lends directly to exporters at concessional rates",
+        "Provides export credit insurance to exporters and guarantees to banks against non-payment risks",
+        "Fixes the exchange rate for export transactions",
+        "Regulates Special Economic Zones"
+      ],
+      "answer": 1,
+      "explanation": "ECGC, set up in 1957 under the Ministry of Commerce, covers commercial and political risks of non-payment by overseas buyers. Direct export finance is provided by the EXIM Bank and commercial banks."
+    }
+  ]
+}

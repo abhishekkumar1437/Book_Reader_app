@@ -1,0 +1,290 @@
+{
+  "title": "Physical Geography of India",
+  "subject": "Geography",
+  "topic": "Location and extent, Himalayas, northern plains, peninsular plateau, coasts and islands, Himalayan and peninsular drainage, monsoon mechanism and seasons, soils, natural vegetation, wildlife and conservation",
+  "description": "UPSC/BPSC-level questions on India's physical setting: the physiographic divisions and their subdivisions, major rivers with their tributaries, the mechanism and phases of the monsoon, soil types, forest types, biosphere reserves, national parks and Ramsar sites.",
+  "timeLimitMinutes": 40,
+  "createdAt": "2026-09-24",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Consider the following statements about India's location and extent:\n1. The mainland extends between latitudes 8 degrees 4 minutes and 37 degrees 6 minutes north and longitudes 68 degrees 7 minutes and 97 degrees 25 minutes east.\n2. The Tropic of Cancer passes through eight states: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram.\n3. India has a land frontier of about 15,200 km and a coastline of about 7,516 km including the islands.\n4. India is the seventh largest country in the world, covering about 2.4 per cent of the world's land area.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Indira Point in Great Nicobar is the southernmost point; Kanyakumari is the southern tip of the mainland. Bangladesh shares the longest land boundary with India, followed by China and Pakistan."
+    },
+    {
+      "id": "q2",
+      "question": "Consider the following statements about the Himalayas:\n1. The Greater Himalaya (Himadri) has an average height of about 6,000 metres and contains the highest peaks, with a core of granite.\n2. The Lesser Himalaya (Himachal) contains the Pir Panjal, Dhauladhar and Mahabharat ranges and the hill stations of Shimla, Mussoorie and Darjeeling.\n3. The Shiwaliks are the youngest and outermost range, made of unconsolidated sediments, with longitudinal valleys called duns between them and the Himachal.\n4. The Trans-Himalaya includes the Karakoram, Ladakh and Zaskar ranges.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Dehradun and Kotli dun are examples of duns. The Himalayas formed from the closing of the Tethys Sea as the Indian plate collided with Eurasia, and they are still rising."
+    },
+    {
+      "id": "q3",
+      "question": "Which of the following pairs of Himalayan regional division and its extent is/are correctly matched?\n1. Punjab (Kashmir) Himalaya : Between the Indus and the Sutlej\n2. Kumaon Himalaya : Between the Sutlej and the Kali\n3. Nepal Himalaya : Between the Kali and the Tista\n4. Assam Himalaya : Between the Tista and the Dihang (Brahmaputra)\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct, following Sydney Burrard's division. The Purvanchal (Patkai, Naga, Manipur, Mizo hills) forms the eastern extension bending southward, and the Himalayas are wider in the west than in the east."
+    },
+    {
+      "id": "q4",
+      "question": "Which of the following pairs of Himalayan pass and location is/are correctly matched?\n1. Zoji La : Between Srinagar and Leh (Ladakh)\n2. Shipki La : Himachal Pradesh, through which the Sutlej enters India\n3. Nathu La : Sikkim, on the route to Tibet\n4. Bomdila : Arunachal Pradesh\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Other passes include Banihal (Jammu-Kashmir, Jawahar tunnel), Rohtang (Himachal), Lipulekh and Mana (Uttarakhand), Jelep La (Sikkim), Diphu (Arunachal) and Khardung La in Ladakh."
+    },
+    {
+      "id": "q5",
+      "question": "Consider the following statements about the Northern Plains:\n1. The Bhabar is a narrow belt of pebbles at the foot of the Shiwaliks where streams disappear underground.\n2. The Tarai is a marshy, forested belt south of the Bhabar where the streams re-emerge.\n3. Bhangar is the older alluvium forming terraces above flood level and often contains 'kankar' nodules, while Khadar is the newer alluvium of the floodplains.\n4. The plains were formed by the deposition of sediments in the foredeep between the Himalayas and the peninsula.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Punjab plains are 'doabs' between rivers, the Ganga plains include the Rohilkhand, Awadh, Mithila and Bengal sections, and the Brahmaputra valley forms the eastern portion. Reh or kallar are saline efflorescences in dry parts."
+    },
+    {
+      "id": "q6",
+      "question": "Consider the following statements about the Peninsular Plateau:\n1. It is composed largely of ancient crystalline, igneous and metamorphic rocks and is part of the Gondwana landmass.\n2. The Deccan Trap of basaltic lava covers Maharashtra and parts of neighbouring states and gives rise to black soil.\n3. The Aravalli range is among the oldest fold mountains in the world, running from Delhi to Gujarat.\n4. Anaimudi in the Anaimalai hills is the highest peak of peninsular India.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Anaimudi (2,695 m) is where the Western Ghats, Eastern Ghats-related Palni and Anaimalai hills meet; Doddabetta in the Nilgiris is the second highest. Guru Shikhar (1,722 m) is the highest Aravalli peak."
+    },
+    {
+      "id": "q7",
+      "question": "Consider the following statements about the Western and Eastern Ghats:\n1. The Western Ghats are continuous and steep on the western side, with only gaps such as the Palghat, Bhor Ghat and Thal Ghat.\n2. The Eastern Ghats are discontinuous, being cut by the Mahanadi, Godavari, Krishna and Kaveri.\n3. Mahendragiri in Odisha is a prominent peak of the Eastern Ghats.\n4. The Western Ghats are a UNESCO World Heritage Site and one of the world's biodiversity hotspots.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Ghats are known as Sahyadri in Maharashtra, Nilgiri in Tamil Nadu and Cardamom hills in Kerala. The Palghat gap connects Coimbatore with Palakkad and allows the monsoon to reach Tamil Nadu."
+    },
+    {
+      "id": "q8",
+      "question": "Which of the following pairs of plateau and location is/are correctly matched?\n1. Malwa plateau : Madhya Pradesh, between the Aravallis and the Vindhyas\n2. Chotanagpur plateau : Jharkhand, rich in minerals\n3. Bundelkhand : Southern Uttar Pradesh and northern Madhya Pradesh\n4. Meghalaya plateau : Detached extension of the peninsular block, with the Garo, Khasi and Jaintia hills\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Meghalaya plateau is separated from the main peninsular block by the Garo-Rajmahal gap (Malda gap). The Chotanagpur plateau is called the 'Ruhr of India' for its minerals."
+    },
+    {
+      "id": "q9",
+      "question": "Consider the following statements about India's coasts:\n1. The western coastal plain is narrow, with the Konkan, Kanara and Malabar sections, and has backwaters (kayals) in Kerala.\n2. The eastern coastal plain is broad and has the deltas of the Mahanadi, Godavari, Krishna and Kaveri.\n3. The Coromandel coast is the southern part of the eastern coast and the Northern Circars the northern part.\n4. Chilika in Odisha is the largest brackish-water lagoon in India, and Pulicat lies on the Andhra-Tamil Nadu border.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The western coast is a submerged coast with natural harbours such as Mumbai and Kochi, while the eastern coast is an emergent coast with deltas and lagoons. Vembanad is Kerala's largest lake."
+    },
+    {
+      "id": "q10",
+      "question": "Consider the following statements about India's islands:\n1. The Andaman and Nicobar Islands are of volcanic and tectonic origin and include Barren Island, India's only active volcano.\n2. The Ten Degree Channel separates the Andaman group from the Nicobar group.\n3. Lakshadweep islands are coral atolls, and the Eight Degree Channel separates Minicoy from the Maldives.\n4. Saddle Peak in North Andaman is the highest point of the Andaman and Nicobar Islands.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Duncan Passage separates South Andaman from Little Andaman, and the Nine Degree Channel separates Minicoy from the rest of Lakshadweep. Kavaratti is the capital of Lakshadweep."
+    },
+    {
+      "id": "q11",
+      "question": "Consider the following statements about the Indus river system:\n1. The Indus rises near Mansarovar in Tibet, enters India in Ladakh and flows through the Bunji gorge near Nanga Parbat.\n2. The Jhelum rises at Verinag, flows through the Wular lake and joins the Chenab in Pakistan.\n3. The Chenab is formed by the Chandra and Bhaga streams at Tandi in Himachal Pradesh and is the largest tributary of the Indus.\n4. Under the Indus Waters Treaty of 1960, India has exclusive use of the Ravi, Beas and Sutlej.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Sutlej rises from Rakas Tal near Mansarovar and is an antecedent river; the Bhakra dam is built on it. The Beas is the only major Indus tributary lying wholly within India."
+    },
+    {
+      "id": "q12",
+      "question": "Consider the following statements about the Ganga river system:\n1. The Bhagirathi rises at the Gangotri glacier and meets the Alaknanda at Devprayag to form the Ganga.\n2. The Ganga enters the plains at Haridwar and flows through Uttar Pradesh, Bihar and West Bengal before entering Bangladesh as the Padma.\n3. The Yamuna is its longest tributary and joins it at Prayagraj.\n4. The Son is a major right-bank tributary rising at Amarkantak and joining the Ganga near Patna.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Alaknanda has the confluences of Vishnuprayag, Nandprayag, Karnaprayag and Rudraprayag. The Hooghly is the Ganga's distributary in West Bengal with Farakka barrage regulating its flow."
+    },
+    {
+      "id": "q13",
+      "question": "Which of the following pairs of left-bank tributary of the Ganga and its origin is/are correctly matched?\n1. Ghaghara : Rises in Tibet as the Karnali\n2. Gandak : Rises in Nepal near the Tibet border and is called Narayani in Nepal\n3. Kosi : Formed by the Sun Kosi, Arun and Tamur, called Saptakosi\n4. Ramganga : Rises in the Garhwal hills\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Gomti, Mahananda and Burhi Gandak are other left-bank tributaries; the Yamuna, Son, Punpun, Damodar and Tons are right-bank tributaries. The Kosi is notorious for shifting its course."
+    },
+    {
+      "id": "q14",
+      "question": "Consider the following statements about the Brahmaputra:\n1. It rises from the Chemayungdung glacier near Mansarovar and flows eastward through Tibet as the Tsangpo.\n2. It enters India in Arunachal Pradesh as the Dihang (Siang) and receives the Dibang and Lohit to become the Brahmaputra.\n3. Majuli, on the Brahmaputra in Assam, is the largest river island in India.\n4. It is known as the Jamuna in Bangladesh, where it joins the Padma and then the Meghna.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Brahmaputra carries the largest volume of water among Indian rivers and forms the world's largest delta, the Sundarbans, jointly with the Ganga. The Subansiri, Manas and Teesta are important tributaries."
+    },
+    {
+      "id": "q15",
+      "question": "Which of the following peninsular rivers flow westward into the Arabian Sea?\n1. Narmada\n2. Tapi\n3. Mahi\n4. Mahanadi\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "The Mahanadi flows east into the Bay of Bengal. The Narmada and Tapi flow through rift valleys and form estuaries rather than deltas. The Sabarmati, Mahi, Luni (which ends in the Rann of Kutch), Sharavati and Periyar also flow west."
+    },
+    {
+      "id": "q16",
+      "question": "Which of the following pairs of peninsular river and its source is/are correctly matched?\n1. Godavari : Trimbak near Nashik\n2. Krishna : Mahabaleshwar\n3. Kaveri : Talakaveri in the Brahmagiri hills of Coorg\n4. Mahanadi : Sihawa in Chhattisgarh\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Godavari, called the 'Dakshina Ganga', is the longest peninsular river. The Krishna's tributaries include the Bhima and Tungabhadra; the Kaveri's include the Kabini, Hemavati and Amaravati."
+    },
+    {
+      "id": "q17",
+      "question": "Consider the following statements about the mechanism of the Indian monsoon:\n1. Intense heating of the Tibetan plateau and the north-western plains in summer creates a low pressure that draws in moist winds from the Indian Ocean.\n2. The northward shift of the ITCZ over the Ganga plain (the 'monsoon trough') and the arrival of the tropical easterly jet are associated with the onset.\n3. The withdrawal of the subtropical westerly jet from south of the Himalayas to north of Tibet precedes the monsoon burst.\n4. The Somali jet and cross-equatorial flow strengthen the south-west monsoon over the Arabian Sea.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The south-east trades of the southern hemisphere cross the equator and are deflected to become south-westerlies. ENSO and the Indian Ocean Dipole modulate monsoon strength."
+    },
+    {
+      "id": "q18",
+      "question": "Consider the following statements about the south-west monsoon:\n1. It normally sets in over Kerala around 1 June and covers the whole country by mid-July.\n2. The Arabian Sea branch strikes the Western Ghats, giving heavy rain to the windward coast and much less to the leeward Deccan.\n3. The Bay of Bengal branch is deflected westward by the Arakan and Himalayan barriers up the Ganga valley, and rainfall decreases from east to west.\n4. 'Breaks' in the monsoon occur when the monsoon trough shifts to the foothills of the Himalayas, bringing rain to the hills but dry weather to the plains.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. About three-quarters of India's annual rainfall comes from the south-west monsoon. Mawsynram in Meghalaya receives over 11,000 mm, while Jaisalmer receives under 200 mm."
+    },
+    {
+      "id": "q19",
+      "question": "Consider the following statements about the retreating and north-east monsoon:\n1. The south-west monsoon withdraws from north-west India in September and from the peninsula by December.\n2. During October-November the Tamil Nadu coast receives most of its rainfall from the north-east monsoon.\n3. Tropical cyclones in the Bay of Bengal are most frequent in October-November and strike Odisha, Andhra Pradesh and Tamil Nadu.\n4. 'October heat' refers to the oppressive humid weather during the transition.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The north-east monsoon winds pick up moisture over the Bay of Bengal and give Chennai its rainiest season. The Bay of Bengal sees more cyclones than the Arabian Sea."
+    },
+    {
+      "id": "q20",
+      "question": "Which of the following pairs of pre-monsoon local storm and region is/are correctly matched?\n1. Kalbaisakhi (Norwesters) : West Bengal, Bihar and Assam\n2. Mango showers : Kerala and Karnataka\n3. Cherry blossom showers : Karnataka coffee plantations\n4. Loo : Hot dry winds of the northern plains\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Kalbaisakhi, meaning 'calamity of the month of Baisakh', brings hail and strong winds but is useful for rice, jute and tea. Western disturbances bring winter rain beneficial to rabi wheat in the north-west."
+    },
+    {
+      "id": "q21",
+      "question": "Consider the following statements about the classification of India's climate:\n1. Most of India falls under the tropical monsoon type in Koppen's scheme, with north India as 'Cwg' (monsoon type with dry winters).\n2. The Thar region is 'BWhw' (hot desert) and the Himalayan region 'E' (polar) and 'H' types.\n3. Rajasthan's annual range of temperature is greater than that of coastal Kerala.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Continentality increases the temperature range in the interior; coastal areas have equable climates. Dras in Ladakh is among the coldest inhabited places in India."
+    },
+    {
+      "id": "q22",
+      "question": "Consider the following statements about alluvial soils:\n1. They cover about 40 per cent of India's area, mainly in the northern plains and the coastal deltas.\n2. They are generally rich in potash but poor in phosphorus and nitrogen.\n3. Khadar is more fertile than Bhangar because it receives fresh silt annually.\n4. They are transported (azonal) soils.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Alluvial soils are the most important agriculturally, supporting rice, wheat and sugarcane. In the deltas they are heavier and more clayey."
+    },
+    {
+      "id": "q23",
+      "question": "Consider the following statements about black (regur) soils:\n1. They are derived from the weathering of Deccan basalt and are found in Maharashtra, Gujarat, Madhya Pradesh and parts of Andhra, Karnataka and Tamil Nadu.\n2. They are rich in lime, iron, magnesium and alumina but poor in nitrogen, phosphorus and organic matter.\n3. They have high moisture-retaining capacity and develop deep cracks in summer, which helps aeration ('self-ploughing').\n4. They are ideal for cotton cultivation.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The colour comes from titaniferous magnetite and iron compounds. The soil becomes sticky when wet and is difficult to work, so ploughing is done early in the dry season."
+    },
+    {
+      "id": "q24",
+      "question": "Which of the following pairs of soil type and characteristic is/are correctly matched?\n1. Red soil : Formed on crystalline rocks of the peninsula, colour due to iron oxide, poor in nitrogen and humus\n2. Laterite soil : Formed under high temperature and heavy rainfall by leaching, used for making bricks, suitable for tea, coffee and cashew\n3. Arid soil : Sandy, saline, with 'kankar' layers restricting infiltration, found in Rajasthan\n4. Peaty soil : Rich in organic matter, found in Kerala, Bengal and Odisha in waterlogged areas\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Saline (usar) soils occur in dry areas with poor drainage, and forest (mountain) soils vary with altitude. The Indian Council of Agricultural Research classifies Indian soils into eight major groups."
+    },
+    {
+      "id": "q25",
+      "question": "Which of the following pairs of forest type and rainfall or region is/are correctly matched?\n1. Tropical evergreen : Over 200 cm rainfall; Western Ghats, north-east and Andamans; rosewood, ebony, mahogany\n2. Tropical deciduous (monsoon forest) : 70-200 cm; the most widespread type; teak, sal, shisham\n3. Tropical thorn : Below 70 cm; Rajasthan, Gujarat and the Deccan rain shadow; acacia, khejri\n4. Montane : Himalayas, with oak, chestnut, deodar, pine and alpine pastures (bugyals)\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Deciduous forests are further divided into moist (sal) and dry (teak) types. Mangrove (littoral) forests with sundari trees occur in the Sundarbans and other deltas."
+    },
+    {
+      "id": "q26",
+      "question": "Consider the following statements about the India State of Forest Report:\n1. Forest cover in India is about 21-22 per cent of the geographical area, and forest plus tree cover about 25 per cent.\n2. Madhya Pradesh has the largest forest area, followed by Arunachal Pradesh and Chhattisgarh.\n3. Mizoram has the highest percentage of forest cover among states.\n4. The National Forest Policy of 1988 aims at 33 per cent forest cover.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The report is published biennially by the Forest Survey of India, Dehradun. Forest cover is classified as very dense (canopy over 70 per cent), moderately dense and open forest."
+    },
+    {
+      "id": "q27",
+      "question": "Which of the following pairs of biosphere reserve and state is/are correctly matched?\n1. Nilgiri : Tamil Nadu, Kerala and Karnataka; the first biosphere reserve of India (1986)\n2. Nanda Devi : Uttarakhand\n3. Sundarbans : West Bengal\n4. Panna : Madhya Pradesh\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. India has 18 biosphere reserves, of which 12 are in UNESCO's World Network under the Man and Biosphere programme. Others include Gulf of Mannar, Great Nicobar, Simlipal, Pachmarhi, Achanakmar-Amarkantak and Cold Desert."
+    },
+    {
+      "id": "q28",
+      "question": "Which of the following pairs of national park and its notable wildlife is/are correctly matched?\n1. Kaziranga (Assam) : One-horned rhinoceros\n2. Gir (Gujarat) : Asiatic lion\n3. Keoladeo Ghana (Rajasthan) : Migratory birds, including the Siberian crane historically\n4. Dachigam (Jammu and Kashmir) : Hangul (Kashmir stag)\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Other associations include Hemis (snow leopard), Sultanpur and Chilika (birds), Periyar (elephant), Ranthambore, Corbett and Sundarbans (tiger), and Kuno (reintroduced cheetah, 2022)."
+    },
+    {
+      "id": "q29",
+      "question": "Consider the following statements about Project Tiger and tiger reserves:\n1. Project Tiger was launched in 1973 with nine reserves, Jim Corbett being the first.\n2. The National Tiger Conservation Authority was constituted in 2006 under the Wildlife (Protection) Act.\n3. Tiger reserves have a core area with national park status and a buffer zone allowing regulated human activity.\n4. Madhya Pradesh is called the 'Tiger State' for having the largest tiger population.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. India has over 50 tiger reserves and about three-quarters of the world's wild tigers. The All India Tiger Estimation is carried out every four years."
+    },
+    {
+      "id": "q30",
+      "question": "Consider the following statements about Ramsar wetlands in India:\n1. India joined the Ramsar Convention in 1982, and Chilika and Keoladeo were its first designated sites.\n2. Tamil Nadu has the largest number of Ramsar sites among Indian states.\n3. The Sundarbans is the largest Ramsar site in India by area.\n4. World Wetlands Day is observed on 2 February.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. India's Ramsar list has grown rapidly since 2019 to over 80 sites. The Montreux Record lists sites under threat; Keoladeo and Loktak have been on it."
+    },
+    {
+      "id": "q31",
+      "question": "Consider the following statements about the Sundarbans:\n1. It is the world's largest mangrove forest, shared by India and Bangladesh.\n2. It is named after the sundari tree (Heritiera fomes).\n3. It is the only mangrove tiger habitat in the world.\n4. It is a UNESCO World Heritage Site, a biosphere reserve and a Ramsar site.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Mangroves have breathing roots (pneumatophores) and viviparous seeds and protect coasts from cyclones and erosion. Bhitarkanika in Odisha is India's second largest mangrove area."
+    },
+    {
+      "id": "q32",
+      "question": "Which of the following pairs of river and its dam or project is/are correctly matched?\n1. Sutlej : Bhakra Nangal\n2. Narmada : Sardar Sarovar and Indira Sagar\n3. Krishna : Nagarjunasagar and Srisailam\n4. Mahanadi : Hirakud\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Hirakud is one of the longest dams in the world; Tehri on the Bhagirathi is India's highest; Bhakra is one of the highest gravity dams. The Damodar Valley Corporation (1948) was India's first multipurpose project, modelled on the Tennessee Valley Authority."
+    },
+    {
+      "id": "q33",
+      "question": "Consider the following statements about the drainage patterns of India:\n1. The Himalayan rivers are perennial, being fed by both rain and snowmelt, while most peninsular rivers are seasonal.\n2. The Indus, Sutlej and Brahmaputra are antecedent rivers that predate the Himalayas and cut deep gorges through them.\n3. Peninsular rivers have broad, shallow valleys and are close to base level, with limited erosional activity.\n4. The Ganga-Brahmaputra basin is the largest river basin of India.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Himalayan rivers form meanders, oxbow lakes and deltas; peninsular rivers have fixed courses and waterfalls such as Jog (Sharavati), Dhuandhar (Narmada) and Shivasamudram (Kaveri)."
+    },
+    {
+      "id": "q34",
+      "question": "Which of the following pairs of waterfall and river is/are correctly matched?\n1. Jog (Gersoppa) : Sharavati\n2. Dhuandhar : Narmada\n3. Chitrakoot : Indravati\n4. Kunchikal : Varahi\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Kunchikal in Karnataka is India's highest waterfall by total height; Nohkalikai in Meghalaya is the tallest plunge waterfall. Hundru is on the Subarnarekha in Jharkhand."
+    },
+    {
+      "id": "q35",
+      "question": "Consider the following statements about India's lakes:\n1. Wular in Kashmir is the largest freshwater lake in India.\n2. Sambhar in Rajasthan is the largest inland saline lake and a source of salt.\n3. Loktak in Manipur has floating 'phumdis' and the Keibul Lamjao National Park, home of the sangai deer.\n4. Dal, Nainital and Bhimtal are tectonic or glacial lakes of the Himalayas.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Kolleru in Andhra Pradesh lies between the Krishna and Godavari deltas, and Lonar in Maharashtra is a meteorite-impact crater lake in the Deccan basalt."
+    },
+    {
+      "id": "q36",
+      "question": "Consider the following statements about the Thar desert:\n1. It lies in western Rajasthan and extends into Pakistan, with Jaisalmer, Barmer and Bikaner among its districts.\n2. The Luni is the only significant river, and it ends in the Rann of Kutch.\n3. The Indira Gandhi canal from the Harike barrage on the Sutlej-Beas has brought irrigation to parts of the desert.\n4. The Desert National Park near Jaisalmer protects the Great Indian Bustard.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Aravallis on the eastern edge fail to block the south-west monsoon because they run parallel to it, contributing to the aridity."
+    },
+    {
+      "id": "q37",
+      "question": "Which of the following pairs of hill range and state is/are correctly matched?\n1. Satpura : Between the Narmada and the Tapi\n2. Vindhya : North of the Narmada, forming the traditional boundary between north and south India\n3. Nallamala : Andhra Pradesh, part of the Eastern Ghats\n4. Cardamom hills : Kerala, at the southern end of the Western Ghats\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Dhupgarh in the Satpuras is the highest point of Madhya Pradesh. The Maikal range links the Satpuras with the Chhattisgarh plateau, with Amarkantak as the source of both the Narmada and the Son."
+    },
+    {
+      "id": "q38",
+      "question": "Consider the following statements about earthquake zoning in India:\n1. The seismic zoning map divides India into zones II to V, with zone V being the most hazardous.\n2. Zone V includes the north-eastern states, Kashmir, parts of Himachal, Uttarakhand, north Bihar, Kutch and the Andaman and Nicobar Islands.\n3. The 2001 Bhuj earthquake occurred in a zone V area.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Nearly 59 per cent of India's land is vulnerable to earthquakes. The 1934 Bihar-Nepal earthquake and the 2015 Nepal earthquake struck the same zone V belt of the Himalayan front."
+    },
+    {
+      "id": "q39",
+      "question": "Consider the following statements about rainfall distribution in India:\n1. Areas of very high rainfall (over 200 cm) include the Western Ghats' windward slopes, the north-eastern hills and the Andamans.\n2. Areas of low rainfall (below 60 cm) include western Rajasthan, Ladakh and the rain-shadow interior of the Deccan.\n3. The variability of rainfall is highest in the low-rainfall regions, making them drought-prone.\n4. India's average annual rainfall is about 118 cm.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The India Meteorological Department (1875) issues monsoon forecasts, and the Long Period Average is used to classify a monsoon as normal, deficient or excess."
+    },
+    {
+      "id": "q40",
+      "question": "Consider the following statements about the Ganga plain in Bihar as part of India's physiography:\n1. The Ganga plain is widest in Bihar, where the river receives its largest Himalayan tributaries.\n2. The Kosi's alluvial fan in north Bihar is one of the largest in the world.\n3. The southern edge of the Bihar plain merges into the Chotanagpur plateau and the Kaimur range.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. The Kosi megafan covers thousands of square kilometres, and its westward migration by over 100 km in two centuries is a classic example of river avulsion."
+    }
+  ]
+}

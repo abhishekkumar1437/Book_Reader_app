@@ -1,0 +1,290 @@
+{
+  "title": "Economic and Human Geography of India",
+  "subject": "Geography",
+  "topic": "Crops and cropping seasons, irrigation, minerals, coal, petroleum and power, major industries and their locations, railways, roads, ports and waterways, Census 2011, urbanisation, tribes and migration",
+  "description": "UPSC/BPSC-level questions on India's resources and people: agricultural regions and leading producer states, mineral belts, energy sources, the location of iron and steel, textile and other industries, transport networks and the demographic profile revealed by the 2011 Census.",
+  "timeLimitMinutes": 40,
+  "createdAt": "2026-09-24",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Consider the following statements about cropping seasons in India:\n1. Kharif crops such as rice, maize, cotton, jute and groundnut are sown with the onset of the monsoon and harvested in autumn.\n2. Rabi crops such as wheat, barley, gram and mustard are sown in October-November and harvested in spring.\n3. Zaid crops such as watermelon, cucumber and fodder are grown in the short summer season between rabi and kharif.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Rabi crops in the north-west benefit from winter rain brought by western disturbances. Rice is grown in all three seasons in some states, such as aus, aman and boro in West Bengal."
+    },
+    {
+      "id": "q2",
+      "question": "Consider the following statements about rice cultivation:\n1. Rice requires high temperature (above 25 degrees Celsius), high humidity and rainfall above 100 cm, or irrigation.\n2. West Bengal has generally been the largest producer, followed by Uttar Pradesh and Punjab.\n3. Punjab and Haryana have high yields because of assured irrigation and the Green Revolution.\n4. India is the largest exporter of rice in the world.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. India is the second largest producer after China. Basmati rice from the Indo-Gangetic plain holds a geographical indication. Rice occupies the largest cropped area in India."
+    },
+    {
+      "id": "q3",
+      "question": "Consider the following statements about wheat:\n1. Wheat is a rabi crop requiring cool growing season and bright sunshine at ripening, with 50-75 cm rainfall.\n2. Uttar Pradesh is the largest producer, followed by Punjab, Haryana and Madhya Pradesh.\n3. It is grown mainly in the alluvial plains of the north-west and the black soils of Madhya Pradesh.\n4. Wheat is the staple in south India.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "Wheat is the staple of north and north-west India, while rice dominates the south and east. The Indian Agricultural Research Institute and Punjab Agricultural University developed the high-yielding varieties of the Green Revolution."
+    },
+    {
+      "id": "q4",
+      "question": "Which of the following pairs of crop and leading producing state is/are correctly matched?\n1. Sugarcane : Uttar Pradesh\n2. Cotton : Gujarat\n3. Jute : West Bengal\n4. Tea : Assam\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Maharashtra rivals Uttar Pradesh in sugarcane and Gujarat in cotton. Coffee is led by Karnataka, rubber by Kerala, spices by Kerala and Andhra, and coconut by Kerala, Karnataka and Tamil Nadu."
+    },
+    {
+      "id": "q5",
+      "question": "Consider the following statements about pulses and oilseeds:\n1. India is the largest producer and consumer of pulses, with Madhya Pradesh, Maharashtra and Rajasthan as leading states.\n2. Pulses fix atmospheric nitrogen and are grown in rotation with cereals.\n3. Groundnut is the leading oilseed, with Gujarat as the largest producer; soybean is led by Madhya Pradesh and Maharashtra.\n4. India is self-sufficient in edible oils.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "India imports a large share of its edible oil, mainly palm oil from Indonesia and Malaysia. Rapeseed-mustard is the leading rabi oilseed, with Rajasthan the largest producer."
+    },
+    {
+      "id": "q6",
+      "question": "Consider the following statements about plantation crops:\n1. Tea requires well-drained slopes, warm humid climate and rainfall above 150 cm; Assam, West Bengal (Darjeeling), Tamil Nadu and Kerala are the main producers.\n2. Coffee, introduced at Chikmagalur in Karnataka, is grown mainly in the Western Ghats of Karnataka, Kerala and Tamil Nadu.\n3. Rubber is grown mainly in Kerala and Tamil Nadu, with Tripura emerging as a producer.\n4. Darjeeling tea was the first Indian product to receive a geographical indication.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Arabica and Robusta are the two coffee varieties grown. Tea plantations were started by the British in the Brahmaputra valley in the 1830s."
+    },
+    {
+      "id": "q7",
+      "question": "Consider the following statements about irrigation in India:\n1. Wells and tube wells are the largest source of irrigation, followed by canals and tanks.\n2. Tank irrigation is important in the peninsular states such as Tamil Nadu, Karnataka and Andhra Pradesh.\n3. Punjab has the highest proportion of irrigated cropped area among the major states.\n4. The Pradhan Mantri Krishi Sinchayee Yojana promotes 'per drop more crop' through micro-irrigation.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Over-extraction of groundwater in Punjab, Haryana and Rajasthan has caused a sharp fall in the water table. Uttar Pradesh has the largest area under canal irrigation in absolute terms."
+    },
+    {
+      "id": "q8",
+      "question": "Consider the following statements about India's agricultural regions and practices:\n1. Jhum (shifting cultivation) is practised in the north-eastern hills.\n2. Plantation agriculture is capital-intensive and export-oriented.\n3. Intensive subsistence farming with high labour input characterises the densely populated plains.\n4. Dry farming is practised in areas receiving less than 75 cm of rainfall, with crops such as bajra, jowar and pulses.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Shifting cultivation is called 'podu' in Andhra and Odisha, 'bewar' in Madhya Pradesh and 'kuruwa' in Jharkhand. Millets have been promoted as 'nutri-cereals', with 2023 the International Year of Millets."
+    },
+    {
+      "id": "q9",
+      "question": "Consider the following statements about iron ore in India:\n1. India has large reserves of high-grade haematite in Odisha, Jharkhand, Chhattisgarh and Karnataka, and magnetite in Karnataka.\n2. Odisha is the largest producer, with mines at Sundargarh (Barbil-Koira) and Keonjhar.\n3. Bailadila in Chhattisgarh exports ore through Visakhapatnam port.\n4. Kudremukh in Karnataka was a major magnetite mine exporting through Mangalore.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Other important mines are Noamundi and Gua in Jharkhand, Dalli-Rajhara in Chhattisgarh, Bellary-Hospet in Karnataka and Goa. India is among the top iron ore producers in the world."
+    },
+    {
+      "id": "q10",
+      "question": "Which of the following pairs of mineral and leading producing state or region is/are correctly matched?\n1. Bauxite : Odisha (Koraput, Kalahandi)\n2. Manganese : Madhya Pradesh (Balaghat) and Maharashtra (Nagpur, Bhandara)\n3. Copper : Khetri in Rajasthan, Malanjkhand in Madhya Pradesh and Singhbhum in Jharkhand\n4. Mica : Andhra Pradesh, Rajasthan and Jharkhand (Koderma-Hazaribagh belt)\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Chromite is mined mainly at Sukinda in Odisha, lead-zinc at Zawar and Rampura-Agucha in Rajasthan, gold at Hutti in Karnataka, and diamonds at Panna in Madhya Pradesh."
+    },
+    {
+      "id": "q11",
+      "question": "Consider the following statements about coal in India:\n1. About 98 per cent of India's coal reserves are of Gondwana age, found in the Damodar, Son, Mahanadi and Godavari valleys.\n2. Tertiary coal (lignite) occurs at Neyveli in Tamil Nadu and in the north-eastern states.\n3. Jharia in Jharkhand is the most important coking coal field, and Raniganj in West Bengal is the oldest.\n4. Chhattisgarh, Odisha and Jharkhand are the leading coal-producing states.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Coal India Limited, headquartered at Kolkata, is the world's largest coal producer. Coal provides about half of India's commercial energy, and Singrauli and Korba are major mining and thermal power centres."
+    },
+    {
+      "id": "q12",
+      "question": "Consider the following statements about petroleum and natural gas in India:\n1. Digboi in Assam (1889) was the first oilfield, and the Mumbai High offshore field, discovered in the 1970s, is the largest producer.\n2. Rajasthan's Barmer basin (Mangala field) became a major onshore producer in the 2000s.\n3. The Krishna-Godavari basin is important for natural gas.\n4. India imports over 80 per cent of its crude oil requirement.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Refineries are located at Jamnagar (the world's largest refining complex), Mathura, Panipat, Koyali, Barauni, Haldia, Visakhapatnam, Kochi and elsewhere. The HVJ (Hazira-Vijaipur-Jagdishpur) pipeline was the first major gas pipeline."
+    },
+    {
+      "id": "q13",
+      "question": "Consider the following statements about power generation in India:\n1. Thermal power, mainly coal-based, accounts for the largest share of electricity generation.\n2. India's installed renewable capacity, especially solar and wind, has grown rapidly, with Rajasthan, Gujarat and Tamil Nadu leading in solar and wind respectively.\n3. Tarapur in Maharashtra was India's first nuclear power station.\n4. Kudankulam in Tamil Nadu is the largest nuclear plant, built with Russian collaboration.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Hydroelectricity is important in the Himalayan states and the Western Ghats. The Bhadla solar park in Rajasthan is among the largest in the world, and the Muppandal wind farm in Tamil Nadu among India's largest."
+    },
+    {
+      "id": "q14",
+      "question": "Which of the following pairs of iron and steel plant and the collaborating country at its establishment is/are correctly matched?\n1. Bhilai (Chhattisgarh) : Soviet Union\n2. Rourkela (Odisha) : West Germany\n3. Durgapur (West Bengal) : United Kingdom\n4. Bokaro (Jharkhand) : Soviet Union\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. TISCO at Jamshedpur (1907) was India's first modern steel plant, and Burnpur (IISCO) and Bhadravati (Visvesvaraya) are older plants. Later plants include Visakhapatnam (the first coastal plant) and Salem."
+    },
+    {
+      "id": "q15",
+      "question": "Consider the following statements about the location of the cotton textile industry:\n1. Mumbai became the 'Cottonopolis of India' because of humid climate, port facilities, capital and proximity to cotton-growing areas.\n2. Ahmedabad is called the 'Manchester of India'.\n3. Coimbatore is called the 'Manchester of South India'.\n4. Kanpur is called the 'Manchester of North India'.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The first successful cotton mill was set up in Mumbai in 1854. The industry has shifted toward the south because of cheap hydroelectricity and labour, with Tamil Nadu having the largest number of mills."
+    },
+    {
+      "id": "q16",
+      "question": "Which of the following pairs of industry and centre is/are correctly matched?\n1. Jute : Hooghly belt of West Bengal, including Rishra, Titagarh and Serampore\n2. Sugar : Uttar Pradesh and Maharashtra, with the industry shifting south because of higher sucrose content and longer crushing season\n3. Cement : Rajasthan, Andhra Pradesh, Madhya Pradesh and Gujarat, near limestone deposits\n4. Aluminium : Renukoot, Korba, Hirakud, Angul and Nalco's Damanjodi\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The first jute mill was set up at Rishra in 1855. Aluminium smelting requires cheap power, so plants are located near hydroelectric or thermal sources rather than at bauxite mines."
+    },
+    {
+      "id": "q17",
+      "question": "Consider the following statements about India's information technology and automobile industries:\n1. Bengaluru is called the 'Silicon Valley of India', and Hyderabad, Pune, Chennai and Noida-Gurugram are other major IT hubs.\n2. Chennai is called the 'Detroit of India' for its automobile industry.\n3. Pune, Gurugram-Manesar, Sanand and Jamshedpur are other major automobile centres.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Software Technology Parks of India were set up in 1991 to promote exports. India is among the largest producers of two-wheelers and passenger cars in the world."
+    },
+    {
+      "id": "q18",
+      "question": "Consider the following statements about Indian Railways:\n1. The first train ran from Bombay to Thane in 1853, and India's network is among the largest in the world.\n2. Indian Railways is organised into zones, with the East Central Railway headquartered at Hajipur in Bihar.\n3. The Konkan Railway links Roha in Maharashtra with Mangalore.\n4. The Dedicated Freight Corridors run between Ludhiana and Dankuni (eastern) and Dadri and JNPT (western).\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Chittaranjan Locomotive Works, Diesel Locomotive Works at Varanasi and Integral Coach Factory at Perambur are production units. The Darjeeling Himalayan, Nilgiri and Kalka-Shimla lines are UNESCO Mountain Railways."
+    },
+    {
+      "id": "q19",
+      "question": "Consider the following statements about roads in India:\n1. National Highways are constructed and maintained by the Central Government and account for a small share of road length but carry about 40 per cent of traffic.\n2. NH 44 from Srinagar to Kanyakumari is the longest national highway.\n3. The Golden Quadrilateral connects Delhi, Mumbai, Chennai and Kolkata.\n4. The Border Roads Organisation, set up in 1960, builds roads in strategic border areas.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The North-South and East-West corridors (Srinagar-Kanyakumari and Silchar-Porbandar) complement the Golden Quadrilateral. The Pradhan Mantri Gram Sadak Yojana (2000) connects villages."
+    },
+    {
+      "id": "q20",
+      "question": "Which of the following pairs of port and state is/are correctly matched?\n1. Kandla (Deendayal) : Gujarat; developed after partition to replace Karachi\n2. Jawaharlal Nehru Port (Nhava Sheva) : Maharashtra; the largest container port\n3. Paradip : Odisha; exports iron ore\n4. Ennore (Kamarajar) : Tamil Nadu; India's first corporate port\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Mumbai is the largest natural harbour, Marmagao exports iron ore from Goa, New Mangalore exports Kudremukh ore, Kochi is a natural harbour in Kerala, and Visakhapatnam is the deepest landlocked port."
+    },
+    {
+      "id": "q21",
+      "question": "Consider the following statements about inland waterways:\n1. National Waterway 1 runs from Haldia to Prayagraj on the Ganga-Bhagirathi-Hooghly, with multimodal terminals at Varanasi, Sahibganj and Haldia.\n2. National Waterway 2 is on the Brahmaputra from Dhubri to Sadiya.\n3. National Waterway 3 is the West Coast Canal in Kerala from Kollam to Kottapuram.\n4. The Inland Waterways Authority of India was set up in 1986.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The National Waterways Act, 2016 declared 111 national waterways. Inland water transport is the cheapest mode for bulk cargo, and NW 1 passes through Patna and Bhagalpur in Bihar."
+    },
+    {
+      "id": "q22",
+      "question": "Consider the following statements about the Census of 2011:\n1. India's population was 121.09 crore, making it the second most populous country, with 17.5 per cent of the world's population on 2.4 per cent of its area.\n2. The decadal growth rate of 2001-11 was 17.7 per cent, lower than the 21.5 per cent of 1991-2001.\n3. The sex ratio was 943 females per 1,000 males, and the child sex ratio (0-6 years) was 919.\n4. The literacy rate was 74.04 per cent, with male literacy at 82.1 and female at 65.5 per cent.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The 2011 Census was the fifteenth since 1872 and the seventh after independence. India became the most populous country in 2023 according to UN estimates."
+    },
+    {
+      "id": "q23",
+      "question": "Consider the following statements about state-wise data of the Census of 2011:\n1. Uttar Pradesh is the most populous state and Sikkim the least populous.\n2. Bihar has the highest population density (1,106 per sq km) among states, and Arunachal Pradesh the lowest.\n3. Kerala has the highest literacy rate and sex ratio, and Bihar the lowest literacy rate.\n4. Rajasthan is the largest state by area and Goa the smallest.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Haryana had the lowest sex ratio among states (879), and Meghalaya the highest decadal growth (27.9 per cent) while Nagaland recorded a decline. The National Capital Territory of Delhi has the highest density among all units."
+    },
+    {
+      "id": "q24",
+      "question": "Consider the following statements about urbanisation in India:\n1. According to the 2011 Census, 31.2 per cent of India's population lived in urban areas.\n2. A 'census town' is a place with at least 5,000 people, density of 400 per sq km and 75 per cent of male workers in non-agricultural activities.\n3. Goa is the most urbanised state, and Himachal Pradesh the least.\n4. Cities with more than one million population are called million-plus cities, and Greater Mumbai is the largest urban agglomeration.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. In 2011 India had 53 million-plus urban agglomerations, and for the first time the absolute increase in urban population exceeded that in rural population. Tamil Nadu, Kerala and Maharashtra are highly urbanised."
+    },
+    {
+      "id": "q25",
+      "question": "Which of the following pairs of tribe and state is/are correctly matched?\n1. Bhil : Rajasthan, Madhya Pradesh, Gujarat and Maharashtra; the largest tribe in India by population\n2. Gond : Madhya Pradesh, Chhattisgarh and Maharashtra\n3. Santhal : Jharkhand, West Bengal, Odisha and Bihar\n4. Toda : Nilgiri hills of Tamil Nadu\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Scheduled Tribes were 8.6 per cent of the population in 2011, with Madhya Pradesh having the largest number and Mizoram and Lakshadweep the highest proportion. The Sentinelese and Jarawa of the Andamans are Particularly Vulnerable Tribal Groups."
+    },
+    {
+      "id": "q26",
+      "question": "Consider the following statements about migration in India:\n1. Marriage is the most common reason for female migration, and work or employment for male migration.\n2. Uttar Pradesh and Bihar are the largest sources of out-migration, and Maharashtra and Delhi major destinations.\n3. Rural-to-rural migration is the largest stream in terms of numbers.\n4. Remittances from migrants are an important source of income for states like Kerala and Bihar.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Census records migration by place of birth and place of last residence. The COVID-19 lockdown of 2020 highlighted the scale of inter-state labour migration."
+    },
+    {
+      "id": "q27",
+      "question": "Consider the following statements about India's population composition:\n1. India has a young population with a median age below 30 years, giving it a demographic dividend.\n2. Kerala has the highest proportion of elderly population.\n3. The working population (15-59 years) constitutes about 60 per cent of the total.\n4. The total fertility rate has fallen below the replacement level of 2.1 according to the National Family Health Survey-5.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Bihar, Uttar Pradesh and Meghalaya still have fertility above replacement, while southern states are well below. The National Population Policy of 2000 aimed at replacement-level fertility."
+    },
+    {
+      "id": "q28",
+      "question": "Consider the following statements about the Green Revolution:\n1. It began in the mid-1960s with high-yielding varieties of wheat and rice, chemical fertilisers, irrigation and credit.\n2. Its benefits were initially concentrated in Punjab, Haryana and western Uttar Pradesh.\n3. It made India self-sufficient in food grains.\n4. It also led to problems such as declining water tables, soil degradation and regional and crop imbalances.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The 'Evergreen Revolution' advocated by M.S. Swaminathan seeks sustainable productivity gains. The eastern states, including Bihar, were targeted by the 'Bringing Green Revolution to Eastern India' initiative from 2010."
+    },
+    {
+      "id": "q29",
+      "question": "Which of the following pairs of horticultural or livestock product and leading state is/are correctly matched?\n1. Mango : Uttar Pradesh\n2. Banana : Andhra Pradesh, Maharashtra and Gujarat among the leaders\n3. Apple : Jammu and Kashmir and Himachal Pradesh\n4. Milk : Uttar Pradesh and Rajasthan among the largest producers\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. India is the world's largest milk producer following Operation Flood, and the largest producer of mango, banana, papaya and several spices. Andhra Pradesh leads in inland fish and egg production."
+    },
+    {
+      "id": "q30",
+      "question": "Consider the following statements about India's fisheries:\n1. India is the second largest fish producer in the world, with inland fisheries now contributing more than marine.\n2. Andhra Pradesh is the largest fish-producing state.\n3. Kerala, Gujarat and Tamil Nadu are major marine fishing states.\n4. The 'Blue Revolution' scheme and the Pradhan Mantri Matsya Sampada Yojana promote fisheries development.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. India's exclusive economic zone extends 200 nautical miles from the coast. Bihar's fish production has grown rapidly through pond culture, making it nearly self-sufficient."
+    },
+    {
+      "id": "q31",
+      "question": "Consider the following statements about India's pipelines and gas infrastructure:\n1. The Naharkatiya-Nunmati-Barauni pipeline was India's first cross-country crude oil pipeline, linking Assam oilfields with the Barauni refinery in Bihar.\n2. The Salaya-Mathura pipeline carries imported crude from the Gujarat coast to refineries in the north.\n3. The Jagdishpur-Haldia and Bokaro-Dhamra natural gas pipeline (Pradhan Mantri Urja Ganga) brings gas to Bihar, Jharkhand, West Bengal and Odisha.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Pipelines are the most economical mode for transporting liquids and gases over long distances. The Barauni refinery was later also connected by the Haldia-Barauni crude pipeline."
+    },
+    {
+      "id": "q32",
+      "question": "Consider the following statements about India's airports and air transport:\n1. Air transport was nationalised in 1953, and the Airports Authority of India was formed in 1995.\n2. Delhi's Indira Gandhi International Airport is the busiest in India.\n3. The UDAN scheme aims at regional connectivity by capping fares and providing viability gap funding.\n4. Pawan Hans provides helicopter services, including to offshore installations.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Several airports have been privatised under public-private partnership, and Patna's Jay Prakash Narayan and Gaya airports serve Bihar, with Darbhanga developed under UDAN."
+    },
+    {
+      "id": "q33",
+      "question": "Which of the following pairs of industrial region and major centres is/are correctly matched?\n1. Mumbai-Pune region : Cotton textiles, engineering, chemicals, petroleum refining\n2. Hooghly region : Jute, engineering, paper\n3. Chotanagpur region : Iron and steel, heavy engineering, coal and minerals\n4. Gujarat region : Petrochemicals, textiles, diamonds and pharmaceuticals\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Other regions include Bengaluru-Chennai (electronics, automobiles, textiles), the Gurugram-Delhi-Meerut region and the Visakhapatnam-Guntur region. Industrial location depends on raw materials, power, labour, market and transport."
+    },
+    {
+      "id": "q34",
+      "question": "Consider the following statements about the pharmaceutical and fertiliser industries:\n1. India is called the 'pharmacy of the world' for generic medicines, with Hyderabad, Ahmedabad, Mumbai and Baddi as major centres.\n2. Sindri in Jharkhand had India's first large fertiliser plant (1951).\n3. Fertiliser plants are located near gas pipelines, such as those at Vijaipur, Hazira, Barauni and Gorakhpur.\n4. India is self-sufficient in urea and imports no fertiliser.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "India imports substantial quantities of urea, DAP and potash, since it has no potash deposits. The closed fertiliser plants at Barauni, Sindri and Gorakhpur were revived by Hindustan Urvarak and Rasayan Limited in 2021-22."
+    },
+    {
+      "id": "q35",
+      "question": "Consider the following statements about land use in India:\n1. Net sown area is about 43 per cent of the total reporting area.\n2. Forests occupy about 22-23 per cent, and land not available for cultivation includes barren land and land put to non-agricultural uses.\n3. Cropping intensity has increased with irrigation and the spread of double cropping.\n4. Punjab has the highest proportion of net sown area among the states.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Cropping intensity is the gross cropped area as a percentage of the net sown area. Culturable waste and fallow lands have declined as more land came under cultivation."
+    },
+    {
+      "id": "q36",
+      "question": "Consider the following statements about Special Economic Zones and industrial corridors:\n1. Kandla was the first export processing zone in Asia (1965), later converted to an SEZ.\n2. The Delhi-Mumbai Industrial Corridor is being developed with Japanese assistance along the western Dedicated Freight Corridor.\n3. The Amritsar-Kolkata Industrial Corridor passes through Bihar.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. The National Industrial Corridor Development programme covers eleven corridors. The Gaya integrated manufacturing cluster in Bihar is part of the Amritsar-Kolkata corridor."
+    },
+    {
+      "id": "q37",
+      "question": "Which of the following pairs of regional development scheme and region is/are correctly matched?\n1. Command Area Development Programme : Irrigated areas of major projects\n2. Drought Prone Areas Programme : Rain-shadow and semi-arid areas\n3. Hill Area Development Programme : Western Ghats, Darjeeling and Nilgiri hills\n4. Desert Development Programme : Rajasthan, Gujarat and Ladakh cold desert\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. These programmes were started in the 1970s to address regional imbalances and were later merged into the Integrated Watershed Management Programme."
+    },
+    {
+      "id": "q38",
+      "question": "Consider the following statements about the mineral belts of India:\n1. The north-eastern plateau region of Chotanagpur, Odisha and Chhattisgarh is the richest mineral belt, with iron ore, coal, manganese, bauxite and mica.\n2. The south-western plateau region of Karnataka, Goa and Kerala has iron ore, gold, bauxite and monazite sands.\n3. The north-western region of Rajasthan and Gujarat has copper, zinc, lead, gypsum, petroleum and salt.\n4. The Himalayan region is rich in coal and iron ore.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "The Himalayan region is mineral-poor except for limestone, gypsum, slate and some coal in Assam. The peninsular crystalline rocks host most metallic minerals, and the sedimentary rocks of Gondwana age host coal."
+    },
+    {
+      "id": "q39",
+      "question": "Consider the following statements about India's atomic minerals:\n1. Uranium is mined at Jaduguda in Jharkhand and Tummalapalle in Andhra Pradesh.\n2. Thorium is obtained from monazite sands of the Kerala coast, and India has among the world's largest thorium reserves.\n3. India's three-stage nuclear programme aims eventually to use thorium in breeder reactors.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Uranium Corporation of India Limited operates the mines, and Indian Rare Earths Limited processes beach sands. Heavy water plants supply pressurised heavy-water reactors."
+    },
+    {
+      "id": "q40",
+      "question": "Consider the following statements about India's workforce according to the Census of 2011:\n1. Cultivators and agricultural labourers together made up about 55 per cent of the total workers.\n2. The work participation rate was about 40 per cent, with a much lower rate for women than men.\n3. 'Main workers' are those who worked for six months or more in the reference year, and 'marginal workers' for less than six months.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. The share of agricultural labourers exceeded that of cultivators for the first time in 2011, indicating the decline of small landholdings. Household industry and 'other workers' make up the rest."
+    }
+  ]
+}

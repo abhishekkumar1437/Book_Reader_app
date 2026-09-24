@@ -1,0 +1,290 @@
+{
+  "title": "Sources, Inscriptions and Coins, Philosophy and Bhakti, Art, Architecture and Science",
+  "subject": "Ancient History",
+  "topic": "Ashokan edicts and other inscriptions, numismatics, literary and foreign sources, six schools of philosophy and Vedanta, Alvars and Nayanars, stupas, caves, temple styles and sculpture, science and mathematics",
+  "description": "UPSC/BPSC-level questions cutting across periods on how ancient India is known and what it created: the edicts and pillars including those in Bihar's Champaran, the Sanskrit and Tamil literary corpus, foreign accounts, philosophical systems, the southern bhakti saints, Buddhist and Hindu architecture, and achievements in mathematics, astronomy and medicine.",
+  "timeLimitMinutes": 40,
+  "createdAt": "2026-09-23",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Consider the following statements about Ashokan inscriptions:\n1. The Major Rock Edicts are fourteen in number and are found at sites such as Girnar, Kalsi, Dhauli and Jaugada.\n2. The edicts at Shahbazgarhi and Mansehra are in the Kharoshthi script, while most others are in Brahmi.\n3. The Kandahar inscription is bilingual in Greek and Aramaic.\n4. The language of the edicts is generally Sanskrit.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "The edicts are in Prakrit, with regional dialect variations; Greek and Aramaic were used in the north-west. At Dhauli and Jaugada in Kalinga, edicts XI to XIII are replaced by two separate Kalinga edicts."
+    },
+    {
+      "id": "q2",
+      "question": "Which of the following pairs of Ashokan edict and content is/are correctly matched?\n1. Rock Edict XIII : The Kalinga war and Ashoka's remorse, with mention of Hellenistic kings such as Antiochus and Ptolemy\n2. Rock Edict II : Provision of medical treatment for humans and animals, mentioning the Cholas, Pandyas and Tamraparni (Sri Lanka)\n3. Rock Edict XII : Toleration and respect for all sects\n4. Bhabru (Bairat) Edict : Ashoka's faith in the Buddha, Dhamma and Sangha, with recommended Buddhist texts\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Rock Edict I prohibits animal sacrifice and festive gatherings, Edict III orders officials to tour every five years, and Edict V records the appointment of Dhamma Mahamatras."
+    },
+    {
+      "id": "q3",
+      "question": "Consider the following statements about the Ashokan pillars in Bihar:\n1. Pillars bearing pillar edicts stand at Lauriya-Araraj, Lauriya-Nandangarh and Rampurva, all in the Champaran region.\n2. The bull capital from Rampurva now stands at Rashtrapati Bhavan.\n3. The Vaishali (Kolhua) pillar carries a single lion capital and no edict.\n4. The Lauriya-Nandangarh pillar is crowned by a lion.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The pillars, of polished Chunar sandstone, were transported hundreds of kilometres. The Sarnath capital with four lions, adopted as India's national emblem, bears the wheel, elephant, horse, bull and lion on its abacus."
+    },
+    {
+      "id": "q4",
+      "question": "Consider the following statements about the Allahabad pillar:\n1. It carries the pillar edicts of Ashoka, the 'Queen's Edict' mentioning his second queen Karuvaki, and the Schism Edict.\n2. Samudragupta's Prayag Prashasti by Harishena was later engraved on it.\n3. An inscription of the Mughal emperor Jahangir also appears on it.\n4. It was originally erected at Kausambi.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Delhi-Topra and Delhi-Meerut pillars were similarly moved to Delhi by Firuz Shah Tughlaq. The Schism Edict, also at Sanchi and Sarnath, warns against dividing the sangha."
+    },
+    {
+      "id": "q5",
+      "question": "Which of the following pairs of inscription, ruler and significance is/are correctly matched?\n1. Hathigumpha inscription : Kharavela; Prakrit record in the Udayagiri hills of Odisha\n2. Nashik inscription : Gautami Balashri; eulogy of Gautamiputra Satakarni\n3. Aihole inscription : Ravikirti; eulogy of Pulakeshin II dated 634 CE mentioning Kalidasa and Bharavi\n4. Gwalior inscription : Mihira Bhoja; genealogy of the Pratiharas\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Other important records include the Eran inscription (earliest sati), the Bhitari pillar (Skandagupta), the Mandasor pillar (Yashodharman) and the Uttaramerur inscriptions (Chola village government)."
+    },
+    {
+      "id": "q6",
+      "question": "Consider the following statements about the Persian inscriptions relating to India:\n1. The Persepolis and Naqsh-i-Rustam inscriptions of Darius I mention 'Hindush' (the Indus region) as a province of the Achaemenid empire.\n2. Herodotus stated that India was the twentieth and richest satrapy of the Persian empire, paying 360 talents of gold dust.\n3. The Kharoshthi script, written right to left, developed from Aramaic under Persian influence.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Persian influence is also seen in the Mauryan court ceremonial, the bell-shaped capitals of Ashokan pillars and the term 'dipi' for edict used in the north-western versions."
+    },
+    {
+      "id": "q7",
+      "question": "Consider the following statements about ancient Indian coinage:\n1. Punch-marked silver coins, called 'karshapana', are the earliest Indian coins, dating from about the sixth-fifth century BCE.\n2. The Indo-Greeks introduced die-struck coins with portraits and bilingual legends.\n3. The Kushanas issued the first extensive gold coinage in India.\n4. Roman coins found in south India testify to trade in the early centuries CE.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Guptas issued the largest number of gold coins with inscriptions in Sanskrit, and the near absence of gold coinage after the Guptas is cited as evidence of declining trade in the early medieval period."
+    },
+    {
+      "id": "q8",
+      "question": "Which of the following pairs of foreign account and author is/are correctly matched?\n1. Indica : Megasthenes\n2. Natural History : Pliny the Elder\n3. Geography : Ptolemy\n4. Kitab-ul-Hind : Al-Biruni\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Arrian's 'Indica' and 'Anabasis' describe Alexander's campaign, and Ptolemy's second-century 'Geography' gives the earliest systematic account of Indian ports and towns."
+    },
+    {
+      "id": "q9",
+      "question": "The 'Rajatarangini' of Kalhana, regarded as the first work of history in Sanskrit with a critical approach to sources, deals with the history of:",
+      "options": ["Magadha", "Kashmir", "Gujarat", "Bengal"],
+      "answer": 1,
+      "explanation": "Composed in 1148-50 CE, the 'River of Kings' narrates Kashmir's history from legendary times to Kalhana's own day and was continued by Jonaraja and Srivara. It is unique for its use of inscriptions, coins and earlier chronicles."
+    },
+    {
+      "id": "q10",
+      "question": "Consider the following statements about Panini and the Sanskrit grammatical tradition:\n1. Panini's 'Ashtadhyayi', composed around the fifth-fourth century BCE, contains nearly 4,000 sutras.\n2. Katyayana wrote the 'Vartika' commenting on Panini.\n3. Patanjali's 'Mahabhashya' of the second century BCE is a commentary on both.\n4. Panini belonged to Shalatura in the north-west, near Taxila.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The 'Ashtadhyayi' is the earliest surviving scientific grammar of any language and standardised classical Sanskrit. The 'Mahabhashya' also provides information on Shunga-period society and the Yavana invasions."
+    },
+    {
+      "id": "q11",
+      "question": "Which of the following pairs of the six orthodox systems (darshanas) and their founder is/are correctly matched?\n1. Samkhya : Kapila\n2. Yoga : Patanjali\n3. Nyaya : Gautama (Akshapada)\n4. Vaisheshika : Kanada\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Mimamsa is attributed to Jaimini and Vedanta to Badarayana, author of the 'Brahmasutra'. The six schools accept the authority of the Vedas, unlike the heterodox Charvaka, Buddhist and Jain systems."
+    },
+    {
+      "id": "q12",
+      "question": "Consider the following statements about the Samkhya and Vaisheshika systems:\n1. Samkhya is dualistic, explaining the universe through 'prakriti' (matter) and 'purusha' (consciousness) and twenty-five 'tattvas'.\n2. Early Samkhya did not require the existence of God, and the world was explained through the interaction of the three 'gunas'.\n3. Vaisheshika propounded an atomic theory, holding that all material objects are composed of indivisible atoms ('anu').\n4. Vaisheshika classifies reality into seven categories ('padarthas').\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Nyaya, closely allied to Vaisheshika, developed a system of logic based on four 'pramanas' (means of knowledge): perception, inference, comparison and testimony."
+    },
+    {
+      "id": "q13",
+      "question": "Consider the following statements about the Vedanta schools:\n1. Shankara (eighth century), born at Kaladi in Kerala, taught 'Advaita' (non-dualism), holding that Brahman alone is real and the world is 'maya'.\n2. Ramanuja (eleventh-twelfth century) taught 'Vishishtadvaita' (qualified non-dualism) and made bhakti to Vishnu central.\n3. Madhva (thirteenth century) taught 'Dvaita' (dualism), holding God and soul to be eternally distinct.\n4. Shankara established four mathas at Sringeri, Dwarka, Puri and Badrinath (Joshimath).\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Later schools include Nimbarka's 'Dvaitadvaita', Vallabha's 'Shuddhadvaita' and the 'Achintya Bhedabheda' of the Chaitanya tradition. Shankara's commentaries on the Upanishads, Gita and Brahmasutra are foundational."
+    },
+    {
+      "id": "q14",
+      "question": "The materialist school of ancient Indian philosophy which denied the soul, rebirth and the authority of the Vedas, and is traditionally attributed to Brihaspati, is known as:",
+      "options": ["Ajivika", "Charvaka or Lokayata", "Mimamsa", "Yogachara"],
+      "answer": 1,
+      "explanation": "The Charvakas accepted only perception as valid knowledge and advocated enjoyment of life. Their works are lost and are known mainly from the refutations of opponents, such as Madhava's 'Sarvadarshanasamgraha'."
+    },
+    {
+      "id": "q15",
+      "question": "Consider the following statements about the Alvars and Nayanars of the Tamil bhakti movement (sixth-ninth centuries):\n1. The twelve Alvars were Vaishnava saints whose hymns were compiled by Nathamuni as the 'Nalayira Divya Prabandham'.\n2. Andal was the only woman among the Alvars.\n3. The sixty-three Nayanars were Shaiva saints; the hymns of Appar, Sambandar and Sundarar form the 'Tevaram'.\n4. Manikkavachakar composed the 'Tiruvachakam'.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Karaikkal Ammaiyar was a woman among the Nayanars. The bhakti saints came from all castes, sang in Tamil, opposed Jain and Buddhist influence and were patronised by the Pallavas, Pandyas and Cholas."
+    },
+    {
+      "id": "q16",
+      "question": "Consider the following statements about the Mimamsa school:\n1. It holds the Vedas to be eternal and authorless, and emphasises the performance of Vedic rituals as 'dharma'.\n2. Kumarila Bhatta and Prabhakara were its major exponents in the seventh-eighth centuries.\n3. It contributed rules of interpretation that influenced Hindu law.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Also called Purva Mimamsa, it is contrasted with Uttara Mimamsa or Vedanta. Kumarila is credited with reviving Brahmanical ritualism against Buddhism."
+    },
+    {
+      "id": "q17",
+      "question": "Consider the following statements about the Sanchi stupa:\n1. The original stupa was built by Ashoka and enlarged to twice its size in the Shunga period, when the stone railing was added.\n2. The four carved gateways (toranas) were added under the Satavahanas in the first century BCE.\n3. The gateways depict Jataka tales and events of the Buddha's life, representing him through symbols.\n4. Sanchi is located in Madhya Pradesh and is a UNESCO World Heritage Site.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. An inscription on the southern gateway records the gift of the ivory workers of Vidisha. The Bharhut stupa railings of the Shunga period, now in the Indian Museum, are similar in style."
+    },
+    {
+      "id": "q18",
+      "question": "Consider the following statements about the Barabar caves in Jehanabad district of Bihar:\n1. They are the earliest surviving rock-cut caves in India, dating from the Mauryan period.\n2. The Lomas Rishi cave has a carved facade imitating wooden architecture with a chaitya arch.\n3. Ashoka dedicated caves here to the Ajivika sect, and his grandson Dasharatha dedicated the nearby Nagarjuni caves.\n4. The interiors show the mirror-like Mauryan polish.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Sudama cave bears an inscription of Ashoka's twelfth regnal year. E.M. Forster's 'Marabar caves' in 'A Passage to India' were inspired by Barabar."
+    },
+    {
+      "id": "q19",
+      "question": "Which of the following pairs of rock-cut site and feature is/are correctly matched?\n1. Karle (Maharashtra) : Largest chaitya hall of the Satavahana period\n2. Ellora Cave 16 : Kailasa temple carved from a single rock under Rashtrakuta Krishna I\n3. Elephanta : Colossal three-headed Maheshamurti (Trimurti) of Shiva\n4. Udayagiri and Khandagiri (Odisha) : Jain caves including the Rani Gumpha, associated with Kharavela\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Ellora's 34 caves comprise Buddhist (1-12), Hindu (13-29) and Jain (30-34) groups, reflecting religious coexistence. Bhaja, Kanheri, Nasik (Pandavleni) and Junnar are other western Indian Buddhist cave sites."
+    },
+    {
+      "id": "q20",
+      "question": "Consider the following statements about temple architecture styles:\n1. The Nagara style of north India is marked by the curvilinear 'shikhara' over the sanctum, as at Khajuraho and Bhubaneswar.\n2. The Dravida style of the south is marked by the pyramidal 'vimana', gateway 'gopurams' and pillared 'mandapas', as at Thanjavur.\n3. The Vesara style of the Deccan combines both, as in the Chalukya and Hoysala temples.\n4. The 'garbhagriha' is the sanctum housing the deity in all styles.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Odishan temples call the shikhara 'rekha deul' and the hall 'jagamohana'. The Hoysala temples at Belur and Halebid have star-shaped plans on raised platforms and were built of soapstone."
+    },
+    {
+      "id": "q21",
+      "question": "Consider the following statements about the Mahabodhi temple at Bodh Gaya:\n1. The site was first marked by a shrine and railing under Ashoka, portions of which survive.\n2. The present brick temple with its tall pyramidal tower dates substantially from the Gupta period, with later restorations, including by the Burmese in the nineteenth century.\n3. It was inscribed as a UNESCO World Heritage Site in 2002.\n4. The Vajrasana (diamond throne) marks the spot of the Buddha's enlightenment.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The temple is one of the earliest surviving brick structures in India. It was restored by Alexander Cunningham and J.D. Beglar in the 1880s, and the Bodh Gaya Temple Act of 1949 placed it under a management committee."
+    },
+    {
+      "id": "q22",
+      "question": "Consider the following statements about the Konark Sun temple:\n1. It was built by the Eastern Ganga king Narasimhadeva I in the thirteenth century.\n2. It is designed as a colossal chariot of the Sun god with twelve pairs of wheels drawn by seven horses.\n3. It is called the 'Black Pagoda' by European sailors.\n4. Its main sanctuary tower still stands intact.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "The main sanctum tower collapsed centuries ago; the surviving structure is the 'jagamohana'. Konark is a UNESCO site and its wheels function as sundials. The Sun temple at Modhera in Gujarat is another famous solar shrine."
+    },
+    {
+      "id": "q23",
+      "question": "Consider the following statements about the Didarganj Yakshi:\n1. It was found on the bank of the Ganga at Didarganj in Patna in 1917.\n2. It is carved in Chunar sandstone with the typical Mauryan polish and holds a fly-whisk (chauri).\n3. It is displayed in the Patna Museum.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Though generally dated to the Mauryan period, some scholars place it in the Kushana era. It is regarded as a masterpiece of early Indian sculpture and a symbol of Bihar's heritage."
+    },
+    {
+      "id": "q24",
+      "question": "Consider the following statements about the Mahabalipuram monuments of the Pallavas:\n1. The 'Pancha Rathas' are monolithic shrines named after the Pandavas and Draupadi, cut from single boulders.\n2. The 'Descent of the Ganga' or 'Arjuna's Penance' is a giant open-air bas-relief.\n3. The Shore temple is one of the earliest structural stone temples of south India.\n4. The monuments were inscribed as a UNESCO World Heritage Site in 1984.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The rathas display different roof forms that became models for later Dravida temples. The site was a Pallava port, mentioned by Hsuan Tsang and the Periplus (as a possible 'Malange')."
+    },
+    {
+      "id": "q25",
+      "question": "Which of the following pairs of stupa and location is/are correctly matched?\n1. Dharmarajika stupa : Taxila\n2. Amaravati stupa : Andhra Pradesh, on the Krishna river\n3. Piprahwa stupa : Uttar Pradesh, with a relic casket inscribed as containing the Buddha's relics\n4. Dhamekh stupa : Sarnath\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. A stupa has a hemispherical 'anda' (dome), 'harmika', 'chhatra' (umbrella), 'medhi' (terrace) and 'vedika' (railing), with 'toranas' at the cardinal points, and is circumambulated clockwise."
+    },
+    {
+      "id": "q26",
+      "question": "Consider the following statements about the Natyashastra:\n1. It is attributed to Bharata and is the earliest surviving treatise on drama, dance and music.\n2. It describes the theory of 'rasa', the aesthetic sentiments evoked in the audience.\n3. It is traditionally called the 'fifth Veda'.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Composed between the second century BCE and the second century CE, it lists eight rasas, to which Abhinavagupta later added 'shanta'. It is the foundation of Indian classical performing arts."
+    },
+    {
+      "id": "q27",
+      "question": "Consider the following statements about Brahmagupta:\n1. He composed the 'Brahmasphutasiddhanta' in 628 CE at Bhinmal in Rajasthan.\n2. He was the first to give rules for arithmetic operations with zero and negative numbers.\n3. His work was translated into Arabic at Baghdad as the 'Sindhind'.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Through the Arabs, Indian numerals reached Europe as 'Arabic numerals'. Bhaskara I, a contemporary, wrote commentaries on Aryabhata, and Bhaskara II (twelfth century) wrote the 'Lilavati' and 'Siddhanta Shiromani'."
+    },
+    {
+      "id": "q28",
+      "question": "Consider the following statements about ancient Indian medicine:\n1. The 'Charaka Samhita' deals mainly with medicine and the 'Sushruta Samhita' with surgery.\n2. Sushruta describes plastic surgery of the nose (rhinoplasty), cataract operations and over a hundred surgical instruments.\n3. Vagbhata's 'Ashtangahridaya' summarises the Ayurvedic tradition.\n4. The 'Bower manuscript' found in Central Asia contains medical texts of the Gupta period.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Ayurveda is based on the balance of three humours (tridosha): vata, pitta and kapha. Jivaka, the Buddha's physician trained at Taxila, is celebrated in Buddhist texts."
+    },
+    {
+      "id": "q29",
+      "question": "Consider the following statements about the 'Sulba Sutras' and early Indian mathematics:\n1. The Sulba Sutras of Baudhayana and others, appended to the Vedic Kalpa literature, give geometric rules for constructing sacrificial altars.\n2. Baudhayana states a rule equivalent to the Pythagorean theorem.\n3. The 'Bakhshali manuscript' contains an early use of a dot symbol for zero.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. The 'Vedanga Jyotisha' of Lagadha is the earliest astronomical text, and the decimal place-value system with zero was fully developed by the Gupta period, as the Gwalior inscription of 876 CE shows in stone."
+    },
+    {
+      "id": "q30",
+      "question": "Consider the following statements about the Mehrauli iron pillar:\n1. It stands in the Qutb complex in Delhi and bears a Sanskrit inscription in Gupta Brahmi mentioning a king 'Chandra'.\n2. It has resisted rust for over 1,500 years, a testimony to Gupta-age metallurgy.\n3. The inscription records the erection of the pillar as a 'Vishnudhvaja' (standard of Vishnu).\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. The pillar's protective phosphorus-rich oxide layer explains its rust resistance. Indian 'wootz' steel was prized in the ancient world and exported for weapon-making."
+    },
+    {
+      "id": "q31",
+      "question": "Which of the following pairs of Purana and its special content is/are correctly matched?\n1. Vishnu Purana : Genealogies of dynasties including the Mauryas and Guptas\n2. Matsya Purana : Lists of Andhra (Satavahana) kings\n3. Bhagavata Purana : Life of Krishna and the doctrine of bhakti\n4. Vayu Purana : Account of the Gupta empire's extent\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The eighteen Mahapuranas deal traditionally with five topics: creation, dissolution, ages, genealogies of gods and sages, and royal dynasties. The dynastic lists in the future tense are valuable for the Mauryan-Gupta chronology."
+    },
+    {
+      "id": "q32",
+      "question": "Consider the following statements about the Dharmashastras:\n1. The 'Manusmriti', generally assigned to the Shunga period, is the most important of the Smritis.\n2. The 'Yajnavalkya Smriti' belongs to the Gupta period and was later commented upon in the 'Mitakshara'.\n3. The 'Narada Smriti' deals almost exclusively with legal procedure.\n4. Medhatithi wrote a commentary on the Manusmriti in the ninth century.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The earlier Dharmasutras of Gautama, Baudhayana, Apastamba and Vashishtha form part of the Kalpa Vedanga. The Smritis codified varna duties and the 'purusharthas'."
+    },
+    {
+      "id": "q33",
+      "question": "Consider the following statements about Buddhist and Jain contributions to language and literature:\n1. The early Buddhist canon was preserved in Pali, and the Jain canon in Ardhamagadhi Prakrit.\n2. Ashvaghosha wrote Sanskrit works including the drama 'Sariputraprakarana'.\n3. Jain scholars such as Hemachandra in the twelfth century wrote Sanskrit and Prakrit grammars and the 'Parishishtaparvan'.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. The Mahayana texts such as the 'Lalitavistara' and 'Saddharmapundarika' are in Sanskrit. Jain 'Prabandhas' and Hemachandra's works at the Solanki court of Kumarapala enriched Gujarati culture."
+    },
+    {
+      "id": "q34",
+      "question": "Consider the following statements about the Amaravati school of art:\n1. It flourished under the Satavahanas and Ikshvakus in the lower Krishna valley from the second century BCE to the third century CE.\n2. Its sculptures are in white marble-like limestone and depict narrative scenes with dynamic, crowded compositions.\n3. Many Amaravati sculptures are now in the British Museum and the Chennai Government Museum.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Along with Gandhara and Mathura, Amaravati is one of the three great early schools of sculpture, and its style influenced Sri Lanka and South-East Asia."
+    },
+    {
+      "id": "q35",
+      "question": "Which of the following pairs of ancient university or centre of learning and its patrons or period is/are correctly matched?\n1. Taxila : Pre-Mauryan and Mauryan period, famous for medicine and grammar\n2. Kanchi : Pallava period 'ghatika'\n3. Valabhi : Maitraka period\n4. Vikramshila : Pala period\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Taxila was not a formal university but a cluster of teachers; Panini, Kautilya, Jivaka and, by tradition, Chandragupta studied there. Ujjain and Varanasi were other centres of Brahmanical learning."
+    },
+    {
+      "id": "q36",
+      "question": "Consider the following statements about the 'Sultanganj Buddha':\n1. It is a life-size copper image of the standing Buddha found at Sultanganj in Bhagalpur district of Bihar in 1862.\n2. It dates from the Gupta-Pala transition period and shows the Sarnath style of drapery.\n3. It is now in the Birmingham Museum and Art Gallery in England.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Over two metres tall and weighing about 500 kilograms, it is the largest surviving metal Buddha image of ancient India and was cast by the lost-wax process."
+    },
+    {
+      "id": "q37",
+      "question": "Consider the following statements about the iconography of Hindu deities in ancient art:\n1. The Varaha (boar) avatar of Vishnu lifting the earth is carved at Udayagiri (Madhya Pradesh) and Eran.\n2. The Nataraja form of Shiva, dancing within a ring of flames, was perfected in Chola bronzes.\n3. Images of Surya wearing boots reflect Central Asian (Iranian) influence.\n4. The Ardhanarishvara form combines Shiva and Parvati in one body.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Puranic period saw the development of a rich iconography codified in texts such as the 'Vishnudharmottara Purana' and the Agamas, with 'mudras' and attributes identifying each deity."
+    },
+    {
+      "id": "q38",
+      "question": "Consider the following statements about ancient Indian astronomy:\n1. The 'Vedanga Jyotisha' of Lagadha is concerned with fixing the times of sacrifices.\n2. The 'Surya Siddhanta' provides methods for computing planetary positions and eclipses.\n3. Aryabhata proposed that the apparent movement of the stars is due to the rotation of the earth.\n4. Indian astronomers used the 'nakshatra' system of 27 lunar mansions.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Indian astronomy absorbed Greek elements in the Kushana-Gupta period and later influenced the Arabs, through whom the Indian sine function and numerals reached Europe."
+    },
+    {
+      "id": "q39",
+      "question": "Consider the following statements about the decipherment of ancient Indian scripts:\n1. James Prinsep of the Asiatic Society deciphered the Brahmi script in 1837 using bilingual coins and short inscriptions.\n2. Brahmi is the parent of almost all modern Indian scripts, including Devanagari, Tamil and Bengali.\n3. Kharoshthi died out by the fourth century CE.\n4. The Harappan script has been conclusively read as an early form of Brahmi.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "The Harappan script remains undeciphered, and no accepted link with Brahmi has been established. Prinsep's decipherment revealed Ashoka's edicts and transformed the study of ancient Indian history."
+    },
+    {
+      "id": "q40",
+      "question": "Consider the following statements about the Mauryan polish and stone technology:\n1. The lustrous polish on Ashokan pillars and the Barabar caves was never reproduced in later Indian art.\n2. The pillars were quarried at Chunar near Mirzapur and transported by river.\n3. Each pillar is a monolith with a separately carved capital joined by a copper bolt.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. The Rampurva copper bolt is preserved in the Indian Museum. The bell-shaped lotus capitals and animal figures reflect a blend of Persian, Greek and Indian traditions."
+    }
+  ]
+}

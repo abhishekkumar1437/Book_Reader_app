@@ -1,26 +1,806 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg: #14110e;
+  --bg-2: #1d1915;
+  --bg-3: #2a2420;
+  --fg: #efe7d8;
+  --fg-muted: #a99f8f;
+  --accent: #d4a95a;
+  --accent-2: #b8893a;
+  --line: rgba(255, 255, 255, 0.08);
+  --glass: rgba(20, 17, 14, 0.72);
+
+  --paper: #f5eee0;
+  --paper-2: #ebe2d0;
+  --paper-edge: #d9cfb8;
+  --ink: #2a2420;
+
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, "Times New Roman", serif;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-bg: var(--bg);
+  --color-bg-2: var(--bg-2);
+  --color-bg-3: var(--bg-3);
+  --color-fg: var(--fg);
+  --color-fg-muted: var(--fg-muted);
+  --color-accent: var(--accent);
+  --color-accent-2: var(--accent-2);
+  --color-line: var(--line);
+  --color-paper: var(--paper);
+  --color-paper-2: var(--paper-2);
+  --color-ink: var(--ink);
+  --font-sans: var(--font-sans);
+  --font-serif: var(--font-serif);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html,
+body {
+  height: 100%;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background:
+    radial-gradient(1200px 800px at 50% 30%, rgba(212, 169, 90, 0.07), transparent 60%),
+    radial-gradient(900px 600px at 50% 100%, rgba(0, 0, 0, 0.5), transparent 70%),
+    var(--bg);
 }
+
+::selection {
+  background: rgba(212, 169, 90, 0.35);
+}
+
+/* Component styles live in the components layer so Tailwind utilities can override them. */
+@layer components {
+
+/* ---------- Reader stage ---------- */
+
+.reader {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  user-select: none;
+  background:
+    radial-gradient(1400px 900px at 50% 45%, rgba(212, 169, 90, 0.06), transparent 65%),
+    radial-gradient(800px 500px at 50% 110%, rgba(0, 0, 0, 0.6), transparent 70%),
+    var(--bg);
+}
+
+.reader.is-idle {
+  cursor: none;
+}
+
+.book-stage {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  touch-action: none;
+}
+
+.book-zoom {
+  transform-origin: center center;
+  will-change: transform;
+}
+
+.book-zoom.is-animated {
+  transition: transform 220ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+/* Perspective wrapper: a faint tilt so the spread reads as an object lying on a surface. */
+.book-perspective {
+  perspective: 2400px;
+}
+
+.book-shell {
+  position: relative;
+  transform-style: preserve-3d;
+}
+
+/* Soft shadow pooling under the book. */
+.book-shell::before {
+  content: "";
+  position: absolute;
+  left: 2%;
+  right: 2%;
+  top: 6%;
+  bottom: -4%;
+  background: rgba(0, 0, 0, 0.75);
+  filter: blur(28px);
+  border-radius: 40px;
+  z-index: -2;
+  pointer-events: none;
+}
+
+/* Page-block "thickness" peeking out on the outer edges. */
+.book-edge {
+  position: absolute;
+  top: 3px;
+  bottom: -3px;
+  width: 9px;
+  z-index: -1;
+  pointer-events: none;
+  background: repeating-linear-gradient(
+    90deg,
+    var(--paper-edge) 0 1px,
+    var(--paper-2) 1px 2px,
+    var(--paper) 2px 3px
+  );
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.45);
+}
+
+.book-edge.is-left {
+  left: -7px;
+  border-radius: 3px 0 0 3px;
+  transform: skewY(1.2deg);
+}
+
+.book-edge.is-right {
+  right: -7px;
+  border-radius: 0 3px 3px 0;
+  transform: skewY(-1.2deg);
+}
+
+.book-edge.is-bottom {
+  left: 2px;
+  right: 2px;
+  bottom: -7px;
+  top: auto;
+  width: auto;
+  height: 8px;
+  background: repeating-linear-gradient(
+    180deg,
+    var(--paper-edge) 0 1px,
+    var(--paper-2) 1px 2px,
+    var(--paper) 2px 3px
+  );
+  transform: none;
+  border-radius: 0 0 3px 3px;
+}
+
+/* The spine: a dark seam visible between the two pages of a spread. */
+.book-spine {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 14px;
+  transform: translateX(-50%);
+  z-index: -1;
+  pointer-events: none;
+  background: linear-gradient(90deg, #0e0b09, #2b2420 50%, #0e0b09);
+}
+
+/* ---------- Pages ---------- */
+
+.book-page {
+  position: relative;
+  overflow: hidden;
+  background-color: var(--paper);
+  background-image:
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.05 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>"),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.35), rgba(0, 0, 0, 0.03));
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.05);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.book-page__image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+  pointer-events: none;
+  -webkit-user-drag: none;
+}
+
+.book-page__placeholder {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  color: rgba(42, 36, 32, 0.28);
+  font-family: var(--font-serif);
+  font-size: clamp(14px, 2.4vw, 22px);
+  letter-spacing: 0.12em;
+}
+
+.book-page__number {
+  position: absolute;
+  bottom: 1.6%;
+  font-family: var(--font-serif);
+  font-size: clamp(9px, 1.1vw, 13px);
+  color: rgba(42, 36, 32, 0.5);
+  pointer-events: none;
+}
+
+.book-page[data-side="left"] .book-page__number {
+  left: 4%;
+}
+
+.book-page[data-side="right"] .book-page__number {
+  right: 4%;
+}
+
+/* Gutter shading: the page curves down into the spine. */
+.book-page::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 12%;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.book-page[data-side="left"]::after {
+  right: 0;
+  background: linear-gradient(
+    270deg,
+    rgba(0, 0, 0, 0.28) 0%,
+    rgba(0, 0, 0, 0.12) 22%,
+    rgba(0, 0, 0, 0.03) 55%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.book-page[data-side="right"]::after {
+  left: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.28) 0%,
+    rgba(0, 0, 0, 0.12) 22%,
+    rgba(0, 0, 0, 0.03) 55%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.book-shell.is-portrait .book-page::after {
+  display: none;
+}
+
+/* Hard covers get a slightly deeper, board-like edge. */
+.book-page[data-cover="true"] {
+  box-shadow:
+    inset 0 0 0 1px rgba(0, 0, 0, 0.12),
+    inset 0 0 0 6px rgba(0, 0, 0, 0.04);
+}
+
+/* ---------- Themes ---------- */
+
+.reader[data-theme="sepia"] {
+  --paper: #ecdcbb;
+  --paper-2: #e2d0aa;
+  --paper-edge: #cdb98f;
+}
+
+.reader[data-theme="sepia"] .book-page__image {
+  filter: sepia(0.35) contrast(0.98);
+}
+
+.reader[data-theme="night"] {
+  --paper: #2b2926;
+  --paper-2: #232120;
+  --paper-edge: #1c1a19;
+}
+
+.reader[data-theme="night"] .book-page__image {
+  mix-blend-mode: normal;
+  filter: invert(0.9) hue-rotate(180deg) contrast(0.92) brightness(0.92);
+}
+
+.reader[data-theme="night"] .book-page__placeholder,
+.reader[data-theme="night"] .book-page__number {
+  color: rgba(239, 231, 216, 0.4);
+}
+
+.reader[data-theme="night"] .book-page::after {
+  opacity: 0.6;
+}
+
+/* ---------- Chrome ---------- */
+
+.chrome {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 2000;
+  transition:
+    opacity 320ms ease,
+    transform 320ms ease;
+}
+
+.chrome.is-top {
+  top: 0;
+}
+
+.chrome.is-bottom {
+  bottom: 0;
+}
+
+.chrome.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.chrome.is-top.is-hidden {
+  transform: translateY(-8px);
+}
+
+.chrome.is-bottom.is-hidden {
+  transform: translateY(8px);
+}
+
+.glass {
+  background: var(--glass);
+  backdrop-filter: blur(14px) saturate(1.2);
+  -webkit-backdrop-filter: blur(14px) saturate(1.2);
+  border: 1px solid var(--line);
+}
+
+.icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  color: var(--fg-muted);
+  transition:
+    background-color 150ms ease,
+    color 150ms ease,
+    transform 150ms ease;
+}
+
+.icon-btn:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--fg);
+}
+
+.icon-btn:active {
+  transform: scale(0.94);
+}
+
+.icon-btn.is-active {
+  color: var(--accent);
+  background: rgba(212, 169, 90, 0.12);
+}
+
+.icon-btn:disabled {
+  opacity: 0.35;
+  pointer-events: none;
+}
+
+.panel {
+  position: absolute;
+  top: 64px;
+  right: 12px;
+  bottom: 84px;
+  width: min(360px, calc(100vw - 24px));
+  z-index: 2100;
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  overflow: hidden;
+  animation: panel-in 220ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+@keyframes panel-in {
+  from {
+    opacity: 0;
+    transform: translateX(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 4px;
+  border-radius: 999px;
+  background: linear-gradient(
+    90deg,
+    var(--accent) var(--progress, 0%),
+    rgba(255, 255, 255, 0.14) var(--progress, 0%)
+  );
+  outline: none;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--fg);
+  border: 2px solid var(--accent);
+  cursor: pointer;
+  transition: transform 120ms ease;
+}
+
+.slider::-webkit-slider-thumb:hover {
+  transform: scale(1.15);
+}
+
+.slider::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--fg);
+  border: 2px solid var(--accent);
+  cursor: pointer;
+}
+
+.toast {
+  animation: toast-in 260ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+@keyframes toast-in {
+  from {
+    opacity: 0;
+    transform: translate(-50%, 10px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
+
+/* Library cards */
+.card {
+  transition:
+    transform 220ms cubic-bezier(0.2, 0.8, 0.2, 1),
+    box-shadow 220ms ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 24px 50px rgba(0, 0, 0, 0.5);
+}
+
+.cover {
+  aspect-ratio: 3 / 4;
+  background: linear-gradient(160deg, var(--paper) 0%, var(--paper-2) 100%);
+  box-shadow:
+    inset 6px 0 12px -8px rgba(0, 0, 0, 0.5),
+    0 12px 30px rgba(0, 0, 0, 0.45);
+  border-radius: 4px 10px 10px 4px;
+  overflow: hidden;
+  position: relative;
+}
+
+.cover::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 10px;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0));
+  z-index: 1;
+  pointer-events: none;
+}
+
+.dropzone {
+  border: 1.5px dashed rgba(212, 169, 90, 0.35);
+  transition:
+    border-color 160ms ease,
+    background-color 160ms ease;
+}
+
+.dropzone.is-active {
+  border-color: var(--accent);
+  background: rgba(212, 169, 90, 0.08);
+}
+
+.spinner {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  border-top-color: var(--accent);
+  animation: spin 800ms linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* A lone page (cover on the right, or an even last page on the left) has no spine or far edge. */
+.book-shell.is-single-right .book-spine,
+.book-shell.is-single-right .book-edge.is-left,
+.book-shell.is-single-left .book-spine,
+.book-shell.is-single-left .book-edge.is-right {
+  display: none;
+}
+
+.book-shell.is-single-right .book-edge.is-bottom,
+.book-shell.is-single-right::before {
+  left: 50%;
+}
+
+.book-shell.is-single-left .book-edge.is-bottom,
+.book-shell.is-single-left::before {
+  right: 50%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .chrome,
+  .book-zoom.is-animated,
+  .card {
+    transition: none;
+  }
+}
+
+} /* end @layer components */
+
+/* ---------- Interview-prep book (Markdown chapters) ---------- */
+@layer components {
+
+.prose {
+  --prose-size: 1.0625rem;
+  --prose-code: #e6dcc8;
+  --prose-kw: #e0a35a;
+  --prose-str: #a8c98a;
+  --prose-num: #f0b8a0;
+  --prose-cmt: #857a6b;
+  --prose-fn: #f2d38a;
+  --prose-builtin: #8cc0dd;
+  font-family: var(--font-serif);
+  font-size: var(--prose-size);
+  line-height: 1.75;
+  color: var(--fg);
+  max-width: 72ch;
+  overflow-wrap: break-word;
+}
+
+.prose[data-size="s"] { --prose-size: 0.9375rem; }
+.prose[data-size="l"] { --prose-size: 1.1875rem; }
+.prose[data-size="xl"] { --prose-size: 1.3125rem; }
+
+.prose > * + * { margin-top: 1.1em; }
+
+.prose h2 {
+  font-size: 1.6em;
+  line-height: 1.25;
+  margin-top: 2.2em;
+  padding-top: 0.6em;
+  border-top: 1px solid var(--line);
+  color: var(--fg);
+  scroll-margin-top: 4.5rem;
+}
+
+.prose h3 {
+  font-size: 1.25em;
+  line-height: 1.3;
+  margin-top: 1.8em;
+  color: var(--accent);
+  scroll-margin-top: 4.5rem;
+}
+
+.prose h4 {
+  font-family: var(--font-sans);
+  font-size: 0.8em;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--fg-muted);
+  margin-top: 1.6em;
+}
+
+.prose p { margin-top: 1em; }
+.prose strong { color: var(--fg); font-weight: 600; }
+.prose em { font-style: italic; }
+.prose a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+.prose a:hover { color: var(--accent-2); }
+.prose hr { border: 0; border-top: 1px solid var(--line); margin: 2.5em 0; }
+
+.prose ul, .prose ol { padding-left: 1.4em; }
+.prose ul { list-style: disc; }
+.prose ol { list-style: decimal; }
+.prose li { margin-top: 0.4em; }
+.prose li > ul, .prose li > ol { margin-top: 0.3em; }
+.prose li::marker { color: var(--fg-muted); }
+
+/* Callouts: blockquotes whose first line is a bold label ("**Interview tip:**"). */
+.prose blockquote {
+  margin: 1.4em 0;
+  padding: 0.9em 1.1em;
+  border-left: 3px solid var(--accent);
+  border-radius: 0 12px 12px 0;
+  background: rgba(212, 169, 90, 0.07);
+  font-size: 0.96em;
+}
+.prose blockquote > * + * { margin-top: 0.6em; }
+.prose blockquote p:first-child { margin-top: 0; }
+
+/* Inline code */
+.prose :not(pre) > code {
+  font-family: ui-monospace, "Cascadia Code", "JetBrains Mono", Consolas, "Liberation Mono", monospace;
+  font-size: 0.86em;
+  color: var(--prose-code);
+  background: rgba(255, 255, 255, 0.07);
+  padding: 0.12em 0.4em;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+
+/* Code blocks */
+.codeblock {
+  position: relative;
+  margin: 1.4em 0;
+}
+.codeblock pre {
+  font-family: ui-monospace, "Cascadia Code", "JetBrains Mono", Consolas, "Liberation Mono", monospace;
+  font-size: 0.84em;
+  line-height: 1.65;
+  color: var(--prose-code);
+  background: #0f0d0b;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 1.1em 1.25em;
+  overflow-x: auto;
+  tab-size: 4;
+}
+.codeblock pre code { display: block; min-width: max-content; }
+.codeblock__copy {
+  position: absolute;
+  top: 0.6em;
+  right: 0.6em;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  color: var(--fg-muted);
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 0.25em 0.6em;
+  opacity: 0;
+  transition: opacity 160ms ease, color 160ms ease;
+}
+.codeblock:hover .codeblock__copy,
+.codeblock__copy:focus-visible { opacity: 1; }
+.codeblock__copy:hover { color: var(--fg); }
+@media (hover: none) { .codeblock__copy { opacity: 1; } }
+
+/* highlight.js tokens, tuned to the warm palette */
+.hljs-keyword, .hljs-selector-tag, .hljs-literal { color: var(--prose-kw); }
+.hljs-string, .hljs-regexp, .hljs-addition { color: var(--prose-str); }
+.hljs-number, .hljs-symbol, .hljs-bullet { color: var(--prose-num); }
+.hljs-comment, .hljs-quote, .hljs-deletion { color: var(--prose-cmt); font-style: italic; }
+.hljs-title, .hljs-title.function_, .hljs-title.class_, .hljs-section { color: var(--prose-fn); }
+.hljs-built_in, .hljs-type, .hljs-attr, .hljs-variable.language_ { color: var(--prose-builtin); }
+.hljs-meta, .hljs-params { color: var(--prose-code); }
+.hljs-operator, .hljs-punctuation { color: var(--fg-muted); }
+.hljs-emphasis { font-style: italic; }
+.hljs-strong { font-weight: 600; }
+
+/* Tables (complexity summaries, comparisons) */
+.prose table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+  font-family: var(--font-sans);
+  font-size: 0.82em;
+  line-height: 1.5;
+  margin: 1.4em 0;
+}
+.prose thead th {
+  text-align: left;
+  font-weight: 600;
+  color: var(--accent);
+  border-bottom: 1px solid rgba(212, 169, 90, 0.4);
+  padding: 0.5em 0.75em;
+  white-space: nowrap;
+}
+.prose tbody td {
+  border-bottom: 1px solid var(--line);
+  padding: 0.5em 0.75em;
+  vertical-align: top;
+}
+.prose tbody tr:last-child td { border-bottom: 0; }
+.prose td code, .prose th code { white-space: nowrap; }
+
+.prose img { max-width: 100%; border-radius: 12px; }
+
+/* Figures and inline SVG diagrams (used by the maths book) */
+.prose figure {
+  margin: 1.4em 0;
+  padding: 1em 1em 0.6em;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.03);
+  text-align: center;
+}
+.prose figure svg {
+  max-width: 100%;
+  height: auto;
+  color: var(--fg);
+  font-family: var(--font-sans);
+}
+.prose figcaption {
+  margin-top: 0.6em;
+  font-family: var(--font-sans);
+  font-size: 0.8em;
+  color: var(--fg-muted);
+}
+.prose .formula {
+  margin: 1.2em 0;
+  padding: 0.35em 0.9em;
+  border: 1px solid rgba(212, 169, 90, 0.35);
+  border-radius: 12px;
+  background: rgba(212, 169, 90, 0.06);
+  font-family: var(--font-sans);
+  line-height: 1.6;
+}
+.prose .formula p { margin: 0.7em 0.2em; font-size: 0.9em; color: var(--fg-muted); }
+.prose .formula strong { color: var(--accent); }
+/* One formula per row: label on the left, formula on the right */
+.prose .formula table {
+  display: table;
+  width: 100%;
+  table-layout: auto;
+  margin: 0.5em 0;
+  font-size: 0.95em;
+  overflow: visible;
+}
+.prose .formula thead th {
+  font-size: 0.7em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--fg-muted);
+  border-bottom: 1px solid rgba(212, 169, 90, 0.35);
+  padding: 0.4em 0.6em;
+}
+.prose .formula tbody td {
+  padding: 0.6em 0.6em;
+  border-bottom: 1px solid rgba(212, 169, 90, 0.16);
+  vertical-align: top;
+  line-height: 1.65;
+}
+.prose .formula tbody tr:last-child td { border-bottom: 0; }
+.prose .formula tbody td:first-child {
+  width: 36%;
+  color: var(--fg-muted);
+  font-size: 0.92em;
+  padding-right: 1em;
+}
+.prose .formula tbody td:nth-child(2):last-child {
+  color: var(--fg);
+  font-size: 1.1em;
+  font-weight: 500;
+  white-space: normal;
+}
+/* Wider tables (value tables, mensuration): keep every column readable and even */
+.prose .formula tbody td:nth-child(2):not(:last-child),
+.prose .formula tbody td:nth-child(n + 3) { color: var(--fg); font-size: 1em; }
+.prose .formula table:has(td:nth-child(3)) tbody td:first-child { width: auto; }
+.prose .formula td code { white-space: normal; }
+.prose .formula + p { margin-top: 1em; }
+@media (max-width: 640px) {
+  .prose .formula tbody td:first-child { width: 40%; }
+  .prose .formula tbody td:nth-child(2):last-child { font-size: 1.02em; }
+}
+
+@media (max-width: 640px) {
+  .prose { max-width: none; }
+  .codeblock pre { border-radius: 10px; padding: 0.9em 1em; }
+}
+
+} /* end interview-prep layer */

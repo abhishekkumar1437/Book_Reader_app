@@ -1,0 +1,300 @@
+{
+  "title": "Prehistory, Indus Valley Civilisation and the Vedic Age",
+  "subject": "Ancient History",
+  "topic": "Stone age cultures and sites, Chalcolithic cultures, Harappan discovery, sites, town planning, economy, script and decline, Early and Later Vedic society, polity, religion and literature",
+  "description": "UPSC/BPSC-level questions on the Palaeolithic to Chalcolithic cultures including Chirand in Bihar, the Harappan cities and their distinctive finds, trade and decline, and the Rigvedic and Later Vedic periods with their assemblies, rivers, deities and texts.",
+  "timeLimitMinutes": 40,
+  "createdAt": "2026-09-23",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Which of the following pairs of prehistoric site and its significance is/are correctly matched?\n1. Bhimbetka (Madhya Pradesh) : Rock shelters with paintings from the Palaeolithic to historic periods\n2. Attirampakkam (Tamil Nadu) : Lower Palaeolithic stone tools\n3. Bagor (Rajasthan) and Adamgarh (Madhya Pradesh) : Early evidence of animal domestication in the Mesolithic\nSelect the correct answer using the code given below.",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Bhimbetka, discovered by V.S. Wakankar in 1957, is a UNESCO World Heritage Site. Mesolithic cultures are marked by microliths, and Bagor and Adamgarh show domesticated sheep, goats and cattle."
+    },
+    {
+      "id": "q2",
+      "question": "Consider the following statements about Neolithic sites:\n1. Mehrgarh in Baluchistan provides evidence of farming and herding from about 7000 BCE, before the Harappan civilisation.\n2. Burzahom in Kashmir is known for pit dwellings and the burial of dogs with their masters.\n3. Chirand in Saran district of Bihar is a Neolithic site known for bone tools.\n4. Koldihwa in Uttar Pradesh has yielded early evidence of rice cultivation.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Chirand on the Ghaghara near Chhapra is the most important Neolithic-Chalcolithic site in Bihar, with bone and antler tools and evidence of rice, wheat and barley. Daojali Hading in Assam is another Neolithic site."
+    },
+    {
+      "id": "q3",
+      "question": "Which of the following pairs of Chalcolithic culture and associated site is/are correctly matched?\n1. Ahar-Banas culture : Rajasthan, with abundant copper objects\n2. Jorwe culture : Inamgaon and Daimabad in Maharashtra\n3. Malwa culture : Navdatoli on the Narmada\nSelect the correct answer using the code given below.",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Chalcolithic people used copper along with stone, lived in mud houses and practised cultivation and burial of children in urns. Daimabad is also the southernmost Harappan-affiliated site."
+    },
+    {
+      "id": "q4",
+      "question": "Consider the following statements about the discovery of the Harappan civilisation:\n1. Harappa was excavated in 1921 under Daya Ram Sahni and Mohenjo-daro in 1922 under R.D. Banerji.\n2. Sir John Marshall, Director-General of the Archaeological Survey of India, announced the discovery in 1924.\n3. The mature Harappan phase is generally dated to about 2600-1900 BCE.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Alexander Cunningham had noticed a Harappan seal in the 1870s without recognising its antiquity. Radiocarbon dating has refined the chronology into early, mature and late phases."
+    },
+    {
+      "id": "q5",
+      "question": "Which of the following pairs of Harappan site and find is/are correctly matched?\n1. Mohenjo-daro : Great Bath, bronze dancing girl and the 'priest-king' steatite bust\n2. Lothal : Dockyard and evidence of rice husk\n3. Kalibangan : Ploughed field and fire altars\n4. Chanhudaro : Bead-making factory and no citadel\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Lothal in Gujarat sits on the Bhogava river and Rangpur also shows rice. Kalibangan on the Ghaggar in Rajasthan means 'black bangles'. Chanhudaro in Sindh was a manufacturing centre for beads, shell and bone objects."
+    },
+    {
+      "id": "q6",
+      "question": "Consider the following statements about Dholavira in Gujarat:\n1. The city was divided into three parts: citadel, middle town and lower town.\n2. It has an elaborate system of reservoirs and channels for water conservation.\n3. A large inscription of ten Harappan signs, often called a 'signboard', was found near its northern gate.\n4. It was inscribed as a UNESCO World Heritage Site in 2021.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Dholavira in the Rann of Kutch was excavated by R.S. Bisht from 1990. Its stone architecture and water management distinguish it from the brick-built cities of the Indus plain."
+    },
+    {
+      "id": "q7",
+      "question": "Which of the following correctly identifies the geographical extremities of the Harappan civilisation?",
+      "options": [
+        "West: Sutkagendor; East: Alamgirpur; North: Manda; South: Daimabad",
+        "West: Lothal; East: Harappa; North: Ropar; South: Kalibangan",
+        "West: Mohenjo-daro; East: Rakhigarhi; North: Burzahom; South: Lothal",
+        "West: Mehrgarh; East: Kausambi; North: Taxila; South: Arikamedu"
+      ],
+      "answer": 0,
+      "explanation": "Sutkagendor lies on the Makran coast of Pakistan, Alamgirpur on the Hindon in Meerut district, Manda on the Chenab in Jammu and Daimabad on the Pravara in Maharashtra. Rakhigarhi in Haryana is the largest Harappan site in India."
+    },
+    {
+      "id": "q8",
+      "question": "Consider the following statements about Harappan town planning:\n1. Cities were typically divided into a raised citadel to the west and a lower town to the east.\n2. Streets intersected at right angles in a grid pattern and houses were built of burnt bricks in a standard ratio of 1:2:4.\n3. Covered drains ran along the streets with inspection holes, and houses had bathrooms and wells.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. The uniformity of bricks, weights and planning across a vast area suggests a strong central authority, though no palaces or temples have been securely identified."
+    },
+    {
+      "id": "q9",
+      "question": "Consider the following statements about the Harappan economy:\n1. The Harappans were the earliest people known to have produced cotton, which the Greeks later called 'sindon'.\n2. Copper was obtained from the Khetri mines of Rajasthan and lapis lazuli from Badakhshan in Afghanistan.\n3. Mesopotamian texts refer to trade with 'Meluhha', generally identified with the Indus region.\n4. Iron was used for making agricultural implements.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "The Harappans did not know iron; their tools were of copper, bronze and stone. Trade went through Dilmun (Bahrain) and Magan (Oman), and Harappan seals have been found in Mesopotamian cities such as Ur."
+    },
+    {
+      "id": "q10",
+      "question": "Consider the following statements about the Harappan script and seals:\n1. The script has about 400 signs and remains undeciphered.\n2. It was generally written from right to left, and some inscriptions are boustrophedon, alternating direction in successive lines.\n3. Most seals were made of steatite and depict animals such as the unicorn, humped bull, elephant and rhinoceros.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. The so-called Pashupati seal from Mohenjo-daro shows a seated horned figure surrounded by animals, which Marshall identified as a proto-Shiva, an interpretation still debated."
+    },
+    {
+      "id": "q11",
+      "question": "Consider the following statements about Harappan religion and society:\n1. Terracotta figurines of a female deity suggest the worship of a mother goddess.\n2. Evidence of fire altars has been found at Kalibangan and Lothal.\n3. The pipal tree and the humped bull appear to have been venerated.\n4. Large temples dominated the centre of each city.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "No structures identifiable as temples have been found, unlike in Egypt or Mesopotamia. Burials were generally extended in the north-south direction, with pottery and ornaments placed in graves, as in Cemetery R-37 at Harappa."
+    },
+    {
+      "id": "q12",
+      "question": "Consider the following statements about the Harappan system of weights and measures:\n1. Weights were generally cubical and made of chert.\n2. The weight system was binary in the lower denominations (1, 2, 4, 8, 16, 32) and decimal in the higher ones.\n3. A scale found at Lothal indicates the use of a decimal system of linear measurement.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. The standardisation of weights over a large area indicates regulation of trade. The unit of 16 survived in later Indian weights and coinage (16 annas to a rupee)."
+    },
+    {
+      "id": "q13",
+      "question": "Which of the following theories have been proposed for the decline of the Harappan civilisation?\n1. Aryan invasion, suggested by Mortimer Wheeler on the basis of skeletons at Mohenjo-daro\n2. Recurrent floods of the Indus and tectonic changes\n3. Drying up of the Ghaggar-Hakra river system and climatic change\n4. Decline of trade with Mesopotamia\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four have been proposed. Most scholars now reject a single cause and Wheeler's invasion theory, favouring gradual decline through ecological change, with late Harappan cultures such as Cemetery H and Jhukar continuing in a diminished form."
+    },
+    {
+      "id": "q14",
+      "question": "Consider the following statements about Harappan sites in India:\n1. Ropar in Punjab was the first Harappan site excavated after independence.\n2. Banawali in Haryana yielded a terracotta model of a plough.\n3. Surkotada in Gujarat is claimed to have yielded remains of the horse.\n4. Rakhigarhi in Haryana is the largest Harappan site in India.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The horse remains at Surkotada remain disputed, and the general absence of the horse is a major argument against identifying the Harappans with the Vedic people."
+    },
+    {
+      "id": "q15",
+      "question": "Consider the following statements about the Rigveda:\n1. It consists of 1,028 hymns arranged in ten mandalas.\n2. Mandalas II to VII are the 'family books' composed by particular families of seers and are the oldest.\n3. The Purusha Sukta describing the origin of the four varnas is in the tenth mandala.\n4. The Gayatri mantra addressed to Savitri is in the third mandala attributed to Vishvamitra.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The first and tenth mandalas are the latest additions. The ninth mandala is devoted entirely to Soma. The Rigveda is the oldest surviving text in any Indo-European language."
+    },
+    {
+      "id": "q16",
+      "question": "Which of the following pairs of Rigvedic river name and modern name is/are correctly matched?\n1. Vitasta : Jhelum\n2. Asikni : Chenab\n3. Parushni : Ravi\n4. Shutudri : Beas\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "Shutudri is the Sutlej; the Beas was Vipas. The Sarasvati, called 'naditama' or best of rivers, was the most sacred, while the Ganga is mentioned only once and the Yamuna thrice."
+    },
+    {
+      "id": "q17",
+      "question": "Consider the following statements about the Battle of the Ten Kings (Dasharajna) described in the Rigveda:\n1. It was fought on the banks of the Parushni (Ravi).\n2. Sudas, king of the Bharatas, defeated a confederacy of ten tribes.\n3. Vashishtha was the priest of Sudas, while Vishvamitra sided with the confederacy.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. The Bharatas later merged with the Purus to form the Kurus, whose land, Kurukshetra, became the centre of Later Vedic culture. The five major tribes were Yadu, Turvasha, Anu, Druhyu and Puru."
+    },
+    {
+      "id": "q18",
+      "question": "Consider the following statements about Rigvedic polity:\n1. The rajan was primarily a tribal chief who led in war, and kingship was not yet firmly hereditary.\n2. The sabha and samiti were tribal assemblies; the vidatha was the oldest assembly.\n3. The purohita, senani and gramani were important functionaries.\n4. There was a regular system of taxation, with the tax 'bali' being a compulsory levy.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "In the Rigvedic period bali was a voluntary offering to the chief; it became a regular tax only in the Later Vedic period. There was no standing army or bureaucracy."
+    },
+    {
+      "id": "q19",
+      "question": "Which deity is invoked in the largest number of Rigvedic hymns, being celebrated as 'Purandara' or breaker of forts?",
+      "options": ["Agni", "Varuna", "Indra", "Soma"],
+      "answer": 2,
+      "explanation": "About 250 hymns are addressed to Indra, the war god and rain-giver, and about 200 to Agni, the fire god and intermediary between gods and men. Varuna upheld the cosmic order 'rita'."
+    },
+    {
+      "id": "q20",
+      "question": "The Boghaz-Koi inscription of about 1400 BCE, which mentions Vedic deities Indra, Mitra, Varuna and the Nasatyas, was found in:",
+      "options": ["Iran", "Turkey (Anatolia)", "Afghanistan", "Iraq"],
+      "answer": 1,
+      "explanation": "The treaty between the Hittite and Mitanni kings invokes these gods as witnesses, showing that Indo-Aryan speakers were present in West Asia around the time the Rigveda was composed."
+    },
+    {
+      "id": "q21",
+      "question": "Consider the following statements about Rigvedic society:\n1. Society was largely pastoral, with cattle as the chief measure of wealth, and words such as 'gavishti' for war literally meant 'search for cows'.\n2. Women such as Lopamudra, Ghosha, Apala and Vishvavara composed hymns.\n3. The varna system was rigid and untouchability was practised.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 0,
+      "explanation": "The four-fold varna division appears only in the late Purusha Sukta, and society was not rigidly stratified; the main distinction was between Aryas and Dasas. Untouchability emerged much later."
+    },
+    {
+      "id": "q22",
+      "question": "Which of the following pairs of Veda and its priest is/are correctly matched?\n1. Rigveda : Hotri\n2. Yajurveda : Adhvaryu\n3. Samaveda : Udgatri\n4. Atharvaveda : Brahman\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Hotri recited, the Adhvaryu performed the ritual acts, the Udgatri sang the Sama chants and the Brahman supervised the sacrifice and corrected errors."
+    },
+    {
+      "id": "q23",
+      "question": "Consider the following statements about the Vedic texts:\n1. The Samaveda consists largely of Rigvedic verses set to melody and is regarded as the origin of Indian music.\n2. The Atharvaveda contains charms and spells and reflects popular beliefs and practices.\n3. The Brahmanas are prose texts explaining the rituals, the Aranyakas are 'forest books' and the Upanishads contain philosophical speculation.\n4. The Yajurveda exists in two recensions, the Shukla (White) and the Krishna (Black).\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Shatapatha Brahmana belongs to the Shukla Yajurveda. The Upanishads, numbering 108 with 13 regarded as principal, are also called Vedanta, the end of the Vedas."
+    },
+    {
+      "id": "q24",
+      "question": "Which of the following pairs of Vedanga and subject is/are correctly matched?\n1. Shiksha : Phonetics\n2. Kalpa : Rituals\n3. Nirukta : Etymology\n4. Chhanda : Astronomy\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "Chhanda is metre; astronomy is Jyotisha, and the sixth Vedanga is Vyakarana (grammar). Yaska's Nirukta is the oldest work on etymology and Panini's Ashtadhyayi the classic grammar."
+    },
+    {
+      "id": "q25",
+      "question": "Which of the following pairs of Upaveda and the Veda with which it is associated is/are correctly matched?\n1. Ayurveda : Rigveda\n2. Dhanurveda : Yajurveda\n3. Gandharvaveda : Samaveda\n4. Shilpaveda (or Arthashastra) : Atharvaveda\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Upavedas deal respectively with medicine, warfare, music and the arts or statecraft, and are traditionally attached to the four Vedas."
+    },
+    {
+      "id": "q26",
+      "question": "Consider the following statements about the Later Vedic period (c. 1000-600 BCE):\n1. The Painted Grey Ware culture of the upper Gangetic plain is associated with this period.\n2. Iron, called 'shyama ayas' or 'krishna ayas', came into use.\n3. The Kuru and Panchala kingdoms with capitals at Hastinapur and Kampilya were the centres of Vedic culture.\n4. Agriculture, especially rice cultivation, became the main occupation.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Excavations at Hastinapur and Atranjikhera show PGW settlements with iron and rice. Copper was 'ayas' in the Rigveda; the qualifying words distinguish iron in the later texts."
+    },
+    {
+      "id": "q27",
+      "question": "Consider the following statements about Later Vedic polity:\n1. Kingship became hereditary and rulers assumed titles such as 'samrat' and 'ekarat'.\n2. Royal sacrifices such as the Rajasuya, Vajapeya and Ashvamedha enhanced royal power.\n3. The samiti and sabha lost importance while the vidatha disappeared.\n4. Women continued to attend the sabha as in the Rigvedic period.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "Women were excluded from the sabha in the Later Vedic period, as their status declined. Territorial kingdoms like Kuru, Panchala, Kosala and Videha replaced the tribal units of the earlier age."
+    },
+    {
+      "id": "q28",
+      "question": "Consider the following statements about Later Vedic society:\n1. The four-fold varna system became clearly defined, with the Brahmanas and Kshatriyas enjoying privileges.\n2. The gotra system, indicating descent from a common ancestor, and gotra exogamy emerged.\n3. The four ashramas (brahmacharya, grihastha, vanaprastha and sannyasa) were fully established in this period.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 0,
+      "explanation": "Only three ashramas are clearly mentioned in the Later Vedic texts; the fourth, sannyasa, was not well established until the post-Vedic period. The Chhandogya Upanishad mentions the first three."
+    },
+    {
+      "id": "q29",
+      "question": "Which of the following women philosophers are mentioned in the Upanishads as debating with or questioning the sage Yajnavalkya?",
+      "options": ["Gargi and Maitreyi", "Lopamudra and Ghosha", "Apala and Vishvavara", "Sulabha and Vadava"],
+      "answer": 0,
+      "explanation": "Gargi Vachaknavi challenged Yajnavalkya at the court of King Janaka of Videha in the Brihadaranyaka Upanishad, and Maitreyi, his wife, sought the knowledge of immortality rather than wealth."
+    },
+    {
+      "id": "q30",
+      "question": "Consider the following statements about Later Vedic religion:\n1. Prajapati, the creator, became the supreme deity, while Indra and Agni lost their prominence.\n2. Rudra and Vishnu grew in importance.\n3. Sacrifices became elaborate and central, increasing the power of priests.\n4. The Upanishads reacted against ritualism by emphasising knowledge of Brahman and Atman.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The doctrines of karma, rebirth and moksha first appear in the Upanishads, and their philosophical monism prepared the ground for later Vedanta."
+    },
+    {
+      "id": "q31",
+      "question": "The story of Satyakama Jabala, who was accepted as a student on account of his truthfulness despite not knowing his father's lineage, occurs in the:",
+      "options": ["Chhandogya Upanishad", "Katha Upanishad", "Mundaka Upanishad", "Kena Upanishad"],
+      "answer": 0,
+      "explanation": "The episode from the Chhandogya Upanishad is often cited to show that character rather than birth qualified a person for Vedic study in the Upanishadic age. The Katha Upanishad contains the dialogue of Nachiketa and Yama."
+    },
+    {
+      "id": "q32",
+      "question": "Consider the following statements about the Aryan question:\n1. Max Muller proposed that the Aryans came to India from Central Asia around 1500 BCE.\n2. Bal Gangadhar Tilak argued in 'The Arctic Home in the Vedas' that the Aryans originated in the Arctic region.\n3. The Andronovo culture of Central Asia is cited by some scholars as an Indo-Iranian homeland.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. The theory of Aryan migration remains debated, with linguistic and genetic evidence generally supporting movements of Indo-European speakers into the subcontinent in the second millennium BCE."
+    },
+    {
+      "id": "q33",
+      "question": "Consider the following statements about the Harappan site of Lothal:\n1. It is located in Gujarat near the Gulf of Khambhat.\n2. A rectangular structure identified by S.R. Rao as a dockyard was found here.\n3. A Persian Gulf seal has been found at Lothal, indicating overseas trade.\n4. Joint burials of a man and a woman have been found at Lothal.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Lothal also yielded evidence of bead-making, a fire altar and a granary-like warehouse, making it the most important Harappan port site."
+    },
+    {
+      "id": "q34",
+      "question": "Which of the following statements about the Great Bath of Mohenjo-daro is/are correct?\n1. It was built of burnt bricks made watertight with gypsum mortar and bitumen.\n2. It had steps leading down from two sides and rooms around it, possibly for changing.\n3. It was located in the citadel area and may have been used for ritual bathing.\nSelect the correct answer using the code given below.",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Nearby stood the so-called Great Granary and a large pillared hall. Mohenjo-daro's name means 'mound of the dead' in Sindhi."
+    },
+    {
+      "id": "q35",
+      "question": "The Rigvedic term 'Sapta Sindhu' referred to:",
+      "options": [
+        "The seven sacred rivers of the Gangetic plain",
+        "The land of seven rivers in the Punjab region, including the Indus and its tributaries",
+        "The seven seas known to the Aryans",
+        "The seven ritual fires"
+      ],
+      "answer": 1,
+      "explanation": "The Rigvedic people lived in the region of the Indus, its five Punjab tributaries and the Sarasvati. The Avesta refers to the same region as 'Hapta Hindu'. Their eastward expansion is the theme of the Later Vedic texts."
+    },
+    {
+      "id": "q36",
+      "question": "Consider the following statements about the Mahabharata and the Ramayana:\n1. The Mahabharata, attributed to Vyasa, grew from an original 8,800 verses called 'Jaya' to about 100,000 verses.\n2. The Ramayana of Valmiki has about 24,000 verses in seven kandas, of which the first and last are considered later additions.\n3. Both epics were finally compiled in their present form in the Gupta period.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. The Mahabharata has 18 parvas and is called the 'fifth Veda'. Archaeology at Hastinapur suggests the war it describes, if historical, belongs to the Painted Grey Ware period."
+    },
+    {
+      "id": "q37",
+      "question": "Consider the following statements about the Ochre Coloured Pottery (OCP) and Copper Hoard cultures:\n1. Copper hoards containing harpoons, anthropomorphic figures and antennae swords have been found chiefly in the Ganga-Yamuna doab.\n2. They are generally dated to around 2000-1500 BCE.\nWhich of the statements given above is/are correct?",
+      "options": ["1 only", "2 only", "Both 1 and 2", "Neither 1 nor 2"],
+      "answer": 2,
+      "explanation": "Both are correct. Sites include Saipai and Bahadarabad. The relationship of the OCP-Copper Hoard people to the late Harappans and the early Vedic people remains a subject of research."
+    },
+    {
+      "id": "q38",
+      "question": "Which of the following pairs of Harappan site and river is/are correctly matched?\n1. Harappa : Ravi\n2. Mohenjo-daro : Indus\n3. Kalibangan : Ghaggar\n4. Ropar : Sutlej\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. A large number of Harappan sites lie along the dried-up Ghaggar-Hakra, which some identify with the Vedic Sarasvati, leading to the alternative name 'Indus-Sarasvati civilisation'."
+    },
+    {
+      "id": "q39",
+      "question": "Consider the following statements about Vedic education and learning:\n1. Learning was transmitted orally, and the Vedas are therefore called 'shruti' (that which is heard).\n2. The 'upanayana' ceremony marked the beginning of a student's Vedic study.\n3. Kings such as Janaka of Videha (in present-day Bihar) patronised philosophical debates.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Videha, with its capital Mithila in north Bihar, was an important Later Vedic kingdom, and the Shatapatha Brahmana describes Videgha Mathava carrying Vedic culture eastward across the Sadanira (Gandak)."
+    },
+    {
+      "id": "q40",
+      "question": "The Painted Grey Ware culture, associated with the Later Vedic Aryans, was followed in the Ganga plains by which pottery culture that coincides with the rise of cities and the Mahajanapadas?",
+      "options": ["Black and Red Ware", "Northern Black Polished Ware", "Ochre Coloured Pottery", "Malwa Ware"],
+      "answer": 1,
+      "explanation": "The NBPW phase (c. 600-200 BCE) marks the second urbanisation of India, centred on Magadha and the middle Gangetic plain, with iron tools, coinage and writing. Its glossy pottery has been found at Rajgir, Pataliputra and Vaishali."
+    }
+  ]
+}

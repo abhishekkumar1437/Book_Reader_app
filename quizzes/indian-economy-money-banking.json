@@ -1,0 +1,330 @@
+{
+  "title": "Money, Banking and Monetary Policy",
+  "subject": "Indian Economy",
+  "topic": "RBI, monetary policy framework and tools, money supply, currency, banking history and reforms, NPAs, payment systems, inflation concepts",
+  "description": "UPSC/BPSC-level questions on the Reserve Bank of India, the Monetary Policy Committee, liquidity tools, monetary aggregates, currency management, the evolution and regulation of Indian banking, stressed assets, financial inclusion, digital payments and inflation measurement.",
+  "timeLimitMinutes": 40,
+  "createdAt": "2026-09-23",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Consider the following statements about the Monetary Policy Committee (MPC) of the RBI:\n1. It has six members, three from the RBI and three appointed by the Central Government.\n2. The Governor of the RBI has a casting vote in case of a tie.\n3. External members hold office for a term of four years and are eligible for reappointment.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 0,
+      "explanation": "The MPC, constituted under the amended RBI Act in 2016, has six members with the Governor as chair and a casting vote. External members serve four years and are not eligible for reappointment, so statement 3 is wrong."
+    },
+    {
+      "id": "q2",
+      "question": "Under the flexible inflation targeting framework, the RBI is deemed to have failed to meet its target when:",
+      "options": [
+        "Inflation exceeds 4 per cent in any single month",
+        "Average inflation remains outside the 2-6 per cent band for three consecutive quarters",
+        "WPI inflation exceeds CPI inflation for a year",
+        "Core inflation exceeds 6 per cent in two consecutive months"
+      ],
+      "answer": 1,
+      "explanation": "If CPI inflation stays above 6 per cent or below 2 per cent for three consecutive quarters, the RBI must submit a report to the government explaining the reasons, remedial actions and the expected time to return to target."
+    },
+    {
+      "id": "q3",
+      "question": "The committee whose recommendations led India to adopt Consumer Price Index (Combined) as the nominal anchor for monetary policy was headed by:",
+      "options": ["Urjit Patel", "Raghuram Rajan", "Bimal Jalan", "Y.V. Reddy"],
+      "answer": 0,
+      "explanation": "The Urjit Patel Committee (2014) recommended CPI-Combined as the anchor, a 4 per cent target with a +/-2 band and a committee-based decision structure, formalised through the Monetary Policy Framework Agreement of 2015 and the RBI Act amendment of 2016."
+    },
+    {
+      "id": "q4",
+      "question": "Consider the following statements about the Standing Deposit Facility (SDF):\n1. It allows banks to park surplus funds with the RBI without any collateral.\n2. It forms the floor of the liquidity adjustment facility corridor.\n3. It was introduced in 2022.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "The SDF, operationalised in April 2022, is an uncollateralised deposit facility that replaced the fixed-rate reverse repo as the floor of the corridor, with the Marginal Standing Facility as the ceiling and the repo rate in between."
+    },
+    {
+      "id": "q5",
+      "question": "Which one of the following statements about the Marginal Standing Facility (MSF) is correct?",
+      "options": [
+        "Banks borrow overnight from the RBI at a rate below the repo rate",
+        "Banks can borrow overnight funds from the RBI by dipping into their SLR holdings, at a rate above the repo rate",
+        "It is a facility for the government to borrow from the RBI",
+        "It is the rate at which the RBI buys foreign exchange from banks"
+      ],
+      "answer": 1,
+      "explanation": "MSF, introduced in 2011, is an emergency window at a penal rate above the repo rate. Banks can pledge government securities from within their SLR portfolio, up to a permitted limit, to access it."
+    },
+    {
+      "id": "q6",
+      "question": "Consider the following statements about the Cash Reserve Ratio (CRR) and the Statutory Liquidity Ratio (SLR):\n1. Balances kept under CRR earn interest from the RBI.\n2. SLR assets are held by the bank itself in the form of cash, gold or approved government securities.\n3. The Banking Regulation Act sets an upper ceiling of 40 per cent on the SLR.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 1,
+      "explanation": "The RBI pays no interest on CRR balances. SLR is maintained by banks themselves in liquid assets, and the Banking Regulation Act caps it at 40 per cent of net demand and time liabilities."
+    },
+    {
+      "id": "q7",
+      "question": "The Bank Rate in India is currently aligned with:",
+      "options": ["The repo rate", "The reverse repo rate", "The Marginal Standing Facility rate", "The Standing Deposit Facility rate"],
+      "answer": 2,
+      "explanation": "Since 2012 the Bank Rate has been kept equal to the MSF rate. It is the penal rate charged on banks for shortfalls in maintaining reserve requirements and is no longer the main policy signalling rate."
+    },
+    {
+      "id": "q8",
+      "question": "The Market Stabilisation Scheme (MSS) was introduced in 2004 primarily to:",
+      "options": [
+        "Finance the fiscal deficit of the government",
+        "Sterilise excess liquidity created by large capital inflows",
+        "Provide long-term loans to infrastructure",
+        "Control the exchange rate through forward contracts"
+      ],
+      "answer": 1,
+      "explanation": "When the RBI buys foreign exchange to prevent rupee appreciation it injects rupees. Under MSS it issues government securities and holds the proceeds in a separate account so they cannot be spent, thereby absorbing that liquidity. It was also used after demonetisation in 2016."
+    },
+    {
+      "id": "q9",
+      "question": "Consider the following monetary aggregates:\n1. M1\n2. M3\n3. M4\nArrange them in decreasing order of liquidity.",
+      "options": ["1, 2, 3", "3, 2, 1", "2, 1, 3", "1, 3, 2"],
+      "answer": 0,
+      "explanation": "M1 (currency with public + demand deposits + other deposits with RBI) is most liquid. M3 adds time deposits with banks, and M4 adds post office savings deposits (excluding NSCs), which are least liquid."
+    },
+    {
+      "id": "q10",
+      "question": "'Reserve Money' or 'High-Powered Money' (M0) consists of:",
+      "options": [
+        "Currency with the public and demand deposits with banks",
+        "Currency in circulation, bankers' deposits with the RBI and other deposits with the RBI",
+        "Time deposits with banks and post office savings",
+        "Gold and foreign currency assets of the RBI"
+      ],
+      "answer": 1,
+      "explanation": "M0 is the monetary base created by the RBI. Through the money multiplier process of fractional reserve banking, M0 supports a larger stock of broad money (M3); the ratio M3/M0 is the money multiplier."
+    },
+    {
+      "id": "q11",
+      "question": "In the Fisher equation of exchange MV = PT, an increase in the velocity of money (V), other things remaining constant, would lead to:",
+      "options": ["A fall in the price level", "A rise in the price level", "A rise in the money supply", "No change in the price level"],
+      "answer": 1,
+      "explanation": "If money changes hands faster with the same money stock and volume of transactions, total spending rises and prices increase. The quantity theory of money underlies this relationship."
+    },
+    {
+      "id": "q12",
+      "question": "Consider the following statements about currency issue in India:\n1. The RBI issues currency notes under the Minimum Reserve System, holding at least Rs 200 crore in gold and foreign securities, of which Rs 115 crore must be gold.\n2. The one-rupee note is issued by the Government of India and bears the signature of the Finance Secretary.\nWhich of the statements given above is/are correct?",
+      "options": ["1 only", "2 only", "Both 1 and 2", "Neither 1 nor 2"],
+      "answer": 2,
+      "explanation": "The Minimum Reserve System replaced the proportional reserve system in 1957. All notes except the one-rupee note are issued by the RBI; the one-rupee note and all coins are issued by the Government of India."
+    },
+    {
+      "id": "q13",
+      "question": "Under the Coinage Act, 2011, coins of denomination one rupee and above are legal tender for payments up to:",
+      "options": ["Rs 100", "Rs 500", "Rs 1,000", "Any amount"],
+      "answer": 2,
+      "explanation": "Coins of one rupee and above are legal tender up to Rs 1,000 in a single transaction, and fifty paise coins up to Rs 10. Currency notes issued by the RBI are unlimited legal tender."
+    },
+    {
+      "id": "q14",
+      "question": "Which of the following pairs is/are correctly matched?\n1. Currency note presses at Nashik and Dewas : Security Printing and Minting Corporation of India Ltd (Government of India)\n2. Currency note presses at Mysuru and Salboni : Bharatiya Reserve Bank Note Mudran Pvt Ltd (RBI subsidiary)\n3. Coins are minted only at Mumbai and Kolkata\nSelect the correct answer using the code given below.",
+      "options": ["1 and 2 only", "2 and 3 only", "1 only", "1, 2 and 3"],
+      "answer": 0,
+      "explanation": "India has four mints, at Mumbai, Kolkata, Hyderabad and Noida, so statement 3 is incorrect. The press ownership in statements 1 and 2 is correctly stated."
+    },
+    {
+      "id": "q15",
+      "question": "Consider the following statements about the demonetisation episodes in India:\n1. High denomination notes were demonetised in 1946 and 1978 before the 2016 exercise.\n2. The Rs 2,000 note, withdrawn from circulation in 2023, ceased to be legal tender immediately upon withdrawal.\nWhich of the statements given above is/are correct?",
+      "options": ["1 only", "2 only", "Both 1 and 2", "Neither 1 nor 2"],
+      "answer": 0,
+      "explanation": "Notes were demonetised in 1946 and in 1978 (Rs 1,000, 5,000 and 10,000). The Rs 2,000 note was withdrawn under the RBI's clean note policy in May 2023 but continues to be legal tender."
+    },
+    {
+      "id": "q16",
+      "question": "The Reserve Bank of India was established on the recommendation of the:",
+      "options": ["Hilton Young Commission", "Chamberlain Commission", "Fowler Committee", "Herschell Committee"],
+      "answer": 0,
+      "explanation": "The Royal Commission on Indian Currency and Finance (Hilton Young Commission, 1926) recommended a central bank. The RBI Act was passed in 1934, the Bank began operations on 1 April 1935 and was nationalised on 1 January 1949."
+    },
+    {
+      "id": "q17",
+      "question": "Consider the following statements about the nationalisation of banks in India:\n1. In 1969, fourteen banks with deposits of over Rs 50 crore were nationalised.\n2. In 1980, six more banks with deposits of over Rs 200 crore were nationalised.\n3. The State Bank of India was created in 1955 by nationalising the Imperial Bank of India.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three statements are correct. The Imperial Bank, formed in 1921 by merging the three Presidency Banks, became SBI under the SBI Act 1955 on the recommendation of the Gorwala Committee on rural credit."
+    },
+    {
+      "id": "q18",
+      "question": "Regional Rural Banks (RRBs) were set up in 1975. Their share capital is contributed by the Central Government, the State Government and the sponsor bank in the ratio:",
+      "options": ["50 : 25 : 25", "50 : 15 : 35", "60 : 20 : 20", "35 : 15 : 50"],
+      "answer": 1,
+      "explanation": "RRBs were established under the RRB Act 1976 on the recommendation of the Narasimham Working Group, with capital shared 50 per cent Centre, 15 per cent State and 35 per cent sponsor bank. Prathama Bank in Moradabad was the first."
+    },
+    {
+      "id": "q19",
+      "question": "The Narasimham Committee (1991) on the financial system recommended which of the following?\n1. Reduction of SLR and CRR to lower levels\n2. Introduction of prudential norms for income recognition and asset classification\n3. Nationalisation of more private banks\nSelect the correct answer using the code given below.",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 0,
+      "explanation": "The first Narasimham Committee sought to deregulate and strengthen banks through lower pre-emptions, prudential norms, Debt Recovery Tribunals and entry of new private banks. It did not favour further nationalisation."
+    },
+    {
+      "id": "q20",
+      "question": "A loan is classified as a Non-Performing Asset (NPA) in India when interest or principal remains overdue for more than:",
+      "options": ["30 days", "60 days", "90 days", "180 days"],
+      "answer": 2,
+      "explanation": "The 90-day norm has applied since March 2004. NPAs are further classified as sub-standard (NPA for up to 12 months), doubtful (beyond 12 months) and loss assets, with rising provisioning requirements."
+    },
+    {
+      "id": "q21",
+      "question": "Consider the following statements about the Insolvency and Bankruptcy Code, 2016:\n1. The National Company Law Tribunal is the adjudicating authority for corporate insolvency.\n2. The Insolvency and Bankruptcy Board of India is the regulator for insolvency professionals and agencies.\n3. The corporate insolvency resolution process must be completed within an outer limit of 330 days including litigation.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. The 2019 amendment fixed the 330-day outer limit. Debt Recovery Tribunals are the adjudicating authority for individuals and partnership firms."
+    },
+    {
+      "id": "q22",
+      "question": "The SARFAESI Act, 2002 empowers banks and financial institutions to:",
+      "options": [
+        "Print currency in emergencies",
+        "Seize and sell the secured assets of defaulting borrowers without court intervention",
+        "Convert all loans into equity",
+        "Fix interest rates on deposits"
+      ],
+      "answer": 1,
+      "explanation": "The Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act allows secured creditors to enforce security interests after a 60-day notice, and provides for Asset Reconstruction Companies."
+    },
+    {
+      "id": "q23",
+      "question": "The 'Twin Balance Sheet' problem, highlighted in the Economic Survey 2016-17, refers to stress in the balance sheets of:",
+      "options": [
+        "The Centre and the States",
+        "Banks and the corporate sector",
+        "The RBI and commercial banks",
+        "Households and NBFCs"
+      ],
+      "answer": 1,
+      "explanation": "Over-leveraged corporates unable to service debt led to large NPAs in banks, and weak banks were unable to lend, depressing investment. The National Asset Reconstruction Company Ltd (2021) was set up as a 'bad bank' to address legacy NPAs."
+    },
+    {
+      "id": "q24",
+      "question": "Consider the following statements about Payments Banks:\n1. They were recommended by the Nachiket Mor Committee.\n2. They can accept demand deposits but cannot extend loans.\n3. They can issue credit cards.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 0,
+      "explanation": "Payments Banks (guidelines 2014) can accept deposits up to a prescribed limit per customer, issue debit cards and offer remittances, but cannot lend or issue credit cards. Airtel Payments Bank was the first to open in 2017."
+    },
+    {
+      "id": "q25",
+      "question": "Under Priority Sector Lending norms, scheduled commercial banks are required to lend what proportion of their Adjusted Net Bank Credit to the priority sector, and what is the sub-target for agriculture?",
+      "options": ["40 per cent; agriculture 18 per cent", "40 per cent; agriculture 10 per cent", "50 per cent; agriculture 18 per cent", "75 per cent; agriculture 18 per cent"],
+      "answer": 0,
+      "explanation": "Domestic commercial banks must lend 40 per cent of ANBC to priority sectors, with sub-targets of 18 per cent for agriculture, 7.5 per cent for micro enterprises and 12 per cent for weaker sections. Small Finance Banks and RRBs have a 75 per cent target."
+    },
+    {
+      "id": "q26",
+      "question": "Since October 2019, new floating-rate retail and MSME loans of banks must be linked to an external benchmark. Which of the following is NOT one of the permitted benchmarks?",
+      "options": ["RBI policy repo rate", "3-month or 6-month Treasury Bill yield published by FBIL", "Any other FBIL-published benchmark market rate", "The bank's own Marginal Cost of Funds based Lending Rate (MCLR)"],
+      "answer": 3,
+      "explanation": "MCLR is an internal benchmark. The external benchmark regime was introduced because internal benchmarks such as Base Rate (2010) and MCLR (2016) transmitted policy rate changes slowly."
+    },
+    {
+      "id": "q27",
+      "question": "Bank deposits in India are insured by the Deposit Insurance and Credit Guarantee Corporation (DICGC) up to what amount per depositor per bank?",
+      "options": ["Rs 1 lakh", "Rs 2 lakh", "Rs 5 lakh", "Rs 10 lakh"],
+      "answer": 2,
+      "explanation": "The cover was raised from Rs 1 lakh to Rs 5 lakh in February 2020. DICGC, a wholly owned subsidiary of the RBI, covers all commercial banks, RRBs and cooperative banks; the premium is paid by banks."
+    },
+    {
+      "id": "q28",
+      "question": "Which of the following banks have been designated as Domestic Systemically Important Banks (D-SIBs) by the RBI?",
+      "options": ["SBI, Punjab National Bank and Bank of Baroda", "SBI, ICICI Bank and HDFC Bank", "SBI, Axis Bank and Kotak Mahindra Bank", "HDFC Bank, ICICI Bank and Axis Bank"],
+      "answer": 1,
+      "explanation": "D-SIBs, or 'too big to fail' banks, must hold additional Common Equity Tier 1 capital. SBI, ICICI Bank and HDFC Bank are the three institutions in this list."
+    },
+    {
+      "id": "q29",
+      "question": "Under Basel III norms as implemented by the RBI, Indian banks must maintain a minimum Capital to Risk-weighted Assets Ratio (CRAR) of:",
+      "options": ["8 per cent", "9 per cent", "10.5 per cent", "12 per cent"],
+      "answer": 1,
+      "explanation": "Basel III prescribes 8 per cent, but the RBI mandates 9 per cent, plus a capital conservation buffer of 2.5 per cent, taking the total to 11.5 per cent. Basel norms are issued by the Basel Committee on Banking Supervision at the Bank for International Settlements."
+    },
+    {
+      "id": "q30",
+      "question": "Consider the following statements about Non-Banking Financial Companies (NBFCs):\n1. NBFCs cannot accept demand deposits.\n2. Deposits with NBFCs are covered by DICGC insurance.\n3. NBFCs are not part of the payment and settlement system and cannot issue cheques drawn on themselves.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 2,
+      "explanation": "NBFCs may accept only term deposits if permitted, are outside the payment system and their deposits are not insured by DICGC. Since 2021 the RBI applies a scale-based regulation framework (base, middle, upper and top layers)."
+    },
+    {
+      "id": "q31",
+      "question": "Chit funds in India are primarily regulated by:",
+      "options": ["The Reserve Bank of India", "The Securities and Exchange Board of India", "State Governments under the Chit Funds Act, 1982", "The Ministry of Corporate Affairs"],
+      "answer": 2,
+      "explanation": "Chit funds are governed by the central Chit Funds Act 1982 but administered by State Governments through Registrars of Chits. Collective investment schemes are regulated by SEBI and Nidhi companies by the Ministry of Corporate Affairs."
+    },
+    {
+      "id": "q32",
+      "question": "Consider the following statements about the Unified Payments Interface (UPI):\n1. It was developed by the National Payments Corporation of India.\n2. NPCI is a not-for-profit company promoted by the RBI and the Indian Banks' Association.\n3. UPI transactions settle only on working days.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 0,
+      "explanation": "UPI, launched in 2016, operates in real time round the clock on all days. NPCI (2008) also runs RuPay, IMPS, BHIM, FASTag and the Bharat Bill Payment System."
+    },
+    {
+      "id": "q33",
+      "question": "The Central Bank Digital Currency (e-rupee) piloted by the RBI in 2022 differs from money in a UPI-linked bank account in that:",
+      "options": [
+        "It is a liability of the RBI itself, like physical currency, rather than a liability of a commercial bank",
+        "It earns a higher rate of interest",
+        "It can be used only for cross-border payments",
+        "It is backed by gold"
+      ],
+      "answer": 0,
+      "explanation": "CBDC is sovereign digital currency issued directly by the central bank and is legal tender. Bank deposits are claims on commercial banks. The wholesale pilot began in November 2022 and the retail pilot in December 2022."
+    },
+    {
+      "id": "q34",
+      "question": "Which of the following pairs of institution and year of establishment is/are correctly matched?\n1. NABARD : 1982\n2. SIDBI : 1990\n3. EXIM Bank : 1988\nSelect the correct answer using the code given below.",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 0,
+      "explanation": "NABARD (1982) was set up on the recommendation of the Sivaraman Committee, SIDBI in 1990 as a subsidiary of IDBI, and EXIM Bank in 1982. The National Housing Bank was established in 1988."
+    },
+    {
+      "id": "q35",
+      "question": "The Lead Bank Scheme, under which a designated bank coordinates credit planning in each district, was introduced in 1969 on the recommendations of the:",
+      "options": ["Gadgil Study Group and the Nariman Committee", "Narasimham Committee", "Rangarajan Committee", "Vaghul Committee"],
+      "answer": 0,
+      "explanation": "The scheme followed the Gadgil Study Group (1969) and the Banker's Committee headed by F.K.F. Nariman, and was revamped in 2009 on the recommendations of the Usha Thorat Committee."
+    },
+    {
+      "id": "q36",
+      "question": "The Wholesale Price Index (WPI) in India is compiled and released by the:",
+      "options": ["National Statistical Office", "Reserve Bank of India", "Office of the Economic Adviser, Department for Promotion of Industry and Internal Trade", "Labour Bureau"],
+      "answer": 2,
+      "explanation": "WPI (base 2011-12) is released monthly by the Office of the Economic Adviser, DPIIT, and covers only goods. CPI (base 2012) is compiled by the NSO, while CPI for Industrial Workers is compiled by the Labour Bureau."
+    },
+    {
+      "id": "q37",
+      "question": "'Core inflation' is obtained by excluding which of the following from headline inflation?",
+      "options": ["Housing and clothing", "Food and fuel", "Services and transport", "Manufactured products"],
+      "answer": 1,
+      "explanation": "Food and fuel prices are volatile and driven by supply shocks and global prices. Core inflation, which excludes them, better reflects underlying demand pressures that monetary policy can influence."
+    },
+    {
+      "id": "q38",
+      "question": "Consider the following statements:\n1. Disinflation is a fall in the rate of inflation while prices continue to rise.\n2. Deflation is a sustained fall in the general price level.\n3. Stagflation is a situation of high inflation combined with high unemployment and stagnant growth.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three definitions are correct. Stagflation, seen in the 1970s oil shocks, challenged the Phillips curve notion of a stable inverse relationship between inflation and unemployment."
+    },
+    {
+      "id": "q39",
+      "question": "A 'liquidity trap' is a situation in which:",
+      "options": [
+        "Banks have no liquidity and cannot lend",
+        "Interest rates are so low that additional money supply fails to stimulate spending, as people prefer to hold cash",
+        "The RBI runs out of foreign exchange reserves",
+        "Inflation rises despite a tight monetary policy"
+      ],
+      "answer": 1,
+      "explanation": "Described by Keynes, in a liquidity trap monetary policy loses effectiveness because demand for money becomes perfectly elastic at very low interest rates; fiscal policy is then relied upon."
+    },
+    {
+      "id": "q40",
+      "question": "Consider the following statements about the Financial Stability and Development Council (FSDC):\n1. It is chaired by the Governor of the Reserve Bank of India.\n2. It was constituted in 2010 to strengthen inter-regulatory coordination and monitor systemic risk.\nWhich of the statements given above is/are correct?",
+      "options": ["1 only", "2 only", "Both 1 and 2", "Neither 1 nor 2"],
+      "answer": 1,
+      "explanation": "The FSDC is chaired by the Union Finance Minister, with heads of all financial sector regulators as members. Its sub-committee is chaired by the RBI Governor."
+    }
+  ]
+}

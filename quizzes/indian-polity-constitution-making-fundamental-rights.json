@@ -1,0 +1,290 @@
+{
+  "title": "Constitutional Development, Preamble, Union, Citizenship and Fundamental Rights",
+  "subject": "Indian Polity",
+  "topic": "Acts of 1858 to 1947, Constituent Assembly, sources and features of the Constitution, Preamble, Union and its territory, reorganisation of states, citizenship, Fundamental Rights Articles 12-35, writs and related judgments",
+  "description": "UPSC/BPSC-level questions on the historical background and making of the Constitution, its borrowed features and philosophy, the provisions on territory and citizenship, and a detailed treatment of the Fundamental Rights with the doctrines and cases that shaped them.",
+  "timeLimitMinutes": 40,
+  "createdAt": "2026-09-24",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Which of the following pairs of colonial enactment and its provision is/are correctly matched?\n1. Indian Councils Act, 1861 : Introduced the portfolio system and empowered the Viceroy to issue ordinances\n2. Government of India Act, 1919 : Introduced dyarchy in the provinces and a bicameral central legislature, and provided for a Public Service Commission\n3. Government of India Act, 1935 : Provided for an All-India Federation, provincial autonomy, a Federal Court and the Reserve Bank of India\n4. Indian Independence Act, 1947 : Abolished the office of Secretary of State for India and ended British paramountcy over princely states\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The 1919 Act also introduced direct elections for the first time and extended separate electorates. The 1935 Act divided powers into Federal, Provincial and Concurrent lists and is the single largest source of the present Constitution."
+    },
+    {
+      "id": "q2",
+      "question": "Consider the following statements about the Constituent Assembly:\n1. It was constituted under the Cabinet Mission Plan of 1946, with members elected indirectly by the provincial assemblies and nominated by the princely states.\n2. After partition its strength was reduced to 299 members.\n3. B.N. Rau served as the Constitutional Adviser, and the Drafting Committee of seven members was chaired by B.R. Ambedkar.\n4. It took two years, eleven months and eighteen days over eleven sessions to frame the Constitution.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Drafting Committee included N. Gopalaswamy Ayyangar, Alladi Krishnaswami Ayyar, K.M. Munshi, Syed Mohammad Saadullah, N. Madhava Rao and T.T. Krishnamachari. Hyderabad state sent no representative."
+    },
+    {
+      "id": "q3",
+      "question": "Consider the following statements about the adoption of the Constitution:\n1. The Constitution was adopted on 26 November 1949, when provisions relating to citizenship, elections and the provisional Parliament came into force immediately.\n2. The bulk of the Constitution commenced on 26 January 1950, chosen to commemorate the Purna Swaraj day of 1930.\n3. The original Constitution had 395 Articles, 22 Parts and 8 Schedules.\n4. The calligraphy of the original English version was done by Prem Behari Narain Raizada and the illustrations by Nandalal Bose and his students.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Constitution now has 12 Schedules and 25 Parts (Part VII was deleted and Parts IVA, IXA, IXB and XIVA added). Constitution Day has been observed on 26 November since 2015."
+    },
+    {
+      "id": "q4",
+      "question": "Which of the following pairs of feature of the Indian Constitution and its source is/are correctly matched?\n1. Directive Principles of State Policy and method of election of the President : Ireland\n2. Fundamental Rights, judicial review and impeachment of the President : United States\n3. Federation with a strong Centre, residuary powers with the Centre and appointment of Governors : Canada\n4. Concurrent List, freedom of trade and commerce and joint sitting of the two Houses : Australia\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Britain gave the parliamentary system, rule of law, single citizenship and writs; Germany's Weimar Constitution the suspension of rights during emergency; the USSR the Fundamental Duties; France the republic and the ideals of liberty, equality and fraternity; South Africa the amendment procedure; and Japan 'procedure established by law'."
+    },
+    {
+      "id": "q5",
+      "question": "Consider the following statements about the Preamble:\n1. It is based on the Objectives Resolution moved by Jawaharlal Nehru on 13 December 1946.\n2. The words 'socialist', 'secular' and 'integrity' were added by the 42nd Amendment Act of 1976.\n3. In the Berubari Union case (1960) the Supreme Court held that the Preamble is not a part of the Constitution, but in Kesavananda Bharati (1973) it held that it is.\n4. The Preamble is enforceable in a court of law.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "The Preamble is neither a source of power nor enforceable, but it is a key to the minds of the framers and can be amended without altering the basic structure. It describes India as a sovereign, socialist, secular, democratic republic."
+    },
+    {
+      "id": "q6",
+      "question": "Which of the following are federal features of the Indian Constitution?\n1. Division of powers between the Centre and the states through three lists\n2. Written and rigid Constitution\n3. Independent judiciary\n4. Bicameral legislature with the Rajya Sabha representing states\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are federal features. Unitary features include a strong Centre, single citizenship, single Constitution, flexibility in amendment of many provisions, integrated judiciary, all-India services, emergency provisions and appointment of Governors. K.C. Wheare called India 'quasi-federal'."
+    },
+    {
+      "id": "q7",
+      "question": "Consider the following statements about Article 1 and the territory of India:\n1. Article 1 describes India as a 'Union of States', and Ambedkar explained that the federation was not the result of an agreement among the states and that no state has the right to secede.\n2. The 'territory of India' under Article 1(3) includes the states, the Union Territories and territories that may be acquired.\n3. Under Article 2, Parliament may admit or establish new states, and under Article 3 it may form new states and alter the areas, boundaries or names of existing states.\n4. A bill under Article 3 needs the prior recommendation of the President and must be referred to the concerned state legislature, whose views are binding on Parliament.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "The views of the state legislature are not binding on Parliament or the President. Laws under Articles 2 and 3 are passed by simple majority and are not treated as constitutional amendments under Article 4."
+    },
+    {
+      "id": "q8",
+      "question": "Consider the following statements about the reorganisation of states:\n1. The Dhar Commission (1948) and the JVP Committee (1949) rejected language as the sole basis for reorganising states.\n2. Andhra became the first linguistic state in 1953 after the death of Potti Sriramulu on a fast.\n3. The Fazl Ali Commission (1953) recommended the abolition of the four-fold classification of states, and the States Reorganisation Act of 1956 created 14 states and 6 Union Territories.\n4. Cession of Indian territory to a foreign country requires a constitutional amendment, as held in the Berubari case, which led to the 9th Amendment Act of 1960.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Subsequent creations include Gujarat and Maharashtra (1960), Nagaland (1963), Haryana (1966), Sikkim (36th Amendment, 1975), Chhattisgarh, Uttarakhand and Jharkhand (2000), and Telangana (2014)."
+    },
+    {
+      "id": "q9",
+      "question": "Consider the following statements about the Jammu and Kashmir Reorganisation Act, 2019:\n1. It bifurcated the state into the Union Territories of Jammu and Kashmir, with a legislature, and Ladakh, without a legislature.\n2. It followed the Presidential Orders of 5 August 2019 under Article 370 that made all provisions of the Constitution applicable to the state.\n3. The Supreme Court in December 2023 upheld the abrogation of the special status.\n4. As a result India has 28 states and 8 Union Territories after the merger of Dadra and Nagar Haveli with Daman and Diu in 2020.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Article 35A, which had allowed the state to define permanent residents, ceased to operate. The Court directed that statehood be restored to Jammu and Kashmir and elections held, which took place in 2024."
+    },
+    {
+      "id": "q10",
+      "question": "Consider the following statements about citizenship under the Constitution:\n1. Part II (Articles 5 to 11) deals with citizenship, and India provides for single citizenship.\n2. Article 11 empowers Parliament to make laws regarding acquisition and termination of citizenship, under which the Citizenship Act of 1955 was enacted.\n3. The Act provides for acquisition of citizenship by birth, descent, registration, naturalisation and incorporation of territory.\n4. Citizenship may be lost by renunciation, termination or deprivation.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Overseas Citizen of India cardholders, introduced through amendments of 2003-2005 and merged with the PIO scheme in 2015, enjoy lifelong visas and several rights but not voting rights or public office."
+    },
+    {
+      "id": "q11",
+      "question": "Consider the following statements about the Citizenship (Amendment) Act, 2019:\n1. It makes Hindu, Sikh, Buddhist, Jain, Parsi and Christian migrants from Afghanistan, Bangladesh and Pakistan who entered India on or before 31 December 2014 eligible for citizenship.\n2. It reduced the residence requirement for naturalisation for these groups from eleven years to five years.\n3. Its rules were notified in March 2024.\n4. It applies to the tribal areas of Assam, Meghalaya, Mizoram and Tripura included in the Sixth Schedule.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "The Act exempts the Sixth Schedule tribal areas and the Inner Line Permit areas of Arunachal Pradesh, Nagaland, Mizoram and Manipur. Its constitutionality has been challenged before the Supreme Court."
+    },
+    {
+      "id": "q12",
+      "question": "Consider the following statements about Part III of the Constitution:\n1. Fundamental Rights are contained in Articles 12 to 35 and are described as the 'Magna Carta of India'.\n2. Originally there were seven Fundamental Rights; the right to property was removed by the 44th Amendment Act of 1978 and made a legal right under Article 300A.\n3. Article 12 defines the 'State' to include the government and Parliament of India, state governments and legislatures, and all local and other authorities.\n4. Article 13 declares that laws inconsistent with Fundamental Rights are void and thus provides for judicial review.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The six remaining rights are equality, freedom, against exploitation, freedom of religion, cultural and educational rights, and constitutional remedies. 'Law' under Article 13 includes ordinances, orders, bye-laws and customs but, after the 24th Amendment, not constitutional amendments."
+    },
+    {
+      "id": "q13",
+      "question": "Which of the following Fundamental Rights are available only to citizens and not to foreigners?\n1. Article 15 (prohibition of discrimination on grounds of religion, race, caste, sex or place of birth)\n2. Article 16 (equality of opportunity in public employment)\n3. Article 19 (six freedoms)\n4. Article 21 (protection of life and personal liberty)\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "Articles 15, 16, 19, 29 and 30 are available only to citizens. Articles 14, 20, 21, 21A, 22, 23, 24, 25, 26, 27 and 28 are available to all persons including foreigners, though not to enemy aliens in some respects."
+    },
+    {
+      "id": "q14",
+      "question": "Consider the following statements about Article 14:\n1. 'Equality before law' is a British concept implying absence of special privileges, while 'equal protection of the laws' is an American concept implying equal treatment in equal circumstances.\n2. Article 14 permits reasonable classification but prohibits class legislation.\n3. The rule of law, an element of Article 14, has been held to be part of the basic structure.\n4. The President and Governors enjoy immunity from criminal proceedings during their term under Article 361 as an exception.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Supreme Court in E.P. Royappa (1974) and Maneka Gandhi (1978) added that arbitrariness is antithetical to equality. Foreign diplomats and the parliamentary privileges under Article 105 are other exceptions."
+    },
+    {
+      "id": "q15",
+      "question": "Consider the following statements about Articles 15 and 16:\n1. Article 15(4), enabling special provisions for socially and educationally backward classes and SCs and STs, was added by the 1st Amendment Act of 1951 after the Champakam Dorairajan case.\n2. Article 15(5), added by the 93rd Amendment Act of 2005, permits reservation in private educational institutions other than minority institutions.\n3. Article 16(4A), providing for reservation in promotion for SCs and STs, was added by the 77th Amendment Act of 1995.\n4. Articles 15(6) and 16(6), providing up to 10 per cent reservation for economically weaker sections, were added by the 103rd Amendment Act of 2019.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Article 16(4B), added by the 81st Amendment (2000), allows unfilled reserved vacancies to be carried forward outside the 50 per cent ceiling. The EWS reservation was upheld in Janhit Abhiyan (2022)."
+    },
+    {
+      "id": "q16",
+      "question": "Consider the following statements about Articles 17 and 18:\n1. Article 17 abolishes untouchability and forbids its practice in any form, and the Protection of Civil Rights Act of 1955 prescribes punishments.\n2. Article 17 is available against private individuals as well as the State.\n3. Article 18 abolishes titles but permits military and academic distinctions.\n4. In Balaji Raghavan (1996) the Supreme Court held that national awards such as the Bharat Ratna and Padma awards are not titles under Article 18, though they should not be used as suffixes or prefixes to names.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Article 18 also forbids citizens from accepting titles from foreign states, and foreigners holding office under the State from accepting foreign titles without the President's consent."
+    },
+    {
+      "id": "q17",
+      "question": "Consider the following statements about Article 19:\n1. It guarantees six freedoms: speech and expression, peaceful assembly without arms, association, movement, residence, and profession, occupation, trade or business.\n2. The freedom to acquire, hold and dispose of property was originally the seventh freedom, deleted by the 44th Amendment.\n3. The grounds of 'sovereignty and integrity of India' for restricting freedom of speech were added by the 16th Amendment Act of 1963.\n4. Freedom of the press is expressly mentioned in Article 19(1)(a).\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "Freedom of the press is implied within freedom of speech and expression, as held in Romesh Thappar (1950) and later cases, but is not expressly mentioned. Article 19 rights can be restricted only on the grounds specified in clauses (2) to (6)."
+    },
+    {
+      "id": "q18",
+      "question": "Which of the following pairs of right and the case in which the Supreme Court recognised it under Article 19(1)(a) is/are correctly matched?\n1. Right to know the antecedents of election candidates : Association for Democratic Reforms (2002)\n2. Striking down Section 66A of the Information Technology Act as vague and overbroad : Shreya Singhal (2015)\n3. Right to fly the national flag : Naveen Jindal (2004)\n4. Right to silence, upheld in the national anthem case : Bijoe Emmanuel (1986)\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Other recognised aspects include commercial speech, the right to telecast and the right to receive information. Sedition (Section 124A IPC) was held constitutional in Kedar Nath (1962) but was kept in abeyance by the Court in 2022."
+    },
+    {
+      "id": "q19",
+      "question": "Consider the following statements about Article 20:\n1. It prohibits ex post facto criminal laws, meaning no one can be convicted for an act that was not an offence when committed, nor given a greater penalty than was prescribed at that time.\n2. It prohibits double jeopardy, that is, prosecution and punishment for the same offence more than once.\n3. It protects against self-incrimination, so no accused can be compelled to be a witness against himself.\n4. Article 20 can be suspended during a national emergency.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "The 44th Amendment provided that Articles 20 and 21 cannot be suspended even during a national emergency. The protection against double jeopardy applies only to proceedings before a court or judicial tribunal, not departmental inquiries."
+    },
+    {
+      "id": "q20",
+      "question": "Consider the following statements about Article 21:\n1. In A.K. Gopalan (1950) the Supreme Court gave a narrow interpretation, holding that 'procedure established by law' meant any procedure laid down by a valid law.\n2. In Maneka Gandhi (1978) the Court held that the procedure must be just, fair and reasonable, effectively reading 'due process' into Article 21.\n3. The Court has read into Article 21 rights such as the right to livelihood, shelter, health, clean environment, speedy trial, dignity and privacy.\n4. In K.S. Puttaswamy (2017) a nine-judge bench declared privacy a Fundamental Right and overruled ADM Jabalpur (1976).\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. In Common Cause (2018) the Court recognised passive euthanasia and living wills, and in Aruna Shanbaug (2011) it had laid down earlier guidelines. Article 21 is available to foreigners as well."
+    },
+    {
+      "id": "q21",
+      "question": "Consider the following statements about Article 21A and the right to education:\n1. Article 21A, inserted by the 86th Amendment Act of 2002, makes free and compulsory education for children aged 6 to 14 a Fundamental Right.\n2. The same amendment changed Article 45 to provide for early childhood care and education for children below six years and added Fundamental Duty 51A(k).\n3. The Right of Children to Free and Compulsory Education Act, 2009 gives effect to Article 21A and requires private unaided schools to reserve 25 per cent of seats for disadvantaged children.\n4. In Unni Krishnan (1993) the Supreme Court had earlier held that the right to education flows from Article 21.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. In Society for Unaided Private Schools of Rajasthan (2012) the Court upheld the 25 per cent provision but exempted unaided minority institutions, and in Pramati (2014) it exempted all minority institutions."
+    },
+    {
+      "id": "q22",
+      "question": "Consider the following statements about Article 22:\n1. It guarantees to an arrested person the right to be informed of the grounds of arrest, to consult a lawyer, and to be produced before a magistrate within 24 hours.\n2. These protections do not apply to enemy aliens or persons detained under preventive detention laws.\n3. Preventive detention beyond three months requires the opinion of an Advisory Board of persons qualified to be High Court judges.\n4. The 44th Amendment reduced the three-month period to two months, but this provision has not been brought into force.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Parliament has exclusive power to legislate on preventive detention for defence, foreign affairs and security of India, and shares concurrent power with states on grounds of public order and essential supplies. The National Security Act of 1980 is a current example."
+    },
+    {
+      "id": "q23",
+      "question": "Consider the following statements about the right against exploitation:\n1. Article 23 prohibits traffic in human beings, begar and other forms of forced labour, and is available against private persons as well as the State.\n2. Article 23 permits the State to impose compulsory service for public purposes without discrimination on grounds of religion, race, caste or class.\n3. Article 24 prohibits employment of children below 14 years in factories, mines or other hazardous employment.\n4. The Bonded Labour System (Abolition) Act of 1976 and the Immoral Traffic (Prevention) Act of 1956 give effect to Article 23.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. In People's Union for Democratic Rights (1982) the Court held that payment below the minimum wage amounts to forced labour. The Child Labour (Prohibition and Regulation) Act of 1986, amended in 2016, prohibits employment of children below 14 in all occupations except family enterprises and entertainment."
+    },
+    {
+      "id": "q24",
+      "question": "Consider the following statements about the right to freedom of religion:\n1. Article 25 guarantees freedom of conscience and the right to profess, practise and propagate religion, subject to public order, morality, health and other Fundamental Rights.\n2. Article 26 gives every religious denomination the right to manage its own affairs in matters of religion and to own and administer property.\n3. Article 27 prohibits compelling any person to pay taxes for the promotion of any particular religion.\n4. Article 28 prohibits religious instruction in educational institutions wholly maintained by state funds.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The 'essential religious practices' test was developed in the Shirur Mutt case (1954). The Explanation to Article 25 treats wearing and carrying kirpans as part of the Sikh religion, and refers to Sikhs, Jains and Buddhists as Hindus for the purpose of temple entry laws."
+    },
+    {
+      "id": "q25",
+      "question": "Consider the following statements about cultural and educational rights:\n1. Article 29 protects the right of any section of citizens with a distinct language, script or culture to conserve it, and prohibits denial of admission to state-funded institutions on grounds of religion, race, caste or language.\n2. Article 30 gives religious and linguistic minorities the right to establish and administer educational institutions of their choice.\n3. Article 29 protects the rights of both minorities and majorities, while Article 30 is confined to minorities.\n4. In T.M.A. Pai (2002) an eleven-judge bench held that minority status is to be determined with reference to the state as the unit.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The 44th Amendment added Article 30(1A) requiring that compensation for compulsory acquisition of minority institutions' property must not abridge their right. The National Commission for Minority Educational Institutions was set up in 2004."
+    },
+    {
+      "id": "q26",
+      "question": "Consider the following statements about Article 32:\n1. Ambedkar called Article 32 the 'heart and soul' of the Constitution.\n2. The right to move the Supreme Court for enforcement of Fundamental Rights is itself a Fundamental Right.\n3. The Supreme Court has held that Article 32 is part of the basic structure.\n4. Under Article 32 the Supreme Court can issue writs for the enforcement of legal rights other than Fundamental Rights.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "The Supreme Court's writ jurisdiction under Article 32 is confined to Fundamental Rights, whereas High Courts under Article 226 can issue writs 'for any other purpose' as well, making their jurisdiction wider. Article 32 can be suspended during emergency except for Articles 20 and 21."
+    },
+    {
+      "id": "q27",
+      "question": "Which of the following pairs of writ and its meaning is/are correctly matched?\n1. Habeas corpus : 'To have the body'; issued against unlawful detention, including by private persons\n2. Mandamus : 'We command'; directs a public authority to perform a public duty; not issued against the President or Governors\n3. Prohibition : Issued by a higher court to a lower court or tribunal to prevent it from exceeding its jurisdiction; preventive in nature\n4. Certiorari : Issued to quash an order already passed by a lower court, tribunal or, since 1991, an administrative authority; both preventive and curative\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Quo warranto ('by what authority') inquires into the legality of a person's claim to a public office of a substantive, permanent character created by statute, and can be sought by any interested person."
+    },
+    {
+      "id": "q28",
+      "question": "Consider the following statements about Articles 33, 34 and 35:\n1. Article 33 empowers Parliament to restrict or abrogate the Fundamental Rights of members of the armed forces, paramilitary forces, police and intelligence agencies to ensure discipline.\n2. Article 34 permits restriction of Fundamental Rights while martial law is in force in any area.\n3. Article 35 confers on Parliament alone the power to make laws to give effect to certain Fundamental Rights, such as prescribing punishment for untouchability.\n4. The expression 'martial law' is defined in the Constitution.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "'Martial law' is nowhere defined in the Constitution; it is borrowed from English common law. Article 34 allows Parliament to indemnify persons for acts done during martial law. Laws made under Article 33 cannot be challenged in courts."
+    },
+    {
+      "id": "q29",
+      "question": "Which of the following pairs of doctrine relating to Fundamental Rights and its meaning is/are correctly matched?\n1. Doctrine of eclipse : A pre-constitutional law inconsistent with a Fundamental Right is not void but eclipsed and revives if the inconsistency is removed (Bhikaji Narain Dhakras, 1955)\n2. Doctrine of severability : Only the offending part of a law is void if it can be separated from the valid part (A.K. Gopalan, 1950)\n3. Doctrine of waiver : A citizen can voluntarily waive a Fundamental Right\n4. Doctrine of territorial nexus : Relates to the extent of state legislation, not to Fundamental Rights\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 4 only", "1 and 3 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "In Basheshar Nath (1959) the Supreme Court held that Fundamental Rights cannot be waived, since they are meant to protect public policy and not merely individuals. The doctrine of eclipse was extended to post-constitutional laws affecting non-citizens in a later case."
+    },
+    {
+      "id": "q30",
+      "question": "Consider the following statements about Articles 31A, 31B and 31C:\n1. Article 31A, added by the 1st Amendment, protects laws providing for the acquisition of estates and abolition of zamindari from challenge under Articles 14 and 19.\n2. Article 31B protects laws placed in the Ninth Schedule from challenge on the ground of violating Fundamental Rights.\n3. In I.R. Coelho (2007) the Supreme Court held that laws added to the Ninth Schedule after 24 April 1973 are open to judicial review if they violate the basic structure.\n4. Article 31C, added by the 25th Amendment, protects laws giving effect to Articles 39(b) and 39(c); its extension to all Directive Principles by the 42nd Amendment was struck down in Minerva Mills (1980).\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Ninth Schedule was created by the 1st Amendment of 1951 with 13 laws, mainly land reform measures; it now contains over 280 laws, and the date 24 April 1973 is that of the Kesavananda judgment."
+    },
+    {
+      "id": "q31",
+      "question": "Consider the following statements about the suspension of Fundamental Rights during emergency:\n1. Under Article 358, the six freedoms of Article 19 are automatically suspended when a national emergency is declared on grounds of war or external aggression, but not on grounds of armed rebellion.\n2. Under Article 359, the President may suspend the right to move courts for enforcement of specified Fundamental Rights, except Articles 20 and 21.\n3. Both provisions were narrowed by the 44th Amendment Act of 1978.\n4. During the 1975 emergency the Supreme Court in ADM Jabalpur held that even the right to life could be suspended.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Justice H.R. Khanna's lone dissent in ADM Jabalpur cost him the Chief Justiceship but was vindicated when the judgment was overruled in Puttaswamy (2017)."
+    },
+    {
+      "id": "q32",
+      "question": "Consider the following statements about the right to property:\n1. Originally Article 19(1)(f) and Article 31 guaranteed the right to property as a Fundamental Right.\n2. The 44th Amendment Act of 1978 deleted these provisions and inserted Article 300A, which provides that no person shall be deprived of property save by authority of law.\n3. As a legal right, property can be regulated by ordinary law, and there is no Fundamental Right to compensation except in the cases covered by Articles 30(1A) and 31A.\n4. The Supreme Court has held that Article 300A is part of the basic structure.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "The Court has described the right to property as a constitutional and human right but has not declared it part of the basic structure. The frequent amendments to protect land reforms made property the most litigated right before 1978."
+    },
+    {
+      "id": "q33",
+      "question": "Which of the following statements about the Constituent Assembly's committees is/are correct?\n1. The Union Powers Committee and the Union Constitution Committee were chaired by Jawaharlal Nehru.\n2. The Provincial Constitution Committee and the Advisory Committee on Fundamental Rights and Minorities were chaired by Vallabhbhai Patel.\n3. The Rules of Procedure Committee and the Steering Committee were chaired by Rajendra Prasad.\n4. The sub-committee on Fundamental Rights was chaired by J.B. Kripalani.\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The sub-committee on Minorities was chaired by H.C. Mookherjee, the Flag Committee by Rajendra Prasad, and the States Committee for negotiating with princely states by Nehru."
+    },
+    {
+      "id": "q34",
+      "question": "Consider the following statements about the Constitution as adopted in the Constituent Assembly:\n1. The National Flag was adopted on 22 July 1947.\n2. The national anthem and national song were adopted on 24 January 1950, the day of the Assembly's last session.\n3. The Assembly elected Rajendra Prasad as the first President of India on 24 January 1950.\n4. The Assembly functioned as the provisional Parliament from 26 January 1950 until the first general elections of 1951-52.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Assembly also ratified India's membership of the Commonwealth in May 1949. Critics called it a body of Congress and lawyers, but it represented all shades of opinion through its 'Congress within, party without' character."
+    },
+    {
+      "id": "q35",
+      "question": "Consider the following statements about the protection of Scheduled Castes and Scheduled Tribes:\n1. Article 341 empowers the President to specify Scheduled Castes for each state in consultation with the Governor, and only Parliament can modify the list.\n2. Article 342 makes similar provision for Scheduled Tribes.\n3. Article 335 requires the claims of SCs and STs to be considered in appointments consistently with the maintenance of efficiency of administration.\n4. The Scheduled Castes and Scheduled Tribes (Prevention of Atrocities) Act was enacted in 1989.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. In Subhash Kashinath Mahajan (2018) the Supreme Court diluted the Atrocities Act, prompting a 2018 amendment that restored its provisions, which the Court upheld in 2020."
+    },
+    {
+      "id": "q36",
+      "question": "Consider the following statements about the Indian Councils Act of 1909 and the Government of India Act of 1919 as constitutional precedents:\n1. The 1909 Act introduced communal representation through separate electorates for Muslims and allowed Indians to be associated with the Executive Council.\n2. The 1919 Act separated central and provincial subjects and provided for direct elections, though on a limited franchise.\n3. The 1919 Act granted women the right to vote for the first time on the same basis as men.\n4. The 1919 Act provided for the appointment of a statutory commission after ten years, which came as the Simon Commission.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 4 only", "1 and 3 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "The 1919 Act left the question of women's franchise to the provincial councils, which extended it gradually on the same property qualifications as men; universal adult franchise came only with the Constitution in 1950."
+    },
+    {
+      "id": "q37",
+      "question": "Consider the following statements about the Ninth Schedule and the First Amendment Act of 1951:\n1. The First Amendment was passed by the provisional Parliament before the first general elections.\n2. It added Articles 15(4), 31A and 31B and the Ninth Schedule, and added public order, friendly relations with foreign states and incitement to an offence as grounds for restricting free speech.\n3. Its validity was upheld in Shankari Prasad (1951), where the Court held that a constitutional amendment is not 'law' under Article 13.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. The amendment was prompted by court decisions striking down land reform laws (Kameshwar Singh, Bihar) and reservation orders (Champakam Dorairajan) and restricting press curbs (Romesh Thappar, Brij Bhushan)."
+    },
+    {
+      "id": "q38",
+      "question": "Consider the following statements about the Supreme Court's decisions on reservation:\n1. In Indra Sawhney (1992) the Court upheld 27 per cent OBC reservation, capped total reservation at 50 per cent, excluded the creamy layer and held that reservation in promotions was not permissible.\n2. In M. Nagaraj (2006) the Court upheld the amendments enabling reservation in promotion but required data on backwardness, inadequate representation and efficiency.\n3. In Jarnail Singh (2018) the Court held that quantifiable data on backwardness of SCs and STs is not required, and applied the creamy layer principle to promotions.\n4. The 50 per cent ceiling has never been breached by any state law upheld by courts.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "Tamil Nadu's 69 per cent reservation law was placed in the Ninth Schedule in 1994 and remains under challenge, and the EWS quota takes total reservation beyond 50 per cent, which the Court in 2022 held did not violate the basic structure since the ceiling applies to backward-class reservation. The Maratha reservation was struck down in 2021 for breaching the ceiling."
+    },
+    {
+      "id": "q39",
+      "question": "Consider the following statements about the Government of India Act, 1935 as a source of the Constitution:\n1. About two-thirds of the Constitution's provisions are derived from or influenced by the 1935 Act.\n2. The federal scheme, office of Governor, emergency provisions, Public Service Commissions and administrative details were adapted from it.\n3. The 1935 Act's dyarchy at the Centre was retained in the Constitution.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 0,
+      "explanation": "The Constitution abandoned dyarchy entirely in favour of responsible parliamentary government at both levels. The 1935 Act's federation never came into being because the princely states did not join."
+    },
+    {
+      "id": "q40",
+      "question": "Consider the following statements about Bihar's representation in the Constituent Assembly:\n1. Dr Sachchidananda Sinha of Bihar was the temporary President who presided over the first sitting.\n2. Dr Rajendra Prasad of Bihar was the permanent President.\n3. Jaipal Singh Munda, elected from Bihar, was the leading voice of the Adivasis in the Assembly.\n4. K.T. Shah, who moved the amendment to insert 'secular' and 'socialist' in the Preamble, was also elected from Bihar.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Bihar, then including present-day Jharkhand, sent 36 members. Jagjivan Ram, Anugrah Narayan Sinha, Shri Krishna Sinha and Brajeshwar Prasad were among its other notable members."
+    }
+  ]
+}

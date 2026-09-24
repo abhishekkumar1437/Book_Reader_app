@@ -1,0 +1,290 @@
+{
+  "title": "Geography of Bihar",
+  "subject": "Geography",
+  "topic": "Location, boundaries and physiography, rivers, floods and irrigation projects, climate and soils, agriculture and cropping seasons, minerals and industry, forests, wildlife and wetlands, districts, divisions, transport and Census 2011",
+  "description": "BPSC-focused questions on Bihar's geography: its position in the Ganga plain, the northern and southern plains, the Kosi, Gandak, Son and other rivers, the flood and drought regions, agro-climatic zones, crops such as makhana and litchi, pyrite and other minerals, Valmiki Tiger Reserve and the Vikramshila dolphin sanctuary, Kanwar lake, the bridges over the Ganga and the demographic profile of the state.",
+  "timeLimitMinutes": 40,
+  "createdAt": "2026-09-24",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Consider the following statements about the location of Bihar:\n1. Bihar lies roughly between 24 degrees 20 minutes and 27 degrees 31 minutes north latitude and 83 degrees 19 minutes and 88 degrees 17 minutes east longitude.\n2. It is bounded by Nepal to the north, West Bengal to the east, Jharkhand to the south and Uttar Pradesh to the west.\n3. It is a landlocked state with an area of about 94,163 sq km, ranking twelfth among Indian states by area.\n4. The Tropic of Cancer passes through the southern districts of Bihar.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "The Tropic of Cancer passes through Jharkhand (near Ranchi), well south of Bihar's southern boundary. Bihar occupies about 2.9 per cent of India's area but holds about 8.6 per cent of its population."
+    },
+    {
+      "id": "q2",
+      "question": "Which of the following districts of Bihar share a border with Nepal?\n1. West Champaran\n2. Sitamarhi\n3. Madhubani\n4. Katihar\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "Seven districts border Nepal: West Champaran, East Champaran, Sitamarhi, Madhubani, Supaul, Araria and Kishanganj. Katihar borders West Bengal, along with Kishanganj and Purnia."
+    },
+    {
+      "id": "q3",
+      "question": "Consider the following statements about the physiography of Bihar:\n1. The Ganga divides the state into the North Bihar plain and the South Bihar plain, the northern plain being larger.\n2. The Someshwar hills in West Champaran are part of the Shiwalik range and contain the highest point of the state.\n3. The southern fringe of the state includes the Kaimur plateau and the Rajgir, Gaya and Kharagpur hills, which are extensions of the peninsular block.\n4. The northern strip along the Nepal border has a Tarai belt of marshy, forested land.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Someshwar peak is about 880 metres high. The Kaimur plateau in Rohtas and Kaimur districts has sandstone and limestone, and the Rajgir hills are formed of quartzite."
+    },
+    {
+      "id": "q4",
+      "question": "Consider the following statements about the Ganga in Bihar:\n1. The Ganga enters Bihar near Chausa in Buxar district and leaves it near Pirpainti in Bhagalpur district, flowing for about 445 km through the state.\n2. Its major left-bank tributaries in Bihar are the Ghaghara, Gandak, Burhi Gandak, Kosi and Mahananda.\n3. Its major right-bank tributaries in Bihar are the Karmanasa, Son, Punpun, Falgu, Kiul and Chandan.\n4. The Ghaghara joins the Ganga near Chhapra (Doriganj) and the Gandak near Hajipur-Sonpur opposite Patna.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Son joins the Ganga near Maner west of Patna, the Punpun at Fatuha and the Kosi near Kursela in Katihar district. The Ganga's northern tributaries from the Himalayas carry far more water than the southern ones."
+    },
+    {
+      "id": "q5",
+      "question": "Consider the following statements about the Kosi river:\n1. It is called the 'Sorrow of Bihar' because of its devastating floods and frequent shifting of course.\n2. It is formed by the Sun Kosi, Arun and Tamur in Nepal and enters Bihar near Bhimnagar in Supaul district.\n3. The Kosi barrage at Bhimnagar (Hanuman Nagar) was built in the 1960s under the 1954 India-Nepal Kosi agreement.\n4. In August 2008 a breach in the eastern afflux embankment at Kusaha in Nepal caused catastrophic floods in Supaul, Madhepura, Saharsa, Araria and Purnia.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Kosi has shifted more than 100 km westward over about two centuries, building a vast alluvial fan. The Kosi Mahasetu at Nirmali-Saraigarh restored the rail link across it in 2020."
+    },
+    {
+      "id": "q6",
+      "question": "Which of the following pairs of river of Bihar and its feature is/are correctly matched?\n1. Gandak : Called Narayani in Nepal; the Gandak barrage at Valmikinagar (Triveni) irrigates parts of Bihar and Uttar Pradesh\n2. Burhi Gandak : Rises from the Someshwar hills (Chautarwa Chaur) in West Champaran and joins the Ganga near Khagaria\n3. Bagmati : Rises in the Shivapuri hills near Kathmandu and joins the Kosi in Khagaria district\n4. Kamla-Balan : Flows through Madhubani and Darbhanga and joins the Kosi\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Mahananda, rising in the Darjeeling hills, flows through Kishanganj and Katihar. The Ghaghara, also called Saryu, forms part of the boundary with Uttar Pradesh."
+    },
+    {
+      "id": "q7",
+      "question": "Consider the following statements about the Son river:\n1. It rises at Amarkantak in Madhya Pradesh and is the largest southern tributary of the Ganga.\n2. The Indrapuri barrage at Dehri in Rohtas district feeds the Sone canal system, one of the oldest in India, begun in the 1870s.\n3. The Son forms a natural boundary between Bhojpur and Patna districts before joining the Ganga near Maner.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. The Dehri anicut of 1874 was replaced by the Indrapuri barrage in 1968. The Sone canals irrigate Rohtas, Kaimur, Bhojpur, Buxar, Aurangabad, Gaya and Patna districts."
+    },
+    {
+      "id": "q8",
+      "question": "Which of the following pairs of southern river and district of Bihar is/are correctly matched?\n1. Falgu (Niranjana or Lilajan) : Gaya, sacred for pind-daan and known for its subterranean flow\n2. Punpun : Rises in Chotanagpur and joins the Ganga at Fatuha in Patna district\n3. Karmanasa : Forms part of the boundary between Bihar and Uttar Pradesh in Kaimur and Buxar\n4. Chandan : Flows through Banka and Bhagalpur\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Kiul, Harohar and Badua are other south Bihar rivers. The Falgu is formed by the Lilajan and Mohana, and its dry sandy bed near Gaya hides underground flow."
+    },
+    {
+      "id": "q9",
+      "question": "Consider the following statements about floods in Bihar:\n1. Bihar is India's most flood-prone state, with about three-quarters of the area of north Bihar liable to flooding.\n2. The state accounts for around one-sixth of India's flood-affected area though it has under 3 per cent of the country's area.\n3. Floods are caused by heavy rainfall in the Nepal Himalaya, the high sediment load of the rivers, breaches in embankments and drainage congestion.\n4. The Kosi, Gandak, Bagmati, Burhi Gandak, Kamla and Mahananda are the main flood-causing rivers.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Embankments built since the 1950s have raised riverbeds by trapping silt and are now a debated flood-control strategy. South Bihar districts such as Gaya, Nawada, Jamui and Aurangabad are drought-prone."
+    },
+    {
+      "id": "q10",
+      "question": "Which of the following pairs of irrigation project and river in Bihar is/are correctly matched?\n1. Kosi Project : Kosi, with the eastern and western Kosi canals\n2. Gandak Project : Gandak, with the Tirhut and Saran main canals\n3. Sone Project : Son, with the eastern and western Sone canals\n4. Durgawati Reservoir Project : Durgawati river in Kaimur district\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Tube wells are now the largest source of irrigation in Bihar. Other projects include the Chandan dam in Banka, the Badua and Orhni dams and the Nagi and Nakti dams in Jamui."
+    },
+    {
+      "id": "q11",
+      "question": "Consider the following statements about the climate of Bihar:\n1. Bihar has a humid subtropical (Koppen Cwa) monsoon climate with hot summers, a rainy season from June to September and cool dry winters.\n2. Average annual rainfall is about 1,200 mm, decreasing from east to west and from north to south.\n3. Kishanganj in the north-east receives the highest rainfall in the state.\n4. Gaya and Aurangabad are among the hottest places in summer, when the 'loo' blows.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Pre-monsoon Norwesters (Kalbaisakhi) bring thunderstorms in April-May, and western disturbances give a little winter rain. The south-western districts receive the least rainfall."
+    },
+    {
+      "id": "q12",
+      "question": "Consider the following statements about the soils of Bihar:\n1. The plains are covered by alluvial soils, with newer Khadar in the floodplains and older Bhangar on the terraces.\n2. The 'Tal' lands of Mokama and nearby areas are low-lying saucer-shaped depressions that remain waterlogged during the monsoon and yield rabi pulses.\n3. 'Karail-Kewal' is a heavy clayey soil found in the south-western districts such as Rohtas and Gaya.\n4. Red and yellow soils occur along the southern fringe on the Kaimur plateau and the Chotanagpur margin.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. 'Balthar' soils occur in the piedmont of the Someshwar hills, Tarai soils in the north, and 'Diara' lands are riverine tracts between embankments cultivated in the dry season."
+    },
+    {
+      "id": "q13",
+      "question": "Consider the following statements about the agro-climatic zones of Bihar:\n1. Bihar is divided into three agro-climatic zones: the North-West Alluvial Plain, the North-East Alluvial Plain and the South Bihar Alluvial Plain.\n2. The South Bihar zone is further divided into a south-west and a south-east sub-zone.\n3. The North-East zone, including Purnia and Kishanganj, is the wettest and grows jute, maize and tea.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Zone I covers the Champaran-Muzaffarpur-Darbhanga belt with sugarcane and litchi, Zone II the Kosi-Purnia belt with maize and jute, and Zone III south Bihar with rice, wheat and pulses."
+    },
+    {
+      "id": "q14",
+      "question": "Which of the following pairs of cropping season in Bihar and its crops is/are correctly matched?\n1. Bhadai : Early kharif crops such as maize and early rice, harvested in Bhado (August-September)\n2. Aghani : Late kharif, mainly winter rice harvested in Agahan (November-December)\n3. Rabi : Wheat, gram, lentil, mustard and barley\n4. Garma : Summer crops such as moong, summer maize and vegetables\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. These local names are unique to Bihar's agricultural calendar. Rice is the principal crop, followed by wheat and maize, and Bihar is among the leading maize producers, especially of rabi and summer maize in the Kosi belt."
+    },
+    {
+      "id": "q15",
+      "question": "Which of the following pairs of horticultural product and Bihar district is/are correctly matched?\n1. Litchi : Muzaffarpur, with Bihar producing the largest share of India's litchi\n2. Makhana (fox nut) : Darbhanga and Madhubani, with Bihar producing around 85-90 per cent of India's output\n3. Banana : Hajipur in Vaishali district\n4. Tea : Kishanganj\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Mango is grown in Bhagalpur (Jardalu), Digha and Darbhanga; jute in Purnia and Katihar; sugarcane in West Champaran, Gopalganj and Sitamarhi; and the Sikki grass craft belongs to Mithila."
+    },
+    {
+      "id": "q16",
+      "question": "Consider the following statements about mineral resources of Bihar:\n1. After the creation of Jharkhand in 2000, Bihar was left with few metallic minerals, and coal and iron ore deposits went to Jharkhand.\n2. Pyrite deposits at Amjhore in Rohtas district are among the largest in India.\n3. Limestone is found in Rohtas and Kaimur, and glass sand in Bhagalpur and Munger.\n4. The Geological Survey of India has reported large gold ore reserves at Karmatia in Jamui district.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Mica occurs in Jamui, Nawada and Gaya, bauxite in Munger, quartzite in Rajgir and Munger, and magnetite in Jamui and Gaya. Bihar has no petroleum or coal production of significance."
+    },
+    {
+      "id": "q17",
+      "question": "Which of the following pairs of industry and location in Bihar is/are correctly matched?\n1. Petroleum refinery : Barauni in Begusarai district\n2. Fertiliser plant : Barauni, revived by Hindustan Urvarak and Rasayan Limited\n3. Thermal power : Kahalgaon (Bhagalpur), Barh (Patna), Nabinagar (Aurangabad) and Kanti (Muzaffarpur)\n4. Silk : Bhagalpur, known as the 'Silk City' for tussar silk\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Sugar mills are concentrated in north-west Bihar, jute mills at Purnia and Katihar, and the Dalmianagar industrial complex in Rohtas closed decades ago. Muzaffarpur has a railway wagon factory and Marhowrah a locomotive plant."
+    },
+    {
+      "id": "q18",
+      "question": "Consider the following statements about forests and wildlife in Bihar:\n1. Bihar has one of the lowest forest covers among states, around 7-8 per cent of its area, concentrated in West Champaran, Kaimur, Rohtas and the south-eastern hills.\n2. Valmiki Tiger Reserve in West Champaran is the only tiger reserve in Bihar and lies adjacent to Nepal's Chitwan National Park.\n3. Kaimur Wildlife Sanctuary is the largest sanctuary in the state.\n4. Bhimbandh Wildlife Sanctuary in Munger is known for its hot springs.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Other protected areas include the Gautam Buddha sanctuary in Gaya, the Rajgir sanctuary, Udaypur sanctuary in West Champaran and the Barela Jheel Salim Ali bird sanctuary in Vaishali. Valmiki has seen a steady rise in tiger numbers."
+    },
+    {
+      "id": "q19",
+      "question": "Consider the following statements about the Vikramshila Gangetic Dolphin Sanctuary:\n1. It was established in 1991 on a 60-km stretch of the Ganga between Sultanganj and Kahalgaon in Bhagalpur district.\n2. It is India's only sanctuary dedicated to the Gangetic river dolphin, the national aquatic animal.\n3. Bihar hosts the largest population of Gangetic dolphins in India, and the National Dolphin Research Centre is at Patna.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. The Gangetic dolphin ('susu') was declared the national aquatic animal in 2009 on the initiative of Bihar's government. Dolphin Day is observed on 5 October."
+    },
+    {
+      "id": "q20",
+      "question": "Consider the following statements about wetlands in Bihar:\n1. Kanwar (Kabar) Taal in Begusarai district is Asia's largest freshwater oxbow lake and became Bihar's first Ramsar site in 2020.\n2. The Nagi and Nakti bird sanctuaries in Jamui district were designated Ramsar sites in 2024.\n3. Kanwar Taal is a wintering ground for migratory birds from Central Asia and Siberia.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. The lake has shrunk because of encroachment and siltation. 'Chaurs' and 'mauns' are the local names for the many seasonal wetlands and oxbow lakes of north Bihar."
+    },
+    {
+      "id": "q21",
+      "question": "Which of the following pairs of waterfall or hot spring and district in Bihar is/are correctly matched?\n1. Kakolat waterfall : Nawada\n2. Karkat and Telhar waterfalls : Kaimur\n3. Brahmakund hot spring : Rajgir, Nalanda district\n4. Sitakund hot spring : Munger\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Dhuan Kund and Manjhar Kund near Sasaram in Rohtas are other waterfalls of the Kaimur escarpment. Rajgir's hot springs are associated with the Vaibhava hill."
+    },
+    {
+      "id": "q22",
+      "question": "Consider the following statements about the Census of 2011 for Bihar:\n1. Bihar's population was about 10.41 crore, the third largest among states after Uttar Pradesh and Maharashtra.\n2. Its density of 1,106 persons per sq km was the highest among Indian states.\n3. Its decadal growth rate of 25.4 per cent was among the highest in the country.\n4. Its literacy rate of 61.8 per cent was the lowest among states.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Male literacy was 71.2 per cent and female literacy 51.5 per cent. Bihar's urban population share of 11.3 per cent was the lowest among major states."
+    },
+    {
+      "id": "q23",
+      "question": "Consider the following statements about district-level Census 2011 data of Bihar:\n1. Patna was the most populous district and Sheohar the least populous.\n2. Sheohar had the highest population density and Kaimur the lowest.\n3. Rohtas had the highest literacy rate and Purnia the lowest.\n4. Gopalganj had the highest sex ratio, above 1,000 females per 1,000 males.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Bihar's overall sex ratio was 918, and Munger had the lowest among districts. Gopalganj's high ratio reflects the out-migration of men for work."
+    },
+    {
+      "id": "q24",
+      "question": "Consider the following statements about Bihar's administrative divisions:\n1. Bihar has 38 districts grouped into nine divisions: Patna, Tirhut, Saran, Darbhanga, Kosi, Purnia, Bhagalpur, Munger and Magadh.\n2. West Champaran is the largest district by area and Sheohar the smallest.\n3. Arwal, created in 2001, is the newest district.\n4. Tirhut division, headquartered at Muzaffarpur, has the largest number of districts.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Tirhut division has six districts: Muzaffarpur, East Champaran, West Champaran, Sitamarhi, Sheohar and Vaishali. Bihar has 101 subdivisions and 534 blocks."
+    },
+    {
+      "id": "q25",
+      "question": "Which of the following pairs of bridge over the Ganga in Bihar and its location is/are correctly matched?\n1. Mahatma Gandhi Setu : Patna-Hajipur, opened in 1982, about 5.7 km long\n2. Rajendra Setu : Mokama-Simaria, rail-cum-road bridge opened in 1959, the first bridge over the Ganga in Bihar\n3. Vikramshila Setu : Bhagalpur-Naugachia\n4. Shri Krishna Setu : Munger, rail-cum-road bridge\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Veer Kunwar Singh Setu links Arrah with Chhapra, the Digha-Sonpur rail-cum-road bridge (JP Setu) is west of Patna, and the Kachchi Dargah-Bidupur bridge is under construction east of Patna."
+    },
+    {
+      "id": "q26",
+      "question": "Consider the following statements about transport in Bihar:\n1. The East Central Railway zone, created in 2002, is headquartered at Hajipur.\n2. The Grand Chord and the main line of the former East Indian Railway pass through Bihar, with Mughalsarai-Gaya-Dhanbad on the Grand Chord.\n3. National Waterway 1 on the Ganga passes through Bihar with terminals at Patna (Gaighat) and Kalughat.\n4. Patna, Gaya and Darbhanga have commercial airports, with Gaya designated an international airport.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Purnea airport began operations in 2025 and a new airport at Bihta is planned. NH 19 (old NH 2, the Grand Trunk Road) crosses south Bihar and NH 27 (the East-West corridor) crosses north Bihar."
+    },
+    {
+      "id": "q27",
+      "question": "Consider the following statements about earthquakes in Bihar:\n1. The north Bihar districts bordering Nepal, such as Madhubani, Sitamarhi, Darbhanga, Supaul, Araria and Kishanganj, lie in seismic zone V.\n2. The Bihar-Nepal earthquake of 15 January 1934 (magnitude about 8) devastated Munger, Muzaffarpur, Darbhanga and Sitamarhi.\n3. The 1988 earthquake with its epicentre near the Bihar-Nepal border also caused heavy damage.\n4. Patna lies in seismic zone IV.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The 2015 Nepal earthquake was also felt strongly across Bihar. Liquefaction of the alluvial soil, as seen in 1934 when sand and water erupted from the ground, adds to the hazard."
+    },
+    {
+      "id": "q28",
+      "question": "Consider the following statements about Bihar's population composition:\n1. Scheduled Castes formed about 16 per cent of Bihar's population in 2011, with Gaya having the highest proportion.\n2. Scheduled Tribes formed about 1.3 per cent, with the Santhal the largest tribe, and the Tharu concentrated in West Champaran.\n3. Hindi and Urdu are the official languages, while Maithili is included in the Eighth Schedule of the Constitution.\n4. Bhojpuri, Magahi, Angika and Bajjika are the major regional languages.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Maithili was added to the Eighth Schedule in 2003. The Musahar community is among the most deprived Scheduled Castes of the state."
+    },
+    {
+      "id": "q29",
+      "question": "Which of the following pairs of state symbol of Bihar and species is/are correctly matched?\n1. State animal : Gaur (Indian bison)\n2. State bird : House sparrow\n3. State tree : Peepal\n4. State flower : Kachnar (Bauhinia variegata)\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Bihar Diwas is celebrated on 22 March, marking the creation of the province of Bihar and Orissa in 1912."
+    },
+    {
+      "id": "q30",
+      "question": "Consider the following statements about Patna:\n1. It is the capital and largest city of Bihar, located on the south bank of the Ganga near the confluences of the Son, Gandak and Punpun.\n2. The Patna urban agglomeration is the only million-plus city in Bihar according to the 2011 Census.\n3. Gaya and Bhagalpur are the second and third largest cities of the state.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Patna is among the oldest continuously inhabited cities in the world, and its riverfront with the Ganga is the longest of any Indian city."
+    },
+    {
+      "id": "q31",
+      "question": "Consider the following statements about the Tal and Diara lands of Bihar:\n1. The Mokama Tal region spans parts of Patna, Nalanda, Lakhisarai and Munger districts.\n2. Tal lands remain submerged in the monsoon and are sown with pulses and oilseeds as the water recedes.\n3. Diara lands are fertile riverine tracts within the Ganga's floodplain that are cultivated with vegetables and melons in the dry season.\n4. Both are major zones of wheat and rice double cropping with assured canal irrigation.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "Tal and Diara lands support single-season cultivation dependent on the flood cycle, not irrigated double cropping. The Tal area is Bihar's main lentil (masoor) and gram producing belt."
+    },
+    {
+      "id": "q32",
+      "question": "Which of the following pairs of Bihar district and its geographical distinction is/are correctly matched?\n1. Kishanganj : Wettest district and the only district with tea cultivation\n2. Sheohar : Smallest district by area\n3. West Champaran : Largest district and location of Valmiki Tiger Reserve\n4. Rohtas : Home to the Kaimur plateau, Sasaram and the Indrapuri barrage\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Kishanganj forms part of the narrow 'chicken's neck' region near the Siliguri corridor and has a Muslim-majority population unique in the state."
+    },
+    {
+      "id": "q33",
+      "question": "Consider the following statements about the Gandak river and its project:\n1. The Gandak enters Bihar at Valmikinagar in West Champaran, where the barrage built under the 1959 India-Nepal agreement stands.\n2. The Triveni canal from the Gandak was built in the early twentieth century.\n3. The Gandak forms part of the boundary between Bihar and Uttar Pradesh in its lower course near Gopalganj and Saran.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. The Gandak is called Sadanira in ancient texts and is famous for the Shaligram stones. The Sonpur cattle fair is held at its confluence with the Ganga."
+    },
+    {
+      "id": "q34",
+      "question": "Consider the following statements about the natural vegetation of Bihar:\n1. The forests are mainly tropical moist and dry deciduous, with sal dominant in the Champaran Tarai and the south-eastern hills.\n2. Thorny scrub occurs on the dry Kaimur plateau.\n3. Bamboo, khair, semal and mahua are common species.\n4. Bihar has extensive mangrove forests along its rivers.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "Mangroves are coastal formations; landlocked Bihar has none. The state has promoted agro-forestry and the 'Hariyali Mission' to raise its green cover."
+    },
+    {
+      "id": "q35",
+      "question": "Consider the following statements about Bihar's energy sector:\n1. Bihar depends largely on thermal power from central sector plants such as NTPC Kahalgaon, Barh and Nabinagar.\n2. The Kosi hydroelectric project at Kataiya in Supaul is a small hydro station.\n3. Bihar has significant potential for solar power and floating solar projects, such as at Darbhanga.\n4. Bihar is a major producer of natural gas.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "Bihar has no natural gas production; gas reaches the state through the Urja Ganga pipeline. The Barauni thermal plant and the Muzaffarpur (Kanti) plant are the state-linked generating stations."
+    },
+    {
+      "id": "q36",
+      "question": "Consider the following statements about Bihar's borders with neighbouring states:\n1. Bihar shares its longest state boundary with Uttar Pradesh in the west.\n2. Districts bordering West Bengal are Kishanganj, Purnia and Katihar.\n3. Bhagalpur, Banka, Jamui, Nawada, Gaya, Aurangabad and Rohtas are among the districts bordering Jharkhand.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Katihar also touches Jharkhand across the Ganga near Sahibganj. The state's border with Nepal is about 729 km long."
+    },
+    {
+      "id": "q37",
+      "question": "Consider the following statements about drought in Bihar:\n1. The south Bihar districts of Gaya, Nawada, Jamui, Aurangabad, Jehanabad and Arwal are the most drought-prone.\n2. Drought results from the erratic monsoon, limited groundwater in the hard-rock southern fringe and dependence on the Son canals.\n3. Traditional 'ahar-pyne' systems of embankment reservoirs and channels have been used in south Bihar for irrigation for centuries.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Bihar thus faces the paradox of floods in the north and drought in the south, sometimes in the same year. Revival of the ahar-pyne system is part of the state's water conservation policy."
+    },
+    {
+      "id": "q38",
+      "question": "Which of the following pairs of Bihar city and river on which it stands is/are correctly matched?\n1. Patna : Ganga\n2. Muzaffarpur : Burhi Gandak\n3. Gaya : Falgu\n4. Darbhanga : Bagmati\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Bhagalpur and Munger stand on the Ganga, Chhapra near the Ghaghara-Ganga confluence, Hajipur near the Gandak, Sasaram near the Kaimur hills and Purnia on the Saura, a tributary of the Kosi."
+    },
+    {
+      "id": "q39",
+      "question": "Consider the following statements about Bihar's economy in relation to its geography:\n1. Agriculture employs the majority of the workforce, and the state's per capita income is among the lowest in India.\n2. Fertile alluvium, abundant groundwater and dense population make Bihar's agriculture intensive but with small holdings.\n3. Remittances from migrants to other states form an important part of household incomes.\n4. Bihar has a large industrial base because of its coal and iron ore.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "Bihar lost its coal and iron ore to Jharkhand in 2000 and has a small industrial base. The state has promoted food processing, textiles, leather and information technology through its industrial investment policies."
+    },
+    {
+      "id": "q40",
+      "question": "Consider the following statements about the Rajgir hills:\n1. They form a horseshoe-shaped range of five hills, including Vaibhava, Ratna, Vipula, Udaya and Sona, in Nalanda district.\n2. They are composed of hard quartzite and represent an outlier of the peninsular block.\n3. The Rajgir Wildlife Sanctuary and a zoo safari are located here.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. The nearby Kharagpur hills in Munger and the Gaya hills (Brahmayoni, Pretshila) are similar outliers. Rajgir's glass bridge and ropeway to the Vishwa Shanti Stupa have made it a major tourist centre."
+    }
+  ]
+}

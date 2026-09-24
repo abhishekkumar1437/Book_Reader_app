@@ -1,0 +1,295 @@
+{
+  "title": "Post-Mauryan Kingdoms, Sangam Age and the Guptas",
+  "subject": "Ancient History",
+  "topic": "Shungas and Kanvas, Indo-Greeks, Shakas, Parthians and Kushanas, Satavahanas and Kharavela, Sangam literature, polity and trade, Gupta rulers, administration, economy, literature, science and art",
+  "description": "UPSC/BPSC-level questions on the centuries between the Mauryas and Harsha: foreign dynasties of the north-west, the Deccan under the Satavahanas, the Tamil Sangam age with its Roman trade, and the Gupta 'classical age' with its rulers, court poets, scientists and art.",
+  "timeLimitMinutes": 40,
+  "createdAt": "2026-09-23",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Consider the following statements about the Shunga dynasty:\n1. Pushyamitra Shunga performed two Ashvamedha sacrifices, and Patanjali, author of the Mahabhashya, is said to have officiated at one.\n2. The Bharhut stupa railings and the enlargement of the Sanchi stupa belong to the Shunga period.\n3. The Greek ambassador Heliodorus set up the Garuda pillar at Besnagar during the reign of Bhagabhadra.\n4. The last Shunga king Devabhuti was killed by his minister Vasudeva, who founded the Kanva dynasty.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Heliodorus pillar at Vidisha, dedicated to Vasudeva (Vishnu), shows a Greek converted to Bhagavatism. Kalidasa's 'Malavikagnimitra' is based on Agnimitra, Pushyamitra's son."
+    },
+    {
+      "id": "q2",
+      "question": "Consider the following statements about the Indo-Greek rulers:\n1. Menander (Milinda), who ruled from Sakala (Sialkot), embraced Buddhism after his dialogue with Nagasena.\n2. The Indo-Greeks were the first rulers in India to issue gold coins and coins bearing portraits of kings.\n3. Demetrius invaded India around 190 BCE.\n4. Indo-Greek rule introduced the Hellenistic art that influenced the Gandhara school.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Indo-Greek coins carried legends in Greek on one side and Kharoshthi or Brahmi on the other, and they also popularised the practice of dating coins."
+    },
+    {
+      "id": "q3",
+      "question": "Consider the following statements about the Shakas (Scythians):\n1. Rudradaman I, the most famous Shaka ruler, issued the Junagadh rock inscription of about 150 CE, the earliest long inscription in chaste Sanskrit.\n2. The inscription records the repair of the Sudarshana lake originally built under Chandragupta Maurya.\n3. The Vikrama era of 58 BCE is traditionally associated with a king of Ujjain who defeated the Shakas.\n4. The Shaka era of 78 CE is generally associated with the accession of Kanishka.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Western Kshatrapas of the Shaka line ruled Gujarat and Malwa until Chandragupta II Vikramaditya overthrew Rudrasimha III around 400 CE. The Shaka era is India's official national calendar."
+    },
+    {
+      "id": "q4",
+      "question": "The Indo-Parthian king Gondophernes, who ruled in the first century CE, is associated in Christian tradition with:",
+      "options": ["The visit of St Paul", "The arrival of St Thomas the Apostle in India", "The founding of the Syrian Church at Antioch", "The conversion of Kanishka"],
+      "answer": 1,
+      "explanation": "The Acts of Thomas describe the apostle's mission at the court of Gondophernes before he travelled to south India, where Syrian Christians trace their origin to his arrival at Muziris in 52 CE."
+    },
+    {
+      "id": "q5",
+      "question": "Consider the following statements about the Kushanas:\n1. Kujula Kadphises founded Kushana rule in India, and Vima Kadphises issued gold coins and was a devotee of Shiva.\n2. Kanishka's empire extended from Central Asia to Varanasi, with capitals at Purushapura (Peshawar) and Mathura.\n3. Kanishka patronised Ashvaghosha, Vasumitra, Nagarjuna and the physician Charaka.\n4. A headless statue of Kanishka has been found at Mat near Mathura, and the Rabatak inscription in Afghanistan records his genealogy.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Kushanas, a branch of the Yuezhi, controlled the Silk Route and issued the largest number of gold coins before the Guptas, with deities from Greek, Iranian and Indian pantheons on them."
+    },
+    {
+      "id": "q6",
+      "question": "Consider the following statements about the Satavahanas:\n1. Simuka founded the dynasty, and its early capital was Pratishthana (Paithan) on the Godavari.\n2. Gautamiputra Satakarni destroyed the Shaka ruler Nahapana, and his achievements are recorded in the Nashik inscription of his mother Gautami Balashri.\n3. Satavahana kings used matronymics, such as Gautamiputra and Vasishthiputra.\n4. They were the first rulers to grant tax-free land to Brahmanas and Buddhist monks, as recorded in the Naneghat inscription of Naganika.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Gautamiputra called himself 'Ekabrahmana' and destroyer of Kshatriya pride. Yajna Sri Satakarni issued coins with a ship motif, and the dynasty patronised the Amaravati and Nagarjunakonda stupas."
+    },
+    {
+      "id": "q7",
+      "question": "The Prakrit anthology 'Gathasaptasati', a collection of 700 love poems, is attributed to the Satavahana king:",
+      "options": ["Gautamiputra Satakarni", "Hala", "Vasishthiputra Pulumavi", "Yajna Sri Satakarni"],
+      "answer": 1,
+      "explanation": "Hala's collection in Maharashtri Prakrit is one of the earliest works of secular poetry in India. The Satavahanas issued coins in lead, potin and copper and used Prakrit in their inscriptions."
+    },
+    {
+      "id": "q8",
+      "question": "Consider the following statements about Kharavela of Kalinga:\n1. He belonged to the Chedi or Mahameghavahana dynasty and ruled in the first century BCE.\n2. His achievements are recorded in the Hathigumpha inscription in the Udayagiri hills near Bhubaneswar.\n3. He was a patron of Jainism and brought back a Jina image taken away earlier by a Nanda king.\n4. He invaded Magadha and compelled its ruler to bow at his feet.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The inscription, in Prakrit and Brahmi, gives a year-by-year account of his reign, including canal extension, public works and campaigns against the Satavahanas and southern kingdoms."
+    },
+    {
+      "id": "q9",
+      "question": "Consider the following statements about the Sangam assemblies and literature:\n1. Tradition speaks of three Sangams held at Madurai under Pandya patronage.\n2. The 'Tolkappiyam', a work on grammar and poetics, is the earliest surviving Tamil work.\n3. The 'Ettutogai' (eight anthologies) and 'Pattupattu' (ten idylls) form the core of Sangam literature.\n4. The 'Tirukkural' of Tiruvalluvar belongs to the 'Padinenkilkanakku' (eighteen minor works).\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Sangam poetry is classified into 'akam' (love) and 'puram' (heroism) and uses the fivefold 'tinai' landscapes: kurinji, mullai, marutam, neytal and palai."
+    },
+    {
+      "id": "q10",
+      "question": "Which of the following pairs of Tamil epic and its author or theme is/are correctly matched?\n1. Silappadikaram : Ilango Adigal, the story of Kovalan and Kannagi\n2. Manimekalai : Sattanar, a Buddhist epic about the daughter of Kovalan and Madhavi\n3. Sivaga Sindamani : Tiruttakkadevar, a Jain epic\nSelect the correct answer using the code given below.",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. The Silappadikaram, 'the epic of the anklet', also records the Chera king Senguttuvan's establishment of the cult of Kannagi (Pattini), which spread to Sri Lanka."
+    },
+    {
+      "id": "q11",
+      "question": "Which of the following pairs of Sangam kingdom, capital and emblem is/are correctly matched?\n1. Cholas : Uraiyur and later Puhar (Kaveripattinam); tiger\n2. Cheras : Vanji (Karur); bow\n3. Pandyas : Madurai; fish\nSelect the correct answer using the code given below.",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. The Chola king Karikala built the Kallanai (Grand Anicut) on the Kaveri and won the battle of Venni; the Pandya port of Korkai was famous for pearls, and the Chera port of Muziris for pepper."
+    },
+    {
+      "id": "q12",
+      "question": "Consider the following statements about Indo-Roman trade in the Sangam age:\n1. The 'Periplus of the Erythraean Sea', written by an anonymous Greek sailor in the first century CE, describes ports such as Muziris, Barygaza and Arikamedu.\n2. Pliny the Elder complained that Rome's gold was draining away to India for luxuries such as pepper and muslin.\n3. Excavations at Arikamedu near Pondicherry by Mortimer Wheeler revealed a Roman trading settlement with amphorae and Arretine ware.\n4. Roman gold coins have been found in large hoards in Tamil Nadu and Kerala.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The discovery of the monsoon winds, attributed to Hippalus, shortened the voyage from the Red Sea. 'Yavana' merchants settled in ports like Puhar, and Roman wine and lamps were popular imports."
+    },
+    {
+      "id": "q13",
+      "question": "The period after the Sangam age, roughly the third to sixth centuries CE, when Tamil political history is obscure, is known as the period of the:",
+      "options": ["Kalabhra interregnum", "Pallava ascendancy", "Kadamba rule", "Chalukya invasion"],
+      "answer": 0,
+      "explanation": "The Kalabhras, described as 'evil rulers' in later inscriptions for disturbing Brahmadeya grants, appear to have patronised Buddhism and Jainism. They were overthrown by the Pandyas and Pallavas in the sixth century."
+    },
+    {
+      "id": "q14",
+      "question": "Consider the following statements about the early Gupta rulers:\n1. Sri Gupta and Ghatotkacha bore the title 'Maharaja', while Chandragupta I first assumed 'Maharajadhiraja'.\n2. Chandragupta I married the Licchavi princess Kumaradevi, and their joint portrait appears on coins.\n3. The Gupta era is reckoned from 319-20 CE, the accession of Chandragupta I.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. The Licchavi alliance brought Vaishali and north Bihar under Gupta influence, and Samudragupta proudly called himself 'Licchavi-dauhitra' (son of the daughter of the Licchavis)."
+    },
+    {
+      "id": "q15",
+      "question": "Consider the following statements about Samudragupta:\n1. His conquests are recorded in the Allahabad (Prayag) Prashasti composed by his court poet Harishena and engraved on an Ashokan pillar.\n2. He 'uprooted' nine kings of Aryavarta but defeated and reinstated twelve kings of Dakshinapatha.\n3. V.A. Smith called him the 'Napoleon of India'.\n4. He is depicted playing the veena on his coins and bore the title 'Kaviraja'.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. He performed the Ashvamedha, and the Sri Lankan king Meghavarna sought his permission to build a monastery for pilgrims at Bodh Gaya, an event recorded in Chinese sources."
+    },
+    {
+      "id": "q16",
+      "question": "Consider the following statements about Chandragupta II Vikramaditya:\n1. He defeated the Shaka ruler Rudrasimha III and annexed Gujarat and Malwa, making Ujjain a second capital.\n2. He married his daughter Prabhavatigupta to the Vakataka king Rudrasena II, securing the Deccan.\n3. The Chinese pilgrim Fa-hien visited India during his reign.\n4. The Mehrauli iron pillar inscription mentioning a king 'Chandra' is generally attributed to him.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. After the Shaka conquest he issued silver coins in the Shaka style. Vishakhadatta's 'Devichandraguptam' describes his killing of the Shaka king who had demanded his brother Ramagupta's queen Dhruvadevi."
+    },
+    {
+      "id": "q17",
+      "question": "Which of the following were among the 'Navaratnas' (nine gems) traditionally associated with the court of Chandragupta II?\n1. Kalidasa\n2. Amarasimha\n3. Dhanvantari\n4. Varahamihira\nSelect the correct answer using the code given below.",
+      "options": ["1 and 2 only", "1, 2 and 3 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "The traditional list also includes Vararuchi, Ghatakarpara, Kshapanaka, Shanku and Vetalabhatta. The list is legendary; Varahamihira in particular belongs to the sixth century, which suggests the 'Vikramaditya' of tradition merged several rulers."
+    },
+    {
+      "id": "q18",
+      "question": "Consider the following statements about the later Guptas:\n1. Kumaragupta I, who bore the title Mahendraditya, founded the Nalanda monastery.\n2. Skandagupta repelled the Huna invasion, an achievement recorded in the Bhitari pillar inscription.\n3. The Junagadh inscription of Skandagupta records the repair of the Sudarshana lake by his governor Parnadatta and the latter's son Chakrapalita.\n4. The Huna rulers Toramana and Mihirakula were later defeated by Yashodharman of Malwa, whose Mandasor pillar inscription is dated 532 CE.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Mihirakula, a persecutor of Buddhists, was also defeated by Narasimhagupta Baladitya according to Hsuan Tsang. The Huna wars strained Gupta finances, and the debasement of gold coins under the later Guptas reflects this."
+    },
+    {
+      "id": "q19",
+      "question": "Which of the following pairs of Gupta administrative term and meaning is/are correctly matched?\n1. Bhukti : Province, governed by an 'uparika'\n2. Vishaya : District, governed by a 'vishayapati'\n3. Kumaramatya : A high-ranking officer, often a prince or a minister\n4. Sandhivigrahika : Minister of peace and war\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Districts had advisory boards including the 'nagarasreshthi' (chief merchant), 'sarthavaha' (caravan leader), 'prathama-kulika' (chief artisan) and 'prathama-kayastha' (chief scribe), showing the role of urban guilds."
+    },
+    {
+      "id": "q20",
+      "question": "Consider the following statements about the Gupta economy:\n1. The Guptas issued the largest number of gold coins (dinaras) in ancient India, though their purity declined after Skandagupta.\n2. Land grants (agrahara) to Brahmanas and officials, with the transfer of fiscal and administrative rights, are seen as the beginning of Indian feudalism.\n3. 'Vishti' or forced labour was levied by the state.\n4. Fa-hien noted that the people of Magadha were prosperous and that the government did not interfere much in their lives.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Fa-hien, who stayed at Pataliputra for three years, also observed that the Chandalas lived outside towns and that people did not eat onions, garlic or meat. Silver coins were called 'rupaka'."
+    },
+    {
+      "id": "q21",
+      "question": "Which of the following pairs of Sanskrit work and author of the Gupta age is/are correctly matched?\n1. Mrichchhakatika (The Little Clay Cart) : Shudraka\n2. Mudrarakshasa : Vishakhadatta\n3. Amarakosha : Amarasimha\n4. Panchatantra : Vishnu Sharma\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. 'Mudrarakshasa' dramatises Chanakya's overthrow of the Nandas. The 'Panchatantra' fables travelled westward through Pahlavi and Arabic translations as 'Kalila wa Dimna'."
+    },
+    {
+      "id": "q22",
+      "question": "Which of the following works were composed by Kalidasa?\n1. Abhijnanashakuntalam\n2. Meghaduta\n3. Kumarasambhava\n4. Kiratarjuniya\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "'Kiratarjuniya' is by Bharavi. Kalidasa's other works are 'Raghuvamsha', 'Malavikagnimitra', 'Vikramorvashiya' and 'Ritusamhara'. 'Shakuntala' was translated into English by William Jones in 1789 and admired by Goethe."
+    },
+    {
+      "id": "q23",
+      "question": "Consider the following statements about Aryabhata:\n1. He composed the 'Aryabhatiya' in 499 CE at the age of 23, probably at Kusumapura (Pataliputra).\n2. He explained eclipses as caused by the shadows of the earth and the moon, and held that the earth rotates on its axis.\n3. He gave the value of pi as 3.1416 and used the place-value system.\n4. He is credited with the 'Surya Siddhanta' in its final form.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "The 'Surya Siddhanta' is an anonymous text, though Aryabhata's own 'Arya Siddhanta' is lost. India's first satellite (1975) was named after him, and Bihar's Aryabhata Knowledge University at Patna honours his association with the region."
+    },
+    {
+      "id": "q24",
+      "question": "Consider the following statements about Varahamihira:\n1. His 'Brihatsamhita' deals with astronomy, astrology, geography, botany and architecture.\n2. His 'Panchasiddhantika' summarises five astronomical systems, including the Romaka and Paulisha siddhantas of Greek origin.\nWhich of the statements given above is/are correct?",
+      "options": ["1 only", "2 only", "Both 1 and 2", "Neither 1 nor 2"],
+      "answer": 2,
+      "explanation": "Both are correct. Varahamihira of Ujjain (sixth century) also wrote the 'Brihajjataka' on horoscopy. His work shows the exchange between Indian and Hellenistic astronomy."
+    },
+    {
+      "id": "q25",
+      "question": "Which of the following pairs of Gupta-period art and location is/are correctly matched?\n1. Dashavatara temple with the Anantashayana Vishnu panel : Deogarh, Uttar Pradesh\n2. Brick temple : Bhitargaon, Uttar Pradesh\n3. Varaha rock-cut panel : Udayagiri, Madhya Pradesh\n4. Seated Buddha in Dharmachakra mudra : Sarnath\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Temple 17 at Sanchi and the Tigawa temple are early flat-roofed Gupta shrines. The Sarnath school of sculpture, with its transparent drapery, represents the Gupta ideal, and the Sultanganj Buddha from Bihar is a large copper image of the period."
+    },
+    {
+      "id": "q26",
+      "question": "Consider the following statements about the Ajanta caves:\n1. The caves are Buddhist and include both chaityas (prayer halls) and viharas (monasteries).\n2. Caves 9 and 10 belong to the Hinayana phase of the second-first centuries BCE.\n3. Caves 16 and 17 were excavated under the patronage of the Vakataka king Harishena's ministers and feudatories in the fifth century.\n4. The paintings, including the Bodhisattva Padmapani in Cave 1, were executed in the fresco-secco technique on a plastered surface.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Ajanta in Maharashtra has about 30 caves and is a UNESCO World Heritage Site. The Bagh caves in Madhya Pradesh contain similar paintings of the Gupta period."
+    },
+    {
+      "id": "q27",
+      "question": "Consider the following statements about religion in the Gupta period:\n1. The Guptas were Vaishnavas, using the title 'Paramabhagavata' and Garuda on their seals, but patronised Buddhism and Jainism as well.\n2. The Puranas were compiled in their present form, and image worship and temple building became widespread.\n3. Bhakti and the doctrine of avatars of Vishnu gained prominence.\n4. Buddhism completely disappeared from India during this period.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "Buddhism continued to flourish, as Fa-hien testifies, and Nalanda was founded by a Gupta king. The period saw the growth of Puranic Hinduism absorbing local cults, with Vishnu's Varaha avatar especially favoured by the Guptas."
+    },
+    {
+      "id": "q28",
+      "question": "Consider the following statements about the position of women and society in the Gupta age:\n1. The first epigraphic evidence of sati is the Eran inscription of 510 CE in the reign of Bhanugupta.\n2. Women were permitted to own 'stridhana' but generally not immovable property.\n3. The Chandalas were treated as untouchables and had to strike a wooden clapper on entering towns, according to Fa-hien.\n4. Land grants increased the number of intermediaries and reduced peasants to a servile condition.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Gupta age, though called 'golden' for its art and literature, saw a decline in the status of women and lower castes, and the beginning of the feudal social order."
+    },
+    {
+      "id": "q29",
+      "question": "The Vakataka dynasty of the Deccan, contemporaries and allies of the Guptas, was founded by:",
+      "options": ["Vindhyashakti", "Pravarasena I", "Rudrasena II", "Harishena"],
+      "answer": 0,
+      "explanation": "Vindhyashakti founded the dynasty around 250 CE; Pravarasena I performed several sacrifices and assumed the title 'Samrat'. Prabhavatigupta ruled as regent for her sons, and Harishena's court patronised the later Ajanta caves."
+    },
+    {
+      "id": "q30",
+      "question": "Consider the following statements about the Kushana-period schools of art:\n1. The Gandhara school, centred on Peshawar and Taxila, blended Greco-Roman techniques with Buddhist themes and used grey schist.\n2. The Mathura school used red sandstone and produced images of Buddhist, Jain and Hindu deities as well as portraits of Kushana kings.\n3. The earliest anthropomorphic images of the Buddha appeared in the Kushana period in both schools.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Earlier Buddhist art at Sanchi and Bharhut represented the Buddha only by symbols such as the footprints, the empty throne, the Bodhi tree and the wheel."
+    },
+    {
+      "id": "q31",
+      "question": "Consider the following statements about the Vikrama and Shaka eras:\n1. The Vikrama Samvat of 58 BCE is 57 years ahead of the Christian era.\n2. The Shaka Samvat of 78 CE was adopted as India's national calendar in 1957 on the recommendation of the Calendar Reform Committee headed by Meghnad Saha.\nWhich of the statements given above is/are correct?",
+      "options": ["1 only", "2 only", "Both 1 and 2", "Neither 1 nor 2"],
+      "answer": 2,
+      "explanation": "Both are correct. The Vikrama era was formerly called the Krita or Malava era. The Gupta era (319-20 CE) and the Harsha era (606 CE) are other important reckonings used in inscriptions."
+    },
+    {
+      "id": "q32",
+      "question": "The Sangam-age Chera king Senguttuvan is known from the 'Silappadikaram' for:",
+      "options": [
+        "Building the Grand Anicut on the Kaveri",
+        "Establishing the cult of Kannagi (Pattini) and campaigning to the Himalayas to bring a stone for her image",
+        "Defeating the Romans at Muziris",
+        "Founding the third Sangam at Madurai"
+      ],
+      "answer": 1,
+      "explanation": "Senguttuvan, the 'Red Chera', is said to have invited Gajabahu of Sri Lanka to the consecration of the Pattini temple, a synchronism used to date the Sangam age to the first-second centuries CE."
+    },
+    {
+      "id": "q33",
+      "question": "Consider the following statements about Sangam society and economy:\n1. Society was classified by the Tolkappiyam into 'arasar' (kings), 'anthanar' (priests), 'vanigar' (traders) and 'vellalar' (farmers).\n2. Women poets such as Avvaiyar composed Sangam verses.\n3. Hero stones (nadukal) were erected in memory of warriors who died in battle.\n4. Paddy was the chief crop, and the Kaveri delta was the granary of the south.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Sangam poems describe the 'kadaisiyar' (agricultural labourers) and 'pulaiyar' as lowly groups, and the king's 'avai' (court) with his 'aimperunkuzhu' (five councils)."
+    },
+    {
+      "id": "q34",
+      "question": "Which of the following pairs of Gupta inscription and ruler is/are correctly matched?\n1. Mathura pillar inscription : Chandragupta II\n2. Bilsad inscription : Kumaragupta I\n3. Mandasor inscription of the silk weavers' guild by Vatsabhatti : Kumaragupta I\nSelect the correct answer using the code given below.",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. The Mandasor inscription (473 CE) records a guild of silk weavers from Lata (Gujarat) that migrated to Dashapura and built a Sun temple, showing the mobility and civic role of guilds."
+    },
+    {
+      "id": "q35",
+      "question": "The Chinese Buddhist pilgrim Fa-hien travelled in India between 405 and 411 CE. Consider the following statements about his visit:\n1. He came primarily to collect Buddhist manuscripts of the Vinaya.\n2. His account is titled 'Fo-kwo-ki' (A Record of Buddhist Kingdoms).\n3. He described the charitable hospitals of Pataliputra and the annual procession of Buddha images.\n4. He mentions the reigning Gupta king by name.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "Fa-hien never names the king, being concerned only with religious matters. He returned to China by sea via Sri Lanka and Java after fifteen years abroad."
+    },
+    {
+      "id": "q36",
+      "question": "Consider the following statements about the Indo-Greek and Shaka influence on Indian culture:\n1. Indian astronomy adopted Greek elements, and the 'Romaka Siddhanta' and 'Paulisha Siddhanta' show this influence.\n2. The Gandhara Buddha with wavy hair and Apollo-like features shows Hellenistic influence.\n3. The 'Yavanajataka' of Sphujidhvaja is a Sanskrit work on Greek astrology.\n4. Indian drama with its curtain ('yavanika') is thought by some to reflect Greek influence.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The term 'Yavana', from Ionian, originally denoted Greeks and later all Westerners. The Greeks in turn adopted Indian religions, as Heliodorus and Menander show."
+    },
+    {
+      "id": "q37",
+      "question": "Consider the following statements about the decline of the Gupta empire:\n1. The Huna invasions of the late fifth and early sixth centuries weakened the empire.\n2. Feudatories such as the Maukharis, later Guptas of Magadha and Maitrakas of Valabhi became independent.\n3. The decline of trade with the Roman empire reduced revenue.\n4. Land grants weakened central control over the provinces.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four contributed. The 'later Guptas' who ruled Magadha and parts of Bihar in the sixth-seventh centuries, such as Adityasena, were not directly related to the imperial line."
+    },
+    {
+      "id": "q38",
+      "question": "The 'Kamasutra' of Vatsyayana, a treatise on the art of love and the life of the cultured urban citizen (nagaraka), is generally assigned to the:",
+      "options": ["Mauryan period", "Shunga period", "Gupta period", "Post-Gupta period"],
+      "answer": 2,
+      "explanation": "The work reflects the refined urban culture of the Gupta age. Other Gupta-period technical works include the 'Kamandaka Nitisara' on polity and the 'Hastyayurveda' of Palakapya on elephant medicine."
+    },
+    {
+      "id": "q39",
+      "question": "Consider the following statements about the Ikshvakus of Andhra:\n1. They succeeded the Satavahanas in the Krishna-Guntur region in the third century CE.\n2. Nagarjunakonda was their capital, where Buddhist stupas and monasteries were built under royal women's patronage.\nWhich of the statements given above is/are correct?",
+      "options": ["1 only", "2 only", "Both 1 and 2", "Neither 1 nor 2"],
+      "answer": 2,
+      "explanation": "Both are correct. Nagarjunakonda (Vijayapuri) yielded inscriptions in Prakrit and Sanskrit, an amphitheatre and many Buddhist structures, later relocated to an island when the Nagarjunasagar dam was built."
+    },
+    {
+      "id": "q40",
+      "question": "Consider the following statements about Nalanda district in Bihar in the Gupta age:\n1. The Buddhist establishment at Nalanda received its first major endowment under Kumaragupta I in the fifth century.\n2. A seal of Kumaragupta and the Nalanda copper plate of Samudragupta's reign have been found at the site.\nWhich of the statements given above is/are correct?",
+      "options": ["1 only", "2 only", "Both 1 and 2", "Neither 1 nor 2"],
+      "answer": 2,
+      "explanation": "Both are correct. The Nalanda plate, though of doubtful authenticity, and the seals confirm Gupta association, and Fa-hien's silence about the university suggests it grew into prominence after his visit."
+    }
+  ]
+}

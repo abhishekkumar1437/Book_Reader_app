@@ -1,0 +1,355 @@
+{
+  "title": "Agriculture, Industry, Planning, Poverty and Employment",
+  "subject": "Indian Economy",
+  "topic": "Five Year Plans and NITI Aayog, agricultural policy and MSP, land reforms, industrial policy and PSUs, infrastructure and PPP, poverty estimation, employment concepts and schemes, Bihar's economy",
+  "description": "UPSC/BPSC-level questions on the history of Indian planning, the Green Revolution and farm support systems, industrial policy resolutions and liberalisation, core industries and infrastructure models, poverty committees and multidimensional poverty, labour market statistics and flagship employment programmes, with Bihar-specific questions.",
+  "timeLimitMinutes": 40,
+  "createdAt": "2026-09-23",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Which of the following pairs of pre-independence plan and its author(s) is/are correctly matched?\n1. Bombay Plan (1944) : A group of industrialists including J.R.D. Tata and G.D. Birla\n2. People's Plan (1945) : M.N. Roy\n3. Gandhian Plan (1944) : Jayaprakash Narayan\nSelect the correct answer using the code given below.",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 0,
+      "explanation": "The Gandhian Plan was authored by Shriman Narayan Agarwal; Jayaprakash Narayan produced the Sarvodaya Plan in 1950. The Bombay Plan's eight signatories also included Purshottamdas Thakurdas, Lala Shri Ram, Kasturbhai Lalbhai, A.D. Shroff, Ardeshir Dalal and John Mathai."
+    },
+    {
+      "id": "q2",
+      "question": "Consider the following statements about the Planning Commission and the National Development Council:\n1. The Planning Commission was set up in 1950 by a resolution of the Union Cabinet, not by an Act of Parliament.\n2. The National Development Council was constituted in 1952 with the Prime Minister as chairman and all Chief Ministers as members.\n3. The Planning Commission was replaced by NITI Aayog on 1 January 2015.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Both bodies were extra-constitutional and non-statutory. NITI Aayog has a Governing Council of Chief Ministers and Lt Governors and replaced five-year plans with a 15-year vision, 7-year strategy and 3-year action agenda."
+    },
+    {
+      "id": "q3",
+      "question": "Which of the following pairs of Five Year Plan and its growth model or emphasis is/are correctly matched?\n1. First Plan (1951-56) : Harrod-Domar model, priority to agriculture and irrigation\n2. Second Plan (1956-61) : Mahalanobis model, emphasis on heavy and basic industries\n3. Eighth Plan (1992-97) : Indicative planning after liberalisation\nSelect the correct answer using the code given below.",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. The Second Plan's import-substituting heavy-industry strategy shaped India's economy for decades, while the Eighth Plan, launched after two annual plans in 1990-92, marked the shift to indicative planning with a larger role for markets."
+    },
+    {
+      "id": "q4",
+      "question": "The period 1966-69, during which three Annual Plans were implemented instead of a Five Year Plan, is known as the 'Plan Holiday'. It was caused by:",
+      "options": [
+        "The 1962 war with China alone",
+        "Two successive droughts, the 1965 war with Pakistan and the devaluation of the rupee, which strained resources",
+        "A change of government at the Centre",
+        "The oil price shock of 1973"
+      ],
+      "answer": 1,
+      "explanation": "The Fourth Plan, originally due in 1966, was postponed to 1969 because of food shortages, war-related spending and the 1966 devaluation. The other break in planning was the Rolling Plan period of 1978-80 under the Janata government."
+    },
+    {
+      "id": "q5",
+      "question": "The Gadgil Formula, first adopted in 1969, was a formula for:",
+      "options": [
+        "Fixing the Minimum Support Price of wheat",
+        "Distribution of central plan assistance among states",
+        "Sharing of income tax between the Centre and the states",
+        "Allocation of bank credit to priority sectors"
+      ],
+      "answer": 1,
+      "explanation": "Named after D.R. Gadgil, Deputy Chairman of the Planning Commission, it allocated plan assistance largely on population, with weights for per capita income and special problems. It was revised as the Gadgil-Mukherjee formula in 1990."
+    },
+    {
+      "id": "q6",
+      "question": "Consider the following statements about the Green Revolution in India:\n1. It began in the mid-1960s with high-yielding varieties of wheat developed from Mexican dwarf varieties.\n2. Its initial gains were concentrated in Punjab, Haryana and western Uttar Pradesh.\n3. It was accompanied by the creation of the Food Corporation of India and the Agricultural Prices Commission in 1965.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Norman Borlaug's wheat varieties were adapted by M.S. Swaminathan, with C. Subramaniam as agriculture minister. The Agricultural Prices Commission later became the Commission for Agricultural Costs and Prices (CACP)."
+    },
+    {
+      "id": "q7",
+      "question": "Consider the following statements about the Minimum Support Price (MSP) regime:\n1. MSP is recommended by the Commission for Agricultural Costs and Prices and approved by the Cabinet Committee on Economic Affairs.\n2. MSP is announced for 22 crops, while sugarcane has a statutory Fair and Remunerative Price.\n3. MSP has a statutory backing under an Act of Parliament.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 0,
+      "explanation": "MSP is an administrative decision without statutory backing, which is why farmers' organisations have demanded a legal guarantee. The FRP for sugarcane, by contrast, is statutory under the Sugarcane (Control) Order."
+    },
+    {
+      "id": "q8",
+      "question": "The National Commission on Farmers headed by M.S. Swaminathan recommended that MSP should be at least 50 per cent above the:",
+      "options": ["A2 cost (paid-out costs only)", "A2+FL cost (paid-out costs plus imputed family labour)", "C2 cost (comprehensive cost including imputed rent on owned land and interest on owned capital)", "Market price of the previous year"],
+      "answer": 2,
+      "explanation": "The Commission (2004-06) recommended C2 + 50 per cent. Since 2018-19 the government has fixed MSP at 1.5 times the A2+FL cost, which is lower than C2 and remains a point of contention."
+    },
+    {
+      "id": "q9",
+      "question": "Consider the following statements about the Pradhan Mantri Fasal Bima Yojana (PMFBY):\n1. Farmers pay a maximum premium of 2 per cent for kharif food and oilseed crops and 1.5 per cent for rabi crops.\n2. The premium for annual commercial and horticultural crops is capped at 5 per cent for farmers.\n3. The scheme is compulsory for all farmers.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 0,
+      "explanation": "PMFBY, launched in 2016, has been voluntary for all farmers, including loanee farmers, since kharif 2020. The balance of the actuarial premium is shared by the Centre and the state."
+    },
+    {
+      "id": "q10",
+      "question": "Under PM-KISAN, eligible landholding farmer families receive income support of:",
+      "options": ["Rs 6,000 per year in three equal instalments through direct benefit transfer", "Rs 12,000 per year in two instalments", "Rs 5,000 per crop season", "Rs 6,000 per year only for farmers below the poverty line"],
+      "answer": 0,
+      "explanation": "Launched in February 2019 with effect from December 2018, PM-KISAN is fully funded by the Centre. Institutional landholders and income-tax payers, among others, are excluded."
+    },
+    {
+      "id": "q11",
+      "question": "Which of the following pairs of 'revolution' and product is/are correctly matched?\n1. Blue Revolution : Fisheries\n2. Golden Revolution : Horticulture and honey\n3. Silver Revolution : Oilseeds\nSelect the correct answer using the code given below.",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 0,
+      "explanation": "The Silver Revolution refers to eggs and poultry; the Yellow Revolution refers to oilseeds. The White Revolution (milk) under Operation Flood was led by Verghese Kurien through the National Dairy Development Board."
+    },
+    {
+      "id": "q12",
+      "question": "Consider the following statements about land reforms in India:\n1. Bihar was the first state to enact legislation abolishing the zamindari system.\n2. The Bhoodan movement was launched by Vinoba Bhave in 1951 at Pochampally.\n3. Consolidation of holdings was most successful in Punjab, Haryana and western Uttar Pradesh.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. The Bihar Land Reforms Act of 1950 was the first zamindari abolition law, though litigation delayed its implementation. Land reform comprised abolition of intermediaries, tenancy reform, ceilings on holdings and consolidation."
+    },
+    {
+      "id": "q13",
+      "question": "Consider the following statements about fertiliser subsidy in India:\n1. Under the Nutrient Based Subsidy scheme introduced in 2010, a fixed subsidy is given per kilogram of nutrient for phosphatic and potassic fertilisers.\n2. Urea is covered under the Nutrient Based Subsidy scheme.\nWhich of the statements given above is/are correct?",
+      "options": ["1 only", "2 only", "Both 1 and 2", "Neither 1 nor 2"],
+      "answer": 0,
+      "explanation": "Urea remains outside NBS with a statutorily controlled retail price, which has skewed nutrient use towards nitrogen. Neem-coating of urea was made mandatory in 2015 to curb diversion."
+    },
+    {
+      "id": "q14",
+      "question": "Bihar repealed its Agricultural Produce Market Committee (APMC) Act in:",
+      "options": ["1991", "2006", "2014", "2020"],
+      "answer": 1,
+      "explanation": "Bihar was the first state to scrap the APMC Act, in 2006, allowing private trade outside regulated mandis. The experience is frequently cited in debates on agricultural marketing reform."
+    },
+    {
+      "id": "q15",
+      "question": "Which of the following pairs of Bihar's agricultural product and the district with which its Geographical Indication is associated is/are correctly matched?\n1. Shahi Litchi : Muzaffarpur\n2. Jardalu Mango : Bhagalpur\n3. Katarni Rice : Gaya\nSelect the correct answer using the code given below.",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 0,
+      "explanation": "Katarni rice is grown in Bhagalpur and Banka districts. Other Bihar GIs include Mithila Makhana, Magahi Paan and Silao Khaja. Bihar is India's largest producer of both litchi and makhana."
+    },
+    {
+      "id": "q16",
+      "question": "Consider the following statements about the Industrial Policy Resolution of 1956:\n1. It classified industries into three schedules, with Schedule A reserved exclusively for the state.\n2. It is often described as the 'economic constitution of India'.\n3. It was framed in the context of the Second Five Year Plan's heavy-industry strategy.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Schedule A had 17 industries exclusively for the state, Schedule B 12 industries progressively state-owned with private participation, and Schedule C the rest, open to the private sector."
+    },
+    {
+      "id": "q17",
+      "question": "Which of the following were features of the New Industrial Policy of July 1991?\n1. Abolition of industrial licensing for most industries\n2. Reduction in the number of industries reserved for the public sector\n3. Removal of the asset threshold for MRTP companies\n4. Automatic approval of FDI up to 51 per cent in specified high-priority industries\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 4 only", "1, 2 and 3 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four were part of the 1991 policy. The public sector reservation list was cut from 17 to 8 industries, and today only atomic energy and railway operations remain reserved. The MRTP Act was later replaced by the Competition Act, 2002."
+    },
+    {
+      "id": "q18",
+      "question": "A Central Public Sector Enterprise is eligible for 'Maharatna' status only if, among other conditions, it:",
+      "options": [
+        "Is an unlisted company with a monopoly in its sector",
+        "Already holds Navratna status and is listed on an Indian stock exchange with a minimum public shareholding",
+        "Has been in existence for at least 50 years",
+        "Operates only in the defence sector"
+      ],
+      "answer": 1,
+      "explanation": "Maharatna status (2010) also requires an average annual turnover above Rs 25,000 crore, net worth above Rs 15,000 crore and net profit above Rs 5,000 crore over three years. It grants greater investment autonomy than Navratna (1997) or Miniratna."
+    },
+    {
+      "id": "q19",
+      "question": "Since 2020, the classification of an enterprise as micro, small or medium in India is based on:",
+      "options": [
+        "Investment in plant and machinery alone",
+        "Number of employees alone",
+        "A composite criterion of investment in plant and machinery or equipment and annual turnover",
+        "Annual export earnings"
+      ],
+      "answer": 2,
+      "explanation": "The 2020 revision under the MSME Development Act 2006 replaced the investment-only criterion and removed the distinction between manufacturing and service enterprises. Registration is through the Udyam portal."
+    },
+    {
+      "id": "q20",
+      "question": "Consider the following statements about the Index of Industrial Production (IIP):\n1. It is compiled and released monthly by the National Statistical Office with base year 2011-12.\n2. Manufacturing has the largest weight, followed by mining and electricity.\n3. The Index of Eight Core Industries has a weight of about 40 per cent in the IIP.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Manufacturing carries about 77.6 per cent weight, mining 14.4 per cent and electricity 8 per cent. The core industries index is compiled by the Office of the Economic Adviser, DPIIT."
+    },
+    {
+      "id": "q21",
+      "question": "Among the eight core industries, which one carries the highest weight in the Index of Eight Core Industries?",
+      "options": ["Electricity", "Steel", "Refinery products", "Coal"],
+      "answer": 2,
+      "explanation": "Refinery products have the largest weight (about 28 per cent), followed by electricity, steel, coal, crude oil, natural gas, cement and fertilisers, the last having the smallest weight."
+    },
+    {
+      "id": "q22",
+      "question": "Consider the following statements about the Production Linked Incentive (PLI) scheme:\n1. It provides incentives to manufacturers as a percentage of incremental sales of goods manufactured in India over a base year.\n2. It was first announced in 2020 for mobile phones, pharmaceutical ingredients and medical devices before being extended to other sectors.\nWhich of the statements given above is/are correct?",
+      "options": ["1 only", "2 only", "Both 1 and 2", "Neither 1 nor 2"],
+      "answer": 2,
+      "explanation": "PLI links subsidy to output rather than investment alone, aiming at scale and global competitiveness. It was later extended to 14 sectors including electronics, automobiles, solar modules, textiles and food processing."
+    },
+    {
+      "id": "q23",
+      "question": "In the 'Hybrid Annuity Model' (HAM) of highway construction adopted in 2016:",
+      "options": [
+        "The private developer bears the entire construction cost and recovers it through tolls",
+        "The government pays about 40 per cent of the project cost during construction and the balance as annuities, with tolling done by the government",
+        "The government builds the road and leases it to a private operator",
+        "Foreign investors fund the road in exchange for equity in NHAI"
+      ],
+      "answer": 1,
+      "explanation": "HAM combines Engineering-Procurement-Construction and Build-Operate-Transfer annuity models, reducing the traffic risk on the developer. The Toll-Operate-Transfer model, by contrast, monetises existing highways."
+    },
+    {
+      "id": "q24",
+      "question": "Consider the following statements about the UDAN scheme launched in 2016:\n1. It seeks to make regional air connectivity affordable by capping fares on a portion of seats.\n2. Airlines are supported through viability gap funding shared by the Centre and the states.\nWhich of the statements given above is/are correct?",
+      "options": ["1 only", "2 only", "Both 1 and 2", "Neither 1 nor 2"],
+      "answer": 2,
+      "explanation": "'Ude Desh ka Aam Naagrik', the Regional Connectivity Scheme, revives unserved and underserved airports; Darbhanga in Bihar is one of its notable successes."
+    },
+    {
+      "id": "q25",
+      "question": "Which of the following correctly describes the PM Gati Shakti National Master Plan launched in 2021?",
+      "options": [
+        "A cash transfer scheme for daily-wage workers",
+        "A GIS-based digital platform to integrate the planning of infrastructure projects across ministries for multimodal connectivity",
+        "A scheme for high-speed rail corridors",
+        "A subsidy programme for electric vehicles"
+      ],
+      "answer": 1,
+      "explanation": "Gati Shakti brings together data from railways, roads, ports, airports and other departments on a single platform to reduce logistics costs and avoid duplication, complementing the National Infrastructure Pipeline and the National Logistics Policy."
+    },
+    {
+      "id": "q26",
+      "question": "Which of the following pairs of committee and its contribution to poverty estimation is/are correctly matched?\n1. Y.K. Alagh Committee (1979) : Poverty line based on calorie norms of 2,400 kcal (rural) and 2,100 kcal (urban)\n2. Tendulkar Committee (2009) : Moved away from calorie norms to a consumption basket including health and education\n3. Rangarajan Committee (2014) : Estimated a lower poverty ratio than the Tendulkar methodology for 2011-12\nSelect the correct answer using the code given below.",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 0,
+      "explanation": "The Rangarajan Committee estimated a higher poverty ratio (29.5 per cent for 2011-12) than Tendulkar (21.9 per cent), because it set a higher poverty line. The Lakdawala Committee (1993) had introduced state-specific poverty lines."
+    },
+    {
+      "id": "q27",
+      "question": "Consider the following statements about NITI Aayog's National Multidimensional Poverty Index:\n1. It uses twelve indicators across health, education and standard of living.\n2. It adds indicators such as maternal health and bank account ownership to the ten indicators of the global MPI.\n3. Bihar recorded the highest proportion of multidimensionally poor among the states in the 2019-21 estimates.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. The index, based on National Family Health Survey data, showed India's multidimensional poverty headcount falling from about 25 per cent in 2015-16 to about 15 per cent in 2019-21, with Bihar improving fastest yet remaining the poorest."
+    },
+    {
+      "id": "q28",
+      "question": "The 'poverty gap index' measures:",
+      "options": [
+        "The number of people below the poverty line",
+        "The average shortfall of the income or consumption of the poor from the poverty line, expressed as a proportion of the line",
+        "The difference between rural and urban poverty lines",
+        "The ratio of poor households to total households"
+      ],
+      "answer": 1,
+      "explanation": "Unlike the head count ratio, which only counts the poor, the poverty gap captures the depth of poverty and indicates the resources needed to lift everyone to the poverty line."
+    },
+    {
+      "id": "q29",
+      "question": "Consider the following statements about the Periodic Labour Force Survey (PLFS):\n1. It is conducted by the National Statistical Office and replaced the earlier quinquennial Employment-Unemployment Surveys.\n2. It provides quarterly estimates for urban areas and annual estimates for both rural and urban areas.\n3. It was launched in 2017-18.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. PLFS reports the Labour Force Participation Rate, Worker Population Ratio and unemployment rate under usual status and current weekly status; since 2025 it also provides monthly estimates."
+    },
+    {
+      "id": "q30",
+      "question": "The Labour Force Participation Rate (LFPR) is defined as the percentage of the population that is:",
+      "options": [
+        "Employed",
+        "Either working or seeking or available for work",
+        "Unemployed and looking for work",
+        "Of working age (15-59 years)"
+      ],
+      "answer": 1,
+      "explanation": "LFPR = (employed + unemployed) / population. The Worker Population Ratio counts only the employed, and the unemployment rate is the unemployed as a share of the labour force, not of the population."
+    },
+    {
+      "id": "q31",
+      "question": "'Disguised unemployment' is said to exist when:",
+      "options": [
+        "Workers are employed only during the harvest season",
+        "More people are engaged in an activity than are actually needed, so that withdrawing some of them would not reduce output",
+        "Workers are between two jobs",
+        "Skilled workers cannot find jobs matching their qualifications"
+      ],
+      "answer": 1,
+      "explanation": "The marginal productivity of such workers is close to zero. It is characteristic of Indian agriculture, where family labour absorbs surplus workers. Seasonal, frictional and structural unemployment are described by the other options."
+    },
+    {
+      "id": "q32",
+      "question": "Consider the following statements about the Mahatma Gandhi National Rural Employment Guarantee Act, 2005:\n1. It guarantees 100 days of wage employment in a financial year to every rural household whose adult members volunteer to do unskilled manual work.\n2. If employment is not provided within 15 days of application, a daily unemployment allowance is payable by the State Government.\n3. At least one-third of the beneficiaries must be women.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. The Centre bears the full cost of unskilled wages and 75 per cent of material costs; work should be provided within 5 km of the applicant's village, failing which a 10 per cent higher wage is paid. Social audit by the Gram Sabha is mandatory."
+    },
+    {
+      "id": "q33",
+      "question": "The Code on Social Security, 2020 is notable for being the first Indian labour law to:",
+      "options": [
+        "Fix a national minimum wage",
+        "Define 'gig workers' and 'platform workers' and provide for their social security",
+        "Regulate trade unions",
+        "Prohibit child labour"
+      ],
+      "answer": 1,
+      "explanation": "The four labour codes (Wages 2019; Industrial Relations, Social Security, and Occupational Safety, Health and Working Conditions 2020) consolidated 29 central laws. The Code on Social Security envisages a fund for gig and platform workers financed partly by aggregators."
+    },
+    {
+      "id": "q34",
+      "question": "Under the Pradhan Mantri MUDRA Yojana, loans are categorised into Shishu, Kishore and Tarun. The 'Kishore' category covers loans:",
+      "options": ["Up to Rs 50,000", "Above Rs 50,000 and up to Rs 5 lakh", "Above Rs 5 lakh and up to Rs 10 lakh", "Above Rs 10 lakh and up to Rs 20 lakh"],
+      "answer": 1,
+      "explanation": "Shishu covers loans up to Rs 50,000, Kishore from Rs 50,000 to Rs 5 lakh and Tarun from Rs 5 lakh to Rs 10 lakh. A 'Tarun Plus' category up to Rs 20 lakh was added in 2024 for borrowers who have repaid a Tarun loan."
+    },
+    {
+      "id": "q35",
+      "question": "The Stand-Up India scheme launched in 2016 provides bank loans of between Rs 10 lakh and Rs 1 crore to set up greenfield enterprises for:",
+      "options": [
+        "All first-time entrepreneurs",
+        "At least one Scheduled Caste or Scheduled Tribe borrower and at least one woman borrower per bank branch",
+        "Only agricultural entrepreneurs",
+        "Retired defence personnel"
+      ],
+      "answer": 1,
+      "explanation": "Stand-Up India targets under-represented groups in entrepreneurship, distinct from Start-up India, which offers tax and regulatory benefits to innovative start-ups recognised by DPIIT."
+    },
+    {
+      "id": "q36",
+      "question": "Arthur Lewis's model of economic development is based on the idea of:",
+      "options": [
+        "A dual economy in which surplus labour moves from a traditional agricultural sector to a modern industrial sector at a constant wage",
+        "Balanced growth of all sectors simultaneously",
+        "Export-led growth through free trade",
+        "Growth driven by technological change alone"
+      ],
+      "answer": 0,
+      "explanation": "The Lewis model of 'unlimited supplies of labour' explains structural transformation in labour-surplus economies. Related development theories include Nurkse's vicious circle of poverty, Rosenstein-Rodan's big push and Rostow's stages of growth."
+    },
+    {
+      "id": "q37",
+      "question": "Consider the following statements about the Barauni Refinery in Bihar:\n1. It was commissioned in 1964 with assistance from the Soviet Union.\n2. It is operated by Indian Oil Corporation.\nWhich of the statements given above is/are correct?",
+      "options": ["1 only", "2 only", "Both 1 and 2", "Neither 1 nor 2"],
+      "answer": 2,
+      "explanation": "Barauni in Begusarai district was among the early public sector refineries built with Soviet and Romanian collaboration and is among Bihar's most important industrial units, along with the fertiliser plant revived at the same location."
+    },
+    {
+      "id": "q38",
+      "question": "'JEEViKA', the Bihar Rural Livelihoods Project, is primarily concerned with:",
+      "options": [
+        "Constructing rural roads",
+        "Organising rural women into self-help groups and federations to improve livelihoods and access to credit",
+        "Providing free electricity to farmers",
+        "Building cold storages for vegetables"
+      ],
+      "answer": 1,
+      "explanation": "Launched in 2006 with World Bank support and implemented by the Bihar Rural Livelihoods Promotion Society, JEEViKA is the state's rural livelihood mission and one of the largest SHG networks in the country."
+    },
+    {
+      "id": "q39",
+      "question": "The 'Saat Nischay' programme of the Government of Bihar, launched in 2015, comprises seven resolves including which of the following?\n1. Har Ghar Nal ka Jal (piped drinking water to every household)\n2. Bihar Student Credit Card for higher education\n3. Reservation for women in government jobs\nSelect the correct answer using the code given below.",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "The seven resolves covered women's reservation, youth skills and credit (including the Student Credit Card of up to Rs 4 lakh), electricity, piped water, paved lanes and drains, and toilets for every household. 'Saat Nischay-2' followed in 2020."
+    },
+    {
+      "id": "q40",
+      "question": "Consider the following statements about the structure of Bihar's economy:\n1. Bihar has one of the lowest per capita incomes among Indian states.\n2. The state has a high population density and a large share of its workforce dependent on agriculture.\n3. Bihar has a coastline that supports a large marine fisheries sector.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 0,
+      "explanation": "Bihar is landlocked, so statement 3 is wrong; its fisheries are inland, based on rivers, ponds and wetlands. Its economy is driven by agriculture, remittances from migrant workers and a growing services sector."
+    }
+  ]
+}

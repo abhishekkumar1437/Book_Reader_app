@@ -1,0 +1,310 @@
+{
+  "title": "Advent of Europeans and Expansion of British Power (1498-1857)",
+  "subject": "Modern History",
+  "topic": "European trading companies, Anglo-French rivalry, Plassey and Buxar, wars with Mysore, Marathas and Sikhs, subsidiary alliance and doctrine of lapse, Company Acts and land revenue settlements",
+  "description": "UPSC/BPSC-level questions on the arrival of the Portuguese, Dutch, English, Danes and French, the Carnatic Wars, the conquest of Bengal and Bihar, the expansion policies of Wellesley, Hastings and Dalhousie, the Regulating and Charter Acts, and the Permanent, Ryotwari and Mahalwari settlements.",
+  "timeLimitMinutes": 40,
+  "createdAt": "2026-09-23",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Which of the following pairs of European power and its first settlement or factory in India is/are correctly matched?\n1. Portuguese : Cochin (1503)\n2. Dutch : Masulipatnam (1605)\n3. English : Surat (1613)\n4. French : Pondicherry (1668)\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "The first French factory was at Surat in 1668; Pondicherry was founded by Francois Martin in 1674. The Portuguese built their first fort at Cochin in 1503, the Dutch their first factory at Masulipatnam in 1605 and the English at Surat in 1613."
+    },
+    {
+      "id": "q2",
+      "question": "Consider the following statements about the Portuguese in India:\n1. Francisco de Almeida, the first Portuguese Viceroy, followed the 'Blue Water Policy' of controlling the seas rather than territory.\n2. Alfonso de Albuquerque captured Goa from the Sultan of Bijapur in 1510.\n3. The Portuguese introduced the printing press to India in 1556.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Albuquerque, regarded as the real founder of Portuguese power in the East, also encouraged intermarriage and abolished sati in his territories. The first printing press in India was set up at Goa."
+    },
+    {
+      "id": "q3",
+      "question": "The English East India Company obtained its charter from Queen Elizabeth I on 31 December 1600. Consider the following statements about its early years:\n1. Captain William Hawkins visited Jahangir's court in 1609 but failed to secure permission for a factory at Surat.\n2. Sir Thomas Roe, ambassador of James I, obtained a farman from Jahangir in 1615 to trade and set up factories.\n3. Bombay was received from the Portuguese as dowry and transferred to the Company by Charles II in 1668.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Bombay came to Charles II in 1661 on his marriage to Catherine of Braganza and was leased to the Company for ten pounds a year. Madras was founded by Francis Day in 1639 and Calcutta by Job Charnock in 1690."
+    },
+    {
+      "id": "q4",
+      "question": "The Danish East India Company established its settlements at:",
+      "options": ["Tranquebar and Serampore", "Chinsura and Pulicat", "Chandernagore and Mahe", "Hooghly and Balasore"],
+      "answer": 0,
+      "explanation": "The Danes settled at Tranquebar in Tamil Nadu (1620) and Serampore in Bengal (1755), selling both to the British in 1845. Serampore became famous for the Baptist missionaries Carey, Marshman and Ward. Chinsura and Pulicat were Dutch; Chandernagore and Mahe were French."
+    },
+    {
+      "id": "q5",
+      "question": "Consider the following statements about the Carnatic Wars:\n1. The First Carnatic War ended with the Treaty of Aix-la-Chapelle, under which Madras was restored to the English.\n2. In the Second Carnatic War, Robert Clive's capture and defence of Arcot in 1751 turned the tide against Dupleix.\n3. The Third Carnatic War was decided by the Battle of Wandiwash in 1760, in which Eyre Coote defeated the French under Count de Lally.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. The Treaty of Paris (1763) ended the Third War, restoring Pondicherry to France but ending French political ambitions in India; French settlements could no longer be fortified."
+    },
+    {
+      "id": "q6",
+      "question": "Consider the following statements about the Battle of Plassey (1757):\n1. It was preceded by the Treaty of Alinagar between Clive and Siraj-ud-Daulah.\n2. Mir Jafar, Rai Durlabh and Jagat Seth conspired with the English against the Nawab.\n3. Mir Jafar was installed as Nawab of Bengal after the battle.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. The battle of 23 June 1757 was more a conspiracy than a fight; the English gained the zamindari of 24 Parganas and huge presents. Siraj-ud-Daulah was killed on the orders of Mir Jafar's son Miran."
+    },
+    {
+      "id": "q7",
+      "question": "Consider the following statements about Mir Qasim, Nawab of Bengal (1760-63):\n1. He shifted his capital from Murshidabad to Munger in Bihar.\n2. He abolished all internal duties so that Indian merchants could compete with the English, who misused the dastak.\n3. The massacre of English prisoners at Patna in 1763 was carried out on his orders.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Mir Qasim reorganised his army at Munger, away from Calcutta's influence. The Patna massacre, executed by the mercenary Walter Reinhardt (Samru), hardened English resolve before Buxar."
+    },
+    {
+      "id": "q8",
+      "question": "The Battle of Buxar (22 October 1764) was fought in present-day Bihar between the English under Hector Munro and the combined forces of:",
+      "options": [
+        "Siraj-ud-Daulah, the Peshwa and the Nizam",
+        "Mir Qasim, Shuja-ud-Daulah of Awadh and the Mughal Emperor Shah Alam II",
+        "Mir Jafar, Haidar Ali and the Raja of Banaras",
+        "Tipu Sultan, the Marathas and Shah Alam II"
+      ],
+      "answer": 1,
+      "explanation": "Buxar was militarily more decisive than Plassey because it defeated three powers at once. By the Treaty of Allahabad (1765) the Company obtained the Diwani of Bengal, Bihar and Orissa from Shah Alam II, and Awadh became a buffer state."
+    },
+    {
+      "id": "q9",
+      "question": "The 'Dual Government' in Bengal (1765-72) meant that:",
+      "options": [
+        "Bengal was ruled jointly by the Mughal Emperor and the Nawab",
+        "The Company held the Diwani (revenue) while the Nawab retained the Nizamat (administration and justice), with the Company exercising real power in both",
+        "The English and French shared the revenues of Bengal",
+        "The Governor and the Council had equal powers"
+      ],
+      "answer": 1,
+      "explanation": "Introduced by Clive, the arrangement gave the Company power without responsibility and led to administrative breakdown and the Bengal famine of 1770. Warren Hastings ended it in 1772 by taking over direct administration."
+    },
+    {
+      "id": "q10",
+      "question": "Consider the following statements about the Regulating Act of 1773:\n1. It designated the Governor of Bengal as Governor-General of Bengal with a council of four.\n2. It provided for a Supreme Court at Calcutta with a Chief Justice and three judges.\n3. It made the Governors of Bombay and Madras subordinate to the Governor-General of Bengal.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. The Act was the first step by the British Parliament to control Company affairs. Warren Hastings became the first Governor-General of Bengal and the Supreme Court was set up in 1774 with Sir Elijah Impey as Chief Justice."
+    },
+    {
+      "id": "q11",
+      "question": "Pitt's India Act of 1784 is significant because it:",
+      "options": [
+        "Ended the Company's trade monopoly with India",
+        "Established a Board of Control in Britain to supervise the Company's political affairs, creating a system of 'double government'",
+        "Appointed the first Governor-General of India",
+        "Introduced competitive examinations for the civil service"
+      ],
+      "answer": 1,
+      "explanation": "The Act distinguished commercial functions, left with the Court of Directors, from political functions placed under the Board of Control. The Company's territories were for the first time called 'British possessions in India'."
+    },
+    {
+      "id": "q12",
+      "question": "Which of the following pairs of Charter Act and its provision is/are correctly matched?\n1. Charter Act of 1813 : Ended the Company's monopoly of trade with India except in tea and trade with China\n2. Charter Act of 1833 : Made the Governor-General of Bengal the Governor-General of India and ended the Company's commercial activities\n3. Charter Act of 1853 : Introduced open competition for recruitment to the civil service\nSelect the correct answer using the code given below.",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. The 1813 Act also set aside one lakh rupees a year for education and permitted missionaries. The 1833 Act added a Law Member (Macaulay) to the Governor-General's council; Lord William Bentinck became the first Governor-General of India."
+    },
+    {
+      "id": "q13",
+      "question": "Consider the following events during Warren Hastings' tenure:\n1. Trial and execution of Maharaja Nand Kumar\n2. The Rohilla War\n3. Abolition of the Dual Government\n4. Establishment of the Calcutta Madrasa\nWhich of the above are correctly attributed to Warren Hastings?",
+      "options": ["1, 2 and 3 only", "2, 3 and 4 only", "1, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four belong to Hastings (1772-85). He was later impeached in the British Parliament (1788-95) over charges including the Rohilla affair and the treatment of Chait Singh of Banaras and the Begums of Awadh, but was acquitted."
+    },
+    {
+      "id": "q14",
+      "question": "Consider the following statements about the Permanent Settlement of 1793:\n1. It was introduced by Lord Cornwallis in Bengal, Bihar and Orissa.\n2. Zamindars were recognised as owners of the land and the revenue demand was fixed in perpetuity.\n3. Under the 'Sunset Law', a zamindar who failed to pay revenue by sunset of the due date could have his estate auctioned.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. John Shore did the groundwork. The settlement created a loyal landlord class but neglected cultivators' rights and deprived the state of any share in rising land values, which later extended it to parts of Madras and Banaras."
+    },
+    {
+      "id": "q15",
+      "question": "Which of the following pairs of land revenue system and person associated with it is/are correctly matched?\n1. Ryotwari system : Thomas Munro and Alexander Read\n2. Mahalwari system : Holt Mackenzie\n3. Permanent Settlement : Lord Wellesley\nSelect the correct answer using the code given below.",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 0,
+      "explanation": "Ryotwari, settling revenue directly with the cultivator, was introduced in Madras (1820) and later Bombay. Mahalwari, based on the village or 'mahal', was designed by Holt Mackenzie in 1822 and modified by Bentinck in 1833 for the North-Western Provinces and Punjab. The Permanent Settlement was Cornwallis's work."
+    },
+    {
+      "id": "q16",
+      "question": "The Cornwallis Code of 1793 is known for which of the following?\n1. Separation of revenue administration from the administration of justice\n2. Europeanisation of the higher services, excluding Indians from posts above a certain level\n3. Creation of a professional police force under darogas\nSelect the correct answer using the code given below.",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Cornwallis is regarded as the father of the Indian civil service for its organisation, though his exclusion of Indians from higher posts was a lasting grievance."
+    },
+    {
+      "id": "q17",
+      "question": "Consider the following statements about the Anglo-Mysore Wars:\n1. The First Anglo-Mysore War ended with the Treaty of Madras (1769) on terms favourable to Haidar Ali.\n2. The Treaty of Mangalore (1784) ended the Second War with the mutual restoration of territories.\n3. By the Treaty of Seringapatam (1792), Tipu Sultan ceded half his territory and sent two sons as hostages.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Cornwallis led the Third War; Wellesley launched the Fourth in 1799, in which Tipu died defending Seringapatam and the Wodeyar dynasty was restored under a subsidiary alliance."
+    },
+    {
+      "id": "q18",
+      "question": "Under the Subsidiary Alliance system devised by Lord Wellesley, an Indian ruler was required to:\n1. Maintain a British force within his territory and pay for it\n2. Accept a British Resident at his court\n3. Refrain from employing Europeans without British consent and from negotiating with other states without British approval\nWhich of the above conditions applied?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three applied, in return for British protection. Hyderabad (1798) was the first to accept; Mysore, Tanjore, Awadh and the Peshwa (Treaty of Bassein, 1802) followed. States that defaulted on payments lost territory."
+    },
+    {
+      "id": "q19",
+      "question": "The Treaty of Bassein (1802), described as having given the Company 'the key to the Maratha empire', was signed with:",
+      "options": ["Mahadji Scindia", "Peshwa Baji Rao II", "Yashwant Rao Holkar", "Raghuji Bhonsle"],
+      "answer": 1,
+      "explanation": "After his defeat by Holkar at Poona, Baji Rao II accepted a subsidiary alliance, provoking the Second Anglo-Maratha War (1803-05) in which Scindia and Bhonsle were defeated at Assaye, Argaon and Laswari."
+    },
+    {
+      "id": "q20",
+      "question": "Which of the following pairs of Anglo-Maratha War and its concluding treaty is/are correctly matched?\n1. First Anglo-Maratha War : Treaty of Salbai (1782)\n2. Second Anglo-Maratha War : Treaty of Surji-Arjangaon with Scindia (1803)\n3. Third Anglo-Maratha War : Treaty of Bassein (1818)\nSelect the correct answer using the code given below.",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 0,
+      "explanation": "The Third War (1817-18) under Lord Hastings ended not with a treaty of Bassein but with the abolition of the Peshwaship; Baji Rao II was pensioned off to Bithur near Kanpur, and his adopted son Nana Saheb later led the 1857 revolt there."
+    },
+    {
+      "id": "q21",
+      "question": "Consider the following statements about the Anglo-Sikh Wars:\n1. The First Anglo-Sikh War (1845-46) ended with the Treaty of Lahore, under which the Jalandhar Doab was ceded and Kashmir was sold to Gulab Singh.\n2. The Second Anglo-Sikh War (1848-49) led to the annexation of Punjab by Lord Dalhousie.\n3. Maharaja Duleep Singh was the ruler of Punjab at the time of annexation.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Kashmir was transferred to Gulab Singh by the Treaty of Amritsar (1846) for 75 lakh rupees. The Second War, triggered by the revolt of Mulraj at Multan, ended at Gujrat in 1849."
+    },
+    {
+      "id": "q22",
+      "question": "Which of the following states were annexed by Lord Dalhousie under the Doctrine of Lapse?\n1. Satara\n2. Jhansi\n3. Nagpur\n4. Awadh\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "Satara (1848), Jaitpur and Sambalpur (1849), Udaipur (1852), Jhansi (1853) and Nagpur (1854) lapsed. Awadh was annexed in 1856 on the ground of misgovernment, not lapse, a decision that alienated the sepoys, many of whom came from Awadh."
+    },
+    {
+      "id": "q23",
+      "question": "Consider the following measures associated with Lord Dalhousie:\n1. The first railway line from Bombay to Thane in 1853\n2. The first telegraph line and the Post Office Act of 1854 introducing postage stamps\n3. Wood's Despatch on education in 1854\n4. Abolition of Sati\nWhich of the above are correctly attributed to Dalhousie's tenure?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "Sati was abolished by Lord William Bentinck in 1829. Dalhousie (1848-56), the 'maker of modern India', also created the Public Works Department and an Engineering College at Roorkee."
+    },
+    {
+      "id": "q24",
+      "question": "Consider the following statements about Lord William Bentinck (1828-35):\n1. He abolished sati through Regulation XVII of 1829.\n2. He suppressed the Thugs with the help of Colonel William Sleeman.\n3. He made English the official language of government and the medium of higher education following Macaulay's Minute.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Bentinck also abolished female infanticide, opened posts to Indians under the 1833 Charter Act and settled the Mahalwari system in the North-Western Provinces."
+    },
+    {
+      "id": "q25",
+      "question": "The Treaty of Yandabo (1826) concluded the:",
+      "options": ["First Anglo-Burmese War", "First Anglo-Afghan War", "Anglo-Nepal War", "Second Anglo-Burmese War"],
+      "answer": 0,
+      "explanation": "Fought under Lord Amherst, the First Burmese War gave the British Assam, Arakan and Tenasserim. The Anglo-Nepal War ended with the Treaty of Sugauli (1816), signed in present-day Bihar, which gave the British Kumaon, Garhwal and the right to recruit Gorkhas."
+    },
+    {
+      "id": "q26",
+      "question": "Which Governor-General is associated with the annexation of Sindh in 1843, after which General Charles Napier is said to have sent the one-word message 'Peccavi' ('I have sinned')?",
+      "options": ["Lord Auckland", "Lord Ellenborough", "Lord Hardinge", "Lord Dalhousie"],
+      "answer": 1,
+      "explanation": "The annexation of Sindh followed the disastrous First Anglo-Afghan War (1839-42) under Auckland, in which the British retreat from Kabul was destroyed. Ellenborough was recalled in 1844."
+    },
+    {
+      "id": "q27",
+      "question": "Consider the following statements about the Pindaris:\n1. They were irregular plunderers who had attached themselves to Maratha armies and raided British territory.\n2. Lord Hastings' campaign against them (1817-18) merged into the Third Anglo-Maratha War.\n3. Their leaders included Amir Khan, Karim Khan and Chitu.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Amir Khan accepted the offer to become Nawab of Tonk, Karim Khan surrendered and Chitu died in the jungles. The campaign completed British supremacy in central India."
+    },
+    {
+      "id": "q28",
+      "question": "The Third Battle of Panipat (1761), which weakened the Marathas before British expansion, was fought between the Marathas and:",
+      "options": ["The English East India Company", "Ahmad Shah Abdali", "Nadir Shah", "The Nizam of Hyderabad"],
+      "answer": 1,
+      "explanation": "The Afghan ruler Ahmad Shah Abdali defeated the Marathas under Sadashiv Rao Bhau, killing the Peshwa's son Vishwas Rao. The defeat weakened the Maratha confederacy just as the Company was consolidating in Bengal."
+    },
+    {
+      "id": "q29",
+      "question": "The Charter Act of 1813 is important for the history of Indian education because it:",
+      "options": [
+        "Made primary education compulsory",
+        "Set aside one lakh rupees annually for the revival and promotion of literature and the encouragement of learned natives and the sciences",
+        "Established the universities of Calcutta, Bombay and Madras",
+        "Introduced the Ryotwari system"
+      ],
+      "answer": 1,
+      "explanation": "The grant remained unspent for years while Orientalists and Anglicists argued over its use, a dispute settled by Macaulay's Minute and Bentinck's resolution of 1835 in favour of English education."
+    },
+    {
+      "id": "q30",
+      "question": "Consider the following institutions and their founders:\n1. Calcutta Madrasa (1781) : Warren Hastings\n2. Sanskrit College at Banaras (1791) : Jonathan Duncan\n3. Fort William College at Calcutta (1800) : Lord Wellesley\n4. Asiatic Society of Bengal (1784) : William Jones\nWhich of the pairs given above are correctly matched?",
+      "options": ["1, 2 and 3 only", "1, 2 and 4 only", "3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Fort William College was set up to train Company civil servants in Indian languages and was wound up after the Haileybury College opened in England in 1806."
+    },
+    {
+      "id": "q31",
+      "question": "Which of the following statements about the Nawabs of Bengal is/are correct?\n1. Murshid Quli Khan shifted the capital from Dacca to Murshidabad.\n2. Alivardi Khan faced repeated Maratha raids and agreed to pay chauth for Bengal.\n3. Siraj-ud-Daulah captured Calcutta in 1756, an event linked to the 'Black Hole' tragedy.\nSelect the correct answer using the code given below.",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Bengal's virtual independence from Delhi began under Murshid Quli Khan (d. 1727). Alivardi ceded Orissa to the Marathas in 1751. The Black Hole incident, reported by Holwell, remains disputed in its details."
+    },
+    {
+      "id": "q32",
+      "question": "Consider the following statements about the Company's Indian Army before 1857:\n1. Sepoys of the Bengal Army were largely recruited from Awadh and Bihar and were mostly high-caste Hindus.\n2. The General Service Enlistment Act of 1856 required new recruits to serve overseas if ordered.\n3. The Vellore Mutiny of 1806 was provoked by new regulations on dress and religious marks.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Crossing the sea was regarded as loss of caste, so the 1856 Act, together with the Awadh annexation and the greased cartridge, prepared the ground for the 1857 revolt."
+    },
+    {
+      "id": "q33",
+      "question": "Consider the following statements about the impact of British rule on Indian handicrafts in the early nineteenth century:\n1. The Charter Act of 1813 opened India to free trade, flooding the country with British machine-made textiles.\n2. One-way free trade meant Indian goods faced heavy duties in Britain while British goods entered India almost duty-free.\n3. The ruin of handicrafts led to the 'de-industrialisation' and the growing pressure of population on agriculture.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Nationalist economists such as R.C. Dutt later documented how India was converted from an exporter of manufactured goods into a supplier of raw materials and a market for British industry."
+    },
+    {
+      "id": "q34",
+      "question": "The 'Drain of Wealth' theory, which held that Britain was draining India's resources through Home Charges, remittances and unrequited exports, was first systematically expounded by:",
+      "options": ["Mahadev Govind Ranade", "Dadabhai Naoroji", "Gopal Krishna Gokhale", "Bal Gangadhar Tilak"],
+      "answer": 1,
+      "explanation": "Naoroji presented the theory from the 1860s and developed it in 'Poverty and Un-British Rule in India' (1901). R.C. Dutt, G.V. Joshi and G. Subramania Iyer contributed further to the nationalist economic critique."
+    },
+    {
+      "id": "q35",
+      "question": "Consider the following statements about the Company's relations with Awadh:\n1. By the Treaty of Allahabad (1765), Awadh became a buffer state against the Marathas and Afghans.\n2. Under Wellesley, the Nawab ceded Rohilkhand and the lower Doab in 1801 to pay for the subsidiary force.\n3. Awadh was annexed in 1856 by Lord Dalhousie under the Doctrine of Lapse.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 0,
+      "explanation": "Awadh was annexed on the plea of chronic misgovernment, not lapse, since Nawab Wajid Ali Shah had heirs. The annexation and the confiscation of taluqdars' estates fuelled the intensity of the 1857 revolt in Awadh."
+    },
+    {
+      "id": "q36",
+      "question": "Which of the following pairs of person and title or description is/are correctly matched?\n1. Robert Clive : Twice Governor of Bengal, introduced Dual Government\n2. Lord Cornwallis : Died at Ghazipur during his second term as Governor-General\n3. Sir John Shore : Followed a policy of non-intervention\nSelect the correct answer using the code given below.",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Shore's non-intervention was criticised for failing to aid the Nizam against the Marathas at Kharda (1795). Cornwallis died at Ghazipur in 1805 shortly after returning to India."
+    },
+    {
+      "id": "q37",
+      "question": "The Asiatic Society of Bengal, founded in 1784, is associated with which of the following?\n1. Translation of the Bhagavad Gita into English by Charles Wilkins\n2. Translation of Abhijnanasakuntalam by William Jones\n3. Publication of the journal 'Asiatic Researches'\nSelect the correct answer using the code given below.",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Warren Hastings patronised these Orientalist scholars, whose work later informed both the Orientalist case in the education debate and the pride of Indian reformers in India's past."
+    },
+    {
+      "id": "q38",
+      "question": "Consider the following statements about the French in India:\n1. The French East India Company was formed in 1664 on the initiative of Colbert, minister of Louis XIV.\n2. Dupleix was the first European to interfere in the internal politics of Indian states to gain advantage.\n3. Chandernagore in Bengal was a French possession.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. Dupleix's strategy in the Second Carnatic War of backing rival claimants at Hyderabad and Arcot was copied by the English. Chandernagore was returned to India in 1950 and Pondicherry in 1954."
+    },
+    {
+      "id": "q39",
+      "question": "The Treaty of Sugauli (1816), which fixed the boundary between British India and Nepal and was signed at a place in present-day Bihar, followed the:",
+      "options": ["Anglo-Nepal War of 1814-16", "First Anglo-Burmese War", "Anglo-Bhutanese War", "Kol uprising"],
+      "answer": 0,
+      "explanation": "Sugauli lies in East Champaran district of Bihar. Nepal ceded the Tarai, Kumaon and Garhwal, accepted a British Resident at Kathmandu and permitted Gorkha recruitment into the British army."
+    },
+    {
+      "id": "q40",
+      "question": "Consider the following statements about the British conquest of Bihar:\n1. Bihar came under the Company's revenue administration with the grant of Diwani in 1765.\n2. Patna had an English factory well before Plassey, chiefly for the saltpetre trade.\n3. The Company's rule was resisted in Bihar in the 1780s by Raja Chait Singh of Banaras.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 0,
+      "explanation": "The English factory at Patna dates from the 1650s and dealt in saltpetre, opium and cotton. Chait Singh's revolt (1781) occurred in Banaras, not Bihar; the notable anti-Company resistance in Bihar in the 1770s-80s came from zamindars such as Raja Fateh Bahadur Shahi of Hathwa and the Bhumihar and Rajput chiefs."
+    }
+  ]
+}

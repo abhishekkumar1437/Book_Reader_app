@@ -1,0 +1,290 @@
+{
+  "title": "Directive Principles, Fundamental Duties, Union Executive, Parliament and Supreme Court",
+  "subject": "Indian Polity",
+  "topic": "DPSP and their relationship with Fundamental Rights, Fundamental Duties, President and Vice-President, Prime Minister and Council of Ministers, Attorney General, structure and procedure of Parliament, parliamentary committees, Supreme Court composition, jurisdiction and independence",
+  "description": "UPSC/BPSC-level questions on Parts IV, IVA and V of the Constitution: the philosophy of the Directive Principles, the powers and election of the President and Vice-President, collective responsibility, the working of the two Houses, their officers, motions and committees, and the organisation and jurisdiction of the Supreme Court including judicial appointments and public interest litigation.",
+  "timeLimitMinutes": 40,
+  "createdAt": "2026-09-24",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Consider the following statements about the Directive Principles of State Policy:\n1. They are contained in Part IV (Articles 36 to 51) and were borrowed from the Irish Constitution.\n2. Article 37 declares them non-justiciable but fundamental in the governance of the country.\n3. They may be classified as socialistic, Gandhian and liberal-intellectual principles.\n4. Ambedkar described them as an 'instrument of instructions' and Granville Austin called them, with the Fundamental Rights, the 'conscience of the Constitution'.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Critics such as K.T. Shah called them a 'cheque on a bank payable at the convenience of the bank', and Ivor Jennings 'pious aspirations', but they have guided legislation from land reform to the Right to Education."
+    },
+    {
+      "id": "q2",
+      "question": "Which of the following Directive Principles were added by the 42nd Amendment Act of 1976?\n1. Article 39A: equal justice and free legal aid\n2. Article 43A: participation of workers in management of industries\n3. Article 48A: protection of environment, forests and wildlife\n4. Article 43B: promotion of cooperative societies\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "Article 43B was added by the 97th Amendment Act of 2011. The 42nd Amendment also added Article 39(f) on the healthy development of children, and the 44th Amendment added Article 38(2) on minimising inequalities."
+    },
+    {
+      "id": "q3",
+      "question": "Which of the following pairs of Directive Principle and its content is/are correctly matched?\n1. Article 40 : Organisation of village panchayats\n2. Article 44 : Uniform civil code for citizens\n3. Article 47 : Raising the level of nutrition and prohibition of intoxicating drinks and drugs\n4. Article 50 : Separation of judiciary from the executive\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Article 48 deals with the organisation of agriculture and prohibition of cow slaughter, Article 49 with protection of monuments, and Article 51 with the promotion of international peace and security."
+    },
+    {
+      "id": "q4",
+      "question": "Consider the following statements about the relationship between Fundamental Rights and Directive Principles:\n1. In Champakam Dorairajan (1951) the Supreme Court held that Fundamental Rights would prevail over Directive Principles.\n2. In Kesavananda Bharati (1973) the Court held that the two are complementary and Parliament can amend Fundamental Rights to implement Directive Principles without violating the basic structure.\n3. In Minerva Mills (1980) the Court held that the balance between the two is part of the basic structure and struck down the blanket primacy given to all Directive Principles by the 42nd Amendment.\n4. Article 31C currently protects laws implementing Articles 39(b) and 39(c) from challenge under Articles 14 and 19.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Court's approach has evolved from the primacy of rights to harmonious construction, with Directive Principles used to interpret the scope of Article 21 and other rights."
+    },
+    {
+      "id": "q5",
+      "question": "Consider the following statements about Fundamental Duties:\n1. They were added as Part IVA (Article 51A) by the 42nd Amendment Act of 1976 on the recommendation of the Swaran Singh Committee.\n2. Originally ten in number, the eleventh duty, of parents to provide education to children aged 6 to 14, was added by the 86th Amendment Act of 2002.\n3. They are applicable only to citizens and are not enforceable by courts, though Parliament may provide for their enforcement.\n4. They were inspired by the Constitution of the former Soviet Union.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Verma Committee (1999) identified laws implementing some duties, such as the Prevention of Insults to National Honour Act 1971. Japan is the only other major democracy with a similar list of duties."
+    },
+    {
+      "id": "q6",
+      "question": "Consider the following statements about the election of the President:\n1. The electoral college consists of the elected members of both Houses of Parliament and of the legislative assemblies of the states and the Union Territories of Delhi and Puducherry.\n2. The election is by proportional representation by means of the single transferable vote and secret ballot.\n3. The value of a state legislator's vote is based on the state's population as per the 1971 census, and the total value of all MLAs' votes equals the total value of all MPs' votes.\n4. Nominated members of Parliament and state legislatures participate in the election.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "Nominated members do not vote in the presidential election, nor do members of legislative councils. Puducherry and Delhi MLAs were included by the 70th Amendment Act of 1992. Disputes are decided by the Supreme Court under Article 71."
+    },
+    {
+      "id": "q7",
+      "question": "Consider the following statements about the impeachment of the President under Article 61:\n1. The only ground is 'violation of the Constitution', which the Constitution does not define.\n2. The charge may be initiated in either House by a resolution signed by at least one-fourth of the members and with fourteen days' notice, and must be passed by a two-thirds majority of the total membership of that House.\n3. The other House then investigates the charge, and if it also passes the resolution by a two-thirds majority of its total membership, the President stands removed.\n4. Nominated members of Parliament can participate in the impeachment process.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The impeachment procedure has never been used. When a vacancy occurs, the Vice-President acts as President and an election must be held within six months."
+    },
+    {
+      "id": "q8",
+      "question": "Which of the following pairs of veto power of the President and description is/are correctly matched?\n1. Absolute veto : Withholding assent to a bill, as done by President Venkataraman in 1991 on the Salaries and Allowances of Members of Parliament Bill\n2. Suspensive veto : Returning a bill for reconsideration, after which the President must give assent if it is passed again with or without amendments\n3. Pocket veto : Keeping a bill pending indefinitely, as done by President Zail Singh in 1986 on the Indian Post Office (Amendment) Bill\n4. Qualified veto : The President's veto that can be overridden by a higher majority in Parliament\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "The qualified veto exists in the United States but not in India. The President has no veto over constitutional amendment bills, to which assent is obligatory under the 24th Amendment, and cannot return money bills."
+    },
+    {
+      "id": "q9",
+      "question": "Consider the following statements about the ordinance-making power of the President under Article 123:\n1. An ordinance can be promulgated only when either House of Parliament is not in session and the President is satisfied that circumstances require immediate action.\n2. It must be laid before both Houses when they reassemble and ceases to operate six weeks after reassembly unless approved.\n3. In R.C. Cooper (1970) the Supreme Court held that the President's satisfaction is justiciable on the ground of mala fides.\n4. In D.C. Wadhwa (1987), arising from Bihar, the Court held that repeated re-promulgation of ordinances without placing them before the legislature is a fraud on the Constitution.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Bihar case involved 256 ordinances kept alive for up to fourteen years. In Krishna Kumar Singh (2017), another Bihar case, a seven-judge bench reaffirmed that re-promulgation is a subversion of the democratic process."
+    },
+    {
+      "id": "q10",
+      "question": "Consider the following statements about the pardoning power of the President under Article 72:\n1. It covers pardon, commutation, remission, respite and reprieve.\n2. It extends to punishments by court martial and to all cases of death sentence, which a Governor cannot pardon.\n3. In Maru Ram (1980) and Kehar Singh (1988) the Supreme Court held that the President acts on the advice of the Council of Ministers and that the power is subject to limited judicial review.\n4. The President is bound to give reasons and to hear the convict orally.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "The Court in Kehar Singh held that the convict has no right to an oral hearing and the President need not give reasons. In Shatrughan Chauhan (2014) it held that undue delay in deciding mercy petitions is a ground for commutation."
+    },
+    {
+      "id": "q11",
+      "question": "Consider the following statements about Article 74:\n1. The 42nd Amendment made the advice of the Council of Ministers binding on the President.\n2. The 44th Amendment allowed the President to return the advice for reconsideration once, after which the President must act on the reconsidered advice.\n3. The question whether any advice was tendered by ministers cannot be inquired into by any court.\n4. The Council of Ministers is collectively responsible to the Rajya Sabha.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "Under Article 75(3) the Council of Ministers is collectively responsible to the Lok Sabha only. Individual responsibility means ministers hold office during the pleasure of the President, exercised on the Prime Minister's advice."
+    },
+    {
+      "id": "q12",
+      "question": "Consider the following statements about the Vice-President:\n1. The Vice-President is elected by the members of both Houses of Parliament, including nominated members, by proportional representation with the single transferable vote.\n2. The Vice-President can be removed by a resolution of the Rajya Sabha passed by a majority of all its then members and agreed to by the Lok Sabha, with fourteen days' notice.\n3. The Vice-President is the ex officio Chairman of the Rajya Sabha and can act as President for a maximum of six months.\n4. The Constitution prescribes grounds for the removal of the Vice-President.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "No grounds for removal are mentioned, unlike the President's impeachment. The Vice-President must be qualified for election to the Rajya Sabha and be at least 35 years old. Disputes over the election go to the Supreme Court."
+    },
+    {
+      "id": "q13",
+      "question": "Consider the following statements about the Prime Minister and the Council of Ministers:\n1. A person who is not a member of either House can be appointed a minister but must become a member within six months.\n2. The 91st Amendment Act of 2003 limits the total number of ministers, including the Prime Minister, to 15 per cent of the strength of the Lok Sabha.\n3. The term 'Cabinet' was inserted in Article 352 by the 44th Amendment and is otherwise not described in the Constitution.\n4. Under Article 78 the Prime Minister must communicate all decisions of the Council of Ministers to the President and furnish information the President calls for.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The 91st Amendment also disqualifies a member disqualified for defection from being appointed a minister. The office of Deputy Prime Minister is not mentioned in the Constitution."
+    },
+    {
+      "id": "q14",
+      "question": "Consider the following statements about the Attorney General of India:\n1. Under Article 76 the Attorney General is appointed by the President and must be qualified to be a judge of the Supreme Court.\n2. The Attorney General has the right of audience in all courts in India and can take part in the proceedings of both Houses of Parliament without the right to vote.\n3. The Attorney General is a full-time government servant and is debarred from private practice.\n4. M.C. Setalvad was the first Attorney General of India.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 4 only", "1 and 3 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "The Attorney General is not a government servant and may take up private practice, but must not advise or hold a brief against the Government of India. The Solicitor General and Additional Solicitors General are not constitutional posts."
+    },
+    {
+      "id": "q15",
+      "question": "Consider the following statements about the composition of Parliament:\n1. Parliament consists of the President, the Rajya Sabha and the Lok Sabha.\n2. The maximum strength of the Rajya Sabha is 250, of which 238 represent states and Union Territories and 12 are nominated by the President; its present strength is 245.\n3. The maximum strength of the Lok Sabha is 550, with 530 from states and 20 from Union Territories; its present strength is 543.\n4. Seats in the Rajya Sabha are allotted to states in the Fourth Schedule on the basis of population, with Uttar Pradesh having the largest number and Bihar 16.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The 104th Amendment ended the nomination of two Anglo-Indians to the Lok Sabha in 2020. The Rajya Sabha is a permanent body with one-third of members retiring every two years, and its members are elected by MLAs by open ballot since 2003."
+    },
+    {
+      "id": "q16",
+      "question": "Consider the following statements about the Speaker of the Lok Sabha:\n1. The Speaker is elected by the Lok Sabha from among its members and can be removed by a resolution passed by a majority of all the then members after fourteen days' notice.\n2. The Speaker does not vote in the first instance but has a casting vote in case of a tie.\n3. The Speaker's decision on whether a bill is a money bill is final.\n4. The Speaker's decisions under the Tenth Schedule on defection are beyond judicial review.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "In Kihoto Hollohan (1992) the Supreme Court held that the Speaker's decisions under the Tenth Schedule are subject to judicial review. The Speaker continues in office until the first meeting of the next Lok Sabha and presides over joint sittings."
+    },
+    {
+      "id": "q17",
+      "question": "Consider the following statements about the sessions and sittings of Parliament:\n1. Article 85 requires that not more than six months elapse between two sessions.\n2. The quorum for a sitting of either House is one-tenth of its total membership.\n3. Adjournment terminates a sitting, prorogation terminates a session, and dissolution ends the life of the Lok Sabha.\n4. The 'Zero Hour', which follows the Question Hour, is an Indian innovation not mentioned in the rules of procedure.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Parliament conventionally holds three sessions a year: Budget, Monsoon and Winter. Questions are starred (oral answer), unstarred (written) and short notice."
+    },
+    {
+      "id": "q18",
+      "question": "Which of the following statements about the lapsing of bills on the dissolution of the Lok Sabha is/are correct?\n1. A bill pending in the Lok Sabha lapses.\n2. A bill passed by the Lok Sabha but pending in the Rajya Sabha lapses.\n3. A bill pending in the Rajya Sabha but not yet passed by the Lok Sabha does not lapse.\n4. A bill passed by both Houses but pending the President's assent, or returned by the President for reconsideration, does not lapse.\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. A bill for which the President has notified a joint sitting before dissolution also does not lapse. Pending motions, resolutions and notices lapse, but petitions and committee reports do not."
+    },
+    {
+      "id": "q19",
+      "question": "Consider the following statements about money bills and financial bills:\n1. A money bill under Article 110 can be introduced only in the Lok Sabha on the recommendation of the President, and the Rajya Sabha must return it within fourteen days with or without recommendations.\n2. A financial bill under Article 117(1) contains money-bill matters along with other matters and, like a money bill, can be introduced only in the Lok Sabha, but the Rajya Sabha has full powers over it.\n3. A financial bill under Article 117(3) involves expenditure from the Consolidated Fund and can be introduced in either House but needs the President's recommendation for consideration.\n4. There can be a joint sitting on a money bill.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "Joint sittings under Article 108 are not available for money bills or constitutional amendment bills. The certification of the Aadhaar Act as a money bill was upheld in 2018 but the issue was referred to a larger bench in Rojer Mathew (2019)."
+    },
+    {
+      "id": "q20",
+      "question": "Consider the following statements about joint sittings of Parliament:\n1. A joint sitting is summoned by the President under Article 108 when a bill is rejected by the other House, the Houses disagree on amendments, or six months pass without the bill being passed by the other House.\n2. The Speaker of the Lok Sabha presides over a joint sitting, and in his absence the Deputy Speaker, then the Deputy Chairman of the Rajya Sabha.\n3. Joint sittings have been held only three times: on the Dowry Prohibition Bill (1961), the Banking Service Commission (Repeal) Bill (1978) and the Prevention of Terrorism Bill (2002).\n4. The quorum for a joint sitting is one-tenth of the total members of both Houses.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Chairman of the Rajya Sabha never presides over a joint sitting. The provision reflects the Lok Sabha's larger size and therefore its predominance in resolving deadlocks."
+    },
+    {
+      "id": "q21",
+      "question": "Which of the following pairs of parliamentary motion and description is/are correctly matched?\n1. Adjournment motion : Draws attention to a definite matter of urgent public importance; needs support of 50 members; involves censure of the government; not available in the Rajya Sabha\n2. No-confidence motion : Can be moved only in the Lok Sabha with the support of 50 members; need not state reasons\n3. Censure motion : Must state the reasons and can be moved against an individual minister or the government; if passed, the government need not resign\n4. Calling attention motion : Draws a minister's attention to a matter of urgent public importance and seeks an authoritative statement; an Indian innovation\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Other devices include the privilege motion, the closure motion, the point of order, and the motion of thanks on the President's address, whose defeat amounts to defeat of the government."
+    },
+    {
+      "id": "q22",
+      "question": "Consider the following statements about parliamentary committees:\n1. The Estimates Committee has 30 members, all from the Lok Sabha, with its chairman appointed from the ruling party, and is called a 'continuous economy committee'.\n2. The Committee on Public Undertakings has 22 members, 15 from the Lok Sabha and 7 from the Rajya Sabha.\n3. There are 24 Departmentally Related Standing Committees, each with 31 members (21 from the Lok Sabha and 10 from the Rajya Sabha), first set up in 1993.\n4. The Business Advisory Committee of the Lok Sabha, chaired by the Speaker, allocates time for government business.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Ministers cannot be members of the financial committees. Other committees include those on Privileges, Petitions, Government Assurances, Subordinate Legislation, Ethics and the Empowerment of Women."
+    },
+    {
+      "id": "q23",
+      "question": "Consider the following statements about parliamentary privileges:\n1. Article 105 grants freedom of speech in Parliament and immunity from court proceedings for anything said or any vote given in the House or its committees.\n2. Members are free from arrest in civil cases during the session and 40 days before and after it, but not in criminal cases or preventive detention.\n3. Under Article 121 no discussion can take place in Parliament on the conduct of a Supreme Court or High Court judge except on a motion for removal.\n4. Parliament has codified its privileges in a comprehensive law.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "Privileges remain uncodified and are based on British precedents and the rules of the Houses. In Sita Soren (2024) the Supreme Court overruled P.V. Narasimha Rao (1998) and held that immunity does not protect bribery for votes or speeches."
+    },
+    {
+      "id": "q24",
+      "question": "Consider the following statements about the Leader of the Opposition:\n1. The office is recognised by the Salary and Allowances of Leaders of Opposition in Parliament Act, 1977.\n2. By convention the leader of the largest opposition party with at least one-tenth of the House's strength is recognised.\n3. The Leader of the Opposition is a member of committees that select the CBI Director, the Central Vigilance Commissioner and the Lokpal.\n4. The office is mentioned in the Constitution.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "The office has no constitutional basis. When no party meets the ten per cent convention, as in the 16th and 17th Lok Sabhas, the leader of the largest opposition party is included in such selection committees by specific provision."
+    },
+    {
+      "id": "q25",
+      "question": "Consider the following statements about the composition of the Supreme Court:\n1. The Constitution originally provided for a Chief Justice and seven other judges; the sanctioned strength is now 34 under the 2019 amendment to the Supreme Court (Number of Judges) Act.\n2. A judge must be a citizen who has been a High Court judge for five years, an advocate of a High Court for ten years, or a distinguished jurist in the opinion of the President.\n3. Judges hold office until the age of 65 and can be removed only by the President on an address of both Houses passed by a special majority on grounds of proved misbehaviour or incapacity.\n4. No person has so far been appointed as a distinguished jurist.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. H.J. Kania was the first Chief Justice and Fathima Beevi (1989) the first woman judge of the Supreme Court. Retired judges may not plead before any court in India."
+    },
+    {
+      "id": "q26",
+      "question": "Consider the following statements about the appointment of judges and the collegium:\n1. In the First Judges case (S.P. Gupta, 1981) the Supreme Court held that 'consultation' with the Chief Justice did not mean concurrence.\n2. In the Second Judges case (1993) the Court gave primacy to the Chief Justice's opinion formed with two senior-most judges.\n3. In the Third Judges case (1998) the Court expanded the collegium to the Chief Justice and four senior-most judges.\n4. The 99th Amendment and the National Judicial Appointments Commission Act of 2014 were struck down in 2015 for violating judicial independence.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Memorandum of Procedure governs the process, and the government can return a recommendation once but must accept it if reiterated. The 'seniority convention' for the Chief Justice was breached in 1973 and 1977."
+    },
+    {
+      "id": "q27",
+      "question": "Consider the following statements about the removal of Supreme Court judges:\n1. The Judges (Inquiry) Act, 1968 requires a motion signed by at least 100 Lok Sabha members or 50 Rajya Sabha members to be admitted by the Speaker or Chairman.\n2. A three-member committee of a Supreme Court judge, a High Court Chief Justice and a distinguished jurist investigates the charges.\n3. If the committee finds the judge guilty, each House must pass the motion by a majority of its total membership and two-thirds of members present and voting.\n4. Justice V. Ramaswami was the first judge against whom removal proceedings were initiated, but the motion failed in the Lok Sabha in 1993.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Justice Soumitra Sen of the Calcutta High Court resigned in 2011 after the Rajya Sabha passed the motion, and a 2018 motion against Chief Justice Dipak Misra was rejected by the Chairman."
+    },
+    {
+      "id": "q28",
+      "question": "Which of the following pairs of jurisdiction of the Supreme Court and Article is/are correctly matched?\n1. Original jurisdiction in disputes between the Centre and states or between states : Article 131\n2. Appeal by special leave from any court or tribunal except military tribunals : Article 136\n3. Advisory jurisdiction on a reference by the President : Article 143\n4. Power to review its own judgments : Article 137\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Article 129 makes it a court of record with contempt powers, Article 141 makes its law binding on all courts, Article 142 empowers it to do 'complete justice', and Article 145 requires a bench of at least five judges for substantial constitutional questions."
+    },
+    {
+      "id": "q29",
+      "question": "Consider the following statements about the advisory jurisdiction under Article 143:\n1. The President may refer a question of law or fact of public importance, and the Court may decline to give an opinion, as it did in the Ayodhya reference of 1993.\n2. On a reference concerning pre-constitutional treaties and agreements, the Court is bound to give its opinion.\n3. The opinion is not binding on the President and has no precedential value.\n4. References have included the Delhi Laws Act (1951), Kerala Education Bill (1958), Berubari (1960), Keshav Singh (1965) and the 2G spectrum allocation (2012).\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 4 only", "1 and 3 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Though not binding, advisory opinions carry great weight and are usually followed. The Cauvery (1992) and Punjab termination of agreements (2004) references are other examples."
+    },
+    {
+      "id": "q30",
+      "question": "Consider the following statements about public interest litigation:\n1. PIL relaxes the traditional rule of locus standi so that any public-spirited person can move the court on behalf of those unable to do so.\n2. Justices P.N. Bhagwati and V.R. Krishna Iyer pioneered it in the late 1970s and early 1980s, including through 'epistolary jurisdiction' treating letters as petitions.\n3. Hussainara Khatoon (1979), concerning undertrial prisoners in Bihar jails, is regarded as one of the first PILs and established the right to speedy trial.\n4. Courts have laid down guidelines to prevent the misuse of PIL for private or publicity interests.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Landmark PILs include M.C. Mehta's environmental cases, Vishaka (1997) on sexual harassment and Bandhua Mukti Morcha (1984) on bonded labour. The curative petition was created in Rupa Ashok Hurra (2002) as a final remedy after review."
+    },
+    {
+      "id": "q31",
+      "question": "Which of the following provisions secure the independence of the Supreme Court?\n1. Salaries and expenses charged on the Consolidated Fund of India and not subject to vote\n2. Bar on discussion of judges' conduct in Parliament except on a removal motion\n3. Prohibition on practice after retirement\n4. Power to punish for contempt\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Other safeguards are security of tenure, fixed service conditions that cannot be varied to a judge's disadvantage except during a financial emergency, the Court's control over its staff, and the separation of the judiciary from the executive under Article 50."
+    },
+    {
+      "id": "q32",
+      "question": "Consider the following statements about the powers of the President in relation to Parliament:\n1. The President summons and prorogues the Houses, dissolves the Lok Sabha, and addresses the first session after each general election and the first session of each year.\n2. The President nominates 12 members to the Rajya Sabha from persons with special knowledge of literature, science, art and social service.\n3. The President's prior recommendation is required for bills on the formation of new states, money bills and bills affecting taxation in which states are interested.\n4. The President can address either House or a joint sitting and send messages to them.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The President also lays reports of the CAG, UPSC and Finance Commission before Parliament and makes rules for procedure in joint sittings in consultation with the Speaker and Chairman."
+    },
+    {
+      "id": "q33",
+      "question": "Consider the following statements about the qualifications and disqualifications of Members of Parliament:\n1. A member of the Lok Sabha must be at least 25 years of age and of the Rajya Sabha 30 years.\n2. Under Article 102 a person is disqualified for holding an office of profit, being of unsound mind, being an undischarged insolvent, not being a citizen, or under any law made by Parliament.\n3. The Representation of the People Act, 1951 disqualifies a person convicted and sentenced to imprisonment of two years or more for six years after release.\n4. Questions of disqualification under Article 102(1) are decided by the President after obtaining the opinion of the Election Commission.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. In Lily Thomas (2013) the Supreme Court struck down Section 8(4), which had protected sitting members from immediate disqualification on conviction. Disqualification on grounds of defection is decided by the presiding officer."
+    },
+    {
+      "id": "q34",
+      "question": "Consider the following statements about the Rajya Sabha's special powers:\n1. Under Article 249 it can authorise Parliament to legislate on a State List subject in the national interest by a two-thirds majority, for one year at a time.\n2. Under Article 312 it can authorise the creation of new All-India Services by a two-thirds majority.\n3. Under Article 67 it alone can initiate the removal of the Vice-President.\n4. It has equal powers with the Lok Sabha in the impeachment of the President and the removal of judges.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. When the Lok Sabha is dissolved, a proclamation of emergency can be approved by the Rajya Sabha alone. Its limitations concern money bills, the no-confidence motion and the resolution to revoke a national emergency."
+    },
+    {
+      "id": "q35",
+      "question": "Consider the following statements about the officers of the Rajya Sabha:\n1. The Vice-President as Chairman is not a member of the House and presides over it; the Deputy Chairman is elected from among the members.\n2. When a resolution for the removal of the Vice-President is under consideration, the Chairman cannot preside but may speak and participate.\n3. The Chairman can be removed only by removing the Vice-President from office.\n4. The Secretary-General of the Rajya Sabha is appointed by the Chairman.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Chairman cannot vote in the first instance but has a casting vote, and, unlike the Speaker, is not a member of the House. A panel of vice-chairmen presides in the absence of both officers."
+    },
+    {
+      "id": "q36",
+      "question": "Which of the following statements about the legislative procedure for an ordinary bill is/are correct?\n1. The first reading is the introduction; the second reading includes the general discussion, committee stage and consideration stage; the third reading is the vote on the bill as a whole.\n2. A bill can be referred to a select committee, a joint committee or circulated for eliciting public opinion.\n3. After passage by both Houses the bill is presented to the President, who may assent, withhold assent or return it if it is not a money bill.\n4. A private member's bill can be introduced only with the prior permission of the Council of Ministers.\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "Any member other than a minister can introduce a private member's bill with one month's notice; such bills are taken up on Fridays. The last private member's bill to become law was in 1970."
+    },
+    {
+      "id": "q37",
+      "question": "Consider the following statements about the powers of the President in respect of state legislation:\n1. Bills reserved by a Governor under Article 200 for the President's consideration are dealt with under Article 201, where the President may assent, withhold assent or direct the Governor to return the bill.\n2. If a returned bill is passed again by the state legislature, the President is bound to give assent.\n3. Certain state bills, such as those imposing restrictions on trade and commerce or affecting the powers of High Courts, require the President's prior sanction or reservation.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 2,
+      "explanation": "Unlike a bill returned to Parliament, the President is not bound to give assent to a state bill passed again by the state legislature, giving the President an absolute veto over reserved state bills. The Constitution prescribes no time limit for the President's decision."
+    },
+    {
+      "id": "q38",
+      "question": "Consider the following statements about the President's role in emergency and other executive matters:\n1. The President can declare a national emergency under Article 352 only on the written recommendation of the Cabinet.\n2. All executive action of the Government of India is expressed to be taken in the name of the President under Article 77.\n3. The President appoints the Chief Justice and judges of the Supreme Court and High Courts, the CAG, the Chief Election Commissioner, Governors and members of the UPSC.\n4. The President is the supreme commander of the defence forces and declares war and peace, subject to Parliament's approval.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The President also administers Union Territories through administrators and receives ambassadors. Every power is exercised on ministerial advice, making the President a nominal or constitutional head."
+    },
+    {
+      "id": "q39",
+      "question": "Consider the following statements about the Fundamental Duties listed in Article 51A:\n1. To abide by the Constitution and respect its ideals and institutions, the National Flag and the National Anthem\n2. To cherish and follow the noble ideals which inspired the national struggle for freedom\n3. To protect and improve the natural environment including forests, lakes, rivers and wildlife\n4. To pay taxes honestly\nWhich of the above are Fundamental Duties under the Constitution?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "Paying taxes was recommended by the Swaran Singh Committee but not included. The other duties include defending the country, promoting harmony, renouncing practices derogatory to women, safeguarding public property and striving for excellence."
+    },
+    {
+      "id": "q40",
+      "question": "Consider the following statements about the term of the Lok Sabha:\n1. The normal term is five years from the date of its first meeting, but it can be dissolved earlier by the President.\n2. During a national emergency the term can be extended by Parliament for one year at a time, but not beyond six months after the emergency ceases.\n3. The 42nd Amendment had raised the term to six years, and the 44th Amendment restored it to five years.\n4. The Lok Sabha's term has been extended under emergency provisions only once, during 1976-77.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The fifth Lok Sabha (1971) was extended twice by one year each during the emergency. The Rajya Sabha, being permanent, is never dissolved."
+    }
+  ]
+}

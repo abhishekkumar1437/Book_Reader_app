@@ -1,0 +1,350 @@
+{
+  "title": "Public Finance, Budget and Taxation",
+  "subject": "Indian Economy",
+  "topic": "Union Budget, constitutional provisions, deficits and FRBM, taxation and GST, Finance Commission, public debt, disinvestment and fiscal federalism",
+  "description": "UPSC/BPSC-level questions on budgetary concepts and procedure, government funds, revenue and capital accounts, deficit measures and fiscal rules, direct and indirect taxes, the GST architecture, Finance Commission devolution, debt management and fiscal policy concepts.",
+  "timeLimitMinutes": 40,
+  "createdAt": "2026-09-23",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "The term 'Budget' does not appear in the Constitution of India. The Union Budget is presented under which Article as the 'Annual Financial Statement'?",
+      "options": ["Article 110", "Article 112", "Article 114", "Article 266"],
+      "answer": 1,
+      "explanation": "Article 112 requires the President to cause the Annual Financial Statement of estimated receipts and expenditure to be laid before both Houses. Article 110 defines Money Bills, Article 114 deals with Appropriation Bills and Article 266 with the Consolidated Fund."
+    },
+    {
+      "id": "q2",
+      "question": "Consider the following statements about the Contingency Fund of India:\n1. It is established under Article 267 and is held by the Finance Secretary on behalf of the President.\n2. Withdrawals from it require prior parliamentary approval.\n3. Its corpus was raised to Rs 30,000 crore in 2021.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "1 and 3 only", "2 and 3 only", "1, 2 and 3"],
+      "answer": 1,
+      "explanation": "The Contingency Fund exists precisely so that urgent unforeseen expenditure can be met without prior parliamentary approval; Parliament later authorises the amount and the fund is recouped from the Consolidated Fund."
+    },
+    {
+      "id": "q3",
+      "question": "Which of the following items of expenditure are 'charged' on the Consolidated Fund of India and therefore not subject to a vote in Parliament?\n1. Salary and allowances of the President\n2. Salaries of judges of the Supreme Court\n3. Debt charges for which the Government of India is liable\n4. Grants to states for centrally sponsored schemes\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 2 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "Charged expenditure, listed in Article 112(3), includes emoluments of the President, presiding officers, judges, the CAG, debt charges and court awards. It can be discussed but not voted upon. Scheme grants are voted expenditure."
+    },
+    {
+      "id": "q4",
+      "question": "Consider the following statements about the Public Account of India:\n1. It is constituted under Article 266(2).\n2. Money in it belongs to the government and can be spent freely.\n3. Provident fund deposits and small savings collections are credited to it.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "1 and 3 only", "2 and 3 only", "1, 2 and 3"],
+      "answer": 1,
+      "explanation": "The Public Account holds money for which the government acts as a banker or trustee, such as provident funds and small savings. Payments from it do not need parliamentary authorisation, but the money is not the government's own."
+    },
+    {
+      "id": "q5",
+      "question": "A 'Vote on Account' under Article 116 enables the government to:",
+      "options": [
+        "Impose new taxes before the Finance Bill is passed",
+        "Withdraw money from the Consolidated Fund to meet expenditure for part of the year pending passage of the full budget",
+        "Borrow from the RBI without limit",
+        "Spend from the Contingency Fund"
+      ],
+      "answer": 1,
+      "explanation": "A vote on account is typically taken for two months, or longer in an election year when an interim budget is presented, so that government functioning continues until the regular budget and Appropriation Act are passed."
+    },
+    {
+      "id": "q6",
+      "question": "Which of the following correctly describes the three types of cut motions in the Lok Sabha?",
+      "options": [
+        "Policy cut reduces the demand to Re 1; Economy cut reduces it by a specified amount; Token cut reduces it by Rs 100",
+        "Policy cut reduces the demand by Rs 100; Economy cut to Re 1; Token cut by a specified amount",
+        "All three reduce the demand by Rs 100",
+        "Cut motions can be moved only in the Rajya Sabha"
+      ],
+      "answer": 0,
+      "explanation": "A policy cut expresses disapproval of the policy, an economy cut seeks a specific reduction, and a token cut of Rs 100 airs a specific grievance. Adoption of any cut motion amounts to a loss of confidence in the government."
+    },
+    {
+      "id": "q7",
+      "question": "Consider the following changes in India's budgetary practice:\n1. The Railway Budget was merged with the Union Budget in 2017.\n2. The distinction between plan and non-plan expenditure was abolished from 2017-18.\n3. The date of presentation of the Union Budget was advanced to 1 February from 2017.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three reforms were introduced by the 2017 budget cycle. The merger of the Railway Budget followed the Bibek Debroy Committee recommendation, and the plan/non-plan distinction was dropped as recommended by the Rangarajan Committee (2011)."
+    },
+    {
+      "id": "q8",
+      "question": "Which of the following are capital receipts of the Union Government?\n1. Recovery of loans given to states\n2. Disinvestment proceeds\n3. Dividends from public sector enterprises\n4. Market borrowings\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 4 only", "2, 3 and 4 only", "1 and 3 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "Capital receipts either create a liability (borrowings) or reduce an asset (disinvestment, loan recovery). Dividends, interest receipts, fees and taxes are revenue receipts."
+    },
+    {
+      "id": "q9",
+      "question": "Grants given by the Centre to states for the creation of capital assets are classified in the Union Budget as:",
+      "options": ["Capital expenditure", "Revenue expenditure", "Plan expenditure", "Off-budget expenditure"],
+      "answer": 1,
+      "explanation": "Because the asset is created in the books of the state, not the Centre, such grants are revenue expenditure for the Centre. This is why the concept of 'effective revenue deficit', which excludes these grants, was introduced in 2011-12."
+    },
+    {
+      "id": "q10",
+      "question": "Which one of the following correctly defines the fiscal deficit?",
+      "options": [
+        "Total expenditure minus revenue receipts",
+        "Total expenditure minus (revenue receipts + non-debt capital receipts)",
+        "Revenue expenditure minus revenue receipts",
+        "Total borrowings minus interest payments"
+      ],
+      "answer": 1,
+      "explanation": "Fiscal deficit equals the total borrowing requirement of the government in a year. Subtracting interest payments from it gives the primary deficit, which shows the deficit excluding the burden of past debt."
+    },
+    {
+      "id": "q11",
+      "question": "If the fiscal deficit of a government is Rs 16 lakh crore and its interest payments are Rs 10 lakh crore, then:",
+      "options": [
+        "Its primary deficit is Rs 26 lakh crore",
+        "Its primary deficit is Rs 6 lakh crore",
+        "Its revenue deficit is Rs 6 lakh crore",
+        "Its effective revenue deficit is Rs 6 lakh crore"
+      ],
+      "answer": 1,
+      "explanation": "Primary deficit = fiscal deficit - interest payments = 16 - 10 = Rs 6 lakh crore. A small primary deficit alongside a large fiscal deficit indicates that most fresh borrowing is going to service past debt."
+    },
+    {
+      "id": "q12",
+      "question": "Consider the following statements about the Fiscal Responsibility and Budget Management (FRBM) Act:\n1. It was enacted in 2003.\n2. The 2018 amendment set a target of reducing the Centre's debt to 40 per cent of GDP and general government debt to 60 per cent of GDP.\n3. The amended Act retains a statutory target for revenue deficit.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 0,
+      "explanation": "The 2018 amendment, following the N.K. Singh Committee, made debt-to-GDP the anchor and fiscal deficit (3 per cent) the operational target, dropping the revenue deficit target. It also provides an escape clause of 0.5 per cent of GDP in specified circumstances."
+    },
+    {
+      "id": "q13",
+      "question": "The FRBM Review Committee (2016-17), which recommended a fiscal council and a debt-to-GDP anchor of 60 per cent, was chaired by:",
+      "options": ["Y.V. Reddy", "N.K. Singh", "Vijay Kelkar", "Arvind Panagariya"],
+      "answer": 1,
+      "explanation": "N.K. Singh later chaired the 15th Finance Commission. Vijay Kelkar chaired the 2012 fiscal consolidation committee and the 2002 task force on tax reform that proposed the GST."
+    },
+    {
+      "id": "q14",
+      "question": "Which of the following is an example of a 'regressive' tax in effect?",
+      "options": [
+        "Progressive income tax with rising slabs",
+        "A uniform GST rate on a basic necessity consumed by rich and poor alike",
+        "Wealth tax on assets above a high threshold",
+        "Estate duty on large inheritances"
+      ],
+      "answer": 1,
+      "explanation": "A tax is regressive when it takes a larger proportion of the income of the poor than of the rich. A flat consumption tax on necessities has this effect, since the poor spend a higher share of income on them."
+    },
+    {
+      "id": "q15",
+      "question": "Consider the following taxes:\n1. Corporation tax\n2. Securities Transaction Tax\n3. Customs duty\n4. Stamp duty\nWhich of the above are direct taxes?",
+      "options": ["1 and 2 only", "1, 2 and 4 only", "3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "Direct taxes are paid by the person on whom they are levied and cannot be shifted: corporation tax and STT qualify. Customs and stamp duty are indirect taxes whose burden is passed on."
+    },
+    {
+      "id": "q16",
+      "question": "Which of the following taxes have been abolished in India?\n1. Wealth tax\n2. Estate duty\n3. Dividend Distribution Tax\n4. Securities Transaction Tax\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 2 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "Estate duty went in 1985, wealth tax in 2015 (replaced by a surcharge on high incomes) and Dividend Distribution Tax in 2020, after which dividends are taxed in the hands of recipients. STT, introduced in 2004, continues."
+    },
+    {
+      "id": "q17",
+      "question": "'Tax buoyancy' differs from 'tax elasticity' in that buoyancy:",
+      "options": [
+        "Excludes the effect of discretionary changes in tax rates and base",
+        "Includes the effect of discretionary changes in tax rates and base along with automatic growth",
+        "Measures only indirect tax collections",
+        "Is always equal to one"
+      ],
+      "answer": 1,
+      "explanation": "Both measure the responsiveness of tax revenue to GDP growth, but elasticity isolates the automatic response under an unchanged tax system, whereas buoyancy reflects total revenue growth including policy changes."
+    },
+    {
+      "id": "q18",
+      "question": "The Laffer curve illustrates the relationship between:",
+      "options": ["Tax rates and tax revenue", "Inflation and unemployment", "Government spending and GDP", "Interest rates and investment"],
+      "answer": 0,
+      "explanation": "Arthur Laffer argued that beyond a certain rate, higher taxes reduce revenue by discouraging work, investment and compliance; revenue is zero at both 0 and 100 per cent rates."
+    },
+    {
+      "id": "q19",
+      "question": "Consider the following statements about the Goods and Services Tax (GST):\n1. It was introduced through the 101st Constitutional Amendment Act.\n2. Article 246A gives concurrent powers to Parliament and State Legislatures to legislate on GST.\n3. GST is an origin-based tax.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 0,
+      "explanation": "GST is a destination-based consumption tax: revenue accrues to the state where goods or services are consumed, not where they originate. IGST on inter-state supplies is levied by the Centre under Article 269A and apportioned."
+    },
+    {
+      "id": "q20",
+      "question": "Consider the following statements about the GST Council:\n1. It is constituted under Article 279A and is chaired by the Union Finance Minister.\n2. Decisions require a three-fourths majority of weighted votes, with the Centre's vote carrying one-third weight and the states together two-thirds.\n3. The quorum for a meeting is one-half of the total members.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. The Council's members are the Union Finance Minister, the Union Minister of State for Revenue or Finance, and the finance or taxation minister of each state. The Supreme Court held in 2022 that its recommendations are not binding."
+    },
+    {
+      "id": "q21",
+      "question": "Which of the following items are currently kept outside the GST regime?\n1. Alcoholic liquor for human consumption\n2. Petroleum crude, motor spirit, high speed diesel, natural gas and aviation turbine fuel\n3. Electricity\n4. Textiles\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 2 only", "2 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "Alcohol for human consumption is constitutionally excluded. The five petroleum products are within the constitutional ambit of GST but taxed under it only from a date the Council recommends; meanwhile they attract central excise and state VAT. Electricity is also outside GST, taxed via state electricity duty. Textiles are under GST."
+    },
+    {
+      "id": "q22",
+      "question": "The GST Compensation Cess was originally levied to compensate states for revenue loss for a period of:",
+      "options": ["Three years from 1 July 2017", "Five years from 1 July 2017", "Ten years from 1 July 2017", "An indefinite period"],
+      "answer": 1,
+      "explanation": "States were guaranteed 14 per cent annual revenue growth over the 2015-16 base for five years, ending 30 June 2022. The cess collection was extended to March 2026 to repay borrowings made to bridge the compensation shortfall during the pandemic."
+    },
+    {
+      "id": "q23",
+      "question": "Which country was the first to introduce a value added tax of the GST type, in 1954?",
+      "options": ["Canada", "Germany", "France", "United Kingdom"],
+      "answer": 2,
+      "explanation": "France introduced VAT in 1954. India's dual GST model, with separate central and state components on the same base, is closest to the Canadian model."
+    },
+    {
+      "id": "q24",
+      "question": "Consider the following statements about cesses and surcharges levied by the Union:\n1. Proceeds of cesses and surcharges are not part of the divisible pool shared with states.\n2. A cess is levied for a specific purpose, whereas a surcharge is a tax on tax without an earmarked use.\nWhich of the statements given above is/are correct?",
+      "options": ["1 only", "2 only", "Both 1 and 2", "Neither 1 nor 2"],
+      "answer": 2,
+      "explanation": "Under Articles 270 and 271, cesses and surcharges are retained entirely by the Centre. States have repeatedly complained that their rising share erodes the effective devolution recommended by Finance Commissions."
+    },
+    {
+      "id": "q25",
+      "question": "Consider the following statements about the Fifteenth Finance Commission:\n1. It was chaired by N.K. Singh.\n2. It recommended that 41 per cent of the divisible pool of central taxes be devolved to states for 2021-26.\n3. It used 2011 census population data in its horizontal devolution formula.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "The 41 per cent share (down from the 14th Commission's 42 per cent) reflects the conversion of Jammu and Kashmir into Union Territories. The formula weights included income distance (45%), population 2011 (15%), area (15%), forest and ecology (10%), demographic performance (12.5%) and tax effort (2.5%)."
+    },
+    {
+      "id": "q26",
+      "question": "Under the Fifteenth Finance Commission's recommendations for 2021-26, which state receives the second-largest share of the taxes devolved to states, after Uttar Pradesh?",
+      "options": ["Maharashtra", "Bihar", "West Bengal", "Madhya Pradesh"],
+      "answer": 1,
+      "explanation": "Bihar's inter-se share is about 10.06 per cent, second only to Uttar Pradesh (about 17.94 per cent), reflecting its large population and low per capita income under the income-distance criterion. Bihar depends heavily on such transfers for its revenue."
+    },
+    {
+      "id": "q27",
+      "question": "The Sixteenth Finance Commission, constituted in December 2023 to make recommendations for the period 2026-31, is chaired by:",
+      "options": ["N.K. Singh", "Arvind Panagariya", "Bibek Debroy", "Rajiv Kumar"],
+      "answer": 1,
+      "explanation": "Arvind Panagariya, the first Vice-Chairman of NITI Aayog, heads the Sixteenth Finance Commission. The first Finance Commission (1951) was chaired by K.C. Neogy."
+    },
+    {
+      "id": "q28",
+      "question": "Which one of the following statements about the Finance Commission is NOT correct?",
+      "options": [
+        "It is constituted by the President under Article 280 every fifth year or earlier",
+        "It consists of a chairman and four other members",
+        "Its recommendations are binding on the Government",
+        "It recommends the distribution of net tax proceeds between the Union and the states and among the states"
+      ],
+      "answer": 2,
+      "explanation": "The Commission's recommendations are advisory; the government lays them before Parliament with an explanatory memorandum of the action taken. In practice, the devolution recommendations are accepted."
+    },
+    {
+      "id": "q29",
+      "question": "Consider the following statements about public debt in India:\n1. The bulk of the Central Government's debt is internal debt denominated in rupees.\n2. Treasury Bills are issued for maturities of 91, 182 and 364 days.\n3. Under Article 293, a state that has outstanding loans from the Centre needs the Centre's consent to raise fresh loans.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. External debt is a small share of central liabilities, reducing exchange-rate risk. Cash Management Bills of less than 91 days are also issued to meet temporary mismatches."
+    },
+    {
+      "id": "q30",
+      "question": "The 'Ways and Means Advances' facility is:",
+      "options": [
+        "A long-term loan from the World Bank to India",
+        "A temporary advance by the RBI to the Central and State Governments to bridge short-term mismatches between receipts and payments",
+        "A grant given by the Finance Commission",
+        "A scheme of interest-free loans to states for capital expenditure"
+      ],
+      "answer": 1,
+      "explanation": "WMA replaced the system of automatic monetisation through ad hoc Treasury Bills in 1997. Advances must be repaid within 90 days; borrowing beyond the limit is an overdraft, permitted only briefly."
+    },
+    {
+      "id": "q31",
+      "question": "'Crowding out' in the context of fiscal policy refers to:",
+      "options": [
+        "Foreign investors leaving the domestic market",
+        "A reduction in private investment caused by increased government borrowing raising interest rates",
+        "Migration of labour from rural to urban areas",
+        "Displacement of small firms by large corporations"
+      ],
+      "answer": 1,
+      "explanation": "Large government borrowing competes with the private sector for loanable funds, pushing up interest rates and reducing private investment. It is a key argument for fiscal discipline."
+    },
+    {
+      "id": "q32",
+      "question": "Consider the following statements about disinvestment in India:\n1. The Department of Investment and Public Asset Management (DIPAM) manages the Centre's equity in public sector enterprises.\n2. 'Strategic disinvestment' involves the transfer of management control along with a substantial portion of the government's shareholding.\n3. Disinvestment proceeds are classified as revenue receipts.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 0,
+      "explanation": "Disinvestment proceeds are non-debt capital receipts. The sale of Air India to the Tata group in 2022 is an example of strategic disinvestment. The 2021 public sector enterprise policy limits government presence to a minimum in four strategic sectors."
+    },
+    {
+      "id": "q33",
+      "question": "A 'Pigouvian tax' is a tax levied to:",
+      "options": [
+        "Raise revenue from high-income earners",
+        "Correct a negative externality by making the polluter or producer bear the social cost",
+        "Protect domestic industry from imports",
+        "Discourage speculative currency transactions"
+      ],
+      "answer": 1,
+      "explanation": "Named after A.C. Pigou, such taxes (for example, a carbon tax or a levy on tobacco) internalise external costs. A tax on cross-border currency speculation is the Tobin tax."
+    },
+    {
+      "id": "q34",
+      "question": "Consider the following statements about Zero-Based Budgeting (ZBB):\n1. Every expenditure item must be justified afresh each year rather than being based on the previous year's allocation.\n2. India adopted ZBB in the 1987-88 budget.\nWhich of the statements given above is/are correct?",
+      "options": ["1 only", "2 only", "Both 1 and 2", "Neither 1 nor 2"],
+      "answer": 2,
+      "explanation": "Developed by Peter Pyhrr in the United States, ZBB starts every budget from a 'zero base'. India announced its adoption in 1987-88, though incremental budgeting remains the norm in practice."
+    },
+    {
+      "id": "q35",
+      "question": "The Gender Budget Statement was first introduced in the Union Budget of:",
+      "options": ["2001-02", "2005-06", "2010-11", "2014-15"],
+      "answer": 1,
+      "explanation": "Since 2005-06 the Union Budget has carried a Gender Budget Statement in two parts: schemes with 100 per cent allocation for women and schemes with at least 30 per cent allocation for women. An Outcome Budget was also introduced in 2005-06."
+    },
+    {
+      "id": "q36",
+      "question": "Consider the following statements about the Public Accounts Committee (PAC) of Parliament:\n1. It examines the reports of the Comptroller and Auditor General of India.\n2. By convention, its chairperson is appointed from the opposition.\n3. It has members from both the Lok Sabha and the Rajya Sabha.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "The PAC has 22 members, 15 from the Lok Sabha and 7 from the Rajya Sabha, and an opposition chair since 1967. The Estimates Committee, by contrast, consists of 30 Lok Sabha members only."
+    },
+    {
+      "id": "q37",
+      "question": "'Automatic stabilisers' in fiscal policy refer to:",
+      "options": [
+        "Discretionary stimulus packages announced during a recession",
+        "Features such as progressive taxation and unemployment benefits that moderate business cycles without new legislation",
+        "RBI's open market operations",
+        "Rules fixing the fiscal deficit at 3 per cent"
+      ],
+      "answer": 1,
+      "explanation": "In a downturn, tax collections fall and welfare spending rises automatically, supporting demand; the reverse happens in a boom. Discretionary policy requires deliberate government action."
+    },
+    {
+      "id": "q38",
+      "question": "The 'Equalisation Levy', popularly called the 'Google tax', introduced in India in 2016, was a tax on:",
+      "options": [
+        "Foreign portfolio investment in Indian equity",
+        "Payments to non-resident companies for online advertisement and specified digital services",
+        "Income of Indian software exporters",
+        "Cross-border remittances by individuals"
+      ],
+      "answer": 1,
+      "explanation": "The levy addressed the challenge of taxing digital businesses without a physical presence in India. Its scope was widened to e-commerce supply in 2020, and the 2 per cent e-commerce levy was withdrawn in 2024 amid global tax negotiations."
+    },
+    {
+      "id": "q39",
+      "question": "Consider the following statements about the Minimum Alternate Tax (MAT):\n1. It ensures that companies showing book profits but paying little or no tax due to exemptions pay a minimum amount of tax.\n2. MAT is computed on the company's book profits rather than its taxable income.\nWhich of the statements given above is/are correct?",
+      "options": ["1 only", "2 only", "Both 1 and 2", "Neither 1 nor 2"],
+      "answer": 2,
+      "explanation": "MAT targets 'zero-tax' companies. Companies opting for the concessional corporate tax regime introduced in September 2019 (22 per cent, or 15 per cent for new manufacturing units) are exempt from MAT."
+    },
+    {
+      "id": "q40",
+      "question": "The Bihar Fiscal Responsibility and Budget Management Act was enacted in:",
+      "options": ["2003", "2006", "2010", "2015"],
+      "answer": 1,
+      "explanation": "Following the 12th Finance Commission's incentive for fiscal rules, Bihar enacted its FRBM Act in 2006, committing to eliminate the revenue deficit and cap the fiscal deficit at 3 per cent of GSDP, with debt-linked borrowing limits set by the Centre under Article 293."
+    }
+  ]
+}

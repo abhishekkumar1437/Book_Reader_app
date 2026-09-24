@@ -1,0 +1,290 @@
+{
+  "title": "World Regional and Human Geography",
+  "subject": "Geography",
+  "topic": "Continents and countries, mountains, rivers, lakes, deserts, straits and canals, important latitudes and boundary lines, world agriculture, minerals and industries, population theories and settlement",
+  "description": "UPSC/BPSC-level questions on the map of the world and human geography: the highest peaks and longest rivers, lakes and waterfalls, straits and canals, capital cities and boundaries, agricultural and industrial regions, mineral producers, demographic transition, migration and urban models.",
+  "timeLimitMinutes": 40,
+  "createdAt": "2026-09-24",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Which of the following pairs of continent and its highest peak is/are correctly matched?\n1. Asia : Mount Everest (8,849 m) on the Nepal-China border\n2. South America : Aconcagua in Argentina\n3. Africa : Kilimanjaro in Tanzania\n4. Europe : Mont Blanc in the Alps\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "Mount Elbrus in the Caucasus (5,642 m) is Europe's highest peak by the conventional boundary; Mont Blanc is the highest in the Alps. Denali is North America's highest, Vinson Massif Antarctica's and Puncak Jaya Oceania's."
+    },
+    {
+      "id": "q2",
+      "question": "Which of the following pairs of river and feature is/are correctly matched?\n1. Nile : Longest river in the world, flowing north through Egypt into the Mediterranean\n2. Amazon : Largest river by volume and drainage basin\n3. Yangtze : Longest river in Asia, with the Three Gorges dam\n4. Mississippi-Missouri : Longest river system of North America\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Nile's sources are the White Nile from Lake Victoria and the Blue Nile from Lake Tana; the Aswan High Dam impounds Lake Nasser. The Danube flows through more countries than any other river."
+    },
+    {
+      "id": "q3",
+      "question": "Which of the following pairs of lake and description is/are correctly matched?\n1. Caspian Sea : Largest lake in the world, saline, bordered by five countries\n2. Lake Superior : Largest freshwater lake by area, one of the Great Lakes\n3. Lake Baikal : Deepest and oldest lake, holding about a fifth of the world's unfrozen fresh water\n4. Lake Victoria : Largest lake in Africa, shared by Uganda, Kenya and Tanzania\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Lake Titicaca on the Peru-Bolivia border is the highest navigable lake; the Dead Sea shore is the lowest land point; the Aral Sea has shrunk drastically because of irrigation diversion."
+    },
+    {
+      "id": "q4",
+      "question": "Which of the following pairs of strait and the water bodies it connects is/are correctly matched?\n1. Strait of Gibraltar : Atlantic Ocean and Mediterranean Sea\n2. Strait of Hormuz : Persian Gulf and Gulf of Oman\n3. Bab-el-Mandeb : Red Sea and Gulf of Aden\n4. Strait of Malacca : Andaman Sea and South China Sea\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Bering Strait separates Asia from North America, the Bosporus links the Black Sea with the Sea of Marmara, the Palk Strait separates India from Sri Lanka, and the Strait of Magellan lies at the tip of South America."
+    },
+    {
+      "id": "q5",
+      "question": "Consider the following statements about the Suez and Panama canals:\n1. The Suez Canal, opened in 1869, links the Mediterranean with the Red Sea and has no locks.\n2. The Panama Canal, opened in 1914, links the Atlantic and Pacific through locks and the Gatun Lake.\n3. The Suez Canal was nationalised by Egypt in 1956.\n4. Control of the Panama Canal was transferred from the United States to Panama in 1999.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Suez Canal shortened the Europe-Asia sea route by thousands of kilometres, and the Kiel Canal in Germany links the North Sea with the Baltic."
+    },
+    {
+      "id": "q6",
+      "question": "Which of the following pairs of boundary line and the countries it separates is/are correctly matched?\n1. Durand Line : Afghanistan and Pakistan\n2. McMahon Line : India and China (Arunachal sector)\n3. Radcliffe Line : India and Pakistan\n4. 38th Parallel : North and South Korea\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The 49th Parallel separates the United States from Canada, the 17th Parallel formerly divided Vietnam, the Maginot Line was a French fortification against Germany, and the Hindenburg Line was a German defence line of the First World War."
+    },
+    {
+      "id": "q7",
+      "question": "Which of the following pairs of important latitude or longitude and description is/are correctly matched?\n1. Equator : Passes through Ecuador, Brazil, Gabon, Kenya, Indonesia among other countries\n2. Tropic of Cancer : Passes through Mexico, Algeria, Egypt, Saudi Arabia, India and China\n3. Tropic of Capricorn : Passes through Chile, Brazil, Namibia, Botswana, Mozambique and Australia\n4. Prime Meridian : Passes through the United Kingdom, France, Spain, Algeria and Ghana\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Arctic Circle passes through Norway, Sweden, Finland, Russia, the United States (Alaska), Canada and Greenland. Only a few countries lie in both the Tropic of Cancer and Tropic of Capricorn zones, such as Brazil, which is crossed by both the Equator and the Tropic of Capricorn."
+    },
+    {
+      "id": "q8",
+      "question": "Which of the following pairs of desert and location is/are correctly matched?\n1. Kalahari : Botswana, Namibia and South Africa\n2. Atacama : Chile, the driest non-polar desert\n3. Gobi : Mongolia and China\n4. Great Victoria : Australia\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Namib lies along the coast of Namibia, the Sonoran and Mojave in the south-western United States, the Rub al Khali (Empty Quarter) in Arabia, and the Taklamakan in Xinjiang, China."
+    },
+    {
+      "id": "q9",
+      "question": "Which of the following pairs of waterfall and country is/are correctly matched?\n1. Angel Falls (highest) : Venezuela\n2. Niagara : United States-Canada border\n3. Victoria Falls : Zambia-Zimbabwe border on the Zambezi\n4. Iguazu : Argentina-Brazil border\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Angel Falls drops 979 metres from the Auyan-tepui. Victoria Falls is called 'Mosi-oa-Tunya', the smoke that thunders, by the local people."
+    },
+    {
+      "id": "q10",
+      "question": "Which of the following pairs of country and capital is/are correctly matched?\n1. Australia : Canberra\n2. Canada : Ottawa\n3. Brazil : Brasilia\n4. Turkey : Ankara\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Several countries have planned capitals distinct from their largest cities: Brasilia (1960), Islamabad (Pakistan), Abuja (Nigeria), Naypyidaw (Myanmar), Astana (Kazakhstan) and Nusantara (Indonesia's new capital under construction)."
+    },
+    {
+      "id": "q11",
+      "question": "Which of the following countries are landlocked?\n1. Nepal\n2. Bolivia\n3. Ethiopia\n4. Bangladesh\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 0,
+      "explanation": "Bangladesh has a coastline on the Bay of Bengal. Liechtenstein and Uzbekistan are doubly landlocked, being surrounded only by landlocked countries. Kazakhstan is the largest landlocked country."
+    },
+    {
+      "id": "q12",
+      "question": "Which of the following pairs of mountain range and continent is/are correctly matched?\n1. Andes : South America; the longest continental mountain range\n2. Rockies : North America\n3. Atlas : North-west Africa\n4. Urals : Boundary between Europe and Asia\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Andes, Rockies, Alps and Himalayas are young fold mountains of the Tertiary period, whereas the Urals, Appalachians and Aravallis are old fold mountains worn down by erosion."
+    },
+    {
+      "id": "q13",
+      "question": "Consider the following statements about the world's islands and archipelagos:\n1. Greenland is the world's largest island and is an autonomous territory of Denmark.\n2. New Guinea is the second largest island, shared by Indonesia and Papua New Guinea.\n3. Indonesia is the largest archipelagic country with over 17,000 islands.\n4. Madagascar is the largest island in the Indian Ocean.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Borneo is the third largest island, shared by Indonesia, Malaysia and Brunei. Sri Lanka, Japan, the Philippines and the United Kingdom are other important island states."
+    },
+    {
+      "id": "q14",
+      "question": "Which of the following pairs of geographical nickname and place is/are correctly matched?\n1. Land of the Rising Sun : Japan\n2. Land of the Midnight Sun : Norway\n3. Land of Thousand Lakes : Finland\n4. Pearl of the Orient : Sri Lanka\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Other nicknames include Land of the Thunder Dragon (Bhutan), Roof of the World (Pamirs/Tibet), Gift of the Nile (Egypt), Land of the Golden Pagoda (Myanmar) and Playground of Europe (Switzerland)."
+    },
+    {
+      "id": "q15",
+      "question": "Consider the following statements about the Great Rift Valley of Africa:\n1. It extends from the Jordan valley through the Red Sea to Mozambique.\n2. Lakes Tanganyika, Malawi and Turkana lie in it.\n3. It is a zone of divergence where the African plate is splitting.\n4. Mount Kilimanjaro and Mount Kenya are volcanoes associated with it.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Lake Victoria lies between the eastern and western branches of the rift rather than within it. The Olduvai Gorge in Tanzania is famous for early hominid fossils."
+    },
+    {
+      "id": "q16",
+      "question": "Which of the following pairs of crop and leading world producer is/are correctly matched?\n1. Wheat : China\n2. Rice : China\n3. Coffee : Brazil\n4. Cocoa : Ivory Coast\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The United States leads in maize and soybean along with Brazil, India in milk, pulses, jute and millets, Thailand and Vietnam are major rice exporters, and Malaysia and Indonesia dominate palm oil."
+    },
+    {
+      "id": "q17",
+      "question": "Which of the following pairs of agricultural region and description is/are correctly matched?\n1. Prairies of North America : Extensive commercial wheat farming, called the 'granary of the world'\n2. Pampas of Argentina : Cattle ranching and wheat\n3. Corn Belt of the United States : Maize and hog rearing in the Mid-West\n4. Mediterranean lands : Viticulture, olives and citrus\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Dairy farming dominates north-western Europe, New Zealand and the Great Lakes region; plantation agriculture the humid tropics; and nomadic herding the Sahel, Central Asia and the tundra (reindeer)."
+    },
+    {
+      "id": "q18",
+      "question": "Which of the following pairs of mineral and leading world producer is/are correctly matched?\n1. Iron ore : Australia\n2. Bauxite : Australia\n3. Copper : Chile\n4. Petroleum : United States\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. China leads in coal, gold, rare earths and aluminium production; Russia and Saudi Arabia are top petroleum producers with the United States; the Democratic Republic of Congo dominates cobalt, and South Africa platinum and chromium."
+    },
+    {
+      "id": "q19",
+      "question": "Which of the following pairs of industrial region and country is/are correctly matched?\n1. Ruhr : Germany; coal and steel\n2. Great Lakes region (Pittsburgh, Detroit, Chicago) : United States\n3. Kuzbass : Russia; coal\n4. Kanto plain (Tokyo-Yokohama) : Japan\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Other regions include the Donbass (Ukraine), Lorraine (France), Manchuria (China), Silicon Valley (United States) and the Osaka-Kobe belt (Japan). Weber's theory of industrial location emphasises transport cost minimisation."
+    },
+    {
+      "id": "q20",
+      "question": "Consider the following statements about the demographic transition theory:\n1. Stage one has high birth and death rates with slow population growth.\n2. Stage two has falling death rates but continued high birth rates, causing rapid growth, as in many developing countries.\n3. Stage three sees falling birth rates and slowing growth.\n4. Stage four has low birth and death rates and stable or declining population, as in Western Europe and Japan.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The theory, developed by Warren Thompson and Frank Notestein, describes the shift from high to low vital rates with economic development. India is considered to be in the late third stage."
+    },
+    {
+      "id": "q21",
+      "question": "Consider the following statements about the Malthusian theory of population:\n1. Malthus (1798) argued that population grows geometrically while food supply grows arithmetically.\n2. He proposed 'positive checks' such as famine, disease and war, and 'preventive checks' such as late marriage and moral restraint.\n3. Critics point out that technological progress has increased food production faster than Malthus predicted.\n4. Neo-Malthusians emphasise resource depletion and environmental limits.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Ester Boserup argued the opposite: that population pressure stimulates agricultural innovation. The 'optimum population' concept relates population size to resources and technology."
+    },
+    {
+      "id": "q22",
+      "question": "Consider the following statements about world population distribution:\n1. Asia holds about 60 per cent of the world's population.\n2. About 90 per cent of the world's people live in the northern hemisphere and on about 10 per cent of the land.\n3. The most densely populated areas are East Asia, South Asia and Western Europe.\n4. Monaco is the most densely populated country and Mongolia among the least.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. World population crossed 8 billion in November 2022. Population distribution is influenced by relief, climate, soil, water, minerals, industrialisation and historical factors."
+    },
+    {
+      "id": "q23",
+      "question": "Consider the following statements about migration concepts:\n1. Push factors such as unemployment and conflict drive people from their origin, while pull factors such as jobs attract them to a destination.\n2. Ravenstein's laws of migration include that most migrants move short distances and that migration occurs in steps.\n3. 'Brain drain' refers to the emigration of skilled professionals from developing countries.\n4. Refugees are defined by the 1951 UN Convention as persons fleeing persecution across international borders.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Internally displaced persons remain within their country. The Indian diaspora is the largest in the world, and India is the largest recipient of remittances."
+    },
+    {
+      "id": "q24",
+      "question": "Which of the following pairs of rural settlement pattern and description is/are correctly matched?\n1. Compact (nucleated) : Houses clustered together, as in the fertile plains of north India\n2. Dispersed : Isolated homesteads, as in hilly or forested areas\n3. Linear : Along a road, river or canal\n4. Circular : Around a lake, tank or open space\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Settlement types are influenced by water availability, defence, terrain and social organisation. Semi-clustered and hamleted settlements are intermediate forms common in the Ganga plain."
+    },
+    {
+      "id": "q25",
+      "question": "Which of the following pairs of urban geography term and meaning is/are correctly matched?\n1. Conurbation : A continuous urban area formed by the merging of several towns, a term coined by Patrick Geddes\n2. Megalopolis : A very large urban region such as the Boston-Washington corridor, a term used by Jean Gottmann\n3. Primate city : A city disproportionately larger than others in the country, such as Bangkok\n4. Central Business District : The commercial core of a city\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Burgess's concentric zone model, Hoyt's sector model and the multiple nuclei model of Harris and Ullman describe urban land use. Walter Christaller's central place theory explains the hierarchy and spacing of settlements."
+    },
+    {
+      "id": "q26",
+      "question": "Which of the following pairs of city and river is/are correctly matched?\n1. London : Thames\n2. Paris : Seine\n3. Cairo : Nile\n4. Baghdad : Tigris\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Vienna and Budapest lie on the Danube, Rome on the Tiber, Berlin on the Spree, New York on the Hudson, Shanghai on the Huangpu near the Yangtze mouth, and Lahore on the Ravi."
+    },
+    {
+      "id": "q27",
+      "question": "Consider the following statements about the polar regions:\n1. Antarctica is the coldest, driest and windiest continent and holds about 70 per cent of the world's fresh water as ice.\n2. The Antarctic Treaty of 1959 reserves the continent for peaceful scientific use.\n3. India's research stations Maitri and Bharati are in Antarctica, and Himadri is in the Arctic at Svalbard.\n4. The Arctic is an ocean surrounded by land, while Antarctica is land surrounded by ocean.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Dakshin Gangotri (1983) was India's first Antarctic station, now decommissioned. The Arctic Council includes eight Arctic states, with India as an observer since 2013."
+    },
+    {
+      "id": "q28",
+      "question": "Which of the following pairs of country and its major physical feature is/are correctly matched?\n1. Egypt : Nile delta and the Sinai peninsula\n2. Iran : Zagros and Elburz mountains\n3. Japan : Four main islands including Honshu and Hokkaido\n4. Australia : Great Dividing Range along the east coast and the Murray-Darling basin\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Japan's other main islands are Kyushu and Shikoku, and Mount Fuji is its highest peak. Australia's Great Artesian Basin supplies groundwater to the dry interior."
+    },
+    {
+      "id": "q29",
+      "question": "Consider the following statements about India's neighbours:\n1. India shares land borders with seven countries: Pakistan, Afghanistan, China, Nepal, Bhutan, Bangladesh and Myanmar.\n2. Sri Lanka and the Maldives are maritime neighbours.\n3. Bhutan's capital is Thimphu and its currency the ngultrum.\n4. The Tin Bigha corridor was leased to Bangladesh to connect its enclaves.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The India-Bangladesh Land Boundary Agreement of 2015 exchanged enclaves. Indonesia and Thailand share maritime boundaries with India near the Andaman and Nicobar Islands."
+    },
+    {
+      "id": "q30",
+      "question": "Which of the following pairs of gulf or bay and location is/are correctly matched?\n1. Gulf of Mexico : Bordered by the United States, Mexico and Cuba\n2. Bay of Biscay : Between France and Spain\n3. Gulf of Guinea : West Africa\n4. Hudson Bay : Canada\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Bay of Bengal is the largest bay in the world, the Persian Gulf is important for petroleum, and the Gulf of Aden connects to the Red Sea through Bab-el-Mandeb."
+    },
+    {
+      "id": "q31",
+      "question": "Consider the following statements about time zones and the International Date Line:\n1. Russia spans eleven time zones.\n2. Kiribati moved the date line eastward in 1995 so that the whole country shares the same date.\n3. Samoa shifted to the western side of the date line in 2011 to align with Australia and New Zealand.\nWhich of the statements given above are correct?",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "All three are correct. The date line zigzags to avoid dividing countries. China uses a single time zone despite spanning five, and Nepal's time is 5 hours 45 minutes ahead of GMT."
+    },
+    {
+      "id": "q32",
+      "question": "Which of the following pairs of fishing ground and location is/are correctly matched?\n1. Grand Banks : Off Newfoundland, where the Labrador current meets the Gulf Stream\n2. Dogger Bank : North Sea\n3. Peruvian coast : Upwelling zone of the Humboldt current, rich in anchovies\n4. North-west Pacific : Off Japan, where the Kuroshio meets the Oyashio\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Shallow continental shelves, plankton-rich mixing of currents and cool waters make these the world's richest fisheries. China, Indonesia and India are among the largest fish producers today."
+    },
+    {
+      "id": "q33",
+      "question": "Consider the following statements about Central Asia:\n1. Kazakhstan, Uzbekistan, Turkmenistan, Kyrgyzstan and Tajikistan are the five Central Asian republics.\n2. The Amu Darya and Syr Darya flow into the Aral Sea.\n3. Kazakhstan is rich in uranium, oil and gas, and the Baikonur cosmodrome is located there.\n4. The Pamir Knot lies largely in Tajikistan.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. India's 'Connect Central Asia' policy and the Chabahar port project seek to access the region, which is landlocked and rich in energy. Tashkent, Almaty and Ashgabat are major cities."
+    },
+    {
+      "id": "q34",
+      "question": "Which of the following pairs of South-East Asian feature and description is/are correctly matched?\n1. Mekong : Flows through China, Myanmar, Laos, Thailand, Cambodia and Vietnam\n2. Irrawaddy : Myanmar's main river, with Yangon near its delta\n3. Chao Phraya : Thailand, with Bangkok on its banks\n4. Tonle Sap : Cambodia's great lake that reverses flow seasonally\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The region lies on the Ring of Fire; Krakatoa (1883) and Mount Pinatubo (1991) are famous eruptions, and the 2004 tsunami originated off Sumatra."
+    },
+    {
+      "id": "q35",
+      "question": "Consider the following statements about Europe's physical geography:\n1. The Alps, formed in the Tertiary period, are the source of the Rhine, Rhone and Po.\n2. The Rhine flows through Switzerland, Germany and the Netherlands to the North Sea and is Europe's busiest waterway.\n3. The North European Plain extends from France to Russia.\n4. Scandinavia's fjords were carved by glaciers.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Volga is Europe's longest river, draining into the Caspian Sea. The Iberian, Italian and Balkan peninsulas project into the Mediterranean, and Iceland sits on the Mid-Atlantic Ridge."
+    },
+    {
+      "id": "q36",
+      "question": "Which of the following pairs of trade bloc or organisation and headquarters is/are correctly matched?\n1. OPEC : Vienna\n2. ASEAN Secretariat : Jakarta\n3. European Union institutions : Brussels\n4. SAARC Secretariat : Kathmandu\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The BIMSTEC secretariat is at Dhaka, the Shanghai Cooperation Organisation at Beijing, the African Union at Addis Ababa, and the Indian Ocean Rim Association at Ebene, Mauritius."
+    },
+    {
+      "id": "q37",
+      "question": "Consider the following statements about the Human Development Index and related measures:\n1. Norway, Switzerland and Iceland have consistently ranked at the top of the HDI.\n2. Sub-Saharan African countries such as Niger and Chad rank at the bottom.\n3. The Inequality-adjusted HDI discounts a country's HDI for inequality in its distribution.\n4. India is placed in the 'medium human development' category.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Gender Development Index and Gender Inequality Index are companion measures. Sri Lanka has the highest HDI in South Asia."
+    },
+    {
+      "id": "q38",
+      "question": "Consider the following statements about world energy resources:\n1. The Middle East holds about half of the world's proven oil reserves, with Saudi Arabia and Venezuela having the largest national reserves.\n2. Russia, Iran and Qatar have the largest natural gas reserves.\n3. China is the largest producer of solar and wind power.\n4. France generates the highest share of its electricity from nuclear power.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. Norway generates almost all its electricity from hydropower, Iceland uses geothermal energy extensively, and the International Solar Alliance launched by India and France is headquartered at Gurugram."
+    },
+    {
+      "id": "q39",
+      "question": "Which of the following pairs of African river and feature is/are correctly matched?\n1. Congo : Second largest river by volume, crossing the Equator twice\n2. Niger : Flows through Mali, Niger and Nigeria with a large inland delta\n3. Zambezi : Victoria Falls and Kariba dam\n4. Orange : Forms part of the South Africa-Namibia border\nSelect the correct answer using the code given below.",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Limpopo also crosses southern Africa, and the Senegal river borders Senegal and Mauritania. Africa's Sahel is the semi-arid belt south of the Sahara prone to desertification."
+    },
+    {
+      "id": "q40",
+      "question": "Consider the following statements about Nepal, the neighbour that shares its border with Bihar:\n1. Nepal's Tarai plain adjoins the Bihar districts from West Champaran to Kishanganj.\n2. The Kosi, Gandak and Bagmati rivers enter Bihar from Nepal.\n3. Kathmandu lies in a valley of the Lesser Himalaya.\n4. Eight of the world's ten highest peaks, including Everest, Kanchenjunga and Annapurna, lie wholly or partly in Nepal.\nWhich of the statements given above are correct?",
+      "options": ["1, 2 and 3 only", "1 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 3,
+      "explanation": "All four are correct. The Kosi and Gandak barrages were built under India-Nepal agreements, and the open border under the 1950 treaty allows free movement. Birgunj-Raxaul and Jogbani-Biratnagar are major border crossings from Bihar."
+    }
+  ]
+}
