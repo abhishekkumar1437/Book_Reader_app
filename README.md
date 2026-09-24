@@ -133,6 +133,28 @@ src/lib/pdf                 PDF.js wrapper and the page bitmap cache
 src/lib/storage             ReaderStateStore interface + localStorage implementation
 ```
 
+## Deploying to Vercel
+
+The repository includes a GitHub Actions workflow, `.github/workflows/deploy.yml`, that lints, typechecks, and deploys with the Vercel CLI: pushes to `master` go to production, pull requests get a preview deployment with the URL posted as a comment.
+
+One-time setup:
+
+1. Create the project on Vercel once, from your machine, so Vercel knows the framework and settings:
+
+   ```bash
+   npm i -g vercel
+   vercel login
+   vercel link          # creates .vercel/project.json (gitignored)
+   ```
+
+2. Read the two ids from `.vercel/project.json` (`orgId` and `projectId`) and create a token at Vercel → Account Settings → Tokens.
+3. In the GitHub repository go to Settings → Secrets and variables → Actions and add three repository secrets: `VERCEL_TOKEN`, `VERCEL_ORG_ID`, `VERCEL_PROJECT_ID`.
+4. Push to `master`. The Actions tab shows the run and the production URL.
+
+If you prefer not to use Actions, importing the repository in the Vercel dashboard deploys on every push with no workflow at all; the workflow only adds the lint and typecheck gate and PR comments.
+
+What works on Vercel: the Interview Prep books and the Quiz section (their files are bundled into the server functions via `outputFileTracingIncludes` in `next.config.ts`). What does not: the PDF library. It reads and writes the local `books/` folder, which is gitignored and, on Vercel, read-only and ephemeral, so the library is empty there and uploads fail. To ship PDFs, either commit them into `books/` (they are then served read-only) or move the library to object storage such as Vercel Blob by implementing the `LibraryProvider` interface.
+
 ## Swapping the backend later
 
 The UI only talks to two small interfaces: `LibraryProvider` (list, upload, remove, file URL) and `ReaderStateStore` (position, bookmarks, settings). Implement them on top of Firebase or any other service and pass them in; the reader and library do not change.
