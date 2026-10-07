@@ -5,6 +5,8 @@ export interface QuizQuestion {
   options: string[];
   answer: number;
   explanation?: string;
+  /** Withdrawn by the exam body after the paper (e.g. a deleted BPSC question): every response, or none, scores as correct. */
+  dropped?: boolean;
 }
 
 /** A question set, stored as one JSON file in the `quizzes/` folder. */

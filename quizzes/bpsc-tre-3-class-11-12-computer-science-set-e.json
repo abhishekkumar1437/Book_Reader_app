@@ -1,0 +1,1962 @@
+{
+  "title": "TRE 3.0 (2024) · Class 11–12 Computer Science · Set E",
+  "subject": "BPSC TRE PYQ",
+  "topic": "Complete official question booklet of the BPSC Teacher Recruitment Exam 3.0 for Senior Secondary (Class 11–12) Computer Science, held on 22 July 2024. Part I Language (English 1–8, Hindi 9–30, qualifying), Part II General Studies (31–70) and Part III Computer Science (71–150): digital logic, data structures, algorithms, C, operating systems, DBMS, networking, software engineering, OOP, web, IoT, AI and e-commerce.",
+  "description": "All 150 questions of booklet series E exactly as printed, with answers taken from the BPSC final answer key released on 17 October 2024. Questions 52 and 69 were deleted by BPSC and score as correct whatever you mark. Every question has five options: A to C plus 'More than one of the above' and 'None of the above'. Part I is qualifying only in the real exam and the Urdu/Bengali alternatives to Hindi are omitted here.",
+  "timeLimitMinutes": 150,
+  "createdAt": "2026-09-25",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "[Part I · English Language · Q.E-1]\nDirections (Q. Nos. E-1 to E-5): Read the passage given below and answer the questions that follow.\n\nKerala is just the place for you if you love variety. There is something here to please everyone. You are sure to fall in love with the serene beauty of Kerala's magical backwaters. When you have experienced that, you can sample the excitement of Kerala's bustling cities or retreat into the villages to see at first-hand how time can stand still. Better still, take a trip to the spice gardens in the hills, to inhale the fragrance of fresh cardamoms. If that makes your tastebuds tingle and fills you with dreams of food, you need not worry. Kerala's cuisine is known for its spicy hot flavours. The coconut and the spices give the food, especially the seafood, a pungency that is enhanced by tamarind. Your meal would be incomplete without appam, rasam, fish curry and some delicious payasam. To wash it down, sip the naturally refreshing water of a tender coconut. And when you have had your fill, move into the markets to shop for gold, handicrafts, spices, cashew nuts and coffee. Bargain-hunters will never have a problem since English is spoken and understood everywhere in Kerala.\n\nWhy is Kerala just the place for you if you love variety?",
+      "options": [
+        "There is something here to please everyone",
+        "Kerala has magical backwaters",
+        "Kerala is very boring",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set E): D."
+    },
+    {
+      "id": "q2",
+      "question": "[Part I · English Language · Q.E-2]\nDirections (Q. Nos. E-1 to E-5): Read the passage given below and answer the questions that follow.\n\nKerala is just the place for you if you love variety. There is something here to please everyone. You are sure to fall in love with the serene beauty of Kerala's magical backwaters. When you have experienced that, you can sample the excitement of Kerala's bustling cities or retreat into the villages to see at first-hand how time can stand still. Better still, take a trip to the spice gardens in the hills, to inhale the fragrance of fresh cardamoms. If that makes your tastebuds tingle and fills you with dreams of food, you need not worry. Kerala's cuisine is known for its spicy hot flavours. The coconut and the spices give the food, especially the seafood, a pungency that is enhanced by tamarind. Your meal would be incomplete without appam, rasam, fish curry and some delicious payasam. To wash it down, sip the naturally refreshing water of a tender coconut. And when you have had your fill, move into the markets to shop for gold, handicrafts, spices, cashew nuts and coffee. Bargain-hunters will never have a problem since English is spoken and understood everywhere in Kerala.\n\nWhy should you take a trip to the spice gardens in the hills?",
+      "options": [
+        "To count the spices that are grown there",
+        "To buy some spices",
+        "To inhale the fragrance of fresh cardamoms",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set E): C."
+    },
+    {
+      "id": "q3",
+      "question": "[Part I · English Language · Q.E-3]\nDirections (Q. Nos. E-1 to E-5): Read the passage given below and answer the questions that follow.\n\nKerala is just the place for you if you love variety. There is something here to please everyone. You are sure to fall in love with the serene beauty of Kerala's magical backwaters. When you have experienced that, you can sample the excitement of Kerala's bustling cities or retreat into the villages to see at first-hand how time can stand still. Better still, take a trip to the spice gardens in the hills, to inhale the fragrance of fresh cardamoms. If that makes your tastebuds tingle and fills you with dreams of food, you need not worry. Kerala's cuisine is known for its spicy hot flavours. The coconut and the spices give the food, especially the seafood, a pungency that is enhanced by tamarind. Your meal would be incomplete without appam, rasam, fish curry and some delicious payasam. To wash it down, sip the naturally refreshing water of a tender coconut. And when you have had your fill, move into the markets to shop for gold, handicrafts, spices, cashew nuts and coffee. Bargain-hunters will never have a problem since English is spoken and understood everywhere in Kerala.\n\nWhat is Kerala's cuisine known for?",
+      "options": [
+        "For its bad taste",
+        "For being bland",
+        "For its spicy hot flavours",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set E): C."
+    },
+    {
+      "id": "q4",
+      "question": "[Part I · English Language · Q.E-4]\nDirections (Q. Nos. E-1 to E-5): Read the passage given below and answer the questions that follow.\n\nKerala is just the place for you if you love variety. There is something here to please everyone. You are sure to fall in love with the serene beauty of Kerala's magical backwaters. When you have experienced that, you can sample the excitement of Kerala's bustling cities or retreat into the villages to see at first-hand how time can stand still. Better still, take a trip to the spice gardens in the hills, to inhale the fragrance of fresh cardamoms. If that makes your tastebuds tingle and fills you with dreams of food, you need not worry. Kerala's cuisine is known for its spicy hot flavours. The coconut and the spices give the food, especially the seafood, a pungency that is enhanced by tamarind. Your meal would be incomplete without appam, rasam, fish curry and some delicious payasam. To wash it down, sip the naturally refreshing water of a tender coconut. And when you have had your fill, move into the markets to shop for gold, handicrafts, spices, cashew nuts and coffee. Bargain-hunters will never have a problem since English is spoken and understood everywhere in Kerala.\n\nWhat gives sea food its pungency?",
+      "options": [
+        "Coconut and spices",
+        "Coconut & spices enhanced by tamarind",
+        "Addition of cocacola",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set E): D."
+    },
+    {
+      "id": "q5",
+      "question": "[Part I · English Language · Q.E-5]\nDirections (Q. Nos. E-1 to E-5): Read the passage given below and answer the questions that follow.\n\nKerala is just the place for you if you love variety. There is something here to please everyone. You are sure to fall in love with the serene beauty of Kerala's magical backwaters. When you have experienced that, you can sample the excitement of Kerala's bustling cities or retreat into the villages to see at first-hand how time can stand still. Better still, take a trip to the spice gardens in the hills, to inhale the fragrance of fresh cardamoms. If that makes your tastebuds tingle and fills you with dreams of food, you need not worry. Kerala's cuisine is known for its spicy hot flavours. The coconut and the spices give the food, especially the seafood, a pungency that is enhanced by tamarind. Your meal would be incomplete without appam, rasam, fish curry and some delicious payasam. To wash it down, sip the naturally refreshing water of a tender coconut. And when you have had your fill, move into the markets to shop for gold, handicrafts, spices, cashew nuts and coffee. Bargain-hunters will never have a problem since English is spoken and understood everywhere in Kerala.\n\nWhy would foreign bargain-hunter visitors never face a problem in Kerala?",
+      "options": [
+        "Many foreign languages are spoken in Kerala",
+        "Hindi is the language of communication in the cities of Kerala",
+        "English is spoken and understood everywhere in Kerala",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set E): C."
+    },
+    {
+      "id": "q6",
+      "question": "[Part I · English Language · Q.E-6]\nFill in the blank with a suitable article ('a', 'an', 'the'): If you reach ________ Airport on time, you will catch the flight.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set E): C."
+    },
+    {
+      "id": "q7",
+      "question": "[Part I · English Language · Q.E-7]\nFill in the blank with a suitable article ('a', 'an', 'the'): You should go for ________ early morning walk.",
+      "options": [
+        "the",
+        "a",
+        "an",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set E): C."
+    },
+    {
+      "id": "q8",
+      "question": "[Part I · English Language · Q.E-8]\nIf 30th April is Tuesday, what day of the week would be 10th May?",
+      "options": [
+        "Monday",
+        "Thursday",
+        "Saturday",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 4,
+      "explanation": "Official BPSC final answer key (Set E): E. 30 April is Tuesday, so 7 May is Tuesday and 10 May is Friday, which is not among the options."
+    },
+    {
+      "id": "q9",
+      "question": "[Part I · Hindi Language · Q.H-9]\nनिम्नलिखित अपठित गद्यांश के आधार पर प्रश्न सं. H-9 से H-14 तक के प्रश्नों के उत्तर दिये जायें।\n\nरतन और अजय एक ही स्कूल के छात्र थे। रतन गरीब था और अजय धनी। रतन गरीब होकर भी पढ़ने में तेज था। सभी शिक्षक उसके व्यवहार से प्रसन्न रहते थे। इसके विपरीत अजय बहुत नटखट था। पढ़ने के बदले खेलने-कूदने और बदमाशी में अधिक मन लगाता था। रतन और अजय दिली दोस्त थे। इसलिए रतन अजय को अच्छा छात्र बनने के लिए सलाह देता था। अजय शिक्षकों की बात नहीं मानता था। एक बार रतन से नाराज होकर अजय भाग रहा था। रतन ने दौड़कर अजय को रोकना चाहा। इतने ही में एक मोटर के नीचे वह गिर गया।\n\nरतन ने दौड़कर अजय को क्यों रोकना चाहा?",
+      "options": [
+        "रतन अजय से प्यार करता था",
+        "रतन और अजय एक ही स्कूल में पढ़ते थे",
+        "एक बार रतन से नाराज होकर अजय भाग रहा था",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set E): C."
+    },
+    {
+      "id": "q10",
+      "question": "[Part I · Hindi Language · Q.H-10]\nनिम्नलिखित अपठित गद्यांश के आधार पर प्रश्न सं. H-9 से H-14 तक के प्रश्नों के उत्तर दिये जायें।\n\nरतन और अजय एक ही स्कूल के छात्र थे। रतन गरीब था और अजय धनी। रतन गरीब होकर भी पढ़ने में तेज था। सभी शिक्षक उसके व्यवहार से प्रसन्न रहते थे। इसके विपरीत अजय बहुत नटखट था। पढ़ने के बदले खेलने-कूदने और बदमाशी में अधिक मन लगाता था। रतन और अजय दिली दोस्त थे। इसलिए रतन अजय को अच्छा छात्र बनने के लिए सलाह देता था। अजय शिक्षकों की बात नहीं मानता था। एक बार रतन से नाराज होकर अजय भाग रहा था। रतन ने दौड़कर अजय को रोकना चाहा। इतने ही में एक मोटर के नीचे वह गिर गया।\n\nरतन अजय को अच्छा छात्र बनने के लिए क्यों सलाह देता था?",
+      "options": [
+        "दिली दोस्त होने के कारण",
+        "एक स्कूल में पढ़ने के कारण",
+        "भाई होने के कारण",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set E): A."
+    },
+    {
+      "id": "q11",
+      "question": "[Part I · Hindi Language · Q.H-11]\nनिम्नलिखित अपठित गद्यांश के आधार पर प्रश्न सं. H-9 से H-14 तक के प्रश्नों के उत्तर दिये जायें।\n\nरतन और अजय एक ही स्कूल के छात्र थे। रतन गरीब था और अजय धनी। रतन गरीब होकर भी पढ़ने में तेज था। सभी शिक्षक उसके व्यवहार से प्रसन्न रहते थे। इसके विपरीत अजय बहुत नटखट था। पढ़ने के बदले खेलने-कूदने और बदमाशी में अधिक मन लगाता था। रतन और अजय दिली दोस्त थे। इसलिए रतन अजय को अच्छा छात्र बनने के लिए सलाह देता था। अजय शिक्षकों की बात नहीं मानता था। एक बार रतन से नाराज होकर अजय भाग रहा था। रतन ने दौड़कर अजय को रोकना चाहा। इतने ही में एक मोटर के नीचे वह गिर गया।\n\nरतन कैसा छात्र था?",
+      "options": [
+        "गरीब",
+        "पढ़ने में तेज",
+        "समझदार",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set E): D."
+    },
+    {
+      "id": "q12",
+      "question": "[Part I · Hindi Language · Q.H-12]\nनिम्नलिखित अपठित गद्यांश के आधार पर प्रश्न सं. H-9 से H-14 तक के प्रश्नों के उत्तर दिये जायें।\n\nरतन और अजय एक ही स्कूल के छात्र थे। रतन गरीब था और अजय धनी। रतन गरीब होकर भी पढ़ने में तेज था। सभी शिक्षक उसके व्यवहार से प्रसन्न रहते थे। इसके विपरीत अजय बहुत नटखट था। पढ़ने के बदले खेलने-कूदने और बदमाशी में अधिक मन लगाता था। रतन और अजय दिली दोस्त थे। इसलिए रतन अजय को अच्छा छात्र बनने के लिए सलाह देता था। अजय शिक्षकों की बात नहीं मानता था। एक बार रतन से नाराज होकर अजय भाग रहा था। रतन ने दौड़कर अजय को रोकना चाहा। इतने ही में एक मोटर के नीचे वह गिर गया।\n\nरतन और अजय आपस में क्या थे?",
+      "options": [
+        "दोस्त",
+        "दिली दोस्त",
+        "भाई",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set E): B."
+    },
+    {
+      "id": "q13",
+      "question": "[Part I · Hindi Language · Q.H-13]\nनिम्नलिखित अपठित गद्यांश के आधार पर प्रश्न सं. H-9 से H-14 तक के प्रश्नों के उत्तर दिये जायें।\n\nरतन और अजय एक ही स्कूल के छात्र थे। रतन गरीब था और अजय धनी। रतन गरीब होकर भी पढ़ने में तेज था। सभी शिक्षक उसके व्यवहार से प्रसन्न रहते थे। इसके विपरीत अजय बहुत नटखट था। पढ़ने के बदले खेलने-कूदने और बदमाशी में अधिक मन लगाता था। रतन और अजय दिली दोस्त थे। इसलिए रतन अजय को अच्छा छात्र बनने के लिए सलाह देता था। अजय शिक्षकों की बात नहीं मानता था। एक बार रतन से नाराज होकर अजय भाग रहा था। रतन ने दौड़कर अजय को रोकना चाहा। इतने ही में एक मोटर के नीचे वह गिर गया।\n\nसभी शिक्षक रतन से क्यों प्रसन्न रहते थे?",
+      "options": [
+        "रतन की निर्धनता के कारण",
+        "रतन के परिश्रमी होने के कारण",
+        "रतन के व्यवहार के कारण",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set E): C."
+    },
+    {
+      "id": "q14",
+      "question": "[Part I · Hindi Language · Q.H-14]\nनिम्नलिखित अपठित गद्यांश के आधार पर प्रश्न सं. H-9 से H-14 तक के प्रश्नों के उत्तर दिये जायें।\n\nरतन और अजय एक ही स्कूल के छात्र थे। रतन गरीब था और अजय धनी। रतन गरीब होकर भी पढ़ने में तेज था। सभी शिक्षक उसके व्यवहार से प्रसन्न रहते थे। इसके विपरीत अजय बहुत नटखट था। पढ़ने के बदले खेलने-कूदने और बदमाशी में अधिक मन लगाता था। रतन और अजय दिली दोस्त थे। इसलिए रतन अजय को अच्छा छात्र बनने के लिए सलाह देता था। अजय शिक्षकों की बात नहीं मानता था। एक बार रतन से नाराज होकर अजय भाग रहा था। रतन ने दौड़कर अजय को रोकना चाहा। इतने ही में एक मोटर के नीचे वह गिर गया।\n\nअजय किस काम में अधिक मन लगाता था?",
+      "options": [
+        "झगड़ने में",
+        "पढ़ने में",
+        "दौड़ने में",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 4,
+      "explanation": "Official BPSC final answer key (Set E): E."
+    },
+    {
+      "id": "q15",
+      "question": "[Part I · Hindi Language · Q.H-15]\nनिम्नलिखित अपठित गद्यांश के आधार पर प्रश्न सं. H-15 से H-20 तक के प्रश्नों के उत्तर दिये जायें।\n\nशिवाजी भारत के महान् वीरों में से एक थे। उनका उद्देश्य महाराणा प्रताप के उद्देश्य से भी उच्च था। वे अपने कार्यों में सफल रहे। वे केवल वीर ही नहीं, बल्कि एक अच्छे राजनीतिज्ञ भी थे। उन्होंने लोगों में एक राष्ट्र की भावना भर दी और मराठा राज्य की स्थापना की। वे कट्टर हिन्दू थे तो भी दूसरे के धर्म और संस्कृति का आदर करते थे। उनके अच्छे गुणों के कारण सभी लोग उनका आदर करते थे। हम लोगों को उनके जीवन से शिक्षा लेनी चाहिए।\n\nशिवाजी वीर होने के साथ और क्या थे?",
+      "options": [
+        "एक अच्छे राजनीतिज्ञ",
+        "श्रेष्ठ विचारक",
+        "कुशल सम्राट",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set E): A."
+    },
+    {
+      "id": "q16",
+      "question": "[Part I · Hindi Language · Q.H-16]\nनिम्नलिखित अपठित गद्यांश के आधार पर प्रश्न सं. H-15 से H-20 तक के प्रश्नों के उत्तर दिये जायें।\n\nशिवाजी भारत के महान् वीरों में से एक थे। उनका उद्देश्य महाराणा प्रताप के उद्देश्य से भी उच्च था। वे अपने कार्यों में सफल रहे। वे केवल वीर ही नहीं, बल्कि एक अच्छे राजनीतिज्ञ भी थे। उन्होंने लोगों में एक राष्ट्र की भावना भर दी और मराठा राज्य की स्थापना की। वे कट्टर हिन्दू थे तो भी दूसरे के धर्म और संस्कृति का आदर करते थे। उनके अच्छे गुणों के कारण सभी लोग उनका आदर करते थे। हम लोगों को उनके जीवन से शिक्षा लेनी चाहिए।\n\nशिवाजी ने लोगों में कौन सी भावना भर दी?",
+      "options": [
+        "हिन्दुत्व की",
+        "एक राष्ट्र की",
+        "वीरता की",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set E): B."
+    },
+    {
+      "id": "q17",
+      "question": "[Part I · Hindi Language · Q.H-17]\nनिम्नलिखित अपठित गद्यांश के आधार पर प्रश्न सं. H-15 से H-20 तक के प्रश्नों के उत्तर दिये जायें।\n\nशिवाजी भारत के महान् वीरों में से एक थे। उनका उद्देश्य महाराणा प्रताप के उद्देश्य से भी उच्च था। वे अपने कार्यों में सफल रहे। वे केवल वीर ही नहीं, बल्कि एक अच्छे राजनीतिज्ञ भी थे। उन्होंने लोगों में एक राष्ट्र की भावना भर दी और मराठा राज्य की स्थापना की। वे कट्टर हिन्दू थे तो भी दूसरे के धर्म और संस्कृति का आदर करते थे। उनके अच्छे गुणों के कारण सभी लोग उनका आदर करते थे। हम लोगों को उनके जीवन से शिक्षा लेनी चाहिए।\n\nशिवाजी कौन थे?",
+      "options": [
+        "भारत का पराक्रमी योद्धा",
+        "भारत के महान् वीरों में से एक",
+        "भारत का महान् सम्राट",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set E): B."
+    },
+    {
+      "id": "q18",
+      "question": "[Part I · Hindi Language · Q.H-18]\nनिम्नलिखित अपठित गद्यांश के आधार पर प्रश्न सं. H-15 से H-20 तक के प्रश्नों के उत्तर दिये जायें।\n\nशिवाजी भारत के महान् वीरों में से एक थे। उनका उद्देश्य महाराणा प्रताप के उद्देश्य से भी उच्च था। वे अपने कार्यों में सफल रहे। वे केवल वीर ही नहीं, बल्कि एक अच्छे राजनीतिज्ञ भी थे। उन्होंने लोगों में एक राष्ट्र की भावना भर दी और मराठा राज्य की स्थापना की। वे कट्टर हिन्दू थे तो भी दूसरे के धर्म और संस्कृति का आदर करते थे। उनके अच्छे गुणों के कारण सभी लोग उनका आदर करते थे। हम लोगों को उनके जीवन से शिक्षा लेनी चाहिए।\n\nलोग शिवाजी का आदर क्यों करते थे?",
+      "options": [
+        "उनकी वीरता के कारण",
+        "कट्टर हिन्दू होने के कारण",
+        "उनके अच्छे गुणों के कारण",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set E): C."
+    },
+    {
+      "id": "q19",
+      "question": "[Part I · Hindi Language · Q.H-19]\nनिम्नलिखित अपठित गद्यांश के आधार पर प्रश्न सं. H-15 से H-20 तक के प्रश्नों के उत्तर दिये जायें।\n\nशिवाजी भारत के महान् वीरों में से एक थे। उनका उद्देश्य महाराणा प्रताप के उद्देश्य से भी उच्च था। वे अपने कार्यों में सफल रहे। वे केवल वीर ही नहीं, बल्कि एक अच्छे राजनीतिज्ञ भी थे। उन्होंने लोगों में एक राष्ट्र की भावना भर दी और मराठा राज्य की स्थापना की। वे कट्टर हिन्दू थे तो भी दूसरे के धर्म और संस्कृति का आदर करते थे। उनके अच्छे गुणों के कारण सभी लोग उनका आदर करते थे। हम लोगों को उनके जीवन से शिक्षा लेनी चाहिए।\n\nइनमें 'राजनीतिज्ञ' शब्द का अर्थ है –",
+      "options": [
+        "वह नीति जिससे राज्य का संचालन होता है",
+        "वह नीति जिससे शासन का संचालन होता है",
+        "राजनीति से सम्बन्धित नीति",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 4,
+      "explanation": "Official BPSC final answer key (Set E): E."
+    },
+    {
+      "id": "q20",
+      "question": "[Part I · Hindi Language · Q.H-20]\nनिम्नलिखित अपठित गद्यांश के आधार पर प्रश्न सं. H-15 से H-20 तक के प्रश्नों के उत्तर दिये जायें।\n\nशिवाजी भारत के महान् वीरों में से एक थे। उनका उद्देश्य महाराणा प्रताप के उद्देश्य से भी उच्च था। वे अपने कार्यों में सफल रहे। वे केवल वीर ही नहीं, बल्कि एक अच्छे राजनीतिज्ञ भी थे। उन्होंने लोगों में एक राष्ट्र की भावना भर दी और मराठा राज्य की स्थापना की। वे कट्टर हिन्दू थे तो भी दूसरे के धर्म और संस्कृति का आदर करते थे। उनके अच्छे गुणों के कारण सभी लोग उनका आदर करते थे। हम लोगों को उनके जीवन से शिक्षा लेनी चाहिए।\n\nइनमें अपठित गद्यांश का शीर्षक है –",
+      "options": [
+        "शिवाजी की राष्ट्रीय चेतना",
+        "शिवाजी का जीवन",
+        "शिवाजी का पराक्रम",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set E): B."
+    },
+    {
+      "id": "q21",
+      "question": "[Part I · Hindi Language · Q.H-21]\nइनमें व्यक्तिवाचक संज्ञा है –",
+      "options": [
+        "नदी",
+        "गंगा",
+        "ब्रह्मपुत्र",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set E): D."
+    },
+    {
+      "id": "q22",
+      "question": "[Part I · Hindi Language · Q.H-22]\nइनमें उत्तमपुरुष सर्वनाम है –",
+      "options": [
+        "मैं",
+        "तू",
+        "वह",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set E): A."
+    },
+    {
+      "id": "q23",
+      "question": "[Part I · Hindi Language · Q.H-23]\n'दुकान पर कोई नहीं था।' वाक्य में किस कारक का चिह्न प्रयुक्त हुआ है?",
+      "options": [
+        "अपादान कारक",
+        "सम्बन्ध कारक",
+        "अधिकरण कारक",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set E): C."
+    },
+    {
+      "id": "q24",
+      "question": "[Part I · Hindi Language · Q.H-24]\nइनमें तत्सम शब्द है –",
+      "options": [
+        "बच्चा",
+        "पुष्प",
+        "चौदह",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set E): B."
+    },
+    {
+      "id": "q25",
+      "question": "[Part I · Hindi Language · Q.H-25]\nइनमें शुद्ध शब्द है –",
+      "options": [
+        "निरपराधी",
+        "प्रमाणिक",
+        "महत्व",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 4,
+      "explanation": "Official BPSC final answer key (Set E): E."
+    },
+    {
+      "id": "q26",
+      "question": "[Part I · Hindi Language · Q.H-26]\nइनमें 'उत्कृष्ट' शब्द का विपरीतार्थक शब्द है –",
+      "options": [
+        "निकृष्ट",
+        "अधम",
+        "नीच",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set E): A."
+    },
+    {
+      "id": "q27",
+      "question": "[Part I · Hindi Language · Q.H-27]\nइनमें शुद्ध वाक्य है –",
+      "options": [
+        "किसी भी आदमी को भेज दो",
+        "हम तो अवश्य जायेंगे",
+        "यह कविता अनेक भाव प्रकट करती है",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set E): C."
+    },
+    {
+      "id": "q28",
+      "question": "[Part I · Hindi Language · Q.H-28]\nइनमें 'जल' शब्द का पर्यायवाची शब्द है –",
+      "options": [
+        "जीवन",
+        "अमृत",
+        "पानी",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set E): D."
+    },
+    {
+      "id": "q29",
+      "question": "[Part I · Hindi Language · Q.H-29]\n'जहाँ लोगों का मिलन हो' वाक्यखण्ड के लिए एक शब्द है –",
+      "options": [
+        "मेला",
+        "सम्मेलन",
+        "मेल",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set E): B."
+    },
+    {
+      "id": "q30",
+      "question": "[Part I · Hindi Language · Q.H-30]\n'खटाई में पड़ना' मुहावरे का अर्थ है –",
+      "options": [
+        "झमेले में पड़ना",
+        "चैन मिलना",
+        "विघ्न आना",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set E): A."
+    },
+    {
+      "id": "q31",
+      "question": "[Part II · General Studies · Q.31]\nWhich of the following is the value of (x + 1/x)²?",
+      "options": [
+        "x² + 1/x²",
+        "x² – 1/x²",
+        "x² + 1/x² + 1",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 4,
+      "explanation": "Official BPSC final answer key (Set E): E. (x + 1/x)² = x² + 2 + 1/x². None of the listed expansions has the +2 term."
+    },
+    {
+      "id": "q32",
+      "question": "[Part II · General Studies · Q.32]\nAn article is marked at 10% more than the CP. If a discount of 10% is allowed, then which of the following is right?",
+      "options": [
+        "1% gain",
+        "1% loss",
+        "No gain no loss",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set E): B. Marked price 110, less 10% = 99, so a 1% loss on the cost price of 100."
+    },
+    {
+      "id": "q33",
+      "question": "[Part II · General Studies · Q.33]\nBy what number should 81 be divided to get a perfect cube?",
+      "options": [
+        "3",
+        "6",
+        "7",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set E): A. 81 ÷ 3 = 27 = 3³."
+    },
+    {
+      "id": "q34",
+      "question": "[Part II · General Studies · Q.34]\nThe difference between two whole numbers is 66. The ratio of the two numbers is 2 : 5. The two numbers are:",
+      "options": [
+        "60 and 6",
+        "100 and 33",
+        "110 and 44",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 4,
+      "explanation": "Official BPSC final answer key (Set E): E. 2k and 5k with 3k = 66 gives k = 22: the numbers are 44 and 110."
+    },
+    {
+      "id": "q35",
+      "question": "[Part II · General Studies · Q.35]\nIn a parallelogram ABCD, angle A and angle B are in the ratio 1 : 2. Find the angle A.",
+      "options": [
+        "30°",
+        "45°",
+        "60°",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set E): C. Adjacent angles of a parallelogram add to 180°, so A = 60°."
+    },
+    {
+      "id": "q36",
+      "question": "[Part II · General Studies · Q.36]\nThe height of a cylinder whose radius is 7 cm and the total surface area is 968 cm² is:",
+      "options": [
+        "15 cm",
+        "17 cm",
+        "19 cm",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set E): A. 2πr(r + h) = 968 with r = 7: 44(7 + h) = 968, so h = 15 cm."
+    },
+    {
+      "id": "q37",
+      "question": "[Part II · General Studies · Q.37]\nIf (–3)^(m+1) × (–3)⁵ = (–3)⁷, then the value of m is:",
+      "options": [
+        "5",
+        "7",
+        "1",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set E): C. (–3)^(m+1) × (–3)⁵ = (–3)^(m+6) = (–3)⁷, so m = 1."
+    },
+    {
+      "id": "q38",
+      "question": "[Part II · General Studies · Q.38]\nIf x and y are inversely proportional, then:",
+      "options": [
+        "y/x = constant",
+        "xy = constant",
+        "x/y = constant",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set E): B."
+    },
+    {
+      "id": "q39",
+      "question": "[Part II · General Studies · Q.39]\nA piece of wire of resistance R is cut into 5 equal parts. These parts are then connected in parallel. If the equivalent resistance of the combination is R', then the ratio R/R' is ________",
+      "options": [
+        "1/25",
+        "1/5",
+        "25",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set E): C. Each part is R/5; five in parallel give R/25, so R/R' = 25."
+    },
+    {
+      "id": "q40",
+      "question": "[Part II · General Studies · Q.40]\nAn electric heater of resistance 8 Ω draws 15 A current from a service mains for 2 hours. What will be the rate at which heat is developed in the heater?",
+      "options": [
+        "220 watt",
+        "120 watt",
+        "210 watt",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 4,
+      "explanation": "Official BPSC final answer key (Set E): E. P = I²R = 15² × 8 = 1800 W, which is not among the options."
+    },
+    {
+      "id": "q41",
+      "question": "[Part II · General Studies · Q.41]\nWhich of the following lenses would you prefer to use while reading small letters found in the dictionary?",
+      "options": [
+        "A convex lens of 50 cm",
+        "A concave lens of 50 cm",
+        "A concave lens of 5 cm",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 4,
+      "explanation": "Official BPSC final answer key (Set E): E. A convex lens of short focal length works as a magnifier; a 50 cm convex lens is too weak, so BPSC keyed 'none of the above'."
+    },
+    {
+      "id": "q42",
+      "question": "[Part II · General Studies · Q.42]\nThe human eye forms the image of an object at its ________",
+      "options": [
+        "Cornea",
+        "Iris",
+        "Retina",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set E): C."
+    },
+    {
+      "id": "q43",
+      "question": "[Part II · General Studies · Q.43]\nWhich of the following is not a part of the female reproductive system in human beings?",
+      "options": [
+        "Ovary",
+        "Uterus",
+        "Vas deferens",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set E): C. The vas deferens is part of the male reproductive system."
+    },
+    {
+      "id": "q44",
+      "question": "[Part II · General Studies · Q.44]\nThe anther contains ________",
+      "options": [
+        "Sepals",
+        "Ovules",
+        "Pollen grains",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set E): C."
+    },
+    {
+      "id": "q45",
+      "question": "[Part II · General Studies · Q.45]\nAsexual reproduction takes place through budding in ________",
+      "options": [
+        "Amoeba",
+        "Yeast",
+        "Plasmodium",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set E): B."
+    },
+    {
+      "id": "q46",
+      "question": "[Part II · General Studies · Q.46]\nWhich one of the following types of medicines is used for treating indigestion?",
+      "options": [
+        "Antibiotic",
+        "Antacid",
+        "Analgesic",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set E): B."
+    },
+    {
+      "id": "q47",
+      "question": "[Part II · General Studies · Q.47]\nThe task of processing citizenship applications under the CAA will be undertaken by",
+      "options": [
+        "Postal Department",
+        "Census Department",
+        "Central Security IB",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set E): D. BPSC keyed 'more than one of the above': CAA applications go through the Postal Department (Postmaster General) and the Census Directorate set-up, with security verification by the IB."
+    },
+    {
+      "id": "q48",
+      "question": "[Part II · General Studies · Q.48]\nIn which of the following countries did India launch its UPI?",
+      "options": [
+        "Thailand",
+        "Myanmar",
+        "Mauritius",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set E): C. UPI was launched in Mauritius and Sri Lanka in February 2024; Mauritius is the option BPSC keyed."
+    },
+    {
+      "id": "q49",
+      "question": "[Part II · General Studies · Q.49]\nWhat is the name of the spacecraft to be launched by ISRO in 2024 to carry astronauts?",
+      "options": [
+        "Akashyan",
+        "Gaganyan",
+        "Bhramyan",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set E): B."
+    },
+    {
+      "id": "q50",
+      "question": "[Part II · General Studies · Q.50]\nWhich country is not a member of G7?",
+      "options": [
+        "Russia",
+        "Canada",
+        "USA",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set E): A. G7 = Canada, France, Germany, Italy, Japan, UK, USA. Russia is not a member."
+    },
+    {
+      "id": "q51",
+      "question": "[Part II · General Studies · Q.51]\nThe process involved in achieving Green hydrogen is",
+      "options": [
+        "Electrolysis",
+        "Dehydrogenesis",
+        "Dehydration",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set E): A. Green hydrogen is produced by electrolysis of water using renewable power."
+    },
+    {
+      "id": "q52",
+      "question": "[Part II · General Studies · Q.52]\nWhich technology can be used to revive deceased individuals?",
+      "options": [
+        "Deepfake",
+        "AI",
+        "Chatbot",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "dropped": true,
+      "explanation": "Question deleted in the official BPSC final answer key (Set E). Deleted by BPSC in the final key. Every candidate was awarded the marks for this question."
+    },
+    {
+      "id": "q53",
+      "question": "[Part II · General Studies · Q.53]\nIn the cost of living index parameter 2024, which country is better than India?",
+      "options": [
+        "Nigeria",
+        "Pakistan",
+        "Bangladesh",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set E): B."
+    },
+    {
+      "id": "q54",
+      "question": "[Part II · General Studies · Q.54]\nWho supported Gandhiji in Champaran Satyagraha in 1917 in support of farmers?",
+      "options": [
+        "Birsa Munda",
+        "Rajendra Prasad",
+        "Satya Narayan Sinha",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set E): B. Rajendra Prasad joined Gandhi in Champaran; Birsa Munda died in 1900 and Satya Narayan Sinha is not associated with it."
+    },
+    {
+      "id": "q55",
+      "question": "[Part II · General Studies · Q.55]\nWhich is the moon-like planet?",
+      "options": [
+        "Mercury",
+        "Mars",
+        "Earth",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set E): A. Mercury, with its cratered airless surface, is called the moon-like planet."
+    },
+    {
+      "id": "q56",
+      "question": "[Part II · General Studies · Q.56]\nOn the basis of fossils, which is the origin place of man?",
+      "options": [
+        "Rift valley of Africa",
+        "Central Asia",
+        "Jerusalem",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set E): A."
+    },
+    {
+      "id": "q57",
+      "question": "[Part II · General Studies · Q.57]\nIn India, dry point settlement is found in",
+      "options": [
+        "Flood prone area",
+        "Bikaner",
+        "Aravali region",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set E): D."
+    },
+    {
+      "id": "q58",
+      "question": "[Part II · General Studies · Q.58]\nIn which district of Bihar is paddy crop production maximum?",
+      "options": [
+        "Bhojpur",
+        "Rohtas",
+        "Nalanda",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set E): B."
+    },
+    {
+      "id": "q59",
+      "question": "[Part II · General Studies · Q.59]\nOn which mountain is Tehran situated?",
+      "options": [
+        "Alburz",
+        "Zagros",
+        "Makran",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set E): A."
+    },
+    {
+      "id": "q60",
+      "question": "[Part II · General Studies · Q.60]\nThe highest peak in the Eastern Ghats of India is:",
+      "options": [
+        "Anai Mudi",
+        "Kanchenjunga",
+        "Mahendragiri",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 4,
+      "explanation": "Official BPSC final answer key (Set E): E. BPSC revised the key from Mahendragiri to 'none of the above', noting that the highest peak in the Eastern Ghats is Jindhagada (Arma Konda) in Andhra Pradesh."
+    },
+    {
+      "id": "q61",
+      "question": "[Part II · General Studies · Q.61]\nWhich of these statements is not a valid reason for the depletion of flora and fauna?",
+      "options": [
+        "Agricultural expansion",
+        "Large scale development projects",
+        "Grazing and fuel wood collection",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set E): C."
+    },
+    {
+      "id": "q62",
+      "question": "[Part II · General Studies · Q.62]\nIn which district of Bihar is silk textile production maximum?",
+      "options": [
+        "Madhubani",
+        "Bhagalpur",
+        "Aurangabad",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set E): B."
+    },
+    {
+      "id": "q63",
+      "question": "[Part II · General Studies · Q.63]\nWho was the Viceroy of India during the Jallianwala Bagh massacre?",
+      "options": [
+        "Lord Curzon",
+        "Lord Chelmsford",
+        "Lord Irwin",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set E): B. Lord Chelmsford was Viceroy in April 1919."
+    },
+    {
+      "id": "q64",
+      "question": "[Part II · General Studies · Q.64]\nThe first President of the Indian National Congress was:",
+      "options": [
+        "Dadabhai Naoroji",
+        "W. C. Bonnerjee",
+        "Badruddin Tyabji",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set E): B."
+    },
+    {
+      "id": "q65",
+      "question": "[Part II · General Studies · Q.65]\nWho among the following is also known as the Grand Old Man of India?",
+      "options": [
+        "Bal Gangadhar Tilak",
+        "Dadabhai Naoroji",
+        "Gopal Krishna Gokhale",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set E): B. Dadabhai Naoroji is the Grand Old Man of India."
+    },
+    {
+      "id": "q66",
+      "question": "[Part II · General Studies · Q.66]\nWhich of the following movements was started by M. K. Gandhi?",
+      "options": [
+        "Quit India Movement",
+        "Non-cooperation Movement",
+        "Swadeshi Movement",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set E): D. Gandhi launched Non-cooperation (1920) and Quit India (1942); the Swadeshi movement of 1905 predates him."
+    },
+    {
+      "id": "q67",
+      "question": "[Part II · General Studies · Q.67]\nWho was the leader of the Bardoli Satyagraha?",
+      "options": [
+        "Sardar Vallabhbhai Patel",
+        "Bal Gangadhar Tilak",
+        "Jawaharlal Nehru",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set E): A."
+    },
+    {
+      "id": "q68",
+      "question": "[Part II · General Studies · Q.68]\nWho among the following is not associated with the Home Rule Movement?",
+      "options": [
+        "Annie Besant",
+        "Bal Gangadhar Tilak",
+        "Sarojini Naidu",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 4,
+      "explanation": "Official BPSC final answer key (Set E): E. Home Rule leagues were founded by Annie Besant and Tilak; Sarojini Naidu was not a founder, so BPSC keyed 'none of the above'."
+    },
+    {
+      "id": "q69",
+      "question": "[Part II · General Studies · Q.69]\nWho founded the Bihar Provincial Congress Committee in 1920?",
+      "options": [
+        "Dr. Rajendra Prasad",
+        "Anugrah Narayan Sinha",
+        "Jai Prakash Narayan",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "dropped": true,
+      "explanation": "Question deleted in the official BPSC final answer key (Set E). Deleted by BPSC in the final key. Every candidate was awarded the marks for this question."
+    },
+    {
+      "id": "q70",
+      "question": "[Part II · General Studies · Q.70]\nThe All India Kisan Sabha (AIKS) was founded in 1936 in Bihar under the leadership of:",
+      "options": [
+        "Dr. Rajendra Prasad",
+        "Jai Prakash Narayan",
+        "Swami Sahajanand Saraswati",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set E): C. Swami Sahajanand Saraswati was the first president of the All India Kisan Sabha, founded at Lucknow in 1936."
+    },
+    {
+      "id": "q71",
+      "question": "[Part III · Computer Science · Q.71]\nDigital circuit can be made by the repeated use of the ________.",
+      "options": [
+        "NAND gate",
+        "NOR gate",
+        "AND gate",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set E): D. NAND and NOR are both universal gates, so more than one option is correct."
+    },
+    {
+      "id": "q72",
+      "question": "[Part III · Computer Science · Q.72]\nWhich of the following is correct for Digital Circuits?",
+      "options": [
+        "They use analog signals for communication",
+        "They process information using continuous voltage levels",
+        "They are not suitable for high speed operations",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 4,
+      "explanation": "Official BPSC final answer key (Set E): E. All three statements are false; digital circuits use discrete levels and are suited to high speed."
+    },
+    {
+      "id": "q73",
+      "question": "[Part III · Computer Science · Q.73]\nWhich of the following is an example of a digital electronic device?",
+      "options": [
+        "Computers",
+        "Mobile phones",
+        "Digital cameras",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set E): D."
+    },
+    {
+      "id": "q74",
+      "question": "[Part III · Computer Science · Q.74]\nAn OR gate has 4 inputs. The number of words in the truth table will be ________.",
+      "options": [
+        "4",
+        "8",
+        "16",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set E): C. A 4-input gate has 2⁴ = 16 rows (words) in its truth table."
+    },
+    {
+      "id": "q75",
+      "question": "[Part III · Computer Science · Q.75]\nWhen does a negative level triggered flip-flop in Digital Electronics change its state?",
+      "options": [
+        "When the clock is Negative",
+        "When the clock is Positive",
+        "When the inputs are all zero",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set E): A."
+    },
+    {
+      "id": "q76",
+      "question": "[Part III · Computer Science · Q.76]\nWhat is the result of the operation 1010 AND 1100 in binary?",
+      "options": [
+        "1000",
+        "1110",
+        "100",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set E): A. 1010 AND 1100 = 1000."
+    },
+    {
+      "id": "q77",
+      "question": "[Part III · Computer Science · Q.77]\nIn a half-adder circuit, what are the outputs?",
+      "options": [
+        "Sum and Carry",
+        "Difference and Borrow",
+        "Sum and Difference",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set E): A."
+    },
+    {
+      "id": "q78",
+      "question": "[Part III · Computer Science · Q.78]\nWhich of the following is a type of Read Only Memory (ROM)?",
+      "options": [
+        "PROM",
+        "EPROM",
+        "MROM",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set E): D. PROM, EPROM and MROM are all kinds of ROM."
+    },
+    {
+      "id": "q79",
+      "question": "[Part III · Computer Science · Q.79]\nWhat is a PLA?",
+      "options": [
+        "Programmable Logic Application",
+        "Programmable Logic Array",
+        "Programmable Logic Architecture",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set E): B."
+    },
+    {
+      "id": "q80",
+      "question": "[Part III · Computer Science · Q.80]\nHow many select lines are required for an 8-to-1 multiplexer?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set E): B. An 8-to-1 multiplexer needs log₂8 = 3 select lines."
+    },
+    {
+      "id": "q81",
+      "question": "[Part III · Computer Science · Q.81]\nConvert the decimal number 1234 to binary, octal, and hexadecimal. Which of the following options correctly represents these conversions?",
+      "options": [
+        "Binary: 10011010010, Octal: 2322, Hexadecimal: 4D2",
+        "Binary: 11001110010, Octal: 1712, Hexadecimal: 72A",
+        "Binary: 11100110010, Octal: 1642, Hexadecimal: 3CD",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set E): A. 1234 = 10011010010₂ = 2322₈ = 4D2₁₆."
+    },
+    {
+      "id": "q82",
+      "question": "[Part III · Computer Science · Q.82]\nWhat is Booth's algorithm used for?",
+      "options": [
+        "Binary to decimal conversion",
+        "Decimal to binary conversion",
+        "Binary multiplication",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set E): C."
+    },
+    {
+      "id": "q83",
+      "question": "[Part III · Computer Science · Q.83]\nWhich of the following is an error detection code used in digital logic?",
+      "options": [
+        "Hamming code",
+        "Cyclic redundancy check (CRC)",
+        "Checksum",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set E): D. Hamming code, CRC and checksum are all error-detection codes."
+    },
+    {
+      "id": "q84",
+      "question": "[Part III · Computer Science · Q.84]\nWhen performing BCD addition, what is the maximum value that can be represented in a single BCD digit?",
+      "options": [
+        "2",
+        "10",
+        "15",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 4,
+      "explanation": "Official BPSC final answer key (Set E): E. One BCD digit ranges 0 to 9, so the maximum is 9, which is not listed."
+    },
+    {
+      "id": "q85",
+      "question": "[Part III · Computer Science · Q.85]\nConvert the binary number 1011.1101 to its decimal equivalent. Which of the following is the correct decimal value?",
+      "options": [
+        "11.75",
+        "12.125",
+        "13.5",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 4,
+      "explanation": "Official BPSC final answer key (Set E): E. 1011.1101₂ = 11 + 0.5 + 0.25 + 0.0625 = 11.8125, which is not listed."
+    },
+    {
+      "id": "q86",
+      "question": "[Part III · Computer Science · Q.86]\nWhat is De Morgan's theorem used for in digital logic?",
+      "options": [
+        "Simplifying Boolean expressions",
+        "Implementing NAND gates",
+        "Performing binary addition",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set E): D."
+    },
+    {
+      "id": "q87",
+      "question": "[Part III · Computer Science · Q.87]\nWhat is the purpose of the \"don't care\" condition in digital logic?",
+      "options": [
+        "To indicate that the value of a variable does not affect the output",
+        "To prioritize certain inputs over others",
+        "To ensure that all possible input combinations are covered in truth tables",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set E): A."
+    },
+    {
+      "id": "q88",
+      "question": "[Part III · Computer Science · Q.88]\nWhich of the following data structures stores elements in a non-linear relationship?",
+      "options": [
+        "Stack",
+        "Queue",
+        "Array",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 4,
+      "explanation": "Official BPSC final answer key (Set E): E. Stack, queue and array are all linear structures, so none of them fits."
+    },
+    {
+      "id": "q89",
+      "question": "[Part III · Computer Science · Q.89]\nWhich data structure is used for efficient searching, insertion, and deletion of elements?",
+      "options": [
+        "Stack",
+        "Queue",
+        "Hash Table",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set E): C."
+    },
+    {
+      "id": "q90",
+      "question": "[Part III · Computer Science · Q.90]\nIn a binary search tree, which subtree of a node contains elements that are greater than the node's value?",
+      "options": [
+        "Left subtree",
+        "Right subtree",
+        "Both subtrees",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set E): B."
+    },
+    {
+      "id": "q91",
+      "question": "[Part III · Computer Science · Q.91]\nThe result of evaluating the postfix expression 10 5 + 60 6 / * 8",
+      "options": [
+        "142",
+        "213",
+        "284",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 4,
+      "explanation": "Official BPSC final answer key (Set E): E. BPSC's final key says the question is incomplete, so 'None of the above' was accepted."
+    },
+    {
+      "id": "q92",
+      "question": "[Part III · Computer Science · Q.92]\nIn a balanced binary tree, the height of two sub-trees of every node cannot differ by more than",
+      "options": [
+        "2",
+        "1",
+        "0",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set E): B. In an AVL (height-balanced) tree the heights differ by at most 1."
+    },
+    {
+      "id": "q93",
+      "question": "[Part III · Computer Science · Q.93]\nWrite the output of the following program:\nint a[ ] = {1, 2, 3, } *p;",
+      "options": [
+        "Junk value",
+        "3",
+        "Runtime error",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 4,
+      "explanation": "Official BPSC final answer key (Set E): E. The statement is not valid C, so the printed program has no defined output; BPSC keyed 'None of the above'."
+    },
+    {
+      "id": "q94",
+      "question": "[Part III · Computer Science · Q.94]\nA queue has configuration a, b, c, d. If you want to get the configuration d, c, b, a, you need a minimum of ________.",
+      "options": [
+        "2 deletions and 3 additions",
+        "3 deletions and 3 additions",
+        "4 deletions and 4 additions",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set E): B. Reversing a queue of 4 needs all four elements removed and re-added: 4 deletions and 4 additions."
+    },
+    {
+      "id": "q95",
+      "question": "[Part III · Computer Science · Q.95]\nThe order of the binary search algorithm is ________.",
+      "options": [
+        "N",
+        "N log n",
+        "N²",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 4,
+      "explanation": "Official BPSC final answer key (Set E): E. Binary search runs in O(log n), which is not listed."
+    },
+    {
+      "id": "q96",
+      "question": "[Part III · Computer Science · Q.96]\nThe preorder traversal of a binary search tree is 15, 10, 12, 11, 20, 18, 16, 19. Which one of the following is the postorder traversal of the tree?",
+      "options": [
+        "20, 19, 18, 16, 15, 12, 11, 10",
+        "11, 12, 10, 16, 19, 18, 20, 15",
+        "19, 16, 18, 20, 11, 12, 10, 15",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set E): B. The BST built from the preorder gives postorder 11, 12, 10, 16, 19, 18, 20, 15."
+    },
+    {
+      "id": "q97",
+      "question": "[Part III · Computer Science · Q.97]\nHow many distinct binary search trees can be created out of 4 distinct keys?",
+      "options": [
+        "8",
+        "24",
+        "14",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set E): C. Catalan number C₄ = 14."
+    },
+    {
+      "id": "q98",
+      "question": "[Part III · Computer Science · Q.98]\n#include <stdio.h>\nint main()\n{\n    int i = 5, j = 10, k = 15;\n    printf(\"%d \", sizeof(k /= i + j));\n    printf(\"%d\", k);\n    return 0;\n}\nAssume the size of an integer as 4 bytes. What is the output of the above program?",
+      "options": [
+        "2 1",
+        "4 1",
+        "4 15",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set E): C. sizeof is evaluated at compile time, so the assignment k /= i + j never runs. Output: 4 15."
+    },
+    {
+      "id": "q99",
+      "question": "[Part III · Computer Science · Q.99]\nWhich of the following statements is true about Big-O notation?",
+      "options": [
+        "It represents the lower bound of an algorithm's runtime.",
+        "It represents the upper bound of an algorithm's runtime.",
+        "It represents the average runtime of an algorithm.",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set E): B."
+    },
+    {
+      "id": "q100",
+      "question": "[Part III · Computer Science · Q.100]\nWhich of the following is NOT a step in the Divide and Conquer algorithm?",
+      "options": [
+        "Combine",
+        "Conquer",
+        "Divide",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 4,
+      "explanation": "Official BPSC final answer key (Set E): E. Divide, conquer and combine are the three steps, so none of the options is 'not a step'."
+    },
+    {
+      "id": "q101",
+      "question": "[Part III · Computer Science · Q.101]\nMerge Sort is an example of which algorithm design paradigm?",
+      "options": [
+        "Greedy",
+        "Divide and Conquer",
+        "Dynamic Programming",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set E): B."
+    },
+    {
+      "id": "q102",
+      "question": "[Part III · Computer Science · Q.102]\nHow many edges does a spanning tree of a graph with N vertices have?",
+      "options": [
+        "N",
+        "N – 1",
+        "N(N – 1)/2",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set E): B. A spanning tree on N vertices always has N – 1 edges."
+    },
+    {
+      "id": "q103",
+      "question": "[Part III · Computer Science · Q.103]\nWhich of the following is NOT a graph traversal algorithm?",
+      "options": [
+        "Greedy",
+        "Divide and Conquer",
+        "Dynamic Programming",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set E): D. None of the three is a traversal algorithm (BFS and DFS are), so more than one option is correct."
+    },
+    {
+      "id": "q104",
+      "question": "[Part III · Computer Science · Q.104]\nWhich of the following is NOT an NP-Complete problem?",
+      "options": [
+        "Traveling Salesman Problem",
+        "Boolean Satisfiability Problem",
+        "Shortest Path Problem",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set E): C. Shortest path is solvable in polynomial time; the other two are NP-complete."
+    },
+    {
+      "id": "q105",
+      "question": "[Part III · Computer Science · Q.105]\nWhich of the following is an advantage of using arrays?",
+      "options": [
+        "Constant time insertion and deletion",
+        "Ability to store elements of different data types",
+        "Random access to elements using an index",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set E): C."
+    },
+    {
+      "id": "q106",
+      "question": "[Part III · Computer Science · Q.106]\nWhich of the following is NOT a basic operation performed on a data structure?",
+      "options": [
+        "Encryption",
+        "Deletion",
+        "Insertion",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set E): A."
+    },
+    {
+      "id": "q107",
+      "question": "[Part III · Computer Science · Q.107]\nWhich of the following is a type of operating system?",
+      "options": [
+        "Real-time operating system",
+        "Embedded operating system",
+        "Network operating system",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set E): D. Real-time, embedded and network operating systems are all types of OS."
+    },
+    {
+      "id": "q108",
+      "question": "[Part III · Computer Science · Q.108]\nWhich of the following is NOT a memory management technique used by operating systems?",
+      "options": [
+        "Paging",
+        "Segmentation",
+        "Fragmentation",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set E): C. Fragmentation is a problem, not a management technique."
+    },
+    {
+      "id": "q109",
+      "question": "[Part III · Computer Science · Q.109]\nWhich of the following is a file system commonly used in operating systems?",
+      "options": [
+        "NTFS",
+        "FAT32",
+        "HFS+",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set E): D. NTFS, FAT32 and HFS+ are all file systems."
+    },
+    {
+      "id": "q110",
+      "question": "[Part III · Computer Science · Q.110]\nWhich of the following is NOT a type of interrupt?",
+      "options": [
+        "Hardware interrupt",
+        "Memory interrupt",
+        "Software interrupt",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set E): B."
+    },
+    {
+      "id": "q111",
+      "question": "[Part III · Computer Science · Q.111]\nWhat is a page in paging?",
+      "options": [
+        "A fixed-size block of virtual memory",
+        "A fixed-size block of physical memory",
+        "A type of memory allocation",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set E): A."
+    },
+    {
+      "id": "q112",
+      "question": "[Part III · Computer Science · Q.112]\nIn a system with a page size of 4 KB and a physical address space of 64 GB, what is the number of bits required for the page offset?",
+      "options": [
+        "10 bits",
+        "12 bits",
+        "14 bits",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set E): B. 4 KB = 2¹² bytes, so the offset needs 12 bits."
+    },
+    {
+      "id": "q113",
+      "question": "[Part III · Computer Science · Q.113]\nWhat is a segment base in segmentation?",
+      "options": [
+        "The starting address of a segment in physical memory",
+        "The starting address of a segment in virtual memory",
+        "The ending address of a segment in physical memory",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set E): A."
+    },
+    {
+      "id": "q114",
+      "question": "[Part III · Computer Science · Q.114]\nWhat causes thrashing to occur?",
+      "options": [
+        "Excessive paging activity",
+        "Insufficient disk space",
+        "Hardware failures",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set E): A."
+    },
+    {
+      "id": "q115",
+      "question": "[Part III · Computer Science · Q.115]\nConsider a system with a total physical memory of 8 GB and total virtual memory of 16 GB. If the system is using 6 GB of physical memory and 10 GB of virtual memory, how much memory is being swapped out?",
+      "options": [
+        "2 GB",
+        "4 GB",
+        "6 GB",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set E): A. BPSC keyed 2 GB: 10 GB of virtual memory in use against 8 GB of physical memory means 2 GB must live on swap."
+    },
+    {
+      "id": "q116",
+      "question": "[Part III · Computer Science · Q.116]\nHow is the TLB typically organized?",
+      "options": [
+        "As a direct-mapped cache",
+        "As an associative cache",
+        "As a set-associative cache",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set E): B."
+    },
+    {
+      "id": "q117",
+      "question": "[Part III · Computer Science · Q.117]\nWhich of the following is a common file operation?",
+      "options": [
+        "Create",
+        "Delete",
+        "Rename",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set E): D. Create, delete and rename are all file operations."
+    },
+    {
+      "id": "q118",
+      "question": "[Part III · Computer Science · Q.118]\nConsider a disk queue with requests for I/O to blocks on cylinders 98, 183, 37, 122, 14, 124, 65, 67. Considering FCFS (First Come First Served) scheduling, what is the total number of head movements if the disk head is initially at 53?",
+      "options": [
+        "640",
+        "620",
+        "630",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set E): A. FCFS from 53: 45 + 85 + 146 + 85 + 108 + 110 + 59 + 2 = 640."
+    },
+    {
+      "id": "q119",
+      "question": "[Part III · Computer Science · Q.119]\nA thread shares with other threads belonging to the same process its",
+      "options": [
+        "thread ID",
+        "program counter",
+        "code section and data section",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set E): C. Threads share the code, data and files of their process; each has its own ID and program counter."
+    },
+    {
+      "id": "q120",
+      "question": "[Part III · Computer Science · Q.120]\nWhich of the following is NOT a type of DBMS?",
+      "options": [
+        "Relational DBMS",
+        "Object-Oriented DBMS",
+        "Sequential DBMS",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set E): C."
+    },
+    {
+      "id": "q121",
+      "question": "[Part III · Computer Science · Q.121]\nIn a relational database, what is a primary key?",
+      "options": [
+        "A key used to uniquely identify each record in a table",
+        "A key used to establish relationships between tables",
+        "A key used to sort records in a table",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set E): A."
+    },
+    {
+      "id": "q122",
+      "question": "[Part III · Computer Science · Q.122]\nWhich normal form ensures that every non-prime attribute in a table is fully functionally dependent on the primary key?",
+      "options": [
+        "First Normal Form (1NF)",
+        "Second Normal Form (2NF)",
+        "Third Normal Form (3NF)",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set E): B."
+    },
+    {
+      "id": "q123",
+      "question": "[Part III · Computer Science · Q.123]\nWhich SQL command is used to add new rows to a database table?",
+      "options": [
+        "ADD",
+        "CREATE",
+        "INSERT",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set E): C."
+    },
+    {
+      "id": "q124",
+      "question": "[Part III · Computer Science · Q.124]\nWhich of the following is a disadvantage of using a distributed database system?",
+      "options": [
+        "Improved data accessibility",
+        "Increased data security",
+        "Data inconsistency",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set E): C."
+    },
+    {
+      "id": "q125",
+      "question": "[Part III · Computer Science · Q.125]\nWhat is the primary function of a router in a computer network?",
+      "options": [
+        "To connect devices within the same network",
+        "To connect multiple networks together",
+        "To filter incoming traffic based on IP addresses",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set E): B."
+    },
+    {
+      "id": "q126",
+      "question": "[Part III · Computer Science · Q.126]\nIn the OSI model, which layer is responsible for routing and forwarding data packets?",
+      "options": [
+        "Data Link Layer",
+        "Transport Layer",
+        "Physical Layer",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 4,
+      "explanation": "Official BPSC final answer key (Set E): E. Routing is done by the Network layer, which is not among the options."
+    },
+    {
+      "id": "q127",
+      "question": "[Part III · Computer Science · Q.127]\nWhich device is used to connect multiple devices within the same local area network (LAN)?",
+      "options": [
+        "Router",
+        "Switch",
+        "Bridge",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set E): B."
+    },
+    {
+      "id": "q128",
+      "question": "[Part III · Computer Science · Q.128]\nWhich protocol is used to send email over the Internet?",
+      "options": [
+        "FTP",
+        "SMTP",
+        "HTTP",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set E): B."
+    },
+    {
+      "id": "q129",
+      "question": "[Part III · Computer Science · Q.129]\nWhat is the purpose of a subnet mask in TCP/IP networking?",
+      "options": [
+        "To identify the network portion of an IP address",
+        "To identify the host portion of an IP address",
+        "To convert IP addresses into domain names",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set E): D."
+    },
+    {
+      "id": "q130",
+      "question": "[Part III · Computer Science · Q.130]\nWhat is the maximum data rate of Bluetooth version 5.0?",
+      "options": [
+        "1 Mbps",
+        "2 Mbps",
+        "5 Mbps",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set E): B."
+    },
+    {
+      "id": "q131",
+      "question": "[Part III · Computer Science · Q.131]\nWhich of the following is a software development life cycle model?",
+      "options": [
+        "Waterfall model",
+        "Agile model",
+        "Spiral model",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set E): D. Waterfall, Agile and Spiral are all SDLC models."
+    },
+    {
+      "id": "q132",
+      "question": "[Part III · Computer Science · Q.132]\nWhich of the following is NOT a software development requirement?",
+      "options": [
+        "Functional requirements",
+        "System requirements",
+        "Physical requirements",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set E): C."
+    },
+    {
+      "id": "q133",
+      "question": "[Part III · Computer Science · Q.133]\nWhat is the main difference between verification and validation in software testing?",
+      "options": [
+        "Verification ensures that the software is bug-free, while validation ensures that it meets the requirements.",
+        "Verification is done before coding, while validation is done after coding.",
+        "Verification checks if the software is built right, while validation checks if the right software is built.",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set E): C."
+    },
+    {
+      "id": "q134",
+      "question": "[Part III · Computer Science · Q.134]\nWhat is the purpose of a software prototype?",
+      "options": [
+        "To serve as the final version of the software",
+        "To replace detailed documentation",
+        "To speed up the software development process",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 4,
+      "explanation": "Official BPSC final answer key (Set E): E. A prototype is built to clarify requirements early; BPSC keyed 'none of the above'."
+    },
+    {
+      "id": "q135",
+      "question": "[Part III · Computer Science · Q.135]\nWhat is the primary goal of software engineering?",
+      "options": [
+        "To write code efficiently",
+        "To develop software that meets user requirements within budget and schedule constraints",
+        "To develop software with the latest technologies",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set E): B."
+    },
+    {
+      "id": "q136",
+      "question": "[Part III · Computer Science · Q.136]\nWhich of the following is a pillar of OOP?",
+      "options": [
+        "Inheritance",
+        "Encapsulation",
+        "Abstraction",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set E): D. Inheritance, encapsulation and abstraction are all pillars of OOP."
+    },
+    {
+      "id": "q137",
+      "question": "[Part III · Computer Science · Q.137]\nWhich keyword is used in Java to implement inheritance?",
+      "options": [
+        "extends",
+        "inherits",
+        "implements",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set E): A."
+    },
+    {
+      "id": "q138",
+      "question": "[Part III · Computer Science · Q.138]\nWhat is the access specifier used to make members of a class accessible only within the same package?",
+      "options": [
+        "private",
+        "public",
+        "package-private",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set E): C. In Java, members with no modifier are package-private."
+    },
+    {
+      "id": "q139",
+      "question": "[Part III · Computer Science · Q.139]\nInheritance in OOP allows a class to:",
+      "options": [
+        "Inherit properties and behavior from another class",
+        "Create instances of another class",
+        "Override methods of another class",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set E): A."
+    },
+    {
+      "id": "q140",
+      "question": "[Part III · Computer Science · Q.140]\nWhat is the purpose of HTML in a web application?",
+      "options": [
+        "To define the structure of web pages",
+        "To style web pages",
+        "To add interactivity to web pages",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set E): A."
+    },
+    {
+      "id": "q141",
+      "question": "[Part III · Computer Science · Q.141]\nWhich of the following is an example of a server-side scripting language commonly used in web applications?",
+      "options": [
+        "HTML",
+        "CSS",
+        "C++",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 4,
+      "explanation": "Official BPSC final answer key (Set E): E. None of HTML, CSS or C++ is a server-side scripting language."
+    },
+    {
+      "id": "q142",
+      "question": "[Part III · Computer Science · Q.142]\nWhat is the computational complexity of the halting problem?",
+      "options": [
+        "O(1)",
+        "O(n)",
+        "Not computable",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set E): C."
+    },
+    {
+      "id": "q143",
+      "question": "[Part III · Computer Science · Q.143]\nWhich of the following is NOT a component of a Turing machine?",
+      "options": [
+        "Input tape",
+        "Output tape",
+        "Control unit",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set E): B. A Turing machine has a single tape, so 'output tape' is not a component."
+    },
+    {
+      "id": "q144",
+      "question": "[Part III · Computer Science · Q.144]\nWhich wireless communication technology is commonly used in IoT devices for short-range communication?",
+      "options": [
+        "Bluetooth",
+        "Wi-Fi",
+        "4G LTE",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set E): A."
+    },
+    {
+      "id": "q145",
+      "question": "[Part III · Computer Science · Q.145]\nWhich of the following is an example of an IoT protocol used for device communication?",
+      "options": [
+        "HTTP",
+        "FTP",
+        "MQTT",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set E): C."
+    },
+    {
+      "id": "q146",
+      "question": "[Part III · Computer Science · Q.146]\nWhich of the following is a subfield of AI?",
+      "options": [
+        "Machine Learning",
+        "Robotics",
+        "Natural Language Processing",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set E): D. Machine learning, robotics and NLP are all subfields of AI."
+    },
+    {
+      "id": "q147",
+      "question": "[Part III · Computer Science · Q.147]\nWhich of the following is a supervised learning algorithm?",
+      "options": [
+        "Decision Tree",
+        "K-means Clustering",
+        "Reinforcement Learning",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set E): A."
+    },
+    {
+      "id": "q148",
+      "question": "[Part III · Computer Science · Q.148]\nWhich of the following is NOT a common type of E-Commerce model?",
+      "options": [
+        "Business-to-Consumer (B2C)",
+        "Consumer-to-Business (C2B)",
+        "Consumer-to-Consumer (C2C)",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 4,
+      "explanation": "Official BPSC final answer key (Set E): E. B2C, C2B and C2C are all recognised e-commerce models, so BPSC keyed 'none of the above'."
+    },
+    {
+      "id": "q149",
+      "question": "[Part III · Computer Science · Q.149]\nWhich of the following is an example of a B2C E-Commerce website?",
+      "options": [
+        "Alibaba",
+        "Amazon",
+        "Google",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set E): B."
+    },
+    {
+      "id": "q150",
+      "question": "[Part III · Computer Science · Q.150]\nWhich of the following is a multimedia authoring tool?",
+      "options": [
+        "Microsoft Word",
+        "Adobe Photoshop",
+        "Adobe Flash",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set E): C."
+    }
+  ]
+}

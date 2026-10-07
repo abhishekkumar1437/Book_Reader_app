@@ -21,7 +21,7 @@ export default async function SubjectPage({ params }: Props) {
 
   return (
     <main className="min-h-full">
-      <SiteHeader subtitle="Exam-style practice sets, 40 questions each." />
+      <SiteHeader subtitle="Exam-style practice sets and previous-year papers." />
       <QuizList sets={sets} subject={subject} />
     </main>
   );

@@ -195,3 +195,11 @@ export const Code = (p: IconProps) => (
     <path d="m16 18 6-6-6-6M8 6l-6 6 6 6" />
   </Icon>
 );
+
+export const Feather = (p: IconProps) => (
+  <Icon {...p}>
+    <path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z" />
+    <path d="M16 8 2 22" />
+    <path d="M17.5 15H9" />
+  </Icon>
+);

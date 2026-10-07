@@ -11,7 +11,7 @@ export default async function QuizPage() {
   const sets = await listQuizSets();
   return (
     <main className="min-h-full">
-      <SiteHeader subtitle="Exam-style practice sets, 40 questions each." />
+      <SiteHeader subtitle="Exam-style practice sets and previous-year papers." />
       <QuizList sets={sets} />
     </main>
   );

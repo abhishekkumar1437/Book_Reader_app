@@ -2,12 +2,13 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { BookOpen, Code, Quiz } from "@/components/ui/icons";
+import { BookOpen, Code, Feather, Quiz } from "@/components/ui/icons";
 
 const NAV = [
   { href: "/", label: "Library", icon: <BookOpen size={16} />, match: (p: string) => p === "/" || p.startsWith("/read") },
   { href: "/quiz", label: "Quiz", icon: <Quiz size={16} />, match: (p: string) => p.startsWith("/quiz") },
   { href: "/interview", label: "Interview Prep", icon: <Code size={16} />, match: (p: string) => p.startsWith("/interview") },
+  { href: "/story", label: "Story", icon: <Feather size={16} />, match: (p: string) => p.startsWith("/story") },
 ];
 
 interface SiteHeaderProps {

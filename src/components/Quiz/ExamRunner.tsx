@@ -80,7 +80,8 @@ export function ExamRunner({ set }: ExamRunnerProps) {
     if (!state) return;
     let score = 0;
     state.order.forEach((qIndex, pos) => {
-      if (state.answers[pos] === set.questions[qIndex].answer) score++;
+      const q = set.questions[qIndex];
+      if (q.dropped || state.answers[pos] === q.answer) score++;
     });
     const attempt: QuizAttempt = {
       id: `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 7)}`,

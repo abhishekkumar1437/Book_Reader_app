@@ -35,8 +35,8 @@ export function ResultsView({ set, attempt, best, onRetake }: ResultsViewProps) 
           pos,
           q,
           chosen,
-          correct: chosen === q.answer,
-          unanswered: chosen === null,
+          correct: q.dropped === true || chosen === q.answer,
+          unanswered: chosen === null && q.dropped !== true,
           flagged: attempt.flagged.includes(pos),
         };
       }),
@@ -139,7 +139,9 @@ export function ResultsView({ set, attempt, best, onRetake }: ResultsViewProps) 
                       <Flag size={12} filled /> flagged
                     </span>
                   )}
-                  {skipped ? (
+                  {q.dropped ? (
+                    <span className="flex items-center gap-1 text-emerald-300"><Check size={14} /> Dropped by the exam body · counted correct</span>
+                  ) : skipped ? (
                     <span>Not answered</span>
                   ) : correct ? (
                     <span className="flex items-center gap-1 text-emerald-300"><Check size={14} /> Correct</span>
@@ -151,9 +153,9 @@ export function ResultsView({ set, attempt, best, onRetake }: ResultsViewProps) 
               <p className="mt-2 font-serif text-lg leading-relaxed whitespace-pre-line text-fg">{q.question}</p>
               <ul className="mt-3 space-y-1.5 text-sm">
                 {q.options.map((opt, i) => {
-                  const isAnswer = i === q.answer;
+                  const isAnswer = !q.dropped && i === q.answer;
                   const isChosen = i === chosen;
-                  const cls = isAnswer
+                  const cls = isAnswer || (q.dropped && isChosen)
                     ? "border-emerald-400/40 bg-emerald-400/10 text-emerald-100"
                     : isChosen
                       ? "border-red-400/40 bg-red-400/10 text-red-100"
@@ -163,7 +165,7 @@ export function ResultsView({ set, attempt, best, onRetake }: ResultsViewProps) 
                       <span className="w-5 shrink-0 font-medium">{LETTERS[i]}</span>
                       <span className="flex-1">{opt}</span>
                       {isAnswer && <span className="shrink-0 text-xs">correct answer</span>}
-                      {isChosen && !isAnswer && <span className="shrink-0 text-xs">your answer</span>}
+                      {isChosen && !isAnswer && <span className="shrink-0 text-xs">{q.dropped ? "your answer · counted correct" : "your answer"}</span>}
                     </li>
                   );
                 })}

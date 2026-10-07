@@ -804,3 +804,41 @@ body {
 }
 
 } /* end interview-prep layer */
+
+/* ---------- Story reader: fiction prose, centred and airy ---------- */
+@layer components {
+  .prose--story {
+    --prose-size: 1.125rem;
+    max-width: 70ch;
+    line-height: 1.95;
+  }
+  .prose--story[data-size="s"] { --prose-size: 1rem; }
+  .prose--story[data-size="l"] { --prose-size: 1.25rem; }
+  .prose--story[data-size="xl"] { --prose-size: 1.4rem; }
+  .prose--story p {
+    margin-top: 1.15em;
+    text-wrap: pretty;
+  }
+  /* Scene breaks (`---`) become a centred ornament instead of a rule. */
+  .prose--story hr {
+    border: 0;
+    margin: 2.6em 0;
+    text-align: center;
+  }
+  .prose--story hr::after {
+    content: "✦";
+    color: var(--accent);
+    font-size: 0.9em;
+    letter-spacing: 0.6em;
+    opacity: 0.8;
+  }
+  .prose--story h2,
+  .prose--story h3 {
+    border-top: 0;
+    padding-top: 0;
+    text-align: center;
+  }
+  .prose--story blockquote {
+    font-style: italic;
+  }
+}

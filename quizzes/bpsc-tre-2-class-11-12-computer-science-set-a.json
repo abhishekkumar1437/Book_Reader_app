@@ -1,0 +1,1961 @@
+{
+  "title": "TRE 2.0 (2023) · Class 11–12 Computer Science · Series A",
+  "subject": "BPSC TRE PYQ",
+  "topic": "Complete official question booklet of the BPSC Teacher Recruitment Exam 2.0 for Senior Secondary (Class 11–12) Computer Science, held on 15 December 2023. Part I Language (English 1–8, Hindi 9–30, qualifying), Part II General Studies (31–70) and Part III Computer Science (71–150): computer fundamentals, system software, data structures, C++, networking, security, DBMS and SQL, CPU registers, number systems and Boolean algebra.",
+  "description": "All 150 questions of booklet series A exactly as printed, taken from the booklet BPSC itself published, with answers from the BPSC final answer key of 25 December 2023. Question 104 was deleted by BPSC and scores as correct whatever you mark. Every question has five options: A to C plus 'More than one of the above' and 'None of the above'. Part I is qualifying only in the real exam.",
+  "timeLimitMinutes": 150,
+  "createdAt": "2026-09-25",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "[Part I · English Language · Q.1]\nFill in the blank with a suitable article ('a', 'an', 'the'): There are 30 or 31 days in ________ month.",
+      "options": [
+        "the",
+        "a",
+        "an",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q2",
+      "question": "[Part I · English Language · Q.2]\nFill in the blank with a suitable article ('a', 'an', 'the'): My father is ________ engineer in the Water Works Department.",
+      "options": [
+        "the",
+        "an",
+        "a",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q3",
+      "question": "[Part I · English Language · Q.3]\nWhich of the following is a part of bedroom?",
+      "options": [
+        "Pillow",
+        "Table lamp",
+        "Curtains",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Series A): D."
+    },
+    {
+      "id": "q4",
+      "question": "[Part I · English Language · Q.4]\nWhich of the following is a part of a room?",
+      "options": [
+        "Window",
+        "Ceiling",
+        "Floor",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Series A): D."
+    },
+    {
+      "id": "q5",
+      "question": "[Part I · English Language · Q.5]\nRainy season comes before",
+      "options": [
+        "winter",
+        "spring",
+        "summer",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A. In India the rainy season (monsoon) comes before winter."
+    },
+    {
+      "id": "q6",
+      "question": "[Part I · English Language · Q.6]\nThe eighth month of the year is",
+      "options": [
+        "July",
+        "September",
+        "October",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 4,
+      "explanation": "Official BPSC final answer key (Series A): E. The eighth month is August, which is not listed."
+    },
+    {
+      "id": "q7",
+      "question": "[Part I · English Language · Q.7]\nSister-in-law is",
+      "options": [
+        "husband's sister",
+        "wife's sister",
+        "brother's wife",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Series A): D."
+    },
+    {
+      "id": "q8",
+      "question": "[Part I · English Language · Q.8]\nCousins are",
+      "options": [
+        "maternal",
+        "paternal",
+        "siblings",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Series A): D."
+    },
+    {
+      "id": "q9",
+      "question": "[Part I · Hindi Language · Q.9]\n'चाँदी' शब्द में कौन-सी संज्ञा है?",
+      "options": [
+        "द्रव्यवाचक संज्ञा",
+        "जातिवाचक संज्ञा",
+        "भाववाचक संज्ञा",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q10",
+      "question": "[Part I · Hindi Language · Q.10]\nनिम्नलिखित शब्दों में से कौन-सा 'एकवचन' है?",
+      "options": [
+        "हस्ताक्षर",
+        "छाया",
+        "आँसू",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q11",
+      "question": "[Part I · Hindi Language · Q.11]\nहिन्दी शब्दकोश में 'क्ष' का क्रम किस वर्ण के बाद आता है?",
+      "options": [
+        "त्र के पश्चात्",
+        "ज्ञ के पश्चात्",
+        "क के पश्चात्",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q12",
+      "question": "[Part I · Hindi Language · Q.12]\n\"जिसकी यह पुस्तक है, उसे लौटा दो।\" इस वाक्य में कौन-सा सर्वनाम है?",
+      "options": [
+        "निश्चयवाचक",
+        "संबंधवाचक",
+        "पुरुषवाचक",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q13",
+      "question": "[Part I · Hindi Language · Q.13]\nविशेषण का प्रमुख भेद कौन-सा नहीं है?",
+      "options": [
+        "असार्वनामिक विशेषण",
+        "गुणवाचक विशेषण",
+        "परिमाणवाचक विशेषण",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q14",
+      "question": "[Part I · Hindi Language · Q.14]\nनिम्नलिखित में से कौन-सा अशुद्ध शब्द है?",
+      "options": [
+        "वीभत्स",
+        "लगान",
+        "आगामी",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q15",
+      "question": "[Part I · Hindi Language · Q.15]\nनिम्नलिखित में से कौन-सा शुद्ध वर्तनी वाला शब्द है?",
+      "options": [
+        "क्षत्रिय",
+        "क्षत्रीय",
+        "उज्जवल",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q16",
+      "question": "[Part I · Hindi Language · Q.16]\nनिम्नलिखित में से कौन-सा 'तत्सम' शब्द है?",
+      "options": [
+        "घर",
+        "स्नेह",
+        "छेद",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q17",
+      "question": "[Part I · Hindi Language · Q.17]\nनिम्नलिखित में से कौन-सा विदेशी शब्द है?",
+      "options": [
+        "बाघ",
+        "परीक्षा",
+        "चाय",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q18",
+      "question": "[Part I · Hindi Language · Q.18]\nरचना के आधार पर 'जिन शब्दों के खंड सार्थक न हों' उन्हें कौन-सा शब्द कहा जाता है?",
+      "options": [
+        "रूढ़",
+        "यौगिक",
+        "योगरूढ़",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q19",
+      "question": "[Part I · Hindi Language · Q.19]\nनिम्नलिखित में से किस वाक्य में 'अकर्मक क्रिया' है?",
+      "options": [
+        "उसे मत लजाओ।",
+        "बालिका लजाती है।",
+        "सेवक नदी से गागर भरता है।",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q20",
+      "question": "[Part I · Hindi Language · Q.20]\nनिम्नलिखित में से कौन-सा देशज शब्द है?",
+      "options": [
+        "आवारा",
+        "भौंरा",
+        "परवल",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q21",
+      "question": "[Part I · Hindi Language · Q.21]\nनिम्नलिखित में से कौन-सा शब्द रूढ़ शब्द नहीं है?",
+      "options": [
+        "लकड़ी",
+        "जलधारा",
+        "महर्षि",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Series A): D."
+    },
+    {
+      "id": "q22",
+      "question": "[Part I · Hindi Language · Q.22]\n'खारिज' किस भाषा का शब्द है?",
+      "options": [
+        "अरबी",
+        "फारसी",
+        "तुर्की",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q23",
+      "question": "[Part I · Hindi Language · Q.23]\nअशुद्ध और शुद्ध वर्तनी का कौन-सा युग्म सही नहीं है?",
+      "options": [
+        "कोमलांगिनी—कोमलांगी",
+        "सुश्रूषा—शुश्रूषा",
+        "माहात्म—महात्म्य",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 4,
+      "explanation": "Official BPSC final answer key (Series A): E."
+    },
+    {
+      "id": "q24",
+      "question": "[Part I · Hindi Language · Q.24]\n\"उसका भविष्य उजवल है।\" इस वाक्य में रेखांकित शब्द (उजवल) की शुद्ध वर्तनी कौन-सी है?",
+      "options": [
+        "उज्ज्वल",
+        "उज्वल",
+        "उज्जवल",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q25",
+      "question": "[Part I · Hindi Language · Q.25]\nएक छोटी आकृति का चमकीला वर्ग, जो स्क्रीन पर किसी चिह्न की स्थिति को स्पष्ट करता है, उसे क्या कहते हैं?",
+      "options": [
+        "करसर",
+        "चिप",
+        "कमांड",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q26",
+      "question": "[Part I · Hindi Language · Q.26]\n'कुरुक्षेत्र' के लेखक का क्या नाम है?",
+      "options": [
+        "हरिऔध",
+        "श्रीधर पाठक",
+        "मैथिलीशरण गुप्त",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 4,
+      "explanation": "Official BPSC final answer key (Series A): E."
+    },
+    {
+      "id": "q27",
+      "question": "[Part I · Hindi Language · Q.27]\n\"जसोदा हरि पालनै झुलावै।\nहलरावै दुलराइ मल्हावै, जोइ-सोइ कछु गावै॥\"\nउक्त काव्य-पंक्तियों में कौन-सा रस है?",
+      "options": [
+        "शृंगार",
+        "वीर",
+        "वात्सल्य",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q28",
+      "question": "[Part I · Hindi Language · Q.28]\nहिन्दी भाषा के उद्भव का काल माना जाता है",
+      "options": [
+        "500 ई० पू०",
+        "500 ई०",
+        "1000 ई०",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q29",
+      "question": "[Part I · Hindi Language · Q.29]\nभारतीय काव्यशास्त्र में क्षमाशील, गम्भीर, स्थिरचित्त, स्वाभिमानी एवं दृढ़ प्रतिज्ञ नायक को कहा गया है",
+      "options": [
+        "धीरललित",
+        "धीरोदात्त",
+        "धीर प्रशांत",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q30",
+      "question": "[Part I · Hindi Language · Q.30]\nजिन शब्दों पर लिंग, वचन, कारक का कोई प्रभाव न पड़े, वे कहलाते हैं",
+      "options": [
+        "व्यय",
+        "विकारी",
+        "अविकारी",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q31",
+      "question": "[Part II · General Studies · Q.31]\nThe floor of a rectangular hall has a perimeter of 250 metres. If the cost of painting the four walls at the rate of ₹10 per square metre is ₹15,000, then the height of the hall is",
+      "options": [
+        "7 metres",
+        "16 metres",
+        "6 metres",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C. Wall area = 15000/10 = 1500 m² = perimeter × height = 250h, so h = 6 m."
+    },
+    {
+      "id": "q32",
+      "question": "[Part II · General Studies · Q.32]\nWhich of the following statements is not true?",
+      "options": [
+        "Every natural number is a whole number.",
+        "Every integer is a whole number.",
+        "Every natural number is an integer number.",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q33",
+      "question": "[Part II · General Studies · Q.33]\nThe average of 7 consecutive numbers is 20. The largest of these numbers is",
+      "options": [
+        "20",
+        "21",
+        "23",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C. Seven consecutive numbers with average 20 run from 17 to 23."
+    },
+    {
+      "id": "q34",
+      "question": "[Part II · General Studies · Q.34]\nThe equation ax² + bx + c = 0 has two distinct real roots, if",
+      "options": [
+        "b² – 4ac < 0",
+        "b² – 4ac > 0",
+        "b² – 4ac = 0",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q35",
+      "question": "[Part II · General Studies · Q.35]\nMohan can do a bit of work in 25 days which can be completed by Sohan in 20 days. Both together labour for 5 days and afterward Mohan leaves off. How long will Sohan take to complete the remaining work?",
+      "options": [
+        "20 days",
+        "11 days",
+        "14 days",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B. In 5 days both finish 5(1/25 + 1/20) = 9/20 of the work. Sohan does the remaining 11/20 at 1/20 per day: 11 days."
+    },
+    {
+      "id": "q36",
+      "question": "[Part II · General Studies · Q.36]\nIf X = a² – b², Y = 30 and a + b = 15, then",
+      "options": [
+        "X is lesser than Y if a = b",
+        "X is greater than Y if a > b",
+        "Y is greater than X if a = b",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Series A): D. With a + b = 15, X = (a – b)(a + b) = 15(a – b). If a = b then X = 0 < 30, so both A and C hold: more than one."
+    },
+    {
+      "id": "q37",
+      "question": "[Part II · General Studies · Q.37]\nThe probability that a non-leap year selected at random will contain 53 Sundays is",
+      "options": [
+        "1/7",
+        "2/53",
+        "1/53",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A. A non-leap year has 52 weeks and one extra day, so 53 Sundays happens with probability 1/7."
+    },
+    {
+      "id": "q38",
+      "question": "[Part II · General Studies · Q.38]\nIf 7^(12x + 6) = 49^(3x + 12), then the value of x is",
+      "options": [
+        "3",
+        "4",
+        "7",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A. 49 = 7², so 12x + 6 = 2(3x + 12), giving 6x = 18 and x = 3."
+    },
+    {
+      "id": "q39",
+      "question": "[Part II · General Studies · Q.39]\nMyopia is a disease in which a person cannot see",
+      "options": [
+        "distant objects clearly",
+        "nearby objects clearly",
+        "nearby as well as distant objects clearly",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q40",
+      "question": "[Part II · General Studies · Q.40]\nThe term 'heredity' chiefly refers to",
+      "options": [
+        "anatomy",
+        "meiosis",
+        "genetics",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q41",
+      "question": "[Part II · General Studies · Q.41]\nThe cans in which food is packed are coated with tin and not zinc because",
+      "options": [
+        "tin is more reactive than zinc",
+        "zinc is more reactive than tin",
+        "zinc is costlier than tin",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q42",
+      "question": "[Part II · General Studies · Q.42]\nThe process in which atmospheric carbon dioxide is converted into carbohydrates during photosynthesis is",
+      "options": [
+        "oxidation",
+        "reduction",
+        "hydrolysis",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q43",
+      "question": "[Part II · General Studies · Q.43]\nThe quality of a printer is determined as",
+      "options": [
+        "words per inch",
+        "strike per inch",
+        "dots per inch",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q44",
+      "question": "[Part II · General Studies · Q.44]\nTrachoma disease is related to",
+      "options": [
+        "lungs",
+        "ears",
+        "eyes",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q45",
+      "question": "[Part II · General Studies · Q.45]\nWhich of the following makes use of Newton's third law of motion?",
+      "options": [
+        "Archery",
+        "Space rocket",
+        "Venturimeter",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Series A): D. Both archery (bow recoil) and rockets use action-reaction, so more than one."
+    },
+    {
+      "id": "q46",
+      "question": "[Part II · General Studies · Q.46]\nParticles which can be added to the nucleus of an atom without changing its chemical properties are",
+      "options": [
+        "neutrons",
+        "electrons",
+        "protons",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q47",
+      "question": "[Part II · General Studies · Q.47]\nBefore Elon Musk announced change of the signature Blue Bird logo to Sign 'X' logo, who is regarded as the creator of Twitter's iconic Bird in its final version in 2012?",
+      "options": [
+        "Jack Dorsey",
+        "Martin Grasser",
+        "Noah Glass",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B. Martin Grasser designed the final 2012 version of the Twitter bird."
+    },
+    {
+      "id": "q48",
+      "question": "[Part II · General Studies · Q.48]\nWho is the Director of the famous film Oppenheimer, a film about high-concept science, released this year (2023)?",
+      "options": [
+        "Christopher Nolan",
+        "Guy Ritchie",
+        "Laura McGann",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q49",
+      "question": "[Part II · General Studies · Q.49]\nWhich one of the following has pulled out from hosting the 2026 edition of Commonwealth Games due to huge estimated expenditure on its organization?",
+      "options": [
+        "London, UK",
+        "Kuala Lumpur, Malaysia",
+        "Victoria, Australia",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q50",
+      "question": "[Part II · General Studies · Q.50]\nWhat is the full form of INDIA, a recently formed alliance of opposition political parties?",
+      "options": [
+        "Indian National Developmental Inclusive Alliance",
+        "Indian National Development for Improvement Alliance",
+        "Indian National Developmental Inclusive Association",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q51",
+      "question": "[Part II · General Studies · Q.51]\nWhat message was sent by Chandrayaan-2 lunar orbiter to Chandrayaan-3's lander module when it established contact with it in August 2023?",
+      "options": [
+        "\"Welcome home\"",
+        "\"Chalo chand ke paar chalein\"",
+        "\"Welcome, buddy\"",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C. The orbiter's message was 'Welcome, buddy!'."
+    },
+    {
+      "id": "q52",
+      "question": "[Part II · General Studies · Q.52]\nName the former President of China who crushed the pro-democracy movement in 1989.",
+      "options": [
+        "Mao Tse Tung",
+        "Yang Shangkun",
+        "Jiang Zemin",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q53",
+      "question": "[Part II · General Studies · Q.53]\nWho has been elected for the second term as Ireland's Prime Minister?",
+      "options": [
+        "Sanna Marin",
+        "Robert Abela",
+        "Leo Varadkar",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q54",
+      "question": "[Part II · General Studies · Q.54]\nAfrican Union was made a permanent member in the G-20 Summit held in India. Who is the Chairman of the African Union?",
+      "options": [
+        "Azali Assoumani",
+        "Justin Trudeau",
+        "Ursula von der Leyen",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q55",
+      "question": "[Part II · General Studies · Q.55]\nAs per geographical area, arrange the following physiographic units of India in ascending order:\n1. Central highlands\n2. Great plains\n3. Coastal plains\n4. Northern Mountains\nSelect the correct answer using the codes given below.",
+      "options": [
+        "3, 1, 2, 4",
+        "1, 2, 3, 4",
+        "2, 4, 1, 3",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q56",
+      "question": "[Part II · General Studies · Q.56]\nArrange the following ranges from North to South in sequence:\n1. Ladakh\n2. Karakoram\n3. Pir Panjal\n4. Zanskar\nSelect the correct answer using the codes given below.",
+      "options": [
+        "1, 3, 2, 4",
+        "2, 1, 4, 3",
+        "3, 4, 1, 2",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B. From north to south: Karakoram, Ladakh, Zanskar, Pir Panjal."
+    },
+    {
+      "id": "q57",
+      "question": "[Part II · General Studies · Q.57]\nDuring the monsoon season in India, most of the cyclones have their origin",
+      "options": [
+        "between 8° N and 13° N latitude",
+        "between 10° N and 15° N latitude",
+        "between 16° N and 21° N latitude",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q58",
+      "question": "[Part II · General Studies · Q.58]\nWhich of the following areas is not a landslide-prone area?",
+      "options": [
+        "Western Ghats",
+        "Eastern Ghats",
+        "Himalayan Regions",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q59",
+      "question": "[Part II · General Studies · Q.59]\nWhich of the following coasts of India is most affected by violent tropical cyclones?",
+      "options": [
+        "Malabar",
+        "Coromandel",
+        "Konkan",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q60",
+      "question": "[Part II · General Studies · Q.60]\nWhen running water cuts through clayey soils and makes deep channels, they lead to",
+      "options": [
+        "gully erosion",
+        "sheet erosion",
+        "deforestation",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q61",
+      "question": "[Part II · General Studies · Q.61]\nWhich of the following receives heavy rainfall in the months of October and November?",
+      "options": [
+        "Hills of Garo, Khasi and Jaintia",
+        "Coromandel Coast",
+        "Plateau of Chota Nagpur",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q62",
+      "question": "[Part II · General Studies · Q.62]\nCultivation of fruits and vegetables is called",
+      "options": [
+        "floriculture",
+        "agriculture",
+        "horticulture",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q63",
+      "question": "[Part II · General Studies · Q.63]\nWho provided leadership in the districts of Patna, Ara and Shahabad during the Revolt of 1857 in Bihar?",
+      "options": [
+        "Raj Kumar Shukla",
+        "Namdar Khan",
+        "Kunwar Singh",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q64",
+      "question": "[Part II · General Studies · Q.64]\nThe Partition of Bengal was made effective on",
+      "options": [
+        "14 October, 1905",
+        "15 October, 1905",
+        "16 October, 1905",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q65",
+      "question": "[Part II · General Studies · Q.65]\nThe Quit India Resolution was adopted by the Congress in Bombay on",
+      "options": [
+        "7 August, 1942",
+        "8 August, 1942",
+        "9 August, 1942",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q66",
+      "question": "[Part II · General Studies · Q.66]\nThe British ruled India for a long period due to the",
+      "options": [
+        "liberal policies of the Congress",
+        "imprisonment of Indian leaders",
+        "policy of Divide and Rule",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q67",
+      "question": "[Part II · General Studies · Q.67]\nQueen Victoria's Proclamation was issued on which of the following dates?",
+      "options": [
+        "1 November, 1857",
+        "27 March, 1858",
+        "1 November, 1858",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q68",
+      "question": "[Part II · General Studies · Q.68]\nWhich of the following statements is/are correct?",
+      "options": [
+        "Raja Rammohan Roy was the pioneer of modern education.",
+        "Swami Dayanand proclaimed India for Indians.",
+        "Vivekananda participated in the Parliament of World Religions.",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Series A): D. All three statements are correct, so more than one."
+    },
+    {
+      "id": "q69",
+      "question": "[Part II · General Studies · Q.69]\nWho among the following became India's unofficial Ambassador to England?",
+      "options": [
+        "Surendranath Banerjee",
+        "Dadabhai Naoroji",
+        "Swami Vivekananda",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q70",
+      "question": "[Part II · General Studies · Q.70]\nWho described the Government of India Act, 1935 as a 'Charter of Slavery'?",
+      "options": [
+        "Mahatma Gandhi",
+        "Netaji Subhas Chandra Bose",
+        "Maulana Hasrat Mohani",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 4,
+      "explanation": "Official BPSC final answer key (Series A): E. Jawaharlal Nehru called the 1935 Act a 'Charter of Slavery'; he is not among the options."
+    },
+    {
+      "id": "q71",
+      "question": "[Part III · Computer Science · Q.71]\nThe brain of computer is",
+      "options": [
+        "CPU",
+        "memory",
+        "I/O device",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q72",
+      "question": "[Part III · Computer Science · Q.72]\nIntel 8085 microprocessor is of ________ generation.",
+      "options": [
+        "first",
+        "second",
+        "third",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q73",
+      "question": "[Part III · Computer Science · Q.73]\nThe maximum memory size of third generation microprocessor is",
+      "options": [
+        "4 GB",
+        "16 MB",
+        "16 GB",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q74",
+      "question": "[Part III · Computer Science · Q.74]\nCPU on a single chip is called",
+      "options": [
+        "microprocessor",
+        "microcontroller",
+        "solid-state device",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q75",
+      "question": "[Part III · Computer Science · Q.75]\nComputer on a single chip is called",
+      "options": [
+        "microcontroller",
+        "microprocessor",
+        "assembler",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q76",
+      "question": "[Part III · Computer Science · Q.76]\nWhich one of the following is used for playing video games?",
+      "options": [
+        "Mouse",
+        "Trackball",
+        "Joystick",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Series A): D. Mouse, trackball and joystick are all used for games, so more than one."
+    },
+    {
+      "id": "q77",
+      "question": "[Part III · Computer Science · Q.77]\n________ is used to store softwares that do not update.",
+      "options": [
+        "SRAM",
+        "DRAM",
+        "ROM",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q78",
+      "question": "[Part III · Computer Science · Q.78]\nWhich of the following contains a laser?",
+      "options": [
+        "CD Drive",
+        "RAM",
+        "Hard Disk Drive",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q79",
+      "question": "[Part III · Computer Science · Q.79]\nA computer program that converts an assembly language program into an equivalent machine language program is called",
+      "options": [
+        "compiler",
+        "assembler",
+        "linker",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q80",
+      "question": "[Part III · Computer Science · Q.80]\nA computer program that converts a high-level language program into an equivalent machine language program is called",
+      "options": [
+        "assembler",
+        "compiler",
+        "loader",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q81",
+      "question": "[Part III · Computer Science · Q.81]\nA computer program that translates a high-level language program into machine language program statement-by-statement is called",
+      "options": [
+        "compiler",
+        "loader",
+        "interpreter",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q82",
+      "question": "[Part III · Computer Science · Q.82]\nWhich of the following is not an operating system?",
+      "options": [
+        "Linux",
+        "Windows",
+        "Oracle",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q83",
+      "question": "[Part III · Computer Science · Q.83]\nA software that runs on a computer hardware and serves as a platform for other softwares to run is called",
+      "options": [
+        "system software",
+        "operating system",
+        "application software",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q84",
+      "question": "[Part III · Computer Science · Q.84]\nWhich of the following is not a system tool?",
+      "options": [
+        "Scandisk",
+        "Format",
+        "Folder",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q85",
+      "question": "[Part III · Computer Science · Q.85]\nThe key/keys used to delete a file without allowing it to be stored in the recycle bin is/are",
+      "options": [
+        "Delete",
+        "Shift + Delete",
+        "Ctrl + Delete",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q86",
+      "question": "[Part III · Computer Science · Q.86]\nThe three main components of a digital computer system are",
+      "options": [
+        "memory, I/O, DMA",
+        "ALU, CPU, memory",
+        "memory, CPU, I/O",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q87",
+      "question": "[Part III · Computer Science · Q.87]\nFFFF will be the last memory location in a memory of size",
+      "options": [
+        "16K",
+        "32K",
+        "64K",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C. FFFF₁₆ = 65535, so addresses 0 to 65535 = 64K locations."
+    },
+    {
+      "id": "q88",
+      "question": "[Part III · Computer Science · Q.88]\nThe cost of storing a bit is minimum in",
+      "options": [
+        "cache",
+        "register",
+        "magnetic tape",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q89",
+      "question": "[Part III · Computer Science · Q.89]\nTera means",
+      "options": [
+        "2²⁰",
+        "2⁴⁰",
+        "2³⁰",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B. Tera = 2⁴⁰ (about 10¹²)."
+    },
+    {
+      "id": "q90",
+      "question": "[Part III · Computer Science · Q.90]\nWhich of the following system softwares always resides in main memory?",
+      "options": [
+        "Loader",
+        "Linker",
+        "Assembler",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q91",
+      "question": "[Part III · Computer Science · Q.91]\nThe postfix expression equivalent of the prefix expression * + a b – c d is",
+      "options": [
+        "ab + cd – *",
+        "abcd + – *",
+        "ab + cd * –",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A. Prefix * + a b – c d is (a + b) * (c – d), whose postfix is ab+cd–*."
+    },
+    {
+      "id": "q92",
+      "question": "[Part III · Computer Science · Q.92]\nWhich data structure is used to convert infix notation to postfix notation?",
+      "options": [
+        "Stack",
+        "Queue",
+        "Tree",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q93",
+      "question": "[Part III · Computer Science · Q.93]\nThe data structure in which data are added at the rear and deleted from the front is called",
+      "options": [
+        "stack",
+        "queue",
+        "linked list",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q94",
+      "question": "[Part III · Computer Science · Q.94]\nQueue data structure uses",
+      "options": [
+        "FIFO",
+        "LIFO",
+        "LILO",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Series A): D. A queue is first-in first-out, which is the same as last-in last-out, so more than one."
+    },
+    {
+      "id": "q95",
+      "question": "[Part III · Computer Science · Q.95]\nStack data structure uses",
+      "options": [
+        "FIFO",
+        "LIFO",
+        "LILO",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q96",
+      "question": "[Part III · Computer Science · Q.96]\nA constructor is called whenever",
+      "options": [
+        "an object is created",
+        "a class is created",
+        "a class is declared",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q97",
+      "question": "[Part III · Computer Science · Q.97]\nAll members of a structure in C++ are ________ by default.",
+      "options": [
+        "public",
+        "private",
+        "protected",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q98",
+      "question": "[Part III · Computer Science · Q.98]\nIn C++, all members of a class are ________ by default.",
+      "options": [
+        "public",
+        "private",
+        "protected",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q99",
+      "question": "[Part III · Computer Science · Q.99]\nIn C++, what does a class hold?",
+      "options": [
+        "Array",
+        "Data",
+        "Data and functions",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Series A): D. A class holds both data and functions, so 'Data' and 'Data and functions' both apply: more than one."
+    },
+    {
+      "id": "q100",
+      "question": "[Part III · Computer Science · Q.100]\nThe number of access specifiers in a class of C++ is",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q101",
+      "question": "[Part III · Computer Science · Q.101]\nWhich of the following is used to define the members of a class externally in C++?",
+      "options": [
+        ":",
+        "::",
+        "#",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q102",
+      "question": "[Part III · Computer Science · Q.102]\nWhich concept of C++ is used to reuse the written code?",
+      "options": [
+        "Polymorphism",
+        "Inheritance",
+        "Encapsulation",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q103",
+      "question": "[Part III · Computer Science · Q.103]\nWhat will be the output of the following program fragment?\nint i = 10;\nvoid main( )\n{\n    int i = 20;\n    {\n        int i = 30;\n        printf(\"%d, %d\", i, ::i);\n    }\n}",
+      "options": [
+        "30, 10",
+        "30, 20",
+        "20, 30",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A. The inner i is 30 and ::i is the global i = 10, so the output is 30,10."
+    },
+    {
+      "id": "q104",
+      "question": "[Part III · Computer Science · Q.104]\nChoose the correct statement about inline function in C++.",
+      "options": [
+        "It speeds up the execution.",
+        "It slows down the execution.",
+        "It decreases the code size.",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "dropped": true,
+      "explanation": "Question deleted in the official BPSC final answer key (Series A). Deleted by BPSC in the final key. Every candidate was awarded the marks for this question."
+    },
+    {
+      "id": "q105",
+      "question": "[Part III · Computer Science · Q.105]\nWhat will be the output of the following?\nint a = 5;\ncout << \"FIRST\" << (a << 2) << \"SECOND\";",
+      "options": [
+        "FIRST 52 SECOND",
+        "FIRST 20 SECOND",
+        "SECOND 25 FIRST",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 4,
+      "explanation": "Official BPSC final answer key (Series A): E. a << 2 = 20, and the code prints FIRST20SECOND with no spaces, so BPSC keyed 'none of the above'."
+    },
+    {
+      "id": "q106",
+      "question": "[Part III · Computer Science · Q.106]\ncout in C++ stands for",
+      "options": [
+        "class output",
+        "character output",
+        "common output",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q107",
+      "question": "[Part III · Computer Science · Q.107]\nGroup of instructions that directs a computer is called",
+      "options": [
+        "memory",
+        "storage",
+        "program",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q108",
+      "question": "[Part III · Computer Science · Q.108]\nA computer program consists of",
+      "options": [
+        "system flowchart",
+        "program flowchart",
+        "algorithms written in computer language",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q109",
+      "question": "[Part III · Computer Science · Q.109]\nThe topology with highest reliability is",
+      "options": [
+        "star",
+        "ring",
+        "mesh",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q110",
+      "question": "[Part III · Computer Science · Q.110]\nEnd-to-end connectivity is provided from host-to-host in",
+      "options": [
+        "network layer",
+        "transport layer",
+        "session layer",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q111",
+      "question": "[Part III · Computer Science · Q.111]\nThe ________ measures the number of lost or garbled messages as a fraction of the total sent in the sampling period.",
+      "options": [
+        "residual error rate",
+        "transfer failure probability",
+        "connection release failure probability",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q112",
+      "question": "[Part III · Computer Science · Q.112]\nA high-speed communication equipment typically would not be needed for",
+      "options": [
+        "e-mail",
+        "transferring large volume of data",
+        "supporting communication between nodes in a LAN",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q113",
+      "question": "[Part III · Computer Science · Q.113]\nA ________ topology uses a single connection to connect all devices together.",
+      "options": [
+        "bus",
+        "star",
+        "ring",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q114",
+      "question": "[Part III · Computer Science · Q.114]\nA ________ is used to connect networking devices that are in a very close geographic area such as a floor of a building.",
+      "options": [
+        "WAN",
+        "LAN",
+        "MAN",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q115",
+      "question": "[Part III · Computer Science · Q.115]\nIn computer network, what is the size of an IP address in IPv4?",
+      "options": [
+        "8 bits",
+        "16 bits",
+        "32 bits",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q116",
+      "question": "[Part III · Computer Science · Q.116]\nWhat is the size of a MAC address in computer network?",
+      "options": [
+        "32 bits",
+        "16 bits",
+        "48 bits",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q117",
+      "question": "[Part III · Computer Science · Q.117]\nWhat is the name given to the act of gaining illegal entry to computer files through remote terminals or microcomputers?",
+      "options": [
+        "Hacking",
+        "Decoding",
+        "Beating the system",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q118",
+      "question": "[Part III · Computer Science · Q.118]\nA computer virus is a software program which has the essential ability to",
+      "options": [
+        "damage data",
+        "damage program",
+        "clone itself",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Series A): D. The defining property of a virus is that it replicates (clones) itself."
+    },
+    {
+      "id": "q119",
+      "question": "[Part III · Computer Science · Q.119]\nCopying computer program/software without the permission of its authors is called",
+      "options": [
+        "larceny",
+        "software piracy",
+        "highway robbery",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q120",
+      "question": "[Part III · Computer Science · Q.120]\nA hard disk becomes totally inaccessible when a computer virus corrupts",
+      "options": [
+        "partition table",
+        "file allocation table",
+        "root directory",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q121",
+      "question": "[Part III · Computer Science · Q.121]\nAn attribute of one table matching the primary key of another table is called as",
+      "options": [
+        "foreign key",
+        "secondary key",
+        "candidate key",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q122",
+      "question": "[Part III · Computer Science · Q.122]\nIf every non-key attribute is fully dependent on the primary key, then the relation will be in",
+      "options": [
+        "First Normal Form (1NF)",
+        "Second Normal Form (2NF)",
+        "Third Normal Form (3NF)",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q123",
+      "question": "[Part III · Computer Science · Q.123]\nIn relational database, the data type of values in each column of a table is called",
+      "options": [
+        "attribute",
+        "domain",
+        "relation",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q124",
+      "question": "[Part III · Computer Science · Q.124]\nIn relational database, the number of attributes of a relation is called the ________ of relation.",
+      "options": [
+        "domain",
+        "degree",
+        "cardinality",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q125",
+      "question": "[Part III · Computer Science · Q.125]\nWhich of the following SQL commands is used to change the attribute values of one or more rows in a table?",
+      "options": [
+        "Update",
+        "Insert",
+        "Alter",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q126",
+      "question": "[Part III · Computer Science · Q.126]\nTo retrieve information from a database, which of the following SQL commands is used?",
+      "options": [
+        "Display",
+        "Show",
+        "Select",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q127",
+      "question": "[Part III · Computer Science · Q.127]\nWhich of the following SQL commands is used to modify the structure of a table?",
+      "options": [
+        "Alter",
+        "Modify",
+        "Update",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q128",
+      "question": "[Part III · Computer Science · Q.128]\nWhich of the following SQL keywords is used to display data from a table based on a certain pattern?",
+      "options": [
+        "IN",
+        "LIKE",
+        "BETWEEN",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q129",
+      "question": "[Part III · Computer Science · Q.129]\nDegree and cardinality of a relation in a relational database are 4 and 3 respectively. If 3 attributes and 4 tuples are added to the relation, what will be its new cardinality and degree?",
+      "options": [
+        "7, 6",
+        "7, 7",
+        "8, 6",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B. Adding 3 attributes makes the degree 7 and adding 4 tuples makes the cardinality 7."
+    },
+    {
+      "id": "q130",
+      "question": "[Part III · Computer Science · Q.130]\nWhich SQL command is used to remove a table from a database?",
+      "options": [
+        "DELETE",
+        "DROP",
+        "ERASE",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q131",
+      "question": "[Part III · Computer Science · Q.131]\nThe register that contains the address of the next instruction to be executed is called",
+      "options": [
+        "program counter",
+        "instruction register",
+        "accumulator",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q132",
+      "question": "[Part III · Computer Science · Q.132]\nThe register that contains the instruction that is being executed is called",
+      "options": [
+        "accumulator",
+        "program counter",
+        "instruction register",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q133",
+      "question": "[Part III · Computer Science · Q.133]\nThe register which holds the address of the location of memory to and from which data are to be transferred is known as",
+      "options": [
+        "index register",
+        "memory address register",
+        "memory buffer register",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q134",
+      "question": "[Part III · Computer Science · Q.134]\nA storage device used to compensate the difference in flow of data is known as",
+      "options": [
+        "main memory",
+        "auxiliary memory",
+        "buffer",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q135",
+      "question": "[Part III · Computer Science · Q.135]\nMemory in which any location can be reached in a fixed amount of time after specifying its address is called",
+      "options": [
+        "Sequential Access Memory",
+        "Random Access Memory",
+        "Secondary Memory",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q136",
+      "question": "[Part III · Computer Science · Q.136]\nIf (X567)₈ + (2YX5)₈ = (71YX)₈, then the values of X and Y are",
+      "options": [
+        "4, 3",
+        "3, 3",
+        "4, 4",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A. 4567₈ + 2345₈ = 7134₈, so X = 4 and Y = 3."
+    },
+    {
+      "id": "q137",
+      "question": "[Part III · Computer Science · Q.137]\nThe range of the numbers that can be represented in 8-bit using 2's complement representation is",
+      "options": [
+        "–128 to +128",
+        "–127 to +127",
+        "–128 to +127",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q138",
+      "question": "[Part III · Computer Science · Q.138]\nIf (11X1Y)₈ = (12C9)₁₆, then the values of X and Y are",
+      "options": [
+        "5, 1",
+        "5, 7",
+        "3, 1",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C. 12C9₁₆ = 4809 = 11311₈, so X = 3 and Y = 1."
+    },
+    {
+      "id": "q139",
+      "question": "[Part III · Computer Science · Q.139]\nWhich of the following 4-bit numbers equals its 2's complement?",
+      "options": [
+        "1010",
+        "0101",
+        "1000",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C. 1000 is its own 2's complement (0111 + 1 = 1000)."
+    },
+    {
+      "id": "q140",
+      "question": "[Part III · Computer Science · Q.140]\nThe number of 1's in the binary representation of the value of the decimal expression 16³ × 9 + 16² × 7 + 16 × 5 + 3 is",
+      "options": [
+        "15",
+        "9",
+        "12",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B. The value is 9753₁₆ = 1001 0111 0101 0011, which has nine 1's."
+    },
+    {
+      "id": "q141",
+      "question": "[Part III · Computer Science · Q.141]\nThe Boolean expression x + x'y equals",
+      "options": [
+        "x + y",
+        "x + xy",
+        "y + yx",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A. x + x'y = x + y (absorption)."
+    },
+    {
+      "id": "q142",
+      "question": "[Part III · Computer Science · Q.142]\nThe Boolean expression AB + AB' + A'C + AC is independent of Boolean variable",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B. AB + AB' = A and A'C + AC = C, so the expression is A + C, independent of B."
+    },
+    {
+      "id": "q143",
+      "question": "[Part III · Computer Science · Q.143]\nThe Boolean expression A + BC equals",
+      "options": [
+        "(A' + B)(A' + C)",
+        "(A + B)(A' + C)",
+        "(A + B)(A + C)",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C. Distributive law: A + BC = (A + B)(A + C)."
+    },
+    {
+      "id": "q144",
+      "question": "[Part III · Computer Science · Q.144]\nThe Boolean expression x + xy will be equal to",
+      "options": [
+        "x",
+        "y",
+        "x + y",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q145",
+      "question": "[Part III · Computer Science · Q.145]\nThe Boolean expression x(x + y) is equal to",
+      "options": [
+        "x",
+        "y",
+        "xy",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q146",
+      "question": "[Part III · Computer Science · Q.146]\nIf x is a Boolean variable, then (((x')')')' will be",
+      "options": [
+        "x'",
+        "x",
+        "x + x'",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B. Four complements cancel out, leaving x."
+    },
+    {
+      "id": "q147",
+      "question": "[Part III · Computer Science · Q.147]\nIn two-valued Boolean algebra, the maximum number of Boolean functions for two variables will be",
+      "options": [
+        "8",
+        "12",
+        "16",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C. Two variables give 2^(2²) = 16 Boolean functions."
+    },
+    {
+      "id": "q148",
+      "question": "[Part III · Computer Science · Q.148]\nSimplified Boolean function of Boolean function F = A'C + A'B + AB'C + BC is",
+      "options": [
+        "F = C + A'B",
+        "F = A'B + B'C",
+        "F = BC + A'B",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A. A'C + A'B + AB'C + BC simplifies to C + A'B."
+    },
+    {
+      "id": "q149",
+      "question": "[Part III · Computer Science · Q.149]\nWhich of the following logic gates is called a universal gate?",
+      "options": [
+        "AND",
+        "OR",
+        "NAND",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q150",
+      "question": "[Part III · Computer Science · Q.150]\nThe minimum number of NAND gates required to implement the Boolean function f = x'y + xy' is",
+      "options": [
+        "3",
+        "4",
+        "6",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B. XOR needs a minimum of 4 NAND gates."
+    }
+  ]
+}

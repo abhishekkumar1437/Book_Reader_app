@@ -1,0 +1,1964 @@
+{
+  "title": "TRE 2.0 (2023) · Class 9–10 Computer · Series A",
+  "subject": "BPSC TRE PYQ",
+  "topic": "Complete official question booklet of the BPSC Teacher Recruitment Exam 2.0 for Secondary (Class 9–10) Computer teacher, held on 8 December 2023. Part I Language (English 1–8, Hindi 9–30, qualifying), Part II General Studies (31–70) and Part III Computer (71–150): computer fundamentals, C++ and OOP, data structures, DBMS and SQL, Boolean logic and networking.",
+  "description": "All 150 questions of booklet series A exactly as printed, taken from the booklet BPSC itself published, with answers from the BPSC final answer key of 26 December 2023. Questions 80, 82, 83 and 85 were deleted by BPSC and score as correct whatever you mark. Every question has five options: A to C plus 'More than one of the above' and 'None of the above'. Part I is qualifying only in the real exam.",
+  "timeLimitMinutes": 150,
+  "createdAt": "2026-09-25",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "[Part I · English Language · Q.1]\nFill in the blank with a suitable article ('a', 'an', 'the'): In this school, all ________ students are given free education.",
+      "options": [
+        "an",
+        "a",
+        "the",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q2",
+      "question": "[Part I · English Language · Q.2]\nFill in the blank with a suitable article ('a', 'an', 'the'): I have a friend in Mumbai who is ________ actress.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q3",
+      "question": "[Part I · English Language · Q.3]\nWhich of the following is not a river?",
+      "options": [
+        "Bay of Bengal",
+        "Godavari",
+        "Ganga",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q4",
+      "question": "[Part I · English Language · Q.4]\nWhich of the following is not a part of drawing room?",
+      "options": [
+        "Washing machine",
+        "Chimney",
+        "Sofa set",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Series A): D."
+    },
+    {
+      "id": "q5",
+      "question": "[Part I · English Language · Q.5]\nToday is Sunday. The day before yesterday was",
+      "options": [
+        "Tuesday",
+        "Friday",
+        "Thursday",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B. Today is Sunday, yesterday Saturday, the day before yesterday Friday."
+    },
+    {
+      "id": "q6",
+      "question": "[Part I · English Language · Q.6]\nNovember comes after the month of",
+      "options": [
+        "September",
+        "December",
+        "January",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 4,
+      "explanation": "Official BPSC final answer key (Series A): E. November comes after October, which is not listed."
+    },
+    {
+      "id": "q7",
+      "question": "[Part I · English Language · Q.7]\nHusband's brother is",
+      "options": [
+        "cousin",
+        "son",
+        "brother-in-law",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q8",
+      "question": "[Part I · English Language · Q.8]\nMother's parents are",
+      "options": [
+        "son-in-laws",
+        "maternal grandparents",
+        "paternal grandparents",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q9",
+      "question": "[Part I · Hindi Language · Q.9]\nनिम्नलिखित में से कौन-सा 'प्रत्यय-रहित' शब्द है?",
+      "options": [
+        "झुकाव",
+        "भावविह्वल",
+        "उल्लेखनीय",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q10",
+      "question": "[Part I · Hindi Language · Q.10]\nभाषा की उपयुक्त परिभाषा है",
+      "options": [
+        "विचार या भाव प्रकट करने वाला सार्थक ध्वनिसमूह भाषा कहलाता है",
+        "विचार या भाव को लिपि-चिह्नों में प्रकट करने को भाषा कहते हैं",
+        "विचार या भाव प्रकट करने का साधन भाषा है",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q11",
+      "question": "[Part I · Hindi Language · Q.11]\nस्वर के कितने प्रकार हैं?",
+      "options": [
+        "दो",
+        "तीन",
+        "चार",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q12",
+      "question": "[Part I · Hindi Language · Q.12]\nह्रस्व स्वर कौन-सा है?",
+      "options": [
+        "अ",
+        "आ",
+        "ई",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q13",
+      "question": "[Part I · Hindi Language · Q.13]\nउच्चारण के आधार पर व्यंजनों का वर्गीकरण कितने भागों में किया जा सकता है?",
+      "options": [
+        "छः",
+        "सात",
+        "आठ",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q14",
+      "question": "[Part I · Hindi Language · Q.14]\n'अल्पप्राण' ध्वनि कौन-सी है?",
+      "options": [
+        "ख",
+        "च",
+        "छ",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q15",
+      "question": "[Part I · Hindi Language · Q.15]\n'घोष' ध्वनि कौन-सी है?",
+      "options": [
+        "ग",
+        "ज",
+        "ध",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Series A): D."
+    },
+    {
+      "id": "q16",
+      "question": "[Part I · Hindi Language · Q.16]\nस्पर्शी व्यंजन है",
+      "options": [
+        "प",
+        "फ",
+        "म",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Series A): D."
+    },
+    {
+      "id": "q17",
+      "question": "[Part I · Hindi Language · Q.17]\n'अग्नि' शब्द का विशेषण है",
+      "options": [
+        "आगृही",
+        "आग्नेय",
+        "आग्निक",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q18",
+      "question": "[Part I · Hindi Language · Q.18]\nप्रकंपी व्यंजन है",
+      "options": [
+        "श",
+        "स",
+        "र",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q19",
+      "question": "[Part I · Hindi Language · Q.19]\nअर्ध स्वर है",
+      "options": [
+        "य",
+        "व",
+        "ड़",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Series A): D."
+    },
+    {
+      "id": "q20",
+      "question": "[Part I · Hindi Language · Q.20]\nचवर्ग का व्यंजन है",
+      "options": [
+        "छ्",
+        "ज्",
+        "झ्",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Series A): D."
+    },
+    {
+      "id": "q21",
+      "question": "[Part I · Hindi Language · Q.21]\n(क) केकी, (ख) विहंग, (ग) खग, (घ) पिक विकल्पों में से कौन-सा युग्म 'पक्षी' के पर्याय का है?",
+      "options": [
+        "(क) और (ख)",
+        "(ख) और (ग)",
+        "(ग) और (घ)",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q22",
+      "question": "[Part I · Hindi Language · Q.22]\nविलोम शब्द का कौन-सा युग्म सही है?",
+      "options": [
+        "कापुरुष–कायर",
+        "कुत्सा–निंदा",
+        "सकल–विकल",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Series A): D."
+    },
+    {
+      "id": "q23",
+      "question": "[Part I · Hindi Language · Q.23]\nनिम्नलिखित में से कौन-सा वाक्य अशुद्ध है?",
+      "options": [
+        "यह कहना आपकी गलती है।",
+        "चरखा चलाना चाहिए।",
+        "मुझसे यह काम संभव नहीं।",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 4,
+      "explanation": "Official BPSC final answer key (Series A): E."
+    },
+    {
+      "id": "q24",
+      "question": "[Part I · Hindi Language · Q.24]\nरचना के आधार पर कौन-सा विकल्प वाक्य का भेद नहीं है?",
+      "options": [
+        "उपवाक्य",
+        "सरल वाक्य",
+        "संयुक्त वाक्य",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q25",
+      "question": "[Part I · Hindi Language · Q.25]\nजिन शब्दों से न्यूनता, लघुता, हीनता या तुच्छता का बोध हो, उसे क्या कहते हैं?",
+      "options": [
+        "ऊनार्थक शब्द",
+        "एकार्थी शब्द",
+        "अनेकार्थी शब्द",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q26",
+      "question": "[Part I · Hindi Language · Q.26]\n'जिसे बुलाया न गया हो' वाक्यांश के लिए प्रयुक्त एक शब्द क्या होगा?",
+      "options": [
+        "अनासक्त",
+        "अदेय",
+        "अनाहूत",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q27",
+      "question": "[Part I · Hindi Language · Q.27]\nसंज्ञा की माप-तौल का बोध कराने वाले विशेषण कहलाते हैं",
+      "options": [
+        "संख्यावाचक",
+        "परिमाणवाचक",
+        "सार्वनामिक",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q28",
+      "question": "[Part I · Hindi Language · Q.28]\nरचना के आधार पर 'जल' शब्द किस कोटि का है?",
+      "options": [
+        "रूढ़ शब्द",
+        "यौगिक शब्द",
+        "योगरूढ़ शब्द",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q29",
+      "question": "[Part I · Hindi Language · Q.29]\nनिम्नलिखित में से कौन-सा मात्रिक छन्द है?",
+      "options": [
+        "दोहा",
+        "सोरठा",
+        "इंद्रवज्रा",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Series A): D."
+    },
+    {
+      "id": "q30",
+      "question": "[Part I · Hindi Language · Q.30]\n\"उदित उदयगिरि मंच पर रघुवर बाल पतंग।\nबिकसे संत सरोज सब हरषे लोचन भृंग॥\"\nउपर्युक्त दोहे में कौन-सा अलंकार है?",
+      "options": [
+        "रूपक",
+        "उपमा",
+        "उत्प्रेक्षा",
+        "उपर्युक्त में से एक से अधिक",
+        "उपर्युक्त में से कोई नहीं"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q31",
+      "question": "[Part II · General Studies · Q.31]\nThe cost of 5 bats and 18 balls is ₹6,500 and the cost of 2 bats and 20 balls is ₹4,200. What are the costs of one bat and one ball respectively?",
+      "options": [
+        "₹850, ₹125",
+        "₹630, ₹115",
+        "₹780, ₹150",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A. Solving 5b + 18l = 6500 and 2b + 20l = 4200 gives b = 850 and l = 125."
+    },
+    {
+      "id": "q32",
+      "question": "[Part II · General Studies · Q.32]\nA shopkeeper purchases an item at ₹615 and sells it at ₹820. What is his percentage profit?",
+      "options": [
+        "25%",
+        "33.33%",
+        "35.50%",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B. Profit = 205 on 615 = 33.33%."
+    },
+    {
+      "id": "q33",
+      "question": "[Part II · General Studies · Q.33]\nA hacker finds that the ATM PIN of a person has first two digits ranging from 3 to 8, and the fourth digit is either 0 or 9. How many attempts must the hacker try in order to decode the PIN?",
+      "options": [
+        "48",
+        "24",
+        "720",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C. 6 × 6 choices for the first two digits, 10 for the third, 2 for the fourth: 720."
+    },
+    {
+      "id": "q34",
+      "question": "[Part II · General Studies · Q.34]\nThe lengths of two sides of a triangle are 8 cm and 9 cm, and its area is 12√5 cm². What is the length of the third side?",
+      "options": [
+        "5 cm",
+        "9 cm",
+        "7 cm",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C. With third side 7: s = 12, area = √(12 × 4 × 3 × 5) = √720 = 12√5."
+    },
+    {
+      "id": "q35",
+      "question": "[Part II · General Studies · Q.35]\nThere are 50 numbers. Each number is subtracted from 53, and the mean of the numbers so obtained is found to be –3.5. The mean of the given numbers is",
+      "options": [
+        "56.5",
+        "53.5",
+        "49.5",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A. 53 – mean = –3.5, so the mean is 56.5."
+    },
+    {
+      "id": "q36",
+      "question": "[Part II · General Studies · Q.36]\nThe ratio of the ages of two brothers is 4 : 3. If the elder brother is 6 years older than the younger one, then their ages (in years) are",
+      "options": [
+        "24, 18",
+        "36, 30",
+        "15, 9",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A. 4k – 3k = 6 gives k = 6: ages 24 and 18."
+    },
+    {
+      "id": "q37",
+      "question": "[Part II · General Studies · Q.37]\nThe value of (1 – 1/2)(1 – 1/3)(1 – 1/4) … (1 – 1/n) is",
+      "options": [
+        "(n – 1)/n",
+        "1/n",
+        "1/(n + 1)",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B. The product telescopes: (1/2)(2/3)(3/4)…((n – 1)/n) = 1/n."
+    },
+    {
+      "id": "q38",
+      "question": "[Part II · General Studies · Q.38]\nThe quadratic equation with roots –1 and 4 is",
+      "options": [
+        "x² – 3x – 4 = 0",
+        "x² + 3x + 3 = 0",
+        "x² – 4x + 1 = 0",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A. Sum of roots 3, product –4: x² – 3x – 4 = 0."
+    },
+    {
+      "id": "q39",
+      "question": "[Part II · General Studies · Q.39]\nThe Sun observation point of Aditya-L1 satellite is",
+      "options": [
+        "L1",
+        "L2",
+        "L3",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q40",
+      "question": "[Part II · General Studies · Q.40]\nGinger is an underground stem and not a root because",
+      "options": [
+        "it stores food material",
+        "it has nodes and internodes",
+        "it lacks chlorophyll",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q41",
+      "question": "[Part II · General Studies · Q.41]\nThe focal length of a convex lens is f_L = 10 cm. On immersing in water, it will act as a",
+      "options": [
+        "convex lens of f_L = 10 cm",
+        "concave lens of f_L = 10 cm",
+        "convex lens of f_L > 10 cm",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C. In water the refractive index difference is smaller, so the lens stays convex with a longer focal length."
+    },
+    {
+      "id": "q42",
+      "question": "[Part II · General Studies · Q.42]\nThough water is transparent to visible light, it is not possible to see distant objects in fog which consists of fine drops of water. This is so because",
+      "options": [
+        "fine drops of water are opaque to visible light",
+        "most of the light is scattered to create apparent opacity",
+        "light rays suffer total internal reflection and so are unable to reach the observer's eyes",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q43",
+      "question": "[Part II · General Studies · Q.43]\nMonochromatic light enters from one medium to the other. Which one of the following properties does not change?",
+      "options": [
+        "Frequency",
+        "Amplitude",
+        "Velocity",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q44",
+      "question": "[Part II · General Studies · Q.44]\nThe speed of an electron in the orbit of the hydrogen atom in the ground state is",
+      "options": [
+        "c",
+        "c/2",
+        "c/137",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C. The ground-state speed is c/137 (the fine-structure constant times c)."
+    },
+    {
+      "id": "q45",
+      "question": "[Part II · General Studies · Q.45]\nA blackbody radiates energy at the rate of E watt per metre² at a high temperature T K. When the temperature is reduced to T/3 K, the radiant energy (in watt per metre²) will be",
+      "options": [
+        "E/16",
+        "E/27",
+        "E/81",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C. Radiated energy varies as T⁴, so reducing T to T/3 gives E/81."
+    },
+    {
+      "id": "q46",
+      "question": "[Part II · General Studies · Q.46]\nThe acid which can destroy the colour of acidic KMnO₄ is",
+      "options": [
+        "CH₃COOH",
+        "C₆H₈O₇",
+        "CH₃CH₂COOH",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q47",
+      "question": "[Part II · General Studies · Q.47]\nWho was the writer of 'Banglar Mati, Banglar Jal', which was originally a protest song against the Partition of Bengal in 1905 by Lord Curzon, and for which the West Bengal Assembly passed a resolution as the new State Anthem recently?",
+      "options": [
+        "Kazi Nazrul Islam",
+        "Rabindranath Tagore",
+        "Sukanta Bhattacharya",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q48",
+      "question": "[Part II · General Studies · Q.48]\nWho is the architect of the new Parliament of India building inaugurated recently?",
+      "options": [
+        "Bimal Patel",
+        "Rahul Mehrotra",
+        "Yogesh Kapoor",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q49",
+      "question": "[Part II · General Studies · Q.49]\nWhich one of the following Indian films was screened at the 76th Cannes Film Festival in May 2023?",
+      "options": [
+        "Anurag Kashyap's Kennedy",
+        "Kanu Behl's Agra",
+        "Neeraj Pandey's Khakee",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Series A): D."
+    },
+    {
+      "id": "q50",
+      "question": "[Part II · General Studies · Q.50]\nAzali Assoumani, who attended the G20 Summit in New Delhi as the current Chairperson of the African Union which has become the newest member of G20, is the President of which country in the African Union?",
+      "options": [
+        "Republic of the Congo",
+        "Gabon",
+        "Comoros",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q51",
+      "question": "[Part II · General Studies · Q.51]\nWhen is the 'Human Rights Day' celebrated annually?",
+      "options": [
+        "10th November",
+        "10th December",
+        "24th October",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q52",
+      "question": "[Part II · General Studies · Q.52]\nWho was the founder of 'Indian National Army (INA)'?",
+      "options": [
+        "Subhash Chandra Bose",
+        "Mohan Singh",
+        "Lala Lajpat Rai",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q53",
+      "question": "[Part II · General Studies · Q.53]\n'Tana Bhagat Movement' was related to",
+      "options": [
+        "Dalit Movement",
+        "Tribal Movement",
+        "Peasant Movement",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q54",
+      "question": "[Part II · General Studies · Q.54]\nIn which State is 'Raksha Bandhan' celebrated as 'Tree Safety Day'?",
+      "options": [
+        "Madhya Pradesh",
+        "Uttar Pradesh",
+        "Bihar",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q55",
+      "question": "[Part II · General Studies · Q.55]\nIn which of the following states is black soil found?",
+      "options": [
+        "Karnataka",
+        "Gujarat",
+        "Uttarakhand",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Series A): D. Black soil occurs in both Karnataka and Gujarat, so more than one."
+    },
+    {
+      "id": "q56",
+      "question": "[Part II · General Studies · Q.56]\nHow many types of species of flora and fauna are there in India?",
+      "options": [
+        "81000 species of fauna and 47000 species of flora",
+        "70000 species of fauna and 50000 species of flora",
+        "50000 species of fauna and 40000 species of flora",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q57",
+      "question": "[Part II · General Studies · Q.57]\nMinerals are deposited and accumulated in the strata of which of the following rocks?",
+      "options": [
+        "Sedimentary rocks",
+        "Metamorphic rocks",
+        "Igneous rocks",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q58",
+      "question": "[Part II · General Studies · Q.58]\nWhich one of the following is a leguminous crop?",
+      "options": [
+        "Pulse",
+        "Jowar",
+        "Millet",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q59",
+      "question": "[Part II · General Studies · Q.59]\nWhich two of the following extreme locations are connected by the East-West Corridor?",
+      "options": [
+        "Mumbai and Nagpur",
+        "Mumbai and Kolkata",
+        "Silchar and Porbandar",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q60",
+      "question": "[Part II · General Studies · Q.60]\nStalactite and stalagmite structures are formed by",
+      "options": [
+        "wind action",
+        "underground water",
+        "snow action",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q61",
+      "question": "[Part II · General Studies · Q.61]\nApril 22 is celebrated as the",
+      "options": [
+        "World Earth Day",
+        "World Health Day",
+        "World Ozone Day",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q62",
+      "question": "[Part II · General Studies · Q.62]\nTopographical map of India is prepared by which organization?",
+      "options": [
+        "The Geological Survey of India",
+        "The Survey of India",
+        "The Zoological Survey of India",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q63",
+      "question": "[Part II · General Studies · Q.63]\nWho first described the Revolt of 1857 as the 'First Indian War of Independence'?",
+      "options": [
+        "V. D. Savarkar",
+        "Bal Gangadhar Tilak",
+        "R. C. Majumdar",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q64",
+      "question": "[Part II · General Studies · Q.64]\nWhich of the following events happened first?",
+      "options": [
+        "Santhal Rebellion",
+        "Rebellion of Birsa Munda",
+        "Tana Bhagat Movement",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q65",
+      "question": "[Part II · General Studies · Q.65]\nWhich revolt is mentioned in Bankim Chandra Chatterjee's novel, Anandamath?",
+      "options": [
+        "Sannyasi",
+        "Pagalpanthi",
+        "Indigo",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q66",
+      "question": "[Part II · General Studies · Q.66]\nWhen were 'Swadeshi' and 'Boycott' first adopted as forms of struggle in India?",
+      "options": [
+        "Partition of Bengal",
+        "Home Rule Movement",
+        "Non-Cooperation Movement",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q67",
+      "question": "[Part II · General Studies · Q.67]\nWho was the President of the Indian National Congress at the Gaya Session of 1922?",
+      "options": [
+        "Chittaranjan Das",
+        "Hakim Ajmal Khan",
+        "Mahatma Gandhi",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q68",
+      "question": "[Part II · General Studies · Q.68]\nWho led the peasants of Bihar during the Non-Cooperation Movement?",
+      "options": [
+        "Raj Kumar Shukla",
+        "Swami Vidyanand",
+        "Rajendra Prasad",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q69",
+      "question": "[Part II · General Studies · Q.69]\nWho founded Hindu College at Calcutta in 1817?",
+      "options": [
+        "Henry Vivian Derozio",
+        "David Hare",
+        "Jonathan Duncan",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q70",
+      "question": "[Part II · General Studies · Q.70]\nWho among the following said that \"Congress is tottering to its fall and one of my great ambitions while in India is to assist it to a peaceful demise\"?",
+      "options": [
+        "Dufferin",
+        "Minto",
+        "Curzon",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q71",
+      "question": "[Part III · Computer · Q.71]\nThe brain of any computer system is",
+      "options": [
+        "ALU",
+        "memory",
+        "CPU",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q72",
+      "question": "[Part III · Computer · Q.72]\nWhen a key is pressed on the keyboard, which standard is used for converting the keystroke into the corresponding bits?",
+      "options": [
+        "ANSI",
+        "ASCII",
+        "EBCDIC",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A. BPSC's final key gives ANSI as the answer for this question."
+    },
+    {
+      "id": "q73",
+      "question": "[Part III · Computer · Q.73]\nWhat difference do the fifth generation computers have from other generation computers?",
+      "options": [
+        "Technological advancement",
+        "Object-oriented programming",
+        "Scientific code",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Series A): D."
+    },
+    {
+      "id": "q74",
+      "question": "[Part III · Computer · Q.74]\nSource code is available to view, modify and redistribute in",
+      "options": [
+        "open source",
+        "licensed",
+        "proprietary",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q75",
+      "question": "[Part III · Computer · Q.75]\nMachine language is",
+      "options": [
+        "machine dependent",
+        "difficult to program",
+        "error prone",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Series A): D."
+    },
+    {
+      "id": "q76",
+      "question": "[Part III · Computer · Q.76]\nAn assembly language is a/an",
+      "options": [
+        "low-level programming language",
+        "middle-level programming language",
+        "Internet-based programming language",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q77",
+      "question": "[Part III · Computer · Q.77]\nA compiler is a translating program which",
+      "options": [
+        "translates instruction of a high-level language into machine language",
+        "translates entire source program into machine language program",
+        "is not involved in program's execution",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Series A): D."
+    },
+    {
+      "id": "q78",
+      "question": "[Part III · Computer · Q.78]\nWhich of the following approaches is used by C++?",
+      "options": [
+        "Left-right",
+        "Top-down",
+        "Bottom-up",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q79",
+      "question": "[Part III · Computer · Q.79]\nWhat is virtual inheritance in C++?",
+      "options": [
+        "C++ technique to enhance multiple inheritance",
+        "C++ technique to ensure that a private member of the base class can be accessed somehow",
+        "C++ technique to avoid multiple copies of the base class into children/derived class",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q80",
+      "question": "[Part III · Computer · Q.80]\nWhat happens if the following C++ statement is compiled and executed?\nint *ptr = NULL;\ndelete ptr;",
+      "options": [
+        "The program is not semantically correct",
+        "The program is compiled and executed successfully",
+        "The program is compiled successfully but throws an error during runtime",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "dropped": true,
+      "explanation": "Question deleted in the official BPSC final answer key (Series A). Deleted by BPSC in the final key. Every candidate was awarded the marks for this question."
+    },
+    {
+      "id": "q81",
+      "question": "[Part III · Computer · Q.81]\nWhat is the difference between delete and delete[ ] in C++?",
+      "options": [
+        "Delete is syntactically correct but delete[ ] is wrong and hence will give an error if used in any case",
+        "Delete is used to delete normal objects whereas delete[ ] is used to delete pointer objects",
+        "Delete is used to delete single object whereas delete[ ] is used to delete multiple (array/pointer of) objects",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q82",
+      "question": "[Part III · Computer · Q.82]\nWhat happens if the following program is executed in C and C++?\n#include <stdio.h>\nint main(void)\n{\n    int new = 5;\n    printf(\"%d\", new);\n}",
+      "options": [
+        "Error in C and successful execution in C++",
+        "Error in both C and C++",
+        "Error in C++ and successful execution in C",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "dropped": true,
+      "explanation": "Question deleted in the official BPSC final answer key (Series A). Deleted by BPSC in the final key. Every candidate was awarded the marks for this question."
+    },
+    {
+      "id": "q83",
+      "question": "[Part III · Computer · Q.83]\nWhat is the value of 'p' in the following C++ code snippet?\n1. #include <iostream>\n2. using namespace std;\n3. int main()\n4. {\n5.     int p;\n6.     bool a = true;\n7.     bool b = false;\n8.     int x = 10;\n9.     int y = 5;\n10.    p = ((x | y) + (a + b));\n11.    cout << p;\n12.    return 0;\n13. }",
+      "options": [
+        "12",
+        "16",
+        "2",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "dropped": true,
+      "explanation": "Question deleted in the official BPSC final answer key (Series A). Deleted by BPSC in the final key. Every candidate was awarded the marks for this question. (The code would print 16: (10 | 5) + (1 + 0).)"
+    },
+    {
+      "id": "q84",
+      "question": "[Part III · Computer · Q.84]\nThe C++ code which causes abnormal termination/behaviour of a program should be written under ________ block.",
+      "options": [
+        "catch",
+        "throw",
+        "try",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q85",
+      "question": "[Part III · Computer · Q.85]\nWhat will be the output of the following C++ code?\n#include <iostream.h>\nusing namespace std;\nvoid square(int *x, int *y)\n{\n    *x = (*x) * --(*y);\n}\nint main()\n{\n    int number = 30;\n    square(&number, &number);\n    cout << number;\n    return 0;\n}",
+      "options": [
+        "30",
+        "870",
+        "Segmentation fault",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "dropped": true,
+      "explanation": "Question deleted in the official BPSC final answer key (Series A). Deleted by BPSC in the final key. Every candidate was awarded the marks for this question."
+    },
+    {
+      "id": "q86",
+      "question": "[Part III · Computer · Q.86]\nPick the incorrect statement about inline functions in C++.",
+      "options": [
+        "They save overhead of a return call from a function.",
+        "They are generally very large and complicated functions.",
+        "These functions are inserted/substituted at the point of call.",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q87",
+      "question": "[Part III · Computer · Q.87]\nWhat is an abstract class in C++?",
+      "options": [
+        "Any class in C++ is an abstract class / Class from which any class is derived",
+        "Class specifically used as a base class with at least one virtual function",
+        "Class specifically used as a base class with at least one pure virtual function",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q88",
+      "question": "[Part III · Computer · Q.88]\nWhich of the following constructors is provided by the C++ compiler if not defined in a class?",
+      "options": [
+        "Copy constructor",
+        "Default constructor",
+        "Parameterized constructor",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q89",
+      "question": "[Part III · Computer · Q.89]\nHow do structures and classes in C++ differ?",
+      "options": [
+        "In structures, members are private by default whereas in classes, they are public by default",
+        "In structures, members are public by default whereas in classes, they are private by default",
+        "Structures cannot have private members whereas classes can have",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q90",
+      "question": "[Part III · Computer · Q.90]\nWhich of the following features must be supported by any programming language to become a pure object-oriented programming language?",
+      "options": [
+        "Encapsulation",
+        "Inheritance",
+        "Polymorphism",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Series A): D. Encapsulation, inheritance and polymorphism are all required, so more than one."
+    },
+    {
+      "id": "q91",
+      "question": "[Part III · Computer · Q.91]\nThe programming language that has the ability to create new data types is called",
+      "options": [
+        "overloaded",
+        "encapsulated",
+        "extensible",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q92",
+      "question": "[Part III · Computer · Q.92]\nWhich of the following is the original creator of the C++ language?",
+      "options": [
+        "Dennis Ritchie / Brian Kernighan",
+        "Ken Thompson",
+        "Bjarne Stroustrup",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q93",
+      "question": "[Part III · Computer · Q.93]\nWhich of the following is the correct syntax to read a single character from the console in the C++ language?",
+      "options": [
+        "read ch()",
+        "getline ch()",
+        "get(ch)",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 4,
+      "explanation": "Official BPSC final answer key (Series A): E. None of the listed forms is valid; the correct call is cin.get(ch)."
+    },
+    {
+      "id": "q94",
+      "question": "[Part III · Computer · Q.94]\nWhich of the following gives the nth element of the array?",
+      "options": [
+        "array[n];",
+        "array[n–1];",
+        "array[n+1];",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q95",
+      "question": "[Part III · Computer · Q.95]\nHow many types of the array are there in the C++ programming language?",
+      "options": [
+        "There are three types of arrays",
+        "There are four types of arrays",
+        "There are two types of arrays",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q96",
+      "question": "[Part III · Computer · Q.96]\nIn C++, for what purpose is \"rank()\" used?",
+      "options": [
+        "It returns the size of each dimension",
+        "It returns the maximum number of elements that can be stored in the array",
+        "It returns the dimension of the specified array",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q97",
+      "question": "[Part III · Computer · Q.97]\nWhat is the scope of the variable declared in the user-defined function?",
+      "options": [
+        "Whole program",
+        "Only inside the { } block",
+        "Inside the main function",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q98",
+      "question": "[Part III · Computer · Q.98]\nWhich one of the following is the correct definition of the \"is_array();\" function in C++?",
+      "options": [
+        "It checks that the specified variable is of the array or not",
+        "It checks that the specified array is of single dimension or not",
+        "It checks that the array specified is of multidimension or not",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q99",
+      "question": "[Part III · Computer · Q.99]\nWhich of the following statements is true about new and malloc?\nI. The 'new' is a type of operator while 'malloc' is a kind of function.\nII. The 'new' invokes a constructor, whereas 'malloc' does not invoke the constructor.\nIII. The 'malloc' returns void pointer and also needs to be typecast whereas 'new' returns the required pointer.",
+      "options": [
+        "Only I",
+        "Both I and II",
+        "Both II and III",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Series A): D. All three statements about new and malloc are true, so more than one."
+    },
+    {
+      "id": "q100",
+      "question": "[Part III · Computer · Q.100]\nWhich of the following can be considered as the members that can be inherited but not accessible in any class?",
+      "options": [
+        "Public",
+        "Protected",
+        "Private",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q101",
+      "question": "[Part III · Computer · Q.101]\nWhich of the following statements is completely true?\nI. In an object-oriented programming language, all the function calls are resolved at compile-time.\nII. In a procedural programming language, all the function calls are resolved at compile-time.",
+      "options": [
+        "Only II",
+        "Only I",
+        "Both I and II",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q102",
+      "question": "[Part III · Computer · Q.102]\nWhat will happen if in a C++ program, a class has no name?",
+      "options": [
+        "It is not even allowed in C++",
+        "It will not have the constructor",
+        "It will not have the destructor",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q103",
+      "question": "[Part III · Computer · Q.103]\nHow can one implement the compile-time polymorphism in the C++ programming language?",
+      "options": [
+        "By using the template",
+        "By using the concepts of inheritance",
+        "By using both the virtual functions and inheritance",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q104",
+      "question": "[Part III · Computer · Q.104]\nWhich of the following refers to the wrapping of data and its functionality into a single individual entity?",
+      "options": [
+        "Modularity",
+        "Abstraction",
+        "Encapsulation",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q105",
+      "question": "[Part III · Computer · Q.105]\nAmong the following, which statement is correct about modularity?",
+      "options": [
+        "Modularity means hiding the parts of the program.",
+        "Modularity refers to dividing a program into subsequent small modules or independent parts.",
+        "It refers to overloading the program's part.",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q106",
+      "question": "[Part III · Computer · Q.106]\nWhich one of the following is not an application of the stack data structure?",
+      "options": [
+        "Asynchronous data transfer",
+        "String reversal",
+        "Backtracking",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q107",
+      "question": "[Part III · Computer · Q.107]\nWhich of the following is the prefix form of A + B * C?",
+      "options": [
+        "+A*BC",
+        "ABC+*",
+        "+AB*C",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A. A + B * C in prefix is +A*BC."
+    },
+    {
+      "id": "q108",
+      "question": "[Part III · Computer · Q.108]\nWhich data structure is required to convert the infix to prefix notation?",
+      "options": [
+        "Queue",
+        "Stack",
+        "Linked list",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q109",
+      "question": "[Part III · Computer · Q.109]\nWhich of the following highly uses the concept of an array?",
+      "options": [
+        "Binary search tree",
+        "Scheduling of processes",
+        "Spatial locality",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q110",
+      "question": "[Part III · Computer · Q.110]\nThe necessary condition to be checked before deletion from the queue is",
+      "options": [
+        "front value",
+        "underflow",
+        "overflow",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q111",
+      "question": "[Part III · Computer · Q.111]\nWhich one of the following is not an application of the queue data structure?",
+      "options": [
+        "Data is transferred asynchronously",
+        "Resource is shared between various systems",
+        "Balancing of symbols",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q112",
+      "question": "[Part III · Computer · Q.112]\nWhich one of the following techniques is not used in the binary tree?",
+      "options": [
+        "Preorder traversal",
+        "Inorder traversal",
+        "Postorder traversal",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 4,
+      "explanation": "Official BPSC final answer key (Series A): E. All three traversals are used in binary trees, so BPSC keyed 'none of the above'."
+    },
+    {
+      "id": "q113",
+      "question": "[Part III · Computer · Q.113]\nHow can we describe an array in the best possible way?",
+      "options": [
+        "Arrays are immutable",
+        "Container that stores the elements of similar types",
+        "The array is not a data structure",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q114",
+      "question": "[Part III · Computer · Q.114]\nWhat is another name for the circular queue among the following options?",
+      "options": [
+        "Rectangle buffer",
+        "Square buffer",
+        "Ring buffer",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q115",
+      "question": "[Part III · Computer · Q.115]\nWhich of the following determines the need for the circular queue?",
+      "options": [
+        "Access the queue using priority",
+        "Avoid wastage of memory",
+        "Follow the FIFO principle",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q116",
+      "question": "[Part III · Computer · Q.116]\nWhich data structure is the best for implementing a priority queue?",
+      "options": [
+        "Linked list",
+        "Array",
+        "Binary heap",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q117",
+      "question": "[Part III · Computer · Q.117]\nWhich of the following data structures finds its use in recursion?",
+      "options": [
+        "Stack",
+        "Linked list",
+        "Array",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q118",
+      "question": "[Part III · Computer · Q.118]\nWhich of the following satisfies the property of the red-black tree?",
+      "options": [
+        "Black, if the new node is a root node",
+        "Red, if the new node is not a root node",
+        "Black, if the new node is not a root node",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Series A): D."
+    },
+    {
+      "id": "q119",
+      "question": "[Part III · Computer · Q.119]\nIn the deque implementation using a singly linked list, what would be the time complexity of deleting an element from the rear end?",
+      "options": [
+        "O(1)",
+        "O(N log N)",
+        "O(N)",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q120",
+      "question": "[Part III · Computer · Q.120]\nWhich one of the following is the overflow condition if a linear queue is implemented using an array with a size MAX_SIZE?",
+      "options": [
+        "rear = MAX_SIZE – 1",
+        "rear = MAX_SIZE",
+        "rear = front + 1",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Series A): D. In a linear array queue, overflow occurs when rear = MAX_SIZE – 1 (0-based) or rear = MAX_SIZE, so BPSC keyed more than one."
+    },
+    {
+      "id": "q121",
+      "question": "[Part III · Computer · Q.121]\nWhich of the following is a divide-and-conquer algorithm?",
+      "options": [
+        "Merge sort",
+        "Heap sort",
+        "Bubble sort",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q122",
+      "question": "[Part III · Computer · Q.122]\nWhat is a database?",
+      "options": [
+        "Organized collection of information that cannot be accessed, updated and managed",
+        "Organized collection of data or information that can be accessed, updated and managed",
+        "Organized collection of data that cannot be updated",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q123",
+      "question": "[Part III · Computer · Q.123]\nWhich type of data can be stored in the database?",
+      "options": [
+        "Image-oriented data",
+        "Text, files containing data",
+        "Data in the form of audio or video",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Series A): D. Images, text and audio/video can all be stored, so more than one."
+    },
+    {
+      "id": "q124",
+      "question": "[Part III · Computer · Q.124]\nWhich of the following is not a type of database?",
+      "options": [
+        "Network",
+        "Distributed",
+        "Decentralized",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q125",
+      "question": "[Part III · Computer · Q.125]\nWhich of the following is not an example of DBMS?",
+      "options": [
+        "Microsoft Access",
+        "IBM Db2",
+        "Google",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q126",
+      "question": "[Part III · Computer · Q.126]\nWhich of the following is not a feature of DBMS?",
+      "options": [
+        "Minimum duplication and redundancy of data",
+        "Single-user access only",
+        "Support ACID property",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q127",
+      "question": "[Part III · Computer · Q.127]\nWhich of the following is not a function of the database?",
+      "options": [
+        "Manipulating data",
+        "Security for stored data",
+        "Analysing code",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q128",
+      "question": "[Part III · Computer · Q.128]\nWhat is information about data called?",
+      "options": [
+        "Teradata",
+        "Metadata",
+        "Relations",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q129",
+      "question": "[Part III · Computer · Q.129]\nThe DBMS acts as an interface between ________ and ________ of an enterprise-class system.",
+      "options": [
+        "data, the DBMS",
+        "database application, the database",
+        "the user, the software",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q130",
+      "question": "[Part III · Computer · Q.130]\n________ is a set of one or more attribute(s) taken collectively to uniquely identify a record.",
+      "options": [
+        "Primary key",
+        "Foreign key",
+        "Superkey",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q131",
+      "question": "[Part III · Computer · Q.131]\nWhich of the following commands is correct to delete the values in the relation teaches?",
+      "options": [
+        "Delete from teaches;",
+        "Delete from teaches where Id='Null';",
+        "Remove table teaches;",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q132",
+      "question": "[Part III · Computer · Q.132]\nThe top level of the hierarchy consists of ________, each of which can contain ________.",
+      "options": [
+        "schemas, catalogs",
+        "schemas, environment",
+        "catalogs, schemas",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q133",
+      "question": "[Part III · Computer · Q.133]\nThe user IDs can be added or removed using which of the following fixed roles?",
+      "options": [
+        "db_sysadmin",
+        "db_accessadmin",
+        "db_securityadmin",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q134",
+      "question": "[Part III · Computer · Q.134]\nThe traditional storage of data organized by the customer, stored in separate folders in filing cabinets is an example of",
+      "options": [
+        "relational database management system",
+        "network database management system",
+        "hierarchical database management system",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q135",
+      "question": "[Part III · Computer · Q.135]\nAfter groups have been established, SQL applies predicates in the ________ clause, allowing aggregate functions to be used.",
+      "options": [
+        "HAVING",
+        "GROUP BY",
+        "WITH",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q136",
+      "question": "[Part III · Computer · Q.136]\nWhich of the following is not the utility of DBMS?\nI. Backup\nII. Loading\nIII. Process organization\nIV. File organization",
+      "options": [
+        "I, II and IV only",
+        "I, II and III only",
+        "I, III and IV only",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 4,
+      "explanation": "Official BPSC final answer key (Series A): E. Backup, loading and file organization are DBMS utilities; process organization is not, so BPSC keyed 'none of the above'."
+    },
+    {
+      "id": "q137",
+      "question": "[Part III · Computer · Q.137]\nFor designing a normal RDBMS, which of the following normal forms is considered adequate?",
+      "options": [
+        "4NF",
+        "3NF",
+        "2NF",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q138",
+      "question": "[Part III · Computer · Q.138]\nWhat happens if a piece of data is stored in two places in the database?",
+      "options": [
+        "Storage space is wasted and changing the data in one spot will cause data inconsistency",
+        "Changing the data in one spot will cause data inconsistency",
+        "Storage space is wasted",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q139",
+      "question": "[Part III · Computer · Q.139]\nWhich data type can store unstructured data in a column?",
+      "options": [
+        "RAW",
+        "Numeric",
+        "VARCHAR",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q140",
+      "question": "[Part III · Computer · Q.140]\nThe logic gate that provides high output for same inputs is",
+      "options": [
+        "NOT",
+        "X-NOR",
+        "XOR",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q141",
+      "question": "[Part III · Computer · Q.141]\nBoolean algebra can be used",
+      "options": [
+        "for designing the digital computers",
+        "in building logic symbols",
+        "in circuit theory",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Series A): D. Boolean algebra is used in all three, so more than one."
+    },
+    {
+      "id": "q142",
+      "question": "[Part III · Computer · Q.142]\nCommunication between a computer and a keyboard involves ________ transmission.",
+      "options": [
+        "simplex",
+        "half-duplex",
+        "full-duplex",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q143",
+      "question": "[Part III · Computer · Q.143]\nThe simplified form of the Boolean expression (X + Y + XY)(X + Z) is",
+      "options": [
+        "XY + YZ",
+        "X + YZ",
+        "XZ + Y",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B. (X + Y + XY)(X + Z) = (X + Y)(X + Z) = X + YZ."
+    },
+    {
+      "id": "q144",
+      "question": "[Part III · Computer · Q.144]\nThe dual of a Boolean expression is obtained by",
+      "options": [
+        "interchanging all 0s and 1s",
+        "interchanging all 0s and 1s, all + and '.' signs",
+        "interchanging all 0s and 1s, all + and '.' signs and complementing all the variables",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Series A): B."
+    },
+    {
+      "id": "q145",
+      "question": "[Part III · Computer · Q.145]\nWireless transmission of signals can be done via",
+      "options": [
+        "radio waves",
+        "microwaves",
+        "infrared",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Series A): D. Radio waves, microwaves and infrared all carry wireless signals, so more than one."
+    },
+    {
+      "id": "q146",
+      "question": "[Part III · Computer · Q.146]\nSniffers can be prevented by using",
+      "options": [
+        "wired environment",
+        "ethernet LAN",
+        "switched network",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    },
+    {
+      "id": "q147",
+      "question": "[Part III · Computer · Q.147]\nIn TDM, slots are further divided into",
+      "options": [
+        "frames",
+        "packets",
+        "bits",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q148",
+      "question": "[Part III · Computer · Q.148]\nTransmission control protocol",
+      "options": [
+        "is a connection-oriented protocol",
+        "uses a three-way handshake to establish a connection",
+        "receives data from application as a single stream",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Series A): D. TCP is connection-oriented, uses a three-way handshake and treats application data as a stream, so more than one."
+    },
+    {
+      "id": "q149",
+      "question": "[Part III · Computer · Q.149]\nAn endpoint of an inter-process communication flow across a computer network is called",
+      "options": [
+        "socket",
+        "pipe",
+        "port",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Series A): A."
+    },
+    {
+      "id": "q150",
+      "question": "[Part III · Computer · Q.150]\nWhich transmission media provides the highest transmission speed in a network?",
+      "options": [
+        "Coaxial cable",
+        "Twisted-pair cable",
+        "Optical fiber",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Series A): C."
+    }
+  ]
+}

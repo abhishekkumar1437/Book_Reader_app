@@ -42,6 +42,7 @@ function parseQuizSet(id: string, raw: unknown): QuizSet | string {
       options: q.options.map((o) => (o as string).trim()),
       answer: q.answer,
       explanation: typeof q.explanation === "string" && q.explanation.trim() ? q.explanation.trim() : undefined,
+      dropped: q.dropped === true ? true : undefined,
     });
   }
 
