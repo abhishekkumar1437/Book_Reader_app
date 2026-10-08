@@ -1,0 +1,496 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Millennium Prize Problems</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,600&family=JetBrains+Mono:wght@400;600&display=swap">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<style>
+/* Layout: seven plates, one per problem. Title and status across the top, instrument panel (the model) on the left, statement / stakes / status notes on the right. Panels are always dark like lab monitors; the page follows the theme. */
+:root{
+  --bg:#edf0ee; --fg:#141b18; --muted:#58665f; --rule:#cbd4cf; --panel:#ffffff; --accent:#0e6b5c; --accent-ink:#ffffff;
+  --viz-bg:#0e1522; --viz-fg:#e8edf4; --viz-muted:#8d9ab0; --viz-grid:#233049;
+  --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500;
+  --display:'Fraunces', Georgia, 'Times New Roman', serif;
+  --body:'Bricolage Grotesque', 'Helvetica Neue', Arial, sans-serif;
+  --mono:'JetBrains Mono', Consolas, 'Courier New', monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){ --bg:#0b100e; --fg:#e4eae6; --muted:#94a39b; --rule:#243029; --panel:#111916; --accent:#5fcab2; --accent-ink:#0b100e; --viz-bg:#0a111c; --viz-grid:#1e2a40; color-scheme:dark }
+}
+:root[data-theme="dark"]{ --bg:#0b100e; --fg:#e4eae6; --muted:#94a39b; --rule:#243029; --panel:#111916; --accent:#5fcab2; --accent-ink:#0b100e; --viz-bg:#0a111c; --viz-grid:#1e2a40; color-scheme:dark }
+
+*{box-sizing:border-box}
+body{ margin:0; background:var(--bg); color:var(--fg); font-family:var(--body); font-size:17px; line-height:1.55; }
+.wrap{ max-width:1080px; margin:0 auto; padding-inline:16px; padding-block:28px 72px; }
+
+header{ display:grid; gap:14px; padding-bottom:28px; border-bottom:1px solid var(--rule); }
+.eyebrow{ font-family:var(--mono); font-size:12px; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); }
+h1{ font-family:var(--display); font-weight:300; font-size:clamp(38px,7vw,74px); line-height:1; margin:0; letter-spacing:-.015em; text-wrap:balance; font-variation-settings:"opsz" 144; }
+.lede{ max-width:62ch; font-size:19px; margin:0; font-weight:300; }
+.lede b{font-weight:600}
+.facts{ display:flex; flex-wrap:wrap; gap:8px 28px; font-family:var(--mono); font-size:13px; color:var(--muted); }
+.facts b{ color:var(--fg); font-weight:600; }
+
+.toc{ display:grid; grid-template-columns:repeat(auto-fill,minmax(250px,1fr)); gap:6px 24px; padding-block:22px; border-bottom:1px solid var(--rule); }
+.toc a{ display:flex; gap:10px; align-items:baseline; color:var(--fg); text-decoration:none; padding-block:5px; min-width:0; }
+.toc a:hover{ color:var(--accent); }
+.toc a:focus-visible{ outline:2px solid var(--accent); outline-offset:2px; }
+.toc .n{ font-family:var(--mono); font-size:12px; color:var(--muted); min-width:1.5ch; }
+.toc .st{ margin-left:auto; }
+
+.pill{ font-family:var(--mono); font-size:11px; letter-spacing:.08em; text-transform:uppercase; padding:3px 8px; border-radius:999px; border:1px solid var(--rule); color:var(--muted); white-space:nowrap; }
+.pill.solved{ background:var(--accent); color:var(--accent-ink); border-color:var(--accent); }
+
+.plate{ padding-block:44px 24px; border-bottom:1px solid var(--rule); scroll-margin-top:12px; }
+.plate-head{ display:flex; gap:16px; align-items:baseline; flex-wrap:wrap; margin-bottom:18px; }
+.plate-head .n{ font-family:var(--display); font-weight:300; font-size:clamp(34px,5vw,56px); line-height:1; color:var(--accent); flex:none; width:1.3ch; }
+.plate-head h2{ font-family:var(--display); font-weight:600; font-size:clamp(24px,3.4vw,36px); line-height:1.15; margin:0; text-wrap:balance; flex:1 1 320px; min-width:0; }
+.plate-body{ display:grid; grid-template-columns:minmax(0,3fr) minmax(0,2fr); gap:22px 32px; align-items:start; }
+@media (max-width:760px){ .plate-body{ grid-template-columns:1fr; } }
+
+.viz{ background:var(--viz-bg); color:var(--viz-fg); border-radius:6px; overflow:hidden; min-width:0; }
+.viz .stage{ position:relative; width:100%; aspect-ratio:16/10; max-width:100%; }
+.viz canvas{ display:block; width:100%; height:100%; }
+.viz .stage .overlay{ position:absolute; left:12px; top:10px; font-family:var(--mono); font-size:12px; color:var(--viz-muted); pointer-events:none; line-height:1.45; max-width:calc(100% - 24px); }
+.viz .stage .overlay b{ color:var(--viz-fg); font-weight:600; }
+.viz .stage .fallback{ position:absolute; inset:0; display:grid; place-items:center; padding:20px; text-align:center; color:var(--viz-muted); font-size:14px; }
+.controls{ display:flex; flex-wrap:wrap; gap:10px 18px; align-items:center; padding:10px 12px 12px; border-top:1px solid var(--viz-grid); font-size:13.5px; }
+.controls label{ display:flex; align-items:center; gap:8px; cursor:pointer; min-width:0; }
+.controls input[type=range]{ accent-color:var(--s1); width:120px; }
+.controls input[type=checkbox]{ accent-color:var(--s1); width:15px; height:15px; }
+.controls .val{ font-family:var(--mono); font-size:12.5px; color:var(--viz-muted); min-width:4ch; font-variant-numeric:tabular-nums; }
+.controls button{ font-family:var(--body); font-size:13.5px; font-weight:600; color:var(--viz-bg); background:var(--viz-fg); border:0; border-radius:4px; padding:6px 12px; cursor:pointer; }
+.controls button.ghost{ background:transparent; color:var(--viz-fg); border:1px solid var(--viz-grid); font-weight:400; }
+.controls button[aria-pressed="true"]{ border-color:var(--s1); color:var(--s1); }
+.controls button:focus-visible, .controls input:focus-visible{ outline:2px solid var(--s1); outline-offset:2px; }
+.controls .note{ color:var(--viz-muted); }
+.viz .caption{ padding:8px 12px 10px; font-size:13px; color:var(--viz-muted); border-top:1px solid var(--viz-grid); }
+.viz .readout{ padding:8px 12px; font-family:var(--mono); font-size:12.5px; color:var(--viz-muted); border-top:1px solid var(--viz-grid); display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:4px 16px; font-variant-numeric:tabular-nums; }
+.viz .readout b{ color:var(--viz-fg); font-weight:600; }
+
+.notes{ display:grid; gap:14px; min-width:0; }
+.notes h3{ font-family:var(--mono); font-size:11.5px; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); font-weight:600; margin:0 0 4px; }
+.notes p{ margin:0; max-width:48ch; font-size:16px; }
+.notes .eq{ font-family:var(--mono); font-size:14px; background:var(--panel); border:1px solid var(--rule); border-radius:4px; padding:8px 10px; display:inline-block; max-width:100%; overflow-x:auto; }
+
+.chart{ width:100%; display:block; }
+.chart text{ font-family:var(--mono); font-size:11px; fill:var(--viz-muted); }
+.chart .grid{ stroke:var(--viz-grid); stroke-width:1; }
+.chart .axis{ stroke:var(--viz-muted); stroke-width:1; }
+.chart .line{ fill:none; stroke-width:2; stroke-linejoin:round; stroke-linecap:round; }
+.chart .lbl{ fill:var(--viz-fg); font-weight:600; }
+.chart .ch{ stroke:var(--viz-muted); stroke-dasharray:3 3; }
+.tip{ position:absolute; pointer-events:none; background:var(--viz-fg); color:var(--viz-bg); font-family:var(--mono); font-size:12px; padding:5px 8px; border-radius:4px; white-space:nowrap; transform:translate(-50%,-125%); }
+.legend{ display:flex; flex-wrap:wrap; gap:6px 16px; font-size:13px; padding:8px 12px 0; color:var(--viz-muted); }
+.legend span{ display:inline-flex; align-items:center; gap:6px; }
+.legend i{ width:14px; height:3px; border-radius:2px; display:inline-block; }
+
+footer{ padding-top:26px; color:var(--muted); font-size:14px; max-width:70ch; }
+footer a{ color:var(--accent); }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+<header>
+  <div class="eyebrow">Clay Mathematics Institute · announced 24 May 2000</div>
+  <h1>Millennium Prize Problems</h1>
+  <p class="lede">Seven problems, one million dollars each, chosen to mark the century. <b>One is solved.</b> Each plate below is a working model of the problem: enough to see what is being asked, and why nobody has answered.</p>
+  <div class="facts"><span><b>7</b> problems</span><span><b>1</b> solved (Poincaré, 2003)</span><span><b>$1,000,000</b> each, unclaimed so far</span><span><b>26</b> years open</span></div>
+</header>
+
+<nav class="toc" aria-label="Contents">
+  <a href="#p1"><span class="n">1</span>P versus NP<span class="pill st">open</span></a>
+  <a href="#p2"><span class="n">2</span>Riemann Hypothesis<span class="pill st">open</span></a>
+  <a href="#p3"><span class="n">3</span>Yang–Mills and the mass gap<span class="pill st">open</span></a>
+  <a href="#p4"><span class="n">4</span>Navier–Stokes smoothness<span class="pill st">open</span></a>
+  <a href="#p5"><span class="n">5</span>Hodge Conjecture<span class="pill st">open</span></a>
+  <a href="#p6"><span class="n">6</span>Birch and Swinnerton-Dyer<span class="pill st">open</span></a>
+  <a href="#p7"><span class="n">7</span>Poincaré Conjecture<span class="pill st solved">solved</span></a>
+</nav>
+
+<!-- 1 P vs NP -->
+<section class="plate" id="p1">
+  <div class="plate-head"><span class="n">1</span><h2>P versus NP</h2><span class="pill">open</span></div>
+  <div class="plate-body">
+    <div class="viz">
+      <div class="legend"><span><i style="background:var(--s3)"></i>Check an answer: n steps</span><span><i style="background:var(--s1)"></i>A polynomial method: n²</span><span><i style="background:var(--s2)"></i>Try every subset: 2ⁿ</span></div>
+      <div style="position:relative"><svg class="chart" id="pnp" viewBox="0 0 480 250" role="img" aria-label="Growth of n, n squared and 2 to the n on a log scale from n equals 1 to 64"></svg><div class="tip" id="pnpTip" hidden></div></div>
+      <div class="controls">
+        <label>Items n <input type="range" id="nItems" min="4" max="64" value="40"><span class="val" id="nVal">40</span></label>
+        <button type="button" id="bruteBtn">Start brute force</button>
+      </div>
+      <div class="readout" id="pnpRead"></div>
+      <div class="caption">Subset sum: given n numbers, is there a subset adding to a target? Handed a subset, you can check it in n additions. Finding one, as far as anyone knows, means trying up to 2ⁿ subsets. P = NP would mean a fast way to find always exists whenever a fast way to check does.</div>
+    </div>
+    <div class="notes">
+      <div><h3>The statement</h3><p>P is the class of problems a computer can solve in polynomial time. NP is the class whose solutions can be verified in polynomial time. Is P equal to NP?</p></div>
+      <div><h3>Why it matters</h3><p>If P = NP, every lock whose key can be checked quickly can be picked quickly: encryption, scheduling, protein design and most of mathematics itself would become mechanical. Almost everyone expects P ≠ NP, which means some problems are inherently hard.</p></div>
+      <div><h3>Status</h3><p>Open since 1971. Known proof techniques (diagonalisation, natural proofs, algebrisation) have each been shown unable to settle it. Most experts expect it to outlast the century.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 2 Riemann -->
+<section class="plate" id="p2">
+  <div class="plate-head"><span class="n">2</span><h2>The Riemann Hypothesis</h2><span class="pill">open</span></div>
+  <div class="plate-body">
+    <div class="viz">
+      <div class="stage" id="st2"><canvas id="c2"></canvas><div class="overlay" id="ov2"></div></div>
+      <div class="controls">
+        <label>Real part σ <input type="range" id="sigma" min="0.1" max="1.4" step="0.05" value="0.5"><span class="val" id="sigmaVal">0.50</span></label>
+        <button type="button" class="ghost" id="toLine">Back to the line (σ = ½)</button>
+      </div>
+      <div class="readout" id="zRead"></div>
+      <div class="caption">|ζ(σ + it)| for t from 0 to 62, computed live. On the critical line σ = ½ the curve touches zero again and again. Slide off the line and every zero lifts away. The hypothesis says that is true forever, for all of the infinitely many zeros.</div>
+    </div>
+    <div class="notes">
+      <div><h3>The statement</h3><p>Every non-trivial zero of the Riemann zeta function <span class="eq">ζ(s) = Σ 1/nˢ</span> has real part exactly ½.</p></div>
+      <div><h3>Why it matters</h3><p>The zeros control how the primes are spread out. Riemann's formula turns each zero into a wave, and adding the waves reproduces the exact count of primes. If a zero strayed off the line, the primes would have a hidden bias nobody has seen.</p></div>
+      <div><h3>Status</h3><p>Open since 1859. The first 10¹³ zeros have been checked by computer and all lie on the line. At least 40 percent of all zeros are proven to. A proof of the rest is the most wanted result in mathematics.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 3 Yang-Mills -->
+<section class="plate" id="p3">
+  <div class="plate-head"><span class="n">3</span><h2>Yang–Mills existence and the mass gap</h2><span class="pill">open</span></div>
+  <div class="plate-body">
+    <div class="viz">
+      <div class="stage" id="st3"><canvas id="c3"></canvas><div class="overlay" id="ov3"><b>Quark and antiquark, 3D</b><br>drag to orbit</div></div>
+      <div class="controls">
+        <label>Pull apart <input type="range" id="sep" min="0.6" max="6" step="0.05" value="1.6"><span class="val" id="sepVal">1.6</span></label>
+      </div>
+      <div class="legend"><span><i style="background:var(--s1)"></i>Energy stored in the colour field</span></div>
+      <div style="position:relative"><svg class="chart" id="ym" viewBox="0 0 480 160" role="img" aria-label="Energy of the colour flux tube rising linearly with separation until it snaps into two pairs"></svg></div>
+      <div class="caption">Unlike electric field lines, the strong force squeezes into a tube whose energy grows with distance. Pull far enough and the tube snaps into a new quark pair rather than letting a quark go free. Physicists see this in every accelerator. The problem asks for a proof, from the equations, that this theory exists and that its lightest particle has positive mass.</div>
+    </div>
+    <div class="notes">
+      <div><h3>The statement</h3><p>Prove that quantum Yang–Mills theory exists on four-dimensional spacetime as a rigorous mathematical object, and that it has a mass gap: a smallest positive energy for any excitation above the vacuum.</p></div>
+      <div><h3>Why it matters</h3><p>Yang–Mills equations underlie the strong and weak nuclear forces. Physicists use them daily with astonishing accuracy, but the mathematics that justifies the calculations has never been built. A mass gap is why nuclear forces have short range and why gluons, which are massless in the equations, never appear alone.</p></div>
+      <div><h3>Status</h3><p>Open since 1954. Lattice computer simulations show the gap clearly. Rigorous constructions exist only in two and three dimensions. Four is the hard one.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 4 Navier-Stokes -->
+<section class="plate" id="p4">
+  <div class="plate-head"><span class="n">4</span><h2>Navier–Stokes existence and smoothness</h2><span class="pill">open</span></div>
+  <div class="plate-body">
+    <div class="viz">
+      <div class="stage" id="st4"><canvas id="c4"></canvas><div class="overlay" id="ov4"><b>Live fluid</b> · drag through it to stir</div></div>
+      <div class="controls">
+        <label>Viscosity <input type="range" id="visc" min="0" max="100" value="8"><span class="val" id="viscVal">8</span></label>
+        <button type="button" class="ghost" id="clearFluid">Clear</button>
+      </div>
+      <div class="caption">A 2D solution of the Navier–Stokes equations, computed each frame. In two dimensions solutions are proven to stay smooth forever. In three, nobody knows whether a perfectly smooth flow can concentrate its energy into a point and blow up in finite time.</div>
+    </div>
+    <div class="notes">
+      <div><h3>The statement</h3><p>For the three-dimensional Navier–Stokes equations with smooth initial data, prove that smooth solutions exist for all time, or give an example where a solution breaks down.</p></div>
+      <div><h3>Why it matters</h3><p>These equations run weather forecasts, aircraft design, blood-flow models and climate simulations. Engineers trust them completely. Mathematicians cannot yet rule out that the equations themselves are incomplete, with singularities hiding at scales no simulation can reach.</p></div>
+      <div><h3>Status</h3><p>Open since 1845. Smoothness is proven in 2D and for small or short-time 3D flows. In 2024 Terence Tao's programme showed a modified version of the equations can blow up, which sharpens the question without settling it.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 5 Hodge -->
+<section class="plate" id="p5">
+  <div class="plate-head"><span class="n">5</span><h2>The Hodge Conjecture</h2><span class="pill">open</span></div>
+  <div class="plate-body">
+    <div class="viz">
+      <div class="stage" id="st5"><canvas id="c5"></canvas><div class="overlay"><b>A torus and its cycles, 3D</b><br>drag to orbit</div></div>
+      <div class="controls">
+        <label><input type="checkbox" id="cycA" checked> Loop around the hole</label>
+        <label><input type="checkbox" id="cycB" checked> Loop through the hole</label>
+        <label><input type="checkbox" id="cycC"> A (2,3) knot: a combination of both</label>
+      </div>
+      <div class="caption">Topology sees a shape through the loops and surfaces that cannot be shrunk away. On this torus two loops generate all the rest. The conjecture is about higher-dimensional shapes cut out by polynomial equations: it says every such cycle that "looks algebraic" by the calculus test really is built from pieces defined by polynomials.</div>
+    </div>
+    <div class="notes">
+      <div><h3>The statement</h3><p>On a smooth projective variety, every rational Hodge class is a rational linear combination of classes of algebraic subvarieties.</p></div>
+      <div><h3>Why it matters</h3><p>It is a bridge between three languages: topology (shapes), analysis (harmonic forms) and algebra (polynomials). If true, a purely analytic calculation can tell you which geometric objects can be written down with equations. Much of modern number theory, including the Langlands programme, leans on this kind of bridge.</p></div>
+      <div><h3>Status</h3><p>Open since 1950. Proven for curves, surfaces and some special families. Known to be false over the integers, which is why the statement is about rational combinations.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 6 BSD -->
+<section class="plate" id="p6">
+  <div class="plate-head"><span class="n">6</span><h2>The Birch and Swinnerton-Dyer Conjecture</h2><span class="pill">open</span></div>
+  <div class="plate-body">
+    <div class="viz">
+      <div class="stage" id="st6"><canvas id="c6"></canvas><div class="overlay" id="ov6"></div></div>
+      <div class="controls">
+        <button type="button" class="ghost" id="ec0">y² = x³ − x</button>
+        <button type="button" class="ghost" id="ec1">y² = x³ − 2</button>
+        <button type="button" class="ghost" id="ec2">y² = x³ + 17</button>
+        <span class="note">Click two orange points to add them.</span>
+      </div>
+      <div class="readout" id="ecRead"></div>
+      <div class="caption">An elliptic curve with its rational points (fractions for both x and y) found by search. Adding two points: draw the line through them, take the third crossing, reflect it. Repeating this from one point can generate infinitely many. The conjecture predicts, from an analytic number called L(E,1), whether that happens.</div>
+    </div>
+    <div class="notes">
+      <div><h3>The statement</h3><p>The rank of an elliptic curve (how many independent points you need to generate all its rational points) equals the order of vanishing of its L-function at s = 1.</p></div>
+      <div><h3>Why it matters</h3><p>Finding rational solutions to equations is the oldest problem in number theory, going back to Diophantus. Elliptic curves are the first case where it is hard but structured, and the same curves secure most of today's internet traffic. BSD would turn an impossible search into a computation.</p></div>
+      <div><h3>Status</h3><p>Open since 1965. Proven when the rank is 0 or 1 (Gross, Zagier, Kolyvagin, and others). Nothing is known for rank 2 or higher, and no one can even prove ranks are bounded.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 7 Poincaré -->
+<section class="plate" id="p7">
+  <div class="plate-head"><span class="n">7</span><h2>The Poincaré Conjecture</h2><span class="pill solved">solved · Perelman, 2003</span></div>
+  <div class="plate-body">
+    <div class="viz">
+      <div class="stage" id="st7"><canvas id="c7"></canvas><div class="overlay" id="ov7"><b>Ricci flow, 3D</b><br>drag to orbit</div></div>
+      <div class="controls">
+        <button type="button" id="ricciBtn">Run Ricci flow</button>
+        <button type="button" class="ghost" id="lumpBtn">New lumpy shape</button>
+      </div>
+      <div class="caption">Ricci flow lets a shape's curvature spread out like heat. Hamilton proposed it; Perelman proved it can be run through its singularities and that any closed 3-manifold with no holes ends up as a round sphere. The white loop is the test: on a sphere, every loop shrinks to a point.</div>
+    </div>
+    <div class="notes">
+      <div><h3>The statement</h3><p>Every closed, simply connected three-dimensional manifold is homeomorphic to the three-sphere. In plain terms: if every loop on a finite 3D shape can be shrunk to a point, the shape is a sphere in disguise.</p></div>
+      <div><h3>Why it matters</h3><p>It classifies the simplest possible 3D universes. The method, Ricci flow with surgery, proved the far larger Geometrization Conjecture at the same time, sorting all 3-manifolds into eight geometries.</p></div>
+      <div><h3>Status</h3><p>Proven by Grigori Perelman in three papers posted online in 2002 and 2003. He declined the Fields Medal in 2006 and the million-dollar prize in 2010, saying Richard Hamilton deserved equal credit.</p></div>
+    </div>
+  </div>
+</section>
+
+<footer>Problem statements follow the official Clay Mathematics Institute descriptions at <a href="https://www.claymath.org/millennium-problems/" target="_blank" rel="noopener">claymath.org</a>. Zeta values are computed on the page with Borwein's algorithm; the fluid uses Jos Stam's stable-fluids method on a 64 by 64 grid; rational points are found by exact search over small fractions.</footer>
+</div>
+
+<script>
+'use strict';
+const RM=matchMedia('(prefers-reduced-motion: reduce)').matches;
+const $=id=>document.getElementById(id);
+const DPR=Math.min(2,window.devicePixelRatio||1);
+const TAU=Math.PI*2;
+const has3D=typeof THREE!=='undefined';
+const ns='http://www.w3.org/2000/svg'; const mk=(n,a)=>{ const e=document.createElementNS(ns,n); for(const k in a) e.setAttribute(k,a[k]); return e; };
+
+/* ---- registry: only visible panels animate ---- */
+const vizs=[];
+const io=new IntersectionObserver(es=>{ for(const e of es){ const v=vizs.find(x=>x.el===e.target); if(v){ v.active=e.isIntersecting; if(v.active) v.dirty=true; } } },{rootMargin:'80px'});
+function register(v){ vizs.push(v); v.active=false; v.dirty=true; io.observe(v.el); }
+let last=performance.now();
+function loop(now){ const dt=Math.min(.05,(now-last)/1000); last=now; for(const v of vizs){ if(!v.active) continue; if(RM&&!v.dirty) continue; v.draw(dt,now/1000); v.dirty=false; } requestAnimationFrame(loop); }
+requestAnimationFrame(loop);
+function fit2d(canvas){ const r=canvas.parentElement.getBoundingClientRect(); const w=Math.max(1,Math.round(r.width)), h=Math.max(1,Math.round(r.height)); if(canvas.width!==Math.round(w*DPR)||canvas.height!==Math.round(h*DPR)){ canvas.width=Math.round(w*DPR); canvas.height=Math.round(h*DPR); } const ctx=canvas.getContext('2d'); ctx.setTransform(DPR,0,0,DPR,0,0); return {ctx,w,h}; }
+const ro=new ResizeObserver(es=>{ for(const e of es){ const v=vizs.find(x=>x.el===e.target); if(v){ v.dirty=true; if(v.resize) v.resize(); } } });
+function orbit(el,state){ let down=false,lx=0,ly=0; el.style.touchAction='pan-y'; el.addEventListener('pointerdown',e=>{ down=true; lx=e.clientX; ly=e.clientY; el.setPointerCapture(e.pointerId); }); el.addEventListener('pointermove',e=>{ if(!down) return; state.theta-=(e.clientX-lx)*.008; state.phi=Math.max(.15,Math.min(1.45,state.phi+(e.clientY-ly)*.006)); lx=e.clientX; ly=e.clientY; state.user=true; }); el.addEventListener('pointerup',()=>{down=false;}); el.addEventListener('pointercancel',()=>{down=false;}); }
+function placeCam(cam,s){ cam.position.set(s.r*Math.sin(s.phi)*Math.sin(s.theta),s.r*Math.cos(s.phi),s.r*Math.sin(s.phi)*Math.cos(s.theta)); cam.lookAt(0,0,0); }
+function fallback(stageId){ const d=document.createElement('div'); d.className='fallback'; d.textContent='The 3D model needs WebGL and the three.js library, which did not load here.'; $(stageId).appendChild(d); }
+function make3d(canvas){ const r=new THREE.WebGLRenderer({canvas,antialias:true,alpha:true}); r.setPixelRatio(DPR); const cam=new THREE.PerspectiveCamera(45,16/10,.1,100); const resize=()=>{ const b=canvas.parentElement.getBoundingClientRect(); r.setSize(Math.round(b.width),Math.round(b.height),false); cam.aspect=b.width/b.height; cam.updateProjectionMatrix(); }; resize(); return {r,cam,resize}; }
+const MONO='"JetBrains Mono", Consolas, monospace';
+
+/* ================= 1. P vs NP ================= */
+(function(){
+  const svg=$('pnp'), tip=$('pnpTip'); const W=480,H=250,L=54,R=16,T=18,B=36; const pw=W-L-R, ph=H-T-B;
+  const xs=n=>L+pw*(n-1)/63, ys=v=>T+ph*(1-Math.log10(Math.max(1,v))/20);
+  for(let e=0;e<=20;e+=4){ const y=ys(Math.pow(10,e)); svg.appendChild(mk('line',{x1:L,x2:W-R,y1:y,y2:y,class:'grid'})); const t=mk('text',{x:L-8,y:y+4,'text-anchor':'end'}); t.textContent='10^'+e; svg.appendChild(t); }
+  for(const n of [1,16,32,48,64]){ const t=mk('text',{x:xs(n),y:H-B+16,'text-anchor':'middle'}); t.textContent=n; svg.appendChild(t); }
+  svg.appendChild(mk('line',{x1:L,x2:W-R,y1:ys(1),y2:ys(1),class:'axis'}));
+  const xl=mk('text',{x:L+pw/2,y:H-5,'text-anchor':'middle'}); xl.textContent='number of items n'; svg.appendChild(xl);
+  const yl=mk('text',{x:L-8,y:T-6,'text-anchor':'end'}); yl.textContent='steps'; svg.appendChild(yl);
+  const series=[[n=>n,'var(--s3)'],[n=>n*n,'var(--s1)'],[n=>Math.pow(2,n),'var(--s2)']];
+  for(const [f,c] of series){ let d=''; for(let n=1;n<=64;n++) d+=(n>1?'L':'M')+xs(n).toFixed(1)+' '+ys(f(n)).toFixed(1)+' '; svg.appendChild(mk('path',{d,class:'line',stroke:c})); }
+  const lab=(x,y,t,anchor)=>{ const e=mk('text',{x,y,class:'lbl','text-anchor':anchor||'start'}); e.textContent=t; svg.appendChild(e); };
+  lab(xs(58),ys(58)-6,'n','middle'); lab(xs(58),ys(58*58)-6,'n²','middle'); lab(xs(40),ys(Math.pow(2,40))-8,'2ⁿ','end');
+  const marker=mk('line',{x1:0,x2:0,y1:T,y2:T+ph,class:'ch'}); svg.appendChild(marker);
+  const dots=series.map(([f,c])=>{ const d=mk('circle',{r:4,fill:c,stroke:'var(--viz-bg)','stroke-width':2}); svg.appendChild(d); return d; });
+  let n=40, brute=null;
+  const secs=s=>{ if(s<1e-3) return (s*1e6).toFixed(1)+' µs'; if(s<1) return (s*1e3).toFixed(1)+' ms'; if(s<60) return s.toFixed(1)+' s'; if(s<3600) return (s/60).toFixed(1)+' min'; if(s<86400) return (s/3600).toFixed(1)+' h'; if(s<3.15e7) return (s/86400).toFixed(1)+' days'; if(s<3.15e9) return Math.round(s/3.15e7).toLocaleString('en-US')+' years'; return (s/3.15e7).toExponential(1).replace('e+','×10^')+' years'; };
+  function update(){ marker.setAttribute('x1',xs(n)); marker.setAttribute('x2',xs(n)); series.forEach(([f],i)=>{ dots[i].setAttribute('cx',xs(n)); dots[i].setAttribute('cy',ys(f(n))); }); const subsets=Math.pow(2,n);
+    $('pnpRead').innerHTML=`<span>check one answer <b>${n} steps</b></span><span>subsets to try <b>${subsets>=1e6?subsets.toExponential(2).replace('e+','×10^'):subsets.toLocaleString('en-US')}</b></span><span>at a billion a second <b>${secs(subsets/1e9)}</b></span><span>${brute?`brute force so far <b>${brute.count.toLocaleString('en-US')}</b> · ${(brute.count/subsets*100).toPrecision(2)} %`:'brute force <b>idle</b>'}</span>`; }
+  $('nItems').addEventListener('input',e=>{ n=+e.target.value; $('nVal').textContent=n; update(); });
+  $('bruteBtn').addEventListener('click',()=>{ if(brute){ clearInterval(brute.timer); brute=null; $('bruteBtn').textContent='Start brute force'; update(); return; } brute={count:0,timer:setInterval(()=>{ brute.count+=Math.floor(60000+Math.random()*20000); update(); },60)}; $('bruteBtn').textContent='Stop'; });
+  svg.addEventListener('pointermove',e=>{ const b=svg.getBoundingClientRect(); const nn=Math.max(1,Math.min(64,Math.round(((e.clientX-b.left)/b.width*W-L)/pw*63+1))); tip.hidden=false; tip.textContent=`n=${nn} · n²=${(nn*nn).toLocaleString('en-US')} · 2ⁿ=${nn<=40?Math.pow(2,nn).toLocaleString('en-US'):Math.pow(2,nn).toExponential(2).replace('e+','×10^')}`; tip.style.left=(xs(nn)/W*b.width)+'px'; tip.style.top=(ys(Math.pow(2,nn))/H*b.height)+'px'; });
+  svg.addEventListener('pointerleave',()=>{ tip.hidden=true; });
+  update();
+})();
+
+/* ================= 2. Riemann zeta on the critical strip ================= */
+(function(){
+  const stage=$('st2'), canvas=$('c2'); let sigma=.5; const T0=0, T1=62, SAMPLES=560;
+  /* Borwein's algorithm for the Dirichlet eta function, then zeta = eta / (1 - 2^(1-s)) */
+  const NB=100; const d=new Float64Array(NB+1); (function(){ let s=0; for(let k=0;k<=NB;k++){ let term=1/NB; for(let i=1;i<=k;i++){ term*=(NB+i-1)*(NB-i+1)*4/((2*i-1)*(2*i)); } /* (n+i-1)! 4^i / ((n-i)! (2i)!) built incrementally */ s+=term; d[k]=NB*s; } })();
+  function zetaAbs(sg,t){ let re=0,im=0; for(let k=0;k<NB;k++){ const n=k+1; const ln=Math.log(n); const mag=Math.pow(n,-sg); const c=d[k]-d[NB]; const sign=(k%2?-1:1); re+=sign*c*mag*Math.cos(t*ln); im+=-sign*c*mag*Math.sin(t*ln); } re/=-d[NB]; im/=-d[NB];
+    /* divide by (1 - 2^(1-s)) */ const a=Math.pow(2,1-sg); const fr=1-a*Math.cos(-t*Math.LN2), fi=-a*Math.sin(-t*Math.LN2); const den=fr*fr+fi*fi; const zr=(re*fr+im*fi)/den, zi=(im*fr-re*fi)/den; return Math.hypot(zr,zi); }
+  let vals=null, zeros=[];
+  function compute(){ vals=new Float32Array(SAMPLES+1); for(let i=0;i<=SAMPLES;i++){ const t=T0+(T1-T0)*i/SAMPLES; vals[i]=zetaAbs(sigma,t); } zeros=[]; for(let i=1;i<SAMPLES;i++){ if(vals[i]<vals[i-1]&&vals[i]<vals[i+1]&&vals[i]<.3){ /* refine with a golden-section search on |zeta|, keep it only if it really reaches zero */ let a=T0+(T1-T0)*(i-1)/SAMPLES, b=T0+(T1-T0)*(i+1)/SAMPLES; for(let k=0;k<32;k++){ const m1=a+(b-a)*.382, m2=a+(b-a)*.618; if(zetaAbs(sigma,m1)<zetaAbs(sigma,m2)) b=m2; else a=m1; } const z=(a+b)/2; if(zetaAbs(sigma,z)<.005) zeros.push(z); } } }
+  $('sigma').addEventListener('input',e=>{ sigma=+e.target.value; $('sigmaVal').textContent=sigma.toFixed(2); vals=null; v.dirty=true; });
+  $('toLine').addEventListener('click',()=>{ sigma=.5; $('sigma').value='0.5'; $('sigmaVal').textContent='0.50'; vals=null; v.dirty=true; });
+  const v={el:stage,draw(){ const {ctx,w,h}=fit2d(canvas); if(!vals) compute();
+    const L=44,R=14,T=34,B=34; const pw=w-L-R, ph=h-T-B; const xs=t=>L+pw*(t-T0)/(T1-T0), ys=y=>T+ph*(1-Math.min(y,4)/4);
+    ctx.clearRect(0,0,w,h); ctx.font='10px '+MONO; ctx.fillStyle='#8d9ab0'; ctx.strokeStyle='#233049'; ctx.lineWidth=1; ctx.textAlign='right';
+    for(let y=0;y<=4;y++){ ctx.beginPath(); ctx.moveTo(L,ys(y)); ctx.lineTo(w-R,ys(y)); ctx.stroke(); ctx.fillText(y,L-6,ys(y)+3); }
+    ctx.textAlign='center'; for(let t=0;t<=60;t+=10){ ctx.fillText(t,xs(t),h-B+14); }
+    ctx.fillText('t  (imaginary part of s)',L+pw/2,h-6); ctx.textAlign='left'; ctx.fillText('|ζ(σ+it)|',L-38,T-14);
+    ctx.strokeStyle='#8d9ab0'; ctx.beginPath(); ctx.moveTo(L,ys(0)); ctx.lineTo(w-R,ys(0)); ctx.stroke();
+    /* zero markers (known values) along the floor, so the reader sees where the line's zeros sit even when off it */
+    const known=[14.135,21.022,25.011,30.425,32.935,37.586,40.919,43.327,48.005,49.774,52.970,56.446,59.347]; ctx.fillStyle='rgba(141,154,176,.5)'; for(const z of known){ ctx.beginPath(); ctx.moveTo(xs(z),ys(0)+2); ctx.lineTo(xs(z)-3,ys(0)+8); ctx.lineTo(xs(z)+3,ys(0)+8); ctx.closePath(); ctx.fill(); }
+    ctx.strokeStyle=Math.abs(sigma-.5)<1e-6?'#3987e5':'#d95926'; ctx.lineWidth=2; ctx.lineJoin='round'; ctx.beginPath(); for(let i=0;i<=SAMPLES;i++){ const x=xs(T0+(T1-T0)*i/SAMPLES), y=ys(vals[i]); if(i) ctx.lineTo(x,y); else ctx.moveTo(x,y); } ctx.stroke();
+    for(const z of zeros){ ctx.fillStyle='#3987e5'; ctx.beginPath(); ctx.arc(xs(z),ys(0),4,0,TAU); ctx.fill(); ctx.strokeStyle='#0e1522'; ctx.lineWidth=1.5; ctx.stroke(); }
+    const onLine=Math.abs(sigma-.5)<1e-6;
+    $('ov2').innerHTML=`<b>σ = ${sigma.toFixed(2)}</b> · ${onLine?`<span style="color:#3987e5">on the critical line</span> · ${zeros.length} zeros in view`:`<span style="color:#d95926">off the line</span> · no zeros`}`;
+    $('zRead').innerHTML=onLine?zeros.slice(0,8).map((z,i)=>`<span>zero ${i+1} at t ≈ <b>${z.toFixed(3)}</b></span>`).join(''):`<span>minimum of |ζ| in view <b>${Math.min(...vals).toFixed(3)}</b></span><span>never reaches <b>0</b></span>`;
+  }};
+  register(v); ro.observe(stage);
+})();
+
+/* ================= 3. Yang-Mills flux tube ================= */
+(function(){
+  const stage=$('st3'); let sep=1.6; const BREAK=4.2;
+  $('sep').addEventListener('input',e=>{ sep=+e.target.value; $('sepVal').textContent=sep.toFixed(1); if(v) v.dirty=true; drawE(); });
+  /* energy chart */
+  const svg=$('ym'); const W=480,H=160,L=44,R=16,T=14,B=30; const pw=W-L-R, ph=H-T-B; const xs=x=>L+pw*(x-.6)/(6-.6), ys=e=>T+ph*(1-e/5);
+  for(const e of [0,2,4]){ svg.appendChild(mk('line',{x1:L,x2:W-R,y1:ys(e),y2:ys(e),class:'grid'})); const t=mk('text',{x:L-8,y:ys(e)+4,'text-anchor':'end'}); t.textContent=e; svg.appendChild(t); }
+  for(const x of [1,2,3,4,5,6]){ const t=mk('text',{x:xs(x),y:H-B+16,'text-anchor':'middle'}); t.textContent=x+' fm'; svg.appendChild(t); }
+  const xl=mk('text',{x:L+pw/2,y:H-4,'text-anchor':'middle'}); xl.textContent='separation'; svg.appendChild(xl);
+  const yl=mk('text',{x:L-8,y:T-2,'text-anchor':'end'}); yl.textContent='GeV'; svg.appendChild(yl);
+  const E=x=>x<BREAK?x*.95:BREAK*.95;
+  let d=''; for(let x=.6;x<=6.001;x+=.1) d+=(x>.6?'L':'M')+xs(x).toFixed(1)+' '+ys(E(x)).toFixed(1)+' '; svg.appendChild(mk('path',{d,class:'line',stroke:'var(--s1)'}));
+  const bl=mk('text',{x:xs(BREAK)+6,y:ys(E(BREAK))-8,class:'lbl'}); bl.textContent='string breaks: two mesons'; svg.appendChild(bl);
+  svg.appendChild(mk('line',{x1:xs(BREAK),x2:xs(BREAK),y1:T,y2:T+ph,class:'ch'}));
+  const dot=mk('circle',{r:4,fill:'var(--s1)',stroke:'var(--viz-bg)','stroke-width':2}); svg.appendChild(dot);
+  function drawE(){ dot.setAttribute('cx',xs(sep)); dot.setAttribute('cy',ys(E(sep))); }
+  drawE();
+  let v=null;
+  if(!has3D){ fallback('st3'); return; }
+  const {r,cam,resize}=make3d($('c3')); const scene=new THREE.Scene();
+  scene.add(new THREE.AmbientLight(0xffffff,.5)); const dl=new THREE.DirectionalLight(0xffffff,.9); dl.position.set(3,5,4); scene.add(dl);
+  const qg=new THREE.SphereGeometry(.28,24,24); const mq=new THREE.MeshStandardMaterial({color:0xd95926,roughness:.4}), ma=new THREE.MeshStandardMaterial({color:0x3987e5,roughness:.4});
+  const quarks=[0,1,2,3].map(i=>{ const m=new THREE.Mesh(qg,i%2?ma:mq); scene.add(m); return m; });
+  const tubeMat=new THREE.MeshStandardMaterial({color:0x6fb1ff,emissive:0x1b4f9a,transparent:true,opacity:.55,roughness:.7});
+  const tubes=[0,1].map(()=>{ const m=new THREE.Mesh(new THREE.CylinderGeometry(.16,.16,1,16,1,true),tubeMat); m.rotation.z=Math.PI/2; scene.add(m); return m; });
+  const NG=160; const gp=new Float32Array(NG*3); const gg=new THREE.BufferGeometry(); gg.setAttribute('position',new THREE.BufferAttribute(gp,3)); const gl=new THREE.Points(gg,new THREE.PointsMaterial({color:0xbfe0ff,size:.07,transparent:true,opacity:.9,depthWrite:false})); scene.add(gl);
+  const st={theta:.35,phi:1.2,r:9,user:false}; orbit(stage,st);
+  v={el:stage,resize,draw(dt,t){
+    const broken=sep>BREAK; const half=sep/2;
+    if(!broken){ quarks[0].position.set(-half,0,0); quarks[1].position.set(half,0,0); quarks[2].visible=quarks[3].visible=false; tubes[0].position.set(0,0,0); tubes[0].scale.set(1,sep,1); tubes[0].visible=true; tubes[1].visible=false; }
+    else { const l=(BREAK-.6)/2; quarks[0].position.set(-half,0,0); quarks[1].position.set(half,0,0); quarks[2].visible=quarks[3].visible=true; quarks[3].position.set(-half+l,0,0); quarks[2].position.set(half-l,0,0); tubes[0].position.set(-half+l/2,0,0); tubes[0].scale.set(1,l,1); tubes[1].position.set(half-l/2,0,0); tubes[1].scale.set(1,l,1); tubes[1].visible=true; }
+    for(let i=0;i<NG;i++){ const u=(i/NG+t*.15)%1; let x; if(!broken) x=-half+u*sep; else { const l=(BREAK-.6)/2; x=(i%2?-half:half-l)+u*l; } const a=t*3+i*1.7; gp[i*3]=x; gp[i*3+1]=Math.cos(a)*.14; gp[i*3+2]=Math.sin(a)*.14; }
+    gg.attributes.position.needsUpdate=true;
+    if(!st.user&&!RM) st.theta+=dt*.15; placeCam(cam,st); r.render(scene,cam);
+    $('ov3').innerHTML=`<b>Quark and antiquark, 3D</b><br>${broken?'tube snapped: two bound pairs, no free quark':`field energy ${E(sep).toFixed(2)} GeV · drag to orbit`}`;
+  }};
+  register(v); ro.observe(stage);
+})();
+
+/* ================= 4. Navier-Stokes: stable fluids ================= */
+(function(){
+  const stage=$('st4'), canvas=$('c4'); const N=64, S=(N+2)*(N+2); const IX=(i,j)=>i+(N+2)*j;
+  let u=new Float32Array(S), v2=new Float32Array(S), u0=new Float32Array(S), v0=new Float32Array(S), dn=new Float32Array(S), d0=new Float32Array(S);
+  let visc=8e-5, diff=1e-5; const off=document.createElement('canvas'); off.width=N; off.height=N; const octx=off.getContext('2d'); const img=octx.createImageData(N,N);
+  function bnd(b,x){ for(let i=1;i<=N;i++){ x[IX(0,i)]=b===1?-x[IX(1,i)]:x[IX(1,i)]; x[IX(N+1,i)]=b===1?-x[IX(N,i)]:x[IX(N,i)]; x[IX(i,0)]=b===2?-x[IX(i,1)]:x[IX(i,1)]; x[IX(i,N+1)]=b===2?-x[IX(i,N)]:x[IX(i,N)]; } x[IX(0,0)]=.5*(x[IX(1,0)]+x[IX(0,1)]); x[IX(0,N+1)]=.5*(x[IX(1,N+1)]+x[IX(0,N)]); x[IX(N+1,0)]=.5*(x[IX(N,0)]+x[IX(N+1,1)]); x[IX(N+1,N+1)]=.5*(x[IX(N,N+1)]+x[IX(N+1,N)]); }
+  function lin(b,x,x0,a,c){ for(let k=0;k<12;k++){ for(let j=1;j<=N;j++) for(let i=1;i<=N;i++) x[IX(i,j)]=(x0[IX(i,j)]+a*(x[IX(i-1,j)]+x[IX(i+1,j)]+x[IX(i,j-1)]+x[IX(i,j+1)]))/c; bnd(b,x); } }
+  function diffuse(b,x,x0,k,dt){ const a=dt*k*N*N; lin(b,x,x0,a,1+4*a); }
+  function advect(b,d,d0,u,v,dt){ const dt0=dt*N; for(let j=1;j<=N;j++) for(let i=1;i<=N;i++){ let x=i-dt0*u[IX(i,j)], y=j-dt0*v[IX(i,j)]; x=Math.max(.5,Math.min(N+.5,x)); y=Math.max(.5,Math.min(N+.5,y)); const i0=Math.floor(x), i1=i0+1, j0=Math.floor(y), j1=j0+1; const s1=x-i0, s0=1-s1, t1=y-j0, t0=1-t1; d[IX(i,j)]=s0*(t0*d0[IX(i0,j0)]+t1*d0[IX(i0,j1)])+s1*(t0*d0[IX(i1,j0)]+t1*d0[IX(i1,j1)]); } bnd(b,d); }
+  function project(u,v,p,div){ for(let j=1;j<=N;j++) for(let i=1;i<=N;i++){ div[IX(i,j)]=-.5*(u[IX(i+1,j)]-u[IX(i-1,j)]+v[IX(i,j+1)]-v[IX(i,j-1)])/N; p[IX(i,j)]=0; } bnd(0,div); bnd(0,p); lin(0,p,div,1,4); for(let j=1;j<=N;j++) for(let i=1;i<=N;i++){ u[IX(i,j)]-=.5*N*(p[IX(i+1,j)]-p[IX(i-1,j)]); v[IX(i,j)]-=.5*N*(p[IX(i,j+1)]-p[IX(i,j-1)]); } bnd(1,u); bnd(2,v); }
+  function step(dt){ for(let i=0;i<S;i++){ u[i]+=dt*u0[i]; v2[i]+=dt*v0[i]; dn[i]+=dt*d0[i]; } let tmp;
+    tmp=u0; u0=u; u=tmp; diffuse(1,u,u0,visc,dt); tmp=v0; v0=v2; v2=tmp; diffuse(2,v2,v0,visc,dt); project(u,v2,u0,v0);
+    tmp=u0; u0=u; u=tmp; tmp=v0; v0=v2; v2=tmp; advect(1,u,u0,u0,v0,dt); advect(2,v2,v0,u0,v0,dt); project(u,v2,u0,v0);
+    tmp=d0; d0=dn; dn=tmp; diffuse(0,dn,d0,diff,dt); tmp=d0; d0=dn; dn=tmp; advect(0,dn,d0,u,v2,dt);
+    u0.fill(0); v0.fill(0); d0.fill(0); for(let i=0;i<S;i++) dn[i]*=.995; }
+  let px=null,py=null, down=false, idle=0;
+  const toCell=e=>{ const b=stage.getBoundingClientRect(); return [Math.max(1,Math.min(N,Math.floor((e.clientX-b.left)/b.width*N)+1)),Math.max(1,Math.min(N,Math.floor((e.clientY-b.top)/b.height*N)+1))]; };
+  stage.style.touchAction='pan-y';
+  stage.addEventListener('pointerdown',e=>{ down=true; [px,py]=toCell(e); stage.setPointerCapture(e.pointerId); });
+  stage.addEventListener('pointermove',e=>{ const [cx,cy]=toCell(e); if(px!==null){ const dx=cx-px, dy=cy-py; const k=down?1:.5; for(let a=-1;a<=1;a++) for(let b=-1;b<=1;b++){ const i=IX(Math.max(1,Math.min(N,cx+a)),Math.max(1,Math.min(N,cy+b))); u0[i]+=dx*40*k; v0[i]+=dy*40*k; d0[i]+=(down?60:25); } idle=0; v.dirty=true; } px=cx; py=cy; });
+  stage.addEventListener('pointerup',()=>{ down=false; }); stage.addEventListener('pointerleave',()=>{ px=py=null; down=false; });
+  $('visc').addEventListener('input',e=>{ visc=(+e.target.value)*1e-5; $('viscVal').textContent=e.target.value; v.dirty=true; });
+  $('clearFluid').addEventListener('click',()=>{ u.fill(0); v2.fill(0); dn.fill(0); v.dirty=true; });
+  const v={el:stage,draw(dt,t){ const {ctx,w,h}=fit2d(canvas);
+    idle+=dt; if(idle>1.5||t<3){ /* a wandering jet keeps the panel alive */ const a=Math.sin(t*.7)*1.2; const i=IX(4,Math.round(N/2+Math.sin(t*.4)*N*.25)); u0[i]+=Math.cos(a)*300; v0[i]+=Math.sin(a)*300; d0[i]+=120; }
+    step(RM?.1:.1);
+    const data=img.data; for(let j=0;j<N;j++) for(let i=0;i<N;i++){ const dd=Math.min(1,dn[IX(i+1,j+1)]); const k=(j*N+i)*4; /* dye: navy → blue → white */ const r=Math.round(14+(dd<.5?dd*2*(57-14):57+(dd-.5)*2*(232-57))), g=Math.round(21+(dd<.5?dd*2*(135-21):135+(dd-.5)*2*(237-135))), b=Math.round(34+(dd<.5?dd*2*(229-34):229+(dd-.5)*2*(244-229))); data[k]=r; data[k+1]=g; data[k+2]=b; data[k+3]=255; }
+    octx.putImageData(img,0,0); ctx.imageSmoothingEnabled=true; ctx.imageSmoothingQuality='high'; ctx.drawImage(off,0,0,N,N,0,0,w,h);
+    let ke=0; for(let i=0;i<S;i++) ke+=u[i]*u[i]+v2[i]*v2[i]; $('ov4').innerHTML=`<b>Live fluid</b> · drag through it to stir<br>kinetic energy ${ke.toFixed(1)} · viscosity ${(visc*1e5).toFixed(0)}`;
+  }};
+  register(v); ro.observe(stage);
+})();
+
+/* ================= 5. Hodge: torus and cycles ================= */
+(function(){
+  const stage=$('st5'); if(!has3D){ fallback('st5'); return; }
+  const {r,cam,resize}=make3d($('c5')); const scene=new THREE.Scene();
+  scene.add(new THREE.AmbientLight(0xffffff,.6)); const dl=new THREE.DirectionalLight(0xffffff,.7); dl.position.set(3,5,4); scene.add(dl);
+  const Rt=2, rt=.8;
+  /* three.js builds the torus around the z axis; rotate it so its axis is vertical, matching the cycle parametrisation below */
+  const torus=new THREE.Mesh(new THREE.TorusGeometry(Rt,rt,48,96),new THREE.MeshStandardMaterial({color:0x2a3a5c,roughness:.8,metalness:.1,transparent:true,opacity:.92})); torus.rotation.x=Math.PI/2; scene.add(torus);
+  const wireT=new THREE.Mesh(new THREE.TorusGeometry(Rt,rt+.004,24,48),new THREE.MeshBasicMaterial({color:0x6b7ea6,wireframe:true,transparent:true,opacity:.18})); wireT.rotation.x=Math.PI/2; scene.add(wireT);
+  const onT=(u,w,lift)=>new THREE.Vector3((Rt+(rt+lift)*Math.cos(w))*Math.cos(u),(rt+lift)*Math.sin(w),(Rt+(rt+lift)*Math.cos(w))*Math.sin(u));
+  function tube(fn,color){ const pts=[]; for(let i=0;i<=200;i++) pts.push(fn(i/200)); const curve=new THREE.CatmullRomCurve3(pts,true); const m=new THREE.Mesh(new THREE.TubeGeometry(curve,300,.05,10,true),new THREE.MeshStandardMaterial({color,emissive:color,emissiveIntensity:.35,roughness:.5})); scene.add(m); return m; }
+  const A=tube(s=>onT(s*TAU,.6,.03),0xd95926), B=tube(s=>onT(.9,s*TAU,.03),0x3987e5), C=tube(s=>onT(2*s*TAU,3*s*TAU,.03),0x199e70); C.visible=false;
+  $('cycA').addEventListener('change',e=>{ A.visible=e.target.checked; v.dirty=true; }); $('cycB').addEventListener('change',e=>{ B.visible=e.target.checked; v.dirty=true; }); $('cycC').addEventListener('change',e=>{ C.visible=e.target.checked; v.dirty=true; });
+  const st={theta:.5,phi:1.0,r:8,user:false}; orbit(stage,st);
+  const v={el:stage,resize,draw(dt){ if(!st.user&&!RM) st.theta+=dt*.2; placeCam(cam,st); r.render(scene,cam); }};
+  register(v); ro.observe(stage);
+})();
+
+/* ================= 6. BSD: elliptic curve and rational points ================= */
+(function(){
+  const stage=$('st6'), canvas=$('c6'); let a=-1,b=0; let pts=[], sel=[], sum=null; let W=0,H=0;
+  const XR=[-4,6], YR=[-9,9];
+  const isSq=n=>{ if(n<0) return false; const s=Math.round(Math.sqrt(n)); return s*s===n; };
+  function gcd(x,y){ x=Math.abs(x); y=Math.abs(y); while(y){ [x,y]=[y,x%y]; } return x; }
+  function findPoints(){ pts=[]; const seen=new Set(); for(let q=1;q<=10;q++) for(let p=-40;p<=60;p++){ if(gcd(p,q)!==1) continue; const Nn=p*p*p+a*p*q*q+b*q*q*q; const m=Nn*q; if(!isSq(m)) continue; const x=p/q; const y=Math.sqrt(m)/(q*q); const key=x.toFixed(6); if(seen.has(key)) continue; seen.add(key); if(x>=XR[0]&&x<=XR[1]){ pts.push({x,y,px:p,qx:q}); if(y!==0) pts.push({x,y:-y,px:p,qx:q}); } } pts.sort((u,w)=>u.x-w.x); }
+  function setCurve(na,nb,id){ a=na; b=nb; sel=[]; sum=null; findPoints(); ['ec0','ec1','ec2'].forEach(k=>$(k).setAttribute('aria-pressed',k===id?'true':'false')); v.dirty=true; }
+  $('ec0').addEventListener('click',()=>setCurve(-1,0,'ec0')); $('ec1').addEventListener('click',()=>setCurve(0,-2,'ec1')); $('ec2').addEventListener('click',()=>setCurve(0,17,'ec2'));
+  const xs=x=>W*(x-XR[0])/(XR[1]-XR[0]), ys=y=>H*(1-(y-YR[0])/(YR[1]-YR[0]));
+  stage.addEventListener('pointerdown',e=>{ const bb=stage.getBoundingClientRect(); const mx=e.clientX-bb.left, my=e.clientY-bb.top; let best=null,bd=18; for(const p of pts){ const d=Math.hypot(xs(p.x)-mx,ys(p.y)-my); if(d<bd){ bd=d; best=p; } } if(!best) return; if(sel.length===2){ sel=[]; sum=null; } sel.push(best); if(sel.length===2) addPoints(); v.dirty=true; });
+  function addPoints(){ const [P,Q]=sel; let m; if(Math.abs(P.x-Q.x)<1e-9){ if(Math.abs(P.y+Q.y)<1e-9){ sum={inf:true}; return; } m=(3*P.x*P.x+a)/(2*P.y); } else m=(Q.y-P.y)/(Q.x-P.x); const x3=m*m-P.x-Q.x; const y3=m*(P.x-x3)-P.y; sum={x:x3,y:y3,m,c:P.y-m*P.x}; }
+  const frac=(p,q)=>q===1?String(p):p+'/'+q;
+  const v={el:stage,draw(){ const {ctx,w,h}=fit2d(canvas); W=w; H=h; if(!pts.length) findPoints(); ctx.clearRect(0,0,w,h);
+    ctx.strokeStyle='#233049'; ctx.lineWidth=1; for(let x=XR[0];x<=XR[1];x++){ ctx.beginPath(); ctx.moveTo(xs(x),0); ctx.lineTo(xs(x),h); ctx.stroke(); } for(let y=YR[0];y<=YR[1];y+=3){ ctx.beginPath(); ctx.moveTo(0,ys(y)); ctx.lineTo(w,ys(y)); ctx.stroke(); }
+    ctx.strokeStyle='#8d9ab0'; ctx.beginPath(); ctx.moveTo(xs(0),0); ctx.lineTo(xs(0),h); ctx.moveTo(0,ys(0)); ctx.lineTo(w,ys(0)); ctx.stroke();
+    ctx.fillStyle='#8d9ab0'; ctx.font='10px '+MONO; ctx.textAlign='center'; for(let x=XR[0];x<=XR[1];x++){ if(x) ctx.fillText(x,xs(x),ys(0)+12); } ctx.textAlign='left'; for(let y=-6;y<=6;y+=3){ if(y) ctx.fillText(y,xs(0)+4,ys(y)+3); }
+    /* the curve, upper and lower branches */
+    ctx.strokeStyle='#3987e5'; ctx.lineWidth=2.2; ctx.lineJoin='round'; for(const sgn of [1,-1]){ ctx.beginPath(); let pen=false; for(let i=0;i<=900;i++){ const x=XR[0]+(XR[1]-XR[0])*i/900; const f=x*x*x+a*x+b; if(f<0){ pen=false; continue; } const y=sgn*Math.sqrt(f); if(!pen){ ctx.moveTo(xs(x),ys(y)); pen=true; } else ctx.lineTo(xs(x),ys(y)); } ctx.stroke(); }
+    /* roots close the loop visually */
+    if(sum&&!sum.inf){ ctx.strokeStyle='#c98500'; ctx.lineWidth=1.3; ctx.setLineDash([5,4]); ctx.beginPath(); ctx.moveTo(xs(XR[0]),ys(sum.m*XR[0]+sum.c)); ctx.lineTo(xs(XR[1]),ys(sum.m*XR[1]+sum.c)); ctx.stroke(); ctx.beginPath(); ctx.moveTo(xs(sum.x),ys(-sum.y)); ctx.lineTo(xs(sum.x),ys(sum.y)); ctx.stroke(); ctx.setLineDash([]);
+      ctx.strokeStyle='#c98500'; ctx.lineWidth=2; ctx.beginPath(); ctx.arc(xs(sum.x),ys(-sum.y),5,0,TAU); ctx.stroke(); ctx.fillStyle='#c98500'; ctx.beginPath(); ctx.arc(xs(sum.x),ys(sum.y),6,0,TAU); ctx.fill(); ctx.fillStyle='#e8edf4'; ctx.font='600 11px '+MONO; ctx.textAlign='left'; ctx.fillText('P+Q',xs(sum.x)+9,ys(sum.y)+4); }
+    for(const p of pts){ const isSel=sel.includes(p); ctx.fillStyle='#d95926'; ctx.beginPath(); ctx.arc(xs(p.x),ys(p.y),isSel?6.5:4.5,0,TAU); ctx.fill(); if(isSel){ ctx.strokeStyle='#e8edf4'; ctx.lineWidth=2; ctx.stroke(); } }
+    ctx.fillStyle='#e8edf4'; ctx.font='600 11px '+MONO; ctx.textAlign='left'; sel.forEach((p,i)=>{ ctx.fillText((i?'Q':'P')+' = ('+frac(p.px,p.qx)+', '+(Number.isInteger(p.y)?p.y:p.y.toFixed(3))+')',xs(p.x)+9,ys(p.y)-8); });
+    const eq=`y² = x³ ${a?(a<0?'− ':'+ ')+Math.abs(a)+'x ':''}${b?(b<0?'− ':'+ ')+Math.abs(b):''}`.trim();
+    const rank={'-1,0':'rank 0 · only the 3 points on the axis plus the point at infinity','0,-2':'rank 1 · (3, 5) generates infinitely many','0,17':'rank 2 · 16 integer points, two independent generators'}[a+','+b]||'';
+    $('ov6').innerHTML=`<b>${eq}</b><br>${pts.length} rational points found with denominators ≤ 10<br>${rank}`;
+    $('ecRead').innerHTML=sum?(sum.inf?'<span>P + Q = <b>O</b>, the point at infinity (P and Q are reflections)</span>':`<span>line slope <b>${sum.m.toFixed(4)}</b></span><span>P + Q = (<b>${sum.x.toFixed(4)}</b>, <b>${sum.y.toFixed(4)}</b>)</span>`):'<span>select two orange points to add them</span>';
+  }};
+  setCurve(0,17,'ec2'); register(v); ro.observe(stage);
+})();
+
+/* ================= 7. Poincaré: Ricci flow ================= */
+(function(){
+  const stage=$('st7'); if(!has3D){ fallback('st7'); return; }
+  const {r,cam,resize}=make3d($('c7')); const scene=new THREE.Scene();
+  scene.add(new THREE.AmbientLight(0xffffff,.5)); const dl=new THREE.DirectionalLight(0xffffff,.9); dl.position.set(3,5,4); scene.add(dl); const dl2=new THREE.DirectionalLight(0x88aaff,.3); dl2.position.set(-4,-2,-3); scene.add(dl2);
+  const geo=new THREE.SphereGeometry(1.5,96,64); const base=geo.attributes.position.array.slice(); const pos=geo.attributes.position; const cnt=pos.count;
+  const mesh=new THREE.Mesh(geo,new THREE.MeshStandardMaterial({color:0x5b7fb5,roughness:.55,metalness:.05,flatShading:false})); scene.add(mesh);
+  scene.add(new THREE.Mesh(geo,new THREE.MeshBasicMaterial({color:0xbcd0ff,wireframe:true,transparent:true,opacity:.08})));
+  let bumps=[]; function newShape(){ bumps=[]; for(let i=0;i<7;i++){ const u=Math.random()*2-1, ph=Math.random()*TAU; const s=Math.sqrt(1-u*u); bumps.push({d:new THREE.Vector3(s*Math.cos(ph),u,s*Math.sin(ph)),a:(Math.random()*.9+.3)*(Math.random()<.5?1:-1),w:1.2+Math.random()*2}); } amp=1; running=false; flowT=0; $('ricciBtn').textContent='Run Ricci flow'; loopPhi=1.25; }
+  const disp=(n)=>{ let s=0; for(const b of bumps){ const c=n.dot(b.d); s+=b.a*Math.exp(-(1-c)*b.w*2.2); } return s; };
+  let amp=1, running=false, flowT=0, loopPhi=1.25; const nv=new THREE.Vector3();
+  const LN=140; const lp=new Float32Array((LN+1)*3); const lg=new THREE.BufferGeometry(); lg.setAttribute('position',new THREE.BufferAttribute(lp,3)); scene.add(new THREE.LineLoop(lg,new THREE.LineBasicMaterial({color:0xffffff})));
+  newShape();
+  $('ricciBtn').addEventListener('click',()=>{ if(amp<.02){ amp=1; loopPhi=1.25; flowT=0; } running=!running; $('ricciBtn').textContent=running?'Pause':'Run Ricci flow'; v.dirty=true; });
+  $('lumpBtn').addEventListener('click',()=>{ newShape(); v.dirty=true; });
+  const st={theta:.4,phi:1.1,r:6.5,user:false}; orbit(stage,st);
+  const v={el:stage,resize,draw(dt,t){
+    if(running&&!RM){ flowT+=dt; amp=Math.max(0,amp-dt*.28); loopPhi=Math.max(.02,loopPhi-dt*.32); if(amp<=0&&loopPhi<=.02){ running=false; $('ricciBtn').textContent='Run again'; } }
+    if(RM&&running){ amp=0; loopPhi=.02; running=false; $('ricciBtn').textContent='Run again'; }
+    for(let i=0;i<cnt;i++){ nv.set(base[i*3],base[i*3+1],base[i*3+2]).normalize(); const rr=1.5+amp*.55*disp(nv); pos.setXYZ(i,nv.x*rr,nv.y*rr,nv.z*rr); }
+    pos.needsUpdate=true; geo.computeVertexNormals();
+    for(let i=0;i<=LN;i++){ const a=i/LN*TAU; nv.set(Math.sin(loopPhi)*Math.cos(a),Math.cos(loopPhi),Math.sin(loopPhi)*Math.sin(a)); const rr=1.5+amp*.55*disp(nv)+.02; lp[i*3]=nv.x*rr; lp[i*3+1]=nv.y*rr; lp[i*3+2]=nv.z*rr; }
+    lg.attributes.position.needsUpdate=true;
+    if(!st.user&&!RM) st.theta+=dt*.2; placeCam(cam,st); r.render(scene,cam);
+    $('ov7').innerHTML=`<b>Ricci flow, 3D</b><br>${amp<.02?'round sphere · the loop has shrunk to a point':`curvature spread ${Math.round((1-amp)*100)} % · loop radius ${(Math.sin(loopPhi)*1.5).toFixed(2)}`}`;
+  }};
+  register(v); ro.observe(stage);
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,624 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ten Open Questions</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,600&family=JetBrains+Mono:wght@400;600&display=swap">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<style>
+/* Layout: a field guide. Each question is a numbered plate: title across the top, instrument panel (the visual) on the left, three short notes on the right. The panels are always dark like lab monitors; the page around them follows the theme. */
+:root{
+  --bg:#eef0f2; --fg:#141a21; --muted:#5a6572; --rule:#cfd5da; --panel:#ffffff; --accent:#1f4fd6; --accent-ink:#ffffff;
+  --viz-bg:#0e1522; --viz-fg:#e8edf4; --viz-muted:#8d9ab0; --viz-grid:#233049;
+  --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500;
+  --display:'Young Serif', Georgia, 'Times New Roman', serif;
+  --body:'Bricolage Grotesque', 'Helvetica Neue', Arial, sans-serif;
+  --mono:'JetBrains Mono', Consolas, 'Courier New', monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){ --bg:#0b0f14; --fg:#e6eaef; --muted:#9aa5b3; --rule:#263040; --panel:#121820; --accent:#7ea6ff; --accent-ink:#0b0f14; --viz-bg:#0a111c; --viz-grid:#1e2a40; color-scheme:dark }
+}
+:root[data-theme="dark"]{ --bg:#0b0f14; --fg:#e6eaef; --muted:#9aa5b3; --rule:#263040; --panel:#121820; --accent:#7ea6ff; --accent-ink:#0b0f14; --viz-bg:#0a111c; --viz-grid:#1e2a40; color-scheme:dark }
+
+*{box-sizing:border-box}
+body{ margin:0; background:var(--bg); color:var(--fg); font-family:var(--body); font-size:17px; line-height:1.55; font-weight:400; }
+.wrap{ max-width:1080px; margin:0 auto; padding-inline:16px; padding-block:28px 72px; }
+
+header{ display:grid; grid-template-columns:1fr; gap:14px; padding-bottom:28px; border-bottom:1px solid var(--rule); }
+.eyebrow{ font-family:var(--mono); font-size:12px; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); }
+h1{ font-family:var(--display); font-weight:400; font-size:clamp(38px,7vw,72px); line-height:1; margin:0; letter-spacing:-.01em; text-wrap:balance; }
+.lede{ max-width:62ch; font-size:19px; margin:0; color:var(--fg); font-weight:300; }
+.lede b{font-weight:600}
+
+.toc{ display:grid; grid-template-columns:repeat(auto-fill,minmax(230px,1fr)); gap:6px 24px; padding-block:22px; border-bottom:1px solid var(--rule); }
+.toc a{ display:flex; gap:10px; align-items:baseline; color:var(--fg); text-decoration:none; padding-block:5px; border-bottom:1px solid transparent; min-width:0; }
+.toc a:hover{ color:var(--accent); }
+.toc a:focus-visible{ outline:2px solid var(--accent); outline-offset:2px; }
+.toc .n{ font-family:var(--mono); font-size:12px; color:var(--muted); min-width:2ch; }
+
+.plate{ padding-block:44px 24px; border-bottom:1px solid var(--rule); scroll-margin-top:12px; }
+.plate-head{ display:flex; gap:18px; align-items:baseline; margin-bottom:18px; }
+.plate-head .n{ font-family:var(--display); font-size:clamp(34px,5vw,56px); line-height:1; color:var(--accent); flex:none; width:2.1ch; }
+.plate-head h2{ font-family:var(--display); font-weight:400; font-size:clamp(24px,3.4vw,36px); line-height:1.15; margin:0; text-wrap:balance; }
+.plate-body{ display:grid; grid-template-columns:minmax(0,3fr) minmax(0,2fr); gap:22px 32px; align-items:start; }
+@media (max-width:760px){ .plate-body{ grid-template-columns:1fr; } }
+
+.viz{ background:var(--viz-bg); color:var(--viz-fg); border-radius:6px; overflow:hidden; min-width:0; }
+.viz .stage{ position:relative; width:100%; aspect-ratio:16/10; max-width:100%; }
+.viz canvas{ display:block; width:100%; height:100%; }
+.viz .stage .overlay{ position:absolute; left:12px; top:10px; font-family:var(--mono); font-size:12px; color:var(--viz-muted); pointer-events:none; line-height:1.4; }
+.viz .stage .overlay b{ color:var(--viz-fg); font-weight:600; }
+.viz .stage .fallback{ position:absolute; inset:0; display:grid; place-items:center; padding:20px; text-align:center; color:var(--viz-muted); font-size:14px; }
+.controls{ display:flex; flex-wrap:wrap; gap:10px 18px; align-items:center; padding:10px 12px 12px; border-top:1px solid var(--viz-grid); font-size:13.5px; }
+.controls label{ display:flex; align-items:center; gap:8px; cursor:pointer; min-width:0; }
+.controls input[type=range]{ accent-color:var(--s1); width:120px; }
+.controls input[type=checkbox]{ accent-color:var(--s1); width:15px; height:15px; }
+.controls .val{ font-family:var(--mono); font-size:12.5px; color:var(--viz-muted); min-width:4ch; font-variant-numeric:tabular-nums; }
+.controls button{ font-family:var(--body); font-size:13.5px; font-weight:600; color:var(--viz-bg); background:var(--viz-fg); border:0; border-radius:4px; padding:6px 12px; cursor:pointer; }
+.controls button.ghost{ background:transparent; color:var(--viz-fg); border:1px solid var(--viz-grid); font-weight:400; }
+.controls button:focus-visible, .controls input:focus-visible{ outline:2px solid var(--s1); outline-offset:2px; }
+.viz .caption{ padding:8px 12px 10px; font-size:13px; color:var(--viz-muted); border-top:1px solid var(--viz-grid); }
+
+.notes{ display:grid; gap:14px; min-width:0; }
+.notes h3{ font-family:var(--mono); font-size:11.5px; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); font-weight:600; margin:0 0 4px; }
+.notes p{ margin:0; max-width:48ch; font-size:16px; }
+
+/* chart (svg) panels */
+.chart{ width:100%; aspect-ratio:16/9; display:block; }
+.chart text{ font-family:var(--mono); font-size:11px; fill:var(--viz-muted); }
+.chart .grid{ stroke:var(--viz-grid); stroke-width:1; }
+.chart .axis{ stroke:var(--viz-muted); stroke-width:1; }
+.chart .line{ fill:none; stroke-width:2; stroke-linejoin:round; stroke-linecap:round; }
+.chart .lbl{ fill:var(--viz-fg); font-weight:600; }
+.chart .title{ fill:var(--viz-fg); font-size:12px; }
+.chart .ch{ stroke:var(--viz-muted); stroke-dasharray:3 3; }
+.tip{ position:absolute; pointer-events:none; background:var(--viz-fg); color:var(--viz-bg); font-family:var(--mono); font-size:12px; padding:5px 8px; border-radius:4px; white-space:nowrap; transform:translate(-50%,-125%); }
+.legend{ display:flex; flex-wrap:wrap; gap:6px 16px; font-size:13px; padding:8px 12px 0; color:var(--viz-muted); }
+.legend span{ display:inline-flex; align-items:center; gap:6px; }
+.legend i{ width:14px; height:3px; border-radius:2px; display:inline-block; }
+
+/* drake */
+.drake{ padding:14px 14px 6px; display:grid; gap:10px; }
+.drake .row{ display:grid; grid-template-columns:3.2ch minmax(0,1fr) 7ch; gap:10px; align-items:center; font-size:13.5px; }
+.drake .row .sym{ font-family:var(--mono); color:var(--viz-fg); font-weight:600; }
+.drake .row .name{ color:var(--viz-muted); min-width:0; }
+.drake .row input{ width:100%; accent-color:var(--s1); }
+.drake .row .val{ font-family:var(--mono); font-size:12.5px; text-align:right; font-variant-numeric:tabular-nums; }
+.drake .result{ display:flex; flex-wrap:wrap; align-items:baseline; gap:8px 14px; padding-top:6px; border-top:1px solid var(--viz-grid); }
+.drake .result .eq{ font-family:var(--mono); font-size:12px; color:var(--viz-muted); }
+.drake .result .N{ font-family:var(--display); font-size:34px; line-height:1; color:var(--viz-fg); }
+.drake .result .N small{ font-family:var(--body); font-size:14px; color:var(--viz-muted); }
+
+footer{ padding-top:26px; color:var(--muted); font-size:14px; max-width:70ch; }
+@media (prefers-reduced-motion:reduce){ .viz canvas{ transition:none } }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+<header>
+  <div class="eyebrow">Field guide · unsolved science · 2026</div>
+  <h1>Ten Open Questions</h1>
+  <p class="lede">The questions that would reshape a whole field if answered. Each plate shows the problem as a working model you can push on. <b>Nothing here is a solution</b>; the models show the shape of what we know, and where it stops.</p>
+</header>
+
+<nav class="toc" aria-label="Contents">
+  <a href="#q1"><span class="n">1</span>What are dark matter and dark energy?</a>
+  <a href="#q2"><span class="n">2</span>How does life begin from non-life?</a>
+  <a href="#q3"><span class="n">3</span>What is consciousness?</a>
+  <a href="#q4"><span class="n">4</span>How do gravity and quantum mechanics fit?</a>
+  <a href="#q5"><span class="n">5</span>Why is there more matter than antimatter?</a>
+  <a href="#q6"><span class="n">6</span>Are we alone?</a>
+  <a href="#q7"><span class="n">7</span>How does the brain store a memory?</a>
+  <a href="#q8"><span class="n">8</span>Why do we sleep?</a>
+  <a href="#q9"><span class="n">9</span>What happened before the Big Bang?</a>
+  <a href="#q10"><span class="n">10</span>Can we predict a cell from its genes?</a>
+</nav>
+
+<!-- 1 -->
+<section class="plate" id="q1">
+  <div class="plate-head"><span class="n">1</span><h2>What are dark matter and dark energy?</h2></div>
+  <div class="plate-body">
+    <div class="viz">
+      <div class="stage" id="st1"><canvas id="c1"></canvas><div class="overlay"><b>Spiral galaxy, 3D</b><br>Drag to orbit · visible stars in warm white</div></div>
+      <div class="controls">
+        <label><input type="checkbox" id="halo"> Show the dark matter halo we infer</label>
+      </div>
+      <div class="legend"><span><i style="background:var(--s1)"></i>Observed rotation speed</span><span><i style="background:var(--s2)"></i>Expected from visible matter alone</span></div>
+      <div style="position:relative"><svg class="chart" id="rot" viewBox="0 0 480 270" role="img" aria-label="Galaxy rotation curve: observed speed stays flat near 220 kilometres per second out to 30 kiloparsecs, while the speed expected from visible matter falls after 4 kiloparsecs"></svg><div class="tip" id="rotTip" hidden></div></div>
+      <div class="caption">Stars at the edge of a galaxy orbit far too fast for the matter we can see. Either there is five times more unseen mass, or gravity itself works differently at large scales.</div>
+    </div>
+    <div class="notes">
+      <div><h3>What we know</h3><p>Galaxies rotate, cluster and bend light as if they hold about five times more mass than their stars and gas. The universe's expansion has been speeding up for roughly 5 billion years.</p></div>
+      <div><h3>What we don't</h3><p>What the extra mass is made of. Forty years of underground detectors have found no particle. What the energy is that pushes space apart.</p></div>
+      <div><h3>Leading ideas</h3><p>Weakly interacting particles, axions, primordial black holes. For dark energy, a cosmological constant, or a field that changes over time. Modified gravity remains a minority view.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 2 -->
+<section class="plate" id="q2">
+  <div class="plate-head"><span class="n">2</span><h2>How does life begin from non-life?</h2></div>
+  <div class="plate-body">
+    <div class="viz">
+      <div class="stage" id="st2"><canvas id="c2"></canvas><div class="overlay" id="ov2"><b>Warm little pond</b><br>monomers drift and bond</div></div>
+      <div class="controls">
+        <label>Energy input <input type="range" id="energy" min="0" max="100" value="45"><span class="val" id="energyVal">45</span></label>
+        <button type="button" class="ghost" id="resetPond">Reset pond</button>
+      </div>
+      <div class="caption">Small molecules link into chains. A long enough chain becomes a template that copies itself. Whether this step happens easily, and how, is the gap. Chains of six or more here copy, which real chemistry has never been shown to do without help.</div>
+    </div>
+    <div class="notes">
+      <div><h3>What we know</h3><p>Amino acids and nucleobases form readily in early-Earth conditions and arrive on meteorites. Life was present on Earth within a few hundred million years of the oceans forming.</p></div>
+      <div><h3>What we don't</h3><p>How molecules first began copying themselves and competing. Whether it took a lucky accident or happens anywhere with water, carbon and energy.</p></div>
+      <div><h3>Leading ideas</h3><p>An RNA world where one molecule did both storage and catalysis. Alkaline hydrothermal vents as natural reactors. Wet-dry cycles on volcanic shores that concentrate and link molecules.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 3 -->
+<section class="plate" id="q3">
+  <div class="plate-head"><span class="n">3</span><h2>What is consciousness?</h2></div>
+  <div class="plate-body">
+    <div class="viz">
+      <div class="stage" id="st3"><canvas id="c3"></canvas><div class="overlay"><b>Neurons firing</b> · on the left, what instruments record</div></div>
+      <div class="controls">
+        <label>Stimulus <input type="range" id="stim" min="0" max="100" value="50"><span class="val" id="stimVal">50</span></label>
+      </div>
+      <div class="caption">Every spike on the left can be measured in millivolts. The experience on the right cannot be measured at all. The arrow between them is the explanatory gap.</div>
+    </div>
+    <div class="notes">
+      <div><h3>What we know</h3><p>Consciousness depends on the brain. Anaesthetics switch it off, damage changes it, and specific patterns of activity in the cortex track whether a person reports seeing something.</p></div>
+      <div><h3>What we don't</h3><p>Why any physical process is accompanied by experience at all. How to tell whether an octopus, a newborn or a language model has it.</p></div>
+      <div><h3>Leading ideas</h3><p>Global workspace theory (broadcast across the brain), integrated information theory (a measure of how unified a system is), and higher-order theories. A 2023 adversarial test left the first two both standing.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 4 -->
+<section class="plate" id="q4">
+  <div class="plate-head"><span class="n">4</span><h2>How do gravity and quantum mechanics fit together?</h2></div>
+  <div class="plate-body">
+    <div class="viz">
+      <div class="stage" id="st4"><canvas id="c4"></canvas><div class="overlay"><b>Curved spacetime, 3D</b><br>Drag to orbit</div></div>
+      <div class="controls">
+        <label>Mass <input type="range" id="mass" min="0" max="100" value="55"><span class="val" id="massVal">55</span></label>
+        <label><input type="checkbox" id="foam"> Zoom to the Planck scale (quantum foam)</label>
+      </div>
+      <div class="caption">Relativity says mass bends a smooth sheet. Quantum theory says nothing is smooth at 10<sup>-35</sup> metres. Both are right in their own domain, and no one has a theory that holds the sheet and the foam together.</div>
+    </div>
+    <div class="notes">
+      <div><h3>What we know</h3><p>General relativity passes every test, including gravitational waves and black hole images. Quantum field theory predicts the electron's magnetism to twelve digits.</p></div>
+      <div><h3>What we don't</h3><p>What happens at a black hole's centre or the first instant of the Big Bang, where both theories must apply and their maths produces infinities.</p></div>
+      <div><h3>Leading ideas</h3><p>String theory, loop quantum gravity, and newer approaches such as holography, where gravity in a volume equals a quantum theory on its boundary. None has made a prediction we can test.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 5 -->
+<section class="plate" id="q5">
+  <div class="plate-head"><span class="n">5</span><h2>Why is there more matter than antimatter?</h2></div>
+  <div class="plate-body">
+    <div class="viz">
+      <div class="stage" id="st5"><canvas id="c5"></canvas><div class="overlay" id="ov5"><b>The first microsecond</b></div></div>
+      <div class="controls">
+        <label>Surplus of matter, exaggerated <input type="range" id="bias" min="0" max="20" value="5"><span class="val" id="biasVal">1 in 20</span></label>
+        <button type="button" class="ghost" id="resetBang">Restart</button>
+      </div>
+      <div class="caption">Pairs are born, meet and vanish into light. The real surplus was about one in a billion. That leftover is every atom that exists. The slider is exaggerated so you can see a survivor at all.</div>
+    </div>
+    <div class="notes">
+      <div><h3>What we know</h3><p>Energy makes matter and antimatter in equal amounts. The early universe should have annihilated to pure radiation. Instead, roughly one particle per billion survived.</p></div>
+      <div><h3>What we don't</h3><p>What tipped the balance. The known difference between matter and antimatter (CP violation in quark decays) is about a billion times too small to explain it.</p></div>
+      <div><h3>Leading ideas</h3><p>Extra CP violation among neutrinos, now being hunted at the DUNE and Hyper-Kamiokande experiments. Heavy particles decaying asymmetrically in the first instant. Or physics we have not imagined yet.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 6 -->
+<section class="plate" id="q6">
+  <div class="plate-head"><span class="n">6</span><h2>Are we alone?</h2></div>
+  <div class="plate-body">
+    <div class="viz">
+      <div class="drake" id="drake">
+        <div class="row"><span class="sym">R*</span><label class="name" for="dR">Stars born per year in our galaxy<input type="range" id="dR" min="1" max="20" step="0.5" value="2"></label><span class="val" id="vR"></span></div>
+        <div class="row"><span class="sym">f<sub>p</sub></span><label class="name" for="dfp">Fraction with planets<input type="range" id="dfp" min="0" max="1" step="0.01" value="0.9"></label><span class="val" id="vfp"></span></div>
+        <div class="row"><span class="sym">n<sub>e</sub></span><label class="name" for="dne">Habitable planets per such star<input type="range" id="dne" min="0" max="3" step="0.05" value="0.4"></label><span class="val" id="vne"></span></div>
+        <div class="row"><span class="sym">f<sub>l</sub></span><label class="name" for="dfl">Fraction where life starts<input type="range" id="dfl" min="0" max="1" step="0.01" value="0.3"></label><span class="val" id="vfl"></span></div>
+        <div class="row"><span class="sym">f<sub>i</sub></span><label class="name" for="dfi">Fraction that becomes intelligent<input type="range" id="dfi" min="0" max="1" step="0.01" value="0.1"></label><span class="val" id="vfi"></span></div>
+        <div class="row"><span class="sym">f<sub>c</sub></span><label class="name" for="dfc">Fraction that sends signals<input type="range" id="dfc" min="0" max="1" step="0.01" value="0.2"></label><span class="val" id="vfc"></span></div>
+        <div class="row"><span class="sym">L</span><label class="name" for="dL">Years a civilisation keeps signalling<input type="range" id="dL" min="2" max="9" step="0.05" value="4"></label><span class="val" id="vL"></span></div>
+        <div class="result"><span class="eq">N = R* · f<sub>p</sub> · n<sub>e</sub> · f<sub>l</sub> · f<sub>i</sub> · f<sub>c</sub> · L</span><span class="N" id="dN"></span></div>
+      </div>
+      <div class="controls">
+        <button type="button" class="ghost" id="optimist">Optimist</button>
+        <button type="button" class="ghost" id="pessimist">Pessimist</button>
+        <button type="button" class="ghost" id="rare">Rare Earth</button>
+      </div>
+      <div class="stage" style="aspect-ratio:16/5"><canvas id="c6"></canvas><div class="overlay" id="ov6"></div></div>
+      <div class="caption">Frank Drake's 1961 equation. The first three factors are now measured. The last four are guesses, and honest guesses span from a galaxy full of neighbours to a galaxy with only us.</div>
+    </div>
+    <div class="notes">
+      <div><h3>What we know</h3><p>Most stars have planets. Roughly one in five sun-like stars has a rocky planet in the habitable zone. That is billions of candidates in our galaxy alone.</p></div>
+      <div><h3>What we don't</h3><p>Whether life starts easily, whether intelligence follows, and how long technological societies last. One confirmed detection anywhere would change every one of those numbers.</p></div>
+      <div><h3>Leading ideas</h3><p>Look for biosignature gases in exoplanet atmospheres with JWST and its successors. Search for technosignatures across radio and optical bands. Drill the ice of Europa and Enceladus.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 7 -->
+<section class="plate" id="q7">
+  <div class="plate-head"><span class="n">7</span><h2>How does the brain store a memory?</h2></div>
+  <div class="plate-body">
+    <div class="viz">
+      <div class="stage" id="st7"><canvas id="c7"></canvas><div class="overlay" id="ov7"><b>One synapse</b><br>strength 1.0×</div></div>
+      <div class="controls">
+        <button type="button" id="stimBtn">Stimulate</button>
+        <span style="color:var(--viz-muted)">Press repeatedly. The connection strengthens, then slowly fades if left alone.</span>
+      </div>
+      <div class="caption">Long-term potentiation: a synapse used often grows stronger. This is the best-understood mechanism of memory, and it still does not explain how a single morning becomes a recollection you can replay forty years later.</div>
+    </div>
+    <div class="notes">
+      <div><h3>What we know</h3><p>Memories are held in patterns of strengthened connections across many neurons, with the hippocampus writing new episodes and the cortex slowly taking them over, mostly during sleep.</p></div>
+      <div><h3>What we don't</h3><p>How a specific memory is encoded in those weights, how it can be read back, why some last a lifetime while most fade, and what makes a memory feel like the past rather than a thought.</p></div>
+      <div><h3>Leading ideas</h3><p>Engram cells tagged and reactivated with light in mice. Protein switches that keep a synapse strong. Replay of neural sequences during sleep as the copying process.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 8 -->
+<section class="plate" id="q8">
+  <div class="plate-head"><span class="n">8</span><h2>Why do we sleep?</h2></div>
+  <div class="plate-body">
+    <div class="viz">
+      <div class="legend"><span><i style="background:var(--s1)"></i>Sleep stage</span><span><i style="background:var(--s2);height:10px;opacity:.5"></i>REM periods</span></div>
+      <div style="position:relative"><svg class="chart" id="hyp" viewBox="0 0 480 270" role="img" aria-label="Hypnogram of one night: five cycles of about ninety minutes, deep sleep concentrated early, REM periods lengthening toward morning"></svg><div class="tip" id="hypTip" hidden></div></div>
+      <div class="caption">A typical night. Deep sleep comes early, REM grows toward morning. We can map every minute of it, and still cannot say why a fruit fly deprived of this dies.</div>
+    </div>
+    <div class="notes">
+      <div><h3>What we know</h3><p>Every animal with a nervous system sleeps or does something like it. Sleep consolidates memory, clears metabolic waste from the brain, and resets synapses that grew during the day.</p></div>
+      <div><h3>What we don't</h3><p>Which of those is the reason sleep evolved, why it must involve losing consciousness, and why total deprivation is fatal in rats within weeks.</p></div>
+      <div><h3>Leading ideas</h3><p>The synaptic homeostasis hypothesis (sleep prunes). The glymphatic system (sleep washes). Or sleep as the default state, with waking the costly addition.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 9 -->
+<section class="plate" id="q9">
+  <div class="plate-head"><span class="n">9</span><h2>What happened before the Big Bang, and what is time?</h2></div>
+  <div class="plate-body">
+    <div class="viz">
+      <div class="stage" id="st9"><canvas id="c9"></canvas><div class="overlay" id="ov9"></div></div>
+      <div class="controls">
+        <label style="flex:1 1 240px">Time since the Big Bang (log scale) <input type="range" id="tlog" min="-43" max="17.6" step="0.1" value="-36" style="width:100%;max-width:100%"></label>
+      </div>
+      <div class="caption">Sixty orders of magnitude from the Planck time to today. Left of the Planck time our equations give infinities. Whether "before" even means anything there is an open question.</div>
+    </div>
+    <div class="notes">
+      <div><h3>What we know</h3><p>The universe was hot, dense and expanding 13.8 billion years ago. The cosmic microwave background is a photograph of it at 380,000 years old, and it matches theory to a part in 100,000.</p></div>
+      <div><h3>What we don't</h3><p>What happened in the first 10<sup>-43</sup> seconds, whether there was a before, and why time runs one way when the underlying laws do not care.</p></div>
+      <div><h3>Leading ideas</h3><p>Cosmic inflation, a bounce from a previous contracting universe, eternal inflation spawning many universes, or time as an emergent effect of entropy rather than a fundamental thing.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 10 -->
+<section class="plate" id="q10">
+  <div class="plate-head"><span class="n">10</span><h2>Can we predict a cell from its genes?</h2></div>
+  <div class="plate-body">
+    <div class="viz">
+      <div class="stage" id="st10"><canvas id="c10"></canvas><div class="overlay"><b>Protein chain, 3D</b><br>orange: water-avoiding · blue: water-loving · drag to orbit</div></div>
+      <div class="controls">
+        <button type="button" id="foldBtn">Fold</button>
+        <span style="color:var(--viz-muted)">Shape is now predictable. Function, timing and what the cell does with it are not.</span>
+      </div>
+      <div class="caption">AlphaFold solved the shape of nearly every known protein. The next step, from a genome to a living, dividing cell simulated from first principles, is still out of reach.</div>
+    </div>
+    <div class="notes">
+      <div><h3>What we know</h3><p>The genetic code, the shape of 200 million proteins, and the wiring of a whole fruit fly brain. The simplest free-living cell has about 470 genes, and we can build it.</p></div>
+      <div><h3>What we don't</h3><p>What about 100 of those 470 genes do. Why one mutation causes disease in one person and not another. How to simulate even a single bacterium from its DNA alone.</p></div>
+      <div><h3>Leading ideas</h3><p>Whole-cell models that track every molecule. Foundation models trained on millions of single-cell profiles. Minimal synthetic cells built gene by gene until the model matches the dish.</p></div>
+    </div>
+  </div>
+</section>
+
+<footer>Numbers come from current consensus sources: Planck 2018 for cosmology, NASA Exoplanet Archive for planet statistics, and the JCVI-syn3.0 minimal cell. Where a value is a guess, the page says so.</footer>
+</div>
+
+<script>
+'use strict';
+const RM=matchMedia('(prefers-reduced-motion: reduce)').matches;
+const css=n=>getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const $=id=>document.getElementById(id);
+const DPR=Math.min(2,window.devicePixelRatio||1);
+const TAU=Math.PI*2;
+const has3D=typeof THREE!=='undefined';
+
+/* ---- animation registry: only visible panels animate ---- */
+const vizs=[];
+function register(v){ vizs.push(v); v.active=false; v.dirty=true; io.observe(v.el); }
+const io=new IntersectionObserver(es=>{ for(const e of es){ const v=vizs.find(x=>x.el===e.target); if(v){ v.active=e.isIntersecting; if(v.active) v.dirty=true; } } },{rootMargin:'80px'});
+let last=performance.now();
+function loop(now){ const dt=Math.min(.05,(now-last)/1000); last=now; for(const v of vizs){ if(!v.active) continue; if(RM&&!v.dirty) continue; v.draw(dt,now/1000); v.dirty=false; } requestAnimationFrame(loop); }
+requestAnimationFrame(loop);
+
+/* 2D canvas helper: sizes to its stage, returns ctx and css size */
+function fit2d(canvas){ const r=canvas.parentElement.getBoundingClientRect(); const w=Math.max(1,Math.round(r.width)), h=Math.max(1,Math.round(r.height)); if(canvas.width!==Math.round(w*DPR)||canvas.height!==Math.round(h*DPR)){ canvas.width=Math.round(w*DPR); canvas.height=Math.round(h*DPR); } const ctx=canvas.getContext('2d'); ctx.setTransform(DPR,0,0,DPR,0,0); return {ctx,w,h}; }
+const ro=new ResizeObserver(es=>{ for(const e of es){ const v=vizs.find(x=>x.el===e.target); if(v){ v.dirty=true; if(v.resize) v.resize(); } } });
+function watch(el){ ro.observe(el); }
+
+/* simple orbit control for three.js scenes */
+function orbit(el,state){ let down=false,lx=0,ly=0; el.style.touchAction='pan-y'; el.addEventListener('pointerdown',e=>{ down=true; lx=e.clientX; ly=e.clientY; el.setPointerCapture(e.pointerId); }); el.addEventListener('pointermove',e=>{ if(!down) return; state.theta-= (e.clientX-lx)*.008; state.phi=Math.max(.15,Math.min(1.45,state.phi+(e.clientY-ly)*.006)); lx=e.clientX; ly=e.clientY; state.user=true; }); el.addEventListener('pointerup',()=>{down=false;}); el.addEventListener('pointercancel',()=>{down=false;}); }
+function placeCam(cam,state){ cam.position.set(state.r*Math.sin(state.phi)*Math.sin(state.theta),state.r*Math.cos(state.phi),state.r*Math.sin(state.phi)*Math.cos(state.theta)); cam.lookAt(0,0,0); }
+function fallback(stageId,msg){ const d=document.createElement('div'); d.className='fallback'; d.textContent=msg; $(stageId).appendChild(d); }
+function make3d(canvas){ const r=new THREE.WebGLRenderer({canvas,antialias:true,alpha:true}); r.setPixelRatio(DPR); const cam=new THREE.PerspectiveCamera(45,16/10,.1,100); const resize=()=>{ const b=canvas.parentElement.getBoundingClientRect(); r.setSize(Math.round(b.width),Math.round(b.height),false); cam.aspect=b.width/b.height; cam.updateProjectionMatrix(); }; resize(); return {r,cam,resize}; }
+
+/* ================= 1. dark matter: galaxy + rotation curve ================= */
+(function(){
+  const stage=$('st1');
+  if(!has3D){ fallback('st1','The 3D model needs WebGL and the three.js library, which did not load here. The rotation curve below still tells the story.'); }
+  else {
+    const {r,cam,resize}=make3d($('c1')); const scene=new THREE.Scene();
+    const disc=new THREE.Group(), halo=new THREE.Group(); scene.add(disc,halo);
+    const N=7000, pos=new Float32Array(N*3), col=new Float32Array(N*3); const c=new THREE.Color();
+    for(let i=0;i<N;i++){ const arm=i%2; const rr=Math.pow(Math.random(),.55)*4.2; const a=rr*1.35+arm*Math.PI+(Math.random()-.5)*(.5+rr*.15); const x=rr*Math.cos(a), z=rr*Math.sin(a), y=(Math.random()-.5)*(.25*Math.exp(-rr/1.5)+.05);
+      pos.set([x,y,z],i*3); const t=Math.random(); c.setHSL(t<.15?.6:.09,t<.15?.6:.5,rr<.6?.9:.7+Math.random()*.25); col.set([c.r,c.g,c.b],i*3); }
+    const g=new THREE.BufferGeometry(); g.setAttribute('position',new THREE.BufferAttribute(pos,3)); g.setAttribute('color',new THREE.BufferAttribute(col,3));
+    disc.add(new THREE.Points(g,new THREE.PointsMaterial({size:.045,vertexColors:true,transparent:true,opacity:.95,depthWrite:false,blending:THREE.AdditiveBlending})));
+    const core=new THREE.Mesh(new THREE.SphereGeometry(.35,16,16),new THREE.MeshBasicMaterial({color:0xffe9c4,transparent:true,opacity:.35})); disc.add(core);
+    const M=5000, hp=new Float32Array(M*3);
+    for(let i=0;i<M;i++){ const rr=7.5*Math.pow(Math.random(),.7); const u=Math.random()*2-1, ph=Math.random()*TAU; const s=Math.sqrt(1-u*u); hp.set([rr*s*Math.cos(ph),rr*u,rr*s*Math.sin(ph)],i*3); }
+    const hg=new THREE.BufferGeometry(); hg.setAttribute('position',new THREE.BufferAttribute(hp,3));
+    const haloPts=new THREE.Points(hg,new THREE.PointsMaterial({color:0x8f7cf0,size:.05,transparent:true,opacity:.28,depthWrite:false,blending:THREE.AdditiveBlending}));
+    const shell=new THREE.Mesh(new THREE.SphereGeometry(7.5,24,16),new THREE.MeshBasicMaterial({color:0x8f7cf0,wireframe:true,transparent:true,opacity:.07}));
+    halo.add(haloPts,shell); halo.visible=false;
+    const st={theta:.6,phi:1.1,r:11,user:false}; orbit(stage,st);
+    $('halo').addEventListener('change',e=>{ halo.visible=e.target.checked; v.dirty=true; });
+    const v={el:stage,resize,draw(dt,t){ if(!st.user&&!RM) st.theta+=dt*.05; placeCam(cam,st); if(!RM){ disc.rotation.y+=dt*.12; halo.rotation.y+=dt*.03; } r.render(scene,cam); }};
+    register(v); watch(stage);
+  }
+  /* rotation curve (svg) */
+  const svg=$('rot'), tip=$('rotTip'); const W=480,H=270, L=52,R=16,T=26,B=38; const pw=W-L-R, ph=H-T-B;
+  const xs=r=>L+pw*r/30, ys=v=>T+ph*(1-v/300);
+  const obs=[],exp=[]; for(let rr=0;rr<=30;rr+=.5){ obs.push([rr,225*(1-Math.exp(-rr/2.2))]); exp.push([rr, rr<4?225*(rr/4):225*Math.sqrt(4/rr)]); }
+  const ns='http://www.w3.org/2000/svg'; const mk=(n,a)=>{ const e=document.createElementNS(ns,n); for(const k in a) e.setAttribute(k,a[k]); return e; };
+  for(const yv of [0,100,200,300]){ svg.appendChild(mk('line',{x1:L,x2:W-R,y1:ys(yv),y2:ys(yv),class:'grid'})); const t=mk('text',{x:L-8,y:ys(yv)+4,'text-anchor':'end'}); t.textContent=yv; svg.appendChild(t); }
+  for(const xv of [0,10,20,30]){ const t=mk('text',{x:xs(xv),y:H-B+16,'text-anchor':'middle'}); t.textContent=xv; svg.appendChild(t); }
+  svg.appendChild(mk('line',{x1:L,x2:W-R,y1:ys(0),y2:ys(0),class:'axis'}));
+  const xl=mk('text',{x:L+pw/2,y:H-6,'text-anchor':'middle'}); xl.textContent='distance from galactic centre (kpc)'; svg.appendChild(xl);
+  const yl=mk('text',{x:L-8,y:T-10,'text-anchor':'end'}); yl.textContent='km/s'; svg.appendChild(yl);
+  const path=(d,col)=>{ const p=mk('path',{d:d.map((q,i)=>(i?'L':'M')+xs(q[0]).toFixed(1)+' '+ys(q[1]).toFixed(1)).join(' '),class:'line',stroke:col}); svg.appendChild(p); };
+  path(exp,'var(--s2)'); path(obs,'var(--s1)');
+  const lab=(x,y,txt)=>{ const t=mk('text',{x,y,class:'lbl'}); t.textContent=txt; svg.appendChild(t); };
+  lab(xs(21),ys(225)-8,'observed, flat'); lab(xs(21),ys(100)+16,'expected, falling');
+  const ch=mk('line',{x1:0,x2:0,y1:T,y2:T+ph,class:'ch'}); ch.setAttribute('visibility','hidden'); svg.appendChild(ch);
+  const d1=mk('circle',{r:4,fill:'var(--s1)',stroke:'var(--viz-bg)','stroke-width':2,visibility:'hidden'}), d2=mk('circle',{r:4,fill:'var(--s2)',stroke:'var(--viz-bg)','stroke-width':2,visibility:'hidden'}); svg.append(d1,d2);
+  const show=(cx)=>{ const b=svg.getBoundingClientRect(); const rr=Math.max(0,Math.min(30,(cx-b.left)/b.width*W-L)/pw*30); const i=Math.round(rr*2); const o=obs[i][1], e=exp[i][1]; ch.setAttribute('x1',xs(obs[i][0])); ch.setAttribute('x2',xs(obs[i][0])); ch.setAttribute('visibility','visible'); d1.setAttribute('cx',xs(obs[i][0])); d1.setAttribute('cy',ys(o)); d2.setAttribute('cx',xs(obs[i][0])); d2.setAttribute('cy',ys(e)); d1.setAttribute('visibility','visible'); d2.setAttribute('visibility','visible'); tip.hidden=false; tip.textContent=`${obs[i][0]} kpc · observed ${Math.round(o)} · expected ${Math.round(e)} km/s`; tip.style.left=(xs(obs[i][0])/W*b.width)+'px'; tip.style.top=(ys(Math.max(o,e))/H*b.height)+'px'; };
+  const hide=()=>{ ch.setAttribute('visibility','hidden'); d1.setAttribute('visibility','hidden'); d2.setAttribute('visibility','hidden'); tip.hidden=true; };
+  svg.addEventListener('pointermove',e=>show(e.clientX)); svg.addEventListener('pointerleave',hide);
+})();
+
+/* ================= 2. origin of life: pond ================= */
+(function(){
+  const stage=$('st2'), canvas=$('c2'); let W=0,H=0; let P=[], chains=0, longest=0, copies=0; let energy=.45;
+  const COLS=['#3987e5','#d95926','#199e70','#c98500'];
+  function reset(){ const f=fit2d(canvas); W=f.w; H=f.h; P=[]; copies=0; longest=1; for(let i=0;i<120;i++) P.push({x:Math.random()*W,y:Math.random()*H,vx:0,vy:0,k:i%4,next:null,prev:null}); v.dirty=true; }
+  function chainOf(p){ let h=p; while(h.prev) h=h.prev; const arr=[]; let q=h; while(q){ arr.push(q); q=q.next; } return arr; }
+  $('energy').addEventListener('input',e=>{ energy=e.target.value/100; $('energyVal').textContent=e.target.value; v.dirty=true; });
+  $('resetPond').addEventListener('click',reset);
+  const v={el:stage,resize(){ const f=fit2d(canvas); if(f.w!==W||f.h!==H){ W=f.w; H=f.h; for(const p of P){ p.x=Math.min(p.x,W-2); p.y=Math.min(p.y,H-2);} } },draw(dt){
+    const {ctx,w,h}=fit2d(canvas); W=w; H=h; if(!P.length) reset();
+    const step=RM?0:dt;
+    for(const p of P){ p.vx+=(Math.random()-.5)*40*step*(0.4+energy); p.vy+=(Math.random()-.5)*40*step*(0.4+energy); p.vx*=.96; p.vy*=.96; p.x+=p.vx*step; p.y+=p.vy*step; if(p.x<4){p.x=4;p.vx*=-1;} if(p.x>W-4){p.x=W-4;p.vx*=-1;} if(p.y<4){p.y=4;p.vy*=-1;} if(p.y>H-4){p.y=H-4;p.vy*=-1;} }
+    for(const p of P){ if(p.next){ const q=p.next; const dx=q.x-p.x, dy=q.y-p.y; const d=Math.hypot(dx,dy)||1; const f=(d-9)*6*step; p.vx+=dx/d*f; p.vy+=dy/d*f; q.vx-=dx/d*f; q.vy-=dy/d*f; } }
+    if(step>0) for(let i=0;i<P.length;i++){ const a=P[i]; if(a.next) continue; for(let j=0;j<P.length;j++){ const b=P[j]; if(a===b||b.prev) continue; if(Math.hypot(a.x-b.x,a.y-b.y)<10 && Math.random()<energy*.9){ const ca=chainOf(a); if(ca.includes(b)) continue; a.next=b; b.prev=a; const len=chainOf(a).length; if(len>longest) longest=len;
+      if(len>=6 && Math.random()<.5 && P.length<260){ const ch=chainOf(a); let prev=null; const ox=(Math.random()-.5)*30, oy=(Math.random()-.5)*30; for(const q of ch){ const n={x:q.x+ox,y:q.y+oy,vx:0,vy:0,k:q.k,next:null,prev}; if(prev) prev.next=n; prev=n; P.push(n); } copies++; } break; } } }
+    ctx.clearRect(0,0,W,H); const g=ctx.createRadialGradient(W*.5,H*.6,10,W*.5,H*.6,W*.7); g.addColorStop(0,'rgba(60,110,120,.35)'); g.addColorStop(1,'rgba(10,20,35,0)'); ctx.fillStyle=g; ctx.fillRect(0,0,W,H);
+    ctx.lineWidth=2; ctx.lineCap='round'; for(const p of P){ if(p.next){ ctx.strokeStyle='rgba(220,230,240,.55)'; ctx.beginPath(); ctx.moveTo(p.x,p.y); ctx.lineTo(p.next.x,p.next.y); ctx.stroke(); } }
+    for(const p of P){ ctx.fillStyle=COLS[p.k]; ctx.beginPath(); ctx.arc(p.x,p.y,3.2,0,TAU); ctx.fill(); }
+    chains=P.filter(p=>!p.prev&&p.next).length;
+    $('ov2').innerHTML=`<b>Warm little pond</b><br>chains ${chains} · longest ${longest} · copies made ${copies}`;
+  }};
+  register(v); watch(stage);
+})();
+
+/* ================= 3. consciousness ================= */
+(function(){
+  const stage=$('st3'), canvas=$('c3'); let nodes=[], edges=[], pulses=[], W=0,H=0, glow=0, stim=.5, acc=0;
+  $('stim').addEventListener('input',e=>{ stim=e.target.value/100; $('stimVal').textContent=e.target.value; v.dirty=true; });
+  function build(){ nodes=[]; edges=[]; const cx=W*.3, cy=H*.5, R=Math.min(W*.26,H*.42); for(let i=0;i<70;i++){ const a=Math.random()*TAU, rr=R*Math.sqrt(Math.random()); nodes.push({x:cx+Math.cos(a)*rr,y:cy+Math.sin(a)*rr*.95,f:0}); } for(let i=0;i<nodes.length;i++){ for(let j=i+1;j<nodes.length;j++){ const d=Math.hypot(nodes[i].x-nodes[j].x,nodes[i].y-nodes[j].y); if(d<R*.42&&Math.random()<.35) edges.push([i,j]); } } }
+  const v={el:stage,resize(){ const f=fit2d(canvas); W=f.w; H=f.h; build(); },draw(dt,t){
+    const {ctx,w,h}=fit2d(canvas); if(w!==W||h!==H||!nodes.length){ W=w; H=h; build(); }
+    const step=RM?0:dt;
+    acc+=step*stim*40; while(acc>1){ acc-=1; const e=edges[Math.floor(Math.random()*edges.length)]; if(e) pulses.push({e,p:0,dir:Math.random()<.5?1:-1}); }
+    for(const n of nodes) n.f=Math.max(0,n.f-step*2.5);
+    for(const p of pulses){ p.p+=step*1.8; if(p.p>=1){ nodes[p.dir>0?p.e[1]:p.e[0]].f=1; } }
+    pulses=pulses.filter(p=>p.p<1); if(pulses.length>400) pulses.splice(0,pulses.length-400);
+    const fired=nodes.reduce((s,n)=>s+(n.f>.9?1:0),0); glow=Math.max(glow-step*1.2,Math.min(1,fired/4));
+    ctx.clearRect(0,0,W,H);
+    ctx.lineWidth=1; ctx.strokeStyle='rgba(141,154,176,.22)'; for(const [i,j] of edges){ ctx.beginPath(); ctx.moveTo(nodes[i].x,nodes[i].y); ctx.lineTo(nodes[j].x,nodes[j].y); ctx.stroke(); }
+    for(const p of pulses){ const a=nodes[p.dir>0?p.e[0]:p.e[1]], b=nodes[p.dir>0?p.e[1]:p.e[0]]; const x=a.x+(b.x-a.x)*p.p, y=a.y+(b.y-a.y)*p.p; ctx.fillStyle='#3987e5'; ctx.beginPath(); ctx.arc(x,y,2.2,0,TAU); ctx.fill(); }
+    for(const n of nodes){ ctx.fillStyle=n.f>0?`rgba(232,237,244,${.35+.65*n.f})`:'rgba(141,154,176,.6)'; ctx.beginPath(); ctx.arc(n.x,n.y,2.6+n.f*2.5,0,TAU); ctx.fill(); }
+    /* the gap */
+    const gx=W*.6, gy=H*.5; ctx.strokeStyle='rgba(141,154,176,.7)'; ctx.lineWidth=1.5; ctx.setLineDash([5,5]); ctx.beginPath(); ctx.moveTo(W*.56,gy); ctx.lineTo(W*.68,gy); ctx.stroke(); ctx.setLineDash([]);
+    ctx.fillStyle='#e8edf4'; ctx.font=`600 22px "JetBrains Mono", Consolas, monospace`; ctx.textAlign='center'; ctx.fillText('?',W*.62,gy-10);
+    ctx.font=`11px "JetBrains Mono", Consolas, monospace`; ctx.fillStyle='#8d9ab0'; ctx.fillText('millivolts',W*.3,H*.95); ctx.fillText('the experience',W*.84,H*.95);
+    /* experience: a patch of red that is only "there" from the inside */
+    const ex=W*.84, ey=H*.5, er=Math.min(W*.11,H*.3); const rg=ctx.createRadialGradient(ex,ey,0,ex,ey,er*1.4); rg.addColorStop(0,`rgba(230,80,70,${.15+.75*glow})`); rg.addColorStop(1,'rgba(230,80,70,0)'); ctx.fillStyle=rg; ctx.beginPath(); ctx.arc(ex,ey,er*1.4,0,TAU); ctx.fill();
+    ctx.fillStyle=`rgba(232,237,244,${.4+.6*glow})`; ctx.font=`400 ${Math.round(er*.42)}px "Young Serif", Georgia, serif`; ctx.fillText('red',ex,ey+er*.14);
+  }};
+  register(v); watch(stage);
+})();
+
+/* ================= 4. quantum gravity: sheet + foam ================= */
+(function(){
+  const stage=$('st4'); if(!has3D){ fallback('st4','The 3D model needs WebGL and the three.js library, which did not load here.'); return; }
+  const {r,cam,resize}=make3d($('c4')); const scene=new THREE.Scene();
+  const SEG=56, size=12; const geo=new THREE.PlaneGeometry(size,size,SEG,SEG); geo.rotateX(-Math.PI/2);
+  const base=geo.attributes.position.array.slice();
+  const wire=new THREE.Mesh(geo,new THREE.MeshBasicMaterial({color:0x3987e5,wireframe:true,transparent:true,opacity:.5}));
+  scene.add(wire);
+  const ball=new THREE.Mesh(new THREE.SphereGeometry(.55,24,24),new THREE.MeshStandardMaterial({color:0xffc98a,emissive:0x442200,roughness:.5})); scene.add(ball);
+  scene.add(new THREE.AmbientLight(0xffffff,.6)); const dl=new THREE.DirectionalLight(0xffffff,.8); dl.position.set(3,6,4); scene.add(dl);
+  let mass=.55, foam=false; const st={theta:.5,phi:1.05,r:14,user:false}; orbit(stage,st);
+  $('mass').addEventListener('input',e=>{ mass=e.target.value/100; $('massVal').textContent=e.target.value; v.dirty=true; });
+  $('foam').addEventListener('change',e=>{ foam=e.target.checked; v.dirty=true; });
+  const pos=geo.attributes.position;
+  const v={el:stage,resize,draw(dt,t){
+    const depth=mass*4.2; for(let i=0;i<pos.count;i++){ const x=base[i*3], z=base[i*3+2]; const d=Math.hypot(x,z); let y=-depth/(d+.9); if(foam){ y+=(Math.sin(x*9+t*7)*Math.cos(z*11-t*5)+Math.sin(x*23-t*13)*Math.sin(z*19+t*11))*.12*(.4+.6*Math.min(1,d/4)); } pos.setY(i,y); }
+    pos.needsUpdate=true;
+    ball.position.y=-depth/.9+.55; ball.scale.setScalar(.6+mass*.9);
+    if(!st.user&&!RM) st.theta+=dt*.08; placeCam(cam,st); r.render(scene,cam);
+  }};
+  register(v); watch(stage);
+})();
+
+/* ================= 5. matter / antimatter ================= */
+(function(){
+  const stage=$('st5'), canvas=$('c5'); let P=[], flashes=[], born=0, gone=0, W=0,H=0, biasN=5, acc=0, time=0;
+  $('bias').addEventListener('input',e=>{ biasN=+e.target.value; $('biasVal').textContent=biasN===0?'none':'1 in '+biasN; v.dirty=true; });
+  function reset(){ P=[]; flashes=[]; born=0; gone=0; time=0; v.dirty=true; }
+  $('resetBang').addEventListener('click',reset);
+  const v={el:stage,draw(dt,t){
+    const {ctx,w,h}=fit2d(canvas); W=w; H=h; const step=RM?0:dt; time+=step;
+    const heat=Math.max(0,1-time/14);
+    acc+=step*heat*90; while(acc>1){ acc-=1; const x=W*.5+(Math.random()-.5)*W*.4*(1+time*.3), y=H*.5+(Math.random()-.5)*H*.4*(1+time*.3); const a=Math.random()*TAU, s=40+Math.random()*60; P.push({x,y,vx:Math.cos(a)*s,vy:Math.sin(a)*s,m:1}); P.push({x,y,vx:-Math.cos(a)*s,vy:-Math.sin(a)*s,m:-1}); born++; if(biasN>0&&born%biasN===0){ P.push({x,y,vx:(Math.random()-.5)*60,vy:(Math.random()-.5)*60,m:1}); } }
+    for(const p of P){ p.x+=p.vx*step; p.y+=p.vy*step; if(p.x<5||p.x>W-5) p.vx*=-1; if(p.y<5||p.y>H-5) p.vy*=-1; p.x=Math.max(5,Math.min(W-5,p.x)); p.y=Math.max(5,Math.min(H-5,p.y)); }
+    if(step>0) for(let i=0;i<P.length;i++){ const a=P[i]; if(a.dead||a.m!==1) continue; for(let j=0;j<P.length;j++){ const b=P[j]; if(b.dead||b.m!==-1) continue; if(Math.hypot(a.x-b.x,a.y-b.y)<7){ a.dead=b.dead=true; gone++; flashes.push({x:(a.x+b.x)/2,y:(a.y+b.y)/2,a:1}); break; } } }
+    P=P.filter(p=>!p.dead); for(const f of flashes) f.a-=step*1.6; flashes=flashes.filter(f=>f.a>0);
+    ctx.clearRect(0,0,W,H); const g=ctx.createRadialGradient(W/2,H/2,0,W/2,H/2,W*.5); g.addColorStop(0,`rgba(255,180,90,${.35*heat})`); g.addColorStop(1,'rgba(255,180,90,0)'); ctx.fillStyle=g; ctx.fillRect(0,0,W,H);
+    for(const f of flashes){ ctx.strokeStyle=`rgba(255,225,140,${f.a})`; ctx.lineWidth=1.5; const rr=(1-f.a)*18+3; ctx.beginPath(); ctx.arc(f.x,f.y,rr,0,TAU); ctx.stroke(); }
+    for(const p of P){ ctx.fillStyle=p.m>0?'#3987e5':'#d95926'; ctx.beginPath(); ctx.arc(p.x,p.y,3.5,0,TAU); ctx.fill(); }
+    const matter=P.filter(p=>p.m>0).length, anti=P.length-matter;
+    $('ov5').innerHTML=`<b>The first microsecond</b><br>pairs born ${born} · annihilated ${gone} · <span style="color:#3987e5">matter ${matter}</span> · <span style="color:#d95926">antimatter ${anti}</span>${heat===0?'<br><b>cooled.</b> what is left is the universe':''}`;
+  }};
+  register(v); watch(stage);
+})();
+
+/* ================= 6. Drake equation ================= */
+(function(){
+  const ids=['dR','dfp','dne','dfl','dfi','dfc','dL']; const vals=['vR','vfp','vne','vfl','vfi','vfc','vL'];
+  const fmt=n=>{ if(n>=1e6) return (n/1e6).toFixed(n>=1e7?0:1)+' million'; if(n>=1000) return Math.round(n).toLocaleString('en-US'); if(n>=10) return n.toFixed(0); if(n>=1) return n.toFixed(1); if(n>=.01) return n.toFixed(2); return n.toExponential(1); };
+  const canvas=$('c6'); let N=0;
+  function update(){ const g=id=>+$(id).value; const L=Math.pow(10,g('dL')); const vs=[g('dR'),g('dfp'),g('dne'),g('dfl'),g('dfi'),g('dfc'),L]; N=vs.reduce((a,b)=>a*b,1);
+    vals.forEach((id,i)=>{ $(id).textContent=i===6?fmt(L)+' yr':(i===0?vs[i].toFixed(1):vs[i].toFixed(2)); });
+    $('dN').innerHTML=`${fmt(N)} <small>civilisations signalling in the Milky Way right now</small>`; drawN(); }
+  function drawN(){ const {ctx,w,h}=fit2d(canvas); ctx.clearRect(0,0,w,h); const cols=Math.max(10,Math.floor(w/14)), rows=Math.max(2,Math.floor(h/14)); const total=cols*rows; const lit=Math.min(total,Math.round(N)); let seed=7; const rnd=()=>{ seed=(seed*16807)%2147483647; return seed/2147483647; };
+    const picks=new Set(); while(picks.size<lit) picks.add(Math.floor(rnd()*total));
+    for(let i=0;i<total;i++){ const x=(i%cols)*14+7, y=Math.floor(i/cols)*14+7; if(picks.has(i)){ ctx.fillStyle='#c98500'; ctx.beginPath(); ctx.arc(x,y,3.2,0,TAU); ctx.fill(); } else { ctx.fillStyle='rgba(141,154,176,.35)'; ctx.beginPath(); ctx.arc(x,y,1.3,0,TAU); ctx.fill(); } }
+    $('ov6').innerHTML=N<1?`<b>fewer than one</b> · ${total} stars shown, none lit`:N>total?`<b>${total} stars shown, all lit</b> · N is larger than this panel`:`<b>${lit} of ${total}</b> stars shown host a signalling civilisation`; }
+  ids.forEach(id=>$(id).addEventListener('input',update));
+  const set=o=>{ for(const k in o) $(k).value=o[k]; update(); };
+  $('optimist').addEventListener('click',()=>set({dR:3,dfp:1,dne:0.5,dfl:0.9,dfi:0.5,dfc:0.5,dL:6}));
+  $('pessimist').addEventListener('click',()=>set({dR:1.5,dfp:0.9,dne:0.2,dfl:0.05,dfi:0.01,dfc:0.1,dL:3}));
+  $('rare').addEventListener('click',()=>set({dR:1.5,dfp:0.9,dne:0.05,dfl:0.01,dfi:0.001,dfc:0.1,dL:3.5}));
+  update(); new ResizeObserver(drawN).observe(canvas.parentElement);
+})();
+
+/* ================= 7. memory: a synapse ================= */
+(function(){
+  const stage=$('st7'), canvas=$('c7'); let strength=1, pulses=[], W=0,H=0;
+  $('stimBtn').addEventListener('click',()=>{ pulses.push({p:0}); v.dirty=true; });
+  const v={el:stage,draw(dt,t){
+    const {ctx,w,h}=fit2d(canvas); W=w; H=h; const step=RM?0:dt;
+    for(const p of pulses){ p.p+=step*1.3; if(p.p>=.55&&!p.hit){ p.hit=true; strength=Math.min(4,strength+.35); } }
+    pulses=pulses.filter(p=>p.p<1.2); strength=Math.max(1,strength-step*.045);
+    ctx.clearRect(0,0,W,H);
+    const ax0=W*.05, ax1=W*.47, ay=H*.5, bx0=W*.53, bx1=W*.95;
+    const ink='#8d9ab0';
+    /* presynaptic neuron: soma left, axon to the terminal */
+    ctx.fillStyle='rgba(57,135,229,.18)'; ctx.strokeStyle='#3987e5'; ctx.lineWidth=2; ctx.beginPath(); ctx.ellipse(ax0+W*.06,ay,W*.06,H*.16,0,0,TAU); ctx.fill(); ctx.stroke();
+    ctx.beginPath(); ctx.moveTo(ax0+W*.12,ay); ctx.lineTo(ax1-W*.03,ay); ctx.lineWidth=6; ctx.strokeStyle='rgba(57,135,229,.45)'; ctx.stroke();
+    ctx.beginPath(); ctx.ellipse(ax1-W*.015,ay,W*.025,H*.11,0,0,TAU); ctx.fillStyle='rgba(57,135,229,.3)'; ctx.fill(); ctx.lineWidth=2; ctx.strokeStyle='#3987e5'; ctx.stroke();
+    /* postsynaptic: dendrite spine right */
+    ctx.beginPath(); ctx.ellipse(bx0+W*.015,ay,W*.025,H*.11*(0.8+strength*.12),0,0,TAU); ctx.fillStyle='rgba(217,89,38,.3)'; ctx.fill(); ctx.strokeStyle='#d95926'; ctx.stroke();
+    ctx.beginPath(); ctx.moveTo(bx0+W*.03,ay); ctx.lineTo(bx1-W*.12,ay); ctx.lineWidth=6; ctx.strokeStyle='rgba(217,89,38,.45)'; ctx.stroke();
+    ctx.fillStyle='rgba(217,89,38,.18)'; ctx.strokeStyle='#d95926'; ctx.lineWidth=2; ctx.beginPath(); ctx.ellipse(bx1-W*.06,ay,W*.06,H*.16,0,0,TAU); ctx.fill(); ctx.stroke();
+    /* receptors in the cleft grow with strength */
+    const nrec=Math.round(2+strength*2.5); for(let i=0;i<nrec;i++){ const y=ay-H*.09+(H*.18)*(i+.5)/nrec; ctx.fillStyle='#c98500'; ctx.fillRect(bx0-W*.012,y-2,W*.012,4); }
+    /* vesicles */
+    for(let i=0;i<5;i++){ ctx.strokeStyle='rgba(232,237,244,.5)'; ctx.lineWidth=1; ctx.beginPath(); ctx.arc(ax1-W*.02+Math.cos(i*1.3)*W*.01,ay+Math.sin(i*2.1)*H*.06,3,0,TAU); ctx.stroke(); }
+    /* pulses */
+    for(const p of pulses){ if(p.p<.55){ const x=ax0+W*.12+(ax1-W*.03-ax0-W*.12)*(p.p/.55); ctx.fillStyle='#e8edf4'; ctx.beginPath(); ctx.arc(x,ay,5,0,TAU); ctx.fill(); } else { const q=(p.p-.55)/.65; for(let k=0;k<Math.round(strength*3);k++){ const x=ax1+(bx0-ax1)*Math.min(1,q*1.5)+Math.sin(k*7.3)*2; const y=ay+Math.sin(k*2.9+q*4)*H*.06; ctx.fillStyle=`rgba(201,133,0,${1-q})`; ctx.beginPath(); ctx.arc(x,y,2,0,TAU); ctx.fill(); } if(q>.6){ const x=bx0+W*.03+(bx1-W*.12-bx0-W*.03)*((q-.6)/.4); ctx.fillStyle=`rgba(232,237,244,${Math.min(1,(strength-1)/1.5+.35)})`; ctx.beginPath(); ctx.arc(x,ay,4+strength,0,TAU); ctx.fill(); } } }
+    /* strength meter */
+    const mx=W*.3, my=H*.86, mw=W*.4; ctx.fillStyle='rgba(141,154,176,.25)'; ctx.fillRect(mx,my,mw,6); ctx.fillStyle='#c98500'; ctx.fillRect(mx,my,mw*((strength-1)/3),6);
+    ctx.fillStyle=ink; ctx.font='11px "JetBrains Mono", Consolas, monospace'; ctx.textAlign='left'; ctx.fillText('presynaptic',ax0,H*.14); ctx.textAlign='right'; ctx.fillText('postsynaptic',bx1,H*.14); ctx.textAlign='center'; ctx.fillText('synaptic strength',W*.5,my-8);
+    $('ov7').innerHTML=`<b>One synapse</b><br>strength ${strength.toFixed(2)}× · receptors ${nrec}`;
+  }};
+  register(v); watch(stage);
+})();
+
+/* ================= 8. sleep: hypnogram ================= */
+(function(){
+  const svg=$('hyp'), tip=$('hypTip'); const W=480,H=270,L=40,R=16,T=22,B=40; const pw=W-L-R, ph=H-T-B;
+  const stages=['W','REM','N1','N2','N3']; const seq=[['W',8],['N1',5],['N2',18],['N3',42],['N2',10],['REM',8],['N2',24],['N3',32],['N2',12],['REM',16],['N1',3],['N2',34],['N3',14],['N2',18],['REM',24],['W',3],['N1',4],['N2',36],['REM',30],['N2',26],['W',2],['N2',18],['REM',36],['N1',6],['N2',28],['REM',18],['W',5]];
+  let total=seq.reduce((s,q)=>s+q[1],0); const xs=m=>L+pw*m/total, ys=s=>T+ph*stages.indexOf(s)/(stages.length-1);
+  const ns='http://www.w3.org/2000/svg'; const mk=(n,a)=>{ const e=document.createElementNS(ns,n); for(const k in a) e.setAttribute(k,a[k]); return e; };
+  stages.forEach(s=>{ svg.appendChild(mk('line',{x1:L,x2:W-R,y1:ys(s),y2:ys(s),class:'grid'})); const t=mk('text',{x:L-8,y:ys(s)+4,'text-anchor':'end'}); t.textContent=s==='W'?'awake':s; svg.appendChild(t); });
+  for(let hr=0;hr<=8;hr+=2){ const t=mk('text',{x:xs(hr*60),y:H-B+16,'text-anchor':'middle'}); t.textContent=hr+'h'; svg.appendChild(t); }
+  const xl=mk('text',{x:L+pw/2,y:H-6,'text-anchor':'middle'}); xl.textContent='hours after lights out'; svg.appendChild(xl);
+  let m=0; const pts=[]; for(const [s,d] of seq){ if(s==='REM') svg.appendChild(mk('rect',{x:xs(m),y:T-4,width:xs(m+d)-xs(m),height:ph+8,fill:'var(--s2)',opacity:.18})); pts.push([m,s],[m+d,s]); m+=d; }
+  svg.appendChild(mk('path',{d:pts.map((p,i)=>(i?'L':'M')+xs(p[0]).toFixed(1)+' '+ys(p[1]).toFixed(1)).join(' '),class:'line',stroke:'var(--s1)'}));
+  const ch=mk('line',{x1:0,x2:0,y1:T,y2:T+ph,class:'ch',visibility:'hidden'}); svg.appendChild(ch);
+  svg.addEventListener('pointermove',e=>{ const b=svg.getBoundingClientRect(); const mm=Math.max(0,Math.min(total,((e.clientX-b.left)/b.width*W-L)/pw*total)); let acc=0, cur=seq[0][0]; for(const [s,d] of seq){ if(mm<acc+d){ cur=s; break; } acc+=d; } ch.setAttribute('x1',xs(mm)); ch.setAttribute('x2',xs(mm)); ch.setAttribute('visibility','visible'); tip.hidden=false; const hh=Math.floor(mm/60), mi=Math.round(mm%60); tip.textContent=`${hh}h ${String(mi).padStart(2,'0')}m · ${cur==='W'?'awake':cur}`; tip.style.left=(xs(mm)/W*b.width)+'px'; tip.style.top=(T/H*b.height)+'px'; });
+  svg.addEventListener('pointerleave',()=>{ ch.setAttribute('visibility','hidden'); tip.hidden=true; });
+})();
+
+/* ================= 9. cosmic timeline ================= */
+(function(){
+  const stage=$('st9'), canvas=$('c9'); let tlog=-36; let W=0,H=0;
+  const epochs=[[-43,'Planck era','equations break down','10³² K'],[-36,'grand unification','forces begin to separate','10²⁸ K'],[-32,'inflation','space grows 10²⁶-fold in 10⁻³² s','10²⁷ K'],[-12,'electroweak era','Higgs field switches on','10¹⁵ K'],[-6,'quark soup','protons and neutrons form','10¹³ K'],[0,'1 second','neutrinos go free','10¹⁰ K'],[2.3,'3 minutes','hydrogen and helium nuclei form','10⁹ K'],[13.1,'380,000 years','first light: the microwave background','3,000 K'],[15.5,'100 million years','first stars ignite','60 K'],[16.6,'1 billion years','galaxies assemble','20 K'],[17.45,'9 billion years','the Sun and Earth form','4 K'],[17.64,'today, 13.8 billion years','2.7 K above absolute zero','2.7 K']];
+  $('tlog').addEventListener('input',e=>{ tlog=+e.target.value; v.dirty=true; });
+  const v={el:stage,draw(dt,t){
+    const {ctx,w,h}=fit2d(canvas); W=w; H=h; ctx.clearRect(0,0,W,H);
+    const x0=W*.08, x1=W*.94, y=H*.62; const xs=l=>x0+(x1-x0)*(l+43)/(17.64+43);
+    /* the forbidden region */
+    ctx.fillStyle='rgba(217,89,38,.12)'; ctx.fillRect(0,0,x0-2,H); ctx.strokeStyle='rgba(217,89,38,.7)'; ctx.setLineDash([4,4]); ctx.beginPath(); ctx.moveTo(x0-2,0); ctx.lineTo(x0-2,H); ctx.stroke(); ctx.setLineDash([]);
+    ctx.save(); ctx.translate(x0*.5,H*.5); ctx.rotate(-Math.PI/2); ctx.fillStyle='#d95926'; ctx.font='600 11px "JetBrains Mono", Consolas, monospace'; ctx.textAlign='center'; ctx.fillText('before? unknown',0,4); ctx.restore();
+    /* axis */
+    ctx.strokeStyle='#8d9ab0'; ctx.lineWidth=1; ctx.beginPath(); ctx.moveTo(x0,y); ctx.lineTo(x1,y); ctx.stroke();
+    ctx.fillStyle='#8d9ab0'; ctx.font='10px "JetBrains Mono", Consolas, monospace'; ctx.textAlign='center';
+    for(let l=-40;l<=17;l+=10){ ctx.beginPath(); ctx.moveTo(xs(l),y); ctx.lineTo(xs(l),y+5); ctx.stroke(); ctx.fillText('10^'+l+' s',xs(l),y+18); }
+    ctx.fillText('seconds since the Big Bang, log scale',(x0+x1)/2,H*.95);
+    for(const e of epochs){ ctx.fillStyle='rgba(232,237,244,.5)'; ctx.beginPath(); ctx.arc(xs(e[0]),y,2.5,0,TAU); ctx.fill(); }
+    /* current epoch */
+    let cur=epochs[0]; for(const e of epochs){ if(tlog>=e[0]) cur=e; }
+    const cx=xs(tlog); ctx.fillStyle='#c98500'; ctx.beginPath(); ctx.arc(cx,y,6,0,TAU); ctx.fill();
+    /* the universe as a growing disc with temperature colour */
+    const frac=(tlog+43)/60.64; const rad=H*.06+H*.3*frac; const hue=Math.max(0,Math.min(1,frac)); const col=`hsl(${20+hue*200},70%,${60-hue*35}%)`;
+    const ux=Math.max(x0+rad*.4,Math.min(x1-rad*.4,cx)), uy=H*.3;
+    const g=ctx.createRadialGradient(ux,uy,0,ux,uy,rad*.55); g.addColorStop(0,col); g.addColorStop(1,'rgba(10,17,28,0)'); ctx.fillStyle=g; ctx.beginPath(); ctx.arc(ux,uy,rad*.55,0,TAU); ctx.fill();
+    if(frac>.7){ let s=12; for(let i=0;i<40;i++){ s=(s*16807)%2147483647; const a=(s/2147483647)*TAU; s=(s*16807)%2147483647; const rr=(s/2147483647)*rad*.5; ctx.fillStyle=`rgba(232,237,244,${(frac-.7)/.3*.8})`; ctx.beginPath(); ctx.arc(ux+Math.cos(a)*rr,uy+Math.sin(a)*rr*.6,1,0,TAU); ctx.fill(); } }
+    $('ov9').innerHTML=`<b>${cur[1]}</b><br>${cur[2]}<br>temperature ${cur[3]}`;
+  }};
+  register(v); watch(stage);
+})();
+
+/* ================= 10. protein folding ================= */
+(function(){
+  const stage=$('st10'); if(!has3D){ fallback('st10','The 3D model needs WebGL and the three.js library, which did not load here.'); return; }
+  const {r,cam,resize}=make3d($('c10')); const scene=new THREE.Scene();
+  scene.add(new THREE.AmbientLight(0xffffff,.55)); const dl=new THREE.DirectionalLight(0xffffff,.9); dl.position.set(4,6,5); scene.add(dl);
+  const N=44; let seed=3; const rnd=()=>{ seed=(seed*16807)%2147483647; return seed/2147483647; };
+  const hyd=[]; for(let i=0;i<N;i++) hyd.push(rnd()<.45);
+  const open=[], fold=[];
+  for(let i=0;i<N;i++){ open.push(new THREE.Vector3((i-N/2)*.26,Math.sin(i*.6)*.35,Math.cos(i*.9)*.35)); const t=(i+.5)/N; const ph=Math.acos(1-2*t); const th=Math.sqrt(N*Math.PI)*ph; const rr=hyd[i]?.95:1.7; fold.push(new THREE.Vector3(rr*Math.sin(ph)*Math.cos(th),rr*Math.cos(ph),rr*Math.sin(ph)*Math.sin(th))); }
+  const beads=[]; const mO=new THREE.MeshStandardMaterial({color:0xd95926,roughness:.45}), mB=new THREE.MeshStandardMaterial({color:0x3987e5,roughness:.45}); const sg=new THREE.SphereGeometry(.17,18,18);
+  for(let i=0;i<N;i++){ const m=new THREE.Mesh(sg,hyd[i]?mO:mB); m.position.copy(open[i]); scene.add(m); beads.push(m); }
+  const lg=new THREE.BufferGeometry(); const lp=new Float32Array(N*3); lg.setAttribute('position',new THREE.BufferAttribute(lp,3)); const line=new THREE.Line(lg,new THREE.LineBasicMaterial({color:0xe8edf4,transparent:true,opacity:.7})); scene.add(line);
+  let target=0, f=0; const st={theta:.4,phi:1.2,r:8,user:false}; orbit(stage,st);
+  $('foldBtn').addEventListener('click',()=>{ target=target?0:1; $('foldBtn').textContent=target?'Unfold':'Fold'; v.dirty=true; });
+  const ease=x=>x<.5?2*x*x:1-Math.pow(-2*x+2,2)/2;
+  const v={el:stage,resize,draw(dt,t){
+    if(RM) f=target; else f+=(target-f)*Math.min(1,dt*1.6);
+    const e=ease(Math.max(0,Math.min(1,f)));
+    for(let i=0;i<N;i++){ const p=beads[i].position; p.lerpVectors(open[i],fold[i],e); if(!RM){ p.x+=Math.sin(t*2+i)*.02*(1-e); p.y+=Math.cos(t*1.7+i*.7)*.02*(1-e); } lp[i*3]=p.x; lp[i*3+1]=p.y; lp[i*3+2]=p.z; }
+    lg.attributes.position.needsUpdate=true;
+    if(!st.user&&!RM) st.theta+=dt*.25; placeCam(cam,st); r.render(scene,cam);
+  }};
+  register(v); watch(stage);
+})();
+</script>
+</body>
+</html>

@@ -203,3 +203,11 @@ export const Feather = (p: IconProps) => (
     <path d="M17.5 15H9" />
   </Icon>
 );
+
+export const Mystery = (p: IconProps) => (
+  <Icon {...p}>
+    <circle cx="12" cy="12" r="9" />
+    <path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.7.4-1 1-1 1.7" />
+    <path d="M12 17h.01" />
+  </Icon>
+);
