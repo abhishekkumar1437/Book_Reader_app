@@ -210,13 +210,13 @@ export function ExamRunner({ set }: ExamRunnerProps) {
   if (phase === "intro" || !state) {
     return (
       <div className="mx-auto w-full max-w-3xl px-4 pb-16 sm:px-6">
-        <div className="mt-10 rounded-3xl border border-line bg-bg-2/80 p-6 sm:p-8">
+        <div className="mt-6 rounded-3xl border border-line bg-bg-2/80 p-5 sm:mt-10 sm:p-8">
           <p className="text-xs tracking-widest text-accent uppercase">{set.subject}</p>
-          <h1 className="mt-1 font-serif text-3xl text-fg">{set.title}</h1>
+          <h1 className="mt-1 font-serif text-2xl text-fg sm:text-3xl">{set.title}</h1>
           <p className="mt-2 text-sm text-fg-muted">{set.topic}</p>
           {set.description && <p className="mt-4 text-sm leading-relaxed text-fg">{set.description}</p>}
 
-          <ul className="mt-6 grid gap-2 text-sm text-fg-muted sm:grid-cols-3">
+          <ul className="mt-6 grid grid-cols-3 gap-2 text-xs text-fg-muted sm:text-sm">
             <li className="rounded-xl border border-line px-3 py-2">
               <span className="block font-serif text-2xl text-fg">{set.questions.length}</span>questions
             </li>
@@ -275,7 +275,7 @@ export function ExamRunner({ set }: ExamRunnerProps) {
             </Link>
           </div>
 
-          <p className="mt-6 text-xs text-fg-muted">
+          <p className="mt-6 hidden text-xs text-fg-muted sm:block">
             Keys: A–D or 1–4 to answer · ← → to move · F to flag for review · one mark per question, no negative marking.
           </p>
         </div>
@@ -336,7 +336,7 @@ export function ExamRunner({ set }: ExamRunnerProps) {
       </div>
 
       <div className="mt-4 grid gap-4 lg:grid-cols-4">
-        <section className="rounded-3xl border border-line bg-bg-2/80 p-5 sm:p-7 lg:col-span-3">
+        <section className="rounded-3xl border border-line bg-bg-2/80 p-4 sm:p-7 lg:col-span-3">
           <div className="flex items-center justify-between text-xs text-fg-muted">
             <span>
               Question <span className="text-fg">{state.current + 1}</span> of {state.order.length}
@@ -400,7 +400,8 @@ export function ExamRunner({ set }: ExamRunnerProps) {
               disabled={chosen === null}
               className="rounded-xl border border-line px-3 py-2 text-sm text-fg-muted hover:bg-white/5 hover:text-fg disabled:opacity-40"
             >
-              Clear response
+              <span className="sm:hidden">Clear</span>
+              <span className="hidden sm:inline">Clear response</span>
             </button>
             <div className="flex-1" />
             {isLast ? (

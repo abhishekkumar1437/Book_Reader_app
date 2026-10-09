@@ -64,13 +64,13 @@ export function ResultsView({ set, attempt, best, onRetake }: ResultsViewProps) 
 
   return (
     <div className="mx-auto w-full max-w-4xl px-4 pb-16 sm:px-6">
-      <section className="mt-8 rounded-3xl border border-line bg-bg-2/80 p-6 sm:p-8">
+      <section className="mt-6 rounded-3xl border border-line bg-bg-2/80 p-5 sm:mt-8 sm:p-8">
         <p className="text-xs tracking-widest text-accent uppercase">{set.subject}</p>
         <h1 className="mt-1 font-serif text-2xl text-fg">{set.title}</h1>
 
         <div className="mt-6 flex flex-wrap items-end gap-6">
           <div>
-            <p className="font-serif text-6xl leading-none text-fg">
+            <p className="font-serif text-5xl leading-none text-fg sm:text-6xl">
               {attempt.score}
               <span className="text-2xl text-fg-muted">/{attempt.total}</span>
             </p>
@@ -130,7 +130,7 @@ export function ResultsView({ set, attempt, best, onRetake }: ResultsViewProps) 
 
         <ol className="space-y-4">
           {visible.map(({ pos, q, chosen, correct, unanswered: skipped, flagged }) => (
-            <li key={pos} className="rounded-2xl border border-line bg-bg-2/60 p-5">
+            <li key={pos} className="rounded-2xl border border-line bg-bg-2/60 p-4 sm:p-5">
               <div className="flex items-center justify-between gap-3 text-xs text-fg-muted">
                 <span>Question {pos + 1}</span>
                 <span className="flex items-center gap-2">

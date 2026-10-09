@@ -99,7 +99,7 @@ export function ReaderToolbar({
           {panelButton("bookmarks", "Bookmarks", <Bookmark size={18} />)}
           <button
             type="button"
-            className={`icon-btn ${singlePage ? "is-active" : ""}`}
+            className={`icon-btn hidden sm:inline-flex ${singlePage ? "is-active" : ""}`}
             onClick={onToggleLayout}
             aria-label={singlePage ? "Switch to two-page book view" : "Switch to single page view"}
             aria-pressed={singlePage}

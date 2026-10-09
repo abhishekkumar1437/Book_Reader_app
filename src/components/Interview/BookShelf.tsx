@@ -15,16 +15,16 @@ function BookCard({ book, readCount, started }: { book: BookMeta; readCount: num
   const progress = book.chapterCount ? Math.round((readCount / book.chapterCount) * 100) : 0;
   const href = `/interview/${encodeURIComponent(book.slug)}`;
   return (
-    <article className="card group flex flex-col rounded-2xl border border-line bg-bg-2/80 p-3">
+    <article className="card group flex flex-col rounded-2xl border border-line bg-bg-2/80 p-2.5 sm:p-3">
       <Link href={href} className="block" aria-label={`Open ${book.title}`}>
         <div className="cover">
-          <div className="flex h-full flex-col justify-between p-5 pl-7">
-            <span className="text-[10px] tracking-[0.25em] text-ink/50 uppercase">Interview Prep</span>
+          <div className="flex h-full flex-col justify-between p-3 pl-5 sm:p-5 sm:pl-7">
+            <span className="text-[9px] tracking-[0.2em] text-ink/50 uppercase sm:text-[10px] sm:tracking-[0.25em]">Interview Prep</span>
             <span>
-              <span className="block font-serif text-2xl leading-tight text-ink">{book.title}</span>
-              {book.subtitle && <span className="mt-2 block text-sm text-ink/70">{book.subtitle}</span>}
+              <span className="block font-serif text-lg leading-tight text-ink sm:text-2xl">{book.title}</span>
+              {book.subtitle && <span className="mt-1 line-clamp-2 block text-xs text-ink/70 sm:mt-2 sm:text-sm">{book.subtitle}</span>}
             </span>
-            <span className="text-[11px] text-ink/50">
+            <span className="text-[10px] text-ink/50 sm:text-[11px]">
               {book.chapterCount} chapters · {hours(book.minutes)}
             </span>
           </div>
@@ -46,9 +46,10 @@ function BookCard({ book, readCount, started }: { book: BookMeta; readCount: num
 
       <Link
         href={href}
-        className="mt-3 flex items-center justify-center gap-2 rounded-xl bg-accent px-3 py-2 text-sm font-medium text-ink transition hover:bg-accent-2"
+        className="mt-3 flex items-center justify-center gap-2 rounded-xl bg-accent px-2 py-2 text-sm font-medium text-ink transition hover:bg-accent-2 sm:px-3"
       >
-        {started ? "Continue reading" : "Open book"}
+        <span className="sm:hidden">{started ? "Continue" : "Open"}</span>
+        <span className="hidden sm:inline">{started ? "Continue reading" : "Open book"}</span>
         <ChevronRight size={16} />
       </Link>
     </article>
@@ -87,7 +88,7 @@ export function BookShelf({ books }: { books: BookMeta[] }) {
     <div className="mx-auto w-full max-w-6xl px-4 pb-16 sm:px-6">
       <section className="mt-8">
         <h2 className="mb-4 font-serif text-2xl text-fg">Books</h2>
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        <div className="grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-3 xl:grid-cols-4">
           {books.map((book) => (
             <BookCard
               key={book.slug}

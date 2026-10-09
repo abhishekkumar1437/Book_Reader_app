@@ -1,0 +1,353 @@
+<title>Galactic Drift</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;800&family=Martian+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* Layout: space fills the screen; view tabs and the clock top-left, the fact card right, the time machine along the bottom */
+:root{
+  --bg:#020308;
+  --glass:rgba(8,9,20,.74);
+  --line:rgba(170,175,255,.16);
+  --ink:#eef0fa;
+  --muted:#9097b4;
+  --sun:#ffc35a;
+  --cool:#8fb4ff;
+  --display:'Hanken Grotesk','Segoe UI',system-ui,sans-serif;
+  --mono:'Martian Mono',ui-monospace,Consolas,monospace;
+  color-scheme:dark;
+}
+html{height:100%;box-sizing:border-box}
+[hidden]{display:none!important}
+*{box-sizing:inherit}
+body{height:100%;margin:0;background:var(--bg);color:var(--ink);font-family:var(--display);font-size:14px;overflow:hidden}
+#gl{position:fixed;inset:0;width:100%;height:100%;display:block;touch-action:none;cursor:grab}
+#gl:active{cursor:grabbing}
+button,select{font-family:var(--display);color:var(--ink)}
+button{cursor:pointer}
+button:focus-visible,select:focus-visible{outline:2px solid var(--sun);outline-offset:2px}
+#top{position:fixed;left:20px;top:16px;display:grid;gap:10px;max-width:calc(100vw - 40px)}
+#tabs{display:flex;gap:4px}
+#tabs button{background:var(--glass);border:1px solid var(--line);padding:7px 12px;font-size:13px;font-weight:600}
+#tabs button[aria-selected=true]{border-color:var(--sun);color:var(--sun)}
+#clockK{font:500 10px var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+#clock{font:800 clamp(24px,3.6vw,38px)/1.05 var(--display);font-variant-numeric:tabular-nums;text-wrap:balance;max-width:560px}
+#event{font-size:14px;color:var(--sun);min-height:1.2em}
+#labels{position:fixed;inset:0;pointer-events:none;overflow:hidden}
+#labels span{position:absolute;left:0;top:0;font:500 11.5px var(--display);color:rgba(238,240,250,.85);white-space:nowrap;text-shadow:0 1px 3px #000;will-change:transform}
+#labels span.arm{font:500 10.5px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:rgba(160,190,255,.7)}
+#labels span.sun{color:var(--sun);font-weight:600}
+#labels span.dir{font:500 10.5px var(--mono);color:var(--cool)}
+#labels span.ev{font-size:10.5px;color:rgba(255,195,90,.85)}
+#card{position:fixed;right:16px;top:16px;width:320px;max-height:calc(100% - 140px);overflow:auto;background:var(--glass);border:1px solid var(--line);backdrop-filter:blur(10px);padding:16px;display:grid;gap:10px}
+#card h2{margin:0;font:800 22px/1.1 var(--display);text-wrap:balance}
+#card p{margin:0;font-size:13.5px;line-height:1.5;color:#c9cde2}
+#card .k{font:500 10px var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+#facts{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line)}
+#facts div{background:rgba(8,9,20,.92);padding:7px 9px}
+#facts small{display:block;font:500 9.5px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+#facts b{font:600 14px var(--display);font-variant-numeric:tabular-nums}
+#odo{font:500 12px var(--mono);color:var(--sun);line-height:1.5}
+#bar{position:fixed;left:50%;bottom:14px;transform:translateX(-50%);width:min(980px,calc(100% - 32px));background:var(--glass);border:1px solid var(--line);backdrop-filter:blur(10px);padding:10px 12px;display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center}
+.grp{display:flex;flex-wrap:wrap;gap:4px;align-items:center}
+.grp .k{font:500 9.5px var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-right:4px}
+.chip{background:transparent;border:1px solid var(--line);padding:5px 9px;font-size:12.5px}
+.chip:hover{border-color:var(--muted)}
+.chip[aria-pressed=true]{border-color:var(--sun);color:var(--sun)}
+select{background:rgba(255,255,255,.04);border:1px solid var(--line);padding:5px 7px;font-size:12.5px;color-scheme:dark}
+#insetBox{position:fixed;left:16px;bottom:96px;margin:0;width:200px;display:grid;gap:6px;background:var(--glass);border:1px solid var(--line);padding:10px;backdrop-filter:blur(10px)}
+#inset{width:100%;height:auto;aspect-ratio:1;display:block}
+#insetTx{font-size:11.5px;line-height:1.45;color:var(--muted)}
+#insetTx b{color:var(--sun);font-weight:600}
+@media (max-width:820px){
+  #insetBox{display:none}
+  #card{left:16px;right:16px;width:auto;top:auto;bottom:160px;max-height:30%;padding:12px}
+  #clock{font-size:22px}
+}
+</style>
+
+<canvas id="gl" aria-label="Solar system moving through the Milky Way"></canvas>
+<div id="labels"></div>
+<figure id="insetBox"><canvas id="inset" width="220" height="220" aria-label="Where the helix runs inside the Milky Way"></canvas><figcaption id="insetTx"></figcaption></figure>
+
+<div id="top">
+  <div id="tabs" role="tablist">
+    <button role="tab" id="tabL" aria-selected="true">Planet helix · years</button>
+    <button role="tab" id="tabG" aria-selected="false">Galaxy · millions of years</button>
+  </div>
+  <div><div id="clockK"></div><div id="clock"></div><div id="event"></div></div>
+</div>
+
+<aside id="card" aria-live="polite">
+  <span class="k" id="cK"></span>
+  <h2 id="cT"></h2>
+  <p id="cP"></p>
+  <div id="facts"></div>
+  <div id="odo"></div>
+</aside>
+
+<div id="bar">
+  <div class="grp"><span class="k">Time</span>
+    <button class="chip" id="rev" aria-pressed="false">◀ Reverse</button>
+    <button class="chip" id="pause" aria-pressed="false">Pause</button>
+    <span class="grp" id="speeds"></span>
+    <button class="chip" id="now">Now</button>
+  </div>
+  <div class="grp" id="gOpts"><span class="k">View</span>
+    <button class="chip" id="exag" aria-pressed="true">Exaggerate up-down motion</button>
+    <button class="chip" id="follow" aria-pressed="false">Follow the Sun</button>
+    <select id="jump" aria-label="Jump to an event"></select>
+  </div>
+  <div class="grp" id="lOpts" hidden><span class="k">View</span>
+    <select id="slowSel" aria-label="Sun speed">
+      <option value="1">Sun at true speed</option>
+      <option value="4">Sun slowed 4×</option>
+      <option value="16" selected>Sun slowed 16×</option>
+      <option value="50">Sun slowed 50×</option>
+    </select>
+    <button class="chip" id="plane" aria-pressed="true">Orbit plane</button>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+'use strict';
+const $=s=>document.querySelector(s);
+const DEG=Math.PI/180;
+/* ---------- real galactic numbers ---------- */
+const R0=8.2;                         // kpc, Sun to galactic center
+const V0=233;                         // km/s, circular speed at the Sun
+const KMS_TO_KPC_MYR=1.0227e-3;       // 1 km/s = 1.0227 pc per Myr
+const OMEGA0=V0*KMS_TO_KPC_MYR/R0;    // rad per Myr
+const GAL_YEAR=2*Math.PI/OMEGA0;      // Myr, about 216
+const PATTERN=25*KMS_TO_KPC_MYR;      // spiral pattern speed, 25 km/s/kpc in rad/Myr
+const BARSPEED=40*KMS_TO_KPC_MYR;     // bar pattern speed, 40 km/s/kpc
+const ZPER=70,Z0=.0208,VZ=7*KMS_TO_KPC_MYR,WZ=2*Math.PI/ZPER; // vertical bobbing
+const ZA=Math.hypot(Z0,VZ/WZ),ZPH=Math.atan2(Z0*WZ,VZ);   // amplitude about 82 pc, Sun now 20.8 pc above the plane and rising
+const AU_PER_YR=V0*3.15576e7/1.495978707e8;              // about 49 au per year
+
+/* ---------- renderer ---------- */
+const cv=$('#gl');
+const renderer=new THREE.WebGLRenderer({canvas:cv,antialias:true,logarithmicDepthBuffer:true});
+renderer.outputEncoding=THREE.sRGBEncoding;
+const camera=new THREE.PerspectiveCamera(50,1,1e-3,1e6);
+function resize(){renderer.setPixelRatio(Math.min(2,devicePixelRatio||1));renderer.setSize(innerWidth,innerHeight,false);camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix()}
+addEventListener('resize',resize);
+function dotTex(soft){const c=document.createElement('canvas');c.width=c.height=64;const g=c.getContext('2d'),gr=g.createRadialGradient(32,32,0,32,32,32);gr.addColorStop(0,'rgba(255,255,255,1)');gr.addColorStop(soft?.15:.35,'rgba(255,255,255,.7)');gr.addColorStop(1,'rgba(255,255,255,0)');g.fillStyle=gr;g.fillRect(0,0,64,64);return new THREE.CanvasTexture(c)}
+const DOT=dotTex(false),GLOW=dotTex(true);
+
+/* =================== GALAXY SCENE =================== */
+const G=new THREE.Scene();G.background=new THREE.Color(0x020308);
+const ARMS=[{name:'Perseus Arm',th:45},{name:'Scutum–Centaurus Arm',th:135},{name:'Norma–Outer Arm',th:225},{name:'Sagittarius–Carina Arm',th:315}];
+const PITCH=12*DEG;
+const armAngle=(k,R)=>ARMS[k].th*DEG+Math.log(R/R0)/Math.tan(PITCH);
+const NS=56000,gPos=new Float32Array(NS*3),gCol=new Float32Array(NS*3),stars=[];
+(function(){
+  const rnd=Math.random,gauss=()=>{let u=0;while(!u)u=rnd();return Math.sqrt(-2*Math.log(u))*Math.cos(2*Math.PI*rnd())};
+  for(let i=0;i<NS;i++){
+    const r=rnd();let s;
+    if(r<.5){const R=Math.min(16,-3*Math.log(rnd()*rnd())*.9+.6);s={type:0,R,phi:rnd()*Math.PI*2,z:gauss()*.12,c:[1,.9,.78],b:.32+rnd()*.25}}
+    else if(r<.85){const k=Math.floor(rnd()*4),R=3.2+rnd()*12;s={type:1,R:R+gauss()*.25,phi:armAngle(k,R)+gauss()*.09,z:gauss()*.06,c:rnd()<.08?[1,.45,.6]:[.7,.82,1],b:.55+rnd()*.45}}
+    else if(r<.88){const R=R0+gauss()*1.1;s={type:1,R:R+ (rnd()-.5)*.6,phi:-.15+(R-R0)*.12+gauss()*.05,z:gauss()*.05,c:[.75,.85,1],b:.6+rnd()*.3}}
+    else if(r<.95){const a=gauss()*2.2,b=gauss()*.7;s={type:2,bx:a,by:b,z:gauss()*.4,c:[1,.82,.55],b:.5+rnd()*.4}}
+    else{const R=Math.abs(gauss())*1.1;s={type:3,R,phi:rnd()*Math.PI*2,z:gauss()*.6,c:[1,.85,.6],b:.55+rnd()*.4}}
+    if(s.type===0||s.type===3)s.om=(s.R<2?V0*s.R/2:V0)*KMS_TO_KPC_MYR/Math.max(s.R,.05);
+    stars.push(s);gCol.set(s.c.map(x=>x*s.b),i*3);
+  }
+})();
+const gGeo=new THREE.BufferGeometry();gGeo.setAttribute('position',new THREE.BufferAttribute(gPos,3));gGeo.setAttribute('color',new THREE.BufferAttribute(gCol,3));
+const gPts=new THREE.Points(gGeo,new THREE.PointsMaterial({size:.11,map:DOT,vertexColors:true,transparent:true,depthWrite:false,blending:THREE.AdditiveBlending}));gPts.frustumCulled=false;G.add(gPts);
+const core=new THREE.Sprite(new THREE.SpriteMaterial({map:GLOW,color:0xffd28a,transparent:true,blending:THREE.AdditiveBlending,depthWrite:false}));core.scale.set(7,7,1);G.add(core);
+const bh=new THREE.Sprite(new THREE.SpriteMaterial({map:GLOW,color:0xffffff,transparent:true,blending:THREE.AdditiveBlending,depthWrite:false}));bh.scale.set(.6,.6,1);G.add(bh);
+// galactic coordinates (x toward Sun at t=0 is +z here); rotation is clockwise seen from galactic north (+y), so angles decrease with time
+const galXYZ=(R,phi,z)=>new THREE.Vector3(R*Math.sin(phi),z,R*Math.cos(phi));
+const sunPhi=t=>-OMEGA0*t,sunZ=t=>ZA*Math.sin(WZ*t+ZPH);
+let exag=true;const zMul=()=>exag?25:1;
+const sunSprite=new THREE.Sprite(new THREE.SpriteMaterial({map:GLOW,color:0xffc35a,transparent:true,blending:THREE.AdditiveBlending,depthWrite:false}));sunSprite.scale.set(.9,.9,1);G.add(sunSprite);
+const orbitRing=(()=>{const p=[];for(let i=0;i<=256;i++){const a=i/256*Math.PI*2;p.push(new THREE.Vector3(R0*Math.sin(a),0,R0*Math.cos(a)))}const l=new THREE.Line(new THREE.BufferGeometry().setFromPoints(p),new THREE.LineDashedMaterial({color:0xffc35a,dashSize:.25,gapSize:.25,transparent:true,opacity:.35}));l.computeLineDistances();G.add(l);return l})();
+const TRAIL=600,trailGeo=new THREE.BufferGeometry();trailGeo.setAttribute('position',new THREE.BufferAttribute(new Float32Array(TRAIL*3),3));
+const trail=new THREE.Line(trailGeo,new THREE.LineBasicMaterial({color:0xffc35a,transparent:true,opacity:.85}));trail.frustumCulled=false;G.add(trail);
+const EVENTS=[
+  {t:-4540,n:'Earth forms'},{t:-2400,n:'Oxygen fills the air'},{t:-541,n:'Cambrian explosion of animal life'},{t:-375,n:'First fish crawl onto land'},
+  {t:-252,n:'The Great Dying, 90% of species lost'},{t:-230,n:'First dinosaurs'},{t:-66,n:'Asteroid ends the dinosaurs'},{t:-6,n:'Human and chimp lines split'},{t:-.3,n:'Homo sapiens appears'},{t:0,n:'Today'},
+];
+const evMarks=EVENTS.filter(e=>e.t>-600&&e.t<0).map(e=>{const s=new THREE.Sprite(new THREE.SpriteMaterial({map:GLOW,color:0xffc35a,transparent:true,opacity:.8,depthWrite:false}));s.scale.set(.35,.35,1);G.add(s);return{e,s}});
+
+/* =================== LOCAL "WAKE" SCENE =================== */
+const L=new THREE.Scene();L.background=new THREE.Color(0x020308);
+L.add(new THREE.AmbientLight(0x505870,.5));const lp=new THREE.PointLight(0xffffff,1.6,0,0);L.add(lp);
+// ecliptic J2000 -> galactic rotation (via equatorial)
+const EPS=23.4392911*DEG,GM=[[-0.0548755604,-0.8734370902,-0.4838350155],[0.4941094279,-0.4448296300,0.7469822445],[-0.8676661490,-0.1980763734,0.4559837762]];
+function ecl2gal(p){const x=p[0],y=p[1]*Math.cos(EPS)-p[2]*Math.sin(EPS),z=p[1]*Math.sin(EPS)+p[2]*Math.cos(EPS);return GM.map(r=>r[0]*x+r[1]*y+r[2]*z)}
+// galactic (x: toward center, y: direction of rotation, z: north) -> three (x, up, -forward)
+const g2t=g=>new THREE.Vector3(g[0],g[2],-g[1]);
+const EL={
+  mercury:[0.38709927,0.20563593,7.00497902,252.25032350,77.45779628,48.33076593,0.00000037,0.00001906,-0.00594749,149472.67411175,0.16047689,-0.12534081,'#b5aea6',.25],
+  venus:[0.72333566,0.00677672,3.39467605,181.97909950,131.60246718,76.67984255,0.00000390,-0.00004107,-0.00078890,58517.81538729,0.00268329,-0.27769418,'#ead2a0',.32],
+  earth:[1.00000261,0.01671123,-0.00001531,100.46457166,102.93768193,0,0.00000562,-0.00004392,-0.01294668,35999.37244981,0.32327364,0,'#4c8fe0',.34],
+  mars:[1.52371034,0.09339410,1.84969142,-4.55343205,-23.94362959,49.55953891,0.00001847,0.00007882,-0.00813131,19140.30268499,0.44441088,-0.29257343,'#d4673d',.28],
+  jupiter:[5.20288700,0.04838624,1.30439695,34.39644051,14.72847983,100.47390909,-0.00011607,-0.00013253,-0.00183714,3034.74612775,0.21252668,0.20469106,'#d9b48a',.9],
+  saturn:[9.53667594,0.05386179,2.48599187,49.95424423,92.59887831,113.66242448,-0.00125060,-0.00050991,0.00193609,1222.49362201,-0.41897216,-0.28867794,'#e6d29e',.8],
+  uranus:[19.18916464,0.04725744,0.77263783,313.23810451,170.95427630,74.01692503,-0.00196176,-0.00004397,-0.00242939,428.48202785,0.40805281,0.04240589,'#a7e1e4',.6],
+  neptune:[30.06992276,0.00859048,1.77004347,-55.12002969,44.96476227,131.78422574,0.00026291,0.00005105,0.00035372,218.45945325,-0.32241464,-0.00508664,'#4f78e0',.6],
+  pluto:[39.48211675,0.24882730,17.14001206,238.92903833,224.06891629,110.30393684,-0.00031596,0.00005170,0.00004818,145.20780515,-0.04062942,-0.01183482,'#c8b49a',.22],
+};
+function helio(k,T){const p=EL[k],a=p[0]+p[6]*T,e=p[1]+p[7]*T,I=(p[2]+p[8]*T)*DEG,Lm=p[3]+p[9]*T,wb=p[4]+p[10]*T,O=p[5]+p[11]*T;
+  let M=(((Lm-wb)%360)+540)%360-180;M*=DEG;let E=M+e*Math.sin(M);for(let i=0;i<10;i++)E-=(E-e*Math.sin(E)-M)/(1-e*Math.cos(E));
+  const w=(wb-O)*DEG,Om=O*DEG,xp=a*(Math.cos(E)-e),yp=a*Math.sqrt(1-e*e)*Math.sin(E),cw=Math.cos(w),sw=Math.sin(w),cO=Math.cos(Om),sO=Math.sin(Om),cI=Math.cos(I),sI=Math.sin(I);
+  return[(cw*cO-sw*sO*cI)*xp+(-sw*cO-cw*sO*cI)*yp,(cw*sO+sw*cO*cI)*xp+(-sw*sO+cw*cO*cI)*yp,(sw*sI)*xp+(cw*sI)*yp]}
+const PL=Object.keys(EL),PERIOD=Object.fromEntries(PL.map(k=>[k,Math.pow(EL[k][0],1.5)]));
+// how many orbits of trail each planet keeps (inner planets show several coils, outer ones about one)
+const CYC={mercury:8,venus:6,earth:5,mars:4,jupiter:2.2,saturn:1.6,uranus:1.1,neptune:1,pluto:.8};
+const MAXSPAN=Math.max(...PL.map(k=>PERIOD[k]*CYC[k]));
+const sunL=new THREE.Mesh(new THREE.SphereGeometry(.45,32,16),new THREE.MeshBasicMaterial({color:0xffd27a}));L.add(sunL);
+const sunGlowL=new THREE.Sprite(new THREE.SpriteMaterial({map:GLOW,color:0xffb347,transparent:true,blending:THREE.AdditiveBlending,depthWrite:false}));sunGlowL.scale.set(3.5,3.5,1);L.add(sunGlowL);
+const pl={},TRAILN=1400;
+PL.forEach(k=>{const m=new THREE.Mesh(new THREE.SphereGeometry(EL[k][13],24,12),new THREE.MeshStandardMaterial({color:EL[k][12],roughness:.9}));L.add(m);
+  const g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.BufferAttribute(new Float32Array(TRAILN*3),3));
+  const line=new THREE.Line(g,new THREE.LineBasicMaterial({color:EL[k][12],transparent:true,opacity:.8}));line.frustumCulled=false;L.add(line);
+  pl[k]={m,line,pts:[],lastT:null}});
+const sunTrailG=new THREE.BufferGeometry();sunTrailG.setAttribute('position',new THREE.BufferAttribute(new Float32Array(6),3));
+const sunTrail=new THREE.Line(sunTrailG,new THREE.LineDashedMaterial({color:0xffc35a,dashSize:2,gapSize:2,transparent:true,opacity:.6}));sunTrail.frustumCulled=false;L.add(sunTrail);
+// ecliptic plane disk (shows the 60 degree tilt to the galactic plane)
+const eclN=(()=>{const n=ecl2gal([0,0,1]);return g2t(n).normalize()})();
+const planeDisk=new THREE.Mesh(new THREE.CircleGeometry(32,96),new THREE.MeshBasicMaterial({color:0x8fb4ff,transparent:true,opacity:.06,side:THREE.DoubleSide,depthWrite:false}));
+planeDisk.quaternion.setFromUnitVectors(new THREE.Vector3(0,0,1),eclN);L.add(planeDisk);
+const galDisk=new THREE.Mesh(new THREE.RingGeometry(34,36,96),new THREE.MeshBasicMaterial({color:0xffc35a,transparent:true,opacity:.12,side:THREE.DoubleSide,depthWrite:false}));galDisk.rotation.x=-Math.PI/2;L.add(galDisk);
+const arrows=[
+  {v:new THREE.Vector3(0,0,-1),c:0xffc35a,t:'Direction of travel · toward Cygnus · 233 km/s'},
+  {v:new THREE.Vector3(1,0,0),c:0x8fb4ff,t:'Toward the galactic center · Sagittarius'},
+  {v:new THREE.Vector3(0,1,0),c:0xb7a8ff,t:'Galactic north'},
+].map(a=>{const h=new THREE.ArrowHelper(a.v,new THREE.Vector3(),40,a.c,3,1.6);h.line.material.transparent=true;h.line.material.opacity=.55;L.add(h);return Object.assign(a,{h})});
+const lStars=(()=>{const n=3000,p=new Float32Array(n*3);for(let i=0;i<n;i++){const u=Math.random()*2-1,a=Math.random()*Math.PI*2,r=Math.sqrt(1-u*u);p.set([r*Math.cos(a)*5e4,u*5e4,r*Math.sin(a)*5e4],i*3)}
+  const g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.BufferAttribute(p,3));const s=new THREE.Points(g,new THREE.PointsMaterial({size:1.5,sizeAttenuation:false,color:0xcfd6ff,transparent:true,opacity:.7}));L.add(s);return s})();
+
+/* =================== state, time, camera =================== */
+let mode='galaxy',paused=false,dir=1;
+let tMyr=0,rateMyr=5;            // galaxy clock, millions of years from now
+let yrs=0,rateYr=1,slow=16; // helix clock in years from now; slow = how many times the Sun's speed is reduced for visibility (1 = true speed)
+const nowJD=Date.now()/86400000+2440587.5;
+const GSPEEDS=[['0.5 Myr/s',.5],['5 Myr/s',5],['25 Myr/s',25],['100 Myr/s',100]];
+const LSPEEDS=[['1 month/s',1/12],['1 year/s',1],['10 years/s',10],['50 years/s',50]];
+const views={galaxy:{yaw:.6,pitch:.85,dist:38,want:38,target:new THREE.Vector3()},local:{yaw:Math.PI/2+.35,pitch:.32,dist:70,want:70,target:new THREE.Vector3()}};
+function buildSpeeds(){const box=$('#speeds');box.innerHTML='';const list=mode==='galaxy'?GSPEEDS:LSPEEDS,cur=mode==='galaxy'?rateMyr:rateYr;
+  list.forEach(([n,v])=>{const b=document.createElement('button');b.className='chip';b.textContent=n;b.setAttribute('aria-pressed',v===cur);b.onclick=()=>{if(mode==='galaxy')rateMyr=v;else rateYr=v;[...box.children].forEach(x=>x.setAttribute('aria-pressed',x===b))};box.appendChild(b)})}
+function setMode(m){mode=m;$('#insetBox').hidden=m!=='local';$('#tabG').setAttribute('aria-selected',m==='galaxy');$('#tabL').setAttribute('aria-selected',m==='local');$('#gOpts').hidden=m!=='galaxy';$('#lOpts').hidden=m!=='local';buildSpeeds();buildLabels();updCard(true);try{history.replaceState(null,'','#'+m)}catch(e){}}
+$('#tabG').onclick=()=>setMode('galaxy');$('#tabL').onclick=()=>setMode('local');
+$('#rev').onclick=e=>{dir=-dir;e.currentTarget.setAttribute('aria-pressed',dir<0)};
+$('#pause').onclick=e=>{paused=!paused;e.currentTarget.setAttribute('aria-pressed',paused);e.currentTarget.textContent=paused?'Play':'Pause'};
+$('#now').onclick=()=>{if(mode==='galaxy')tMyr=0;else{yrs=0;resetTrails()}};
+$('#exag').onclick=e=>{exag=!exag;e.currentTarget.setAttribute('aria-pressed',exag)};
+let follow=false;$('#follow').onclick=e=>{follow=!follow;e.currentTarget.setAttribute('aria-pressed',follow);views.galaxy.want=follow?6:38};
+$('#slowSel').onchange=e=>{slow=+e.target.value;resetTrails();updCard(true)};
+$('#plane').onclick=e=>{const v=e.currentTarget.getAttribute('aria-pressed')!=='true';e.currentTarget.setAttribute('aria-pressed',v);planeDisk.visible=galDisk.visible=v};
+const jump=$('#jump');[['','Jump to a moment…'],...EVENTS.map(e=>[e.t,e.n])].forEach(([v,n])=>{const o=document.createElement('option');o.value=v;o.textContent=n;jump.appendChild(o)});
+jump.onchange=e=>{if(e.target.value!==''){tMyr=+e.target.value;paused=true;$('#pause').setAttribute('aria-pressed',true);$('#pause').textContent='Play'}e.target.value=''};
+
+let drag=null,pinch=null;const pts=new Map();
+cv.addEventListener('pointerdown',e=>{pts.set(e.pointerId,{x:e.clientX,y:e.clientY});cv.setPointerCapture(e.pointerId);if(pts.size===1)drag={x:e.clientX,y:e.clientY};else{drag=null;const[a,b]=[...pts.values()];pinch=Math.hypot(a.x-b.x,a.y-b.y)}});
+cv.addEventListener('pointermove',e=>{if(!pts.has(e.pointerId))return;pts.set(e.pointerId,{x:e.clientX,y:e.clientY});const v=views[mode];
+  if(pts.size===2&&pinch){const[a,b]=[...pts.values()],d=Math.hypot(a.x-b.x,a.y-b.y);v.want=Math.max(.3,Math.min(mode==='galaxy'?120:4000,v.want*pinch/d));pinch=d;return}
+  if(drag){v.yaw-=(e.clientX-drag.x)*.005;v.pitch=Math.max(-1.5,Math.min(1.5,v.pitch+(e.clientY-drag.y)*.005));drag={x:e.clientX,y:e.clientY}}});
+const up=e=>{pts.delete(e.pointerId);if(pts.size<2)pinch=null;if(!pts.size)drag=null};cv.addEventListener('pointerup',up);cv.addEventListener('pointercancel',up);
+cv.addEventListener('wheel',e=>{e.preventDefault();const v=views[mode];v.want=Math.max(.3,Math.min(mode==='galaxy'?120:4000,v.want*Math.exp(e.deltaY*.0012)))},{passive:false});
+
+/* labels */
+const lab=$('#labels');let labels=[];
+function buildLabels(){lab.innerHTML='';labels=[];
+  const add=(text,cls,get)=>{const s=document.createElement('span');s.textContent=text;if(cls)s.className=cls;lab.appendChild(s);labels.push({s,get})};
+  if(mode==='galaxy'){
+    add('Sun · you are here','sun',()=>sunSprite.position);add('Sagittarius A* · black hole','',()=>new THREE.Vector3(0,.2,0));
+    ARMS.forEach((a,k)=>add(a.name,'arm',()=>{const R=k%2?6.2:11.5;return galXYZ(R,armAngle(k,R)-PATTERN*tMyr,0)}));
+    evMarks.forEach(m=>add(m.e.n,'ev',()=>m.s.visible?m.s.position:null));
+  }else{
+    add('Sun','sun',()=>new THREE.Vector3());PL.forEach(k=>add(k[0].toUpperCase()+k.slice(1),'',()=>pl[k].m.position));
+    arrows.forEach(a=>add(a.t,'dir',()=>a.v.clone().multiplyScalar(42)));
+  }}
+
+/* ---------- galaxy update ---------- */
+function updGalaxy(){
+  for(let i=0;i<NS;i++){const s=stars[i];let x,y,z;
+    if(s.type===1){const ph=s.phi-PATTERN*tMyr;x=s.R*Math.sin(ph);z=s.R*Math.cos(ph);y=s.z}
+    else if(s.type===2){const a=27*DEG-BARSPEED*tMyr,ca=Math.cos(a),sa=Math.sin(a);x=s.bx*sa+s.by*ca;z=s.bx*ca-s.by*sa;y=s.z}
+    else{const ph=s.phi-s.om*tMyr;x=s.R*Math.sin(ph);z=s.R*Math.cos(ph);y=s.z}
+    gPos[i*3]=x;gPos[i*3+1]=y;gPos[i*3+2]=z}
+  gGeo.attributes.position.needsUpdate=true;
+  const zm=zMul();sunSprite.position.copy(galXYZ(R0,sunPhi(tMyr),sunZ(tMyr)*zm));
+  const arr=trailGeo.attributes.position.array,span=Math.min(GAL_YEAR*.9,250);
+  for(let i=0;i<TRAIL;i++){const tt=tMyr-span*(1-i/(TRAIL-1));const p=galXYZ(R0,sunPhi(tt),sunZ(tt)*zm);arr[i*3]=p.x;arr[i*3+1]=p.y;arr[i*3+2]=p.z}
+  trailGeo.attributes.position.needsUpdate=true;
+  evMarks.forEach(m=>{m.s.position.copy(galXYZ(R0,sunPhi(m.e.t),sunZ(m.e.t)*zm));m.s.visible=m.e.t<=tMyr+.01&&m.e.t>=tMyr-span});
+}
+
+/* ---------- local update ---------- */
+function resetTrails(){PL.forEach(k=>{pl[k].pts=[];pl[k].lastT=null})}
+const sunVelAU=()=>AU_PER_YR/slow;
+// the Sun moves along its galactic orbit (+y) and also climbs out of the disk (+z) at about 7 km/s
+function sunAbs(y){return[0,sunVelAU()*y,7/V0*AU_PER_YR/slow*y]}
+function planetAbs(k,y){const jd=nowJD+y*365.25,T=(jd-2451545)/36525,g=ecl2gal(helio(k,T)),s=sunAbs(y);return[g[0]+s[0],g[1]+s[1],g[2]+s[2]]}
+function updLocal(){
+  const S=sunAbs(yrs);
+  PL.forEach(k=>{const P=pl[k],step=PERIOD[k]/90,span=PERIOD[k]*CYC[k];
+    if(P.lastT===null||Math.abs(yrs-P.lastT)>span){P.pts=[];P.lastT=yrs-span}
+    let n=0;while(Math.abs(yrs-P.lastT)>=step&&n<400){P.lastT+=Math.sign(yrs-P.lastT)*step;P.pts.push(planetAbs(k,P.lastT));n++}
+    while(P.pts.length>TRAILN-1)P.pts.shift();
+    const now=planetAbs(k,yrs),arr=P.line.geometry.attributes.position.array;let i=0;
+    for(const q of P.pts){const v=g2t([q[0]-S[0],q[1]-S[1],q[2]-S[2]]);arr[i*3]=v.x;arr[i*3+1]=v.y;arr[i*3+2]=v.z;i++}
+    const v=g2t([now[0]-S[0],now[1]-S[1],now[2]-S[2]]);arr[i*3]=v.x;arr[i*3+1]=v.y;arr[i*3+2]=v.z;i++;
+    P.line.geometry.setDrawRange(0,i);P.line.geometry.attributes.position.needsUpdate=true;P.m.position.copy(v)});
+  const back=g2t([0,-sunVelAU()*MAXSPAN,-7/V0*AU_PER_YR/slow*MAXSPAN]),sa=sunTrailG.attributes.position.array;sa.set([0,0,0,back.x,back.y,back.z]);sunTrailG.attributes.position.needsUpdate=true;sunTrail.computeLineDistances();
+}
+
+/* ---------- card ---------- */
+let lastCard=0;const t0=performance.now();
+function updCard(force){
+  const t=performance.now();if(!force&&t-lastCard<300)return;lastCard=t;
+  const F=[];
+  if(mode==='galaxy'){
+    $('#cK').textContent='The Sun\'s orbit around the Milky Way';$('#cT').textContent='One lap takes about '+Math.round(GAL_YEAR)+' million years';
+    $('#cP').textContent='The Sun circles the galactic center once every galactic year, bobbing up and down through the disk as it goes. The spiral arms are traffic jams of stars that rotate more slowly than the stars themselves. Stars drift in and out of them over time.';
+    const laps=tMyr/GAL_YEAR;
+    F.push(['Orbital speed',V0+' km/s'],['Distance to center','26,700 light-years'],['Galactic year','≈ '+Math.round(GAL_YEAR)+' Myr'],['Height above disk',Math.round(sunZ(tMyr)*1000)+' pc'],['Orbits since Earth formed','≈ '+(4540/GAL_YEAR).toFixed(1)],['Laps from today',(laps>=0?'+':'−')+Math.abs(laps).toFixed(3)]);
+  }else{
+    $('#cK').textContent='Both motions combined';$('#cT').textContent='Every planet draws a helix around the Sun\'s moving path';
+    $('#cP').textContent='The Sun races along its orbit around the Milky Way and pulls all nine worlds with it. Each planet keeps circling the Sun, so in space its path becomes a helix wrapped around the Sun\'s line. The orbits are tilted about 60° to the direction of travel, so each helix leans instead of trailing straight behind.'+(slow===1?' At true speed the Sun moves 49 au a year, so even Earth\'s helix is stretched almost flat.':` Here the Sun is slowed ${slow}× so the coils are easy to see.`);
+    const realAU=AU_PER_YR*MAXSPAN,ly=realAU/63241;
+    $('#insetTx').innerHTML=`The helix on screen covers ${Math.round(MAXSPAN)} years. In that time the real Sun travels <b>${Math.round(realAU).toLocaleString('en-US')} au</b> (${ly.toFixed(2)} light-years) along this ${Math.round(2*Math.PI*26700).toLocaleString('en-US')}-light-year loop, so the path is almost perfectly straight at this scale.`;
+    F.push(['Sun\'s speed','233 km/s'],['Earth\'s orbital speed','29.8 km/s'],['Sun travels per year','≈ 49 au'],['Orbit plane tilt','60.2° to galaxy'],['Heading','Cygnus, l = 90°'],['Time shown',(yrs>=0?'+':'')+yrs.toFixed(1)+' yr']);
+  }
+  const box=$('#facts');box.innerHTML='';F.forEach(([k,v])=>{const d=document.createElement('div');d.innerHTML='<small></small><b></b>';d.firstChild.textContent=k;d.lastChild.textContent=v;box.appendChild(d)});
+  const sec=(t-t0)/1000;$('#odo').textContent=`Since you opened this page, the real Solar System has moved ${Math.round(sec*V0).toLocaleString('en-US')} km around the galaxy.`;
+}
+function nearestEvent(){let best=null;for(const e of EVENTS){const d=Math.abs(e.t-tMyr);if(d<Math.max(1.5,Math.abs(e.t)*.02)&&(!best||d<Math.abs(best.t-tMyr)))best=e}return best}
+function fmtMyr(t){const a=Math.abs(t);if(a<.05)return'Today';const s=a>=1000?(a/1000).toFixed(2)+' billion years':a>=10?a.toFixed(0)+' million years':a.toFixed(1)+' million years';return t<0?s+' ago':s+' from now'}
+
+/* ---------- loop ---------- */
+let last=0;const tmp=new THREE.Vector3();
+function frame(ts){
+  const dt=Math.min(.1,(ts-last)/1000||0);last=ts;
+  if(!paused){if(mode==='galaxy')tMyr=Math.max(-5000,Math.min(5000,tMyr+dir*rateMyr*dt));else yrs+=dir*rateYr*dt}
+  const v=views[mode];let scene;
+  if(mode==='galaxy'){updGalaxy();scene=G;const tgt=follow?sunSprite.position:new THREE.Vector3();v.target.lerp(tgt,Math.min(1,dt*4));
+    $('#clockK').textContent='Galactic clock';$('#clock').textContent=fmtMyr(tMyr);const ev=nearestEvent();$('#event').textContent=ev&&ev.t!==0?'◆ '+ev.n:''}
+  else{updLocal();scene=L;v.target.set(0,0,0);
+    $('#clockK').textContent='Helix clock · '+(slow===1?'Sun at true speed':'Sun slowed '+slow+'×');const d=new Date((nowJD+yrs*365.25-2440587.5)*86400000);
+    $('#clock').textContent=d.toLocaleDateString('en-GB',{day:'numeric',month:'long',year:'numeric',timeZone:'UTC'});$('#event').textContent=''}
+  v.dist*=Math.pow(v.want/v.dist,Math.min(1,dt*4));
+  const cp=Math.cos(v.pitch);camera.position.set(v.target.x+Math.sin(v.yaw)*cp*v.dist,v.target.y+Math.sin(v.pitch)*v.dist,v.target.z+Math.cos(v.yaw)*cp*v.dist);camera.lookAt(v.target);
+  renderer.render(scene,camera);
+  for(const l of labels){const p=l.get();if(!p){l.s.hidden=true;continue}tmp.copy(p).project(camera);if(tmp.z>1||Math.abs(tmp.x)>1.2||Math.abs(tmp.y)>1.2){l.s.hidden=true;continue}l.s.hidden=false;l.s.style.transform=`translate(${(tmp.x+1)/2*innerWidth+8}px,${(1-tmp.y)/2*innerHeight-18}px)`}
+  updCard();requestAnimationFrame(frame);
+}
+/* mini map: where the helix runs in the galaxy */
+function drawInset(){
+  const c=$('#inset'),g=c.getContext('2d'),S=c.width,m=S/2,k=S/2/15.5;g.clearRect(0,0,S,S);
+  const bgr=g.createRadialGradient(m,m,0,m,m,m);bgr.addColorStop(0,'rgba(255,215,150,.55)');bgr.addColorStop(.18,'rgba(255,200,140,.18)');bgr.addColorStop(1,'rgba(20,24,50,0)');g.fillStyle=bgr;g.fillRect(0,0,S,S);
+  g.lineWidth=2.2;
+  for(let a=0;a<4;a++){g.strokeStyle='rgba(150,180,255,.45)';g.beginPath();for(let R=3.2;R<15;R+=.2){const th=armAngle(a,R),x=m+R*Math.sin(th)*k,y=m+R*Math.cos(th)*k;R===3.2?g.moveTo(x,y):g.lineTo(x,y)}g.stroke()}
+  g.setLineDash([3,3]);g.strokeStyle='rgba(255,195,90,.7)';g.lineWidth=1.2;g.beginPath();g.arc(m,m,R0*k,0,Math.PI*2);g.stroke();g.setLineDash([]);
+  const sx=m,sy=m+R0*k;g.fillStyle='#ffc35a';g.beginPath();g.arc(sx,sy,4,0,7);g.fill();
+  g.strokeStyle='#ffc35a';g.lineWidth=2;g.beginPath();g.moveTo(sx,sy);g.lineTo(sx-22,sy);g.lineTo(sx-16,sy-5);g.moveTo(sx-22,sy);g.lineTo(sx-16,sy+5);g.stroke();
+  g.fillStyle='rgba(238,240,250,.85)';g.font='500 10px "Martian Mono",monospace';g.textAlign='center';g.fillText('galactic center',m,m-8);
+}
+resize();drawInset();setMode(location.hash==='#galaxy'?'galaxy':'local');requestAnimationFrame(frame);
+</script>

@@ -15,13 +15,13 @@ function StoryCard({ story, readCount, started }: { story: StoryMeta; readCount:
   const progress = story.chapterCount ? Math.round((readCount / story.chapterCount) * 100) : 0;
   const href = `/story/${encodeURIComponent(story.slug)}`;
   return (
-    <article className="card group flex flex-col rounded-2xl border border-line bg-bg-2/80 p-3">
+    <article className="card group flex flex-col rounded-2xl border border-line bg-bg-2/80 p-2.5 sm:p-3">
       <Link href={href} className="block" aria-label={`Open ${story.title}`}>
         <div className="cover">
-          <div className="flex h-full flex-col justify-between p-5 pl-7">
-            <span className="text-[10px] tracking-[0.25em] text-ink/50 uppercase">{story.genre}</span>
-            <span className="block font-serif text-2xl leading-tight text-ink">{story.title}</span>
-            <span className="text-[11px] text-ink/50">
+          <div className="flex h-full flex-col justify-between p-3 pl-5 sm:p-5 sm:pl-7">
+            <span className="line-clamp-1 text-[9px] tracking-[0.2em] text-ink/50 uppercase sm:text-[10px] sm:tracking-[0.25em]">{story.genre}</span>
+            <span className="block font-serif text-lg leading-tight text-ink sm:text-2xl">{story.title}</span>
+            <span className="text-[10px] text-ink/50 sm:text-[11px]">
               {story.chapterCount} chapters · {hours(story.minutes)}
             </span>
           </div>
@@ -46,9 +46,10 @@ function StoryCard({ story, readCount, started }: { story: StoryMeta; readCount:
 
       <Link
         href={href}
-        className="mt-3 flex items-center justify-center gap-2 rounded-xl bg-accent px-3 py-2 text-sm font-medium text-ink transition hover:bg-accent-2"
+        className="mt-3 flex items-center justify-center gap-2 rounded-xl bg-accent px-2 py-2 text-sm font-medium text-ink transition hover:bg-accent-2 sm:px-3"
       >
-        {started ? "Continue reading" : "Open story"}
+        <span className="sm:hidden">{started ? "Continue" : "Open"}</span>
+        <span className="hidden sm:inline">{started ? "Continue reading" : "Open story"}</span>
         <ChevronRight size={16} />
       </Link>
     </article>
@@ -87,7 +88,7 @@ export function StoryShelf({ stories }: { stories: StoryMeta[] }) {
     <div className="mx-auto w-full max-w-6xl px-4 pb-16 sm:px-6">
       <section className="mt-8">
         <h2 className="mb-4 font-serif text-2xl text-fg">Stories</h2>
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        <div className="grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-3 xl:grid-cols-4">
           {stories.map((story) => (
             <StoryCard
               key={story.slug}

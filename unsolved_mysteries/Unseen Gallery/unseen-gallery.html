@@ -1,0 +1,345 @@
+<title>Unseen Gallery</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Archivo:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* Layout: a dark gallery wall; the artwork hangs left, a paper museum placard sits beside it, the session's wall of past pieces runs underneath */
+:root{
+  --wall:#141312;
+  --wall-2:#1c1a18;
+  --rule:#2e2a26;
+  --paper:#ebe6dc;
+  --ink:#1d1b18;
+  --chalk:#d9d3c7;
+  --dim:#8f877a;
+  --brass:#c2a46a;
+  --serif:'Instrument Serif',Georgia,'Times New Roman',serif;
+  --sans:'Archivo','Helvetica Neue',Arial,sans-serif;
+  --mono:'JetBrains Mono',ui-monospace,Consolas,monospace;
+  color-scheme:dark;
+}
+html{box-sizing:border-box}
+[hidden]{display:none!important}
+*{box-sizing:inherit}
+body{margin:0;background:var(--wall);color:var(--chalk);font-family:var(--sans);font-size:15px;line-height:1.5;padding-inline:clamp(16px,4vw,48px);padding-block:28px 48px}
+button{font-family:var(--sans);cursor:pointer}
+button:focus-visible{outline:2px solid var(--brass);outline-offset:3px}
+header{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px 24px;max-width:1240px;margin:0 auto 22px}
+header h1{margin:0;font:400 clamp(34px,5vw,52px)/1 var(--serif);color:var(--paper);letter-spacing:-.01em}
+header h1 i{color:var(--brass)}
+header p{margin:0;color:var(--dim);max-width:56ch;font-size:14.5px}
+main{max-width:1240px;margin:0 auto;display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:28px;align-items:start}
+.frame{position:relative;background:#0b0a09;padding:clamp(10px,2vw,22px);box-shadow:0 30px 60px -20px rgba(0,0,0,.8),0 0 0 1px var(--rule)}
+#art{display:block;width:100%;max-width:100%;aspect-ratio:1;height:auto;background:#000}
+#progress{position:absolute;left:clamp(10px,2vw,22px);right:clamp(10px,2vw,22px);bottom:6px;height:2px;background:transparent}
+#progress i{display:block;height:100%;width:0;background:var(--brass);transition:width .1s linear}
+aside{display:grid;gap:18px;min-width:0}
+.placard{background:var(--paper);color:var(--ink);padding:22px 22px 20px;display:grid;gap:12px}
+.placard .no{font:500 11px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:#6d665b}
+.placard h2{margin:0;font:400 34px/1.05 var(--serif);text-wrap:balance}
+.placard .medium{font-size:14px;line-height:1.45;color:#3a362f}
+.placard dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:4px 14px;font-size:13px;border-top:1px solid #cfc7b8;padding-top:12px}
+.placard dt{color:#6d665b}
+.placard dd{margin:0;font-family:var(--mono);font-size:12.5px;word-break:break-all;font-variant-numeric:tabular-nums}
+.placard .ed{font:italic 400 17px/1.3 var(--serif);color:#3a362f;border-top:1px solid #cfc7b8;padding-top:10px}
+.controls{display:grid;gap:10px}
+.lbl{font:500 11px var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--dim)}
+.engines{display:flex;flex-wrap:wrap;gap:6px}
+.engines button{background:transparent;border:1px solid var(--rule);color:var(--chalk);padding:6px 10px;font-size:13px}
+.engines button:hover{border-color:var(--dim)}
+.engines button[aria-pressed=true]{border-color:var(--brass);color:var(--brass)}
+.row{display:flex;gap:8px;flex-wrap:wrap}
+#gen{flex:1;background:var(--brass);color:#16130e;border:0;padding:12px 16px;font-weight:600;font-size:15px;letter-spacing:.02em}
+#gen:hover{filter:brightness(1.08)}
+#copy{background:transparent;border:1px solid var(--rule);color:var(--chalk);padding:10px 14px;font-size:13px}
+.note{margin:0;font-size:12.5px;color:var(--dim)}
+.note kbd{font:500 11px var(--mono);color:var(--chalk);border:1px solid var(--rule);padding:0 5px}
+section.wall{max-width:1240px;margin:34px auto 0}
+section.wall h3{margin:0 0 12px;font:400 24px var(--serif);color:var(--paper)}
+#wall{display:grid;grid-template-columns:repeat(auto-fill,minmax(112px,1fr));gap:12px}
+#wall button{background:#0b0a09;border:1px solid var(--rule);padding:6px;display:grid;gap:6px;text-align:left;color:var(--chalk)}
+#wall button:hover{border-color:var(--brass)}
+#wall img{width:100%;aspect-ratio:1;display:block}
+#wall span{font:400 13px/1.2 var(--serif);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#wallEmpty{color:var(--dim);font-size:14px;margin:0}
+@media (max-width:860px){main{grid-template-columns:minmax(0,1fr)}}
+</style>
+
+<header>
+  <h1>Unseen <i>Gallery</i></h1>
+  <p>Every piece here is computed the moment you ask for it, from a random seed and a palette mixed for that seed. Six engines, over four billion seeds each.</p>
+</header>
+
+<main>
+  <div class="frame">
+    <canvas id="art" width="720" height="720" aria-label="Generated artwork"></canvas>
+    <div id="progress"><i></i></div>
+  </div>
+  <aside>
+    <div class="placard" aria-live="polite">
+      <div class="no" id="pNo">Unseen Gallery · No. —</div>
+      <h2 id="pTitle">Preparing the first piece</h2>
+      <div class="medium" id="pMedium">Mixing a palette and choosing an engine.</div>
+      <dl>
+        <dt>Engine</dt><dd id="pEngine">—</dd>
+        <dt>Seed</dt><dd id="pSeed">—</dd>
+        <dt>Made</dt><dd id="pTime">—</dd>
+      </dl>
+      <div class="ed">Edition of one. This seed and palette had not been drawn until now.</div>
+    </div>
+    <div class="controls">
+      <span class="lbl">Engine</span>
+      <div class="engines" id="engines"></div>
+      <div class="row">
+        <button id="gen">Make a new piece</button>
+        <button id="copy">Copy seed</button>
+      </div>
+      <p class="note">Press <kbd>Space</kbd> for another. Open this page with the seed after a <kbd>#</kbd> in the link to rebuild the exact same piece.</p>
+    </div>
+  </aside>
+</main>
+
+<section class="wall">
+  <h3>Tonight's wall</h3>
+  <p id="wallEmpty">Pieces you make will hang here. Click one to bring it back.</p>
+  <div id="wall"></div>
+</section>
+
+<script>
+'use strict';
+const $=s=>document.querySelector(s);
+const S=720,TAU=Math.PI*2;
+const art=$('#art'),ctx=art.getContext('2d');
+function mulberry32(a){return function(){a|=0;a=a+0x6D2B79F5|0;let t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}}
+const fmtN=n=>n.toLocaleString('en-US');
+
+/* ---------- palettes: cosine palettes with seeded coefficients ---------- */
+function makePalette(R){
+  const a=[.45+R()*.15,.45+R()*.15,.45+R()*.15],b=[.3+R()*.25,.3+R()*.25,.3+R()*.25];
+  const f=.5+R()*.9,c=[f*(.8+R()*.4),f*(.8+R()*.4),f*(.8+R()*.4)],d=[R(),R(),R()];
+  const lut=new Uint8ClampedArray(256*3);
+  for(let i=0;i<256;i++){const t=i/255;for(let k=0;k<3;k++)lut[i*3+k]=255*Math.max(0,Math.min(1,a[k]+b[k]*Math.cos(TAU*(c[k]*t+d[k]))))}
+  return{lut,at(t){const i=Math.max(0,Math.min(255,t*255|0))*3;return[lut[i],lut[i+1],lut[i+2]]}};
+}
+/* ---------- seeded gradient noise ---------- */
+function makeNoise(R){
+  const perm=[...Array(256).keys()];for(let i=255;i>0;i--){const j=Math.floor(R()*(i+1));[perm[i],perm[j]]=[perm[j],perm[i]]}
+  const p=new Uint8Array(512);for(let i=0;i<512;i++)p[i]=perm[i&255];
+  const gx=new Float32Array(256),gy=new Float32Array(256);for(let i=0;i<256;i++){const a=R()*TAU;gx[i]=Math.cos(a);gy[i]=Math.sin(a)}
+  const n=(x,y)=>{let X=Math.floor(x),Y=Math.floor(y);const xf=x-X,yf=y-Y;X&=255;Y&=255;
+    const u=xf*xf*xf*(xf*(xf*6-15)+10),v=yf*yf*yf*(yf*(yf*6-15)+10);
+    const h00=p[p[X]+Y],h10=p[p[X+1]+Y],h01=p[p[X]+Y+1],h11=p[p[X+1]+Y+1];
+    const n00=gx[h00]*xf+gy[h00]*yf,n10=gx[h10]*(xf-1)+gy[h10]*yf,n01=gx[h01]*xf+gy[h01]*(yf-1),n11=gx[h11]*(xf-1)+gy[h11]*(yf-1);
+    const a=n00+(n10-n00)*u,b=n01+(n11-n01)*u;return a+(b-a)*v};
+  n.fbm=(x,y,o=5)=>{let s=0,amp=.5,f=1;for(let i=0;i<o;i++){s+=amp*n(x*f,y*f);f*=2.03;amp*=.5}return s};
+  return n;
+}
+
+/* ---------- engines (generators that yield progress 0..1) ---------- */
+const img=ctx.createImageData(S,S),px=img.data;
+function blit(){ctx.putImageData(img,0,0)}
+function small(G){const c=document.createElement('canvas');c.width=c.height=G;return c}
+
+const ENGINES={
+  attractor:{name:'Strange attractor',*run(R,pal,meta){
+    let a,b,c,d,type,minx,maxx,miny,maxy,ok=false;
+    for(let tries=0;tries<400&&!ok;tries++){
+      type=R()<.5?'Clifford':'De Jong';a=-3+R()*6;b=-3+R()*6;c=-3+R()*6;d=-3+R()*6;
+      let x=.1,y=.1;minx=miny=1e9;maxx=maxy=-1e9;const cells=new Set();
+      for(let i=0;i<20000;i++){let nx,ny;if(type==='Clifford'){nx=Math.sin(a*y)+c*Math.cos(a*x);ny=Math.sin(b*x)+d*Math.cos(b*y)}else{nx=Math.sin(a*y)-Math.cos(b*x);ny=Math.sin(c*x)-Math.cos(d*y)}x=nx;y=ny;
+        if(i>100){if(x<minx)minx=x;if(x>maxx)maxx=x;if(y<miny)miny=y;if(y>maxy)maxy=y;cells.add(((x*12)|0)*1000+((y*12)|0))}}
+      ok=isFinite(minx)&&cells.size>1100;
+    }
+    const span=Math.max(maxx-minx,maxy-miny)*1.08,cx=(minx+maxx)/2,cy=(miny+maxy)/2;
+    const hist=new Float32Array(S*S),hue=new Float32Array(S*S),total=6e6,chunk=250000;let x=.1,y=.1,mx=1;
+    for(let done=0;done<total;done+=chunk){
+      for(let i=0;i<chunk;i++){let nx,ny;if(type==='Clifford'){nx=Math.sin(a*y)+c*Math.cos(a*x);ny=Math.sin(b*x)+d*Math.cos(b*y)}else{nx=Math.sin(a*y)-Math.cos(b*x);ny=Math.sin(c*x)-Math.cos(d*y)}
+        const t=Math.atan2(ny-y,nx-x)/TAU+.5;x=nx;y=ny;
+        const X=((x-cx)/span+.5)*S|0,Y=((y-cy)/span+.5)*S|0;if(X>=0&&X<S&&Y>=0&&Y<S){const k=Y*S+X;hist[k]++;hue[k]+=t;if(hist[k]>mx)mx=hist[k]}}
+      if((done/chunk)%4===3||done+chunk>=total){const L=Math.log(1+mx),bg=pal.at(0);
+        for(let k=0;k<S*S;k++){const h=hist[k],o=k*4;if(!h){px[o]=bg[0]*.06;px[o+1]=bg[1]*.06;px[o+2]=bg[2]*.06;px[o+3]=255;continue}
+          const v=Math.pow(Math.log(1+h)/L,.75),col=pal.at(hue[k]/h);px[o]=col[0]*v+bg[0]*.06*(1-v);px[o+1]=col[1]*v+bg[1]*.06*(1-v);px[o+2]=col[2]*v+bg[2]*.06*(1-v);px[o+3]=255}
+        blit()}
+      yield (done+chunk)/total;
+    }
+    meta.medium=`${type} attractor traced through ${fmtN(total)} points. Parameters a ${a.toFixed(3)}, b ${b.toFixed(3)}, c ${c.toFixed(3)}, d ${d.toFixed(3)}. Color follows the direction each point jumped.`;
+  }},
+
+  flame:{name:'Fractal flame',*run(R,pal,meta){
+    const V={linear:(x,y)=>[x,y],sinusoidal:(x,y)=>[Math.sin(x),Math.sin(y)],spherical:(x,y)=>{const r=x*x+y*y+1e-9;return[x/r,y/r]},
+      swirl:(x,y)=>{const r=x*x+y*y,s=Math.sin(r),c=Math.cos(r);return[x*s-y*c,x*c+y*s]},horseshoe:(x,y)=>{const r=Math.hypot(x,y)+1e-9;return[(x-y)*(x+y)/r,2*x*y/r]},
+      polar:(x,y)=>[Math.atan2(x,y)/Math.PI,Math.hypot(x,y)-1],handkerchief:(x,y)=>{const r=Math.hypot(x,y),t=Math.atan2(x,y);return[r*Math.sin(t+r),r*Math.cos(t-r)]},
+      heart:(x,y)=>{const r=Math.hypot(x,y),t=Math.atan2(x,y);return[r*Math.sin(t*r),-r*Math.cos(t*r)]},disc:(x,y)=>{const r=Math.hypot(x,y)*Math.PI,t=Math.atan2(x,y)/Math.PI;return[t*Math.sin(r),t*Math.cos(r)]},
+      spiral:(x,y)=>{const r=Math.hypot(x,y)+1e-9,t=Math.atan2(x,y);return[(Math.cos(t)+Math.sin(r))/r,(Math.sin(t)-Math.cos(r))/r]},
+      hyperbolic:(x,y)=>{const r=Math.hypot(x,y)+1e-9,t=Math.atan2(x,y);return[Math.sin(t)/r,r*Math.cos(t)]},
+      julia:(x,y,R2)=>{const r=Math.sqrt(Math.hypot(x,y)),t=Math.atan2(x,y)/2+(R2<.5?0:Math.PI);return[r*Math.cos(t),r*Math.sin(t)]}};
+    const names=Object.keys(V);let xf,sym,used,ok=false,lastCol=.5;
+    for(let tries=0;tries<60&&!ok;tries++){
+      const n=3+Math.floor(R()*3);xf=[];used=new Set();let wsum=0;
+      for(let i=0;i<n;i++){const v1=names[Math.floor(R()*names.length)],v2=names[Math.floor(R()*names.length)],mix=R();used.add(v1);if(mix<.7)used.add(v2);
+        const w=.3+R();wsum+=w;xf.push({a:R()*2-1,b:R()*2-1,c:R()*2-1,d:R()*2-1,e:R()*2-1,f:R()*2-1,v1,v2,mix:mix<.7?mix:1,w,col:i/(n-1)})}
+      let acc=0;xf.forEach(t=>{acc+=t.w/wsum;t.cum=acc});
+      sym=R()<.55?1+Math.floor(R()*6):1;
+      let x=R()-.5,y=R()-.5;const xs=[],ys=[],cells=new Set();
+      for(let i=0;i<30000;i++){[x,y]=stepF(x,y);if(!isFinite(x)||!isFinite(y)||Math.abs(x)>1e6){x=R()-.5;y=R()-.5;continue}if(i>50&&i%3===0){xs.push(x);ys.push(y)}}
+      xs.sort((p,q)=>p-q);ys.sort((p,q)=>p-q);
+      const lo=k=>k[Math.floor(k.length*.02)],hi=k=>k[Math.floor(k.length*.98)];
+      if(xs.length>1000){var bx0=lo(xs),bx1=hi(xs),by0=lo(ys),by1=hi(ys);
+        for(let i=0;i<xs.length;i++)cells.add(Math.floor((xs[i]-bx0)/(bx1-bx0+1e-9)*60)*100+Math.floor((ys[i]-by0)/(by1-by0+1e-9)*60));ok=cells.size>650&&bx1-bx0>1e-3}
+    }
+    function stepF(x,y){const r=R();let t=xf[xf.length-1];for(const q of xf)if(r<=q.cum){t=q;break}
+      const ax=t.a*x+t.b*y+t.c,ay=t.d*x+t.e*y+t.f;let[p1,q1]=V[t.v1](ax,ay,R());if(t.mix<1){const[p2,q2]=V[t.v2](ax,ay,R());p1=p1*t.mix+p2*(1-t.mix);q1=q1*t.mix+q2*(1-t.mix)}
+      if(sym>1){const k=Math.floor(R()*sym)*TAU/sym,c=Math.cos(k),s=Math.sin(k);const nx=p1*c-q1*s;q1=p1*s+q1*c;p1=nx}lastCol=(lastCol+t.col)/2;return[p1,q1]}
+
+    const span=Math.max(bx1-bx0,by1-by0)*1.1,cx=(bx0+bx1)/2,cy=(by0+by1)/2;
+    const hist=new Float32Array(S*S),cr=new Float32Array(S*S),cg=new Float32Array(S*S),cb=new Float32Array(S*S),total=5e6,chunk=200000;let x=R()-.5,y=R()-.5,mx=1;
+    for(let done=0;done<total;done+=chunk){
+      for(let i=0;i<chunk;i++){[x,y]=stepF(x,y);if(!isFinite(x)||!isFinite(y)){x=R()-.5;y=R()-.5;continue}
+        const X=((x-cx)/span+.5)*S|0,Y=((y-cy)/span+.5)*S|0;if(X>=0&&X<S&&Y>=0&&Y<S){const k=Y*S+X,col=pal.at(lastCol);hist[k]++;cr[k]+=col[0];cg[k]+=col[1];cb[k]+=col[2];if(hist[k]>mx)mx=hist[k]}}
+      if((done/chunk)%4===3||done+chunk>=total){const L=Math.log(1+mx);
+        for(let k=0;k<S*S;k++){const h=hist[k],o=k*4;px[o+3]=255;if(!h){px[o]=px[o+1]=px[o+2]=6;continue}const al=Math.pow(Math.log(1+h)/L,1/2.2);
+          px[o]=cr[k]/h*al+6*(1-al);px[o+1]=cg[k]/h*al+6*(1-al);px[o+2]=cb[k]/h*al+6*(1-al)}blit()}
+      yield (done+chunk)/total;
+    }
+    meta.medium=`Fractal flame of ${xf.length} transforms using ${[...used].join(', ')} variations${sym>1?`, folded into ${sym}-way rotational symmetry`:''}. ${fmtN(total)} iterations of the chaos game.`;
+  }},
+
+  slime:{name:'Slime mold',*run(R,pal,meta){
+    const G=360,N=70000,trail=new Float32Array(G*G),tmp=new Float32Array(G*G);
+    const SA=.25+R()*.9,SD=5+R()*14,RA=.15+R()*.6,decay=.86+R()*.1,shape=['field','disc','ring','spiral'][Math.floor(R()*4)];
+    const ax=new Float32Array(N),ay=new Float32Array(N),aa=new Float32Array(N);
+    for(let i=0;i<N;i++){const t=R()*TAU,r=Math.sqrt(R());
+      if(shape==='field'){ax[i]=R()*G;ay[i]=R()*G;aa[i]=R()*TAU}
+      else if(shape==='disc'){ax[i]=G/2+Math.cos(t)*r*G*.35;ay[i]=G/2+Math.sin(t)*r*G*.35;aa[i]=t+Math.PI}
+      else if(shape==='ring'){ax[i]=G/2+Math.cos(t)*G*.38;ay[i]=G/2+Math.sin(t)*G*.38;aa[i]=t+Math.PI*(R()<.5?.5:-.5)}
+      else{const rr=r*G*.4;ax[i]=G/2+Math.cos(t+rr*.05)*rr;ay[i]=G/2+Math.sin(t+rr*.05)*rr;aa[i]=t+rr*.05+Math.PI/2}}
+    const sense=(x,y,a)=>{let X=(x+Math.cos(a)*SD)|0,Y=(y+Math.sin(a)*SD)|0;X=(X%G+G)%G;Y=(Y%G+G)%G;return trail[Y*G+X]};
+    const c=small(G),cx=c.getContext('2d'),id=cx.createImageData(G,G),d=id.data,steps=420;
+    for(let s=0;s<steps;s++){
+      for(let i=0;i<N;i++){const a=aa[i],f=sense(ax[i],ay[i],a),l=sense(ax[i],ay[i],a-SA),r=sense(ax[i],ay[i],a+SA);
+        if(f>l&&f>r){}else if(f<l&&f<r)aa[i]+=(R()<.5?-1:1)*RA;else if(l>r)aa[i]-=RA;else if(r>l)aa[i]+=RA;
+        ax[i]+=Math.cos(aa[i]);ay[i]+=Math.sin(aa[i]);if(ax[i]<0)ax[i]+=G;if(ax[i]>=G)ax[i]-=G;if(ay[i]<0)ay[i]+=G;if(ay[i]>=G)ay[i]-=G;
+        trail[(ay[i]|0)*G+(ax[i]|0)]+=1}
+      for(let y=0;y<G;y++){const ym=((y-1+G)%G)*G,y0=y*G,yp=((y+1)%G)*G;for(let x=0;x<G;x++){const xm=(x-1+G)%G,xp=(x+1)%G;
+        tmp[y0+x]=(trail[ym+xm]+trail[ym+x]+trail[ym+xp]+trail[y0+xm]+trail[y0+x]+trail[y0+xp]+trail[yp+xm]+trail[yp+x]+trail[yp+xp])/9*decay}}
+      trail.set(tmp);
+      if(s%6===5||s===steps-1){let mx=0;for(let k=0;k<G*G;k++)if(trail[k]>mx)mx=trail[k];const ref=mx*.55||1;
+        for(let k=0;k<G*G;k++){const v=Math.min(1,trail[k]/ref),col=pal.at(Math.pow(v,.55)),o=k*4,b=Math.pow(v,.45);d[o]=col[0]*b;d[o+1]=col[1]*b;d[o+2]=col[2]*b;d[o+3]=255}
+        cx.putImageData(id,0,0);ctx.imageSmoothingEnabled=true;ctx.imageSmoothingQuality='high';ctx.drawImage(c,0,0,S,S)}
+      yield (s+1)/steps;
+    }
+    meta.medium=`${fmtN(N)} simulated slime-mold cells released in a ${shape}, each sniffing ${SD.toFixed(1)} px ahead at ±${(SA*57.3).toFixed(0)}° and following the scent left by the others for ${steps} steps.`;
+  }},
+
+  coral:{name:'Reaction–diffusion',*run(R,pal,meta){
+    const presets=[['coral',.0545,.062],['mitosis',.0367,.0649],['maze',.029,.057],['solitons',.03,.062],['pulsing',.025,.06],['worms',.078,.061],['holes',.039,.058],['chaos',.026,.051]];
+    const pr=presets[Math.floor(R()*presets.length)],F=pr[1]+(R()-.5)*.0012,K=pr[2]+(R()-.5)*.0008;
+    const G=256,A=new Float32Array(G*G).fill(1),B=new Float32Array(G*G),A2=new Float32Array(G*G),B2=new Float32Array(G*G);
+    const seeds=20+Math.floor(R()*40);
+    for(let s=0;s<seeds;s++){const sx=R()*G|0,sy=R()*G|0,r=4+Math.floor(R()*7);for(let y=-r;y<=r;y++)for(let x=-r;x<=r;x++)if(x*x+y*y<=r*r){const k=((sy+y+G)%G)*G+((sx+x+G)%G);B[k]=.5+R()*.2;A[k]=.5}}
+    for(let k=0;k<G*G;k++)B[k]+=R()*.02;
+    const c=small(G),cx=c.getContext('2d'),id=cx.createImageData(G,G),d=id.data,iters=9000,chunk=150;
+    for(let it=0;it<iters;it+=chunk){
+      for(let n=0;n<chunk;n++){
+        for(let y=0;y<G;y++){const ym=((y-1+G)%G)*G,y0=y*G,yp=((y+1)%G)*G;for(let x=0;x<G;x++){const xm=(x-1+G)%G,xp=(x+1)%G,k=y0+x;
+          const a=A[k],b=B[k],abb=a*b*b;
+          const la=.2*(A[ym+x]+A[yp+x]+A[y0+xm]+A[y0+xp])+.05*(A[ym+xm]+A[ym+xp]+A[yp+xm]+A[yp+xp])-a;
+          const lb=.2*(B[ym+x]+B[yp+x]+B[y0+xm]+B[y0+xp])+.05*(B[ym+xm]+B[ym+xp]+B[yp+xm]+B[yp+xp])-b;
+          A2[k]=a+(la-abb+F*(1-a));B2[k]=b+(.5*lb+abb-(K+F)*b)}}
+        A.set(A2);B.set(B2);
+      }
+      for(let k=0;k<G*G;k++){const v=Math.max(0,Math.min(1,(A[k]-B[k]))),col=pal.at(v),o=k*4;d[o]=col[0];d[o+1]=col[1];d[o+2]=col[2];d[o+3]=255}
+      cx.putImageData(id,0,0);ctx.imageSmoothingEnabled=true;ctx.imageSmoothingQuality='high';ctx.drawImage(c,0,0,S,S);
+      yield (it+chunk)/iters;
+    }
+    meta.medium=`Two virtual chemicals reacting and spreading across a ${G}×${G} dish for ${fmtN(iters)} steps. Feed rate ${F.toFixed(4)}, kill rate ${K.toFixed(4)}, near the "${pr[0]}" regime, started from ${seeds} drops.`;
+  }},
+
+  ink:{name:'Flow-field ink',*run(R,pal,meta){
+    const N=makeNoise(R),sc=.0015+R()*.004,turns=1+R()*3,warp=R()<.5,sep=2+R()*3,lw=.6+R()*1.2;
+    const paper=pal.at(.05+R()*.2);const pr=235-paper[0]*.08,pg=230-paper[1]*.08,pb=220-paper[2]*.08;
+    ctx.fillStyle=`rgb(${pr|0},${pg|0},${pb|0})`;ctx.fillRect(0,0,S,S);
+    const cell=sep,GW=Math.ceil(S/cell),occ=new Int32Array(GW*GW).fill(-1);
+    const angle=(x,y)=>{let u=x*sc,v=y*sc;if(warp){const w=N.fbm(u+3.1,v+7.7,3);u+=w*2;v+=w*2}return N.fbm(u,v,4)*TAU*turns};
+    const lines=5200,per=260;let drawn=0;ctx.lineCap='round';ctx.lineJoin='round';
+    for(let L=0;L<lines;L+=per){
+      for(let n=0;n<per;n++){
+        const id=L+n;let x=R()*S,y=R()*S;const ci=Math.floor(x/cell)+Math.floor(y/cell)*GW;if(occ[ci]>=0)continue;
+        const pts=[[x,y]];
+        for(const dir of[1,-1]){let qx=x,qy=y;for(let s=0;s<220;s++){const a=angle(qx,qy);qx+=Math.cos(a)*dir*1.6;qy+=Math.sin(a)*dir*1.6;
+          if(qx<0||qy<0||qx>=S||qy>=S)break;const k=Math.floor(qx/cell)+Math.floor(qy/cell)*GW;if(occ[k]>=0&&occ[k]!==id)break;occ[k]=id;dir>0?pts.push([qx,qy]):pts.unshift([qx,qy])}}
+        if(pts.length<8)continue;
+        const col=pal.at((N(x*.004+50,y*.004)+.7)/1.4);ctx.strokeStyle=`rgba(${col[0]*.75|0},${col[1]*.75|0},${col[2]*.75|0},.9)`;ctx.lineWidth=lw*(.6+pts.length/300);
+        ctx.beginPath();ctx.moveTo(pts[0][0],pts[0][1]);for(let i=1;i<pts.length;i++)ctx.lineTo(pts[i][0],pts[i][1]);ctx.stroke();drawn++;
+      }
+      yield (L+per)/lines;
+    }
+    meta.medium=`${fmtN(drawn)} ink lines combed through a ${warp?'warped ':''}noise field, each kept ${sep.toFixed(1)} px from its neighbours so no two ever cross.`;
+  }},
+
+  marble:{name:'Warped marble',*run(R,pal,meta){
+    const N=makeNoise(R),sc=1.5+R()*3,amt=2+R()*3,o1=[R()*20,R()*20],o2=[R()*20,R()*20],o3=[R()*20,R()*20],o4=[R()*20,R()*20];
+    const rows=12;
+    for(let y0=0;y0<S;y0+=rows){
+      for(let y=y0;y<Math.min(S,y0+rows);y++)for(let x=0;x<S;x++){
+        const u=x/S*sc,v=y/S*sc;
+        const qx=N.fbm(u,v),qy=N.fbm(u+o1[0],v+o1[1]);
+        const rx=N.fbm(u+amt*qx+o2[0],v+amt*qy+o2[1]),ry=N.fbm(u+amt*qx+o3[0],v+amt*qy+o3[1]);
+        const f=N.fbm(u+amt*rx+o4[0],v+amt*ry+o4[1]);
+        const t=Math.max(0,Math.min(1,f*1.1+.5+Math.hypot(rx,ry)*.35)),col=pal.at(t),lum=.35+.85*Math.max(0,Math.min(1,f*1.6+.6)),o=(y*S+x)*4;
+        px[o]=Math.min(255,col[0]*lum);px[o+1]=Math.min(255,col[1]*lum);px[o+2]=Math.min(255,col[2]*lum);px[o+3]=255;
+      }
+      ctx.putImageData(img,0,0,0,y0,S,rows);
+      yield Math.min(1,(y0+rows)/S);
+    }
+    meta.medium=`Noise folded into itself three times over (domain warping at strength ${amt.toFixed(2)}), computed for each of the ${fmtN(S*S)} pixels.`;
+  }},
+};
+const ENG_KEYS=Object.keys(ENGINES);
+
+/* ---------- titles ---------- */
+const ADJ=['Quiet','Drowned','Folded','Electric','Hollow','Burning','Patient','Unborn','Salt','Velvet','Iron','Glass','Feral','Silent','Molten','Paper','Sleepless','Borrowed','Inward','Last'];
+const NOUN=['Cathedral','Tide','Lung','Orchard','Engine','Choir','Archive','Delta','Furnace','Garden','Nerve','Lantern','Atlas','Comet','Reef','Weather','Harbour','Meridian','Hive','Mirror'];
+function titleFor(R){const a=ADJ[Math.floor(R()*ADJ.length)],n=NOUN[Math.floor(R()*NOUN.length)],m=NOUN[Math.floor(R()*NOUN.length)],k=Math.floor(R()*4);
+  return k===0?`${a} ${n}`:k===1?`The ${n} of ${m}s`:k===2?`${n} for ${2+Math.floor(R()*9)} Hands`:`${a} ${n}, ${a==='Last'?'Again':'Unfinished'}`}
+
+/* ---------- runner ---------- */
+let job=null,cur=null,choice='any';
+function token(eng,seed){return eng+'-'+(seed>>>0).toString(16).padStart(8,'0')}
+function parseToken(t){const m=/^([a-z]+)-([0-9a-f]{8})$/.exec(t||'');if(!m||!ENGINES[m[1]])return null;return{eng:m[1],seed:parseInt(m[2],16)}}
+function newSeed(){const a=new Uint32Array(1);try{crypto.getRandomValues(a)}catch(e){a[0]=Math.random()*4294967296}return a[0]}
+function make(eng,seed){
+  const R=mulberry32(seed),Rt=mulberry32(seed^0x9e3779b9),pal=makePalette(mulberry32(seed^0x51ed27));
+  const meta={};cur={eng,seed,tok:token(eng,seed),title:titleFor(Rt),no:(seed%9000)+1000,time:new Date(),meta};
+  ctx.fillStyle='#000';ctx.fillRect(0,0,S,S);
+  $('#pNo').textContent=`Unseen Gallery · No. ${cur.no}`;$('#pTitle').textContent=cur.title;$('#pMedium').textContent='Rendering…';
+  $('#pEngine').textContent=ENGINES[eng].name;$('#pSeed').textContent=cur.tok;$('#pTime').textContent=cur.time.toLocaleString('en-GB',{day:'numeric',month:'short',year:'numeric',hour:'2-digit',minute:'2-digit',second:'2-digit'});
+  job={it:ENGINES[eng].run(R,pal,meta),meta,c:cur};
+  try{history.replaceState(null,'','#'+cur.tok)}catch(e){try{location.hash=cur.tok}catch(_){}}
+}
+function finish(){
+  $('#pMedium').textContent=job.meta.medium||'';$('#progress i').style.width='0';
+  const t=document.createElement('canvas');t.width=t.height=160;t.getContext('2d').drawImage(art,0,0,160,160);
+  const c=job.c,b=document.createElement('button');b.type='button';b.title=c.title;
+  const im=new Image();im.alt=c.title;im.src=t.toDataURL('image/jpeg',.85);const sp=document.createElement('span');sp.textContent=c.title;b.append(im,sp);
+  b.onclick=()=>make(c.eng,c.seed);$('#wall').prepend(b);$('#wallEmpty').hidden=true;
+  while($('#wall').children.length>24)$('#wall').lastChild.remove();
+  job=null;
+}
+function tick(){
+  if(job){const t0=performance.now();while(job&&performance.now()-t0<12){const r=job.it.next();if(r.done){finish();break}$('#progress i').style.width=(r.value*100).toFixed(1)+'%'}}
+  requestAnimationFrame(tick);
+}
+function generate(){const eng=choice==='any'?ENG_KEYS[Math.floor(Math.random()*ENG_KEYS.length)]:choice;make(eng,newSeed())}
+
+/* ---------- UI ---------- */
+const eb=$('#engines');
+[['any','Surprise me'],...ENG_KEYS.map(k=>[k,ENGINES[k].name])].forEach(([k,n])=>{const b=document.createElement('button');b.type='button';b.textContent=n;b.dataset.k=k;b.setAttribute('aria-pressed',k===choice);b.onclick=()=>{choice=k;eb.querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed',x.dataset.k===k));generate()};eb.appendChild(b)});
+$('#gen').onclick=generate;
+$('#copy').onclick=async e=>{const t=cur?cur.tok:'';try{await navigator.clipboard.writeText(t);e.target.textContent='Copied'}catch(_){const r=document.createRange();r.selectNodeContents($('#pSeed'));const s=getSelection();s.removeAllRanges();s.addRange(r);e.target.textContent='Selected'}setTimeout(()=>e.target.textContent='Copy seed',1600)};
+addEventListener('keydown',e=>{if(e.code==='Space'&&e.target.tagName!=='BUTTON'){e.preventDefault();generate()}});
+
+const fromHash=parseToken((location.hash||'').slice(1));
+if(fromHash)make(fromHash.eng,fromHash.seed);else make(ENG_KEYS[Math.floor(Math.random()*ENG_KEYS.length)],newSeed());
+requestAnimationFrame(tick);
+</script>

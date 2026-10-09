@@ -1,0 +1,339 @@
+<title>Tesseract Lab</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* Layout: the 4D object owns the whole screen; a slim instrument console floats on the left (bottom sheet on phones) */
+:root{
+  --bg:#06070f;
+  --panel:rgba(12,13,26,.82);
+  --line:#262a44;
+  --ink:#ece8f6;
+  --muted:#8e8aa8;
+  --near:#ffd27a;   /* w = +1, toward you in 4D */
+  --mid:#ff6f91;
+  --far:#7a5cff;    /* w = -1, away from you in 4D */
+  --display:'Syne','Segoe UI',system-ui,sans-serif;
+  --body:'IBM Plex Sans','Segoe UI',system-ui,sans-serif;
+  --mono:'IBM Plex Mono',ui-monospace,Consolas,monospace;
+  color-scheme:dark;
+}
+html{height:100%;box-sizing:border-box}
+[hidden]{display:none!important}
+*{box-sizing:border-box}
+body{height:100%;margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:14px;overflow:hidden}
+#stage{position:fixed;inset:0;background:radial-gradient(ellipse at 60% 45%,#141331 0%,var(--bg) 70%)}
+#cv{position:absolute;inset:0;width:100%;height:100%;display:block;touch-action:none;cursor:grab}
+#cv:active{cursor:grabbing}
+button,input,select{font-family:var(--mono);color:var(--ink)}
+button{cursor:pointer}
+button:focus-visible,input:focus-visible{outline:2px solid var(--near);outline-offset:2px}
+
+#console{position:absolute;left:16px;top:16px;bottom:16px;width:300px;display:flex;flex-direction:column;gap:14px;padding:18px 18px 16px;background:var(--panel);border:1px solid var(--line);backdrop-filter:blur(8px);overflow:auto}
+#console h1{margin:0;font:800 30px/1 var(--display);letter-spacing:-.01em}
+#console h1 span{background:linear-gradient(90deg,var(--near),var(--mid),var(--far));-webkit-background-clip:text;background-clip:text;color:transparent}
+.kicker{font:500 10.5px var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+.sec{display:grid;gap:8px}
+.shapes{display:grid;grid-template-columns:1fr 1fr;gap:5px}
+.shapes button{background:transparent;border:1px solid var(--line);padding:7px 8px;font-size:12px;text-align:left}
+.shapes button:hover{border-color:var(--muted)}
+.shapes button[aria-pressed=true]{border-color:var(--near);color:var(--near);background:rgba(255,210,122,.07)}
+#blurb{margin:0;font-size:13.5px;line-height:1.45;color:#cfc9e4}
+#counts{font:500 12px var(--mono);color:var(--near);font-variant-numeric:tabular-nums}
+.plane{display:grid;grid-template-columns:30px 1fr 52px;align-items:center;gap:8px;font:500 12px var(--mono)}
+.plane label{color:var(--muted)}
+.plane.w label{color:var(--mid)}
+.plane output{text-align:right;font-variant-numeric:tabular-nums;color:var(--ink)}
+input[type=range]{width:100%;accent-color:var(--mid);height:18px}
+.presets{display:flex;flex-wrap:wrap;gap:5px}
+.presets button,.toggles button{background:transparent;border:1px solid var(--line);padding:5px 8px;font-size:11.5px}
+.presets button:hover,.toggles button:hover{border-color:var(--mid);color:var(--mid)}
+.toggles{display:flex;flex-wrap:wrap;gap:5px}
+.toggles button[aria-pressed=true]{border-color:var(--mid);color:var(--mid)}
+.hint{font-size:12px;color:var(--muted);line-height:1.45;margin:0}
+.hint b{color:var(--ink);font-weight:500}
+
+#legend{position:absolute;right:16px;bottom:16px;width:min(280px,calc(100vw - 32px));display:grid;gap:6px;padding:12px 14px;background:var(--panel);border:1px solid var(--line)}
+#legend .bar{height:8px;background:linear-gradient(90deg,var(--far),var(--mid),var(--near))}
+#legend .ends{display:flex;justify-content:space-between;font:500 11px var(--mono);color:var(--muted)}
+#angles{position:absolute;right:16px;top:16px;font:500 11.5px/1.6 var(--mono);color:var(--muted);text-align:right;font-variant-numeric:tabular-nums;padding:10px 12px;background:var(--panel);border:1px solid var(--line)}
+#angles b{color:var(--ink);font-weight:500}
+#toggleConsole{display:none}
+
+@media (max-width:720px){
+  #console{left:0;right:0;top:auto;bottom:0;width:auto;max-height:52%;border-width:1px 0 0;padding:14px 16px calc(14px + env(safe-area-inset-bottom,0px))}
+  #console.collapsed{max-height:58px;overflow:hidden}
+  #toggleConsole{display:block;position:absolute;right:16px;top:12px;background:transparent;border:1px solid var(--line);padding:4px 10px;font-size:11px}
+  #console h1{font-size:24px}
+  #legend{top:16px;bottom:auto;right:16px;width:min(220px,calc(100vw - 32px))}
+  #angles{display:none}
+}
+</style>
+
+<div id="stage">
+  <canvas id="cv" aria-label="Rotating four-dimensional shape"></canvas>
+
+  <aside id="console">
+    <button id="toggleConsole" aria-expanded="true">Hide</button>
+    <div>
+      <div class="kicker">4D → 3D → 2D viewer</div>
+      <h1>Tesseract <span>Lab</span></h1>
+    </div>
+
+    <div class="sec">
+      <div id="shapes" class="sec"></div>
+      <p id="blurb"></p>
+      <div id="counts"></div>
+    </div>
+
+    <div class="sec">
+      <div class="kicker">Rotation speed per plane</div>
+      <div id="planes"></div>
+      <div class="presets">
+        <button data-p="w">Through w</button>
+        <button data-p="double">Double rotation</button>
+        <button data-p="tumble">Tumble</button>
+        <button data-p="stop">Stop</button>
+      </div>
+    </div>
+
+    <div class="sec">
+      <div class="kicker">View</div>
+      <div class="plane w"><label for="dist">4D</label><input type="range" id="dist" min="1.15" max="6" step="0.05" value="2.6"><output id="distOut">2.60</output></div>
+      <div class="plane w" id="hyperRow" hidden><label for="hyper">5D+</label><input type="range" id="hyper" min="-1" max="1" step="0.01" value="0.25"><output id="hyperOut">+0.25</output></div>
+      <div class="toggles">
+        <button id="tTrails" aria-pressed="false">Trails</button>
+        <button id="tVerts" aria-pressed="true">Vertices</button>
+        <button id="tPause" aria-pressed="false">Pause</button>
+        <button id="tDrag" aria-pressed="false">Drag turns 4D</button>
+        <button id="tReset">Reset view</button>
+      </div>
+    </div>
+
+    <p class="hint"><b>Drag</b> to turn it in 3D. <b>Shift + drag</b> or <b>right-drag</b> turns it through the 4th dimension. <b>Scroll</b> to zoom. The planes with a <b>W</b> are rotations no 3D object can do: parts of the shape pass through each other and turn inside out.</p>
+  </aside>
+
+  <div id="angles"></div>
+  <div id="legend">
+    <div class="kicker" id="legendTitle">Color = 4th coordinate (w)</div>
+    <div class="bar" id="legendBar"></div>
+    <div class="ends" id="legendEnds"><span>w = −1 · far</span><span>w = +1 · near</span></div>
+  </div>
+</div>
+
+<script>
+'use strict';
+const $=s=>document.querySelector(s);
+const cv=$('#cv'),ctx=cv.getContext('2d');
+const RM=matchMedia('(prefers-reduced-motion: reduce)').matches;
+let W=0,H=0,DPR=1;
+function resize(){DPR=Math.min(2,window.devicePixelRatio||1);W=cv.clientWidth;H=cv.clientHeight;cv.width=Math.round(W*DPR);cv.height=Math.round(H*DPR);ctx.setTransform(DPR,0,0,DPR,0,0);ctx.fillStyle='#06070f';ctx.fillRect(0,0,W,H)}
+addEventListener('resize',resize);
+
+/* ---------- geometry ---------- */
+const PHI=(1+Math.sqrt(5))/2;
+function normalize(verts){let m=0;for(const v of verts)m=Math.max(m,Math.hypot(...v));return verts.map(v=>v.map(c=>c/m))}
+function edgesByMinDist(verts){
+  let min=Infinity;for(let i=0;i<verts.length;i++)for(let j=i+1;j<verts.length;j++){const d=dist4(verts[i],verts[j]);if(d>1e-6&&d<min)min=d}
+  const e=[];for(let i=0;i<verts.length;i++)for(let j=i+1;j<verts.length;j++)if(Math.abs(dist4(verts[i],verts[j])-min)<1e-4)e.push([i,j]);return e;
+}
+const dist4=(a,b)=>{let s=0;for(let i=0;i<a.length;i++){const d=a[i]-b[i];s+=d*d}return Math.sqrt(s)};
+function cube(n){const v=signs(Array(n).fill(1));return{v,e:edgesByMinDist(v)}}
+function grid(nu,nv,f,seam){const v=[],e=[];for(let a=0;a<nu;a++)for(let b=0;b<nv;b++)v.push(f(a/nu*Math.PI*2,b/nv*Math.PI*2));
+  for(let a=0;a<nu;a++)for(let b=0;b<nv;b++){const i=a*nv+b;e.push([i,a*nv+(b+1)%nv]);e.push([i,a<nu-1?(a+1)*nv+b:seam(b)])}return{v,e}}
+function build120(){
+  const s=SHAPES.cell600.build(),v=normalize(s.v),n=v.length,adj=Array.from({length:n},()=>new Set());
+  s.e.forEach(([a,b])=>{adj[a].add(b);adj[b].add(a)});
+  const cells=[];
+  for(let i=0;i<n;i++)for(const j of adj[i]){if(j<=i)continue;const com=[...adj[i]].filter(k=>k>j&&adj[j].has(k));
+    for(const k of com)for(const l of com)if(l>k&&adj[k].has(l))cells.push([i,j,k,l])}
+  const cv=cells.map(c=>[0,1,2,3].map(d=>(v[c[0]][d]+v[c[1]][d]+v[c[2]][d]+v[c[3]][d])/4));
+  const faces=new Map();cells.forEach((c,ci)=>{for(let o=0;o<4;o++){const key=c.filter((_,q)=>q!==o).join(',');if(!faces.has(key))faces.set(key,[]);faces.get(key).push(ci)}});
+  const e=[];faces.forEach(cs=>{if(cs.length===2)e.push(cs)});return{v:cv,e};
+}
+function signs(arr){let out=[[]];for(const a of arr){const n=[];for(const o of out){if(a===0)n.push([...o,0]);else{n.push([...o,a]);n.push([...o,-a])}}out=n}return out}
+function perms(a){if(a.length<=1)return[a];const r=[];a.forEach((x,i)=>perms([...a.slice(0,i),...a.slice(i+1)]).forEach(p=>r.push([x,...p])));return r}
+function evenPerms4(){return perms([0,1,2,3]).filter(p=>{let inv=0;for(let i=0;i<4;i++)for(let j=i+1;j<4;j++)if(p[i]>p[j])inv++;return inv%2===0})}
+function uniq(verts){const s=new Map();verts.forEach(v=>s.set(v.map(c=>c.toFixed(5)).join(','),v));return[...s.values()]}
+
+const SHAPES={
+  tesseract:{name:'Tesseract',build(){const v=signs([1,1,1,1]);return{v,e:edgesByMinDist(v)}},
+    blurb:'The 4D cube. The small cube in the middle is the same size as the big one. It looks small because it is farther away in the 4th direction.',counts:'16 vertices · 32 edges · 24 squares · 8 cubes'},
+  cell16:{name:'16-cell',build(){const v=[];for(let i=0;i<4;i++)for(const s of[1,-1]){const p=[0,0,0,0];p[i]=s;v.push(p)}return{v,e:edgesByMinDist(v)}},
+    blurb:'The 4D version of the octahedron. Every vertex connects to every other vertex except the one directly opposite.',counts:'8 vertices · 24 edges · 32 triangles · 16 tetrahedra'},
+  cell5:{name:'5-cell',build(){const s=1/Math.sqrt(5);let v=[[1,1,1,-s],[1,-1,-1,-s],[-1,1,-1,-s],[-1,-1,1,-s],[0,0,0,Math.sqrt(5)-s]];const c=[0,1,2,3].map(k=>v.reduce((a,p)=>a+p[k],0)/5);v=v.map(p=>p.map((x,k)=>x-c[k]));return{v,e:edgesByMinDist(v)}},
+    blurb:'The simplest 4D shape, a pyramid built on a tetrahedron. All five corners are connected to each other.',counts:'5 vertices · 10 edges · 10 triangles · 5 tetrahedra'},
+  cell24:{name:'24-cell',build(){let v=[];for(let i=0;i<4;i++)for(let j=i+1;j<4;j++)for(const a of[1,-1])for(const b of[1,-1]){const p=[0,0,0,0];p[i]=a;p[j]=b;v.push(p)}return{v,e:edgesByMinDist(v)}},
+    blurb:'A shape with no 3D equivalent. It is built from 24 octahedra and is its own dual.',counts:'24 vertices · 96 edges · 96 triangles · 24 octahedra'},
+  cell600:{name:'600-cell',build(){let v=[];for(let i=0;i<4;i++)for(const s of[2,-2]){const p=[0,0,0,0];p[i]=s;v.push(p)}v.push(...signs([1,1,1,1]));
+      const base=signs([PHI,1,1/PHI,0]);for(const b of base)for(const pm of evenPerms4())v.push(pm.map(k=>b[k]));v=uniq(v);return{v,e:edgesByMinDist(v)}},
+    blurb:'The 4D icosahedron, made of 600 tetrahedra with 20 meeting at every vertex. It is the most complex regular shape in 4D.',counts:'120 vertices · 720 edges · 1200 triangles · 600 tetrahedra'},
+  duo:{name:'6-6 duoprism',build(){const n=6,v=[],e=[];for(let a=0;a<n;a++)for(let b=0;b<n;b++){const A=a/n*Math.PI*2,B=b/n*Math.PI*2;v.push([Math.cos(A),Math.sin(A),Math.cos(B),Math.sin(B)])}
+      for(let a=0;a<n;a++)for(let b=0;b<n;b++){const i=a*n+b;e.push([i,a*n+(b+1)%n]);e.push([i,((a+1)%n)*n+b])}return{v,e}},
+    blurb:'A hexagon multiplied by a hexagon. The result is a ring of 12 hexagonal prisms that wraps around in two directions at once.',counts:'36 vertices · 72 edges · 12 hexagonal prisms'},
+  torus:{name:'Clifford torus',build(){const n=28,m=28,v=[],e=[];for(let a=0;a<n;a++)for(let b=0;b<m;b++){const A=a/n*Math.PI*2,B=b/m*Math.PI*2;v.push([Math.cos(A),Math.sin(A),Math.cos(B),Math.sin(B)])}
+      for(let a=0;a<n;a++)for(let b=0;b<m;b++){const i=a*m+b;e.push([i,a*m+(b+1)%m]);e.push([i,((a+1)%n)*m+b])}return{v,e}},
+    blurb:'A doughnut that is completely flat. It lives on the surface of a 4D sphere, and rotating it through w turns it inside out.',counts:'Every point sits at distance 1 from the 4D center'},
+  cell120:{name:'120-cell',group:'4D polytopes',dense:1,build:build120,
+    blurb:'The 4D dodecahedron: 120 dodecahedra glued so that every face is shared by exactly two of them. It is the largest regular shape in 4D, and no 3D mind can hold all 120 cells at once.',counts:'600 vertices · 1200 edges · 720 pentagons · 120 dodecahedra'},
+  hopf:{name:'Hopf fibration',group:'Curved 4D',d4:1.35,
+    build(){const rings=[.45,.95,1.5708,2.2,2.7],m=10,seg=40,v=[],e=[],c=[];
+      rings.forEach((th,ri)=>{for(let f=0;f<m;f++){const ph=f/m*Math.PI*2,start=v.length,hue=(f/m*360+ri*24)%360;
+        for(let s=0;s<seg;s++){const t=s/seg*Math.PI*2;v.push([Math.cos(th/2)*Math.cos(t),Math.cos(th/2)*Math.sin(t),Math.sin(th/2)*Math.cos(t+ph),Math.sin(th/2)*Math.sin(t+ph)]);e.push([start+s,start+(s+1)%seg]);c.push(hue)}}});
+      return{v,e,c}},
+    legend:['Color = which circle (fiber)','fibers from one base point share a hue'],
+    blurb:'The 4D sphere filled completely with circles. Every circle passes through every other circle exactly once, like two links of a chain, and no two circles ever touch.',counts:'50 of the infinitely many fibers · every pair is linked'},
+  klein:{name:'Klein bottle',group:'Curved 4D',
+    build(){const R=1,r=.45,nv=14;return grid(44,nv,(u,v)=>[(R+r*Math.cos(v))*Math.cos(u),(R+r*Math.cos(v))*Math.sin(u),r*Math.sin(v)*Math.cos(u/2),r*Math.sin(v)*Math.sin(u/2)],b=>(nv-b)%nv)},
+    blurb:'A bottle with no inside and no outside. In 3D it has to pass through its own wall. In 4D it slips past itself through w, so you see the true, unbroken shape.',counts:'One-sided surface · 616 vertices · 1232 edges'},
+  penteract:{name:'Penteract',group:'Beyond 4D',build:()=>cube(5),
+    blurb:'A 5D cube: two tesseracts joined corner to corner through a fifth direction. The 5D+ slider turns it through dimensions 5 and beyond.',counts:'32 vertices · 80 edges · 80 squares · 40 cubes · 10 tesseracts'},
+  hexeract:{name:'Hexeract',group:'Beyond 4D',build:()=>cube(6),
+    blurb:'A 6D cube, flattened through three steps of perspective: 6D to 5D to 4D to 3D. Its shadow keeps turning into new shapes because it has 15 independent rotation planes.',counts:'64 vertices · 192 edges · 240 squares · 160 cubes · 12 penteracts'},
+  simplex5:{name:'5-simplex',group:'Beyond 4D',build(){const v=[];for(let i=0;i<6;i++){const p=Array(6).fill(-1/6);p[i]+=1;v.push(p)}return{v,e:edgesByMinDist(v)}},
+    blurb:'The simplest 5D shape. Six points, each one connected to all the others, with all 15 edges exactly the same length. In 3D that is impossible.',counts:'6 vertices · 15 edges · 20 triangles · 15 tetrahedra · 6 five-cells'},
+};
+const cross=n=>{const v=[];for(let i=0;i<n;i++)for(const s of[1,-1]){const p=new Array(n).fill(0);p[i]=s;v.push(p)}return{v,e:edgesByMinDist(v)}};
+const simplex=n=>{const v=[];for(let i=0;i<=n;i++){const p=new Array(n+1).fill(-1/(n+1));p[i]+=1;v.push(p)}return{v,e:edgesByMinDist(v)}};
+const demicube=n=>{const v=signs(new Array(n).fill(1)).filter(p=>p.filter(x=>x<0).length%2===0);return{v,e:edgesByMinDist(v)}};
+Object.assign(SHAPES,{
+  pentacross:{name:'Pentacross',group:'5D shapes',build:()=>cross(5),
+    blurb:'The 5D octahedron. Ten points sit on the five axes, and each one connects to every other point except its own opposite.',counts:'10 vertices · 40 edges · 80 triangles · 80 tetrahedra · 32 five-cells'},
+  demi5:{name:'5-demicube',group:'5D shapes',build:()=>demicube(5),
+    blurb:'Take a 5D cube and keep every other corner. What is left is a shape whose walls are 16-cells and 5-cells, two different 4D shapes fitted together.',counts:'16 vertices · 80 edges · 160 triangles · 10 16-cells + 16 five-cells'},
+  rect5:{name:'Rectified 5-simplex',group:'5D shapes',build(){const v=[];for(let i=0;i<6;i++)for(let j=i+1;j<6;j++){const p=new Array(6).fill(0);p[i]=1;p[j]=1;v.push(p)}return{v,e:edgesByMinDist(v)}},
+    blurb:'Shave every corner off a 5-simplex until the cuts meet in the middle of each edge. The 15 new corners are exactly those edge midpoints.',counts:'15 vertices · 60 edges · 80 triangles · 6 five-cells + 6 rectified 5-cells'},
+  simplex6:{name:'6-simplex',group:'6D shapes',build:()=>simplex(6),
+    blurb:'Seven points in 6D, every one connected to every other at exactly the same distance. Every possible pair, triple and group of four forms a perfect edge, triangle or tetrahedron.',counts:'7 vertices · 21 edges · 35 triangles · 35 tetrahedra · 7 five-simplices'},
+  hexacross:{name:'Hexacross',group:'6D shapes',build:()=>cross(6),
+    blurb:'The 6D octahedron, with two points on each of six axes. Its outer walls are 64 five-simplices.',counts:'12 vertices · 60 edges · 160 triangles · 240 tetrahedra · 64 five-simplices'},
+  demi6:{name:'6-demicube',group:'6D shapes',build:()=>demicube(6),
+    blurb:'Half the corners of a 6D cube. Each corner touches 15 others, and its walls are 12 five-demicubes and 32 five-simplices.',counts:'32 vertices · 240 edges · 640 triangles · 12 five-demicubes + 32 five-simplices'},
+  torus3:{name:'Flat 3-torus',group:'6D shapes',dense:1,
+    build(){const n=8,v=[],e=[],c=[],id=(a,b,d)=>((a%n)*n+(b%n))*n+(d%n),T=Math.PI*2/n;
+      for(let a=0;a<n;a++)for(let b=0;b<n;b++)for(let d=0;d<n;d++)v.push([Math.cos(a*T),Math.sin(a*T),Math.cos(b*T),Math.sin(b*T),Math.cos(d*T),Math.sin(d*T)]);
+      for(let a=0;a<n;a++)for(let b=0;b<n;b++)for(let d=0;d<n;d++){const i=id(a,b,d);e.push([i,id(a+1,b,d)]);c.push(40);e.push([i,id(a,b+1,d)]);c.push(330);e.push([i,id(a,b,d+1)]);c.push(185)}
+      return{v,e,c}},
+    legend:['Color = circle direction','gold, pink and cyan are the three loops'],
+    blurb:'Three circles multiplied together, a space with no edge in any direction, like an Asteroids screen in three directions at once. It sits flat in 6D, the only place it fits without bending.',counts:'512 vertices · 1536 edges · 3 independent loops'},
+});
+['penteract','simplex5'].forEach(k=>SHAPES[k].group='5D shapes');SHAPES.hexeract.group='6D shapes';
+{const o={};['tesseract','cell16','cell5','cell24','cell600','cell120','duo','torus','hopf','klein','penteract','simplex5','pentacross','demi5','rect5','hexeract','simplex6','hexacross','demi6','torus3'].forEach(k=>o[k]=SHAPES[k]);for(const k in SHAPES)delete SHAPES[k];Object.assign(SHAPES,o)}
+['tesseract','cell16','cell5','cell24','cell600'].forEach(k=>SHAPES[k].group='4D polytopes');
+['duo','torus'].forEach(k=>SHAPES[k].group='Curved 4D');
+let shape=null,verts=[],edges=[],ecol=null,curKey='tesseract';const built={};
+function setShape(k){
+  curKey=k;const s=SHAPES[k],g=built[k]||(built[k]=s.build());
+  const dim=g.v[0].length,mean=new Array(dim).fill(0);g.v.forEach(p=>p.forEach((x,i)=>mean[i]+=x/g.v.length));
+  verts=normalize(g.v.map(p=>p.map((x,i)=>x-mean[i])));edges=g.e;ecol=g.c||null;shape=s;
+  $('#blurb').textContent=s.blurb;$('#counts').textContent=s.counts;
+  d4=s.d4||2.6;$('#dist').value=d4;$('#distOut').textContent=d4.toFixed(2);
+  $('#hyperRow').hidden=verts[0].length<=4;
+  const lg=s.legend;$('#legendTitle').textContent=lg?lg[0]:'Color = 4th coordinate (w)';$('#legendBar').style.background=lg?'linear-gradient(90deg,hsl(0,90%,66%),hsl(60,90%,66%),hsl(120,90%,66%),hsl(180,90%,66%),hsl(240,90%,66%),hsl(300,90%,66%),hsl(360,90%,66%))':'';
+  $('#legendEnds').innerHTML=lg?`<span>${lg[1]}</span>`:'<span>w = −1 · far</span><span>w = +1 · near</span>';
+  document.querySelectorAll('#shapes button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.k===k));
+}
+
+/* ---------- rotation state ---------- */
+const PLANES=[['XY',0,1],['XZ',0,2],['YZ',1,2],['XW',0,3],['YW',1,3],['ZW',2,3]];
+const speed={XY:.12,XZ:0,YZ:.06,XW:.32,YW:.2,ZW:.1};
+const ang={XY:0,XZ:0,YZ:0,XW:0,YW:0,ZW:0};
+if(RM)for(const k in speed)speed[k]*=.4;
+const PRESETS={w:{XY:0,XZ:0,YZ:0,XW:.5,YW:0,ZW:0},double:{XY:.4,XZ:0,YZ:0,XW:0,YW:0,ZW:.4},tumble:{XY:.15,XZ:.08,YZ:.05,XW:.35,YW:.22,ZW:.12},stop:{XY:0,XZ:0,YZ:0,XW:0,YW:0,ZW:0}};
+let view={yaw:.6,pitch:-.35,zoom:1},d4=2.6,trails=false,showVerts=true,paused=false,drag4=false;
+// extra rotation planes for 5D and 6D shapes: [axis i, axis j, relative speed]
+const EXTRA=[[0,4,1],[3,4,.7],[1,5,.8],[2,4,.45],[3,5,.6],[4,5,.5],[2,6,.55],[5,6,.4],[0,6,.35]];
+let hyperAng=0,hyperSpeed=RM?.1:.25;
+
+function buildPlanes(){
+  const box=$('#planes');
+  PLANES.forEach(([k])=>{
+    const row=document.createElement('div');row.className='plane'+(k.includes('W')?' w':'');
+    row.innerHTML=`<label for="s${k}">${k}</label><input type="range" id="s${k}" min="-1" max="1" step="0.01"><output id="o${k}"></output>`;
+    box.appendChild(row);
+    const inp=row.querySelector('input');inp.value=speed[k];
+    inp.oninput=()=>{speed[k]=+inp.value;syncOut()};
+  });
+  syncOut();
+}
+function syncOut(){PLANES.forEach(([k])=>{$('#s'+k).value=speed[k];$('#o'+k).textContent=(speed[k]>=0?'+':'')+speed[k].toFixed(2)})}
+
+/* ---------- projection ---------- */
+const proj=[];
+function rot(p,i,j,a){const c=Math.cos(a),s=Math.sin(a),x=p[i],y=p[j];p[i]=c*x-s*y;p[j]=s*x+c*y}
+function project(){
+  const cy=Math.cos(view.yaw),sy=Math.sin(view.yaw),cp=Math.cos(view.pitch),sp=Math.sin(view.pitch);
+  const scale=Math.min(W,H)*.4*view.zoom*(d4-.6),cx=W>720?W/2+150:W/2,cyy=W>720?H/2:H*.36;
+  for(let n=0;n<verts.length;n++){
+    const p=verts[n].slice();
+    for(const[k,i,j]of PLANES)if(ang[k])rot(p,i,j,ang[k]);
+    if(p.length>4){
+      for(const[i,j,f]of EXTRA)if(j<p.length)rot(p,i,j,hyperAng*f);
+      for(let d=p.length-1;d>=4;d--){const k=2.4/(2.4-p[d]);for(let i=0;i<d;i++)p[i]*=k}
+      const m=Math.hypot(p[0],p[1],p[2],p[3]);if(m>1.6){const s=1.6/m;for(let i=0;i<4;i++)p[i]*=s}
+    }
+    const w=p[3],k4=1/Math.max(.08,d4-w);
+    let x=p[0]*k4,y=p[1]*k4,z=p[2]*k4;
+    let x2=cy*x+sy*z,z2=-sy*x+cy*z;let y2=cp*y-sp*z2,z3=sp*y+cp*z2;
+    const k3=3.2/(3.2-z3);
+    proj[n]={x:cx+x2*k3*scale,y:cyy-y2*k3*scale,z:z3,w,k:k3*k4};
+  }
+}
+function wColor(w,a){
+  const t=Math.max(0,Math.min(1,(w+1)/2));let r,g,b;
+  if(t<.5){const u=t/.5;r=122+(255-122)*u;g=92+(111-92)*u;b=255+(145-255)*u}
+  else{const u=(t-.5)/.5;r=255;g=111+(210-111)*u;b=145+(122-145)*u}
+  return`rgba(${r|0},${g|0},${b|0},${a})`;
+}
+
+/* ---------- render ---------- */
+let last=0;
+function frame(ts){
+  const dt=Math.min(.05,(ts-last)/1000||0);last=ts;
+  if(!paused){for(const k in speed)ang[k]+=speed[k]*dt;hyperAng+=hyperSpeed*dt}
+  if(trails){ctx.fillStyle='rgba(6,7,15,.16)';ctx.fillRect(0,0,W,H)}else ctx.clearRect(0,0,W,H);
+  project();
+  const order=edges.map((e,i)=>i).sort((a,b)=>(proj[edges[a][0]].z+proj[edges[a][1]].z)-(proj[edges[b][0]].z+proj[edges[b][1]].z));
+  const dense=edges.length>300,base=dense?(edges.length>1000?.7:1):1.8;
+  ctx.lineCap='round';
+  ctx.globalCompositeOperation='lighter';
+  for(const i of order){
+    const[a,b]=edges[i],A=proj[a],B=proj[b],w=(A.w+B.w)/2,k=(A.k+B.k)/2,depth=Math.max(.25,Math.min(1,(A.z+B.z)/2*.5+.75));
+    if(Math.abs(A.x-B.x)+Math.abs(A.y-B.y)>Math.max(W,H)*1.5)continue;
+    if(ecol){ctx.strokeStyle=`hsla(${ecol[i]},90%,64%,${(.75*depth).toFixed(3)})`;ctx.lineWidth=Math.max(.7,Math.min(5,k*1.4));}
+    else if(dense){ctx.strokeStyle=wColor(w,.7*depth);ctx.lineWidth=Math.max(.5,base*k*1.6)}
+    else{ctx.strokeStyle=wColor(w,.12*depth);ctx.lineWidth=base*k*7;ctx.beginPath();ctx.moveTo(A.x,A.y);ctx.lineTo(B.x,B.y);ctx.stroke();
+      const g=ctx.createLinearGradient(A.x,A.y,B.x,B.y);g.addColorStop(0,wColor(A.w,.85*depth));g.addColorStop(1,wColor(B.w,.85*depth));ctx.strokeStyle=g;ctx.lineWidth=Math.max(.6,base*k*1.6)}
+    ctx.beginPath();ctx.moveTo(A.x,A.y);ctx.lineTo(B.x,B.y);ctx.stroke();
+  }
+  if(showVerts&&verts.length<=150){
+    for(const p of proj){const r=Math.max(1.2,(dense?1.6:3)*p.k);ctx.fillStyle=wColor(p.w,.35);ctx.beginPath();ctx.arc(p.x,p.y,r*2.6,0,7);ctx.fill();ctx.fillStyle='rgba(255,250,240,.95)';ctx.beginPath();ctx.arc(p.x,p.y,r*.8,0,7);ctx.fill()}
+  }
+  ctx.globalCompositeOperation='source-over';
+  $('#angles').innerHTML=PLANES.map(([k])=>`${k} <b>${String(((ang[k]*180/Math.PI)%360+360)%360|0).padStart(3,' ')}°</b>`).join('<br>');
+  requestAnimationFrame(frame);
+}
+
+/* ---------- interaction ---------- */
+let dragging=null;
+cv.addEventListener('pointerdown',e=>{dragging={x:e.clientX,y:e.clientY,four:e.shiftKey||e.button===2||drag4};cv.setPointerCapture(e.pointerId)});
+cv.addEventListener('pointermove',e=>{if(!dragging)return;const dx=e.clientX-dragging.x,dy=e.clientY-dragging.y;dragging.x=e.clientX;dragging.y=e.clientY;
+  if(dragging.four||e.shiftKey){ang.XW+=dx*.008;ang.YW+=dy*.008}else{view.yaw+=dx*.008;view.pitch=Math.max(-1.5,Math.min(1.5,view.pitch+dy*.008))}});
+const end=()=>dragging=null;cv.addEventListener('pointerup',end);cv.addEventListener('pointercancel',end);
+cv.addEventListener('contextmenu',e=>e.preventDefault());
+cv.addEventListener('wheel',e=>{e.preventDefault();view.zoom=Math.max(.4,Math.min(3,view.zoom*Math.exp(-e.deltaY*.001)))},{passive:false});
+
+const sb=$('#shapes'),groups={};
+Object.entries(SHAPES).forEach(([k,s])=>{
+  if(!groups[s.group]){const lab=document.createElement('div');lab.className='kicker';lab.textContent=s.group;const g=document.createElement('div');g.className='shapes';sb.append(lab,g);groups[s.group]=g}
+  const b=document.createElement('button');b.dataset.k=k;b.textContent=s.name;b.onclick=()=>setShape(k);groups[s.group].appendChild(b)});
+$('#hyper').oninput=e=>{hyperSpeed=+e.target.value;$('#hyperOut').textContent=(hyperSpeed>=0?'+':'')+hyperSpeed.toFixed(2)};
+document.querySelectorAll('.presets button').forEach(b=>b.onclick=()=>{Object.assign(speed,PRESETS[b.dataset.p]);syncOut();if(paused){paused=false;$('#tPause').setAttribute('aria-pressed','false')}});
+$('#dist').oninput=e=>{d4=+e.target.value;$('#distOut').textContent=d4.toFixed(2)};
+const tog=(id,fn)=>{const b=$(id);b.onclick=()=>{const v=b.getAttribute('aria-pressed')!=='true';b.setAttribute('aria-pressed',v);fn(v)}};
+tog('#tTrails',v=>trails=v);tog('#tVerts',v=>showVerts=v);tog('#tPause',v=>paused=v);tog('#tDrag',v=>drag4=v);
+$('#tReset').onclick=()=>{view={yaw:.6,pitch:-.35,zoom:1};for(const k in ang)ang[k]=0};
+$('#toggleConsole').onclick=e=>{const c=$('#console');const col=c.classList.toggle('collapsed');e.target.textContent=col?'Show':'Hide';e.target.setAttribute('aria-expanded',!col)};
+
+resize();buildPlanes();setShape('tesseract');requestAnimationFrame(frame);
+</script>

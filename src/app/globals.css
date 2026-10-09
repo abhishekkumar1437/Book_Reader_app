@@ -842,3 +842,34 @@ body {
     font-style: italic;
   }
 }
+
+/* ---------- Small screens ---------- */
+/* Nothing on the page should force horizontal scrolling on a phone. */
+body {
+  overflow-x: clip;
+}
+/* The PDF reader's floating bars and panels stay clear of notches and home indicators. */
+.chrome.is-top {
+  padding-top: env(safe-area-inset-top);
+}
+.chrome.is-bottom {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+.panel {
+  bottom: calc(84px + env(safe-area-inset-bottom));
+}
+@media (max-width: 640px) {
+  .panel {
+    right: 8px;
+    width: calc(100vw - 16px);
+  }
+  .toast {
+    max-width: calc(100vw - 32px);
+    white-space: normal;
+    text-align: center;
+  }
+  .dropzone {
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+  }
+}

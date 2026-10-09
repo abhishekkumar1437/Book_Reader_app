@@ -33,7 +33,7 @@ export function DocumentCard({ book, position, library, onDelete }: DocumentCard
   const readHref = `/read/${encodeURIComponent(book.id)}`;
 
   return (
-    <article className="card group flex flex-col rounded-2xl border border-line bg-bg-2/80 p-3">
+    <article className="card group flex flex-col rounded-2xl border border-line bg-bg-2/80 p-2.5 sm:p-3">
       <Link href={readHref} className="block" aria-label={`Open ${book.name}`}>
         <div className="cover">
           {meta?.cover ? (
@@ -81,9 +81,9 @@ export function DocumentCard({ book, position, library, onDelete }: DocumentCard
       <div className="mt-3 flex items-center gap-1">
         <Link
           href={readHref}
-          className="flex flex-1 items-center justify-center gap-2 rounded-xl bg-accent px-3 py-2 text-sm font-medium text-ink transition hover:bg-accent-2"
+          className="flex flex-1 items-center justify-center gap-2 rounded-xl bg-accent px-2 py-2 text-sm font-medium text-ink transition hover:bg-accent-2 sm:px-3"
         >
-          <BookOpen size={16} />
+          <BookOpen size={16} className="hidden sm:block" />
           {started ? "Continue" : "Read"}
         </Link>
         <a

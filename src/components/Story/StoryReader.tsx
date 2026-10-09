@@ -103,17 +103,22 @@ export function StoryReader({ story, chapter, chapters, children }: StoryReaderP
         <div className="h-full bg-accent transition-[width] duration-150" style={{ width: `${progress * 100}%` }} />
       </div>
 
-      <div className="sticky top-0 z-30 -mx-4 mt-4 flex flex-wrap items-center gap-2 border-b border-line bg-bg/85 px-4 py-2 backdrop-blur sm:mx-0 sm:rounded-b-xl sm:px-3">
-        <Link href={storyHref} className="flex items-center gap-1.5 text-sm text-fg-muted hover:text-fg">
-          <ArrowLeft size={16} /> <span className="hidden sm:inline">{story.title}</span>
-          <span className="sm:hidden">Chapters</span>
+      <div className="sticky top-0 z-30 -mx-4 mt-4 flex items-center gap-2 border-b border-line bg-bg/85 px-4 py-2 backdrop-blur sm:mx-0 sm:rounded-b-xl sm:px-3">
+        <Link
+          href={storyHref}
+          className="flex shrink-0 items-center gap-1.5 text-sm text-fg-muted hover:text-fg"
+          aria-label="Back to chapters"
+        >
+          <ArrowLeft size={16} />
+          <span className="hidden sm:inline md:hidden">Chapters</span>
+          <span className="hidden md:inline">{story.title}</span>
         </Link>
-        <label className="flex items-center gap-1.5 text-xs text-fg-muted">
+        <label className="flex min-w-0 flex-1 items-center gap-1.5 text-xs text-fg-muted sm:flex-none">
           <span className="sr-only">Jump to chapter</span>
           <select
             value={chapter.slug}
             onChange={(e) => router.push(chapterHref(e.target.value))}
-            className="max-w-[12rem] rounded-lg border border-line bg-bg-2 px-2 py-1 text-xs text-fg focus:border-accent focus:outline-none"
+            className="min-w-0 flex-1 rounded-lg border border-line bg-bg-2 px-2 py-1 text-xs text-fg focus:border-accent focus:outline-none sm:w-48 sm:flex-none"
           >
             {chapters.map((c) => (
               <option key={c.slug} value={c.slug}>
@@ -121,9 +126,9 @@ export function StoryReader({ story, chapter, chapters, children }: StoryReaderP
               </option>
             ))}
           </select>
-          <span>/ {story.chapterCount}</span>
+          <span className="shrink-0">/ {story.chapterCount}</span>
         </label>
-        <div className="ml-auto flex items-center gap-1.5">
+        <div className="ml-auto flex shrink-0 items-center gap-1.5">
           <div className="flex items-center rounded-lg border border-line" role="group" aria-label="Text size">
             <button
               type="button"
@@ -151,8 +156,9 @@ export function StoryReader({ story, chapter, chapters, children }: StoryReaderP
               done ? "border-accent bg-accent/15 text-accent" : "border-line text-fg-muted hover:text-fg"
             }`}
             aria-pressed={done}
+            aria-label={done ? "Marked as read" : "Mark as read"}
           >
-            <Check size={14} /> {done ? "Read" : "Mark as read"}
+            <Check size={14} /> <span className="hidden sm:inline">{done ? "Read" : "Mark as read"}</span>
           </button>
         </div>
       </div>

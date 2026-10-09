@@ -165,8 +165,9 @@ export function ChapterReader({ book, chapter, children }: ChapterReaderProps) {
               done ? "border-accent bg-accent/15 text-accent" : "border-line text-fg-muted hover:text-fg"
             }`}
             aria-pressed={done}
+            aria-label={done ? "Marked as read" : "Mark as read"}
           >
-            <Check size={14} /> {done ? "Read" : "Mark as read"}
+            <Check size={14} /> <span className="hidden sm:inline">{done ? "Read" : "Mark as read"}</span>
           </button>
         </div>
       </div>
