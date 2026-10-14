@@ -3,6 +3,8 @@
 import Link from "next/link";
 import { useCallback, useEffect, useRef, useState, type ReactNode } from "react";
 import { ArrowLeft, Check, ChevronLeft, ChevronRight, List } from "@/components/ui/icons";
+import { Highlighter } from "@/components/ui/Highlighter";
+import { ReadingThemePicker } from "@/components/ui/ReadingThemePicker";
 import { chapterKey, interviewStore, type ProseSize } from "@/lib/interview/storage";
 import type { BookMeta, Chapter } from "@/lib/interview/types";
 
@@ -138,6 +140,7 @@ export function ChapterReader({ book, chapter, children }: ChapterReaderProps) {
           >
             <List size={18} />
           </button>
+          <ReadingThemePicker store={interviewStore} />
           <div className="flex items-center rounded-lg border border-line" role="group" aria-label="Text size">
             <button
               type="button"
@@ -190,6 +193,7 @@ export function ChapterReader({ book, chapter, children }: ChapterReaderProps) {
           <article ref={articleRef} className="prose mt-8" data-size={size}>
             {children}
           </article>
+          <Highlighter store={interviewStore} book={book.slug} slug={chapter.slug} articleRef={articleRef} />
 
           <nav className="mt-14 grid gap-3 sm:grid-cols-2" aria-label="Chapter navigation">
             {chapter.prev ? (

@@ -2,8 +2,10 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useCallback, useEffect, useState, type ReactNode } from "react";
+import { useCallback, useEffect, useRef, useState, type ReactNode } from "react";
 import { ArrowLeft, Check, ChevronLeft, ChevronRight } from "@/components/ui/icons";
+import { Highlighter } from "@/components/ui/Highlighter";
+import { ReadingThemePicker } from "@/components/ui/ReadingThemePicker";
 import { chapterKey, storyStore, type ProseSize } from "@/lib/story/storage";
 import type { StoryChapter, StoryChapterLink, StoryMeta } from "@/lib/story/types";
 
@@ -22,6 +24,7 @@ export function StoryReader({ story, chapter, chapters, children }: StoryReaderP
   const [size, setSize] = useState<ProseSize>("m");
   const [done, setDone] = useState(false);
   const [progress, setProgress] = useState(0);
+  const articleRef = useRef<HTMLElement>(null);
   const storyHref = `/story/${encodeURIComponent(story.slug)}`;
   const chapterHref = useCallback((slug: string) => `${storyHref}/${encodeURIComponent(slug)}`, [storyHref]);
 
@@ -129,6 +132,7 @@ export function StoryReader({ story, chapter, chapters, children }: StoryReaderP
           <span className="shrink-0">/ {story.chapterCount}</span>
         </label>
         <div className="ml-auto flex shrink-0 items-center gap-1.5">
+          <ReadingThemePicker store={storyStore} />
           <div className="flex items-center rounded-lg border border-line" role="group" aria-label="Text size">
             <button
               type="button"
@@ -170,9 +174,10 @@ export function StoryReader({ story, chapter, chapters, children }: StoryReaderP
         <h1 className="mt-3 text-center font-serif text-3xl leading-tight text-fg sm:text-4xl">{chapter.title}</h1>
         <p className="mt-3 text-center text-xs text-fg-muted">About {chapter.minutes} min read</p>
 
-        <article className="prose prose--story mx-auto mt-10" data-size={size}>
+        <article ref={articleRef} className="prose prose--story mx-auto mt-10" data-size={size}>
           {children}
         </article>
+        <Highlighter store={storyStore} book={story.slug} slug={chapter.slug} articleRef={articleRef} />
 
         <div className="mt-14 flex justify-center">
           <button

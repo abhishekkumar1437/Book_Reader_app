@@ -1,11 +1,30 @@
 /**
  * Reading progress for chapter-based shelves (interview prep, stories), kept in
  * localStorage like the reader and quiz state: which chapters are marked read,
- * where you left off in each book, and the preferred text size. Chapters are
+ * where you left off in each book, highlights, and the preferred text size and background. Chapters are
  * keyed as "book/slug". Each shelf gets its own key prefix so progress never mixes.
  */
 
 export type ProseSize = "s" | "m" | "l" | "xl";
+
+/** Reading background. "dark" is the app's own palette; the rest are defined in globals.css. */
+export const READING_THEMES = ["dark", "black", "slate", "sepia", "paper", "mint"] as const;
+export type ReadingTheme = (typeof READING_THEMES)[number];
+
+export const HIGHLIGHT_COLORS = ["yellow", "green", "blue", "pink"] as const;
+export type HighlightColor = (typeof HIGHLIGHT_COLORS)[number];
+
+/**
+ * A highlighted passage, anchored by character offsets into the chapter's text.
+ * `text` is the highlighted string, used to re-find the passage if the chapter is edited.
+ */
+export interface TextHighlight {
+  id: string;
+  start: number;
+  end: number;
+  text: string;
+  color: HighlightColor;
+}
 
 export function chapterKey(book: string, slug: string): string {
   return `${book}/${slug}`;
@@ -63,6 +82,19 @@ export function createReadingStore(prefix: string) {
     },
     setSize(size: ProseSize): void {
       write("size", size);
+    },
+    getHighlights(book: string, slug: string): TextHighlight[] {
+      return read<TextHighlight[]>(`hl:${chapterKey(book, slug)}`) ?? [];
+    },
+    setHighlights(book: string, slug: string, highlights: TextHighlight[]): void {
+      write(`hl:${chapterKey(book, slug)}`, highlights.length > 0 ? highlights : null);
+    },
+    getTheme(): ReadingTheme {
+      const theme = read<ReadingTheme>("theme");
+      return theme && READING_THEMES.includes(theme) ? theme : "dark";
+    },
+    setTheme(theme: ReadingTheme): void {
+      write("theme", theme);
     },
   };
 }

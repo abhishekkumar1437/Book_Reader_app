@@ -109,6 +109,15 @@ export const Sun = (p: IconProps) => (
   </Icon>
 );
 
+export const Palette = (p: IconProps) => (
+  <Icon {...p}>
+    <path d="M12 22a10 10 0 1 1 10-10c0 2.2-1.8 3.5-4 3.5h-1.8a1.8 1.8 0 0 0-1.3 3.1 1.8 1.8 0 0 1-1.3 3.4z" />
+    <circle cx="7.5" cy="11" r="1" fill="currentColor" />
+    <circle cx="10.5" cy="7" r="1" fill="currentColor" />
+    <circle cx="15.5" cy="7.5" r="1" fill="currentColor" />
+  </Icon>
+);
+
 export const Settings = (p: IconProps) => (
   <Icon {...p}>
     <path d="M12.2 2h-.4a2 2 0 0 0-2 2v.2a2 2 0 0 1-1 1.7l-.4.3a2 2 0 0 1-2 0l-.2-.1a2 2 0 0 0-2.7.7l-.2.4a2 2 0 0 0 .7 2.7l.2.1a2 2 0 0 1 1 1.7v.6a2 2 0 0 1-1 1.7l-.2.1a2 2 0 0 0-.7 2.7l.2.4a2 2 0 0 0 2.7.7l.2-.1a2 2 0 0 1 2 0l.4.3a2 2 0 0 1 1 1.7V20a2 2 0 0 0 2 2h.4a2 2 0 0 0 2-2v-.2a2 2 0 0 1 1-1.7l.4-.3a2 2 0 0 1 2 0l.2.1a2 2 0 0 0 2.7-.7l.2-.4a2 2 0 0 0-.7-2.7l-.2-.1a2 2 0 0 1-1-1.7v-.6a2 2 0 0 1 1-1.7l.2-.1a2 2 0 0 0 .7-2.7l-.2-.4a2 2 0 0 0-2.7-.7l-.2.1a2 2 0 0 1-2 0l-.4-.3a2 2 0 0 1-1-1.7V4a2 2 0 0 0-2-2z" />

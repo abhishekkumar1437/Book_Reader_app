@@ -56,6 +56,86 @@ body {
   background: rgba(212, 169, 90, 0.35);
 }
 
+/* ---------- Reader highlights (CSS Custom Highlight API, see Highlighter.tsx) ---------- */
+::highlight(hl-yellow) { background-color: rgba(250, 204, 21, 0.4); }
+::highlight(hl-green) { background-color: rgba(74, 222, 128, 0.35); }
+::highlight(hl-blue) { background-color: rgba(96, 165, 250, 0.38); }
+::highlight(hl-pink) { background-color: rgba(244, 114, 182, 0.38); }
+
+/* ---------- Reading backgrounds ---------- */
+/* The chapter and story readers set data-reading-theme on <html> while open
+   (see ReadingThemePicker). "dark" is the default palette above, so it has no rule. */
+html[data-reading-theme] body { background: var(--bg); }
+
+html[data-reading-theme="black"] {
+  --bg: #000000;
+  --bg-2: #0e0e0e;
+  --bg-3: #1a1a1a;
+  --fg: #d9d4cc;
+  --fg-muted: #8f8a82;
+  --glass: rgba(0, 0, 0, 0.75);
+}
+html[data-reading-theme="slate"] {
+  --bg: #1a2129;
+  --bg-2: #222b35;
+  --bg-3: #2d3843;
+  --fg: #dbe3ea;
+  --fg-muted: #93a1ae;
+  --accent: #e0b56a;
+  --glass: rgba(26, 33, 41, 0.75);
+}
+html[data-reading-theme="sepia"] {
+  --bg: #f3e7cf;
+  --bg-2: #eadcbf;
+  --bg-3: #dfcfae;
+  --fg: #3d2f1e;
+  --fg-muted: #6f5d45;
+  --accent: #9a5f12;
+  --accent-2: #7d4c0d;
+  --line: rgba(61, 47, 30, 0.16);
+  --glass: rgba(243, 231, 207, 0.85);
+}
+html[data-reading-theme="paper"] {
+  --bg: #fbfaf6;
+  --bg-2: #f1efe8;
+  --bg-3: #e6e3da;
+  --fg: #22201c;
+  --fg-muted: #5f5b53;
+  --accent: #96610f;
+  --accent-2: #7a4e0b;
+  --line: rgba(0, 0, 0, 0.12);
+  --glass: rgba(251, 250, 246, 0.85);
+}
+html[data-reading-theme="mint"] {
+  --bg: #e4f0e2;
+  --bg-2: #d6e7d3;
+  --bg-3: #c5dbc1;
+  --fg: #1f2e22;
+  --fg-muted: #4e6352;
+  --accent: #2f7a4a;
+  --accent-2: #24603a;
+  --line: rgba(31, 46, 34, 0.15);
+  --glass: rgba(228, 240, 226, 0.85);
+}
+/* Light backgrounds: inline code, hover tints and figure panels need dark-on-light tones.
+   Code blocks keep their dark panel so syntax colours stay readable. */
+html:is([data-reading-theme="sepia"], [data-reading-theme="paper"], [data-reading-theme="mint"]) {
+  color-scheme: light;
+}
+html:is([data-reading-theme="sepia"], [data-reading-theme="paper"], [data-reading-theme="mint"]) .prose :not(pre) > code {
+  color: #8a3b12;
+  background: rgba(0, 0, 0, 0.06);
+}
+html:is([data-reading-theme="sepia"], [data-reading-theme="paper"], [data-reading-theme="mint"]) .prose figure {
+  background: rgba(255, 255, 255, 0.45);
+}
+html:is([data-reading-theme="sepia"], [data-reading-theme="paper"], [data-reading-theme="mint"]) .icon-btn:hover {
+  background: rgba(0, 0, 0, 0.06);
+}
+html:is([data-reading-theme="sepia"], [data-reading-theme="paper"], [data-reading-theme="mint"]) ::selection {
+  background: rgba(154, 95, 18, 0.25);
+}
+
 /* Component styles live in the components layer so Tailwind utilities can override them. */
 @layer components {
 
