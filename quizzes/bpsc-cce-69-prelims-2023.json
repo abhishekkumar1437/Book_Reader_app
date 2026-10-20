@@ -1,0 +1,1814 @@
+{
+  "title": "69th CCE Prelims (30 Sep 2023) · General Studies · Set A",
+  "subject": "BPSC CCE PYQ",
+  "topic": "Complete official question booklet of the BPSC Integrated 69th Combined Competitive Examination (Preliminary), General Studies, held on 30 September 2023 — 150 questions.",
+  "description": "All 150 questions of booklet series A exactly as printed (English version), with answers from the BPSC final answer key released on 28 October 2023. This paper has only four options (A–D) per question; there is no option E. BPSC deleted three questions in the final key (Q.33, Q.60 and Q.122); they are marked as dropped and count as correct for everyone. Negative marking: 1/3 mark per wrong answer, as in the real exam. Use the 2-hour timer for a full mock.",
+  "timeLimitMinutes": 120,
+  "negativeMark": 0.3333333333333333,
+  "createdAt": "2026-10-20",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "[Q.1]\nWhich of the following technologies will be enabled by the 5G mobile communication networks?\n1. Internet of Things\n2. Edge Computing\n3. Network Slicing\nSelect the correct answer using the codes given below.",
+      "options": [
+        "Only 1 and 2",
+        "Only 2 and 3",
+        "Only 1 and 3",
+        "1, 2 and 3"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set A): D. 5G networks enable all three: massive Internet of Things connectivity, edge computing (processing close to the user) and network slicing (several virtual networks on one physical infrastructure)."
+    },
+    {
+      "id": "q2",
+      "question": "[Q.2]\nMatch List–I with List–II :\nList—I (Space Mission)\na. Cassini-Huygens\nb. Juno\nc. Artemis\nd. VERITAS\nList—II (Exploration)\n1. Jupiter\n2. Saturn and its rings\n3. Venus\n4. Human Space-flight—Moon to Mars\nSelect the correct answer using the codes given below.",
+      "options": [
+        "a-2, b-1, c-4, d-3",
+        "a-3, b-1, c-4, d-2",
+        "a-2, b-3, c-4, d-1",
+        "a-3, b-1, c-2, d-4"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set A): A. Cassini-Huygens studied Saturn and its rings, Juno studies Jupiter, Artemis is NASA's human spaceflight programme (Moon to Mars) and VERITAS is a Venus mission."
+    },
+    {
+      "id": "q3",
+      "question": "[Q.3]\nMatch List–I with List–II :\nList—I (Cloth)\na. Linen\nb. Coir\nc. Mohair\nd. Down\nList—II (Origin)\n1. Coconut plant\n2. Flax plant\n3. Feathers of duck and geese\n4. Angora goat\nSelect the correct answer using the codes given below.",
+      "options": [
+        "a-1, b-3, c-2, d-4",
+        "a-4, b-3, c-1, d-2",
+        "a-2, b-1, c-4, d-3",
+        "a-4, b-1, c-3, d-2"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set A): C. Linen comes from the flax plant, coir from coconut husk, mohair from the Angora goat and down from the soft feathers of ducks and geese."
+    },
+    {
+      "id": "q4",
+      "question": "[Q.4]\nConsider the following statements :\n1. Taeniasis is an intestinal infection caused by three species of tapeworm—Taenia solium, Taenia saginata and Taenia asiatica.\n2. When cysts develop in the brain, the condition is referred to as neurocysticercosis (NCC).\nWhich of the above statements is/are correct?",
+      "options": [
+        "Only 1",
+        "Only 2",
+        "Both 1 and 2",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set A): C. Both statements are correct: taeniasis is the intestinal infection by Taenia solium, T. saginata and T. asiatica, and cysts of T. solium in the brain cause neurocysticercosis."
+    },
+    {
+      "id": "q5",
+      "question": "[Q.5]\nWhich of the following are computer languages?\n1. Cobra\n2. Python\n3. Squirrel\n4. Java\nSelect the correct answer using the codes given below.",
+      "options": [
+        "Only 1 and 2",
+        "Only 3 and 4",
+        "Only 1, 2 and 3",
+        "All of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set A): D. Cobra, Python, Squirrel and Java are all programming languages."
+    },
+    {
+      "id": "q6",
+      "question": "[Q.6]\nWhat is the full form of GPT in ChatGPT, recently seen in the news?",
+      "options": [
+        "Glutamic Pyruvic Transaminase",
+        "GUID Partition Table",
+        "Grooved Pegboard Test",
+        "Generative Pre-Trained Transformer"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set A): D. GPT stands for Generative Pre-trained Transformer."
+    },
+    {
+      "id": "q7",
+      "question": "[Q.7]\nWhich of the following are not the tastes of the tongue?\n1. Sweet\n2. Bitter\n3. Salty\n4. Spicy\n5. Umami\n6. Sour\n7. Pungent\nSelect the correct answer using the codes given below.",
+      "options": [
+        "2, 5 and 7",
+        "1, 3 and 4",
+        "4 and 7",
+        "3 and 6"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set A): C. The tongue detects sweet, bitter, salty, sour and umami. 'Spicy' and 'pungent' are sensations of pain/heat receptors, not tastes."
+    },
+    {
+      "id": "q8",
+      "question": "[Q.8]\nWhich of the following pairs are correctly matched?\n1. Anorexia : Sleep disorder\n2. Insomnia : Eating disorder\n3. Dyspnoea : Shortness of breath\n4. Anosmia : Partial or full loss of smell\nSelect the correct answer using the codes given below.",
+      "options": [
+        "Only 1 and 2",
+        "Only 2 and 3",
+        "Only 3 and 4",
+        "All of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set A): C. Anorexia is an eating disorder and insomnia a sleep disorder, so pairs 1 and 2 are swapped. Dyspnoea (shortness of breath) and anosmia (loss of smell) are correct."
+    },
+    {
+      "id": "q9",
+      "question": "[Q.9]\nIn the universe, what are pulsars?",
+      "options": [
+        "A group of stars",
+        "Rotating neutron stars",
+        "Explosion of a star",
+        "Radio waves emitted by a star"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set A): B. Pulsars are rapidly rotating, highly magnetised neutron stars that emit beams of radiation seen as regular pulses."
+    },
+    {
+      "id": "q10",
+      "question": "[Q.10]\nIn the context of lab-grown diamonds (LGDs), what is used as a diamond seed?",
+      "options": [
+        "White sapphire",
+        "Moissanite",
+        "Graphite",
+        "Cubic zirconia (CZ)"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set A): C. BPSC's key gives graphite (the carbon source turned into diamond under high pressure and temperature). Note: some sources dispute this answer because CVD/HPHT growers actually use a thin slice of diamond as the 'seed'; BPSC kept graphite after objections."
+    },
+    {
+      "id": "q11",
+      "question": "[Q.11]\nWhat is the ‘fibre’ used to make bulletproof jackets?",
+      "options": [
+        "Nylon",
+        "Terylene",
+        "Tweed",
+        "Kevlar"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set A): D. Kevlar, an aramid fibre with very high tensile strength, is used in bulletproof jackets."
+    },
+    {
+      "id": "q12",
+      "question": "[Q.12]\nWhat is/are the full form(s) of HMX?\n1. High Melting Explosive\n2. High-Density Monoatomic Xenon\n3. Hedge Monetizing Xenocurrency\n4. Her Majesty’s Explosive\nSelect the correct answer using the codes given below.",
+      "options": [
+        "1 and 2",
+        "2 and 3",
+        "Only 1",
+        "1 and 4"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set A): C. HMX is commonly expanded as High Melting Explosive (octogen). BPSC kept 'Only 1' after objections. Note: some sources also cite 'Her Majesty's Explosive' as an expansion."
+    },
+    {
+      "id": "q13",
+      "question": "[Q.13]\nWhat is the name of Tesla’s humanoid robot launched in October 2022?",
+      "options": [
+        "Sophia",
+        "Atlas",
+        "Pepper",
+        "Optimus"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set A): D. Tesla showed its humanoid robot Optimus at its AI Day event in 2022."
+    },
+    {
+      "id": "q14",
+      "question": "[Q.14]\nWhat is the ‘Manhattan Project’?",
+      "options": [
+        "A research and development undertaking that produced the first nuclear weapons",
+        "One of the largest art auctions of the world",
+        "A real estate project in New York City",
+        "A famous theme park"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set A): A. The Manhattan Project was the US-led World War II research programme that produced the first nuclear weapons."
+    },
+    {
+      "id": "q15",
+      "question": "[Q.15]\nThe image formed by concave mirror is real, inverted and of the same size as that of the object. The position of the object should be",
+      "options": [
+        "at the focus",
+        "at the centre of curvature",
+        "between the focus and centre of curvature",
+        "beyond the centre of curvature"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set A): B. For a concave mirror, an object at the centre of curvature gives a real, inverted image of the same size at the centre of curvature."
+    },
+    {
+      "id": "q16",
+      "question": "[Q.16]\nA photoelectric cell is a device which",
+      "options": [
+        "converts light energy into electric energy",
+        "converts electric energy into light energy",
+        "stores light energy",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set A): A. A photoelectric cell converts light energy into electrical energy."
+    },
+    {
+      "id": "q17",
+      "question": "[Q.17]\nThe amount of solute present per unit volume or per unit mass of the solution/solvent is known as _____ in Chemistry.",
+      "options": [
+        "composition of solute",
+        "concentration of solvent",
+        "concentration of solute",
+        "concentration of solution"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set A): D. The amount of solute per unit volume or mass of solution/solvent is the concentration of the solution."
+    },
+    {
+      "id": "q18",
+      "question": "[Q.18]\nHow do COVID vaccines stimulate an immune response?",
+      "options": [
+        "By introducing live attenuated SARS-CoV-2 virus",
+        "By introducing a real SARS-CoV-2 virus",
+        "By introducing a harmless piece of SARS-CoV-2 virus",
+        "By introducing antibodies against SARS-CoV-2 virus"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set A): A. BPSC's key gives 'live attenuated SARS-CoV-2 virus' and kept it after objections. Note: some sources dispute this answer because most COVID-19 vaccines (mRNA, viral-vector, protein subunit) work by introducing a harmless piece or the spike-protein code of the virus (option C)."
+    },
+    {
+      "id": "q19",
+      "question": "[Q.19]\nWhich of the following liquids is a bad conductor of electricity?",
+      "options": [
+        "Salted water",
+        "Orange juice",
+        "Lemon juice",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set A): D. Salted water, orange juice and lemon juice all contain ions (salts/acids) and conduct electricity, so none of them is a bad conductor."
+    },
+    {
+      "id": "q20",
+      "question": "[Q.20]\nThe DNA double helix structure was discovered by",
+      "options": [
+        "James Watson and Francis Crick",
+        "Rosalind Franklin and Maurice Wilkins",
+        "Linus Pauling",
+        "Gregor Mendel"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set A): A. Watson and Crick proposed the double-helix model of DNA in 1953 (using Franklin and Wilkins's X-ray data)."
+    },
+    {
+      "id": "q21",
+      "question": "[Q.21]\nTwo objects of different masses falling freely near the surface of the Moon would",
+      "options": [
+        "have different accelerations",
+        "undergo a change in their inertia",
+        "have same velocity at any instant",
+        "experience forces of same magnitude"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set A): C. Free-fall acceleration does not depend on mass, so objects released together have the same acceleration and the same velocity at every instant (the forces differ because the masses differ)."
+    },
+    {
+      "id": "q22",
+      "question": "[Q.22]\nHow do vector vaccines work to provide immunity?",
+      "options": [
+        "By introducing a weakened or inactivated virus into the body",
+        "By directly attacking and destroying pathogens in the body",
+        "By placing the virus in a modified version of a different virus",
+        "By entering directly into the cells and enabling them to create spike proteins"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set A): C. Viral-vector vaccines insert genetic material of the target virus into a modified, harmless different virus (e.g., an adenovirus) that delivers it to cells."
+    },
+    {
+      "id": "q23",
+      "question": "[Q.23]\nThe process that continually adds new crust is",
+      "options": [
+        "subduction",
+        "earthquake",
+        "seafloor spreading",
+        "convection"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set A): C. Sea-floor spreading at mid-ocean ridges continually creates new oceanic crust; subduction destroys crust."
+    },
+    {
+      "id": "q24",
+      "question": "[Q.24]\nThe theory that states “pieces of the Earth’s crust are in constant, slow motion driven by movement in the mantle” is called",
+      "options": [
+        "the theory of continental drift",
+        "the theory of Pangaea",
+        "the theory of plate tectonics",
+        "the theory of plate boundaries"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set A): C. Plate tectonics explains the slow movement of lithospheric plates driven by mantle movement."
+    },
+    {
+      "id": "q25",
+      "question": "[Q.25]\nWhat is the expanded form of the term ‘mRNA’ that has been widely discussed since the beginning of the pandemic?",
+      "options": [
+        "Messenger Ribonucleic Acid",
+        "Mutant Ribonucleic Acid",
+        "Modified Ribonucleic Acid",
+        "Mnemonic Ribonucleic Acid"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set A): A. mRNA stands for messenger ribonucleic acid."
+    },
+    {
+      "id": "q26",
+      "question": "[Q.26]\nAn AC current can be produced by",
+      "options": [
+        "choke coil",
+        "dynamo",
+        "transformer",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set A): B. An AC dynamo (alternator) produces alternating current; a transformer only changes AC voltage and a choke coil limits current."
+    },
+    {
+      "id": "q27",
+      "question": "[Q.27]\nCurrent density is",
+      "options": [
+        "a scalar quantity",
+        "a vector quantity",
+        "dimensionless",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set A): B. Current density J is a vector (current per unit area, with a direction); current I = ∫J·dA."
+    },
+    {
+      "id": "q28",
+      "question": "[Q.28]\nWhat is the basis of most useful classification of medications in medical chemistry?",
+      "options": [
+        "Pharmacological effect",
+        "Molecular targets",
+        "Chemical structure",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set A): B. BPSC's key: medications are most usefully classified by their molecular targets (receptors, enzymes etc.), the basis preferred in medicinal chemistry."
+    },
+    {
+      "id": "q29",
+      "question": "[Q.29]\nWhich of the following slows down the reaction rate?",
+      "options": [
+        "Catalytic promoter",
+        "Homogeneous catalyst",
+        "Heterogeneous catalyst",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set A): D. Promoters and catalysts (homogeneous or heterogeneous) all speed up reactions; substances that slow reactions are inhibitors/negative catalysts, so none of the given options."
+    },
+    {
+      "id": "q30",
+      "question": "[Q.30]\nInput and output nerves meet at",
+      "options": [
+        "liver",
+        "central nervous system",
+        "heart",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set A): B. Sensory (input) and motor (output) nerves meet in the central nervous system (brain and spinal cord)."
+    },
+    {
+      "id": "q31",
+      "question": "[Q.31]\nIn the context of ‘Shipwreck Tourism’, shipwrecks in Indian waters have been explored at Sunchi Reef, Amee Shoals and Grande Island. Where are these locations?",
+      "options": [
+        "Off the coast of Goa",
+        "Off the coast of Lakshadweep",
+        "Off the coast of Tamil Nadu",
+        "Off the coast of Odisha"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set A): A. Sunchi Reef, Amee Shoals and Grande Island are shipwreck dive sites off the coast of Goa."
+    },
+    {
+      "id": "q32",
+      "question": "[Q.32]\nThe G20 members represent\n1. around 85% of the global GDP\n2. about 50% of the global trade\n3. about two-thirds of the world population\nWhich of the above statistics is/are correct?",
+      "options": [
+        "Only 1",
+        "Only 1 and 3",
+        "1, 2 and 3",
+        "Only 1 and 2"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set A): B. G20 members account for about 85% of world GDP, about 75% (not 50%) of world trade and about two-thirds of world population, so 1 and 3 are correct."
+    },
+    {
+      "id": "q33",
+      "question": "[Q.33]\nWho is the Head of Russia’s Wagner Mercenary Group?",
+      "options": [
+        "Sergei Shoigu",
+        "Yevgeny Prigozhin",
+        "Aleksandr Lukashenko",
+        "Volodymyr Zelenskyy"
+      ],
+      "answer": 0,
+      "dropped": true,
+      "explanation": "Official BPSC final answer key (Set A): Deleted. Deleted by BPSC in the final answer key; counts as correct for everyone. Yevgeny Prigozhin, the Wagner Group head, died on 23 August 2023, before the exam, so no option was correct on the exam date."
+    },
+    {
+      "id": "q34",
+      "question": "[Q.34]\nThe Global Gender Gap Report is released by",
+      "options": [
+        "the World Bank",
+        "the UN Women",
+        "the World Economic Forum",
+        "the UNDP"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set A): C. The Global Gender Gap Report is published annually by the World Economic Forum."
+    },
+    {
+      "id": "q35",
+      "question": "[Q.35]\nWhich one of the following statements regarding Queen Elizabeth II of the United Kingdom is correct?",
+      "options": [
+        "She reigned for 70 years and died at the age of 96 years.",
+        "She reigned for 68 years and died at the age of 94 years.",
+        "She reigned for 72 years and died at the age of 92 years.",
+        "She reigned for 66 years and died at the age of 90 years."
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set A): A. Queen Elizabeth II reigned for 70 years (1952–2022) and died aged 96."
+    },
+    {
+      "id": "q36",
+      "question": "[Q.36]\nWhat was the theme of DefExpo–2022, held in Gujarat?",
+      "options": [
+        "India : The Emerging Defence Manufacturing Hub",
+        "Path to Pride",
+        "Synergy for Defence",
+        "Aatmanirbharta"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set A): B. DefExpo 2022 at Gandhinagar, Gujarat had the theme 'Path to Pride'."
+    },
+    {
+      "id": "q37",
+      "question": "[Q.37]\nThe three-day celebration of Thadingyut Festival is celebrated in which country?",
+      "options": [
+        "Chile",
+        "Nepal",
+        "Germany",
+        "Myanmar"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set A): D. Thadingyut, the Festival of Lights, marks the end of Buddhist Lent in Myanmar."
+    },
+    {
+      "id": "q38",
+      "question": "[Q.38]\nConsider the following statements regarding the ‘White House’ :\n1. The address of the White House is 1800 Pennsylvania Avenue.\n2. It is the official residence and workplace of the President of USA.\n3. On November 1, 1800, John Adams became the first President to take residence in the building.\n4. It is a symbol of American Democracy.\nWhich of the above statements are correct?",
+      "options": [
+        "1, 3 and 4",
+        "Only 2 and 3",
+        "Only 3 and 4",
+        "2, 3 and 4"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set A): D. The White House address is 1600 (not 1800) Pennsylvania Avenue, so statement 1 is wrong; statements 2, 3 and 4 are correct."
+    },
+    {
+      "id": "q39",
+      "question": "[Q.39]\n‘Net Metering’ is sometimes seen in the news in the context of promoting",
+      "options": [
+        "the installation of CNG kits in motorcars",
+        "the installation of water meters in urban households",
+        "a billing mechanism for solar energy by consumers for the electricity they add to the grid",
+        "the use of piped natural gas in the kitchens of households"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set A): C. Net metering is a billing mechanism that credits solar-power consumers for the electricity they feed into the grid."
+    },
+    {
+      "id": "q40",
+      "question": "[Q.40]\nMatch List–I with List–II :\nList—I (Colour)\na. Magenta\nb. Teal\nc. Mauve\nd. Cyan\nList—II (Combination)\n1. Green and blue\n2. Red and blue\n3. Blue, green and white\n4. Blue, red and white\nSelect the correct answer using the codes given below.",
+      "options": [
+        "a-2, b-3, c-4, d-1",
+        "a-2, b-4, c-3, d-1",
+        "a-4, b-2, c-1, d-3",
+        "a-3, b-4, c-2, d-1"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set A): A. Magenta = red + blue, teal = blue, green and white, mauve = blue, red and white, cyan = green + blue."
+    },
+    {
+      "id": "q41",
+      "question": "[Q.41]\nWhat is the name of the deep-sea submersible that imploded during an underwater voyage to the Titanic wreckage?",
+      "options": [
+        "Alvin",
+        "Falcon",
+        "Trident",
+        "Titan"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set A): D. OceanGate's submersible Titan imploded in June 2023 on a dive to the Titanic wreck."
+    },
+    {
+      "id": "q42",
+      "question": "[Q.42]\nMatch List–I with List–II :\nList—I (Footwear/Fashion Accessory)\na. Beret\nb. Stilettos\nc. Aviators\nd. Chignon\ne. Brogue\nList—II (Description)\n1. A type of men’s footwear\n2. A type of sunglasses\n3. A type of hat\n4. A type of women’s footwear\n5. A type of hairstyle\nSelect the correct answer using the codes given below.",
+      "options": [
+        "a-3, b-2, c-1, d-4, e-5",
+        "a-3, b-4, c-2, d-5, e-1",
+        "a-5, b-3, c-2, d-4, e-1",
+        "a-1, b-2, c-3, d-4, e-5"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set A): B. Beret is a hat, stilettos are women's footwear, aviators are sunglasses, chignon is a hairstyle and brogue is men's footwear."
+    },
+    {
+      "id": "q43",
+      "question": "[Q.43]\nWhere did the former President of the USA give his interview recently?",
+      "options": [
+        "Rome",
+        "Sarajevo",
+        "Athens",
+        "Amsterdam"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set A): C. BPSC's key gives Athens: former US President Barack Obama gave an interview in Athens in June 2023, the most recent among the options."
+    },
+    {
+      "id": "q44",
+      "question": "[Q.44]\nIn the context of sports, which of the following pairs are correctly matched?\n1. Flushing Meadows : French Open\n2. Venus Rosewater Dish : Wimbledon Trophy (Women)\n3. Roland Garros : US Open\n4. Australian Open (Women) : Daphne Akhurst Memorial Cup\nSelect the correct answer using the codes given below.",
+      "options": [
+        "1 and 2",
+        "2 and 3",
+        "3 and 4",
+        "2 and 4"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set A): D. Flushing Meadows hosts the US Open and Roland Garros the French Open, so 1 and 3 are wrong; the Venus Rosewater Dish (Wimbledon women's) and Daphne Akhurst Memorial Cup (Australian Open women's) are correct."
+    },
+    {
+      "id": "q45",
+      "question": "[Q.45]\nThe Ministry of Home Affairs has completed the Mother Tongue Survey of India (MTSI) in November 2022 with field videography of the country’s how many languages?",
+      "options": [
+        "40",
+        "233",
+        "576",
+        "984"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set A): C. The Mother Tongue Survey of India completed field videography of 576 languages."
+    },
+    {
+      "id": "q46",
+      "question": "[Q.46]\nWhich State Government launched the State-Level Committee for Vulture Conservation (SLCVC), proposed by the national action for the protection of vultures in India?",
+      "options": [
+        "Tamil Nadu",
+        "Sikkim",
+        "Assam",
+        "Meghalaya"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set A): A. Tamil Nadu set up a State-Level Committee for Vulture Conservation in 2022."
+    },
+    {
+      "id": "q47",
+      "question": "[Q.47]\nTen captive-bred Asian Giant Tortoises (Manouria emys), one of the largest tortoise species in mainland Asia, were recently released into which National Park of India?",
+      "options": [
+        "Ntangki National Park",
+        "Periyar National Park",
+        "Pench National Park",
+        "Khangchendzonga National Park"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set A): A. Ten captive-bred Asian giant tortoises were released into Ntangki National Park, Nagaland."
+    },
+    {
+      "id": "q48",
+      "question": "[Q.48]\nWhich country has recently reaffirmed Arunachal Pradesh as an integral part of India?",
+      "options": [
+        "USA",
+        "Australia",
+        "Germany",
+        "Russia"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set A): A. The USA (2023 Senate resolution/State Department) reaffirmed Arunachal Pradesh as an integral part of India."
+    },
+    {
+      "id": "q49",
+      "question": "[Q.49]\nIndia’s Rudrankksh Balasaheb Patil won which medal in Men’s 10 m Air Rifle at the ISSF World Championship in Cairo?",
+      "options": [
+        "Gold",
+        "Silver",
+        "Bronze",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set A): A. Rudrankksh Patil won gold in the men's 10 m air rifle at the 2022 ISSF World Championship in Cairo."
+    },
+    {
+      "id": "q50",
+      "question": "[Q.50]\nThe National Education Policy, 2020 emphasizes the integration of vocational education into mainstream education from which grade onwards?",
+      "options": [
+        "Grade 6",
+        "Grade 8",
+        "Grade 10",
+        "Grade 12"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set A): A. NEP 2020 calls for vocational education to be integrated into schools from Grade 6 onwards."
+    },
+    {
+      "id": "q51",
+      "question": "[Q.51]\nIndia signed the Economic Cooperation and Trade Agreement (ECTA) with which country?",
+      "options": [
+        "UAE",
+        "Australia",
+        "USA",
+        "UK"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set A): B. India and Australia signed the Economic Cooperation and Trade Agreement (Ind-Aus ECTA) in April 2022."
+    },
+    {
+      "id": "q52",
+      "question": "[Q.52]\nThe Plain Language Act was passed by which of the following countries recently which requires Government officials to use simple and easily understandable English language in official documents and websites?",
+      "options": [
+        "Australia",
+        "Ireland",
+        "New Zealand",
+        "Germany"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set A): C. New Zealand passed the Plain Language Act in 2022."
+    },
+    {
+      "id": "q53",
+      "question": "[Q.53]\nTillyardembi Fossils of the world’s first plant pollinators, called Tillyardembiids, were discovered recently in which country?",
+      "options": [
+        "Greece",
+        "India",
+        "Russia",
+        "China"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set A): C. Tillyardembiid fossils, the earliest known insect pollinators (~280 million years old), were found in Russia (Ural region)."
+    },
+    {
+      "id": "q54",
+      "question": "[Q.54]\nThe ‘Lisbon Declaration’, which made headlines, is associated with the conservation of which entity?",
+      "options": [
+        "Air",
+        "Mountains",
+        "Oceans",
+        "Freshwater glaciers"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set A): C. The Lisbon Declaration was adopted at the 2022 UN Ocean Conference for ocean conservation."
+    },
+    {
+      "id": "q55",
+      "question": "[Q.55]\nWhich of the following animals was not known to the people of the Indus Valley Civilization?",
+      "options": [
+        "Bull",
+        "Horse",
+        "Elephant",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set A): B. The horse is generally held to be unknown to the Indus Valley people (no confirmed horse remains), unlike the bull and elephant."
+    },
+    {
+      "id": "q56",
+      "question": "[Q.56]\nWhich of the following is not a UNESCO World Heritage Site?",
+      "options": [
+        "Qutb Minar",
+        "Red Fort",
+        "India Gate",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set A): C. India Gate is not a UNESCO World Heritage Site; Qutb Minar and Red Fort are."
+    },
+    {
+      "id": "q57",
+      "question": "[Q.57]\nThe concept of the Directive Principles of State Policy in the Indian Constitution was borrowed from the Constitution of",
+      "options": [
+        "England",
+        "Switzerland",
+        "Ireland",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set A): C. Directive Principles were borrowed from the Irish Constitution."
+    },
+    {
+      "id": "q58",
+      "question": "[Q.58]\nSikkim became a full-fledged State of the Union of India in",
+      "options": [
+        "1974",
+        "1975",
+        "1976",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set A): B. Sikkim became the 22nd State of India in 1975 (36th Amendment)."
+    },
+    {
+      "id": "q59",
+      "question": "[Q.59]\nWhich among the following currencies is the costliest?",
+      "options": [
+        "Euro",
+        "Pound Sterling",
+        "US Dollar",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set A): B. Among the options the Pound Sterling has the highest value per unit."
+    },
+    {
+      "id": "q60",
+      "question": "[Q.60]\nBihar Government has planned to make Bihar State ‘pollution-free’ by reducing carbon emissions by which year?",
+      "options": [
+        "2022",
+        "2024",
+        "2030",
+        "2047"
+      ],
+      "answer": 1,
+      "dropped": true,
+      "explanation": "Official BPSC final answer key (Set A): Deleted. Deleted by BPSC in the final answer key; counts as correct for everyone. The provisional key of 06.10.2023 had given (B) 2024 (Bihar's MoU with UNEP to become pollution-free), but the question was deleted after objections."
+    },
+    {
+      "id": "q61",
+      "question": "[Q.61]\nIn Indian art, the construction of ‘Stupa’, ‘Chaitya’ and ‘Vihara’ is related to which of the following?",
+      "options": [
+        "Ajivika sect",
+        "Vaishnava sect",
+        "Buddhism",
+        "Shaiva sect"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set A): C. Stupas, chaityas (prayer halls) and viharas (monasteries) are features of Buddhist architecture."
+    },
+    {
+      "id": "q62",
+      "question": "[Q.62]\nIn the context of Indian handicrafts, what is ‘Sujini’ in Bihar?",
+      "options": [
+        "A type of glassware",
+        "A metal craft",
+        "A type of embroidery",
+        "A type of clay pottery"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set A): C. Sujini is a traditional embroidery (quilt) craft of Bihar, especially Muzaffarpur."
+    },
+    {
+      "id": "q63",
+      "question": "[Q.63]\nConsider the following statements regarding the Vikramshila University in Bihar :\n1. It was located in the present-day Banka district of Bihar.\n2. It was established by King Gopala I of the Pala dynasty.\n3. The ‘Vajrayana’ sect of Buddhism flourished here.\n4. Other subjects like Astronomy, Logic, Law, Grammar and Philosophy were also taught here.\nWhich of the above statements are incorrect ?",
+      "options": [
+        "2 and 3",
+        "1 and 4",
+        "1 and 2",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set A): C. Vikramshila was at Antichak in Bhagalpur district (not Banka) and was founded by Dharmapala (not Gopala I), so statements 1 and 2 are incorrect."
+    },
+    {
+      "id": "q64",
+      "question": "[Q.64]\nConsider the following statements :\nThe arrival of Babur into India led to the\n1. introduction of gunpowder in the subcontinent\n2. introduction of arch and dome in the region’s architecture\n3. establishment of Timurid dynasty in the region\n4. introduction of cannons in warfare\nWhich of the above statements are correct?",
+      "options": [
+        "Only 1 and 2",
+        "1, 2 and 3",
+        "3 and 4",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set A): C. Babur founded the Timurid (Mughal) dynasty and used cannons/field artillery at Panipat; gunpowder and the arch and dome were already known in India, so 3 and 4 are correct."
+    },
+    {
+      "id": "q65",
+      "question": "[Q.65]\nWhich among the following ports was called Babul Makka (Gate of Makka) during the Mughal period?",
+      "options": [
+        "Calicut",
+        "Surat",
+        "Cambay",
+        "Broach"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set A): B. Surat was called Bab-ul-Makka (Gate of Mecca) as the port for Hajj pilgrims in Mughal times."
+    },
+    {
+      "id": "q66",
+      "question": "[Q.66]\n‘Ashta Pradhan’ was a Council of Ministers",
+      "options": [
+        "in the Gupta administration",
+        "in the Chola administration",
+        "in the Maratha administration",
+        "in the Vijayanagara administration"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set A): C. Ashta Pradhan was Shivaji's council of eight ministers in the Maratha administration."
+    },
+    {
+      "id": "q67",
+      "question": "[Q.67]\nThe painting of ‘Bodhisattva Padmapani’ is located at",
+      "options": [
+        "Bagh",
+        "Ellora",
+        "Ajanta",
+        "Badami"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set A): C. The Bodhisattva Padmapani mural is in Cave 1 at Ajanta."
+    },
+    {
+      "id": "q68",
+      "question": "[Q.68]\nConsider the following statements :\n1. Fa-Hien was a Chinese pilgrim who visited India during the reign of Harsha.\n2. Hiuen Tsang was a Chinese Buddhist monk who visited India during the reign of Chandragupta II.\nWhich of the above statements is/are correct?",
+      "options": [
+        "Only 1",
+        "Only 2",
+        "Both 1 and 2",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set A): D. Fa-Hien came during Chandragupta II's reign and Hiuen Tsang during Harsha's, so both statements are wrong."
+    },
+    {
+      "id": "q69",
+      "question": "[Q.69]\nMatch List–I with List–II :\nList—I\na. Charaka\nb. Brahmagupta\nc. Varahamihira\nd. Vishakhadatta\nList—II\n1. Mathematics\n2. Medicine\n3. Playwright\n4. Astrology\nSelect the correct answer using the codes given below.",
+      "options": [
+        "a-2, b-1, c-4, d-3",
+        "a-1, b-2, c-3, d-4",
+        "a-3, b-2, c-4, d-1",
+        "a-1, b-4, c-3, d-2"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set A): A. Charaka – medicine, Brahmagupta – mathematics, Varahamihira – astrology, Vishakhadatta – playwright (Mudrarakshasa)."
+    },
+    {
+      "id": "q70",
+      "question": "[Q.70]\nWho among the following introduced the Persian festival Nowruz in India?",
+      "options": [
+        "Firuz Shah Tughlaq",
+        "Alauddin Khilji",
+        "Balban",
+        "Iltutmish"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set A): C. Balban introduced Persian court customs, including the festival of Nowruz."
+    },
+    {
+      "id": "q71",
+      "question": "[Q.71]\nNathpanthis, Siddhas and Yogis made devotional religion popular in",
+      "options": [
+        "Northern India",
+        "Southern India",
+        "Eastern India",
+        "Western India"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set A): A. Nathpanthis, Siddhas and Yogis spread their devotional movement in northern India."
+    },
+    {
+      "id": "q72",
+      "question": "[Q.72]\nConsider the following statements regarding Wood’s Dispatch of 1854 :\n1. It recommended English as the medium of instruction for higher studies.\n2. It laid stress on female education and vocational training.\nWhich of the above statements is/are correct?",
+      "options": [
+        "Only 1",
+        "Only 2",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set A): C. Wood's Dispatch recommended English for higher education and emphasised female and vocational education, so both are correct."
+    },
+    {
+      "id": "q73",
+      "question": "[Q.73]\nThe Maithili language was started to develop during the reign of which of the following?",
+      "options": [
+        "Chero dynasty",
+        "Oiniwar dynasty",
+        "Karnat dynasty",
+        "Pithipatis"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set A): C. Maithili literature developed under the Karnat dynasty of Mithila (Jyotirishwar's Varna Ratnakara)."
+    },
+    {
+      "id": "q74",
+      "question": "[Q.74]\nWhich city served as the capital of the ancient kingdom of Magadha during the early Vedic period?",
+      "options": [
+        "Rajagriha",
+        "Campa",
+        "Vaishali",
+        "Pataliputra"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set A): A. Rajagriha (Rajgir) was the early capital of Magadha; Pataliputra became the capital later."
+    },
+    {
+      "id": "q75",
+      "question": "[Q.75]\nWhich of the following statements about the Vernacular Press Act is/are correct?\n1. It was enacted by Lord Lytton.\n2. It came to be known as a ‘Gagging Act’.\n3. The Act was repealed by Lord Ripon.\nSelect the correct answer using the codes given below.",
+      "options": [
+        "Only 1 and 2",
+        "Only 2 and 3",
+        "Only 1",
+        "1, 2 and 3"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set A): D. Lytton's Vernacular Press Act (1878), called the 'Gagging Act', was repealed by Ripon in 1882, so all three are correct."
+    },
+    {
+      "id": "q76",
+      "question": "[Q.76]\nWhich of the following statements about Lord Mayo’s Resolution of 1870 are correct?\n1. It was the first step that bifurcated Central and Provincial finances.\n2. Provincial Governments were empowered to administer certain services.\n3. It attempted to rectify existing imparity.\n4. It focussed on the actual needs of the Provinces.\nSelect the correct answer using the codes given below.",
+      "options": [
+        "Only 1 and 2",
+        "Only 1, 3 and 4",
+        "Only 2, 3 and 4",
+        "1, 2, 3 and 4"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set A): D. Mayo's 1870 Resolution began financial decentralisation, handing provinces some services and funds, so BPSC treats all four statements as correct."
+    },
+    {
+      "id": "q77",
+      "question": "[Q.77]\nNitisara, an early book of politics, was written by",
+      "options": [
+        "Kautilya",
+        "Kamandaka",
+        "Charaka",
+        "None of them"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set A): B. Nitisara is by Kamandaka."
+    },
+    {
+      "id": "q78",
+      "question": "[Q.78]\nFutuhat-i-Alamgiri was written by",
+      "options": [
+        "Ishwardas Nagar",
+        "Bhimsen",
+        "Haridas",
+        "None of them"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set A): A. Futuhat-i-Alamgiri was written by Ishwardas Nagar."
+    },
+    {
+      "id": "q79",
+      "question": "[Q.79]\nAccording to Chinese source, Meghavarman, the ruler of Sri Lanka, sent a missionary to which of the following Gupta Kings for permission to build a Buddhist temple at Gaya?",
+      "options": [
+        "Chandragupta I",
+        "Samudragupta",
+        "Chandragupta II",
+        "None of them"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set A): B. Meghavarman of Sri Lanka sent an embassy to Samudragupta for permission to build a monastery at Bodh Gaya."
+    },
+    {
+      "id": "q80",
+      "question": "[Q.80]\nWhen was Bihar first separated from the Bengal Presidency under the British-ruled India?",
+      "options": [
+        "1912",
+        "1936",
+        "1947",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set A): A. Bihar (with Orissa) was separated from the Bengal Presidency in 1912."
+    },
+    {
+      "id": "q81",
+      "question": "[Q.81]\nConsider the following statements :\n1. Lake Victoria is the third largest freshwater lake in the world by surface area.\n2. It is one of the great lakes of Africa.\n3. It is bordered by four countries—Tanzania, Uganda, Rwanda and Kenya.\n4. The only outflow from Lake Victoria is the Nile River, which exits the lake near Jinja, Uganda.\nWhich of the above statements are incorrect?",
+      "options": [
+        "1 and 2",
+        "2 and 4",
+        "3 and 4",
+        "1 and 3"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set A): D. Lake Victoria is the second (not third) largest freshwater lake, and it is bordered by Tanzania, Uganda and Kenya only (not Rwanda), so 1 and 3 are incorrect."
+    },
+    {
+      "id": "q82",
+      "question": "[Q.82]\nConsider the following statements regarding ‘heat wave’ :\n1. Heat wave is considered if the maximum temperature of a station reaches at least 30 °C or more for plains.\n2. Heat wave is considered if the maximum temperature of a station reaches at least 40 °C or more for hilly regions.\nWhich of the above statements is/are correct?",
+      "options": [
+        "Both 1 and 2",
+        "Only 1",
+        "Only 2",
+        "Neither 1 nor 2"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set A): D. IMD's thresholds are at least 40 °C for plains and 30 °C for hilly regions; the statements swap them, so both are wrong."
+    },
+    {
+      "id": "q83",
+      "question": "[Q.83]\nMatch List–I with List–II :\nList—I (Explorer)\na. Christopher Columbus\nb. Jacques Cartier\nc. Sir Francis Drake\nd. Ferdinand Magellan\nList—II (Birthplace)\n1. Portugal\n2. United Kingdom\n3. Italy\n4. France\nSelect the correct answer using the codes given below.",
+      "options": [
+        "a-3, b-4, c-2, d-1",
+        "a-1, b-2, c-4, d-3",
+        "a-3, b-4, c-1, d-2",
+        "a-1, b-4, c-2, d-3"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set A): A. Columbus – Italy, Cartier – France, Drake – United Kingdom, Magellan – Portugal."
+    },
+    {
+      "id": "q84",
+      "question": "[Q.84]\nThe emirates of UAE are",
+      "options": [
+        "Abu Dhabi, Dubai, Sharjah, Ajman, Umm Al-Quwain, Fujairah, Ras Al-Khaimah",
+        "Dubai, Sharjah, Ajman, Jeddah, Kuwait, Bahrain, Umm Al-Quwain",
+        "Umm Al-Quwain, Fujairah, Ras Al-Khaimah, Riyadh, Dammam, Taif, Dubai",
+        "Sharjah, Abu Dhabi, Ajman, Fujairah, Dubai, Bahrain, Kuwait"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set A): A. The seven emirates are Abu Dhabi, Dubai, Sharjah, Ajman, Umm Al-Quwain, Fujairah and Ras Al-Khaimah."
+    },
+    {
+      "id": "q85",
+      "question": "[Q.85]\nThe river Subarnarekha originates near which of the following villages?",
+      "options": [
+        "Ormanjhi",
+        "Mandar",
+        "Hehal",
+        "Nagri"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set A): D. The Subarnarekha rises near Nagri village close to Ranchi."
+    },
+    {
+      "id": "q86",
+      "question": "[Q.86]\nWhich of the following National Parks/Wildlife Sanctuaries are in Bihar?\n1. Valmiki National Park\n2. Dudhwa National Park\n3. Gajner Wildlife Sanctuary\n4. Bhimbandh Wildlife Sanctuary\nSelect the correct answer using the codes given below.",
+      "options": [
+        "1 and 4",
+        "2 and 3",
+        "1 and 3",
+        "2 and 4"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set A): A. Valmiki NP and Bhimbandh WLS are in Bihar; Dudhwa is in Uttar Pradesh and Gajner in Rajasthan."
+    },
+    {
+      "id": "q87",
+      "question": "[Q.87]\nConsider the following statements regarding the ‘Gangetic Dolphin’ :\n1. The Gangetic River Dolphin has been categorized as ‘endangered’ under the IUCN’s Red List.\n2. It does not have a crystalline eye lens rendering it effectively blind.\n3. Navigation and hunting are carried out using echolocation.\n4. It has been recognized as India’s National Aquatic Animal.\nWhich of the above statements are correct?",
+      "options": [
+        "Only 1, 2 and 4",
+        "Only 2, 3 and 4",
+        "Only 1, 3 and 4",
+        "All of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set A): D. All four are correct: endangered (IUCN), lacks a crystalline lens and is practically blind, uses echolocation, and is India's National Aquatic Animal."
+    },
+    {
+      "id": "q88",
+      "question": "[Q.88]\nThe other name of river Gandak is",
+      "options": [
+        "Burhi Gandak",
+        "Mahananda",
+        "Narayani",
+        "Punpun"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set A): C. The Gandak is also called Narayani (and Saligrami) in Nepal."
+    },
+    {
+      "id": "q89",
+      "question": "[Q.89]\nGold is found in which of the following districts of Bihar?",
+      "options": [
+        "Munger",
+        "Saran",
+        "Siwan",
+        "Jamui"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set A): D. Gold deposits in Bihar occur in Jamui district (Karmatiya/Sono)."
+    },
+    {
+      "id": "q90",
+      "question": "[Q.90]\nThe Triveni Canal has been constructed on which of the following rivers?",
+      "options": [
+        "Kosi",
+        "Sone",
+        "Gandak",
+        "Mayurakshi"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set A): C. The Triveni Canal takes off from the Gandak at Triveni (West Champaran)."
+    },
+    {
+      "id": "q91",
+      "question": "[Q.91]\nAssertion (A) : Rich placer deposits of gold are found on the Ghana coast and gold-bearing veins are found in Brazil.\nReason (R) : At some points of time, these continents were joined together along the Atlantic coast.\nSelect the correct answer.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is false but R is true",
+        "A is true but R is false"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set A): A. Matching gold deposits in Ghana and Brazil are explained by Africa and South America having been joined along the Atlantic coast (continental drift)."
+    },
+    {
+      "id": "q92",
+      "question": "[Q.92]\nBihar’s geographical structure consists of rock systems. Match the rock systems with their descriptions :\na. Dharwar rock system\nb. Vindhyan rock system\nc. Quaternary rock system\nd. Tertiary rock system\n1. Created by the rapid deposition of alluvium by Himalayan and Peninsular rivers\n2. Can be found in the West Champaran district\n3. Part of the oldest Archaean rock system\n4. Sandstone, limestone, dolomite, quartzite and shale are the main constituents of this rock system\nSelect the correct answer using the codes given below.",
+      "options": [
+        "a-3, b-4, c-1, d-2",
+        "a-1, b-3, c-2, d-4",
+        "a-2, b-3, c-4, d-1",
+        "a-4, b-2, c-3, d-1"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set A): A. Dharwar – oldest Archaean rocks, Vindhyan – sandstone, limestone, dolomite, quartzite and shale, Quaternary – alluvium laid by rivers, Tertiary – found in West Champaran."
+    },
+    {
+      "id": "q93",
+      "question": "[Q.93]\nWhich one of the following is the world’s richest region from a marine biodiversity perspective, comprising twenty-one islands with estuaries, beaches, forests of the nearshore environment, sea grasses, coral reefs, salt marshes and mangroves?",
+      "options": [
+        "Gulf of Mannar Biosphere Reserve",
+        "Nanda Devi Biosphere Reserve",
+        "Sunderbans Biosphere Reserve",
+        "Nilgiri Biosphere Reserve"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set A): A. The Gulf of Mannar Biosphere Reserve with its 21 islands is described as one of the richest marine biodiversity regions."
+    },
+    {
+      "id": "q94",
+      "question": "[Q.94]\nWhat is the local time of Thimphu (Bhutan) located at 90° East longitude when the time at Greenwich (0°) is 12:00 noon?",
+      "options": [
+        "6:00 p.m.",
+        "4:00 p.m.",
+        "7:00 p.m.",
+        "6:00 a.m."
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set A): A. Each degree of longitude equals 4 minutes; 90° East = 6 hours ahead, so 12 noon + 6 h = 6:00 p.m."
+    },
+    {
+      "id": "q95",
+      "question": "[Q.95]\nWhich of the following statements is correct?",
+      "options": [
+        "Natural gas is found in Dharwar rock formation.",
+        "Mica is found in Kodarma.",
+        "Cuddapah series is famous for diamonds.",
+        "Petroleum reserves are found in Aravalli hills."
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set A): B. Koderma (Jharkhand) is famous for mica. Dharwar and Aravalli rocks hold no oil/gas, and Cuddapah is not known for diamonds."
+    },
+    {
+      "id": "q96",
+      "question": "[Q.96]\nHow many latitudes are there on the globe drawn at 1 degree interval?",
+      "options": [
+        "180",
+        "178",
+        "179",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set A): C. At 1° intervals there are 181 parallels from pole to pole, but the poles are points, so 179 latitude lines are drawn."
+    },
+    {
+      "id": "q97",
+      "question": "[Q.97]\nThe average height of the Kosi plain from mean sea level is",
+      "options": [
+        "300 m",
+        "150 m",
+        "30 m",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set A): C. BPSC's key gives about 30 m for the average height of the Kosi plain above mean sea level."
+    },
+    {
+      "id": "q98",
+      "question": "[Q.98]\nOn which plateau, the Tropic of Cancer and the Indian Standard Time Line intersect each other?",
+      "options": [
+        "Bundelkhand",
+        "Baghelkhand",
+        "Malwa",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set A): B. The Tropic of Cancer (23.5° N) and the Standard Meridian (82.5° E) intersect in the Baghelkhand plateau region."
+    },
+    {
+      "id": "q99",
+      "question": "[Q.99]\nWhich district of Uttarakhand is not situated along the Tibbet boundary?",
+      "options": [
+        "Uttarkashi",
+        "Chamoli",
+        "Almora",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set A): C. Almora does not touch the Tibet (China) border; Uttarkashi and Chamoli do."
+    },
+    {
+      "id": "q100",
+      "question": "[Q.100]\nWhere does the El Niño current flow?",
+      "options": [
+        "The Pacific Ocean",
+        "The Indian Ocean",
+        "The Bay of Bengal",
+        "More than one of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set A): A. The El Niño current flows in the Pacific Ocean (off Peru and Ecuador)."
+    },
+    {
+      "id": "q101",
+      "question": "[Q.101]\nConsider the following statements about the collegium system :\n1. The Supreme Court collegium is a five-member body, which is headed by the incumbent Chief Justice of India (CJI) and comprises four other seniormost Judges of the Court at that time.\n2. The Parliament by law has evolved the collegium system.\n3. The Judges of the Supreme Court and High Courts are appointed only through the collegium system.\n4. The collegium system was introduced in the year 1993 by Justice P. N. Bhagwati in the landmark First Judges Case.\nWhich of the above statements is/are correct?",
+      "options": [
+        "Only 1",
+        "1 and 2",
+        "3 and 4",
+        "1 and 3"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set A): D. Statements 1 and 3 are correct. The collegium was created by judgments, not a parliamentary law, and it came from the Second Judges Case (1993, Justice J. S. Verma), not the First Judges Case."
+    },
+    {
+      "id": "q102",
+      "question": "[Q.102]\nConsider the following statements regarding the 42nd Amendment to the Constitution of India :\n1. It added three words to the Preamble—‘Socialist’, ‘Secular’ and ‘Integrity’.\n2. It added eight Fundamental Duties to the Constitution.\n3. It added new Directive Principles, i.e., Article 39A, Article 43A and Article 47.\n4. It granted power to the President, in consultation with the Election Commission, to disqualify members of the State Legislatures.\nWhich of the above statements are incorrect ?",
+      "options": [
+        "1 and 2",
+        "3 and 4",
+        "2 and 3",
+        "1 and 4"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set A): C. The 42nd Amendment added ten (not eight) Fundamental Duties and the new Directive Principles 39A, 43A and 48A (not 47), so 2 and 3 are incorrect."
+    },
+    {
+      "id": "q103",
+      "question": "[Q.103]\nThe specifications required for a community to be declared as a Scheduled Tribe are\n1. indications of primitive traits\n2. distinctive culture\n3. shyness of contact with the community at large\n4. backwardness and geographical isolation\nWhich of the above are correct?",
+      "options": [
+        "Only 1 and 2",
+        "Only 2, 3 and 4",
+        "Only 1, 3 and 4",
+        "All of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set A): D. Lokur Committee criteria: primitive traits, distinctive culture, geographical isolation, shyness of contact with the community at large and backwardness, so all are correct."
+    },
+    {
+      "id": "q104",
+      "question": "[Q.104]\nFrom which country, the Indian Constitution has taken reference for the idea of the Fundamental Rights?",
+      "options": [
+        "Ireland",
+        "United States of America",
+        "United Kingdom",
+        "Canada"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set A): B. The Fundamental Rights were inspired by the US Bill of Rights."
+    },
+    {
+      "id": "q105",
+      "question": "[Q.105]\nUntouchability is abolished by which Article of the Indian Constitution?",
+      "options": [
+        "Article 14",
+        "Article 15",
+        "Article 17",
+        "Article 22"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set A): C. Article 17 abolishes untouchability."
+    },
+    {
+      "id": "q106",
+      "question": "[Q.106]\nThe authority to determine the number of Judges in a High Court rests with which of the following entities?",
+      "options": [
+        "The President",
+        "The Chief Minister of the State",
+        "The Prime Minister",
+        "The Parliament"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set A): A. Under Article 216 the President fixes the number of High Court judges from time to time."
+    },
+    {
+      "id": "q107",
+      "question": "[Q.107]\nThe Fifth Schedule deals with the governance and protection of the interests of which specific group of people?",
+      "options": [
+        "Scheduled Castes",
+        "Religious Minorities",
+        "Scheduled Tribes",
+        "Linguistic Minorities"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set A): C. The Fifth Schedule covers administration and control of Scheduled Areas and Scheduled Tribes."
+    },
+    {
+      "id": "q108",
+      "question": "[Q.108]\nIn which case(s) did the Supreme Court of India give for the first time the doctrine of ‘basic structure’ of the Constitution?",
+      "options": [
+        "Golaknath vs. State of Punjab",
+        "Kesavananda Bharati vs. State of Kerala",
+        "Minerva Mills vs. Union of India",
+        "Both (A) and (B)"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set A): B. The basic structure doctrine was first laid down in Kesavananda Bharati vs State of Kerala (1973)."
+    },
+    {
+      "id": "q109",
+      "question": "[Q.109]\nMatch the following political parties listed in List–I with their years of establishment in List–II :\nList—I (Political Parties)\na. Communist Party of India (Marxist)\nb. Communist Party of India\nc. Bahujan Samaj Party\nd. All India Trinamool Congress (AITC)\nList—II (Years of Establishment)\n1. 1964\n2. 1998\n3. 1925\n4. 1984\nSelect the correct answer using the codes given below.",
+      "options": [
+        "a-1, b-3, c-4, d-2",
+        "a-2, b-1, c-4, d-3",
+        "a-2, b-1, c-3, d-4",
+        "a-3, b-4, c-1, d-2"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set A): A. CPI(M) – 1964, CPI – 1925, BSP – 1984, AITC – 1998."
+    },
+    {
+      "id": "q110",
+      "question": "[Q.110]\nUnder which Article(s), the Speaker can allow any member of the House to speak in his/her mother tongue?",
+      "options": [
+        "Article 110 (1)",
+        "Article 122 (2)",
+        "Article 120 (1)",
+        "Both (A) and (B)"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set A): C. Article 120(1) lets the Speaker permit a member who cannot express himself in Hindi or English to speak in his mother tongue."
+    },
+    {
+      "id": "q111",
+      "question": "[Q.111]\nThe Foreign Exchange Reserves (FER) of RBI include which of the following?\n1. Foreign Currency Assets (FCA)\n2. Gold\n3. Special Drawing Rights (SDR)\n4. Reserve Tranche Position\nSelect the correct answer using the codes given below.",
+      "options": [
+        "Only 1 and 2",
+        "Only 2, 3 and 4",
+        "Only 1, 2 and 3",
+        "All of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set A): D. India's forex reserves are foreign currency assets, gold, SDRs and the Reserve Tranche Position in the IMF."
+    },
+    {
+      "id": "q112",
+      "question": "[Q.112]\nConsider the following statements about ‘Rules of Origin’ :\n1. Rules of Origin are the criteria needed to determine the national source of a product.\n2. Rules of Origin help the custom agencies to know what regulations and fees apply to a given product.\n3. These are used for the purpose of trade statistics.\n4. Their importance is derived from the fact that duties and restrictions in several cases depend upon the sources of imports.\nWhich of the above statements are correct?",
+      "options": [
+        "Only 1 and 2",
+        "Only 3 and 4",
+        "Only 1, 3 and 4",
+        "All of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set A): D. All four statements correctly describe rules of origin."
+    },
+    {
+      "id": "q113",
+      "question": "[Q.113]\nConsider the following statements about infant mortality rate :\n1. It is the probability of dying between birth and exactly 1 year of age, expressed per 10000 live births.\n2. The infant mortality rate in the year 1950 was 189·6.\n3. In the year 2019, the infant mortality rate was 30.\n4. As per the Sample Registration System (SRS) Bulletin of Registrar General of India (RGI), the State with the highest infant mortality rate in the year 2019 was Uttar Pradesh.\nWhich of the above statements are correct?",
+      "options": [
+        "1, 2 and 3",
+        "2, 3 and 4",
+        "Only 2 and 3",
+        "1 and 4"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set A): C. IMR is per 1,000 (not 10,000) live births, and Madhya Pradesh (not UP) had the highest IMR in 2019, so only 2 and 3 are correct."
+    },
+    {
+      "id": "q114",
+      "question": "[Q.114]\nHuman capital formation as a concept is better explained in terms of a process, which enables\n1. individuals of a country to accumulate more capital\n2. increasing the knowledge\n3. increasing the skill levels\n4. increasing the knowledge, skill levels and capacities of the people of the country\nSelect the correct answer using the codes given below.",
+      "options": [
+        "Only 1",
+        "1 and 2",
+        "3 and 4",
+        "Only 4"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set A): D. Human capital formation means increasing the knowledge, skill levels and capacities of the people, i.e., statement 4."
+    },
+    {
+      "id": "q115",
+      "question": "[Q.115]\nConsider the following statements regarding insolvency and bankruptcy :\n1. Bankruptcy refers to a financial state in which an individual or entity is unable to pay off their debts as they become due.\n2. Insolvency refers to a legal process, where the assets of the debtor are liquidated or reorganized for the benefit of creditors.\n3. Bankruptcy is a state whereas insolvency is the conclusion.\n4. The Insolvency and Bankruptcy Board of India (IBBI) is the regulatory body responsible for overseeing insolvency and bankruptcy proceedings.\nWhich of the above statements is/are correct?",
+      "options": [
+        "1, 2 and 3",
+        "2, 3 and 4",
+        "Only 4",
+        "Only 1 and 2"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set A): C. The definitions are swapped: insolvency is the state of being unable to pay debts and bankruptcy the legal process. Only statement 4 (IBBI is the regulator) is correct."
+    },
+    {
+      "id": "q116",
+      "question": "[Q.116]\nIn which year was the Industrial Policy Resolution adopted?",
+      "options": [
+        "1956",
+        "1954",
+        "1952",
+        "1950"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set A): A. The Industrial Policy Resolution was adopted on 30 April 1956."
+    },
+    {
+      "id": "q117",
+      "question": "[Q.117]\nConsider the following statements about the Production-Linked Incentive (PLI) scheme :\n1. The scheme offers a production-linked incentive to boost domestic manufacturing and attract large investments in mobile phone manufacturing and specified electronic components.\n2. The scheme has two categories of applicants, namely, global companies and domestic companies.\n3. The scheme shall extend an average incentive of around 8% on net incremental sales (over base year) of goods manufactured in India and covered under the target segment, to eligible companies, for a period of six years.\n4. The target segment under PLI shall include (i) laptops, (ii) tablets, (iii) all-in-one PCs, (iv) servers and (v) Ultra-Small Form Factor (USFF).\nWhich of the above statements are incorrect?",
+      "options": [
+        "1 and 4",
+        "2 and 4",
+        "1 and 3",
+        "2 and 3"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set A): D. BPSC's key says statements 2 and 3 are incorrect, while 1 and 4 correctly describe the PLI scheme for IT hardware."
+    },
+    {
+      "id": "q118",
+      "question": "[Q.118]\nConsider the following statements regarding the SVAMITVA scheme :\n1. It is a Central Sector Scheme under the Ministry of Mines.\n2. This scheme seeks to create geopositioning infrastructure like CORS network to benchmark the location and provides five centimetre level accuracy.\n3. CORS means Cross-Origin Resource Sharing.\n4. The scheme is a reformative step towards establishment of clear ownership of property in rural inhabited (Abadi) areas, by mapping of land parcels using drone technology.\nWhich of the above statements are incorrect?",
+      "options": [
+        "2 and 4",
+        "1 and 3",
+        "2 and 3",
+        "1 and 4"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set A): B. SVAMITVA is under the Ministry of Panchayati Raj (not Mines), and CORS here means Continuously Operating Reference Stations, so 1 and 3 are incorrect."
+    },
+    {
+      "id": "q119",
+      "question": "[Q.119]\nWhich of the following is/are the consequence(s) of invoking Article 360, declaration of a financial emergency?\n1. The President may order the States to reduce the salaries and allowances of all or any class of employees serving in connection with the State affairs.\n2. Money Bills or other financial bills passed by the State Legislature are not required to be reserved for the consideration of the President.\n3. The President can issue directions for the reduction of salaries and allowances of all or any class of employees serving in connection with the affairs of the Union, including the Judges of the Supreme Court and the High Courts.\n4. Money Bills or other financial bills are to be reserved for the consideration of the President after they are passed by the Legislature of the State.\nSelect the correct answer using the codes given below.",
+      "options": [
+        "Only 1, 3 and 4",
+        "Only 2",
+        "Only 1 and 2",
+        "All of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set A): A. Under Article 360(4), the President may order the States to cut salaries, require Money/financial Bills to be reserved for him, and cut Union salaries including judges'. So 1, 3 and 4 are correct and 2 is wrong."
+    },
+    {
+      "id": "q120",
+      "question": "[Q.120]\nWhich of the following factors could potentially contribute to stagflation in the Indian economy?\n1. High inflationary pressures due to increased Government spending\n2. Decline in industrial production and sluggish economic growth\n3. Decrease in aggregate demand and consumer spending\n4. Appreciation of the domestic currency leading to reduction of export competitiveness\nSelect the correct answer using the codes given below.",
+      "options": [
+        "Only 1 and 2",
+        "Only 2 and 3",
+        "Only 1, 3 and 4",
+        "1, 2, 3 and 4"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set A): D. BPSC's key treats all four factors as possible contributors to stagflation (inflationary pressure combined with slow growth, weak demand and loss of export competitiveness)."
+    },
+    {
+      "id": "q121",
+      "question": "[Q.121]\nAs per the Economic Survey, 2023, which of the following statements describe(s) the trend of Foreign Direct Investment in India?\n1. It has decreased due to the less participation of the private sector.\n2. It has increased compared to the prepandemic levels.\n3. It has increased rapidly without decreasing in any Financial Year after the telecom sector was entirely reformed.\n4. It has decreased due to a weak global economic situation.\nSelect the correct answer using the codes given below.",
+      "options": [
+        "Only 1 and 3",
+        "2 and 4",
+        "1, 2 and 3",
+        "Only 4"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set A): D. BPSC's key gives only statement 4: per Economic Survey 2022-23, FDI inflows decreased amid weak global conditions."
+    },
+    {
+      "id": "q122",
+      "question": "[Q.122]\nWhat is the current population of Gaya district of Bihar?",
+      "options": [
+        "598000",
+        "320000",
+        "780000",
+        "234000"
+      ],
+      "answer": 0,
+      "dropped": true,
+      "explanation": "Official BPSC final answer key (Set A): Deleted. Deleted by BPSC in the final answer key; counts as correct for everyone. 'Current population' of Gaya district was ambiguous: Census 2011 put it at about 43.9 lakh, while the 598,000 figure is a UN estimate for the Gaya urban agglomeration."
+    },
+    {
+      "id": "q123",
+      "question": "[Q.123]\nWhich of the following statements about non-plan expenditures of the Central Government is correct?",
+      "options": [
+        "The expenditure is on interest payments.",
+        "The expenditure is on science and technology.",
+        "The expenditure is on agriculture.",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set A): A. Interest payments are the classic non-plan expenditure; science, technology and agriculture were plan heads."
+    },
+    {
+      "id": "q124",
+      "question": "[Q.124]\nWhich of the following is not true about globalization and its impact on India?",
+      "options": [
+        "It has expanded trade in goods and services.",
+        "It has led to greater flow of Foreign Direct Investment.",
+        "Increase in exports is greater than increase in imports.",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set A): C. Globalisation expanded trade and FDI, but India's imports grew faster than its exports, so statement C is not true."
+    },
+    {
+      "id": "q125",
+      "question": "[Q.125]\nConsider the following statements about the latest developments in the Union Government finances :\n1. The fiscal deficit of the Union Government had reached 9·2 percent of GDP during the pandemic FY21.\n2. The fiscal deficit has moderated to 7·7 percent of GDP in FY22.\n3. The revenue collection over the last two years has gone down.\nWhich of the above statements is/are correct?",
+      "options": [
+        "Only 1",
+        "1 and 2",
+        "2 and 3",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set A): A. The fiscal deficit was 9.2% of GDP in FY21 but fell to 6.7% (not 7.7%) in FY22, and revenue collections rose, so only 1 is correct."
+    },
+    {
+      "id": "q126",
+      "question": "[Q.126]\nWhich of the following were the reasons for the failure of the Revolt of 1857?\n1. The military superiority of the British\n2. The rebels did not have a unified programme and ideology\n3. There was a lack of support from all the sections of society\nSelect the correct answer using the codes given below.",
+      "options": [
+        "Only 1 and 2",
+        "Only 2 and 3",
+        "All of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set A): C. British military superiority, no unified programme or ideology, and lack of support from all sections of society all caused the 1857 revolt to fail."
+    },
+    {
+      "id": "q127",
+      "question": "[Q.127]\nThe cook from Bihar who saved Mahatma Gandhi’s life from a murder attempt by food poisoning in 1917 was",
+      "options": [
+        "Muzaffar Ahmad",
+        "Batak Mian",
+        "Mir Bakawal",
+        "None of them"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set A): B. Batak Mian Ansari, a cook in Champaran, refused to poison Gandhi in 1917 and so saved his life."
+    },
+    {
+      "id": "q128",
+      "question": "[Q.128]\nThe Bakasht Movement in Bihar during 1937–1938 was organized by whom?",
+      "options": [
+        "Swami Dayanand Saraswati",
+        "Jayaprakash Narayan",
+        "Swami Sahajanand Saraswati",
+        "Peer Ali Khan"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set A): C. Swami Sahajanand Saraswati and the Kisan Sabha led the Bakasht movement (1937–38)."
+    },
+    {
+      "id": "q129",
+      "question": "[Q.129]\nConsider the following events during India’s Freedom Struggle :\n1. Home Rule Movement\n2. Surat Split\n3. Kheda Satyagraha\n4. Minto-Morley Reforms\nWhich of the following is the correct chronological order of the events given above?",
+      "options": [
+        "1–3–2–4",
+        "2–4–1–3",
+        "1–4–2–3",
+        "2–3–1–4"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set A): B. Surat Split (1907) → Minto-Morley Reforms (1909) → Home Rule Movement (1916) → Kheda Satyagraha (1918), i.e., 2–4–1–3."
+    },
+    {
+      "id": "q130",
+      "question": "[Q.130]\nLord Lytton is not associated with which of the following?",
+      "options": [
+        "The Strachey Commission",
+        "The Arms Act",
+        "The Vernacular Press Act",
+        "The Ilbert Bill"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set A): D. The Ilbert Bill (1883) belongs to Lord Ripon's tenure; the Strachey Famine Commission, Arms Act and Vernacular Press Act were under Lytton."
+    },
+    {
+      "id": "q131",
+      "question": "[Q.131]\nWhich treaty was signed after the Battle of Buxar?",
+      "options": [
+        "The Treaty of Allahabad",
+        "The Treaty of Sugauli",
+        "The Treaty of Bassein",
+        "The Treaty of Salbai"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set A): A. The Treaty of Allahabad (1765) followed the Battle of Buxar (1764)."
+    },
+    {
+      "id": "q132",
+      "question": "[Q.132]\nThe Dutch East India Company established its factory at Patna in which year?",
+      "options": [
+        "1635",
+        "1632",
+        "1643",
+        "1648"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set A): B. BPSC's key: the Dutch set up their factory at Patna in 1632."
+    },
+    {
+      "id": "q133",
+      "question": "[Q.133]\nIn which of the following movements did Mahatma Gandhi make the first use of the hunger strike as a weapon?",
+      "options": [
+        "Non-Cooperation Movement",
+        "Bardoli Satyagraha",
+        "Ahmedabad Strike",
+        "Rowlatt Satyagraha"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set A): C. Gandhi first used a fast as a weapon during the Ahmedabad mill strike of 1918."
+    },
+    {
+      "id": "q134",
+      "question": "[Q.134]\nThe Quit India Movement in 1942 witnessed significant contributions from leaders of Bihar. Which prominent Bihar leader was known as the ‘Bihar Kesari’ and actively participated in the Quit India Movement?",
+      "options": [
+        "Dr. Rajendra Prasad",
+        "Shri Krishna Singh",
+        "Anugrah Narayan Sinha",
+        "Ram Manohar Lohia"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set A): B. Shri Krishna Singh, Bihar's first Chief Minister, was called 'Bihar Kesari'."
+    },
+    {
+      "id": "q135",
+      "question": "[Q.135]\nIn response to the mass agitation of the Champaran Movement, the British Government took which step to address the issue?",
+      "options": [
+        "Appointed Mahatma Gandhi as the Governor of Champaran",
+        "Enforced strict curfew and imposed Martial Law in the region",
+        "Instituted the Champaran Agrarian Committee",
+        "Declared Champaran as an independent State"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set A): C. The government appointed the Champaran Agrarian Committee (1917), with Gandhi as a member."
+    },
+    {
+      "id": "q136",
+      "question": "[Q.136]\nMatch List–I with List–II :\nList—I\na. Servants of India Society\nb. Tattwabodhini Sabha\nc. Atmiya Sabha\nList—II\n1. Debendranath Tagore\n2. Gopal Krishna Gokhale\n3. Ram Mohan Roy\n4. Keshab Chandra Sen\nSelect the correct answer using the codes given below.",
+      "options": [
+        "a-2, b-1, c-3",
+        "a-2, b-4, c-3",
+        "a-1, b-2, c-3",
+        "a-1, b-4, c-3"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set A): A. Servants of India Society – Gokhale, Tattwabodhini Sabha – Debendranath Tagore, Atmiya Sabha – Ram Mohan Roy."
+    },
+    {
+      "id": "q137",
+      "question": "[Q.137]\nAmbabai, a woman freedom fighter, belonged to which of the following States of India?",
+      "options": [
+        "Kerala",
+        "Andhra Pradesh",
+        "Karnataka",
+        "Madhya Pradesh"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set A): C. Ambabai of Karnataka was a freedom fighter of the 1920s–30s satyagrahas."
+    },
+    {
+      "id": "q138",
+      "question": "[Q.138]\nWho among the following was not the member of the Cabinet Mission?",
+      "options": [
+        "P. Lawrence",
+        "A. V. Alexander",
+        "J. Andrew",
+        "None of them"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set A): C. The Cabinet Mission members were Pethick-Lawrence, Stafford Cripps and A. V. Alexander; 'J. Andrew' was not a member."
+    },
+    {
+      "id": "q139",
+      "question": "[Q.139]\n“The Indian National Congress was founded on the basis of safety valve theory, to protect the British Government from threats.” Which leader said that?",
+      "options": [
+        "C. Rajagopalachari",
+        "Lala Lajpat Rai",
+        "Bipin Chandra Pal",
+        "None of them"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set A): B. Lala Lajpat Rai, in Young India (1916), described the Congress as a product of Hume's 'safety valve'."
+    },
+    {
+      "id": "q140",
+      "question": "[Q.140]\nIn which of the following Indian National Congress Sessions, the resolutions related to the Fundamental Rights were passed for the first time?",
+      "options": [
+        "Surat Session—1907",
+        "Gaya Session—1922",
+        "Karachi Session—1931",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set A): C. The Fundamental Rights and Economic Policy resolution was passed at the Karachi session, 1931."
+    },
+    {
+      "id": "q141",
+      "question": "[Q.141]\nIn a certain code language, ‘GAME’ is written as ‘$ ÷ * %’ and ‘BEAD’ is written as ‘# % ÷ ×’. How will the word ‘MADE’ be written in that code language?",
+      "options": [
+        "$ ÷ × %",
+        "* ÷ $ %",
+        "* ÷ × %",
+        "# ÷ × %"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set A): C. From GAME and BEAD: A = ÷, E = %, so G = $, M = *, B = #, D = ×. MADE = * ÷ × %."
+    },
+    {
+      "id": "q142",
+      "question": "[Q.142]\nQ travels towards East. M travels towards North. S and T travel in opposite directions. T travels towards right of Q. Which of the following is definitely true?",
+      "options": [
+        "M and S travel in the opposite directions",
+        "S travels towards West",
+        "T travels towards North",
+        "M and S travel in the same direction"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set A): D. Q goes East; to the right of Q is South, so T goes South and S (opposite) goes North, the same direction as M."
+    },
+    {
+      "id": "q143",
+      "question": "[Q.143]\nA man ‘Ramesh’, who owns a plot of land of 100 square yards, increases his plot of land by acquiring 10% more from his neighbour ‘Suresh’, who also owns 100 square yards land. After 2 years, he sells back 10% of the total plot to the neighbour. Which of the following is correct?",
+      "options": [
+        "Ramesh’s land is more than Suresh",
+        "Suresh’s land is more than Ramesh",
+        "Both are equal",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set A): B. Ramesh gets 110 sq yd and Suresh keeps 90. Ramesh sells back 10% of 110 = 11, giving Ramesh 99 and Suresh 101, so Suresh has more."
+    },
+    {
+      "id": "q144",
+      "question": "[Q.144]\nFind the odd pair among the following options.",
+      "options": [
+        "Millinery : Hats",
+        "Brewery : Alcohol",
+        "Stationery : Paper",
+        "Snobbery : Shoes"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set A): D. Millinery makes hats, a brewery makes alcohol and stationery is paper goods; snobbery has nothing to do with shoes."
+    },
+    {
+      "id": "q145",
+      "question": "[Q.145]\nWhat should come in place of question mark (?) in the following number series?\n132   156   ?   210   240   272",
+      "options": [
+        "196",
+        "182",
+        "199",
+        "204"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set A): B. Differences increase by 2: +24, +26, +28, +30, +32. So 156 + 26 = 182 (and 182 + 28 = 210)."
+    },
+    {
+      "id": "q146",
+      "question": "[Q.146]\nSelect the missing number from the given alternatives :\n[Figure: a 3×3 grid of numbers]\nRow 1: 44 | 49 | 37\nRow 2: 52 | ? | 41\nRow 3: 58 | 35 | 53",
+      "options": [
+        "56",
+        "77",
+        "66",
+        "63"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set A): B. Middle = 7 × (left − right): 7 × (44 − 37) = 49, 7 × (58 − 53) = 35, so 7 × (52 − 41) = 77."
+    },
+    {
+      "id": "q147",
+      "question": "[Q.147]\nRead the given statement and conclusions carefully. Decide which of the given conclusions logically follow(s) from the statement.\nStatement :\nIn a one-day cricket match, the total runs made by a team were 200, of which 160 runs were made by spinners.\nConclusions :\n1. 80% of the team consisted of spinners.\n2. The opening batsmen were spinners.\nSelect the correct answer.",
+      "options": [
+        "Only 1 follows the statement",
+        "Only 2 follows the statement",
+        "Both 1 and 2 follow the statement",
+        "Neither 1 nor 2 follows the statement"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set A): D. Runs scored by spinners say nothing about how many players were spinners or who opened, so neither conclusion follows."
+    },
+    {
+      "id": "q148",
+      "question": "[Q.148]\nIn a code language, if GREAT is written as 718222620 and MONK is written as 13121411, then how will VIGOROUS be written in the same language?",
+      "options": [
+        "22187121812619",
+        "21177121811619",
+        "22187131813620",
+        "21187111711620"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set A): A. Consonants take their alphabet position and vowels their reverse position (A = 26, E = 22, O = 12, I = 18, U = 6). VIGOROUS → 22 18 7 12 18 12 6 19."
+    },
+    {
+      "id": "q149",
+      "question": "[Q.149]\nFind the odd one in the following groups :\nQ,W,Z,B   B,H,K,M   W,C,G,J   M,S,V,X",
+      "options": [
+        "Q,W,Z,B",
+        "M,S,V,X",
+        "W,C,G,J",
+        "B,H,K,M"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set A): C. Three groups follow the gaps +6, +3, +2 (Q→W→Z→B, B→H→K→M, M→S→V→X); W,C,G,J has +6, +4, +3."
+    },
+    {
+      "id": "q150",
+      "question": "[Q.150]\nFour branches of a company are located at M, N, O and P. M is in the North of N at a distance of 4 km; P is in the South of O at a distance of 2 km; N is in the Southeast of O by 1 km. What is the distance between M and P in km?",
+      "options": [
+        "5·34",
+        "6·74",
+        "28·5",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set A): A. With x = 1/√2, N is x km east and x km south of O, M is 4 km north of N and P is 2 km south of O. So M–P is x east-west and 6 − x north-south: √(0.5 + 5.29²) ≈ 5.34 km."
+    }
+  ]
+}

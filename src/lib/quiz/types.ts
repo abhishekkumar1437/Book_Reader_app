@@ -18,6 +18,8 @@ export interface QuizSet {
   description?: string;
   /** Minutes allowed for the whole set; 0 or missing means untimed. */
   timeLimitMinutes?: number;
+  /** Marks deducted per wrong answer (e.g. 1/3 for BPSC CCE); missing means no negative marking. Unanswered costs nothing. */
+  negativeMark?: number;
   createdAt?: string;
   questions: QuizQuestion[];
 }

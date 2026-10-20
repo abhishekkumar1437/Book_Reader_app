@@ -15,7 +15,7 @@ function isRecord(v: unknown): v is Record<string, unknown> {
 /** Validates a parsed JSON file and returns a clean QuizSet, or an error message. */
 function parseQuizSet(id: string, raw: unknown): QuizSet | string {
   if (!isRecord(raw)) return "root must be an object";
-  const { title, subject, topic, description, timeLimitMinutes, createdAt, questions } = raw;
+  const { title, subject, topic, description, timeLimitMinutes, negativeMark, createdAt, questions } = raw;
   if (typeof title !== "string" || !title.trim()) return "missing title";
   if (typeof subject !== "string" || !subject.trim()) return "missing subject";
   if (typeof topic !== "string" || !topic.trim()) return "missing topic";
@@ -54,6 +54,7 @@ function parseQuizSet(id: string, raw: unknown): QuizSet | string {
     description: typeof description === "string" ? description.trim() : undefined,
     timeLimitMinutes:
       typeof timeLimitMinutes === "number" && timeLimitMinutes > 0 ? Math.round(timeLimitMinutes) : undefined,
+    negativeMark: typeof negativeMark === "number" && negativeMark > 0 && negativeMark <= 1 ? negativeMark : undefined,
     createdAt: typeof createdAt === "string" ? createdAt : undefined,
     questions: cleaned,
   };

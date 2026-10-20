@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { Check, ChevronRight, Clock } from "@/components/ui/icons";
+import { interviewHref } from "@/lib/interview/paths";
 import { chapterKey, interviewStore } from "@/lib/interview/storage";
 import type { BookMeta, ChapterMeta } from "@/lib/interview/types";
 
@@ -34,7 +35,7 @@ export function ChapterList({ book, chapters }: { book: BookMeta; chapters: Chap
   const lastChapter = chapters.find((c) => c.slug === last);
   const nextUnread = chapters.find((c) => !isDone(c));
   const resume = lastChapter && !isDone(lastChapter) ? lastChapter : nextUnread;
-  const href = (c: ChapterMeta) => `/interview/${encodeURIComponent(book.slug)}/${encodeURIComponent(c.slug)}`;
+  const href = (c: ChapterMeta) => interviewHref(book.slug, c.slug);
 
   return (
     <div className="mx-auto w-full max-w-6xl px-4 pb-16 sm:px-6">
@@ -43,6 +44,14 @@ export function ChapterList({ book, chapters }: { book: BookMeta; chapters: Chap
           All books
         </Link>
         <ChevronRight size={14} />
+        {book.collection && (
+          <>
+            <Link href={interviewHref(book.collection.slug)} className="hover:text-fg">
+              {book.collection.title}
+            </Link>
+            <ChevronRight size={14} />
+          </>
+        )}
         <span className="text-fg">{book.title}</span>
       </nav>
 

@@ -3,8 +3,9 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { ChevronRight } from "@/components/ui/icons";
+import { interviewHref } from "@/lib/interview/paths";
 import { interviewStore } from "@/lib/interview/storage";
-import type { BookMeta } from "@/lib/interview/types";
+import type { BookMeta, CollectionMeta } from "@/lib/interview/types";
 
 function hours(minutes: number): string {
   const h = minutes / 60;
@@ -13,13 +14,15 @@ function hours(minutes: number): string {
 
 function BookCard({ book, readCount, started }: { book: BookMeta; readCount: number; started: boolean }) {
   const progress = book.chapterCount ? Math.round((readCount / book.chapterCount) * 100) : 0;
-  const href = `/interview/${encodeURIComponent(book.slug)}`;
+  const href = interviewHref(book.slug);
   return (
     <article className="card group flex flex-col rounded-2xl border border-line bg-bg-2/80 p-2.5 sm:p-3">
       <Link href={href} className="block" aria-label={`Open ${book.title}`}>
         <div className="cover">
           <div className="flex h-full flex-col justify-between p-3 pl-5 sm:p-5 sm:pl-7">
-            <span className="text-[9px] tracking-[0.2em] text-ink/50 uppercase sm:text-[10px] sm:tracking-[0.25em]">Interview Prep</span>
+            <span className="text-[9px] tracking-[0.2em] text-ink/50 uppercase sm:text-[10px] sm:tracking-[0.25em]">
+              {book.collection?.title ?? "Interview Prep"}
+            </span>
             <span>
               <span className="block font-serif text-lg leading-tight text-ink sm:text-2xl">{book.title}</span>
               {book.subtitle && <span className="mt-1 line-clamp-2 block text-xs text-ink/70 sm:mt-2 sm:text-sm">{book.subtitle}</span>}
@@ -56,7 +59,64 @@ function BookCard({ book, readCount, started }: { book: BookMeta; readCount: num
   );
 }
 
-export function BookShelf({ books }: { books: BookMeta[] }) {
+function CollectionCard({ collection, readCount }: { collection: CollectionMeta; readCount: number }) {
+  const progress = collection.chapterCount ? Math.round((readCount / collection.chapterCount) * 100) : 0;
+  const href = interviewHref(collection.slug);
+  return (
+    <article className="card group flex flex-col rounded-2xl border border-line bg-bg-2/80 p-2.5 sm:p-3">
+      <Link href={href} className="block pt-2 pr-2" aria-label={`Open ${collection.title}`}>
+        <div className="cover cover--collection">
+          <div className="flex h-full flex-col justify-between p-3 pl-5 sm:p-5 sm:pl-7">
+            <span className="text-[9px] tracking-[0.2em] text-ink/60 uppercase sm:text-[10px] sm:tracking-[0.25em]">
+              Collection · {collection.bookCount} books
+            </span>
+            <span>
+              <span className="block font-serif text-lg leading-tight text-ink sm:text-2xl">{collection.title}</span>
+              {collection.subtitle && (
+                <span className="mt-1 line-clamp-2 block text-xs text-ink/75 sm:mt-2 sm:text-sm">{collection.subtitle}</span>
+              )}
+            </span>
+            <span className="text-[10px] text-ink/60 sm:text-[11px]">
+              {collection.chapterCount} chapters · {hours(collection.minutes)}
+            </span>
+          </div>
+          {progress > 0 && (
+            <div className="absolute right-0 bottom-0 left-0 z-10 h-1 bg-black/30">
+              <div className="h-full bg-ink/70" style={{ width: `${progress}%` }} />
+            </div>
+          )}
+        </div>
+      </Link>
+
+      <div className="mt-3 min-w-0 flex-1">
+        <h3 className="font-serif text-[15px] leading-snug text-fg">{collection.title}</h3>
+        {collection.description && <p className="mt-1 line-clamp-3 text-xs text-fg-muted">{collection.description}</p>}
+        <p className="mt-2 text-xs text-fg-muted">
+          {readCount > 0 ? `${readCount} of ${collection.chapterCount} chapters read` : "Not started"}
+        </p>
+      </div>
+
+      <Link
+        href={href}
+        className="mt-3 flex items-center justify-center gap-2 rounded-xl bg-accent px-2 py-2 text-sm font-medium text-ink transition hover:bg-accent-2 sm:px-3"
+      >
+        <span className="sm:hidden">Open</span>
+        <span className="hidden sm:inline">Open collection</span>
+        <ChevronRight size={16} />
+      </Link>
+    </article>
+  );
+}
+
+interface BookShelfProps {
+  books: BookMeta[];
+  /** Collection cards shown before the books (top-level shelf only). */
+  collections?: CollectionMeta[];
+  /** Set when this shelf is the inside of a collection. */
+  collection?: CollectionMeta;
+}
+
+export function BookShelf({ books, collections = [], collection }: BookShelfProps) {
   const [done, setDone] = useState<string[]>([]);
   const [started, setStarted] = useState<Record<string, boolean>>({});
 
@@ -73,7 +133,7 @@ export function BookShelf({ books }: { books: BookMeta[] }) {
     };
   }, [books]);
 
-  if (books.length === 0) {
+  if (books.length === 0 && collections.length === 0 && !collection) {
     return (
       <div className="mx-auto w-full max-w-6xl px-4 pb-16 sm:px-6">
         <div className="mt-10 rounded-2xl border border-dashed border-line px-6 py-16 text-center text-fg-muted">
@@ -86,6 +146,37 @@ export function BookShelf({ books }: { books: BookMeta[] }) {
 
   return (
     <div className="mx-auto w-full max-w-6xl px-4 pb-16 sm:px-6">
+      {collection && (
+        <>
+          <nav className="mt-6 flex items-center gap-2 text-sm text-fg-muted" aria-label="Breadcrumb">
+            <Link href="/interview" className="hover:text-fg">
+              All books
+            </Link>
+            <ChevronRight size={14} />
+            <span className="text-fg">{collection.title}</span>
+          </nav>
+          <section className="mt-4 rounded-2xl border border-line bg-bg-2/80 p-5">
+            <h2 className="font-serif text-2xl text-fg">{collection.title}</h2>
+            {collection.description && <p className="mt-1 max-w-3xl text-sm text-fg-muted">{collection.description}</p>}
+            <p className="mt-2 text-sm text-fg-muted">
+              {collection.bookCount} books · {collection.chapterCount} chapters · about {hours(collection.minutes)} of reading ·{" "}
+              {done.filter((k) => k.startsWith(`${collection.slug}/`)).length} chapters read
+            </p>
+          </section>
+        </>
+      )}
+
+      {collections.length > 0 && (
+        <section className="mt-8">
+          <h2 className="mb-4 font-serif text-2xl text-fg">Collections</h2>
+          <div className="grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-3 xl:grid-cols-4">
+            {collections.map((c) => (
+              <CollectionCard key={c.slug} collection={c} readCount={done.filter((k) => k.startsWith(`${c.slug}/`)).length} />
+            ))}
+          </div>
+        </section>
+      )}
+
       <section className="mt-8">
         <h2 className="mb-4 font-serif text-2xl text-fg">Books</h2>
         <div className="grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-3 xl:grid-cols-4">

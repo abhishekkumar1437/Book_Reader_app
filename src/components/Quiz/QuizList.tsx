@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { ChevronRight, Clock, Quiz, Search } from "@/components/ui/icons";
-import { bestScore, localQuizStore, type QuizAttempt } from "@/lib/quiz/storage";
+import { attemptMarks, bestScore, formatMarks, localQuizStore, type QuizAttempt } from "@/lib/quiz/storage";
 import type { QuizSummary } from "@/lib/quiz/types";
 
 interface QuizListProps {
@@ -80,7 +80,7 @@ function SetCard({ set, stats, showSubject }: { set: QuizSummary; stats?: Stats;
       <div className="mt-3 min-h-5 text-xs">
         {best ? (
           <span className="text-fg-muted">
-            Best <span className="font-medium text-accent">{best.score}/{best.total}</span> · {stats?.attempts} attempt
+            Best <span className="font-medium text-accent">{formatMarks(attemptMarks(best))}/{best.total}</span> · {stats?.attempts} attempt
             {stats?.attempts === 1 ? "" : "s"}
           </span>
         ) : (

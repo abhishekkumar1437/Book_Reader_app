@@ -12,7 +12,7 @@ export interface ChapterLink {
 
 /** A book in the interview-prep shelf: one folder of Markdown chapters plus a `book.md` descriptor. */
 export interface BookMeta {
-  /** Folder name, used in URLs. */
+  /** Folder path under `interview/`, used in URLs: "dsa-python", or "bpsc-2027/polity" inside a collection. */
   slug: string;
   title: string;
   subtitle: string;
@@ -21,6 +21,20 @@ export interface BookMeta {
   order: number;
   chapterCount: number;
   /** Total estimated reading time in minutes. */
+  minutes: number;
+  /** The collection this book sits in, if any. */
+  collection: { slug: string; title: string } | null;
+}
+
+/** A shelf card that groups several books: a folder with a `collection.md` descriptor and one sub-folder per book. */
+export interface CollectionMeta {
+  slug: string;
+  title: string;
+  subtitle: string;
+  description: string;
+  order: number;
+  bookCount: number;
+  chapterCount: number;
   minutes: number;
 }
 

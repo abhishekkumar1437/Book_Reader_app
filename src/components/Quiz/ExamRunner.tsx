@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Alert, ChevronLeft, ChevronRight, Clock, Flag } from "@/components/ui/icons";
-import { bestScore, localQuizStore, type InProgressAttempt, type QuizAttempt } from "@/lib/quiz/storage";
+import { attemptMarks, bestScore, formatMarks, localQuizStore, type InProgressAttempt, type QuizAttempt } from "@/lib/quiz/storage";
 import type { QuizSet } from "@/lib/quiz/types";
 import { ResultsView } from "./ResultsView";
 
@@ -79,10 +79,13 @@ export function ExamRunner({ set }: ExamRunnerProps) {
   const submit = useCallback(() => {
     if (!state) return;
     let score = 0;
+    let wrong = 0;
     state.order.forEach((qIndex, pos) => {
       const q = set.questions[qIndex];
       if (q.dropped || state.answers[pos] === q.answer) score++;
+      else if (state.answers[pos] !== null) wrong++;
     });
+    const net = set.negativeMark ? Math.round((score - wrong * set.negativeMark) * 100) / 100 : undefined;
     const attempt: QuizAttempt = {
       id: `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 7)}`,
       setId: set.id,
@@ -94,6 +97,7 @@ export function ExamRunner({ set }: ExamRunnerProps) {
       flagged: state.flagged,
       score,
       total: set.questions.length,
+      net,
     };
     localQuizStore.addAttempt(attempt);
     localQuizStore.setInProgress(set.id, null);
@@ -225,7 +229,7 @@ export function ExamRunner({ set }: ExamRunnerProps) {
               {set.timeLimitMinutes ? "minutes" : "no time limit"}
             </li>
             <li className="rounded-xl border border-line px-3 py-2">
-              <span className="block font-serif text-2xl text-fg">{best ? `${best.score}/${best.total}` : "—"}</span>
+              <span className="block font-serif text-2xl text-fg">{best ? `${formatMarks(attemptMarks(best))}/${best.total}` : "—"}</span>
               {best ? "best score" : "not attempted"}
             </li>
           </ul>
@@ -276,7 +280,10 @@ export function ExamRunner({ set }: ExamRunnerProps) {
           </div>
 
           <p className="mt-6 hidden text-xs text-fg-muted sm:block">
-            Keys: A–D or 1–4 to answer · ← → to move · F to flag for review · one mark per question, no negative marking.
+            Keys: A–D or 1–4 to answer · ← → to move · F to flag for review · one mark per question,{" "}
+            {set.negativeMark
+              ? `minus ${set.negativeMark === 1 / 3 ? "1/3" : formatMarks(set.negativeMark)} for each wrong answer; unanswered costs nothing.`
+              : "no negative marking."}
           </p>
         </div>
 
@@ -288,7 +295,8 @@ export function ExamRunner({ set }: ExamRunnerProps) {
                 <li key={a.id} className="flex items-center justify-between px-4 py-2.5 text-sm">
                   <span className="text-fg-muted">{new Date(a.finishedAt).toLocaleString()}</span>
                   <span className="font-medium text-fg">
-                    {a.score}/{a.total} <span className="text-fg-muted">({Math.round((a.score / a.total) * 100)}%)</span>
+                    {formatMarks(attemptMarks(a))}/{a.total}{" "}
+                    <span className="text-fg-muted">({Math.round((attemptMarks(a) / a.total) * 100)}%)</span>
                   </span>
                 </li>
               ))}

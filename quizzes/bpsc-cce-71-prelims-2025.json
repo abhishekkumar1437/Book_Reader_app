@@ -1,0 +1,1816 @@
+{
+  "title": "71st CCE Prelims (13 Sep 2025) · General Studies · Set H",
+  "subject": "BPSC CCE PYQ",
+  "topic": "Complete official question booklet of the BPSC Integrated 71st Combined Competitive Examination (Preliminary), General Studies, held on 13 September 2025 — 150 questions.",
+  "description": "All 150 questions of booklet series H exactly as printed (English version), with answers from the BPSC final answer key released on 31 October 2025. This paper has four options (A–D) per question; there is no option E, and many questions use 'More than one of the above' as option D. BPSC's final key deleted 5 questions (Q.44, 50, 68, 121, 136), which count as correct for everyone, and changed the answers of Q.20, 38, 90, 109 and 110 from the provisional key. Negative marking: 1/3 mark per wrong answer, as in the real exam. Use the 2-hour timer for a full mock.",
+  "timeLimitMinutes": 120,
+  "negativeMark": 0.3333333333333333,
+  "createdAt": "2026-10-20",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "[Q.1]\nAccording to the UNDP Human Development Index (HDI) Report 2025, life expectancy in India increased from 58.6 years in 1990 to how many years in 2023?",
+      "options": [
+        "72 years",
+        "73 years",
+        "74 years",
+        "More than one of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set H): A. The HDR 2025 puts India's life expectancy at 72.0 years for 2023, the highest it has been, up from 58.6 years in 1990."
+    },
+    {
+      "id": "q2",
+      "question": "[Q.2]\nIn which city was the AI Action Summit held in February 2025?",
+      "options": [
+        "Bengaluru",
+        "Paris",
+        "Rome",
+        "More than one of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set H): B. The AI Action Summit took place in Paris on 10–11 February 2025, with France and India as co-chairs."
+    },
+    {
+      "id": "q3",
+      "question": "[Q.3]\nAt the 96th Academy Awards (2024), Emma Stone won the Oscar for Actress in a Leading Role for her performance in which film?",
+      "options": [
+        "La La Land",
+        "Poor Things",
+        "The Favourite",
+        "More than one of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set H): B. Her 2024 award was for 'Poor Things'. 'La La Land' won her the first one, in 2017."
+    },
+    {
+      "id": "q4",
+      "question": "[Q.4]\nWhich Gujarati film won the 70th National Film Award for Best Feature Film promoting national, social and environmental values?",
+      "options": [
+        "Hellaro",
+        "Chhello Show",
+        "Kutch Express",
+        "More than one of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set H): C. 'Kutch Express' won Best Feature Film Promoting National, Social and Environmental Values at the 70th National Film Awards. It also won Best Gujarati Film."
+    },
+    {
+      "id": "q5",
+      "question": "[Q.5]\nWhich of the following individuals or organisations was a recipient of the Ramon Magsaysay Award 2024?",
+      "options": [
+        "Phuntsho, Karma",
+        "Rural Doctors Movement",
+        "Miyazaki Hayao",
+        "More than one of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set H): D. The 2024 awardees included Karma Phuntsho (Bhutan), the Rural Doctors Movement (Thailand) and Miyazaki Hayao (Japan). Since more than one listed name won, the answer is D."
+    },
+    {
+      "id": "q6",
+      "question": "[Q.6]\nWhich of the following statements are true about Akashteer?",
+      "options": [
+        "Akashteer is the core of the Indian Army's Air Defence (AAD) system",
+        "It seamlessly integrates India's larger C4ISR",
+        "It reflects a strategic shift from passive defence to proactive retaliation",
+        "More than one of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set H): D. Akashteer is the Army's automated air-defence control and reporting system. It is integrated with the wider C4ISR network and is described as marking a shift towards proactive air defence. More than one statement is true."
+    },
+    {
+      "id": "q7",
+      "question": "[Q.7]\nWhich of the following defence platforms are part of India's growing indigenous military ecosystem supported by the Make in India initiative?",
+      "options": [
+        "F-35 Lightning II",
+        "Main Battle Tank (MBT) Arjun",
+        "Advanced Towed Artillery Gun System (ATAGS)",
+        "More than one of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set H): D. Arjun MBT (DRDO) and ATAGS are both indigenous platforms. The F-35 is an American aircraft. Two options are correct, so the answer is D."
+    },
+    {
+      "id": "q8",
+      "question": "[Q.8]\nWhich day is observed as Holocaust Memorial Day?",
+      "options": [
+        "January 15",
+        "January 27",
+        "February 10",
+        "More than one of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set H): B. 27 January is the anniversary of the liberation of Auschwitz-Birkenau in 1945. It is observed as International Holocaust Remembrance Day."
+    },
+    {
+      "id": "q9",
+      "question": "[Q.9]\nWhat is the title of the book by Banu Mushtaq that won the 2025 International Booker Prize?",
+      "options": [
+        "Light of the Heart",
+        "Heart Lamp",
+        "Soul Lantern",
+        "More than one of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set H): B. 'Heart Lamp' is a collection of Kannada short stories translated by Deepa Bhasthi. It won the 2025 International Booker Prize."
+    },
+    {
+      "id": "q10",
+      "question": "[Q.10]\nAccording to the Indus Waters Treaty, the three eastern rivers are allocated to India. Which of the following is not one of them?",
+      "options": [
+        "Jhelum",
+        "Ravi",
+        "Sutlej",
+        "More than one of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set H): A. India gets the eastern rivers: Ravi, Beas and Sutlej. The Jhelum is a western river, allocated mainly to Pakistan along with the Indus and Chenab."
+    },
+    {
+      "id": "q11",
+      "question": "[Q.11]\nWhich of the following statement/s is/are correct about Capability Poverty Measure (CPM) developed by the UNDP?\n1) CPM includes child malnutrition as a proxy for lack of health and nourishment.\n2) Female illiteracy is included to reflect deprivation in education and knowledge.\n3) It considers male illiteracy as a key indicator of capability poverty.\n4) It includes lack of access to clean drinking water as an important indicator of capability poverty.\nSelect the correct answer using the codes given below:",
+      "options": [
+        "1 and 2",
+        "1, 2 and 3",
+        "Only 1",
+        "More than one of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set H): A. The CPM (HDR 1996) has three indicators: underweight children under five, births not attended by trained health personnel, and female illiteracy. Male illiteracy and drinking water are not part of it, so statements 1 and 2 are correct."
+    },
+    {
+      "id": "q12",
+      "question": "[Q.12]\nWhich of the following is not among the top ten principal commodities of India's export during April-September 2024-25?",
+      "options": [
+        "Petroleum Products",
+        "Iron and Steel",
+        "Basmati Rice",
+        "More than one of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set H): C. The key gives Basmati Rice as the item outside the top ten principal export commodities for April–September 2024-25. Petroleum products and iron and steel were both on the list."
+    },
+    {
+      "id": "q13",
+      "question": "[Q.13]\nAccording to India State of Forest Report 2023 (ISFR 2023):",
+      "options": [
+        "The total forest and tree cover of the country is 15% of the geographical area of the country.",
+        "Top three states having largest recorded forest area (RFA) are Jharkhand, Andaman & Nicobar and Manipur.",
+        "The maximum tree cover has been found in the State of Maharashtra followed by Rajasthan and Uttar Pradesh.",
+        "More than one of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set H): C. ISFR 2023 puts total forest and tree cover at about 25.17% of geographical area, not 15%. The largest RFA is in Madhya Pradesh, Arunachal Pradesh and Chhattisgarh. Maharashtra, Rajasthan and Uttar Pradesh do lead in tree cover, so C is the correct statement."
+    },
+    {
+      "id": "q14",
+      "question": "[Q.14]\nWhich of the following countries had greater share than India in the global services export in 2023?",
+      "options": [
+        "Russia",
+        "Ireland",
+        "Indonesia",
+        "More than one of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set H): B. Ireland's share of world services exports (about 5–6%) was above India's (about 4.3%) in 2023. Russia and Indonesia were both well below India."
+    },
+    {
+      "id": "q15",
+      "question": "[Q.15]\nWhich of the following statement/s is/are NOT CORRECT about the U-WIN portal of Ministry of Health and Family welfare?",
+      "options": [
+        "It provides QR-based e-vaccination certificates",
+        "It facilitates the creation of Ayushman Bharat Health Accounts (ABHA) for parents and children.",
+        "The portal is accessible in 11 regional languages",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set H): D. BPSC's remarks say all three statements about U-WIN are correct, so none of them is 'not correct'. U-WIN issues QR-based e-vaccination certificates, creates ABHA IDs, and is available in 11 regional languages."
+    },
+    {
+      "id": "q16",
+      "question": "[Q.16]\nWhich organization jointly developed the National Urban Innovation Stack (NUIS) Digital Blueprint with the Ministry of Housing and Urban Affairs (MoHUA)?",
+      "options": [
+        "Ministry of Electronics and IT",
+        "National Institute of Urban Affairs (NIUA)",
+        "NITI Aayog",
+        "More than one of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set H): B. MoHUA developed the NUIS strategy and approach with the National Institute of Urban Affairs. BPSC's remarks confirm this from the official website."
+    },
+    {
+      "id": "q17",
+      "question": "[Q.17]\nWhich state had the highest constructed road length under Bharatmala Pariyojana as of 31st October 2024?",
+      "options": [
+        "Rajasthan",
+        "Uttar Pradesh",
+        "Maharashtra",
+        "More than one of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set H): A. Rajasthan had the largest length of roads constructed under Bharatmala Pariyojana Phase-I as of 31 October 2024."
+    },
+    {
+      "id": "q18",
+      "question": "[Q.18]\nBefore the launch of Kisan Rin Portal (KRP), farmers used to submit manual claims under the Interest Subvention and Prompt Repayment Incentive schemes to which of the following institution/s?",
+      "options": [
+        "Ministry of Agriculture and Farmers Welfare and NABARD",
+        "Reserve Bank of India and NABARD",
+        "National Payments Corporation of India and Reserve Bank of India",
+        "More than one of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set H): B. Before KRP, these claims went to the RBI (for public and private sector banks) and to NABARD (for RRBs and cooperative banks), as BPSC's remarks state."
+    },
+    {
+      "id": "q19",
+      "question": "[Q.19]\nIndia's foreign exchange reserves:",
+      "options": [
+        "Increased to around USD 640 billion as of the end of December 2024",
+        "Are seventh largest in the world",
+        "Decreased caused by a BoP deficit of around USD 24 billion in 2024",
+        "More than one of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set H): A. BPSC's remarks cite Economic Survey 2024-25 (p. 79): reserves stood at about USD 640 billion at the end of December 2024. Only option A is correct."
+    },
+    {
+      "id": "q20",
+      "question": "[Q.20]\nAs per NFHS-5 data, which of the following state(s) recorded less than 6% of the population as multidimensionally poor in 2019-20?",
+      "options": [
+        "Jammu and Kashmir",
+        "Himachal Pradesh",
+        "Uttar Pradesh",
+        "More than one of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set H): B. The question asks about states. Jammu & Kashmir has been a Union Territory since October 2019, so of the states listed only Himachal Pradesh fits. The provisional key said D; the final key changed it to B."
+    },
+    {
+      "id": "q21",
+      "question": "[Q.21]\nMatch List-I with List-II\nList-I\na) Perform, Achieve and Trade (PAT) scheme\nb) Mangrove Initiative for Shoreline Habitats & Tangible Incomes (MISHTI)\nc) The Lifestyle for Environment (LiFE) initiative\nd) National Clean Air Programme (NCAP)\nList-II\n1) Introduced in the Union Budget for 2023-24\n2) Aims to reduce emissions in energy-intensive industries\n3) Launched in 2019 as a national-level strategy\n4) Launched at COP26 in Glasgow in November 2021",
+      "options": [
+        "a-1, b-3, c-2, d-4",
+        "a-3, b-4, c-1, d-2",
+        "a-2, b-1, c-4, d-3",
+        "More than one of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set H): C. PAT targets energy-intensive industries (a-2). MISHTI was announced in Union Budget 2023-24 (b-1). LiFE was launched by PM Modi at COP26 in Glasgow (c-4). NCAP began in 2019 (d-3)."
+    },
+    {
+      "id": "q22",
+      "question": "[Q.22]\nAccording to Annual PLFS 2023-24 report:",
+      "options": [
+        "There is greater increase in Labour Force Participation Rate (LFPR) of rural females as compared to urban females since 2021-22",
+        "Among the 36 states and union territories, 90% states have a Workforce Participation Rate (WPR) (for all ages) below the national average of 43.7 percent",
+        "The share of female workers in agriculture has decreased significantly from 2017-18 to 2023-24",
+        "More than one of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set H): A. PLFS 2023-24 shows rural female LFPR rising much faster than urban female LFPR, to about 35.5% against about 22.3%. BPSC's remarks say the other two statements are not correct."
+    },
+    {
+      "id": "q23",
+      "question": "[Q.23]\nWhich of the following was NOT the outcome of Science, Technology and Innovation Policy 2020?",
+      "options": [
+        "One nation, one subscription",
+        "Research and Innovation Excellence Frameworks (RIEF)",
+        "Atal Innovation Mission",
+        "More than one of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set H): C. The Atal Innovation Mission was set up by NITI Aayog in 2016, before STIP 2020. 'One Nation One Subscription' and RIEF come from the STIP 2020 draft."
+    },
+    {
+      "id": "q24",
+      "question": "[Q.24]\nShare of Micro, Small and Medium Enterprises in the country's Gross Value Added (GVA) has increased from ____ in 2020-21 to ____ in 2022-23.",
+      "options": [
+        "30.3%, 35.6%",
+        "27.3%, 30.1%",
+        "35.1%, 38.2%",
+        "More than one of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set H): B. According to official MSME data, the MSME share of GVA rose from 27.3% in 2020-21 to 30.1% in 2022-23."
+    },
+    {
+      "id": "q25",
+      "question": "[Q.25]\nWhich of the following statement/s is/are correct regarding the Indian cement industry?\n1) Around 87% of India's cement industry is concentrated in a few major states like Rajasthan, Andhra Pradesh and Madhya Pradesh.\n2) India is the largest producer of cement in the world.\n3) Most cement plants in India are located far from raw material sources and near to the ports to support exports.\nSelect the correct answer using the codes given below:",
+      "options": [
+        "1",
+        "2",
+        "1 and 3",
+        "More than one of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set H): A. Economic Survey 2024-25 says about 87% of cement capacity is in a few states, including these three. India is the second-largest producer after China. Plants sit close to their raw materials, not far from them. Only statement 1 is correct."
+    },
+    {
+      "id": "q26",
+      "question": "[Q.26]\nWhat is the primary objective of Bihar's Mission Daksh?",
+      "options": [
+        "To increase school enrolment in primary schools in rural areas.",
+        "To provide vocational training to teachers at senior-secondary level.",
+        "To offer personalised mentoring for lagging students to reach grade-level competencies.",
+        "More than one of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set H): C. Mission Daksh started in 2023. It gives remedial classes and mentoring to about 25 lakh academically weak students of classes 3–8 in government schools so they reach grade-level competencies."
+    },
+    {
+      "id": "q27",
+      "question": "[Q.27]\nWhich of the following is NOT one of the components under the YUVA framework of the Bihar Startup Policy 2022?",
+      "options": [
+        "Vibrancy in the education system",
+        "Regulatory enablers for support",
+        "International market expansion schemes",
+        "More than one of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set H): C. The YUVA framework covers things like vibrancy in the education system and regulatory enablers. BPSC's remarks say the policy has no international market expansion scheme."
+    },
+    {
+      "id": "q28",
+      "question": "[Q.28]\nWhich of the following statement/s is/are correct about Bihar's economic performance in 2023-24?",
+      "options": [
+        "Bihar's per capita GSDP at current prices increased by 12.8% in 2023-24 over the previous year.",
+        "The estimated share of the tertiary sector in Bihar's GSVA (constant prices) in 2023-24 was 58.6%.",
+        "The Gross Fixed Capital Formation (GFCF) formed 4.6% of GSDP at current prices in 2023-24.",
+        "More than one of the above."
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set H): D. The key gives D, meaning the Bihar Economic Survey 2024-25 supports more than one of these statements, including the per capita GSDP growth and the tertiary sector's share of GSVA."
+    },
+    {
+      "id": "q29",
+      "question": "[Q.29]\nConsider the following statements:\n1) The proportion of the young population (0-19 years) in Bihar is projected to decline significantly by 2041.\n2) Bihar's demographic dividend is expected to peak around 2041.\n3) The elderly population (60 + years) in Bihar is expected to rise more sharply than in India.\nSelect the correct answer using the codes given below:",
+      "options": [
+        "1 and 2 are correct",
+        "1 and 3 are correct",
+        "2 and 3 are correct",
+        "More than one of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set H): A. BPSC's remarks cite Bihar Economic Survey 2024-25 (p. 478, Table A 12.4): statements 1 and 2 are correct. Statement 3 is wrong because Bihar's elderly share is projected to rise less sharply than India's."
+    },
+    {
+      "id": "q30",
+      "question": "[Q.30]\nAccording to PLFS 2023-24, which of the following statements best describe the nature of employment among women in Bihar?",
+      "options": [
+        "Most women are employed in formal, regular wage jobs.",
+        "The majority of women are self-employed, often serving as helpers in household enterprises.",
+        "Majority of women were engaged in secondary sector",
+        "More than one of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set H): B. PLFS 2023-24 shows most working women in Bihar are self-employed, mainly as unpaid helpers in household enterprises, and mostly in agriculture. Few are in formal regular-wage jobs or the secondary sector."
+    },
+    {
+      "id": "q31",
+      "question": "[Q.31]\nThe power to recruit the Secretarial staff of the House of the People is vested in:",
+      "options": [
+        "Union Public Service Commission",
+        "Prime Minister's Office (PMO)",
+        "Staff Selection Commission",
+        "President after consultation with the Speaker of the House of the people"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set H): D. Under Article 98, until Parliament makes a law, the President makes rules for recruitment to the Lok Sabha secretariat after consulting the Speaker."
+    },
+    {
+      "id": "q32",
+      "question": "[Q.32]\nAttorney General of India:",
+      "options": [
+        "He gives advice to the President on legal matters",
+        "Is not entitled of audience except the Supreme Court",
+        "Cannot participate in the proceedings in the House of Parliament",
+        "Is a whole time counsel for the government"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set H): A. Under Article 76, the AG advises the Government of India (the President) on legal matters. The AG has the right of audience in all courts in India, may take part in the proceedings of Parliament without voting (Article 88), and is not a full-time government counsel or servant (Basu)."
+    },
+    {
+      "id": "q33",
+      "question": "[Q.33]\nConsider the following subjects belonging to different lists of the constitution of India. Which of the following subjects belong to concurrent list?\n1) Protection of wildlife\n2) Income on Agriculture\n3) Tax on Electricity consumption or sale\n4) Price control\nOut of these:",
+      "options": [
+        "2 and 3 are correct",
+        "1 and 4 are correct",
+        "Only 4 is correct",
+        "Only 2 is correct"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set H): B. Protection of wild animals and birds (Entry 17B) and price control (Entry 34) are on the Concurrent List. Taxes on agricultural income and on electricity consumption or sale are on the State List."
+    },
+    {
+      "id": "q34",
+      "question": "[Q.34]\nWhich of the following Directive Principles do not follow Gandhian Principles?\n1) Organization of Village Panchayats\n2) Common Civil Code\n3) Promotion of cottage Industry in rural areas\n4) Right to work",
+      "options": [
+        "Only 2",
+        "1 and 2",
+        "2 and 4",
+        "1 and 3"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set H): C. Village panchayats (Article 40) and cottage industries (Article 43) are Gandhian principles. A uniform civil code (Article 44) is liberal-intellectual and the right to work (Article 41) is socialist, so statements 2 and 4 are not Gandhian."
+    },
+    {
+      "id": "q35",
+      "question": "[Q.35]\nWhich pair is not correctly matched?",
+      "options": [
+        "Forms of oath - 3rd schedule",
+        "Allocation of seats in the council of state - 4th schedule",
+        "Administration of scheduled areas - 6th schedule",
+        "Union List - 7th schedule"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set H): C. Administration of Scheduled Areas is in the 5th Schedule. The 6th Schedule covers tribal areas of Assam, Meghalaya, Tripura and Mizoram."
+    },
+    {
+      "id": "q36",
+      "question": "[Q.36]\nConsider the following statements about Central Government:\n1) Ministries and Departments are formed by the Prime Minister with consultation of the Cabinet Secretary.\n2) Every Minister is allocated Ministry by the President on the advice of the Prime Minister.\nOut of these:",
+      "options": [
+        "Only 1 is correct",
+        "Only 2 is correct",
+        "1 and 2 are correct",
+        "Neither 1 nor 2 is correct"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set H): B. The President allocates portfolios on the PM's advice under the Allocation of Business Rules. Ministries are not created by the PM in consultation with the Cabinet Secretary."
+    },
+    {
+      "id": "q37",
+      "question": "[Q.37]\nWhat is true about the proceedings of the State Legislature?",
+      "options": [
+        "Advocate General has right to vote",
+        "Business in the legislature shall be transacted only in official language of the state or in Hindi or in English.",
+        "It can discuss the conduct of any judge of the High Court also",
+        "Validity of proceedings shall be called in question on the ground of any alleged irregularity"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set H): B. Article 210 says business in a State Legislature is transacted in the official language(s) of the State or in Hindi or English. The Advocate General cannot vote (Art. 177). The conduct of High Court judges cannot be discussed (Art. 211). Proceedings cannot be questioned for alleged procedural irregularity (Art. 212)."
+    },
+    {
+      "id": "q38",
+      "question": "[Q.38]\nThe constitution of India provides for reasonable restrictions on Fundamental Rights but reasonableness must keep in mind that:\n1) The interest of the general public is safeguarded\n2) Prevailing social value and also social needs are not bar\n3) Directive principles can be bypassed\n4) Collective good is not greater\nOut of these:",
+      "options": [
+        "2 and 3 are correct",
+        "1 and 2 are correct",
+        "Only 4 is correct",
+        "Only 1 is correct"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set H): B. Under Articles 19(2)–19(6), restrictions must serve the general public interest. The Supreme Court (State of Madras v. V.G. Row, 1952) held that reasonableness is judged against prevailing social values and needs. Statements 1 and 2 are therefore correct. The provisional key said D; the final key changed it to B."
+    },
+    {
+      "id": "q39",
+      "question": "[Q.39]\nWho among the following determines the qualification which shall be requisite for appointment as member of the finance commission?",
+      "options": [
+        "Council of Ministers",
+        "President of India",
+        "Parliament by act",
+        "Union Cabinet"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set H): C. Under Article 280(2), Parliament decides members' qualifications by law. It did so in the Finance Commission (Miscellaneous Provisions) Act, 1951."
+    },
+    {
+      "id": "q40",
+      "question": "[Q.40]\nConsider the following statements:\n1) The summoning of the House means convocation\n2) Prorogation ends a session\n3) Dissolution terminates a House\n4) Prorogation of a session can be effected by the leader of the House alone\nOut of these which is not true?",
+      "options": [
+        "1 and 3",
+        "2 and 3",
+        "Only 2",
+        "Only 4"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set H): D. Statements 1, 2 and 3 are true. Prorogation is ordered by the President (or the Governor in a state), not by the Leader of the House alone, so only statement 4 is untrue."
+    },
+    {
+      "id": "q41",
+      "question": "[Q.41]\nWho is empowered to review financial position of the Panchayats?",
+      "options": [
+        "Chairman of Block Committee",
+        "Chief Minister",
+        "Chairman of District Council",
+        "Finance Commission constituted by the Governor"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set H): D. Under Article 243-I, the Governor sets up a State Finance Commission every five years to review the financial position of Panchayats."
+    },
+    {
+      "id": "q42",
+      "question": "[Q.42]\nThe Atmanirbhar Bharat Scheme announced by the Government helps in:\n1) Enhancing India's manufacturing capabilities and exports across the industries\n2) Incentivizing foreign investments for domestic production\nOut of these:",
+      "options": [
+        "1 is correct",
+        "2 is correct",
+        "Both 1 and 2 are correct",
+        "Neither 1 nor 2 is correct"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set H): C. Under Atmanirbhar Bharat, measures such as the PLI schemes build manufacturing capacity and exports and encourage investment, including FDI, in domestic production. Both statements are correct."
+    },
+    {
+      "id": "q43",
+      "question": "[Q.43]\nWhat is the main purpose of Panchayati Raj?",
+      "options": [
+        "To increase employment",
+        "To increase agriculture production",
+        "To increase people's political awareness",
+        "To enable people to participate in development administration"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set H): D. Panchayati Raj is meant to let people take part in development administration through local self-government."
+    },
+    {
+      "id": "q44",
+      "question": "[Q.44]\nWhat is true about Censure Motion?",
+      "options": [
+        "It is different from the No-confidence motion",
+        "It is not different from No-confidence motion",
+        "It is not mandatory to mention the reasons in this motion",
+        "Permission of the House is not essential to present it"
+      ],
+      "answer": 0,
+      "dropped": true,
+      "explanation": "Official BPSC final answer key (Set H): Deleted. Deleted by BPSC in the final answer key; counts as correct for everyone. The provisional key had A: a censure motion must state its grounds and differs from a no-confidence motion."
+    },
+    {
+      "id": "q45",
+      "question": "[Q.45]\nWhich one of the following subjects fall within the jurisdiction of both High Court and Supreme Court?",
+      "options": [
+        "Dispute among States",
+        "Dispute between Centre and State",
+        "Protection of fundamental rights",
+        "Protection from the violation of the constitution"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set H): C. Both courts can issue writs to protect fundamental rights: the Supreme Court under Article 32 and High Courts under Article 226. Centre–state and inter-state disputes fall only under the Supreme Court's original jurisdiction (Art. 131)."
+    },
+    {
+      "id": "q46",
+      "question": "[Q.46]\nWhich Indian leader for the first time used the 'safety-valve theory' to attack the Moderates in the Congress?",
+      "options": [
+        "Lala Lajpat Rai",
+        "Bipin Chandra Pal",
+        "Bal Gangadhar Tilak",
+        "Dadabhai Naoroji"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set H): A. Lala Lajpat Rai used the 'safety-valve' theory in 'Young India' (1916) to attack the Moderates. He argued that the Congress had been founded to protect the British Empire."
+    },
+    {
+      "id": "q47",
+      "question": "[Q.47]\nAt which Viceroy was a bomb thrown on the occasion of his state entry into Delhi?",
+      "options": [
+        "Lord Minto",
+        "Lord Curzon",
+        "Lord Hardinge",
+        "Lord Wavell"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set H): C. A bomb was thrown at Lord Hardinge on 23 December 1912 during his state entry into Delhi, the new capital (the Delhi Conspiracy Case, Rash Behari Bose)."
+    },
+    {
+      "id": "q48",
+      "question": "[Q.48]\nWho got an opportunity to become Professor of Indian Philosophy in the University of California in 1911?",
+      "options": [
+        "Virendranath Chattopadhyay",
+        "Sohan Singh Bhakna",
+        "Har Dayal",
+        "Shyamji Krishna Varma"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set H): C. In 1911 Har Dayal became a lecturer in Indian philosophy and Sanskrit in California. BPSC's remarks cite the Dictionary of National Biography and say Berkeley; other accounts name Stanford. He later founded the Ghadar Party."
+    },
+    {
+      "id": "q49",
+      "question": "[Q.49]\nName the Principal of M.A.O. College, Aligarh, who encouraged Muslim Communalism in the last decades of the 19th Century?",
+      "options": [
+        "Minto",
+        "Dunlop Smith",
+        "William Morris",
+        "Theodore Beck"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set H): D. Theodore Beck was Principal of M.A.O. College from 1883 to 1899. He pushed Sayyid Ahmad Khan towards a separatist, pro-British stand and helped found the Patriotic Association (1888)."
+    },
+    {
+      "id": "q50",
+      "question": "[Q.50]\n'The Young India', a Nationalist paper, was started by",
+      "options": [
+        "Mahatma Gandhi",
+        "Annie Besant",
+        "Bal Gangadhar Tilak",
+        "Maulana Abul Kalam Azad"
+      ],
+      "answer": 0,
+      "dropped": true,
+      "explanation": "Official BPSC final answer key (Set H): Deleted. Deleted by BPSC in the final answer key; counts as correct for everyone. BPSC's reason was that the paper's correct name is 'Young India', not 'The Young India'. The provisional key had A, Gandhi's weekly 'Young India'."
+    },
+    {
+      "id": "q51",
+      "question": "[Q.51]\nMaginot Line exists between which countries?",
+      "options": [
+        "France & Germany",
+        "U.S.A. & Canada",
+        "Namibia and Angola",
+        "South Korea & North Korea"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set H): A. France built the Maginot Line of fortifications along its border with Germany in the 1930s."
+    },
+    {
+      "id": "q52",
+      "question": "[Q.52]\nStrait of Hormuz connects-",
+      "options": [
+        "Red sea to Gulf of Aden",
+        "The Persian Gulf to Gulf of Oman",
+        "Red sea to Indian Ocean",
+        "Mediterranean sea to Red sea"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set H): B. The Strait of Hormuz, between Iran and Oman, connects the Persian Gulf to the Gulf of Oman and the Arabian Sea beyond. The Red Sea is linked to the Gulf of Aden by Bab-el-Mandeb."
+    },
+    {
+      "id": "q53",
+      "question": "[Q.53]\nWhere is \"Ground Zero\"?",
+      "options": [
+        "New York",
+        "Greenwich",
+        "Indira Point",
+        "Sriharikota"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set H): A. 'Ground Zero' refers to the site of the World Trade Center twin towers in New York, destroyed on 11 September 2001."
+    },
+    {
+      "id": "q54",
+      "question": "[Q.54]\nWhich of the following Isthmuses has been known as the 'Devil's Neck'?",
+      "options": [
+        "Kra Isthmuses",
+        "Isthmuses of Panama",
+        "Karelian Isthmuses",
+        "Isthmuses of Corinth"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set H): A. The key gives the Kra Isthmus, the narrow neck of land joining the Malay Peninsula to mainland Asia (Thailand/Myanmar)."
+    },
+    {
+      "id": "q55",
+      "question": "[Q.55]\nLadang refers to -",
+      "options": [
+        "Plantation Agriculture",
+        "Shifting Agriculture",
+        "Subsistence type of Agriculture",
+        "Dry forming"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set H): B. Ladang is the name for shifting (slash-and-burn) cultivation in Malaysia and Indonesia, in South-East Asia."
+    },
+    {
+      "id": "q56",
+      "question": "[Q.56]\nWhich is the largest river Island in the world?",
+      "options": [
+        "Majuli Island",
+        "Srirangam Island",
+        "Bhavani Island",
+        "Agatti Island"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set H): A. Majuli, in the Brahmaputra in Assam, is recognised as the world's largest river island."
+    },
+    {
+      "id": "q57",
+      "question": "[Q.57]\nThe second largest river basin of India is -",
+      "options": [
+        "Narmada river basin",
+        "Mahanadi river basin",
+        "Godavari river basin",
+        "Kaveri river basin"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set H): C. The Godavari basin, about 3.13 lakh sq km, is India's second-largest after the Ganga basin."
+    },
+    {
+      "id": "q58",
+      "question": "[Q.58]\nWhich of the following is the place of confluence of the Alaknanda and Bhagirathi?",
+      "options": [
+        "Karnaprayag",
+        "Vishnuprayag",
+        "Rudraprayag",
+        "Devprayag"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set H): D. The Alaknanda and Bhagirathi meet at Devprayag to form the Ganga. Rudraprayag is where the Alaknanda meets the Mandakini, and Karnaprayag where it meets the Pindar."
+    },
+    {
+      "id": "q59",
+      "question": "[Q.59]\nThe two volcanic Islands in the Indian Territory are -",
+      "options": [
+        "Bitra and Kavaratti",
+        "Kavaratti and New Moore",
+        "Pamban and Barren",
+        "Narcondam and Barren"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set H): D. India's two volcanic islands, Barren Island (active) and Narcondam (dormant), are both in the Andaman Sea."
+    },
+    {
+      "id": "q60",
+      "question": "[Q.60]\nThe art of crafting which item in Meerut has received a GI tag?",
+      "options": [
+        "Musical Instruments",
+        "Sports Goods",
+        "Laddoo",
+        "Scissors"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set H): D. Meerut scissors (Meerut Kainchi) received a GI tag in 2013."
+    },
+    {
+      "id": "q61",
+      "question": "[Q.61]\nIn India the Temperate Forest Research center is in which city?",
+      "options": [
+        "Ranchi",
+        "Shimla",
+        "Srinagar",
+        "Dehradun"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set H): B. ICFRE's Himalayan Forest Research Institute in Shimla is the institute for temperate (Himalayan) forest research."
+    },
+    {
+      "id": "q62",
+      "question": "[Q.62]\nKanha National Park is established in -",
+      "options": [
+        "Assam",
+        "Uttarakhand",
+        "Madhya Pradesh",
+        "Maharashtra"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set H): C. Kanha National Park and Tiger Reserve is in the Mandla and Balaghat districts of Madhya Pradesh."
+    },
+    {
+      "id": "q63",
+      "question": "[Q.63]\n'Loktak' is a ____.",
+      "options": [
+        "Lake",
+        "Valley",
+        "River",
+        "Mountain series"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set H): A. Loktak, in Manipur, is the largest freshwater lake in North-East India and is known for its phumdis and the Keibul Lamjao National Park."
+    },
+    {
+      "id": "q64",
+      "question": "[Q.64]\nWhich of the following parks/sanctuaries come under the project tiger in Bihar?",
+      "options": [
+        "Valmiki National Park",
+        "Udaypur Wildlife Sanctuary",
+        "Bhimbandh Wildlife Sanctuary",
+        "None of these"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set H): A. Valmiki Tiger Reserve in West Champaran became a Project Tiger reserve in 1990."
+    },
+    {
+      "id": "q65",
+      "question": "[Q.65]\nWhich of the following is the state animal of Bihar?",
+      "options": [
+        "Bull",
+        "Cow",
+        "Buffalo",
+        "Horse"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set H): A. BPSC's remarks say the state animal is the Gaur, a wild ox sometimes called the bull, so 'Bull' is taken as the answer."
+    },
+    {
+      "id": "q66",
+      "question": "[Q.66]\nIn which year, the Nalanda University was re-established in Bihar?",
+      "options": [
+        "2007",
+        "2005",
+        "2008",
+        "2014"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set H): D. The Nalanda University Act was passed in 2010. BPSC's remarks note that the university started functioning in 2014."
+    },
+    {
+      "id": "q67",
+      "question": "[Q.67]\nKarmanasa river originates in -",
+      "options": [
+        "Vaishali District",
+        "Kaimur District",
+        "Patna District",
+        "Bikram District"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set H): B. The Karmanasa rises in the Kaimur hills, as BPSC's remarks note, and joins the Ganga near Chausa/Buxar."
+    },
+    {
+      "id": "q68",
+      "question": "[Q.68]\nBihar produces ____% of pyrite of whole India?",
+      "options": [
+        "85",
+        "75",
+        "95",
+        "100"
+      ],
+      "answer": 2,
+      "dropped": true,
+      "explanation": "Official BPSC final answer key (Set H): Deleted. Deleted by BPSC in the final answer key; counts as correct for everyone. Bihar currently produces no pyrite, though it holds about 95% of India's reserves. The provisional key had C."
+    },
+    {
+      "id": "q69",
+      "question": "[Q.69]\nGold is found in which district of Bihar?",
+      "options": [
+        "Jamui District",
+        "Gaya District",
+        "Nalanda District",
+        "Bhagalpur District"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set H): A. The Karmatiya–Sono area of Jamui district holds India's largest gold ore reserves."
+    },
+    {
+      "id": "q70",
+      "question": "[Q.70]\nMost of the Bihar comes under which of the following climate type?",
+      "options": [
+        "Tropical savannah",
+        "Subtropical Monsoon",
+        "Hot and dry",
+        "Hot and Semi Arid"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set H): B. Most of Bihar has a humid subtropical monsoon climate (Koppen Cwa)."
+    },
+    {
+      "id": "q71",
+      "question": "[Q.71]\nWe apply a force of 200 Newtons on a wooden Box and push it on the floor at constant velocity. The marginal friction force will be:",
+      "options": [
+        "200 Newtons",
+        "100 Newtons",
+        "300 Newtons",
+        "400 Newtons"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set H): A. At constant velocity the net force is zero, so friction balances the push exactly: 200 N."
+    },
+    {
+      "id": "q72",
+      "question": "[Q.72]\nA truck starts from rest down a hill with a constant acceleration. It achieves 400 meters in 20 seconds. If the weight of the truck is 7 tons then what will be the force acting on it?",
+      "options": [
+        "12000 Newtons",
+        "11000 Newtons",
+        "13000 Newtons",
+        "14000 Newtons"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set H): D. s = (1/2)at² gives 400 = (1/2)a(400), so a = 2 m/s². F = ma = 7000 kg × 2 = 14000 N. BPSC notes that '7 tons' here means mass."
+    },
+    {
+      "id": "q73",
+      "question": "[Q.73]\nEnergy consumed in a home is 250 units then the total energy in Joule will be:",
+      "options": [
+        "8×10^6",
+        "9×10^5",
+        "9×10^8",
+        "10^5"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set H): C. 1 unit = 1 kWh = 3.6 × 10^6 J, so 250 units = 250 × 3.6 × 10^6 = 9 × 10^8 J."
+    },
+    {
+      "id": "q74",
+      "question": "[Q.74]\nIn which medium, the speed of sound is maximum?",
+      "options": [
+        "Water",
+        "Steel",
+        "Air",
+        "Hydrogen"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set H): B. Sound travels fastest in solids. In steel it moves at about 5000–6000 m/s, against about 1500 m/s in water and 343 m/s in air."
+    },
+    {
+      "id": "q75",
+      "question": "[Q.75]\nThe potential energy of a freely falling body continuously decreases.",
+      "options": [
+        "The principle of conservation of energy is not violated",
+        "The principle of conservation of energy is violated",
+        "Gravitational force is violated",
+        "Gravitational force is not violated"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set H): A. The lost potential energy becomes kinetic energy, so their total stays constant and conservation of energy is not violated."
+    },
+    {
+      "id": "q76",
+      "question": "[Q.76]\nA pair of Oxen exerts a force of 140 newton while ploughing the field. The field ploughed is 15 meter long. The work done in ploughing the length of the field is:",
+      "options": [
+        "2000 Joule",
+        "1900 Joule",
+        "2100 Joule",
+        "2200 Joule"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set H): C. W = F × d = 140 N × 15 m = 2100 J."
+    },
+    {
+      "id": "q77",
+      "question": "[Q.77]\nThe focal distance of a plane mirror is",
+      "options": [
+        "-1 cm",
+        "+1 cm",
+        "2 cm",
+        "Infinity"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set H): D. A plane mirror is a spherical mirror of infinite radius of curvature, so its focal length (R/2) is infinite."
+    },
+    {
+      "id": "q78",
+      "question": "[Q.78]\nWhich term in the following does not denote the electric power in electric circuit?",
+      "options": [
+        "IR²",
+        "I²R",
+        "VI",
+        "V²/R"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set H): A. P = VI = I²R = V²/R. 'IR²' is not an expression for power."
+    },
+    {
+      "id": "q79",
+      "question": "[Q.79]\nIn short circuit, the value of electric current in a time circuit:",
+      "options": [
+        "Do not change",
+        "Very low",
+        "Increases very high",
+        "Continuously changing"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set H): C. In a short circuit the resistance drops to almost zero, so by Ohm's law (I = V/R) the current becomes very large."
+    },
+    {
+      "id": "q80",
+      "question": "[Q.80]\nWhat is the device to protect equipments from the electric shock?",
+      "options": [
+        "Generator",
+        "Fuse",
+        "Motor",
+        "Current controller"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set H): B. A fuse melts and breaks the circuit when too much current flows, protecting the appliances."
+    },
+    {
+      "id": "q81",
+      "question": "[Q.81]\npH value of 0.1 N HCl solution is approximately:",
+      "options": [
+        "11.0",
+        "1.0",
+        "10",
+        "2.0"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set H): B. HCl is a strong acid, so [H+] = 0.1 M and pH = -log(10^-1) = 1."
+    },
+    {
+      "id": "q82",
+      "question": "[Q.82]\nWhich Compound is known as night glowing pigment from below?",
+      "options": [
+        "Copper Sulphide dopped zinc oxide",
+        "Europium dopped strontium aluminate",
+        "Barium sulphate dopped copper carbonate",
+        "Boron oxide dopped copper sulphate"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set H): B. Europium-doped strontium aluminate (SrAl2O4:Eu, Dy) is the standard long-lasting glow-in-the-dark (phosphorescent) pigment."
+    },
+    {
+      "id": "q83",
+      "question": "[Q.83]\nWhich Material is used for smart film?",
+      "options": [
+        "Calcium carbonate",
+        "Indium tin oxide",
+        "Zinc chloride",
+        "Silica"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set H): B. Smart (switchable) films use indium tin oxide, a transparent conducting oxide, as their electrode layers."
+    },
+    {
+      "id": "q84",
+      "question": "[Q.84]\nWhich metal compound is used for treatment of carcinoma?",
+      "options": [
+        "Chromium",
+        "Platinum",
+        "Iron",
+        "Chlorine"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set H): B. Platinum compounds such as cisplatin, carboplatin and oxaliplatin are widely used against carcinomas. They bind to the cancer cell's DNA, block its replication and cause cell death."
+    },
+    {
+      "id": "q85",
+      "question": "[Q.85]\nWhich compound is used in contraceptive pills?",
+      "options": [
+        "Levonorgestrel",
+        "Cholecalciferol",
+        "Vanlaflexine",
+        "Cetrizine"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set H): A. Levonorgestrel is a synthetic progestin used in oral and emergency contraceptive pills. Cholecalciferol is vitamin D3, venlafaxine is an antidepressant, and cetirizine is an antihistamine."
+    },
+    {
+      "id": "q86",
+      "question": "[Q.86]\nWhy oil is not stored in galvanized iron pot?",
+      "options": [
+        "It produce toxic compound",
+        "It reduced quality of oil",
+        "Corrosion observed",
+        "All of above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set H): D. The zinc coating reacts with free fatty acids and moisture in the oil. This forms toxic zinc salts, spoils the oil, and corrodes and discolours the pot."
+    },
+    {
+      "id": "q87",
+      "question": "[Q.87]\nWhich compound is used for increase of octane rating?",
+      "options": [
+        "Tetramethyl Oxide",
+        "Trimethyl hexane",
+        "Tetraethyllead",
+        "Triethyl toluene"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set H): C. Tetraethyllead (TEL) was the classic anti-knock additive used to raise the octane rating of petrol."
+    },
+    {
+      "id": "q88",
+      "question": "[Q.88]\nFull form of PHBV biodegradable polymer:",
+      "options": [
+        "Poly hydroxy butane veratric acid",
+        "Polyhydroxy butyl vaniline",
+        "Poly (3 - Hydroxy butyrate-co-3 hydroxy valerate)",
+        "Poly hydroxy butyric acid veratric acid"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set H): C. PHBV stands for poly(3-hydroxybutyrate-co-3-hydroxyvalerate). It is a biodegradable copolymer of 3-hydroxybutanoic and 3-hydroxypentanoic acids."
+    },
+    {
+      "id": "q89",
+      "question": "[Q.89]\nHormones are secreted by:",
+      "options": [
+        "Reproductive glands",
+        "Sebaceous glands",
+        "Exocrine glands",
+        "Endocrine glands"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set H): D. Endocrine (ductless) glands secrete hormones straight into the bloodstream. Exocrine glands, such as the sebaceous glands, secrete through ducts."
+    },
+    {
+      "id": "q90",
+      "question": "[Q.90]\nWhich one of the following term characterizes the interaction between herpes simplex virus and a human?",
+      "options": [
+        "Symbiosis",
+        "Parasitism",
+        "Endosymbiosis",
+        "Endoparasitism"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set H): D. Herpes simplex virus is an obligate intracellular parasite that uses host cell machinery to replicate, which BPSC treats as endoparasitism. The provisional key said B; the final key changed it to D."
+    },
+    {
+      "id": "q91",
+      "question": "[Q.91]\nWhich class of immunoglobulin is the first to be produced in response to an infection?",
+      "options": [
+        "IgA",
+        "IgG",
+        "IgM",
+        "IgE"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set H): C. IgM is the first antibody made in a primary immune response. IgG follows later."
+    },
+    {
+      "id": "q92",
+      "question": "[Q.92]\nThe biological membranes are composed of:",
+      "options": [
+        "Lipids and proteins in varying combinations which are specific to each species, cell type and organelle",
+        "Lipids only",
+        "Proteins only",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set H): A. Biological membranes are lipoprotein structures. Their lipid and protein make-up varies with species, cell type and organelle."
+    },
+    {
+      "id": "q93",
+      "question": "[Q.93]\nWhich of the following is a non-sense codon?",
+      "options": [
+        "AUG",
+        "UAA",
+        "UUU",
+        "UGC"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set H): B. The stop (nonsense) codons are UAA, UAG and UGA. AUG is the start codon."
+    },
+    {
+      "id": "q94",
+      "question": "[Q.94]\nThe species which are in danger of extinction are known as?",
+      "options": [
+        "Rare",
+        "Vulnerable",
+        "Endangered",
+        "Extinct"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set H): C. IUCN defines endangered species as those at very high risk of extinction in the near future. Vulnerable species face a high risk in the medium term."
+    },
+    {
+      "id": "q95",
+      "question": "[Q.95]\nWhich of the following is a Kharif crop?",
+      "options": [
+        "Barley",
+        "Sugarcane",
+        "Gram",
+        "Wheat"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set H): B. Barley, gram and wheat are rabi crops. BPSC treats sugarcane as a kharif crop because it is sown at the start of the monsoon."
+    },
+    {
+      "id": "q96",
+      "question": "[Q.96]\nXylem in plants is responsible for following function:",
+      "options": [
+        "Transport of foods",
+        "Transport of water and dissolved minerals",
+        "Transport of oxygen and other gases",
+        "Transport of essential amino acids"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set H): B. Xylem carries water and dissolved minerals up from the roots. Phloem carries food."
+    },
+    {
+      "id": "q97",
+      "question": "[Q.97]\nWho was first to use the characteristics of vascular tissues in the classification of plants?",
+      "options": [
+        "Engler and Prantl",
+        "Bentham and Hooker",
+        "A P de Condolle",
+        "More than one of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set H): C. A.P. de Candolle first used vascular tissue characters to classify plants. He separated vascular from non-vascular (cellular) plants."
+    },
+    {
+      "id": "q98",
+      "question": "[Q.98]\nThe part which we eat in Mango is:",
+      "options": [
+        "Epicarp",
+        "Mesocarp",
+        "Endocarp",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set H): B. Mango is a drupe. Its fleshy, edible part is the mesocarp, and the endocarp is the hard stone."
+    },
+    {
+      "id": "q99",
+      "question": "[Q.99]\nOzone day is celebrated on:",
+      "options": [
+        "5th June",
+        "16th September",
+        "21st April",
+        "5th December"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set H): B. The International Day for the Preservation of the Ozone Layer is 16 September, the date the Montreal Protocol was signed in 1987."
+    },
+    {
+      "id": "q100",
+      "question": "[Q.100]\nIn mycorrhizal association, the advantage of plant is:",
+      "options": [
+        "Protection",
+        "Food",
+        "(A) and (B) both",
+        "Increased mineral absorption and diseases protection"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set H): D. Mycorrhizal fungi help the plant absorb minerals (especially phosphorus) and water through their hyphae. They also protect it from root-borne pathogens and raise its disease resistance."
+    },
+    {
+      "id": "q101",
+      "question": "[Q.101]\nWhich Commission accentuated the discontent in all the political groups and parties for not associating any Indian member in it?",
+      "options": [
+        "Cripps Mission",
+        "Welby Commission",
+        "Simon Commission",
+        "Cabinet Mission"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set H): C. The Simon Commission (1927) was all-white, with no Indian member. Almost every Indian party boycotted it ('Simon Go Back')."
+    },
+    {
+      "id": "q102",
+      "question": "[Q.102]\nWho assumed the command of the Indian National Army and gave famous battle cry, 'Chalo Delhi'?",
+      "options": [
+        "Mohan Singh",
+        "Rash Behari Bose",
+        "Shah Nawaz Khan",
+        "Subhash Chandra Bose"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set H): D. Subhas Chandra Bose took command of the INA in Singapore in 1943 and gave the battle cry 'Dilli Chalo'."
+    },
+    {
+      "id": "q103",
+      "question": "[Q.103]\n\"We shall either free India or die in the attempt ...\" who said it?",
+      "options": [
+        "Mahatma Gandhi",
+        "Jawaharlal Nehru",
+        "Abul Kalam Azad",
+        "V.D. Savarkar"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set H): A. In his 'Do or Die' speech at the Quit India session (8 August 1942), Gandhi said: 'We shall either free India or die in the attempt'."
+    },
+    {
+      "id": "q104",
+      "question": "[Q.104]\nWho raised the cry \"Divide and Quit\"?",
+      "options": [
+        "M.A. Jinnah",
+        "M.A. Ansari",
+        "Jawaharlal Nehru",
+        "Muhammad Iqbal"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set H): A. Jinnah answered Congress's 'Quit India' call (August 1942) with 'Divide and Quit'. Of the options, only he could have: Ansari and Nehru opposed Partition, and Iqbal died in 1938."
+    },
+    {
+      "id": "q105",
+      "question": "[Q.105]\nWhich Act provided for the partition of India into two new dominions - India and Pakistan?",
+      "options": [
+        "Govt. of India Act, 1919",
+        "Govt. of India Act, 1935",
+        "Indian Independence Act, 1947",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set H): C. The Indian Independence Act, 1947 created two independent dominions, India and Pakistan, from 15 August 1947."
+    },
+    {
+      "id": "q106",
+      "question": "[Q.106]\nWhich Congress leader visited Bihar in 1918 in order to strengthen the activities of Home Rule League?",
+      "options": [
+        "Annie Besant",
+        "B.G Tilak",
+        "Mahatma Gandhi",
+        "M.A. Ansari"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set H): A. Annie Besant, who presided over the 1917 Congress session, visited Bihar in 1918 for the Home Rule movement."
+    },
+    {
+      "id": "q107",
+      "question": "[Q.107]\nChamparan Agrarian Committee was appointed in agreement between:",
+      "options": [
+        "Indian Government and Raj Kumar Shukla",
+        "Indian Government and Gandhiji",
+        "Indian Government and Rajendra Prasad",
+        "Indian Government and Anugraha Narayan Singh"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set H): B. After Gandhi's 1917 Champaran inquiry, the government agreed with him to set up the Champaran Agrarian Committee. He sat on it as the peasants' representative."
+    },
+    {
+      "id": "q108",
+      "question": "[Q.108]\nWho was the prominent leader of Kisan Sabha movement in Bihar?",
+      "options": [
+        "Sahajanand Saraswati",
+        "Raj Kumar Shukla",
+        "Acharya Narendra Dev",
+        "Baba Ram Chandra"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set H): A. Swami Sahajanand Saraswati founded the Bihar Provincial Kisan Sabha (1929) and became the first president of the All India Kisan Sabha (1936)."
+    },
+    {
+      "id": "q109",
+      "question": "[Q.109]\nWho was murdered while hoisting the national flag under the area of Bikram Police Station?",
+      "options": [
+        "Raghunath Singh of Gorakhari",
+        "Ram Narain of Bikrampur",
+        "Satyendra of Gorakhari",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set H): D. BPSC says the names in the options differ from the real name, Rang Nath Sharma alias Raghunath Sharma. The provisional key said A; the final key changed it to D."
+    },
+    {
+      "id": "q110",
+      "question": "[Q.110]\nWho became Chief Minister of Bihar in March 1939?",
+      "options": [
+        "Anugraha Narain Singh",
+        "Rajendra Prasad",
+        "Shri Krishna Singh",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set H): D. Shri Krishna Sinha had been Premier of Bihar since 1937. There was no post called 'Chief Minister' in 1939, and the name in option C is also misspelt. The provisional key said C; the final key changed it to D."
+    },
+    {
+      "id": "q111",
+      "question": "[Q.111]\nMatch List I with List II\nList-I (Places in Ancient India)\na) Karnasuvarna\nb) Pragjyotish\nc) Girnar\nd) Pratishthan\nList-II (Presently in which State)\n1) Maharashtra\n2) Gujarat\n3) West Bengal\n4) Assam\nSelect the correct answer using the codes given below:",
+      "options": [
+        "a-3, b-4, c-2, d-1",
+        "a-4, b-3, c-1, d-2",
+        "a-3, b-2, c-4, d-1",
+        "a-4, b-2, c-1, d-3"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set H): A. Karnasuvarna was Shashanka's capital in West Bengal. Pragjyotishpura is in Assam. Girnar (Junagadh) is in Gujarat. Pratishthan (Paithan) is in Maharashtra."
+    },
+    {
+      "id": "q112",
+      "question": "[Q.112]\nWhich one of the following is not related to the Rigvedic period?",
+      "options": [
+        "Gargi",
+        "Ghosha",
+        "Apala",
+        "Vishvavara"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set H): A. Ghosha, Apala and Vishvavara were women seers of the Rigvedic (early Vedic) period. Gargi belongs to the later Vedic and Upanishadic period, where she debates Yajnavalkya in the Brihadaranyaka Upanishad."
+    },
+    {
+      "id": "q113",
+      "question": "[Q.113]\nMatch List I with List II\nList-I (Event/Place)\na) Chola Gangam Lake\nb) Appointment of Dharma Mahamatra\nc) Assembly at Prayag\nd) Sudarshan Lake\nList-II (Connected with Person)\n1) Chandragupta Maurya\n2) Harshavardhan\n3) Rajendra I\n4) Ashoka\nSelect the correct answer using the codes given below:",
+      "options": [
+        "a-1, b-4, c-2, d-3",
+        "a-3, b-4, c-2, d-1",
+        "a-3, b-4, c-1, d-2",
+        "a-2, b-3, c-1, d-4"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set H): B. Rajendra I built the Chola Gangam tank at Gangaikonda Cholapuram. Ashoka appointed the Dhamma Mahamattas. Harsha held his quinquennial assembly at Prayag. The Sudarshan lake was built under Chandragupta Maurya by Pushyagupta."
+    },
+    {
+      "id": "q114",
+      "question": "[Q.114]\nWho among the following rulers, ruled for the maximum period?",
+      "options": [
+        "Muhammad bin Tughluq",
+        "Alauddin Khilji",
+        "Bahlol Lodi",
+        "Balban"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set H): C. Bahlol Lodi reigned for about 38 years (1451–1489). Muhammad bin Tughluq ruled about 26 years, Alauddin about 20 and Balban about 21."
+    },
+    {
+      "id": "q115",
+      "question": "[Q.115]\nConsider the following dynasties of Ancient India:\n1) Shunga\n2) Maurya\n3) Kushana\n4) Kanva\nWhich of the following is the correct chronological order of their rule?",
+      "options": [
+        "1-2-3-4",
+        "2-1-4-3",
+        "2-3-1-4",
+        "2-1-3-4"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set H): B. The order is Maurya (c. 322–185 BCE), Shunga (185–73 BCE), Kanva (73–28 BCE), then Kushana (1st–3rd century CE)."
+    },
+    {
+      "id": "q116",
+      "question": "[Q.116]\nWhich one of the following is not written by Tulsidas?",
+      "options": [
+        "Vinay Patrika",
+        "Geetavali",
+        "Sahitya Lahari",
+        "Kavitavali"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set H): C. 'Sahitya Lahari' is by Surdas. Vinay Patrika, Gitavali and Kavitavali are by Tulsidas."
+    },
+    {
+      "id": "q117",
+      "question": "[Q.117]\nMatch List I with List II\nList-I (Building)\na) Kabuli Bagh Mosque\nb) Adhai Din Ka Jhopra\nc) Allahabad Fort\nd) Itmad-ud-Daulah Mausoleum\nList-II (Built by)\n1) Qutb ud-Din Aibak\n2) Nur Jahan\n3) Akbar\n4) Babar\nSelect the correct answer using the codes given below:",
+      "options": [
+        "a-2, b-1, c-4, d-3",
+        "a-4, b-1, c-3, d-2",
+        "a-4, b-1, c-2, d-3",
+        "a-1, b-4, c-3, d-2"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set H): B. Babur built the Kabuli Bagh mosque at Panipat. Aibak built the Adhai Din ka Jhonpra at Ajmer. Akbar built the Allahabad Fort. Nur Jahan built the tomb of her father, Itmad-ud-Daulah, at Agra."
+    },
+    {
+      "id": "q118",
+      "question": "[Q.118]\nWhich one of the following is not correctly matched?\nPerson - Associated with",
+      "options": [
+        "Dayananda Saraswati - Satyarth Prakash",
+        "James Augustus Hicky - Calcutta Chronicle",
+        "Ramaswamy Naicker - Justice Party",
+        "Jyotirao Phule - Satyashodhak Samaj"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set H): B. Hicky started the 'Bengal Gazette' (Hicky's Bengal Gazette) in 1780, India's first newspaper, not the 'Calcutta Chronicle'."
+    },
+    {
+      "id": "q119",
+      "question": "[Q.119]\nMatch List I with List II\nList-I (Father)\na) Babar\nb) Akbar\nc) Shah Jahan\nd) Jahangir\nList-II (Son)\n1) Salim\n2) Khusrau\n3) Kamran\n4) Murad\nSelect the correct answer using the codes given below:",
+      "options": [
+        "a-3, b-1, c-4, d-2",
+        "a-4, b-1, c-3, d-2",
+        "a-3, b-1, c-2, d-4",
+        "a-4, b-2, c-3, d-1"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set H): A. Kamran was Babur's son, Salim was Akbar's, Murad (Murad Bakhsh) was Shah Jahan's, and Khusrau was Jahangir's. BPSC gives the matching a-3, b-1, c-4, d-2."
+    },
+    {
+      "id": "q120",
+      "question": "[Q.120]\nWhich Buddhist council was not held in Bihar?",
+      "options": [
+        "Second",
+        "First",
+        "Third",
+        "Fourth"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set H): D. The first council was at Rajgir, the second at Vaishali and the third at Pataliputra, all in Bihar. The fourth was held at Kundalvana in Kashmir under Kanishka."
+    },
+    {
+      "id": "q121",
+      "question": "[Q.121]\nWhich of the following statements about Subhas Chandra Bose are correct?\n1) He was elected President of the Indian National Congress at Tripuri session of 1938 A.D.\n2) He escaped from home internment in January 1941 A.D.\n3) On October 21st 1943 A.D. he constituted the Provincial Government of India in Singapore.",
+      "options": [
+        "Only 2 and 3",
+        "Only 1 and 2",
+        "Only 1 and 3",
+        "1, 2 and 3"
+      ],
+      "answer": 0,
+      "dropped": true,
+      "explanation": "Official BPSC final answer key (Set H): Deleted. Deleted by BPSC in the final answer key; counts as correct for everyone. Statement 3 is wrong: Bose formed the 'Provisional', not 'Provincial', Government of Free India. Statement 1 is also wrong, since the Tripuri session was in 1939. Only statement 2 is correct, and no option offers '2 only'. The provisional key had A."
+    },
+    {
+      "id": "q122",
+      "question": "[Q.122]\nWho among the following was not an Acharya in The Nalanda Vishvavidyalaya?",
+      "options": [
+        "Kautilya",
+        "Nagarjuna",
+        "Sheelbhadra",
+        "Shantirakshit"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set H): A. Nagarjuna, Shilabhadra and Shantarakshita were Acharyas at Nalanda Mahavihara. Kautilya (Chanakya) is linked with Takshashila, not Nalanda."
+    },
+    {
+      "id": "q123",
+      "question": "[Q.123]\nConsider the following events of Modern Indian History -\n1) Death sentence to Raja Nand Kumar\n2) Treaty of Salbai\n3) Battle of Wandiwash\n4) Death of Tipu Sultan\nWhich of the following is the correct chronological order of the above events?",
+      "options": [
+        "3-1-2-4",
+        "2-3-4-1",
+        "2-4-1-3",
+        "3-2-1-4"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set H): A. The order is Battle of Wandiwash (1760), Nand Kumar's execution (1775), Treaty of Salbai (1782), then Tipu Sultan's death (1799)."
+    },
+    {
+      "id": "q124",
+      "question": "[Q.124]\nAmong the following Newspapers of Bihar, which was the first one to get published?",
+      "options": [
+        "Patna Harkara",
+        "Bihar Bandhu",
+        "Akhbar-E-Bihar",
+        "Bihar Herald"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set H): A. BPSC's remarks call 'Patna Harkara' the first newspaper published from Bihar. They cite S.A. Qadri, 'Urdu Sahafat Bihar mein' (2005), p. 65."
+    },
+    {
+      "id": "q125",
+      "question": "[Q.125]\nMatch List I with List II\nList-I (Event/Organisation)\na) Champaran Satyagrah\nb) Azad Dasta\nc) Individual Satyagrah in Bihar 1940\nd) Kisan Sabha Bihar\nList-II (Related Person)\n1) Jayaprakash Narayan\n2) Shyam Narayan Singh\n3) Sahajanand Saraswati\n4) Dr. Rajendra Prasad\nSelect the correct answer using the codes given below:",
+      "options": [
+        "a-2, b-3, c-1, d-4",
+        "a-4, b-2, c-3, d-1",
+        "a-1, b-4, c-3, d-2",
+        "a-4, b-1, c-2, d-3"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set H): D. Rajendra Prasad worked with Gandhi in the Champaran Satyagraha. JP organised the Azad Dasta from Nepal. Shyam Narayan Singh is linked with the 1940 Individual Satyagraha in Bihar. Swami Sahajanand led the Bihar Kisan Sabha."
+    },
+    {
+      "id": "q126",
+      "question": "[Q.126]\nIn the following question, out of four words given below, three are alike in some manner and fourth word is different. Find the different one.",
+      "options": [
+        "TELESCOPE",
+        "MICROSCOPE",
+        "STETHOSCOPE",
+        "PERISCOPE"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set H): C. Telescope, microscope and periscope are optical instruments for seeing. A stethoscope is for listening."
+    },
+    {
+      "id": "q127",
+      "question": "[Q.127]\nSPRING is written in a code as UNUFRC. How will the word MOBILE be mentioned in that code language?",
+      "options": [
+        "OMPGNC",
+        "OMEFPA",
+        "MPQSUL",
+        "SEGRFT"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set H): B. The letters are shifted +2, -2, +3, -3, +4, -4 (S→U, P→N, R→U, I→F, N→R, G→C). For MOBILE: M→O, O→M, B→E, I→F, L→P, E→A, giving OMEFPA."
+    },
+    {
+      "id": "q128",
+      "question": "[Q.128]\nMukesh said to his friend, \"Rita is the mother of my son's wife's daughter\". How is Mukesh related to Rita?",
+      "options": [
+        "Son-in-law",
+        "Father",
+        "Son",
+        "Father-in-law"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set H): D. The mother of Mukesh's son's wife's daughter is the son's wife herself. Rita is his daughter-in-law, so Mukesh is her father-in-law."
+    },
+    {
+      "id": "q129",
+      "question": "[Q.129]\nRam goes North, turn right, then goes right again and then goes to left. In which direction Ram is now?",
+      "options": [
+        "SOUTH",
+        "EAST",
+        "NORTH",
+        "WEST"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set H): B. He starts facing North, turns right to East, turns right again to South, then turns left back to East."
+    },
+    {
+      "id": "q130",
+      "question": "[Q.130]\nWriting in Alphabetical order, which name of the following will appear in the last?",
+      "options": [
+        "Mohinder",
+        "Mahinder",
+        "Mohender",
+        "Mahendra"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set H): A. Alphabetical order: Mahendra, Mahinder, Mohender, Mohinder. Mohinder comes last."
+    },
+    {
+      "id": "q131",
+      "question": "[Q.131]\nNitin is 7 ranks ahead of Joginder in a class of 39. If Joginder's rank is 17th from the last, what is Nitin's rank from the beginning?",
+      "options": [
+        "15th",
+        "17th",
+        "18th",
+        "16th"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set H): D. From the last, Nitin is 17 + 7 = 24th. From the beginning that is 39 - 24 + 1 = 16th."
+    },
+    {
+      "id": "q132",
+      "question": "[Q.132]\nIf + means ×, × means -, ÷ means + and - means ÷, then 175 - 25 ÷ 5 + 20 × 3 + 10 equals to:",
+      "options": [
+        "87",
+        "77",
+        "140",
+        "70"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set H): B. Substituting the operators gives 175 ÷ 25 + 5 × 20 - 3 × 10 = 7 + 100 - 30 = 77."
+    },
+    {
+      "id": "q133",
+      "question": "[Q.133]\nRahul is 3 times as old as Seema. Laxmi was twice as old as Rahul four years ago. In four year's time, Rahul will be 31. What are the present ages of Seema and Laxmi?",
+      "options": [
+        "9, 52",
+        "10, 50",
+        "9, 45",
+        "9, 50"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set H): D. Rahul is 31 - 4 = 27 now, so Seema is 27/3 = 9. Four years ago Laxmi was 2 × 23 = 46, so she is 50 now."
+    },
+    {
+      "id": "q134",
+      "question": "[Q.134]\nFind the missing number from the given alternatives:\n[Table, 3 rows × 3 columns]\nRow 1: 28 | 20 | 7\nRow 2: 84 | ? | 12\nRow 3: 45 | 25 | 9",
+      "options": [
+        "35",
+        "30",
+        "20",
+        "25"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set H): A. Middle = (first ÷ third) × 5. Check: 28 ÷ 7 = 4 → 20, and 45 ÷ 9 = 5 → 25. For row 2: 84 ÷ 12 = 7 → 35."
+    },
+    {
+      "id": "q135",
+      "question": "[Q.135]\nRAIN is written in a code as 8$%6 and MORE is mentioned as 7#8@. How will REMAIN be mentioned in code language?",
+      "options": [
+        "%7@%6#",
+        "@$86%7",
+        "86@$#7",
+        "8@7$%6"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set H): D. The codes are R = 8, A = $, I = %, N = 6, M = 7, O = #, E = @. So REMAIN = 8@7$%6."
+    },
+    {
+      "id": "q136",
+      "question": "[Q.136]\nHow many bronze medals were won by Bihar players in the 38th National Junior Athletics Championship 2025?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "More than one of the above"
+      ],
+      "answer": 1,
+      "dropped": true,
+      "explanation": "Official BPSC final answer key (Set H): Deleted. Deleted by BPSC in the final answer key; counts as correct for everyone. BPSC says no '38th National Junior Athletics Championship' had been held in 2025, the last one being in 2023. The provisional key had B."
+    },
+    {
+      "id": "q137",
+      "question": "[Q.137]\nWhich districts in Bihar will benefit from the Kosi Mechi Link Project?",
+      "options": [
+        "Patna, Nalanda, Gaya, Siwan",
+        "Darbhanga, Muzaffarpur, Sitamarhi, Begusarai",
+        "Araria, Purnea, Kishanganj, Katihar",
+        "More than one of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set H): C. The Kosi–Mechi intra-state link carries surplus Kosi water to the Mahananda basin. It irrigates Araria, Purnea, Kishanganj and Katihar in the Seemanchal region."
+    },
+    {
+      "id": "q138",
+      "question": "[Q.138]\nWhich Indian languages are accorded the status of Classical Language?",
+      "options": [
+        "Telugu",
+        "Marathi",
+        "Bengali",
+        "More than one of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set H): D. Telugu became a classical language in 2008. Marathi and Bengali were added in October 2024, along with Pali, Prakrit and Assamese. All three listed languages qualify."
+    },
+    {
+      "id": "q139",
+      "question": "[Q.139]\nWhich organisation recognized the Nagi bird sanctuary Site as an Important Bird and Biodiversity Area (IBA)?",
+      "options": [
+        "UNESCO",
+        "World Wildlife Fund",
+        "Bird Life International",
+        "More than one of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set H): C. Important Bird and Biodiversity Areas are identified by BirdLife International. It recognised the Nagi bird sanctuary in Jamui, Bihar, as an IBA."
+    },
+    {
+      "id": "q140",
+      "question": "[Q.140]\nWhere was the National Panchayati Raj Day 2025 event organised?",
+      "options": [
+        "Patna",
+        "Madhubani",
+        "Gaya",
+        "More than one of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set H): B. The main National Panchayati Raj Day event on 24 April 2025 was held at Jhanjharpur in Madhubani, Bihar, and attended by the Prime Minister."
+    },
+    {
+      "id": "q141",
+      "question": "[Q.141]\nWhat is the primary objective of the Lunar Trailblazer mission?",
+      "options": [
+        "To detect and map water on the Moon's surface",
+        "To create a 3D model of the entire Moon",
+        "To test new lunar rovers",
+        "More than one of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set H): A. NASA's Lunar Trailblazer smallsat, launched in February 2025, was designed to detect and map the form, amount and distribution of water on the Moon."
+    },
+    {
+      "id": "q142",
+      "question": "[Q.142]\nAfrikaners indicate the people:",
+      "options": [
+        "Of Indo-African descent in the U.S.",
+        "Indigenous tribal communities in Africa",
+        "The white minority group in South Africa",
+        "More than one of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set H): C. Afrikaners are a white South African ethnic group, mostly of Dutch descent, who speak Afrikaans."
+    },
+    {
+      "id": "q143",
+      "question": "[Q.143]\nWhat is the name of the 16th-century stepwell that the Archaeological Survey of India recently conserved in collaboration with the World Monuments Fund India?",
+      "options": [
+        "Agrasen ki Baoli",
+        "Rajon ki Baoli",
+        "Chauki Bavdi",
+        "More than one of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set H): B. Rajon ki Baoli, a Lodi-era stepwell in Mehrauli Archaeological Park, Delhi, was restored by the ASI with the World Monuments Fund India (and TCS)."
+    },
+    {
+      "id": "q144",
+      "question": "[Q.144]\nWhat is the name of the city mayor who proclaimed April 14, 2025, as Dr. B. R. Ambedkar Day in New York City?",
+      "options": [
+        "Bill de Blasio",
+        "Eric Adams",
+        "Sadiq Khan",
+        "More than one of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set H): B. New York City Mayor Eric Adams declared 14 April 2025 'Dr. B.R. Ambedkar Day'."
+    },
+    {
+      "id": "q145",
+      "question": "[Q.145]\nWhat is the permanent slogan for the Eurovision Song Contest?",
+      "options": [
+        "Music Unites Us",
+        "Together in Song",
+        "United By Music",
+        "More than one of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set H): C. In 2024 the EBU made 'United By Music', first used at Liverpool 2023, the contest's permanent slogan."
+    },
+    {
+      "id": "q146",
+      "question": "[Q.146]\nWhat is true of the GSLV-F15 mission by ISRO?",
+      "options": [
+        "It carried the NVS-02 satellite",
+        "It marked ISRO's 101st launch from Sriharikota",
+        "It marked ISRO's 100th launch from Sriharikota",
+        "More than one of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set H): D. GSLV-F15 (29 January 2025) put the NVS-02 navigation satellite into orbit. It was the 100th launch from Sriharikota, so A and C are both true."
+    },
+    {
+      "id": "q147",
+      "question": "[Q.147]\nWhat is true of the 18th G20 Summit?",
+      "options": [
+        "It was held in Rio de Janeiro",
+        "Its theme was - Building a Just World and a Sustainable Planet",
+        "The Rio de Janeiro Declaration emphasised the taxation of billionaires",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set H): D. The 18th G20 Summit was in New Delhi in September 2023, under the theme 'Vasudhaiva Kutumbakam – One Earth, One Family, One Future'. The Rio summit and its theme belong to the 19th summit (2024), so none of the options is correct."
+    },
+    {
+      "id": "q148",
+      "question": "[Q.148]\nThe UN climate conference held in Baku in 2024 concluded with an agreement that:",
+      "options": [
+        "Aims to ban fossil fuels globally by 2030",
+        "Calls on developed countries to provide at least $500 billion annually to developing nations by 2030",
+        "Calls on developed countries to provide at least $300 billion annually to developing nations by 2035",
+        "More than one of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set H): C. COP29 in Baku agreed a New Collective Quantified Goal: developed countries are to lead in providing at least USD 300 billion a year to developing countries by 2035."
+    },
+    {
+      "id": "q149",
+      "question": "[Q.149]\nAwarded the Nobel Prize in Literature in 2024, Han Kang's novel 'The Vegetarian' won which other prestigious award?",
+      "options": [
+        "Pulitzer Prize",
+        "Pen America Literary Awards",
+        "International Booker Prize",
+        "More than one of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set H): C. 'The Vegetarian', translated by Deborah Smith, won the Man Booker International Prize in 2016."
+    },
+    {
+      "id": "q150",
+      "question": "[Q.150]\nWhich glacier of Nepal among the following has been declared 'dead' in May 2025?",
+      "options": [
+        "Khumbu Glacier",
+        "Yala Glacier",
+        "Imja Glacier",
+        "More than one of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set H): B. Yala Glacier in Nepal's Langtang valley was declared 'dead' in May 2025 and commemorated as one of the first Himalayan glaciers lost to climate change."
+    }
+  ]
+}

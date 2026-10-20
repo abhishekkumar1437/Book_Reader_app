@@ -1,0 +1,1962 @@
+{
+  "title": "68th CCE Prelims (12 Feb 2023) · General Studies · Set B",
+  "subject": "BPSC CCE PYQ",
+  "topic": "Complete official question booklet of the BPSC 68th Combined (Preliminary) Competitive Examination, General Studies, held on 12 February 2023 — 150 questions.",
+  "description": "All 150 questions of booklet series B exactly as printed (English version), with answers from the BPSC final answer key released on 4 March 2023. Every question has five options: A to C plus 'More than one of the above' (D) and 'None of the above' (E), as printed in this paper. Question 52 was deleted by BPSC and counts as correct for everyone. Negative marking: 1/4 mark per wrong answer, as in the real exam (the first CCE with negative marking). Use the 2-hour timer for a full mock.",
+  "timeLimitMinutes": 120,
+  "negativeMark": 0.25,
+  "createdAt": "2026-10-20",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "[Q.1]\nThe parts of the skeleton that are not as hard as bones and which can be bent are called as",
+      "options": [
+        "vertebrae",
+        "carpals",
+        "cartilage",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set B): C. Cartilage is a strong but flexible connective tissue (e.g. the ear pinna, ends of bones at joints); vertebrae and carpals are hard bones that break rather than bend."
+    },
+    {
+      "id": "q2",
+      "question": "[Q.2]\nIn lichen, a chlorophyll-containing partner, _____ live together.",
+      "options": [
+        "alga and a fungus",
+        "fungus and a bacterium",
+        "alga and a virus",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set B): A. A lichen is a symbiotic association of an alga (or cyanobacterium), the chlorophyll-containing partner that makes food, and a fungus that gives shelter and absorbs water and minerals."
+    },
+    {
+      "id": "q3",
+      "question": "[Q.3]\nFemale Anopheles can be distinguished from female Culcx because it sits",
+      "options": [
+        "at right angle to the surface of substratum",
+        "at an angle with substratum",
+        "parallel to the surface of substratum",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set B): B. A resting Anopheles holds its body at an angle (about 45°) to the surface, not at a right angle, whereas Culex rests with its body roughly parallel to the surface."
+    },
+    {
+      "id": "q4",
+      "question": "[Q.4]\nThe most important cell type associated with the immunity of the body is",
+      "options": [
+        "RBCs",
+        "platelets",
+        "lymphocytes",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set B): C. Lymphocytes (B cells and T cells) are the white blood cells responsible for specific immunity; RBCs carry oxygen and platelets help clotting."
+    },
+    {
+      "id": "q5",
+      "question": "[Q.5]\nWhich one of the following statements is incorrect about muscles in human body?",
+      "options": [
+        "Muscles can only push the bone.",
+        "Muscles work in pairs.",
+        "Muscles become shorter, stiffer and thicker when contracted.",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set B): A. Muscles can only pull (by contracting), never push, so statement A is the incorrect one. Muscles do work in antagonistic pairs and become shorter, stiffer and thicker when they contract."
+    },
+    {
+      "id": "q6",
+      "question": "[Q.6]\nLarge number of thin strips of black paint are made on the surface of a convex lens of focal length 20 cm to catch the image of a white horse. The image will be",
+      "options": [
+        "a horse of less brightness",
+        "a zebra of black stripes",
+        "a horse of black stripes",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set B): A. Every part of a lens forms the complete image; blocking parts of it with thin strips only reduces the amount of light, so the image is a complete horse of reduced brightness, with no stripes."
+    },
+    {
+      "id": "q7",
+      "question": "[Q.7]\nShrillness of sound is determined by",
+      "options": [
+        "velocity of sound",
+        "amplitude of sound",
+        "wavelength of sound",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set B): C. Shrillness (pitch) depends on frequency. Since velocity = frequency × wavelength and the velocity is fixed in a given medium, a shorter wavelength means a higher frequency and a shriller sound, so BPSC accepted 'wavelength of sound'. Note: some sources dispute this answer because the standard textbook answer is frequency, which is not among A–C (they argue for E)."
+    },
+    {
+      "id": "q8",
+      "question": "[Q.8]\nWhich of the following photoelectric devices is most suitable for digital applications?",
+      "options": [
+        "Photodiode",
+        "Photovoltaic cell",
+        "Photoemitter",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set B): B. BPSC's reasoning: a photoelectric device produces electricity or an electric signal from light, and the photovoltaic cell is such a device, while the other options work the opposite way. Note: some sources dispute this answer because photodiodes, with their fast switching response, are usually described as the device best suited to digital (on/off) applications."
+    },
+    {
+      "id": "q9",
+      "question": "[Q.9]\nBall bearings are used to convert static friction into",
+      "options": [
+        "rolling friction",
+        "drag",
+        "sliding friction",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set B): A. Balls touch the surfaces at only a point, so sliding is replaced by rolling; rolling friction is much smaller than static or sliding friction."
+    },
+    {
+      "id": "q10",
+      "question": "[Q.10]\nA goalkeeper in a game of football pulls his hands backwards after holding the ball shot at the goal. This enables the goalkeeper to",
+      "options": [
+        "decrease the rate of change of momentum",
+        "exert large force on the ball",
+        "increase the force exerted by the ball on hands",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set B): A. Pulling the hands back increases the time over which the ball's momentum is reduced to zero, so the rate of change of momentum, and hence the force on the hands (F = Δp/Δt), is reduced."
+    },
+    {
+      "id": "q11",
+      "question": "[Q.11]\nWhich among the following is a positively charged particle emitted by a radioactive element?",
+      "options": [
+        "Cathode ray",
+        "Beta ray",
+        "Alpha ray",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set B): C. An alpha particle (2 protons + 2 neutrons, a helium nucleus) is positively charged. Beta particles are fast electrons (negative), and cathode rays are streams of electrons from a discharge tube, not radioactive emissions."
+    },
+    {
+      "id": "q12",
+      "question": "[Q.12]\nCentripetal force is responsible to",
+      "options": [
+        "independent motion of the object in space",
+        "keep the body moving along the circular path",
+        "fly the object along a straight line",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set B): B. In circular motion the direction of velocity keeps changing; the inward (centripetal) force produces this change and keeps the body on the circular path. Without it the body would fly off along a straight line (tangent)."
+    },
+    {
+      "id": "q13",
+      "question": "[Q.13]\nWhich of the following energy changes involves frictional force?",
+      "options": [
+        "Kinetic energy to heat energy",
+        "Potential energy to sound energy",
+        "Chemical energy to heat energy",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set B): A. Friction opposes relative motion and converts the kinetic energy of moving bodies into heat. Conversions from potential or chemical energy do not, by themselves, involve friction."
+    },
+    {
+      "id": "q14",
+      "question": "[Q.14]\nA bus is moving along a straight path and takes a sharp turn to the right side suddenly. The passengers sitting in the bus will",
+      "options": [
+        "bent towards right side",
+        "fall in the forward direction",
+        "bent towards left side",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set B): C. Because of inertia of direction, the passengers' bodies tend to keep moving straight while the bus turns right, so they lean towards the left (outer) side."
+    },
+    {
+      "id": "q15",
+      "question": "[Q.15]\nBefore playing the orchestra in a musical concert, a sitarist tries to adjust the tension and pluck the string suitably. By doing so, he/she is adjusting",
+      "options": [
+        "frequency of the sitar string with the frequency of other musical instruments",
+        "amplitude of sound",
+        "intensity of sound",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set B): A. The frequency of a vibrating string depends on its length, tension and mass per unit length. Adjusting the tension tunes the string's natural frequency to match the other instruments."
+    },
+    {
+      "id": "q16",
+      "question": "[Q.16]\nA form of matter has no fixed shape but it has a fixed volume. An example of this form of matter is",
+      "options": [
+        "carbon steel",
+        "krypton",
+        "kerosene",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set B): C. Liquids have a fixed volume but take the shape of their container. Kerosene is a liquid; krypton is a gas (no fixed shape or volume) and carbon steel is a solid (fixed shape and volume)."
+    },
+    {
+      "id": "q17",
+      "question": "[Q.17]\nSome metal oxides react with acid as well as base to produce salt and water. They are known as amphoteric oxides. The examples of amphoteric oxides are",
+      "options": [
+        "CuO and ZnO",
+        "Al₂O₃ and ZnO",
+        "Al₂O₃ and CuO",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set B): B. Aluminium oxide and zinc oxide react with both acids and bases, so they are amphoteric. CuO is a basic oxide, so any pair containing CuO is wrong."
+    },
+    {
+      "id": "q18",
+      "question": "[Q.18]\nWhich gas contributes to global warming through its greenhouse effect?",
+      "options": [
+        "Carbon dioxide",
+        "Nitrous oxide",
+        "Methane",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set B): D. Carbon dioxide, nitrous oxide and methane are all greenhouse gases that trap infrared radiation and contribute to global warming, so more than one option is correct."
+    },
+    {
+      "id": "q19",
+      "question": "[Q.19]\nAcids react with metal carbonates to liberate _____ gas.",
+      "options": [
+        "H₂",
+        "CO₂",
+        "CO",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set B): B. Acid + metal carbonate → salt + water + carbon dioxide, e.g. Na2CO3 + 2HCl → 2NaCl + H2O + CO2."
+    },
+    {
+      "id": "q20",
+      "question": "[Q.20]\nWhich acid is described as HOOCCOOH?",
+      "options": [
+        "Carbonic acid",
+        "Oxalic acid",
+        "Acetic acid",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set B): B. HOOC–COOH, two carboxyl groups joined together, is oxalic (ethanedioic) acid. Acetic acid is CH3COOH and carbonic acid is H2CO3."
+    },
+    {
+      "id": "q21",
+      "question": "[Q.21]\nYou have been provided with three test tubes. One of them contains distilled water and the other two contain an acidic solution and a basic solution, respectively. Which of them will turn red litmus to blue?",
+      "options": [
+        "Distilled water",
+        "Acid",
+        "Base",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set B): C. Bases turn red litmus blue. Acids turn blue litmus red, and distilled water is neutral and changes neither."
+    },
+    {
+      "id": "q22",
+      "question": "[Q.22]\nThe odour of acetic acid resembles that of",
+      "options": [
+        "vinegar",
+        "tomato",
+        "kerosene",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set B): A. Vinegar is a dilute (5–8%) solution of acetic acid in water, so acetic acid has the familiar pungent smell of vinegar."
+    },
+    {
+      "id": "q23",
+      "question": "[Q.23]\nWhy does dry HCl gas not change the colour of dry litmus paper?",
+      "options": [
+        "HCl gas acts as a dehydrating agent.",
+        "Blue litmus becomes dry in the presence of dry HCl gas.",
+        "No H₃O⁺ ions are present. Litmus changes colour only in the presence of H₃O⁺ ions.",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set B): C. Dry HCl gas does not ionise; HCl produces H3O+ (hydronium) ions only when it dissolves in water. With no H3O+ ions present, the dry litmus paper does not change colour."
+    },
+    {
+      "id": "q24",
+      "question": "[Q.24]\nDetect the odd one.",
+      "options": [
+        "Ripening of fruit",
+        "Setting of cement",
+        "Burning of coal",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 4,
+      "explanation": "Official BPSC final answer key (Set B): E. Ripening of fruit, setting of cement and burning of coal are all chemical changes (BPSC also notes all are exothermic), so none of them is the odd one out."
+    },
+    {
+      "id": "q25",
+      "question": "[Q.25]\nWhich of the following statements about diamond and graphite is true?",
+      "options": [
+        "They have same electrical conductivity.",
+        "They have same crystal structure.",
+        "They have same degree of hardness.",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 4,
+      "explanation": "Official BPSC final answer key (Set B): E. Diamond and graphite are both allotropes of carbon but differ in every listed property: diamond has a 3-D tetrahedral network, is extremely hard and is a poor conductor, while graphite has layers of hexagonal rings, is soft and conducts electricity."
+    },
+    {
+      "id": "q26",
+      "question": "[Q.26]\nThe stomata open or close due to change in the",
+      "options": [
+        "position of nucleus in cells",
+        "protein composition of cells",
+        "amount of water in cells",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set B): C. Guard cells swell and become turgid when they take up water, which opens the stomatal pore; when they lose water they become flaccid and the pore closes."
+    },
+    {
+      "id": "q27",
+      "question": "[Q.27]\nChlorophyll absorbs _____ wavelengths of the sunlight.",
+      "options": [
+        "red and blue",
+        "green and blue",
+        "green and red",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set B): A. Chlorophyll absorbs mainly the blue and red regions of visible light; green light is largely reflected, which is why leaves look green."
+    },
+    {
+      "id": "q28",
+      "question": "[Q.28]\nWhich of the following is not a correct match?",
+      "options": [
+        "Petiole : Attaches leaf to stem",
+        "Thick, hard stem with branching near base : Tree",
+        "Weak stem which cannot stand upright : Creeper",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set B): B. A thick, hard stem that branches near the base describes a shrub; a tree has a single main trunk that branches higher up. The other two pairs are correct."
+    },
+    {
+      "id": "q29",
+      "question": "[Q.29]\nWater reaches great heights in trees because of suction pull caused by",
+      "options": [
+        "evaporation",
+        "absorption",
+        "transpiration",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set B): C. Loss of water vapour through the stomata (transpiration) creates a transpiration pull that draws the continuous water column up through the xylem to great heights."
+    },
+    {
+      "id": "q30",
+      "question": "[Q.30]\nWhich among the following is a character of chloroplast which makes them qualified to self-replication?",
+      "options": [
+        "Presence of both DNA and RNA",
+        "Presence of DNA only",
+        "Absence of RNA",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set B): A. Chloroplasts are semi-autonomous organelles: they have their own DNA, RNA and ribosomes, which lets them replicate and make some of their own proteins."
+    },
+    {
+      "id": "q31",
+      "question": "[Q.31]\nHow many words, no matter if they are meaningless, can be formed by the letters of the word 'DIARY'?",
+      "options": [
+        "24",
+        "5",
+        "10",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 4,
+      "explanation": "Official BPSC final answer key (Set B): E. DIARY has 5 different letters, so they can be arranged in 5! = 120 ways. 120 is not among A–C."
+    },
+    {
+      "id": "q32",
+      "question": "[Q.32]\nSelect the missing number from the given alternatives :\n[Figure: a 3 × 3 grid of numbers —\nRow 1: 44 | 49 | 37\nRow 2: 52 | ? | 41\nRow 3: 58 | 35 | 53]",
+      "options": [
+        "66",
+        "56",
+        "77",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set B): C. Look at the columns. The first column (44, 52, 58) is all even and the last column (37, 41, 53) is all prime. The middle column numbers 49 and 35 are odd multiples of 7, so the missing number must also be an odd multiple of 7: 77."
+    },
+    {
+      "id": "q33",
+      "question": "[Q.33]\nFind the missing number in the given series following the same pattern :\n15, 20, 32, 62, 118, 248, ?",
+      "options": [
+        "428",
+        "322",
+        "368",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set B): A. The differences are 5, 12, 30, 56, 130 = 2²+1, 3²+3, 5²+5, 7²+7, 11²+9 (squares of successive primes plus successive odd numbers). The next difference is 13²+11 = 180, so 248 + 180 = 428."
+    },
+    {
+      "id": "q34",
+      "question": "[Q.34]\nIn a code language, if FASTER is written as 2229212319 and MONK is written as 15161412, then how will GUIDE be written in the same language?",
+      "options": [
+        "192019423",
+        "212219523",
+        "222119522",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set B): B. Applying to GUIDE the same letter-to-number coding rule used in the two examples gives 212219523, as in BPSC's key."
+    },
+    {
+      "id": "q35",
+      "question": "[Q.35]\nA rectangle has an area 30 cm² and perimeter 26 cm. Its sides (in cm) are",
+      "options": [
+        "10, 3",
+        "5, 6",
+        "2, 15",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set B): A. We need l × b = 30 and l + b = 13. Only 10 and 3 satisfy both (5, 6 gives a perimeter of 22; 2, 15 gives 34)."
+    },
+    {
+      "id": "q36",
+      "question": "[Q.36]\nA shopkeeper offers 10% discount on an item with marked price ₹ 400. If he charges 10% GST, then the final price of the item is",
+      "options": [
+        "₹ 380",
+        "₹ 400",
+        "₹ 396",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set B): C. The price after discount is 400 × 0.9 = ₹ 360. Adding 10% GST gives 360 × 1.1 = ₹ 396."
+    },
+    {
+      "id": "q37",
+      "question": "[Q.37]\nArrange the following words in logical and meaningful order :\n1. Vice President\n2. President\n3. Speaker\n4. Prime Minister\n5. Members of the Parliament",
+      "options": [
+        "5, 1, 2, 3, 4",
+        "4, 2, 1, 3, 5",
+        "2, 1, 4, 3, 5",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set B): C. In the order of precedence: President, Vice President, Prime Minister, Speaker of the Lok Sabha, and then Members of Parliament, i.e. 2, 1, 4, 3, 5."
+    },
+    {
+      "id": "q38",
+      "question": "[Q.38]\nReshma donates one-fourth of her property to a charity organization and divides the remaining property equally among her three children. The part of property each child gets is",
+      "options": [
+        "half",
+        "one-fourth",
+        "two-thirds",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set B): B. After donating 1/4, 3/4 remains. Shared equally among three children, each gets (3/4) ÷ 3 = 1/4."
+    },
+    {
+      "id": "q39",
+      "question": "[Q.39]\nWhich of the following statements is false?",
+      "options": [
+        "Every square is a rhombus.",
+        "Every square is a rectangle.",
+        "Every rhombus is a parallelogram.",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 4,
+      "explanation": "Official BPSC final answer key (Set B): E. All three statements are true: a square has four equal sides (so it is a rhombus) and four right angles (so it is a rectangle), and a rhombus has both pairs of opposite sides parallel (so it is a parallelogram). No statement is false."
+    },
+    {
+      "id": "q40",
+      "question": "[Q.40]\nIn a family of some persons, B says that R is the daughter of my sister A, who is the only daughter of T. X is the child of T and Z, who is the grandmother of H. K is the mother of M, who is the only sister of H. X is unmarried. If S is the spouse of A, how is K related to S?",
+      "options": [
+        "Brother-in-law",
+        "Sister-in-law",
+        "Wife of brother-in-law",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set B): C. Z (wife of T) is H's grandmother, and A is T's only daughter, so K, the mother of H and M, must be the daughter-in-law of T and Z. X is unmarried, so K's husband is another son of T and Z, i.e. A's brother. A's brother is S's brother-in-law, so K is the wife of S's brother-in-law."
+    },
+    {
+      "id": "q41",
+      "question": "[Q.41]\nWith reference to the Consumer Disputes Redressal at the district level in India, which one of the following statements is not correct?",
+      "options": [
+        "The District Forum entertains the complaints where the value of goods or services does not exceed rupees fifty lakhs.",
+        "The State Government can establish more than one District Forum in a district if it deems fit.",
+        "One of the members of the District Forum shall be a woman.",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 4,
+      "explanation": "Official BPSC final answer key (Set B): E. All three statements are correct. The pecuniary limit of the District Commission was revised to ₹50 lakh by the Consumer Protection (Jurisdiction) Rules notified on 30 December 2021. A State can set up more than one District Forum in a district, and one member must be a woman. So no statement is incorrect."
+    },
+    {
+      "id": "q42",
+      "question": "[Q.42]\nAt what level does a Panchayat Samiti operate a Panchayati Raj structure?",
+      "options": [
+        "Block-level body",
+        "District level",
+        "Gram Panchayat level",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set B): A. In the three-tier Panchayati Raj system, the Gram Panchayat works at the village level, the Panchayat Samiti at the block (intermediate) level, and the Zila Parishad at the district level."
+    },
+    {
+      "id": "q43",
+      "question": "[Q.43]\nWhich one of the following was established as the first programme of community development?",
+      "options": [
+        "Cooperation Movement",
+        "National Extension Service",
+        "Integrated Rural Development Programme",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set B): B. The Community Development Programme (1952) was followed by the National Extension Service, launched in 1953 to carry community development to all blocks. Of the options, BPSC accepted NES as the answer. IRDP came much later (1978–80)."
+    },
+    {
+      "id": "q44",
+      "question": "[Q.44]\nThe phrase 'equality before law' used in Article 14 of the Indian Constitution has been borrowed from the Constitution of",
+      "options": [
+        "France",
+        "Britain",
+        "USA",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set B): B. 'Equality before law' comes from the British idea of the rule of law, while 'equal protection of laws' comes from the US Constitution."
+    },
+    {
+      "id": "q45",
+      "question": "[Q.45]\nWhat was the duration in the making of the Indian Constitution?",
+      "options": [
+        "2 years 11 months and 18 days",
+        "1 year 10 months and 12 days",
+        "2 years 10 months and 5 days",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set B): A. The Constituent Assembly first met on 9 December 1946 and adopted the Constitution on 26 November 1949, which took 2 years, 11 months and 18 days."
+    },
+    {
+      "id": "q46",
+      "question": "[Q.46]\nThe Council of Ministers in a State is collectively responsible to",
+      "options": [
+        "the Legislative Assembly",
+        "the Chief Minister",
+        "the Governor",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set B): A. Under Article 164(2), the State Council of Ministers is collectively responsible to the Legislative Assembly of the State."
+    },
+    {
+      "id": "q47",
+      "question": "[Q.47]\nConsider the following statements :\nIn the post-73rd Amendment era, there has to be decentralization of\n1. decision-making powers\n2. system as a whole\n3. judicial powers\n4. administrative powers\nWhich of the above statements are correct?",
+      "options": [
+        "2, 3 and 4 only",
+        "1, 2 and 3 only",
+        "1, 2 and 4 only",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set B): C. The 73rd Amendment decentralises governance (decision-making, administrative powers and the system as a whole) to the Panchayats. It does not decentralise judicial powers; bodies such as the Gram Kachahari remain part of the executive set-up. So 1, 2 and 4."
+    },
+    {
+      "id": "q48",
+      "question": "[Q.48]\nThe representation in the Rajya Sabha includes",
+      "options": [
+        "members nominated by the President of India",
+        "members directly elected by citizens",
+        "members indirectly elected by citizens through their representatives",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set B): D. The Rajya Sabha has 12 members nominated by the President, and the rest are elected indirectly by the elected MLAs (and UT electoral colleges). There are no directly elected members, so both A and C are correct."
+    },
+    {
+      "id": "q49",
+      "question": "[Q.49]\nWhich of the following is concerned with the Supreme Court of India?",
+      "options": [
+        "Collegium system",
+        "Appellate jurisdiction",
+        "Original jurisdiction",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set B): D. All three relate to the Supreme Court: the collegium of senior judges recommends appointments, Article 131 gives it original jurisdiction, and Articles 132–134 give it appellate jurisdiction."
+    },
+    {
+      "id": "q50",
+      "question": "[Q.50]\nThe minimum age for contesting elections to the Panchayati Raj Institutions should be how many years according to the 73rd Constitutional Amendment Act?",
+      "options": [
+        "18 years",
+        "21 years",
+        "25 years",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set B): B. Under Article 243F, a person aged 21 years is not disqualified on grounds of age from becoming a member of a Panchayat, so the minimum age is 21 years."
+    },
+    {
+      "id": "q51",
+      "question": "[Q.51]\nAt what percentage has Bihar registered the lowest Female Workforce Participation Rate for the year 2020–2022?",
+      "options": [
+        "7% in rural and 9·1% in urban areas",
+        "4% in rural and 6·5% in urban areas",
+        "6% in rural and 8·1% in urban areas",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set B): B. According to the official key, Bihar's female workforce participation rate, the lowest among Indian States, was about 4% in rural and 6.5% in urban areas (Periodic Labour Force Survey data cited for 2020–22)."
+    },
+    {
+      "id": "q52",
+      "question": "[Q.52]\nThe maximum number of tax industries is in which district?",
+      "options": [
+        "Kishanganj",
+        "Darbhanga",
+        "Purnia",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "dropped": true,
+      "explanation": "Official BPSC final answer key (Set B): Deleted. Deleted by BPSC in the final answer key; counts as correct for everyone. BPSC said the question does not make clear whether it asks about the three districts given, all districts of Bihar, or all of India. (The English and Hindi versions both print 'tax'/'kar' industries.)"
+    },
+    {
+      "id": "q53",
+      "question": "[Q.53]\nAccording to the National Family Survey-5 released by the Union Ministry of Health and Family Welfare on November 24, 2021, there has been a significant improvement in the sex ratio of Bihar. It has increased from _____ in 2015–2016 to _____ in 2020–2022.",
+      "options": [
+        "1030, 1050",
+        "1062, 1090",
+        "1040, 1070",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set B): B. According to NFHS-5, the sex ratio of Bihar's total population (females per 1,000 males) rose from 1,062 in NFHS-4 (2015–16) to 1,090 in NFHS-5."
+    },
+    {
+      "id": "q54",
+      "question": "[Q.54]\nAccording to the Bihar Economic Survey (2021–2022), what was the rate of growth of Gross State Domestic Product (GSDP) of Bihar in 2020–2021?",
+      "options": [
+        "2·5%",
+        "3%",
+        "2%",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set B): A. The Bihar Economic Survey 2021–22 reported that Bihar's GSDP grew by 2.5% at constant prices in 2020–21, the COVID-hit year."
+    },
+    {
+      "id": "q55",
+      "question": "[Q.55]\nWhich one of the following is correct for Bihar economy?",
+      "options": [
+        "The occupational structure of the economy is stagnant from above.",
+        "The growth rate is one of the lowest in India at 2·5%.",
+        "Bihar produces mostly primary goods.",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set B): D. BPSC held both B and C correct: Bihar's economy is mainly agrarian (more than two-thirds of the people depend on farming, so it produces mostly primary goods), and its 2.5% growth in 2020–21 was among the lowest. So more than one option is correct."
+    },
+    {
+      "id": "q56",
+      "question": "[Q.56]\nWhich of the following are the objectives of the SEZ Act, 2005?\n1. Generation of additional economic activity\n2. Promotion of exports of goods and services\n3. Creation of employment",
+      "options": [
+        "1 and 3 only",
+        "1, 2 and 3",
+        "2 and 3 only",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set B): B. The SEZ Act, 2005 lists among its objectives the generation of additional economic activity, promotion of exports of goods and services, promotion of investment, creation of employment and development of infrastructure. So all three are correct."
+    },
+    {
+      "id": "q57",
+      "question": "[Q.57]\nWhat is the policy measure adopted by the Government of India to improve the system of agricultural marketing?",
+      "options": [
+        "Public Distribution System (PDS)",
+        "Minimum Support Price (MSP)",
+        "Maintenance of Buffer Stock",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set B): D. MSP, buffer stocks and the PDS are all government measures that support and regulate agricultural marketing (assured prices, procurement and distribution), so more than one option is correct."
+    },
+    {
+      "id": "q58",
+      "question": "[Q.58]\nWhich committee suggested the enactment of the Competition Act, 2002?",
+      "options": [
+        "Vijay Kelkar Committee",
+        "Rangarajan Committee",
+        "S. V. S. Raghavan Committee",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set B): C. The High Level Committee on Competition Policy and Law, chaired by S. V. S. Raghavan (1999–2000), recommended replacing the MRTP Act with a modern competition law. This led to the Competition Act, 2002."
+    },
+    {
+      "id": "q59",
+      "question": "[Q.59]\nMatch List-I with List-II :\nList-I\na. Grey Revolution\nb. Pink Revolution\nc. Silver Revolution\nd. Red Revolution\nList-II\n1. Onion production\n2. Tomato and meat production\n3. Production of eggs\n4. Fertilizers",
+      "options": [
+        "a-1, b-4, c-2, d-3",
+        "a-4, b-1, c-3, d-2",
+        "a-3, b-1, c-4, d-2",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set B): B. Grey Revolution – fertilizers; Pink Revolution – onions (also prawns and pharma); Silver Revolution – eggs and poultry; Red Revolution – tomato and meat. So a-4, b-1, c-3, d-2."
+    },
+    {
+      "id": "q60",
+      "question": "[Q.60]\nWhich of the following Five-Year Plans was focussed on Human Resource Development?",
+      "options": [
+        "Fifth",
+        "First",
+        "Third",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 4,
+      "explanation": "Official BPSC final answer key (Set B): E. The Eighth Five-Year Plan (1992–97) made human resource development its main focus. The First focused on agriculture, the Third on self-reliance and the Fifth on poverty removal, so none of the options is correct."
+    },
+    {
+      "id": "q61",
+      "question": "[Q.61]\nWhich of the following States of India received the highest Foreign Direct Investment (FDI) equity flow during April to September 2022?",
+      "options": [
+        "Gujarat",
+        "Karnataka",
+        "Tripura",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set B): B. According to DPIIT data for April–September 2022, Karnataka received the highest FDI equity inflow of the States listed. BPSC noted the question asks only about the 'following' States."
+    },
+    {
+      "id": "q62",
+      "question": "[Q.62]\nIn which budget did the Finance Minister announce the Liberalized Exchange Rate Management System?",
+      "options": [
+        "Union Budget, 1993–1994",
+        "Union Budget, 1991–1992",
+        "Union Budget, 1992–1993",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set B): C. LERMS, a dual exchange-rate system, was announced in the Union Budget 1992–93 and introduced in March 1992. It was replaced by a unified market-determined rate in March 1993."
+    },
+    {
+      "id": "q63",
+      "question": "[Q.63]\nWhich of the following were goals of the Five-Year Plans?\n1. Growth\n2. Modernization\n3. Self-reliance\n4. Literature",
+      "options": [
+        "1, 2 and 4 only",
+        "1, 3 and 4 only",
+        "2, 3 and 4 only",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 4,
+      "explanation": "Official BPSC final answer key (Set B): E. The broad goals of Indian planning were growth, modernisation, self-reliance and equity. 'Literature' was not a goal, and every option A–C includes statement 4, so none of them is correct."
+    },
+    {
+      "id": "q64",
+      "question": "[Q.64]\nWhich organization carries out the survey for determining the poverty line?",
+      "options": [
+        "RBI",
+        "NSSO",
+        "NITI Aayog",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set B): B. Poverty estimates are based on the household consumption expenditure surveys of the NSSO (now part of NSO). NITI Aayog and the earlier Planning Commission only analyse this survey data and do not conduct the survey."
+    },
+    {
+      "id": "q65",
+      "question": "[Q.65]\nThe trade balance of India (merchandise and services) for December 2022 (provisional) is",
+      "options": [
+        "(–) 11·98 USD billion",
+        "(–) 10·50 USD billion",
+        "(+) 11·98 USD billion",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set B): A. According to the Ministry of Commerce release of January 2023, India's overall trade balance (merchandise plus services) for December 2022 was a deficit of about USD 11.98 billion (provisional)."
+    },
+    {
+      "id": "q66",
+      "question": "[Q.66]\nDuring the Salt Satyagraha in Bihar, in addition to making salt, the people chose to oppose the government by opposing which tax?",
+      "options": [
+        "Malba",
+        "Haathi",
+        "Development",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 4,
+      "explanation": "Official BPSC final answer key (Set B): E. During the Civil Disobedience (Salt Satyagraha) movement in Bihar, salt-making was hard in many areas, so people protested by refusing to pay the Chowkidari tax. That tax is not among the options."
+    },
+    {
+      "id": "q67",
+      "question": "[Q.67]\nThe elected Government of Bihar formed by Shri Krishna Singh resigned in February 1938 for which reason?",
+      "options": [
+        "Satyagraha against the British at the call of Gandhiji",
+        "Participation in the Freedom Struggle of India",
+        "For the release of political prisoners",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set B): C. In February 1938 the Congress ministries of Bihar (Shri Krishna Singh) and the United Provinces resigned when the Governors refused to release political prisoners. The ministries were reinstated after the demand was met."
+    },
+    {
+      "id": "q68",
+      "question": "[Q.68]\nWho saved the life of Gandhiji in Bihar during Champaran Satyagraha?",
+      "options": [
+        "Ravindra Pathak",
+        "Batak Mian",
+        "Hamid Ansari",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set B): B. Batak Mian Ansari, a cook, refused the indigo planter's order to serve Gandhiji poisoned milk during the 1917 Champaran Satyagraha, and so saved his life."
+    },
+    {
+      "id": "q69",
+      "question": "[Q.69]\nWho led cultivators in Bihar during the Non-Cooperation Movement?",
+      "options": [
+        "Shri Krishna Singh",
+        "Swami Vidyanand",
+        "Raj Kumar Shukla",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set B): B. Swami Vidyanand led the kisan (peasant) agitation in north Bihar (Darbhanga Raj areas) around 1919–20, alongside the Non-Cooperation Movement."
+    },
+    {
+      "id": "q70",
+      "question": "[Q.70]\nThe Swadeshi and Boycott were adopted as the methods of struggle for the first time during the",
+      "options": [
+        "Home Rule Movement",
+        "visit of the Simon Commission to India",
+        "Partition of Bengal",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set B): C. The Swadeshi and Boycott movement began in 1905 against Curzon's Partition of Bengal; the boycott resolution was passed at Calcutta Town Hall on 7 August 1905."
+    },
+    {
+      "id": "q71",
+      "question": "[Q.71]\nAt the Calcutta Session of the Indian National Congress (INC) held in 1906, the Flag of Swaraj for India was unfurled by",
+      "options": [
+        "G. K. Gokhale",
+        "A. O. Hume",
+        "Dadabhai Naoroji",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set B): C. Dadabhai Naoroji presided over the 1906 Calcutta session, where Swaraj was declared the goal of the Congress, and he unfurled the flag of Swaraj."
+    },
+    {
+      "id": "q72",
+      "question": "[Q.72]\nDuring the freedom struggle, a parallel movement launched in the Indian States (in the States ruled by the Indian rulers such as Kashmir, Nizam's Hyderabad, Travancore, etc.) was",
+      "options": [
+        "Swaraj Movement",
+        "State People's Movement",
+        "Praja Mandal Movement",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set B): C. In BPSC's view, the movements in the princely states were organised as Praja Mandals and Lok Parishads under the All India States People's Conference ('conference', not 'movement'), so Praja Mandal Movement is the answer. Note: some sources dispute this answer because 'States' People's Movement' is the common textbook name for these agitations."
+    },
+    {
+      "id": "q73",
+      "question": "[Q.73]\nWhich of the following statements regarding the Indian freedom struggle is not correct?",
+      "options": [
+        "Mahatma Gandhi was arrested in the year 1921.",
+        "Gandhiji withdrew from the Non-Cooperation Movement due to the Chauri-Chaura Incident.",
+        "Gandhiji gave his first major public speech at Banaras Hindu University.",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set B): A. Gandhiji was arrested in March 1922, not 1921, after the movement was called off. He did withdraw the Non-Cooperation Movement after Chauri Chaura (February 1922), and his first major public speech in India was at the opening of BHU in February 1916. So only A is incorrect."
+    },
+    {
+      "id": "q74",
+      "question": "[Q.74]\nWhich one of the following was a journal brought out by Abul Kalam Azad?",
+      "options": [
+        "Zamindar",
+        "The Comrade",
+        "Al-Hilal",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set B): C. Maulana Abul Kalam Azad started the Urdu weekly Al-Hilal in 1912 (and later Al-Balagh). The Comrade was Mohammad Ali Jauhar's paper, and Zamindar was Zafar Ali Khan's."
+    },
+    {
+      "id": "q75",
+      "question": "[Q.75]\nHow did the study of history help in creating a feeling of nationalism in India towards the end of the 19th century?",
+      "options": [
+        "By urging people to struggle and change the miserable conditions of life under the British rule",
+        "By reinterpreting history and refuting the British portrayal of Indians as backward, primitive and incapable of governing themselves",
+        "By writing about India's glorious past and urging people to take pride in their achievements",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set B): D. Nationalist historians wrote about India's glorious past to rebut the British picture of Indians as backward and unfit to govern themselves, and they urged people to take pride in their heritage and struggle against British rule. BPSC held that A, B and C are all correct, so more than one of the above."
+    },
+    {
+      "id": "q76",
+      "question": "[Q.76]\nWhich of the following statements are not correct regarding the Non-Cooperation Movement in the towns?\n1. Only the upper caste and the rich took part in the movement.\n2. The council elections were boycotted even by the Justice Party of Madras.\n3. Thousands of students left government-controlled schools, headmasters and teachers resigned and lawyers gave up their practice.",
+      "options": [
+        "1 and 2 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set B): A. Statement 3 is correct, since mass boycotts of schools, colleges and law courts happened in the towns. Statement 1 is wrong because the middle classes took part widely. Statement 2 is wrong because the Justice Party of Madras (the non-Brahmin party) contested the council elections as a way to gain power. So 1 and 2 are not correct."
+    },
+    {
+      "id": "q77",
+      "question": "[Q.77]\n\"A Sanyasi who came to that district after a spell as an indentured labourer in Fiji, carrying a copy of Tulsidas Ramayana on his back from which he would recite verses to rural audience.\" The peasant leader referred to here is",
+      "options": [
+        "Baba Ram Chandra",
+        "Jhinguri Singh",
+        "Yadunandan Sharma",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set B): A. Baba Ramchandra, a sanyasi who had been an indentured labourer in Fiji, led the Awadh Kisan Sabha movement (Pratapgarh, 1920–21) and used Ramcharitmanas recitations to rally peasants."
+    },
+    {
+      "id": "q78",
+      "question": "[Q.78]\nWho was the founder of All India Harijan Sangh in 1932?",
+      "options": [
+        "Dr. B. R. Ambedkar",
+        "Jagjivan Ram",
+        "Mahatma Gandhi",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set B): C. Mahatma Gandhi founded the All India Anti-Untouchability League in 1932, which was soon renamed the Harijan Sevak Sangh, to fight untouchability. BPSC noted that leaving 'Sevak' out of the name does not change the question."
+    },
+    {
+      "id": "q79",
+      "question": "[Q.79]\nOn February 20, 1947, Prime Minister Attlee announced the British Government's decision to withdraw from India latest by",
+      "options": [
+        "June 1948",
+        "August 1947",
+        "January 1948",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set B): A. On 20 February 1947, Clement Attlee announced in the House of Commons that the British would transfer power to Indian hands no later than June 1948."
+    },
+    {
+      "id": "q80",
+      "question": "[Q.80]\nWho established Swaraj Dal in Bihar?",
+      "options": [
+        "Bankim Chandra Mitra",
+        "Shri Krishna Singh",
+        "Ramlal Shah",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set B): B. According to the official key, the Bihar unit of the Swaraj Dal (Swaraj Party, formed nationally by C. R. Das and Motilal Nehru in 1923) was established under Shri Krishna Singh."
+    },
+    {
+      "id": "q81",
+      "question": "[Q.81]\nWho among the following made an offer to Humayun that he would surrender Bihar and pay an annual tribute of 10 lakh dinars if he was allowed to retain Bengal?",
+      "options": [
+        "Bahadur Shah",
+        "Sher Khan",
+        "Bairam Khan",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set B): B. In 1538 Sher Khan (later Sher Shah Suri) offered Humayun Bihar and an annual tribute of ten lakh dinars in return for keeping Bengal. Humayun rejected the offer."
+    },
+    {
+      "id": "q82",
+      "question": "[Q.82]\nThe Vikramshila University was established by",
+      "options": [
+        "Gopala",
+        "Dharmapala",
+        "Devapala",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set B): B. Vikramashila Mahavihara (near Bhagalpur, Bihar) was founded by the Pala king Dharmapala in the late 8th–early 9th century."
+    },
+    {
+      "id": "q83",
+      "question": "[Q.83]\nWho among the following was the first Governor of Bihar?",
+      "options": [
+        "Sir Maurice Garnier Hallett",
+        "Sir James David Sifton",
+        "Sir Hugh Dow",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set B): B. Sir James David Sifton was the Governor of Bihar and Orissa from 1932 and became the first Governor of the separate Province of Bihar on 1 April 1936, when Orissa was separated. Hallett and Dow came later."
+    },
+    {
+      "id": "q84",
+      "question": "[Q.84]\nWho was the author of Mahatma Gandhi and Bihar, Some Reminiscences?",
+      "options": [
+        "Dr. Rajendra Prasad",
+        "J. P. Narayan",
+        "Karpoori Thakur",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set B): A. 'Mahatma Gandhi and Bihar: Some Reminiscences' (1949) was written by Dr. Rajendra Prasad, who worked closely with Gandhiji from the Champaran Satyagraha onwards."
+    },
+    {
+      "id": "q85",
+      "question": "[Q.85]\nWhich is the oldest church in Bihar?",
+      "options": [
+        "Padri Ki Haveli",
+        "Luke's Church",
+        "Stephen's Church",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set B): A. Padri Ki Haveli (St. Mary's Church) in Patna City dates from 1713 (the present building is from 1772) and is the oldest church in Bihar."
+    },
+    {
+      "id": "q86",
+      "question": "[Q.86]\nThe late actor Kumudlal Ganguly, also known by his stage name Ashok Kumar, was born in which of the following cities of Bihar?",
+      "options": [
+        "Patna",
+        "Munger",
+        "Bhagalpur",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set B): C. Ashok Kumar (Kumudlal Ganguly) was born on 13 October 1911 in Bhagalpur, Bihar."
+    },
+    {
+      "id": "q87",
+      "question": "[Q.87]\nIn ancient times, the area to the south of the Ganga was known as",
+      "options": [
+        "Anarta",
+        "Takshashila",
+        "Chola",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 4,
+      "explanation": "Official BPSC final answer key (Set B): E. The region south of the Ganga (south Bihar) was known as Magadha. Anarta was in north Gujarat, Takshashila lay between the Indus and the Jhelum, and Chola was in the far south, so none of the options is correct."
+    },
+    {
+      "id": "q88",
+      "question": "[Q.88]\nWhen did the use of iron begin in Indian subcontinent?",
+      "options": [
+        "Around 9000 years ago",
+        "Around 12000 years ago",
+        "Around 6000 years ago",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 4,
+      "explanation": "Official BPSC final answer key (Set B): E. Iron use in the Indian subcontinent began around 3000 years ago (c. 1200–1000 BCE, the Painted Grey Ware phase), so none of the dates given is correct."
+    },
+    {
+      "id": "q89",
+      "question": "[Q.89]\nAccording to the rock inscription in Sanskrit, composed around second century CE, Sudarshan Lake, an artificial reservoir, was repaired by",
+      "options": [
+        "Harsha",
+        "Kanishka",
+        "Rudradaman",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set B): C. The Junagadh rock inscription of the Shaka ruler Rudradaman I (c. 150 CE), one of the earliest long Sanskrit inscriptions, records his repair of the Sudarshana lake, which was first built under Chandragupta Maurya."
+    },
+    {
+      "id": "q90",
+      "question": "[Q.90]\nThe temple of Deogarh near Jhansi and the sculptures in the temple at Garhwa near Allahabad are the important remains of the",
+      "options": [
+        "Maurya art",
+        "Gupta art",
+        "Rashtrakuta art",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set B): B. The Dashavatara temple at Deogarh (near Jhansi) and the sculptures at Garhwa (near Prayagraj) are classic examples of Gupta-period temple art."
+    },
+    {
+      "id": "q91",
+      "question": "[Q.91]\nIn which of the following battles are the main opponents not correctly stated?",
+      "options": [
+        "Battle of Haldighati—Maharana Pratap and Akbar",
+        "First Battle of Panipat—Babur and Ibrahim Lodi",
+        "Second Battle of Panipat—Tipu Sultan and Marathas",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set B): C. The Second Battle of Panipat (1556) was fought between Akbar (with Bairam Khan) and Hemu, not between Tipu Sultan and the Marathas. A and B are correctly stated."
+    },
+    {
+      "id": "q92",
+      "question": "[Q.92]\nDuring the Delhi Sultanate, the designation 'Muqaddam or Chaudhari' was used for",
+      "options": [
+        "village headman",
+        "revenue officials",
+        "village accountant",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set B): A. In the Delhi Sultanate, the muqaddam or chaudhari was the village headman, who helped with revenue collection in that role. The village accountant was the patwari."
+    },
+    {
+      "id": "q93",
+      "question": "[Q.93]\nTabaqat-i-Akbari, which has been sometimes considered more reliable than Abul Fazl's Akbarnama, was written by",
+      "options": [
+        "Gulbadan Begum",
+        "Nizamuddin Ahmad",
+        "Abdul Hamid Lahori",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set B): B. Tabaqat-i-Akbari was written by Khwaja Nizamuddin Ahmad Bakhshi. Gulbadan Begum wrote the Humayun-nama, and Abdul Hamid Lahori wrote Shah Jahan's Padshahnama."
+    },
+    {
+      "id": "q94",
+      "question": "[Q.94]\nWho among the following famous rulers founded a suburban township of Nagalapuram, near Vijayanagara, after his mother's name?",
+      "options": [
+        "Krishnadevaraya",
+        "Harihara",
+        "Bukka",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set B): A. Krishnadevaraya of the Tuluva dynasty built the suburban township of Nagalapuram near Vijayanagara and named it after his mother, Nagala Devi."
+    },
+    {
+      "id": "q95",
+      "question": "[Q.95]\nIn 1940, Patna Women's College was founded by which of the following societies?",
+      "options": [
+        "Sisters of the Apostolic Carmel",
+        "Society of Jesus",
+        "Irish Christian Brothers",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set B): A. Patna Women's College, the first women's college in Bihar, was founded in 1940 by the Sisters of the Apostolic Carmel."
+    },
+    {
+      "id": "q96",
+      "question": "[Q.96]\nWho among the following headed the two Boundary Commissions set up to delineate the international frontiers between India and Pakistan in 1947?",
+      "options": [
+        "Cyril Radcliffe",
+        "A. P. Moon",
+        "A. V. Alexander",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set B): A. Sir Cyril Radcliffe chaired both the Punjab and the Bengal Boundary Commissions in 1947; the dividing line is called the Radcliffe Line."
+    },
+    {
+      "id": "q97",
+      "question": "[Q.97]\nWho introduced the system of Mahalwari Settlement in Bengal?",
+      "options": [
+        "Lord Hastings",
+        "Lord Cornwallis",
+        "Holt Mackenzie",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set B): C. The Mahalwari system was proposed by Holt Mackenzie in 1822 for the North-Western Provinces, then part of the Bengal Presidency. Cornwallis introduced the Permanent Settlement (1793)."
+    },
+    {
+      "id": "q98",
+      "question": "[Q.98]\nIn 1940, Vinoba Bhave started individual Satyagraha from",
+      "options": [
+        "Punnapra-Vayalar, Kerala",
+        "Nadiad in Kheda district, Gujarat",
+        "Pavnar, Maharashtra",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set B): C. Vinoba Bhave, the first individual satyagrahi chosen by Gandhiji, began the Individual Satyagraha on 17 October 1940 at Pavnar near Wardha, Maharashtra."
+    },
+    {
+      "id": "q99",
+      "question": "[Q.99]\nThe Congress took a critical stand over the Montford Reforms in 1918, which led to break up with the old moderate remnants (Sapru, Jayakar and Chintamani) who formed the",
+      "options": [
+        "Indian National Liberal Federation",
+        "Servants of India Society",
+        "Swaraj Party",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set B): A. The Moderates who welcomed the Montagu–Chelmsford Reforms left the Congress and formed the Indian National Liberal Federation (1918–19), led by Surendranath Banerjea, Tej Bahadur Sapru and others."
+    },
+    {
+      "id": "q100",
+      "question": "[Q.100]\nThe Cabinet Mission was sent to India for which of the following?\n1. To establish a national government\n2. To work out a constitutional arrangement for the transfer of power\n3. To work out the details of Jinnah's demand for Pakistan",
+      "options": [
+        "3 only",
+        "1 only",
+        "2 only",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set B): C. The Cabinet Mission (1946) was sent to work out a constitutional arrangement and machinery for the transfer of power. It did not come to set up the government or to work out Pakistan (it in fact rejected a separate Pakistan), so 2 only."
+    },
+    {
+      "id": "q101",
+      "question": "[Q.101]\nThe first 'floating solar power plant' has been built at which place in Bihar?",
+      "options": [
+        "Kadirabad, Darbhanga",
+        "Dilbarpur, Darbhanga",
+        "Jamalpur, Darbhanga",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set B): A. Bihar's first floating solar power plant was set up on a pond at Kadirabad in Darbhanga district (2022)."
+    },
+    {
+      "id": "q102",
+      "question": "[Q.102]\nAccording to the Economic Survey for the year 2019–2020, which district has lowest per capita income?",
+      "options": [
+        "Sitamarhi",
+        "Sheohar",
+        "Araria",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set B): B. According to the Bihar Economic Survey, Sheohar had the lowest per capita gross district domestic product among Bihar's districts, while Patna had the highest."
+    },
+    {
+      "id": "q103",
+      "question": "[Q.103]\nAccording to the NITI Aayog SDG Report for the year 2020–2021, how much did the State of Bihar score?",
+      "options": [
+        "52 out of 100",
+        "22 out of 100",
+        "35 out of 100",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set B): A. In the NITI Aayog SDG India Index 2020–21, Bihar scored 52 out of 100, the lowest of all States (Kerala topped with 75)."
+    },
+    {
+      "id": "q104",
+      "question": "[Q.104]\nWhich sport has been included in the Khelo India Women's Tournament for the first time?",
+      "options": [
+        "Archery",
+        "Cricket",
+        "Track Cycling",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set B): C. According to the official key, track cycling was the sport added to the Khelo India Women's League/Tournament for the first time (2022)."
+    },
+    {
+      "id": "q105",
+      "question": "[Q.105]\nWhich of the following has been awarded the Geographical Indication (GI) Tag in August 2022?",
+      "options": [
+        "Mithila Makhana",
+        "Applique (Khatwa) Work of Bihar",
+        "Sikki Grass Products of Bihar",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set B): A. Mithila Makhana received the GI tag in August 2022. Applique (Khatwa) work and Sikki grass products of Bihar had received GI tags years earlier (around 2018–2019)."
+    },
+    {
+      "id": "q106",
+      "question": "[Q.106]\nWhich of the following has been added to the UNESCO World Heritage List in 2022?",
+      "options": [
+        "Archaeological Site of Nalanda Mahavihara at Nalanda",
+        "Astronomical Observatory at the Langat Singh College",
+        "Mahabodhi Temple Complex at Bodh Gaya",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 4,
+      "explanation": "Official BPSC final answer key (Set B): E. Nalanda Mahavihara was inscribed in 2016 and the Mahabodhi Temple Complex in 2002. Reports that UNESCO had listed the observatory of Langat Singh College in 2022 were false and were later clarified, so none of these was added in 2022."
+    },
+    {
+      "id": "q107",
+      "question": "[Q.107]\nIn the year 2020, Bihar gained the _____ rank out of 36 States in the Ease of Doing Business, awarded by Business Reforms Action Plan (BRAP).",
+      "options": [
+        "25th",
+        "23rd",
+        "24th",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 4,
+      "explanation": "Official BPSC final answer key (Set B): E. In the State Business Reform Action Plan rankings released in 2020 (BRAP 2019), Bihar was ranked 26th, which is not among the options."
+    },
+    {
+      "id": "q108",
+      "question": "[Q.108]\nGanga Jal Aapurti Yojana was inaugurated by Chief Minister Nitish Kumar on November 28, 2022 at which place?",
+      "options": [
+        "Bodh Gaya",
+        "Lakhisarai",
+        "Rajgir",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set B): A. The Ganga Jal Apurti Yojana (Ganga water lifted to supply drinking water) was inaugurated at Rajgir on 27 November 2022 and at Bodh Gaya (Gaya) on 28 November 2022. The question asks about 28 November."
+    },
+    {
+      "id": "q109",
+      "question": "[Q.109]\nWhich of the following associations/boards declared equal pay for men and women players in October 2022?",
+      "options": [
+        "Gujarat Cricket Association",
+        "Bihar Cricket Association",
+        "Board of Control for Cricket in India",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set B): C. On 27 October 2022 the BCCI announced equal match fees for its centrally contracted men and women cricketers."
+    },
+    {
+      "id": "q110",
+      "question": "[Q.110]\nThe urbanization of the State has increased very rapidly in the last ten years. According to the 2011 Census, the level of urbanization in Bihar was just _____ percent, which has increased to _____ percent at present.",
+      "options": [
+        "14·4, 15·5",
+        "11·3, 15·3",
+        "12·2, 13·1",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set B): B. In Census 2011 Bihar's urbanisation level was about 11.3%, one of the lowest in India. The Bihar Economic Survey, using notified urban areas, put it at about 15.3% at present."
+    },
+    {
+      "id": "q111",
+      "question": "[Q.111]\nWhich of the following Union Ministries recently launched the YUVA 2.0 Scheme in 2022?",
+      "options": [
+        "AYUSH Mantralay",
+        "Health and Family Welfare Ministry",
+        "Education Ministry",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set B): C. YUVA 2.0 (Young, Upcoming and Versatile Authors), a mentorship scheme for young writers under 30, was launched by the Ministry of Education in October 2022."
+    },
+    {
+      "id": "q112",
+      "question": "[Q.112]\nThe Ministry of Home Affairs has completed the Mother Tongue Survey of India (MTSI) in November 2022 with field videography of the country's how many languages?",
+      "options": [
+        "576",
+        "40",
+        "233",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set B): A. According to the MHA annual report, the Mother Tongue Survey of India was completed with field videography of 576 languages."
+    },
+    {
+      "id": "q113",
+      "question": "[Q.113]\nWhich of the following committees submitted a report on gas pricing, recommending complete pricing freedom from January 1, 2026?",
+      "options": [
+        "P. K. Mohanty Committee",
+        "Arun Goel Committee",
+        "Kirit Parikh Committee",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set B): C. The Kirit Parikh Committee on gas pricing (report of November 2022) recommended a floor and a ceiling price for gas from legacy fields and full market pricing freedom from 1 January 2026."
+    },
+    {
+      "id": "q114",
+      "question": "[Q.114]\nWhich of the following cities was not conferred with five-star garbage-free city rank according to Swachh Survekshan, 2022?",
+      "options": [
+        "Navi Mumbai",
+        "Surat",
+        "Bhopal",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 4,
+      "explanation": "Official BPSC final answer key (Set B): E. According to BPSC's key, all three cities (Navi Mumbai, Surat and Bhopal) were certified as five-star Garbage Free Cities in 2022, so the answer is none of the above."
+    },
+    {
+      "id": "q115",
+      "question": "[Q.115]\nThe Prime Minister inaugurated the first greenfield airport 'Donyi Polo Airport' in which of the following locations?",
+      "options": [
+        "Dibrugarh",
+        "Dholka",
+        "Itanagar",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set B): C. In November 2022 PM Modi inaugurated Donyi Polo Airport at Hollongi, Itanagar, the first greenfield airport of Arunachal Pradesh."
+    },
+    {
+      "id": "q116",
+      "question": "[Q.116]\nWhich animal has been approved as a food animal by the Food Safety and Standards Authority of India (FSSAI) in November 2022?",
+      "options": [
+        "Himalayan tahr",
+        "Himalayan yak",
+        "Mountain goat",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set B): B. In November 2022 FSSAI approved the Himalayan yak as a 'food animal', which is expected to help yak-rearing communities."
+    },
+    {
+      "id": "q117",
+      "question": "[Q.117]\nIndia's first floating financial literacy camp was organized recently by India Post Payments Bank in which of the following locations?",
+      "options": [
+        "Kerala",
+        "Srinagar",
+        "Andaman Islands",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set B): B. India Post Payments Bank organised India's first floating financial literacy camp on the Dal Lake in Srinagar (2022)."
+    },
+    {
+      "id": "q118",
+      "question": "[Q.118]\nThe President of India inaugurated 'PARAM KAMRUPA' Supercomputer facility at which of the following IITs?",
+      "options": [
+        "Guwahati",
+        "Kharagpur",
+        "Bombay",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set B): A. President Droupadi Murmu inaugurated the PARAM Kamrupa supercomputer facility, built under the National Supercomputing Mission, at IIT Guwahati in October 2022."
+    },
+    {
+      "id": "q119",
+      "question": "[Q.119]\nIn the 90th Indian Air Force Day, celebrated on 8th October, 2022, an hour-long air display of eighty aircrafts was carried out over which of the following locations?",
+      "options": [
+        "Sukhna Lake, Chandigarh",
+        "Gateway of India, Mumbai",
+        "Dal Lake, Jammu and Kashmir",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set B): A. The 90th Air Force Day celebrations were held outside Delhi-NCR for the first time, with an air display of about 80 aircraft over Sukhna Lake, Chandigarh."
+    },
+    {
+      "id": "q120",
+      "question": "[Q.120]\nWhich month of the year is celebrated as Rashtriya Poshan Maah or National Nutrition Month under the Poshan Abhiyaan of the Government of India?",
+      "options": [
+        "July",
+        "May",
+        "September",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set B): C. Under Poshan Abhiyaan, September is observed every year as Rashtriya Poshan Maah (National Nutrition Month), and March as Poshan Pakhwada."
+    },
+    {
+      "id": "q121",
+      "question": "[Q.121]\nWhat is the name of recently launched final module of China's Tiangong Space Station?",
+      "options": [
+        "Mengtian",
+        "Tianhe",
+        "Wentian",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set B): A. Mengtian, the second laboratory module, was launched on 31 October 2022 and completed the T-shaped Tiangong station. Tianhe is the core module (2021) and Wentian the first lab module (July 2022)."
+    },
+    {
+      "id": "q122",
+      "question": "[Q.122]\nWhich of the following is the world's largest volcano erupted for the first time in 38 years?",
+      "options": [
+        "Haleakala",
+        "Mount St. Helens",
+        "Mauna Loa",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set B): C. Mauna Loa in Hawaii, the world's largest active volcano, erupted in November 2022 for the first time since 1984."
+    },
+    {
+      "id": "q123",
+      "question": "[Q.123]\nWho among the following recently received the 2022 Booker Prize for his novel, The Seven Moons of Maali Almeida?",
+      "options": [
+        "Shehan Karunatilaka",
+        "Michael Ondaatje",
+        "Pradeep Mathew",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set B): A. The Sri Lankan author Shehan Karunatilaka won the 2022 Booker Prize for 'The Seven Moons of Maali Almeida'."
+    },
+    {
+      "id": "q124",
+      "question": "[Q.124]\nWhat was the theme of the World Space Week, 2022?",
+      "options": [
+        "Space and Sustainability",
+        "Women in Space",
+        "Satellites Improve Life",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set B): A. According to the official key, the theme is 'Women in Space'. Note: some sources dispute this answer because 'Women in Space' was the 2021 theme, and the World Space Week 2022 theme was 'Space and Sustainability'."
+    },
+    {
+      "id": "q125",
+      "question": "[Q.125]\nWhich of the following laboratories claimed a historic nuclear fusion breakthrough in December 2022?",
+      "options": [
+        "Los Alamos National Laboratory",
+        "Lawrence Livermore National Laboratory",
+        "Oak Ridge National Laboratory",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set B): B. On 5 December 2022 the National Ignition Facility at Lawrence Livermore National Laboratory (USA) achieved fusion ignition, producing more energy than the lasers delivered (announced 13 December 2022)."
+    },
+    {
+      "id": "q126",
+      "question": "[Q.126]\nWhich of the following is Collins Dictionary's word of the year 2022?",
+      "options": [
+        "Lawfare",
+        "Permacrisis",
+        "Carolean",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set B): B. Collins chose 'permacrisis', an extended period of instability and insecurity, as its Word of the Year 2022. Lawfare and Carolean were on its shortlist."
+    },
+    {
+      "id": "q127",
+      "question": "[Q.127]\nWhich of the following countries, along with Senegal, launched the International Drought Resilience Alliance during COP27?",
+      "options": [
+        "Spain",
+        "Italy",
+        "Germany",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set B): A. Spain and Senegal launched the International Drought Resilience Alliance (IDRA) at COP27 in Sharm el-Sheikh in November 2022."
+    },
+    {
+      "id": "q128",
+      "question": "[Q.128]\nThe Embassy of which country applied for a GI Tag for 'Nihonshu' for the first time in India?",
+      "options": [
+        "South Korea",
+        "China",
+        "Japan",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set B): C. Nihonshu (Japanese sake) received GI registration in India after an application by the Embassy of Japan. It was the first GI application from Japan in India."
+    },
+    {
+      "id": "q129",
+      "question": "[Q.129]\nWhich of the following space agencies announced that it had successfully used steam to propel its EQUULEUS spacecraft?",
+      "options": [
+        "JAXA",
+        "NASA",
+        "SUPARCO",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set B): A. Japan's JAXA reported that its EQUULEUS CubeSat, launched on NASA's Artemis I in November 2022, had used a water-based (steam) propulsion system beyond low Earth orbit."
+    },
+    {
+      "id": "q130",
+      "question": "[Q.130]\nWhat is the name of Tesla humanoid robot launched in October 2022?",
+      "options": [
+        "Pepper",
+        "Optimus",
+        "Atlas",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set B): B. Tesla showed its humanoid robot prototype 'Optimus' at its AI Day (30 September/October 2022). Pepper is SoftBank's robot and Atlas is Boston Dynamics'."
+    },
+    {
+      "id": "q131",
+      "question": "[Q.131]\nWhich of the following States of India borders with the maximum number of districts in Bihar?",
+      "options": [
+        "West Bengal",
+        "Uttar Pradesh",
+        "Jharkhand",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set B): D. BPSC checked the maps and found that Uttar Pradesh and Jharkhand each touch 8 districts of Bihar (counting the tip of Katihar touching Jharkhand and the tip of Rohtas touching UP), more than West Bengal. So more than one option is correct."
+    },
+    {
+      "id": "q132",
+      "question": "[Q.132]\nWhich of the following is the last railway station of Bihar in the train route from Bhagalpur towards Mirza Cheuki?",
+      "options": [
+        "Kahalgaon Railway Station",
+        "Pirpainti Railway Station",
+        "Ammapali Railway Station",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set B): C. On the Sahibganj loop line from Bhagalpur towards Mirza Chauki (Jharkhand), the halt station Ammapali comes after Kahalgaon and Pirpainti and is the last station in Bihar."
+    },
+    {
+      "id": "q133",
+      "question": "[Q.133]\nWith reference to the mineral production in Bihar, consider the following statements :\n1. Rohtas has the highest deposit of pyrites.\n2. Limestone is found in Kaimur (Bhabhua), Munger (Monghyr) and Rohtas districts.\n3. Gold deposits are found in Jamui district.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 3 only",
+        "3 only",
+        "1 and 2 only",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 4,
+      "explanation": "Official BPSC final answer key (Set B): E. All three statements are correct: Rohtas (Amjhor) has Bihar's main pyrite deposits, limestone occurs in Kaimur, Munger and Rohtas, and Jamui (Sono/Karmatiya) has India's largest gold reserves. Since no option says '1, 2 and 3', the answer is none of the above."
+    },
+    {
+      "id": "q134",
+      "question": "[Q.134]\nPhalgu, a sacred river flowing in Bihar, is formed by the confluence of which of the following rivers?",
+      "options": [
+        "Mohana and Lilajan rivers",
+        "Lilajan and Son rivers",
+        "Son and Mohana rivers",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set B): A. The Phalgu is formed by the confluence of the Lilajan (Niranjana) and the Mohana a few kilometres below Bodh Gaya, and it flows past Gaya."
+    },
+    {
+      "id": "q135",
+      "question": "[Q.135]\nIn Bihar, tea gardens were established for the first time in which of the following places?",
+      "options": [
+        "Supaul",
+        "Thakurganj",
+        "Bahadurganj",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set B): B. Tea gardens in Bihar were first developed in the 1980s in the Pothia and Thakurganj blocks of Kishanganj district, and Kishanganj is still Bihar's tea district."
+    },
+    {
+      "id": "q136",
+      "question": "[Q.136]\nChoose the correct order of the following districts of Bihar as per the ascending decadal population growth (2001–2011).",
+      "options": [
+        "Kishanganj < Madhepura < Siwan",
+        "Siwan < Kishanganj < Madhepura",
+        "Madhepura < Kishanganj < Siwan",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set B): B. Census 2011 decadal growth: Siwan about 22.7%, Kishanganj about 30.4% and Madhepura about 31.1%. So the ascending order is Siwan < Kishanganj < Madhepura."
+    },
+    {
+      "id": "q137",
+      "question": "[Q.137]\nWhich food industry dominates among the agro-based industries in Bihar?",
+      "options": [
+        "Sugarcane industry",
+        "Cereal-based industry",
+        "Pulses industry",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set B): B. According to BPSC, cereal-based units such as rice mills dominate the agro-based industries of Bihar."
+    },
+    {
+      "id": "q138",
+      "question": "[Q.138]\nIn the end of its mountainous journey at Attock, the Indus River is joined by which river from Afghanistan?",
+      "options": [
+        "Helmand River",
+        "Amu Darya",
+        "Kabul River",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set B): C. Near Attock the Indus is joined by the Kabul River, its main right-bank tributary, which flows in from Afghanistan. The Helmand and Amu Darya do not reach the Indus."
+    },
+    {
+      "id": "q139",
+      "question": "[Q.139]\nWhich one of the following is the well-publicised wildlife campaign in the world launched in 1973?",
+      "options": [
+        "Sunderbans Project",
+        "Project Tiger",
+        "Lion Project",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set B): B. Project Tiger, launched by the Government of India on 1 April 1973, is one of the best-known wildlife conservation campaigns in the world."
+    },
+    {
+      "id": "q140",
+      "question": "[Q.140]\nWhich of the following statements is true about troposphere?",
+      "options": [
+        "Its average height is 13 km.",
+        "It is the topmost layer of the atmosphere.",
+        "The temperature at this layer increases with the height.",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set B): A. The troposphere is the lowest layer of the atmosphere. It averages about 13 km in height (about 8 km at the poles and 18 km at the equator), and its temperature falls with height (about 6.5 °C per km). Only A is true."
+    },
+    {
+      "id": "q141",
+      "question": "[Q.141]\nThe southern continent broken from Pangaea is called",
+      "options": [
+        "Pacific Ocean",
+        "Laurasia",
+        "Gondwanaland",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set B): C. Pangaea split into Laurasia in the north and Gondwanaland in the south (South America, Africa, India, Australia and Antarctica)."
+    },
+    {
+      "id": "q142",
+      "question": "[Q.142]\nThe Arctic region and the Antarctica continent are situated near",
+      "options": [
+        "the Amazon Basin",
+        "the Sahara Desert",
+        "the North and South Poles",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set B): C. The Arctic region lies around the North Pole and the continent of Antarctica lies around the South Pole."
+    },
+    {
+      "id": "q143",
+      "question": "[Q.143]\nWhich States of India have common border with Myanmar?",
+      "options": [
+        "Manipur, Mizoram, Nagaland, Tripura",
+        "Arunachal Pradesh, Nagaland, Manipur, Mizoram",
+        "Arunachal Pradesh, Assam, Manipur, Mizoram",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set B): B. The four Indian States bordering Myanmar are Arunachal Pradesh, Nagaland, Manipur and Mizoram. Assam and Tripura do not touch Myanmar."
+    },
+    {
+      "id": "q144",
+      "question": "[Q.144]\nWhich one of the following is the world's richest region from a marine biodiversity perspective, comprising 21 islands with estuaries, beaches, forests of the nearshore environment, seagrasses, coral reefs, salt marshes and mangroves?",
+      "options": [
+        "Sunderbans Biosphere Reserve",
+        "Gulf of Mannar Biosphere Reserve",
+        "Nanda Devi Biosphere Reserve",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set B): B. The Gulf of Mannar Biosphere Reserve (Tamil Nadu), with its 21 islands, coral reefs, seagrass beds and mangroves, is regarded as one of the world's richest marine biodiversity regions."
+    },
+    {
+      "id": "q145",
+      "question": "[Q.145]\nIn which type of climatic region do Uttar Pradesh and Bihar fall as per Köppen's classification scheme?",
+      "options": [
+        "Dfc",
+        "Cwg",
+        "Aw",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "Official BPSC final answer key (Set B): B. Most of the Ganga plain, including UP and Bihar, falls in Köppen's Cwg type (monsoon climate with dry winters). Aw (tropical savanna) covers much of peninsular India."
+    },
+    {
+      "id": "q146",
+      "question": "[Q.146]\nIndia's territorial limit extends towards the sea up to how many nautical miles/km from the coast?",
+      "options": [
+        "10 nautical miles (about 19·9 km)",
+        "16 nautical miles (about 25·9 km)",
+        "12 nautical miles (about 21·9 km)",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "Official BPSC final answer key (Set B): C. India's territorial sea extends 12 nautical miles (about 22 km) from the baseline, as under UNCLOS."
+    },
+    {
+      "id": "q147",
+      "question": "[Q.147]\nWhich of the following river valleys is rich in coal reserves in India?",
+      "options": [
+        "Mahanadi River Valley",
+        "Damodar River Valley",
+        "Son River Valley",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set B): D. India's Gondwana coalfields lie in several river valleys: the Damodar (Jharia, Raniganj, Bokaro), the Mahanadi (Talcher, Ib valley) and the Son (Singrauli). So more than one option is correct."
+    },
+    {
+      "id": "q148",
+      "question": "[Q.148]\nWhich of the following statements is true about sugar industry in India?",
+      "options": [
+        "Uttar Pradesh is the second largest producer of sugar.",
+        "It is a weight-losing industry.",
+        "Maharashtra has emerged as a leading sugar producer in the country.",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 3,
+      "explanation": "Official BPSC final answer key (Set B): D. BPSC held all three true: Maharashtra produced about 138 lakh tonnes of sugar in 2022–23 and overtook UP (about 102 lakh tonnes), making UP second, and the sugar industry is weight-losing (sugarcane loses most of its weight in processing). So more than one is correct."
+    },
+    {
+      "id": "q149",
+      "question": "[Q.149]\nTowards the end of summer, there are pre-monsoon showers which are a common phenomenon in Kerala and coastal areas of Karnataka. Locally, they are known as",
+      "options": [
+        "Mango showers",
+        "Blossom showers",
+        "Norwesters",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set B): A. Pre-monsoon showers in Kerala and coastal Karnataka are called mango showers because they help the mangoes ripen. Blossom (cherry/coffee) showers occur in interior Karnataka, and Norwesters (Kalbaisakhi) occur in Bengal and Assam."
+    },
+    {
+      "id": "q150",
+      "question": "[Q.150]\nThe atmosphere is mainly heated by the",
+      "options": [
+        "long-wave terrestrial radiation",
+        "short-wave solar radiation",
+        "reflected solar radiation",
+        "More than one of the above",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Official BPSC final answer key (Set B): A. The atmosphere is largely transparent to incoming short-wave solar radiation. It is heated mainly from below: the Earth absorbs insolation and re-emits it as long-wave terrestrial radiation, which the atmosphere absorbs. Note: BPSC's remark on this question in the final key mentions short-wave solar radiation, but the key's answer letter for this series is long-wave terrestrial radiation."
+    }
+  ]
+}

@@ -17,6 +17,22 @@ type Menu =
 
 const supported = () => typeof CSS !== "undefined" && "highlights" in CSS;
 
+/** Paint colours. Injected at runtime because the CSS build pipeline drops `::highlight()` rules. */
+const PAINT: Record<HighlightColor, string> = {
+  yellow: "rgba(250, 204, 21, 0.4)",
+  green: "rgba(74, 222, 128, 0.35)",
+  blue: "rgba(96, 165, 250, 0.38)",
+  pink: "rgba(244, 114, 182, 0.38)",
+};
+
+function ensurePaintStyles() {
+  if (document.getElementById("reader-highlight-styles")) return;
+  const style = document.createElement("style");
+  style.id = "reader-highlight-styles";
+  style.textContent = HIGHLIGHT_COLORS.map((c) => `::highlight(hl-${c}) { background-color: ${PAINT[c]}; }`).join(" ");
+  document.head.appendChild(style);
+}
+
 /** Character offset of (node, offset) from the start of `root`'s text. */
 function textOffset(root: Node, node: Node, offset: number): number {
   const r = document.createRange();
@@ -102,6 +118,7 @@ export function Highlighter({
   useEffect(() => {
     const root = articleRef.current;
     if (!root || !supported()) return;
+    ensurePaintStyles();
     const groups = new Map<HighlightColor, Range[]>();
     ranges.current.clear();
     for (const h of highlights) {

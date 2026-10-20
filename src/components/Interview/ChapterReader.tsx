@@ -5,6 +5,7 @@ import { useCallback, useEffect, useRef, useState, type ReactNode } from "react"
 import { ArrowLeft, Check, ChevronLeft, ChevronRight, List } from "@/components/ui/icons";
 import { Highlighter } from "@/components/ui/Highlighter";
 import { ReadingThemePicker } from "@/components/ui/ReadingThemePicker";
+import { interviewHref } from "@/lib/interview/paths";
 import { chapterKey, interviewStore, type ProseSize } from "@/lib/interview/storage";
 import type { BookMeta, Chapter } from "@/lib/interview/types";
 
@@ -23,8 +24,8 @@ export function ChapterReader({ book, chapter, children }: ChapterReaderProps) {
   const [progress, setProgress] = useState(0);
   const [tocOpen, setTocOpen] = useState(false);
   const articleRef = useRef<HTMLElement>(null);
-  const bookHref = `/interview/${encodeURIComponent(book.slug)}`;
-  const chapterHref = (slug: string) => `${bookHref}/${encodeURIComponent(slug)}`;
+  const bookHref = interviewHref(book.slug);
+  const chapterHref = (slug: string) => interviewHref(book.slug, slug);
 
   // Restore preferences and reading position once on the client (deferred so it
   // runs after hydration rather than synchronously inside the effect).

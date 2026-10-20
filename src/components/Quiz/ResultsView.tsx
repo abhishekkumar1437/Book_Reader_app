@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useMemo, useState } from "react";
 import { Check, Close, Flag } from "@/components/ui/icons";
-import type { QuizAttempt } from "@/lib/quiz/storage";
+import { attemptMarks, formatMarks, type QuizAttempt } from "@/lib/quiz/storage";
 import type { QuizSet } from "@/lib/quiz/types";
 
 interface ResultsViewProps {
@@ -45,7 +45,8 @@ export function ResultsView({ set, attempt, best, onRetake }: ResultsViewProps) 
 
   const incorrect = rows.filter((r) => !r.correct && !r.unanswered).length;
   const unanswered = rows.filter((r) => r.unanswered).length;
-  const percent = Math.round((attempt.score / attempt.total) * 100);
+  const marks = attemptMarks(attempt);
+  const percent = Math.round((marks / attempt.total) * 100);
   const isBest = best !== null && best.id === attempt.id;
 
   const visible = rows.filter((r) => {
@@ -71,12 +72,18 @@ export function ResultsView({ set, attempt, best, onRetake }: ResultsViewProps) 
         <div className="mt-6 flex flex-wrap items-end gap-6">
           <div>
             <p className="font-serif text-5xl leading-none text-fg sm:text-6xl">
-              {attempt.score}
+              {formatMarks(marks)}
               <span className="text-2xl text-fg-muted">/{attempt.total}</span>
             </p>
             <p className="mt-2 text-sm text-fg-muted">
-              {percent}% {isBest && attempt.score > 0 && <span className="text-accent">· your best so far</span>}
+              {percent}%{attempt.net !== undefined && " net marks"}{" "}
+              {isBest && marks > 0 && <span className="text-accent">· your best so far</span>}
             </p>
+            {attempt.net !== undefined && set.negativeMark && (
+              <p className="mt-1 text-xs text-fg-muted">
+                {attempt.score} correct − {incorrect} wrong × {set.negativeMark === 1 / 3 ? "1/3" : formatMarks(set.negativeMark)}
+              </p>
+            )}
           </div>
           <dl className="grid flex-1 grid-cols-2 gap-2 text-center text-sm sm:grid-cols-4">
             <div className="rounded-xl border border-emerald-400/20 bg-emerald-400/10 py-2 text-emerald-200">

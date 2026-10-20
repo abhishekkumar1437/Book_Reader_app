@@ -15,8 +15,21 @@ export interface QuizAttempt {
   /** Chosen option index per question, aligned with `order`; null = unanswered. */
   answers: (number | null)[];
   flagged: number[];
+  /** Number of questions answered correctly (dropped questions count as correct). */
   score: number;
   total: number;
+  /** Net marks after negative marking; set only for sets with `negativeMark`. */
+  net?: number;
+}
+
+/** The marks an attempt earned: net marks when the set has negative marking, else the correct count. */
+export function attemptMarks(a: QuizAttempt): number {
+  return a.net ?? a.score;
+}
+
+/** Marks rounded to at most two decimals for display: 96, 96.5, 96.33. */
+export function formatMarks(marks: number): string {
+  return String(Math.round(marks * 100) / 100);
 }
 
 export interface InProgressAttempt {
@@ -72,7 +85,7 @@ export const localQuizStore: QuizStore = {
 
 export function bestScore(attempts: QuizAttempt[]): QuizAttempt | null {
   return attempts.reduce<QuizAttempt | null>(
-    (best, a) => (best === null || a.score / a.total > best.score / best.total ? a : best),
+    (best, a) => (best === null || attemptMarks(a) / a.total > attemptMarks(best) / best.total ? a : best),
     null,
   );
 }

@@ -56,12 +56,6 @@ body {
   background: rgba(212, 169, 90, 0.35);
 }
 
-/* ---------- Reader highlights (CSS Custom Highlight API, see Highlighter.tsx) ---------- */
-::highlight(hl-yellow) { background-color: rgba(250, 204, 21, 0.4); }
-::highlight(hl-green) { background-color: rgba(74, 222, 128, 0.35); }
-::highlight(hl-blue) { background-color: rgba(96, 165, 250, 0.38); }
-::highlight(hl-pink) { background-color: rgba(244, 114, 182, 0.38); }
-
 /* ---------- Reading backgrounds ---------- */
 /* The chapter and story readers set data-reading-theme on <html> while open
    (see ReadingThemePicker). "dark" is the default palette above, so it has no rule. */
@@ -559,6 +553,16 @@ html:is([data-reading-theme="sepia"], [data-reading-theme="paper"], [data-readin
   border-radius: 4px 10px 10px 4px;
   overflow: hidden;
   position: relative;
+}
+
+/* A collection card: a box set, with two more covers peeking out behind. */
+.cover--collection {
+  background: linear-gradient(160deg, #ecd9ad 0%, #d4a95a 100%);
+  box-shadow:
+    inset 6px 0 12px -8px rgba(0, 0, 0, 0.5),
+    5px -5px 0 -1px var(--paper-2),
+    10px -10px 0 -2px var(--paper-edge),
+    0 12px 30px rgba(0, 0, 0, 0.45);
 }
 
 .cover::before {
