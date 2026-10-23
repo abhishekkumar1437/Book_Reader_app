@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useMemo, useState } from "react";
+import { Fragment, useEffect, useMemo, useState } from "react";
 import { Check, ChevronRight, Clock } from "@/components/ui/icons";
 import { interviewHref } from "@/lib/interview/paths";
 import { chapterKey, interviewStore } from "@/lib/interview/storage";
@@ -44,14 +44,14 @@ export function ChapterList({ book, chapters }: { book: BookMeta; chapters: Chap
           All books
         </Link>
         <ChevronRight size={14} />
-        {book.collection && (
-          <>
-            <Link href={interviewHref(book.collection.slug)} className="hover:text-fg">
-              {book.collection.title}
+        {book.trail.map((c) => (
+          <Fragment key={c.slug}>
+            <Link href={interviewHref(c.slug)} className="hover:text-fg">
+              {c.title}
             </Link>
             <ChevronRight size={14} />
-          </>
-        )}
+          </Fragment>
+        ))}
         <span className="text-fg">{book.title}</span>
       </nav>
 

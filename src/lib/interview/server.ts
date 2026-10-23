@@ -2,7 +2,7 @@ import "server-only";
 import { promises as fs } from "node:fs";
 import path from "node:path";
 import GithubSlugger from "github-slugger";
-import type { BookMeta, Chapter, ChapterHeading, ChapterMeta, CollectionMeta } from "./types";
+import type { BookMeta, Chapter, ChapterHeading, ChapterMeta, CollectionLink, CollectionMeta } from "./types";
 
 /**
  * The interview-prep shelf lives here: one sub-folder per book.
@@ -19,6 +19,11 @@ import type { BookMeta, Chapter, ChapterHeading, ChapterMeta, CollectionMeta } f
  *       polity/              a book inside it, same layout as above; its slug is "bpsc-2027/polity"
  *         book.md
  *         01-intro.md
+ *     bpsc-tre/              collections may hold collections too (one level deep)
+ *       collection.md
+ *       class-9-10-science/  a collection card inside the TRE card
+ *         collection.md
+ *         physics/           book slug "bpsc-tre/class-9-10-science/physics"
  *
  * Every Markdown file starts with a small front matter block of `key: value` lines.
  */
@@ -27,9 +32,10 @@ export const INTERVIEW_DIR = path.join(process.cwd(), "interview");
 const BOOK_FILE = "book.md";
 const COLLECTION_FILE = "collection.md";
 const SEGMENT = "[a-z0-9][a-z0-9-]*";
-/** A top-level book ("dsa-python") or a book inside a collection ("bpsc-2027/polity"). */
-const BOOK_SLUG_PATTERN = new RegExp(`^${SEGMENT}(?:/${SEGMENT})?$`, "i");
-const COLLECTION_SLUG_PATTERN = new RegExp(`^${SEGMENT}$`, "i");
+/** A top-level book ("dsa-python"), a book in a collection ("bpsc-2027/polity") or in a nested one ("bpsc-tre/class-9-10-science/physics"). */
+const BOOK_SLUG_PATTERN = new RegExp(`^${SEGMENT}(?:/${SEGMENT}){0,2}$`, "i");
+/** A top-level collection ("bpsc-tre") or one inside it ("bpsc-tre/class-9-10-science"). */
+const COLLECTION_SLUG_PATTERN = new RegExp(`^${SEGMENT}(?:/${SEGMENT})?$`, "i");
 const CHAPTER_FILE_PATTERN = /^(\d+)-([a-z0-9][a-z0-9-]*)\.md$/i;
 const WORDS_PER_MINUTE = 180;
 
@@ -144,15 +150,26 @@ async function isCollection(slug: string): Promise<boolean> {
 const byShelfOrder = (a: { order: number; title: string }, b: { order: number; title: string }) =>
   a.order - b.order || a.title.localeCompare(b.title);
 
+/** The collections enclosing `slug`, outermost first; null when any ancestor folder is not a collection. */
+async function readTrail(slug: string): Promise<CollectionLink[] | null> {
+  const parts = slug.split("/");
+  const trail: CollectionLink[] = [];
+  for (let i = 1; i < parts.length; i++) {
+    const ancestor = parts.slice(0, i).join("/");
+    if (!(await isCollection(ancestor))) return null;
+    trail.push({ slug: ancestor, title: (await readMeta(ancestor, COLLECTION_FILE)).title || ancestor });
+  }
+  return trail;
+}
+
 async function readBook(slug: string): Promise<BookMeta | null> {
   if (!BOOK_SLUG_PATTERN.test(slug) || !(await isDirectory(slug)) || (await isCollection(slug))) return null;
-  const parent = slug.includes("/") ? slug.slice(0, slug.indexOf("/")) : null;
-  if (parent && !(await isCollection(parent))) return null;
+  const trail = await readTrail(slug);
+  if (!trail) return null;
   // A folder without book.md is still a book; it just uses defaults.
   const meta = await readMeta(slug, BOOK_FILE);
   const chapters = await readAllChapters(slug);
   if (chapters.length === 0) return null;
-  const parentTitle = parent ? (await readMeta(parent, COLLECTION_FILE)).title || parent : "";
   return {
     slug,
     title: meta.title || slug,
@@ -161,20 +178,30 @@ async function readBook(slug: string): Promise<BookMeta | null> {
     order: Number(meta.order) || Number.MAX_SAFE_INTEGER,
     chapterCount: chapters.length,
     minutes: chapters.reduce((sum, c) => sum + c.minutes, 0),
-    collection: parent ? { slug: parent, title: parentTitle } : null,
+    collection: trail.at(-1) ?? null,
+    trail,
   };
 }
 
-async function readCollectionBooks(slug: string): Promise<BookMeta[]> {
-  const entries = await fs.readdir(path.join(INTERVIEW_DIR, slug), { withFileTypes: true });
-  const books = await Promise.all(entries.filter((e) => e.isDirectory()).map((e) => readBook(`${slug}/${e.name}`)));
-  return books.filter((b): b is BookMeta => b !== null).sort(byShelfOrder);
-}
+type CollectionContents = { collection: CollectionMeta; collections: CollectionMeta[]; books: BookMeta[] };
 
-async function readCollection(slug: string): Promise<{ collection: CollectionMeta; books: BookMeta[] } | null> {
+async function readCollection(slug: string): Promise<CollectionContents | null> {
   if (!COLLECTION_SLUG_PATTERN.test(slug) || !(await isCollection(slug))) return null;
+  const trail = await readTrail(slug);
+  if (!trail) return null;
   const meta = await readMeta(slug, COLLECTION_FILE);
-  const books = await readCollectionBooks(slug);
+  const entries = await fs.readdir(path.join(INTERVIEW_DIR, slug), { withFileTypes: true });
+  const children = entries.filter((e) => e.isDirectory()).map((e) => `${slug}/${e.name}`);
+  const readNested = async (c: string): Promise<CollectionMeta | null> => (await readCollection(c))?.collection ?? null;
+  const [books, nested] = await Promise.all([
+    Promise.all(children.map((c) => readBook(c))),
+    // One level of nesting only: a collection inside a collection holds books, not further collections.
+    Promise.all(trail.length === 0 ? children.map(readNested) : []),
+  ]);
+  const ownBooks = books.filter((b): b is BookMeta => b !== null).sort(byShelfOrder);
+  const collections = nested.filter((c): c is CollectionMeta => c !== null).sort(byShelfOrder);
+  const total = (pick: (x: { chapterCount: number; minutes: number }) => number) =>
+    collections.reduce((n, c) => n + pick(c), 0) + ownBooks.reduce((n, b) => n + pick(b), 0);
   return {
     collection: {
       slug,
@@ -182,11 +209,14 @@ async function readCollection(slug: string): Promise<{ collection: CollectionMet
       subtitle: meta.subtitle || "",
       description: meta.description || "",
       order: Number(meta.order) || Number.MAX_SAFE_INTEGER,
-      bookCount: books.length,
-      chapterCount: books.reduce((sum, b) => sum + b.chapterCount, 0),
-      minutes: books.reduce((sum, b) => sum + b.minutes, 0),
+      bookCount: ownBooks.length + collections.reduce((n, c) => n + c.bookCount, 0),
+      collectionCount: collections.length,
+      chapterCount: total((x) => x.chapterCount),
+      minutes: total((x) => x.minutes),
+      trail,
     },
-    books,
+    collections,
+    books: ownBooks,
   };
 }
 
@@ -204,9 +234,15 @@ export async function listShelf(): Promise<{ books: BookMeta[]; collections: Col
   };
 }
 
+/** Shelf folders that moved somewhere else as a whole: old top-level slug → new slug. Keep in sync with MOVED_BOOKS in storage.ts. */
+export const MOVED_PATHS: Record<string, string> = {
+  "bpsc-tre4-science": "bpsc-tre/class-9-10-science",
+};
+
 /** For a book that now lives inside a collection, its new slug ("ai-roadmap" → "ai-engineer/ai-roadmap"), so old links can redirect. */
 export async function findBookInCollection(slug: string): Promise<string | null> {
-  if (!COLLECTION_SLUG_PATTERN.test(slug)) return null;
+  if (MOVED_PATHS[slug]) return MOVED_PATHS[slug];
+  if (!new RegExp(`^${SEGMENT}$`, "i").test(slug)) return null;
   const dirs = (await fs.readdir(INTERVIEW_DIR, { withFileTypes: true })).filter((e) => e.isDirectory()).map((e) => e.name);
   for (const dir of dirs) {
     if ((await isCollection(dir)) && (await isDirectory(`${dir}/${slug}`))) return `${dir}/${slug}`;
@@ -214,7 +250,7 @@ export async function findBookInCollection(slug: string): Promise<string | null>
   return null;
 }
 
-export async function getCollection(slug: string): Promise<{ collection: CollectionMeta; books: BookMeta[] } | null> {
+export async function getCollection(slug: string): Promise<CollectionContents | null> {
   return readCollection(slug.toLowerCase());
 }
 

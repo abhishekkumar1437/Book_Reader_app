@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 import { ChevronRight } from "@/components/ui/icons";
 import { interviewHref } from "@/lib/interview/paths";
 import { interviewStore } from "@/lib/interview/storage";
@@ -68,7 +68,8 @@ function CollectionCard({ collection, readCount }: { collection: CollectionMeta;
         <div className="cover cover--collection">
           <div className="flex h-full flex-col justify-between p-3 pl-5 sm:p-5 sm:pl-7">
             <span className="text-[9px] tracking-[0.2em] text-ink/60 uppercase sm:text-[10px] sm:tracking-[0.25em]">
-              Collection · {collection.bookCount} books
+              Collection · {collection.collectionCount > 0 && `${collection.collectionCount} collections · `}
+              {collection.bookCount} books
             </span>
             <span>
               <span className="block font-serif text-lg leading-tight text-ink sm:text-2xl">{collection.title}</span>
@@ -110,7 +111,7 @@ function CollectionCard({ collection, readCount }: { collection: CollectionMeta;
 
 interface BookShelfProps {
   books: BookMeta[];
-  /** Collection cards shown before the books (top-level shelf only). */
+  /** Collection cards shown before the books: on the top-level shelf, or nested inside `collection`. */
   collections?: CollectionMeta[];
   /** Set when this shelf is the inside of a collection. */
   collection?: CollectionMeta;
@@ -153,12 +154,21 @@ export function BookShelf({ books, collections = [], collection }: BookShelfProp
               All books
             </Link>
             <ChevronRight size={14} />
+            {collection.trail.map((c) => (
+              <Fragment key={c.slug}>
+                <Link href={interviewHref(c.slug)} className="hover:text-fg">
+                  {c.title}
+                </Link>
+                <ChevronRight size={14} />
+              </Fragment>
+            ))}
             <span className="text-fg">{collection.title}</span>
           </nav>
           <section className="mt-4 rounded-2xl border border-line bg-bg-2/80 p-5">
             <h2 className="font-serif text-2xl text-fg">{collection.title}</h2>
             {collection.description && <p className="mt-1 max-w-3xl text-sm text-fg-muted">{collection.description}</p>}
             <p className="mt-2 text-sm text-fg-muted">
+              {collection.collectionCount > 0 && `${collection.collectionCount} collections · `}
               {collection.bookCount} books · {collection.chapterCount} chapters · about {hours(collection.minutes)} of reading ·{" "}
               {done.filter((k) => k.startsWith(`${collection.slug}/`)).length} chapters read
             </p>
@@ -177,6 +187,7 @@ export function BookShelf({ books, collections = [], collection }: BookShelfProp
         </section>
       )}
 
+      {books.length > 0 && (
       <section className="mt-8">
         <h2 className="mb-4 font-serif text-2xl text-fg">Books</h2>
         <div className="grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-3 xl:grid-cols-4">
@@ -190,6 +201,7 @@ export function BookShelf({ books, collections = [], collection }: BookShelfProp
           ))}
         </div>
       </section>
+      )}
     </div>
   );
 }

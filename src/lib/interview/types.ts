@@ -22,20 +22,32 @@ export interface BookMeta {
   chapterCount: number;
   /** Total estimated reading time in minutes. */
   minutes: number;
-  /** The collection this book sits in, if any. */
-  collection: { slug: string; title: string } | null;
+  /** The collection this book sits in, if any (the innermost one when collections nest). */
+  collection: CollectionLink | null;
+  /** Every enclosing collection, outermost first; empty for a book on the top-level shelf. */
+  trail: CollectionLink[];
 }
 
-/** A shelf card that groups several books: a folder with a `collection.md` descriptor and one sub-folder per book. */
+export interface CollectionLink {
+  slug: string;
+  title: string;
+}
+
+/** A shelf card that groups several books: a folder with a `collection.md` descriptor and one sub-folder per book or nested collection. */
 export interface CollectionMeta {
   slug: string;
   title: string;
   subtitle: string;
   description: string;
   order: number;
+  /** Books inside, counting those in nested collections. */
   bookCount: number;
+  /** Collection cards directly inside this one. */
+  collectionCount: number;
   chapterCount: number;
   minutes: number;
+  /** Enclosing collections, outermost first; empty for a top-level card. */
+  trail: CollectionLink[];
 }
 
 /** Everything the chapter list needs; the body is left out. */

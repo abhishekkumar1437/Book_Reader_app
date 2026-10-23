@@ -5,8 +5,13 @@ export { chapterKey, type ProseSize } from "@/lib/reading/storage";
 
 const PREFIX = "book-reader:interview:";
 
-/** Books that moved into a collection folder: old slug → new slug. Progress saved under the old slug is carried over once. */
-const MOVED_BOOKS: Record<string, string> = Object.fromEntries(
+/**
+ * Books (or whole collections) that moved: old first path segment → new slug. Progress saved under the old slug is
+ * carried over once; bump MIGRATION_FLAG when adding entries. Keep in sync with MOVED_PATHS in server.ts.
+ */
+const MOVED_BOOKS: Record<string, string> = {
+  "bpsc-tre4-science": "bpsc-tre/class-9-10-science",
+  ...Object.fromEntries(
   [
     "ai-roadmap",
     "math-for-ml",
@@ -19,8 +24,9 @@ const MOVED_BOOKS: Record<string, string> = Object.fromEntries(
     "ai-projects",
     "ai-glossary",
   ].map((slug) => [slug, `ai-engineer/${slug}`]),
-);
-const MIGRATION_FLAG = `${PREFIX}migrated:ai-engineer`;
+  ),
+};
+const MIGRATION_FLAG = `${PREFIX}migrated:bpsc-tre`;
 
 /** Rewrites "book/rest" keys whose book moved; returns null when the key is not affected. */
 function movedKey(key: string): string | null {
