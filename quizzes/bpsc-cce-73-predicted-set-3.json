@@ -1,0 +1,1811 @@
+{
+ "title": "Predicted Paper 3 · 73rd CCE Prelims 2027 · General Studies",
+ "subject": "BPSC CCE Predicted",
+ "topic": "Model paper 3 of 4 for the BPSC 73rd CCE Preliminary (2027): 150 original questions built on the topic mix, question styles and repeating themes of the 68th–71st CCE Prelims, with current affairs from Oct 2025 to Oct 2026.",
+ "description": "Not a leaked or official paper: a prediction of the kind of questions BPSC is likely to ask, written to match the real section weightage (26 Bihar, 25 current affairs, 22 history, 2 art and culture, 12 geography, 12 polity, 8 economy, 32 science, technology and environment, 10 reasoning and maths, 1 miscellaneous). Every answer was checked independently. Each question shows its section, so you can find your weak areas from the results page. Negative marking: 1/3 mark per wrong answer, as in the real exam. Use the 2-hour timer for a full mock.",
+ "timeLimitMinutes": 120,
+ "negativeMark": 0.3333333333333333,
+ "createdAt": "2026-10-20",
+ "questions": [
+  {
+   "id": "q1",
+   "question": "[Q.1 · Current Affairs (International)]\nAt the 47th ASEAN Summit held at Kuala Lumpur in October 2025, which country was formally admitted as the 11th member of ASEAN?",
+   "options": [
+    "Papua New Guinea",
+    "Timor-Leste",
+    "Sri Lanka",
+    "More than one of the above"
+   ],
+   "answer": 1,
+   "explanation": "Timor-Leste was admitted as ASEAN's 11th member on 26 October 2025 at the 47th Summit chaired by Malaysia. It had applied in 2011 and is the first new member since Cambodia joined in 1999. Papua New Guinea is only an observer of ASEAN, and Sri Lanka is not a member."
+  },
+  {
+   "id": "q2",
+   "question": "[Q.2 · Current Affairs (International)]\nThe Nobel Prize in Chemistry 2025, awarded to Susumu Kitagawa, Richard Robson and Omar M. Yaghi, was for:",
+   "options": [
+    "Click chemistry and bioorthogonal chemistry",
+    "Computational protein design",
+    "The development of metal-organic frameworks",
+    "Asymmetric organocatalysis"
+   ],
+   "answer": 2,
+   "explanation": "The 2025 Chemistry Nobel honoured the development of metal-organic frameworks (MOFs): metal ions linked by organic molecules into porous structures that can harvest water from desert air, capture carbon dioxide or store gases. Click chemistry was the 2022 prize, protein design the 2024 prize and organocatalysis the 2021 prize. Kitagawa is from Kyoto University, Robson from Melbourne and Yaghi (born in Amman, Jordan) from UC Berkeley."
+  },
+  {
+   "id": "q3",
+   "question": "[Q.3 · Current Affairs (International)]\nSanae Takaichi, who became the first woman Prime Minister of Japan in October 2025, succeeded:",
+   "options": [
+    "Fumio Kishida",
+    "Yoshihide Suga",
+    "Taro Kono",
+    "Shigeru Ishiba"
+   ],
+   "answer": 3,
+   "explanation": "Takaichi was elected Japan's 104th Prime Minister by the Diet on 21 October 2025, after becoming president of the Liberal Democratic Party on 4 October. She succeeded Shigeru Ishiba, who had resigned in September 2025. Fumio Kishida was Ishiba's predecessor (2021-24), not Takaichi's."
+  },
+  {
+   "id": "q4",
+   "question": "[Q.4 · Current Affairs (International)]\nIn the World Economic Forum's Global Gender Gap Index 2026, what was India's rank, and which country topped the index?",
+   "options": [
+    "131st; Iceland",
+    "129th; Iceland",
+    "131st; Finland",
+    "127th; Norway"
+   ],
+   "answer": 0,
+   "explanation": "India stayed at 131st (out of 145 economies) in the Global Gender Gap Index 2026, released by the WEF in September 2026, with a parity score of about 64.5%. Iceland kept the top spot, followed by Finland and Norway. India was 129th in 2024 and 127th in 2023, and its weakest sub-index is economic participation and opportunity."
+  },
+  {
+   "id": "q5",
+   "question": "[Q.5 · Current Affairs (International)]\nConsider the following statements regarding the G7 Summit held in June 2026:\n1. It was the 52nd G7 Summit, hosted by France at Evian-les-Bains.\n2. India took part in it as an invited outreach partner country.\n3. It was the first time France hosted a G7/G8 summit at Evian.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1, 2 and 3",
+    "2 and 3 only",
+    "1 and 2 only",
+    "1 only"
+   ],
+   "answer": 2,
+   "explanation": "The 52nd G7 Summit was held at Evian-les-Bains, France, on 15-17 June 2026, and India was invited by the French presidency as a partner country (its 13th participation in a G7 summit). Statement 3 is wrong: Evian had already hosted the G8 Summit in 2003, and France also hosted at Biarritz in 2019. The summit's outputs included a declaration on critical-minerals supply chains."
+  },
+  {
+   "id": "q6",
+   "question": "[Q.6 · Current Affairs (International)]\nThe Palme d'Or at the Cannes Film Festival 2026 was won by the film 'Fjord', directed by:",
+   "options": [
+    "Cristian Mungiu",
+    "Jafar Panahi",
+    "Justine Triet",
+    "Sean Baker"
+   ],
+   "answer": 0,
+   "explanation": "Romanian director Cristian Mungiu won the 2026 Palme d'Or for 'Fjord', his second after '4 Months, 3 Weeks and 2 Days' (2007). The jury was headed by Park Chan-wook, the first Korean jury president at Cannes. Jafar Panahi won in 2025 ('It Was Just an Accident'), Sean Baker in 2024 ('Anora') and Justine Triet in 2023 ('Anatomy of a Fall')."
+  },
+  {
+   "id": "q7",
+   "question": "[Q.7 · Current Affairs (National)]\nThe 'New Delhi Declaration' adopted at the India AI Impact Summit (February 2026, Bharat Mandapam) was built around three 'Sutras'. These were:",
+   "options": [
+    "Safety, Security and Trust",
+    "Data, Compute and Talent",
+    "Inclusion, Innovation and Impact",
+    "People, Planet and Progress"
+   ],
+   "answer": 3,
+   "explanation": "The India AI Impact Summit, the first summit in this series held in the Global South, adopted the New Delhi Declaration on AI Impact around three Sutras (People, Planet and Progress) and the guiding principle 'Sarvajan Hitaya, Sarvajan Sukhaya'. About 88 countries and international organisations endorsed it at the close. The earlier summits in the series were Bletchley Park (2023), Seoul (2024) and Paris (2025)."
+  },
+  {
+   "id": "q8",
+   "question": "[Q.8 · Current Affairs (National)]\nIndia won the ICC Men's T20 World Cup 2026, co-hosted by India and Sri Lanka. Where was the final played, and which team did India defeat?",
+   "options": [
+    "Wankhede Stadium, Mumbai; South Africa",
+    "Narendra Modi Stadium, Ahmedabad; New Zealand",
+    "R. Premadasa Stadium, Colombo; Australia",
+    "Eden Gardens, Kolkata; England"
+   ],
+   "answer": 1,
+   "explanation": "On 8 March 2026 India beat New Zealand by 96 runs in the final at the Narendra Modi Stadium, Ahmedabad. India became the first team to defend the T20 World Cup and the first to win it at home. India had beaten South Africa in the 2024 final at Barbados, which is the tempting distractor."
+  },
+  {
+   "id": "q9",
+   "question": "[Q.9 · Current Affairs (National)]\nWho received the 59th Jnanpith Award, presented to him at his Raipur residence in November 2025?",
+   "options": [
+    "Gulzar",
+    "Damodar Mauzo",
+    "Vinod Kumar Shukla",
+    "None of the above"
+   ],
+   "answer": 2,
+   "explanation": "Hindi writer Vinod Kumar Shukla, author of 'Naukar Ki Kameez' and 'Deewar Mein Ek Khidki Rahti Thi', received the 59th Jnanpith (for 2024). He is the first Jnanpith laureate from Chhattisgarh and the 12th Hindi writer to win it. Gulzar and Jagadguru Rambhadracharya shared the 58th award, and Damodar Mauzo (Konkani) received the 57th."
+  },
+  {
+   "id": "q10",
+   "question": "[Q.10 · Current Affairs (National)]\nINS Mahe, the first of the Mahe-class anti-submarine warfare shallow water craft (ASW-SWC), commissioned into the Indian Navy in November 2025, was built by:",
+   "options": [
+    "Cochin Shipyard Limited",
+    "Garden Reach Shipbuilders and Engineers",
+    "Mazagon Dock Shipbuilders",
+    "More than one of the above"
+   ],
+   "answer": 0,
+   "explanation": "INS Mahe was built by Cochin Shipyard Limited and commissioned at the Naval Dockyard, Mumbai, on 24 November 2025, with over 80% indigenous content. The 16 ASW-SWCs were ordered in 2019, eight from CSL (Mahe class) and eight from GRSE (Arnala class, such as INS Arnala and INS Androth). So GRSE built the other class, not INS Mahe. The craft replace the Abhay-class corvettes."
+  },
+  {
+   "id": "q11",
+   "question": "[Q.11 · Indian Economy]\nThe new series of national accounts released by MoSPI in February 2026 has 2022-23 as its base year. Which base year did it replace?",
+   "options": [
+    "2004-05",
+    "2011-12",
+    "2017-18",
+    "2015-16"
+   ],
+   "answer": 1,
+   "explanation": "The new GDP series (released 27 February 2026) moved the base from 2011-12 to 2022-23, the ninth such revision. It uses new data sources such as GST and e-Vahan records and double deflation in some sectors. 2004-05 was the base before 2011-12; 2017-18 is not a GDP base year."
+  },
+  {
+   "id": "q12",
+   "question": "[Q.12 · Indian Economy]\nAfter the Monetary Policy Committee's decision of 5 December 2025, the policy repo rate of the RBI stood at:",
+   "options": [
+    "5.50%",
+    "5.75%",
+    "5.25%",
+    "5.00%"
+   ],
+   "answer": 2,
+   "explanation": "The MPC cut the repo rate by 25 basis points to 5.25% on 5 December 2025 and kept a neutral stance. Together with the cuts of February (25 bps), April (25 bps) and June (50 bps), the total easing in 2025 was 125 bps, from 6.50%. 5.50% was the rate from June to December 2025."
+  },
+  {
+   "id": "q13",
+   "question": "[Q.13 · Indian Economy]\nThe Income-tax Act, 2025, which replaced the Income-tax Act, 1961 from 1 April 2026, replaced the concepts of 'previous year' and 'assessment year' with:",
+   "options": [
+    "Tax year",
+    "Fiscal year",
+    "Income year",
+    "More than one of the above"
+   ],
+   "answer": 0,
+   "explanation": "The Income-tax Act, 2025 uses one concept, the 'tax year' (the financial year from 1 April to 31 March in which income is earned), in place of the old 'previous year' and 'assessment year'. Section 536 repeals the 1961 Act while saving pending proceedings. Tax Year 2026-27 is the first full year under the new law."
+  },
+  {
+   "id": "q14",
+   "question": "[Q.14 · Indian Economy]\nWhich of the following statements about the Production Linked Incentive (PLI) schemes is correct?",
+   "options": [
+    "They cover only five sectors, all in electronics",
+    "The first PLI schemes were notified in 2020, including one for large-scale electronics (mobile phone) manufacturing",
+    "Incentives are paid on the total sales of a firm, irrespective of any base year",
+    "More than one of the above"
+   ],
+   "answer": 1,
+   "explanation": "The first PLI schemes were notified in 2020 (large-scale electronics, APIs/bulk drugs and medical devices), and PLIs now cover 14 sectors with an outlay of about Rs 1.97 lakh crore. Incentives are linked to incremental sales over a base year, so option C is wrong. The schemes form part of the Atmanirbhar Bharat push for manufacturing and exports."
+  },
+  {
+   "id": "q15",
+   "question": "[Q.15 · Indian Economy]\nWho among the following was NOT one of the authors of the Bombay Plan (1944)?",
+   "options": [
+    "J.R.D. Tata",
+    "G.D. Birla",
+    "Purshottamdas Thakurdas",
+    "M. Visvesvaraya"
+   ],
+   "answer": 3,
+   "explanation": "The Bombay Plan (1944) was drawn up by eight industrialists and technocrats: J.R.D. Tata, G.D. Birla, Purshottamdas Thakurdas, Lala Shri Ram, Kasturbhai Lalbhai, A.D. Shroff, Ardeshir Dalal and John Mathai. M. Visvesvaraya wrote the earlier 'Planned Economy for India' (1934). Other early plans were the People's Plan (M.N. Roy) and the Gandhian Plan (S.N. Agarwal)."
+  },
+  {
+   "id": "q16",
+   "question": "[Q.16 · Indian Economy]\nWhich of the following statements about NITI Aayog is correct?",
+   "options": [
+    "It was set up by an Act of Parliament in 2015",
+    "Like the Planning Commission, it allocates plan funds to the States",
+    "Its Governing Council includes the Chief Ministers of all States and of Union Territories with legislatures",
+    "More than one of the above"
+   ],
+   "answer": 2,
+   "explanation": "NITI Aayog was set up on 1 January 2015 by a Union Cabinet resolution, so it is neither constitutional nor statutory. Its Governing Council has the PM as chairperson, the Chief Ministers of all States and of UTs with legislatures, and the Lieutenant Governors of the other UTs. Unlike the Planning Commission, it has no power to allocate funds; it is a policy think-tank based on cooperative federalism."
+  },
+  {
+   "id": "q17",
+   "question": "[Q.17 · Indian Economy]\nMatch List-I (Committee) with List-II (Associated feature):\nList-I\na. Alagh Task Force (1979)\nb. Lakdawala Expert Group (1993)\nc. Tendulkar Expert Group (2009)\nd. Rangarajan Expert Group (2014)\nList-II\n1. Moved to MRP-based consumption; poverty at 21.9% in 2011-12\n2. Poverty line based on calorie norms of 2400 (rural) and 2100 (urban)\n3. Poverty at 29.5% in 2011-12\n4. State-specific poverty lines updated with CPI-AL and CPI-IW\nSelect the correct answer using the codes given below:",
+   "options": [
+    "a-4, b-2, c-1, d-3",
+    "a-2, b-4, c-3, d-1",
+    "a-2, b-4, c-1, d-3",
+    "a-1, b-4, c-2, d-3"
+   ],
+   "answer": 2,
+   "explanation": "The Alagh Task Force (1979) defined the poverty line through calorie norms (2400 kcal rural, 2100 kcal urban). The Lakdawala group (1993) made state-specific lines, updated using CPI-AL (rural) and CPI-IW (urban). The Tendulkar method (MRP, a common basket) gave 21.9% poverty in 2011-12, and the Rangarajan group's revised method gave 29.5% for the same year, which is the usual trap."
+  },
+  {
+   "id": "q18",
+   "question": "[Q.18 · Indian Economy]\nUnder the Insolvency and Bankruptcy Code, 2016, which body is the adjudicating authority for the insolvency of individuals (other than personal guarantors of corporate debtors) and partnership firms?",
+   "options": [
+    "National Company Law Tribunal",
+    "Debt Recovery Tribunal",
+    "Insolvency and Bankruptcy Board of India",
+    "More than one of the above"
+   ],
+   "answer": 1,
+   "explanation": "For individuals and partnership firms, the IBC names the Debt Recovery Tribunal (DRT) as the adjudicating authority, with appeals to the DRAT. For companies and LLPs (and personal guarantors of corporate debtors), it is the NCLT, with appeals to the NCLAT. The IBBI is the regulator, not an adjudicating body. A corporate insolvency resolution must be finished within 330 days, including litigation time."
+  },
+  {
+   "id": "q19",
+   "question": "[Q.19 · Current Affairs (National)]\nWhich of the following is a provision of the Promotion and Regulation of Online Gaming Act, 2025?",
+   "options": [
+    "It prohibits offering and advertising online money games, and banks facilitating payments for them",
+    "It bans e-sports",
+    "It bans online social and educational games",
+    "More than one of the above"
+   ],
+   "answer": 0,
+   "explanation": "The Act (assent 22 August 2025) fully bans online money games, their advertisement and related fund transfers, with imprisonment of up to three years and/or a fine of up to Rs 1 crore for offering them. It promotes rather than bans e-sports (recognised as a legitimate competitive sport) and online social games. It sets up an Online Gaming Authority to classify and register games."
+  },
+  {
+   "id": "q20",
+   "question": "[Q.20 · Current Affairs (National)]\nUnder the National Sports Governance Act, 2025, which body is empowered to grant recognition to national sports bodies and to suspend or cancel their affiliation?",
+   "options": [
+    "Sports Authority of India",
+    "Indian Olympic Association",
+    "National Sports Board",
+    "More than one of the above"
+   ],
+   "answer": 2,
+   "explanation": "The Act creates a statutory National Sports Board to recognise national sports bodies, hold inquiries and suspend or cancel recognition. Disputes go to a separate National Sports Tribunal, whose decisions can be appealed only in the Supreme Court. Recognised sports bodies are also treated as public authorities under the RTI Act. The IOA is a body that the Act regulates; it does not grant recognition."
+  },
+  {
+   "id": "q21",
+   "question": "[Q.21 · Current Affairs (National)]\nUnder the Mission for Aatmanirbharta in Pulses (2025-26 to 2030-31), approved by the Union Cabinet in October 2025, 100% procurement at MSP from registered farmers has been assured for:",
+   "options": [
+    "Tur (arhar)",
+    "Urad",
+    "Masoor",
+    "More than one of the above"
+   ],
+   "answer": 3,
+   "explanation": "The mission (outlay Rs 11,440 crore, approved on 1 October 2025) assures 100% procurement of tur, urad and masoor by NAFED and NCCF for four years, so all three listed pulses are covered. It aims at 350 lakh tonnes of pulses output by 2030-31 on 310 lakh hectares. Chana and moong are not among the assured-procurement pulses."
+  },
+  {
+   "id": "q22",
+   "question": "[Q.22 · Current Affairs (National)]\nPM Surya Ghar: Muft Bijli Yojana aims to provide one crore households with free electricity of up to how many units per month through rooftop solar?",
+   "options": [
+    "100 units",
+    "200 units",
+    "300 units",
+    "None of the above"
+   ],
+   "answer": 2,
+   "explanation": "PM Surya Ghar: Muft Bijli Yojana (approved February 2024, outlay about Rs 75,021 crore) aims at rooftop solar for one crore households, giving up to 300 units of free electricity a month. The Central Financial Assistance is 60% of system cost for up to 2 kW and 40% for the extra cost between 2 and 3 kW, capped at 3 kW. It is run by the Ministry of New and Renewable Energy."
+  },
+  {
+   "id": "q23",
+   "question": "[Q.23 · Current Affairs (National)]\nUnder the National Critical Mineral Mission approved by the Union Cabinet in January 2025, how many exploration projects is the Geological Survey of India to undertake by 2030-31?",
+   "options": [
+    "800",
+    "1,200",
+    "2,000",
+    "500"
+   ],
+   "answer": 1,
+   "explanation": "The mission (government outlay Rs 16,300 crore plus about Rs 18,000 crore expected from PSUs) targets 1,200 exploration projects by the GSI and the auction of over 100 critical-mineral blocks by 2030-31. It covers the whole value chain, from exploration and mining to processing and recycling. It also supports the acquisition of mineral assets abroad."
+  },
+  {
+   "id": "q24",
+   "question": "[Q.24 · Environment & Ecology]\nIn the Climate Change Performance Index (CCPI) 2026, released during COP30 at Belem, India was ranked:",
+   "options": [
+    "10th",
+    "13th",
+    "33rd",
+    "23rd"
+   ],
+   "answer": 3,
+   "explanation": "India fell 13 places, from 10th to 23rd, in CCPI 2026, and its overall rating dropped from 'high' to 'medium', mainly because of its reliance on coal and the lack of a coal phase-out timeline. The index is published by Germanwatch, NewClimate Institute and Climate Action Network. As usual, the top three places were left empty because no country earned a 'very high' rating."
+  },
+  {
+   "id": "q25",
+   "question": "[Q.25 · Environment & Ecology]\nWhich of the following is correct about the National Green Hydrogen Mission?",
+   "options": [
+    "It targets green hydrogen production capacity of at least 5 million metric tonnes per annum by 2030",
+    "Its nodal ministry is the Ministry of Petroleum and Natural Gas",
+    "Its SIGHT component is a carbon tax on grey hydrogen",
+    "More than one of the above"
+   ],
+   "answer": 0,
+   "explanation": "The mission (approved January 2023, outlay about Rs 19,744 crore) targets at least 5 MMT a year of green hydrogen by 2030, with about 125 GW of linked renewable capacity. Its nodal ministry is the Ministry of New and Renewable Energy. SIGHT (Strategic Interventions for Green Hydrogen Transition) gives financial incentives for electrolyser manufacturing and green hydrogen production; it is not a tax."
+  },
+  {
+   "id": "q26",
+   "question": "[Q.26 · Bihar]\nAccording to the Bihar Economic Survey 2025-26, Bihar's per capita income at current prices for 2024-25 was:",
+   "options": [
+    "Rs 76,490",
+    "Rs 66,828",
+    "Rs 40,973",
+    "Rs 94,500"
+   ],
+   "answer": 0,
+   "explanation": "The Bihar Economic Survey 2025-26 (February 2026) puts per capita income in 2024-25 at Rs 76,490 at current prices and Rs 40,973 at constant (2011-12) prices, so option C is the constant-price figure. That is still only about one-third of India's per capita income. Patna, Begusarai and Munger are the districts with the highest per capita income."
+  },
+  {
+   "id": "q27",
+   "question": "[Q.27 · Bihar]\nUnder the Bihar Industrial Investment Promotion Package (BIIPP) 2025, units investing more than Rs 1,000 crore can be allotted land free of cost (or at a nominal price) of up to:",
+   "options": [
+    "10 acres",
+    "15 acres",
+    "25 acres",
+    "50 acres"
+   ],
+   "answer": 2,
+   "explanation": "BIIPP 2025 (approved by the state cabinet in August 2025) offers up to 25 acres of land free of cost (reported by some sources as a token Rs 1) for investments above Rs 1,000 crore. It offers up to 10 acres for units investing over Rs 100 crore and creating 1,000 direct jobs, and 10 acres for Fortune 500 companies. Investors also choose one of three incentive models: interest subvention with SGST reimbursement, 300% net SGST reimbursement over 14 years, or a 30% capital subsidy."
+  },
+  {
+   "id": "q28",
+   "question": "[Q.28 · Bihar]\nWhich of the following is a provision of the Bihar Startup Policy, 2022?",
+   "options": [
+    "Seed funding of up to Rs 10 lakh as an interest-free loan for 10 years",
+    "Implementation through the Bihar Startup Fund Trust with a corpus of Rs 500 crore",
+    "Only startups registered outside Bihar are eligible",
+    "More than one of the above"
+   ],
+   "answer": 3,
+   "explanation": "The Bihar Startup Policy 2022 gives eligible startups seed funding of up to Rs 10 lakh as an interest-free loan for 10 years. It is run through the Bihar Startup Fund Trust with a corpus of Rs 500 crore, so both A and B are correct. Startups must be registered and working in Bihar, and there are extra incentives for women, SC/ST and differently-abled founders."
+  },
+  {
+   "id": "q29",
+   "question": "[Q.29 · Bihar]\nConsider the following statements:\n1. In the PLFS quarterly bulletins of 2024 (current weekly status), Bihar recorded the lowest female labour force participation rate among the States.\n2. The credit-deposit ratio of banks in Bihar has remained well below the national average.\n3. The credit-deposit ratio is the ratio of a bank's deposits to its advances.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 and 2 only",
+    "1 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer": 0,
+   "explanation": "In the PLFS quarterly bulletins (for example April-June 2024), Bihar had the lowest female LFPR (about 9.8%) and Himachal Pradesh the highest (about 34.8%). Bihar's CD ratio has stayed far below the national average of about 75-80%; state data put it at about 60% in 2025-26, its highest so far. Statement 3 reverses the definition: the CD ratio is advances (credit) divided by deposits."
+  },
+  {
+   "id": "q30",
+   "question": "[Q.30 · Bihar]\nAccording to the Bihar Economic Survey 2025-26, Bihar's Gross State Domestic Product (GSDP) at current prices in 2024-25 was approximately:",
+   "options": [
+    "Rs 5.3 lakh crore",
+    "Rs 7.5 lakh crore",
+    "Rs 9.9 lakh crore",
+    "None of the above"
+   ],
+   "answer": 2,
+   "explanation": "Bihar's GSDP for 2024-25 is Rs 9,91,997 crore (about Rs 9.9 lakh crore) at current prices and Rs 5,31,372 crore at constant (2011-12) prices, which explains option A. Bihar's outstanding debt was about 37.7% of GSDP and its gross fiscal deficit about 4.2% of GSDP in 2024-25."
+  },
+  {
+   "id": "q31",
+   "question": "[Q.31 · Indian Polity]\nThe Constitution (130th Amendment) Bill, 2025, referred to a Joint Parliamentary Committee, proposes that the Prime Minister, a Chief Minister or a Minister shall be removed from office if arrested and detained in custody, on an accusation of an offence punishable with imprisonment of five years or more, for:",
+   "options": [
+    "15 consecutive days",
+    "30 consecutive days",
+    "60 consecutive days",
+    "90 consecutive days"
+   ],
+   "answer": 1,
+   "explanation": "The Bill (introduced in August 2025) amends Articles 75, 164 and 239AA so that a minister held in custody for 30 consecutive days on charges carrying five or more years' imprisonment loses office on the 31st day. It allows reappointment after release. Two companion bills apply the same rule to Union Territories and Jammu and Kashmir. The Bill was referred to a JPC and, as a constitutional amendment, needs a special majority."
+  },
+  {
+   "id": "q32",
+   "question": "[Q.32 · Indian Polity]\nConsider the following statements about the Constitution (104th Amendment) Act, 2019:\n1. It extended the reservation of seats for SCs and STs in the Lok Sabha and State Legislative Assemblies by ten years, up to January 2030.\n2. It ended the nomination of Anglo-Indian members to the Lok Sabha and State Legislative Assemblies.\n3. It came into force on 25 January 2020.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer": 3,
+   "explanation": "All three are correct. The 104th Amendment amended Article 334 to extend SC/ST seat reservation until 25 January 2030 and stopped the nomination of Anglo-Indians under Articles 331 and 333. It came into force on 25 January 2020, when the earlier extension (by the 95th Amendment) was due to expire. Seat reservation was originally meant to last only ten years."
+  },
+  {
+   "id": "q33",
+   "question": "[Q.33 · Indian Polity]\nConsider the following statements about the budget process in Parliament:\n1. A 'policy cut' motion seeks to reduce the amount of a demand to Re 1.\n2. An 'economy cut' motion seeks to reduce the amount of a demand by Rs 100.\n3. Under Article 116, the Lok Sabha can make a grant in advance (vote on account) before the voting on demands for grants is completed.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answer": 2,
+   "explanation": "A policy cut reduces a demand to Re 1 (disapproval of the policy), an economy cut reduces it by a specified amount, and a token cut reduces it by Rs 100 to air a specific grievance, so statement 2 describes the token cut. Article 116 provides for votes on account, votes of credit and exceptional grants. The 'guillotine' puts all remaining demands to vote together on the last allotted day."
+  },
+  {
+   "id": "q34",
+   "question": "[Q.34 · Indian Polity]\nIn which case did the Supreme Court strike down clauses (4) and (5) of Article 368, inserted by the 42nd Amendment, holding that Parliament's limited amending power is itself a basic feature of the Constitution?",
+   "options": [
+    "Minerva Mills v. Union of India (1980)",
+    "Golaknath v. State of Punjab (1967)",
+    "Indira Nehru Gandhi v. Raj Narain (1975)",
+    "More than one of the above"
+   ],
+   "answer": 0,
+   "explanation": "In Minerva Mills (1980) the Court struck down the clauses barring judicial review of amendments, and held that limited amending power, judicial review and the balance between Fundamental Rights and DPSPs are basic features. Golaknath (1967) had held that Parliament cannot amend Fundamental Rights at all. Indira Gandhi v. Raj Narain (1975) applied the basic structure doctrine of Kesavananda Bharati (1973) to free and fair elections."
+  },
+  {
+   "id": "q35",
+   "question": "[Q.35 · Indian Polity]\nAn amendment of which of the following does NOT require ratification by the legislatures of at least half of the States under Article 368?",
+   "options": [
+    "Election of the President",
+    "Fundamental Rights in Part III",
+    "Representation of States in Parliament",
+    "Any of the Lists in the Seventh Schedule"
+   ],
+   "answer": 1,
+   "explanation": "Fundamental Rights can be amended by a special majority of Parliament alone, without State ratification. The proviso to Article 368(2) requires ratification by half the States for changes to the election of the President (Articles 54-55), representation of States in Parliament, the Seventh Schedule Lists, the Supreme Court and High Courts, the GST Council (Article 279A) and Article 368 itself. Some provisions, such as forming new States under Article 4, need only a simple majority."
+  },
+  {
+   "id": "q36",
+   "question": "[Q.36 · Indian Polity]\nConsider the following statements regarding Article 21:\n1. In Maneka Gandhi v. Union of India (1978), the Supreme Court held that the 'procedure established by law' must be just, fair and reasonable.\n2. In Justice K.S. Puttaswamy v. Union of India (2017), a nine-judge bench held the right to privacy to be a fundamental right.\n3. The Puttaswamy judgment upheld the earlier rulings in M.P. Sharma (1954) and Kharak Singh (1962) on privacy.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "answer": 2,
+   "explanation": "Maneka Gandhi moved away from the narrow A.K. Gopalan (1950) reading, so that procedure under Article 21 must be fair, just and reasonable, in effect bringing in due process. Puttaswamy (nine judges, 2017) held privacy intrinsic to Article 21 and Part III, and overruled M.P. Sharma and Kharak Singh to the extent that they denied it, so statement 3 is wrong. Article 21 has also been read to include rights to livelihood, shelter, a clean environment and speedy trial."
+  },
+  {
+   "id": "q37",
+   "question": "[Q.37 · Indian Polity]\nWhich of the following subjects are in the Concurrent List of the Seventh Schedule?\n1. Forests\n2. Protection of wild animals and birds\n3. Public health and sanitation\n4. Police\nOut of these:",
+   "options": [
+    "Only 1 and 2",
+    "Only 1, 2 and 3",
+    "Only 3 and 4",
+    "Only 2 and 4"
+   ],
+   "answer": 0,
+   "explanation": "Forests and the protection of wild animals and birds were moved from the State List to the Concurrent List by the 42nd Amendment (1976), along with education, weights and measures and the administration of justice. Public health and sanitation (Entry 6) and police (Entry 2) remain in the State List. The Concurrent List started with 47 entries and now has 52."
+  },
+  {
+   "id": "q38",
+   "question": "[Q.38 · Indian Polity]\nConsider the following statements about the Speaker of the Lok Sabha:\n1. The Speaker can be removed by a resolution passed by a majority of all the then members of the Lok Sabha, after at least 14 days' notice.\n2. While a resolution for removal is under consideration, the Speaker cannot preside but can vote in the first instance, though not in the case of an equality of votes.\n3. The Speaker addresses the letter of resignation to the President.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 only",
+    "2 and 3 only",
+    "1, 2 and 3",
+    "1 and 2 only"
+   ],
+   "answer": 3,
+   "explanation": "Article 94 provides for removal by an effective majority after 14 days' notice, and Article 96 bars the Speaker from presiding during that resolution while allowing a first-instance vote but no casting vote. The Speaker resigns by writing to the Deputy Speaker, not the President, so statement 3 is wrong. The pro-tem Speaker, appointed by the President, administers the oath to new members and presides over the election of the Speaker."
+  },
+  {
+   "id": "q39",
+   "question": "[Q.39 · Indian Polity]\nWhich of the following statements about the Union Public Service Commission is NOT correct?",
+   "options": [
+    "Its members hold office for six years or until the age of 65 years, whichever is earlier",
+    "A member can be removed on the ground of misbehaviour only after an inquiry by the Supreme Court",
+    "Its Chairman and members are appointed by the President",
+    "On ceasing to hold office, the Chairman of the UPSC is eligible for further employment under the Government of India"
+   ],
+   "answer": 3,
+   "explanation": "Article 319 makes the UPSC Chairman ineligible for any further employment under the Government of India or a State. A member, by contrast, may become Chairman of the UPSC or of a State PSC. Members are appointed by the President (Article 316) and removed for misbehaviour only after a Supreme Court inquiry (Article 317). The term is six years or until age 65."
+  },
+  {
+   "id": "q40",
+   "question": "[Q.40 · Indian Polity]\nThe National Commission for Scheduled Tribes was set up as a separate constitutional body under Article 338A by:",
+   "options": [
+    "89th Amendment Act, 2003",
+    "65th Amendment Act, 1990",
+    "86th Amendment Act, 2002",
+    "More than one of the above"
+   ],
+   "answer": 0,
+   "explanation": "The 89th Amendment (2003) split the earlier joint commission into the National Commission for Scheduled Castes (Article 338) and the National Commission for Scheduled Tribes (Article 338A). The 65th Amendment (1990) had replaced the Special Officer with a multi-member National Commission for SCs and STs. The 102nd Amendment (2018) added Article 338B for the National Commission for Backward Classes."
+  },
+  {
+   "id": "q41",
+   "question": "[Q.41 · Indian Polity]\nMaithili, along with Bodo, Dogri and Santhali, was added to the Eighth Schedule of the Constitution by the:",
+   "options": [
+    "71st Amendment Act, 1992",
+    "92nd Amendment Act, 2003",
+    "21st Amendment Act, 1967",
+    "96th Amendment Act, 2011"
+   ],
+   "answer": 1,
+   "explanation": "The 92nd Amendment (2003) added Bodo, Dogri, Maithili and Santhali, taking the Eighth Schedule to 22 languages. The 71st Amendment (1992) added Konkani, Manipuri and Nepali, and the 21st Amendment (1967) added Sindhi. The 96th Amendment (2011) only changed 'Oriya' to 'Odia'. Article 343 makes Hindi in Devanagari script the official language of the Union."
+  },
+  {
+   "id": "q42",
+   "question": "[Q.42 · Indian Polity]\nWhich of the following is correct about the Panchayats (Extension to the Scheduled Areas) Act, 1996 (PESA)?",
+   "options": [
+    "It applies to the tribal areas of the Sixth Schedule in the North-East",
+    "It extends Part IX of the Constitution, with modifications, to the Scheduled Areas under the Fifth Schedule",
+    "Bihar is one of the States with Fifth Schedule Areas covered by it",
+    "More than one of the above"
+   ],
+   "answer": 1,
+   "explanation": "PESA, based on the Bhuria Committee's recommendations, extends Part IX to Fifth Schedule areas in ten States and gives Gram Sabhas powers over minor forest produce, land alienation, village markets and consultation on land acquisition. Sixth Schedule areas (Assam, Meghalaya, Tripura, Mizoram) are outside it. Bihar has no Fifth Schedule areas; its tribal-majority areas went to Jharkhand in 2000."
+  },
+  {
+   "id": "q43",
+   "question": "[Q.43 · Modern History]\nConsider the following statements about the 'safety-valve' theory of the origin of the Indian National Congress:\n1. It holds that A.O. Hume founded the Congress to provide a safe outlet for growing popular discontent against British rule.\n2. Lala Lajpat Rai used this theory in 'Young India' (1916) to attack the Moderates.\n3. Historian Bipan Chandra accepted the theory as the main explanation for the founding of the Congress.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 only",
+    "2 and 3 only",
+    "1, 2 and 3",
+    "1 and 2 only"
+   ],
+   "answer": 3,
+   "explanation": "The safety-valve theory, drawn from William Wedderburn's biography of Hume, says Hume founded the Congress in 1885 to release Indian discontent safely. Lala Lajpat Rai used it in 'Young India' (1916) to attack the Moderates. Bipan Chandra rejected it, arguing that the Indian leaders used Hume as a 'lightning conductor' to avoid official hostility, so statement 3 is wrong."
+  },
+  {
+   "id": "q44",
+   "question": "[Q.44 · Modern History]\nThe Vernacular Press Act, 1878, which was repealed in 1882, was enacted during the Viceroyalty of:",
+   "options": [
+    "Lord Lytton",
+    "Lord Ripon",
+    "Lord Mayo",
+    "More than one of the above"
+   ],
+   "answer": 0,
+   "explanation": "Lord Lytton passed the Vernacular Press Act (the 'Gagging Act') and the Arms Act in 1878; the Arms Act made it a crime for Indians to carry arms without a licence. Lord Ripon repealed the Vernacular Press Act in 1882, which is why he is the tempting distractor. The Amrita Bazar Patrika famously switched overnight from Bengali to English to escape the Act."
+  },
+  {
+   "id": "q45",
+   "question": "[Q.45 · Modern History]\nMatch List-I (Organisation) with List-II (Founder):\nList-I\na. Prarthana Samaj\nb. Satyashodhak Samaj\nc. Arya Samaj\nd. Ramakrishna Mission\nList-II\n1. Swami Dayanand Saraswati\n2. Swami Vivekananda\n3. Atmaram Pandurang\n4. Jyotiba Phule\nSelect the correct answer using the codes given below:",
+   "options": [
+    "a-3, b-1, c-4, d-2",
+    "a-4, b-3, c-1, d-2",
+    "a-3, b-4, c-2, d-1",
+    "a-3, b-4, c-1, d-2"
+   ],
+   "answer": 3,
+   "explanation": "Prarthana Samaj was founded in Bombay in 1867 by Atmaram Pandurang, and was later led by M.G. Ranade and R.G. Bhandarkar. Jyotiba Phule founded the Satyashodhak Samaj in 1873 against caste oppression. Dayanand Saraswati founded the Arya Samaj in Bombay in 1875 ('Satyarth Prakash'), and Vivekananda founded the Ramakrishna Mission in 1897."
+  },
+  {
+   "id": "q46",
+   "question": "[Q.46 · Modern History]\nWhich Charter Act ended the East India Company's commercial activities altogether and made the Governor-General of Bengal the Governor-General of India?",
+   "options": [
+    "Charter Act of 1813",
+    "Charter Act of 1833",
+    "Charter Act of 1853",
+    "More than one of the above"
+   ],
+   "answer": 1,
+   "explanation": "The Charter Act of 1833 made the Company a purely administrative body and made Lord William Bentinck the first Governor-General of India. It also added a fourth (law) member, Macaulay, to the Council. The 1813 Act had ended the Company's trade monopoly except in tea and trade with China, and set aside Rs 1 lakh a year for education. The 1853 Act separated legislative from executive functions and opened the civil services to competition."
+  },
+  {
+   "id": "q47",
+   "question": "[Q.47 · Modern History]\nThe Mahalwari system of land revenue, introduced in the North-Western Provinces in 1822, was proposed by:",
+   "options": [
+    "Thomas Munro",
+    "Alexander Read",
+    "Holt Mackenzie",
+    "John Shore"
+   ],
+   "answer": 2,
+   "explanation": "Holt Mackenzie proposed the Mahalwari settlement (Regulation VII of 1822), under which revenue was fixed with the village community (mahal) as a whole. It was later revised under Bentinck through R.M. Bird and James Thomason. Thomas Munro and Alexander Read are linked with the Ryotwari system of Madras, where revenue was settled directly with the ryot. John Shore helped shape the Permanent Settlement."
+  },
+  {
+   "id": "q48",
+   "question": "[Q.48 · Modern History]\nThe East India Association was founded in London in 1866 by:",
+   "options": [
+    "W.C. Bonnerjee",
+    "Dadabhai Naoroji",
+    "Surendranath Banerjea",
+    "More than one of the above"
+   ],
+   "answer": 1,
+   "explanation": "Dadabhai Naoroji founded the East India Association in London in 1866 to influence British public opinion on Indian issues. Surendranath Banerjea and Ananda Mohan Bose founded the Indian Association in Calcutta in 1876. The British Indian Association (Calcutta, 1851) was an earlier landholders' body. These pre-Congress associations helped prepare the ground for the INC in 1885."
+  },
+  {
+   "id": "q49",
+   "question": "[Q.49 · Modern History]\nWhich one of the following pairs is NOT correctly matched?",
+   "options": [
+    "Indigo revolt (1859-60) : 'Nil Darpan' by Dinabandhu Mitra",
+    "Pabna agrarian league (1873) : Eastern Bengal",
+    "Deccan riots (1875) : Directed mainly against European indigo planters",
+    "Indigo revolt : Digambar and Bishnu Biswas"
+   ],
+   "answer": 2,
+   "explanation": "The Deccan riots of 1875, in Poona and Ahmednagar, were directed against Marwari and Gujarati moneylenders; they led to the Deccan Agriculturists' Relief Act, 1879. The indigo planters were the target of the Bengal Indigo revolt (1859-60), led in Nadia by Digambar and Bishnu Biswas and portrayed in Dinabandhu Mitra's play 'Nil Darpan'. The Pabna agrarian league resisted zamindars' rent increases by legal means."
+  },
+  {
+   "id": "q50",
+   "question": "[Q.50 · Modern History]\nArrange the following events related to the Anglo-Mysore wars in chronological order:\n1. Treaty of Seringapatam\n2. Treaty of Madras\n3. Death of Tipu Sultan\n4. Treaty of Mangalore\nSelect the correct answer using the codes given below:",
+   "options": [
+    "2, 4, 1, 3",
+    "4, 2, 1, 3",
+    "2, 1, 4, 3",
+    "4, 2, 3, 1"
+   ],
+   "answer": 0,
+   "explanation": "The Treaty of Madras (1769) ended the First Anglo-Mysore War, and the Treaty of Mangalore (1784) ended the Second, which Tipu concluded after Haidar Ali's death. The Treaty of Seringapatam (1792) ended the Third War under Cornwallis, and Tipu lost half his kingdom. Tipu died defending Srirangapatna in the Fourth War (1799) under Wellesley."
+  },
+  {
+   "id": "q51",
+   "question": "[Q.51 · Geography]\nWhich one of the following coalfields does NOT lie in the Damodar valley?",
+   "options": [
+    "Jharia",
+    "Raniganj",
+    "Bokaro",
+    "Singrauli"
+   ],
+   "answer": 3,
+   "explanation": "Singrauli lies in the Son valley on the Madhya Pradesh–Uttar Pradesh border, not in the Damodar valley. Jharia and Bokaro (Jharkhand) and Raniganj (West Bengal) are Damodar-valley fields, and together they hold much of India's coking coal. Almost all of India's coal (about 98%) is Gondwana coal, about 250 million years old; Tertiary coal is found mainly in the north-east (Assam, Meghalaya)."
+  },
+  {
+   "id": "q52",
+   "question": "[Q.52 · Geography]\nConsider the following statements about bauxite and aluminium in India:\n1. Odisha is the largest producer of bauxite in India.\n2. In electrolytic smelting of aluminium, alumina is dissolved in molten cryolite to lower its melting point.\n3. The Panchpatmali bauxite deposits are located in Jharkhand.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "Only 1 and 2",
+    "Only 2 and 3",
+    "Only 1 and 3",
+    "1, 2 and 3"
+   ],
+   "answer": 0,
+   "explanation": "Statements 1 and 2 are correct. Odisha produces well over half of India's bauxite, and in the Hall–Héroult process alumina (melting point above 2,000 °C) is dissolved in molten cryolite (Na3AlF6) so that electrolysis can run near 950 °C. Statement 3 is wrong: Panchpatmali is in Koraput district, Odisha, and is mined by NALCO. Bauxite forms by intense tropical weathering and is often found with laterite caps on plateaus."
+  },
+  {
+   "id": "q53",
+   "question": "[Q.53 · Geography]\nThe percentage of incoming solar radiation that is reflected back by a surface, without heating it, is called its:",
+   "options": [
+    "Insolation",
+    "Albedo",
+    "Solar constant",
+    "None of the above"
+   ],
+   "answer": 1,
+   "explanation": "Albedo is the reflectivity of a surface; the Earth's overall albedo is about 30%, and fresh snow can reflect over 80%. Insolation is the incoming solar radiation received at the surface, and the solar constant (about 1,361 W/m²) is the solar energy received per unit area at the top of the atmosphere. In the heat budget, the Earth gives back as terrestrial (long-wave) radiation what it absorbs, so its average temperature stays steady."
+  },
+  {
+   "id": "q54",
+   "question": "[Q.54 · Geography]\nWhich one of the following groups consists only of rabi crops?",
+   "options": [
+    "Rice, maize and cotton",
+    "Wheat, jowar and groundnut",
+    "Wheat, gram and mustard",
+    "Barley, bajra and soybean"
+   ],
+   "answer": 2,
+   "explanation": "Wheat, gram and mustard are all sown in winter (October–December) and harvested in spring (March–April), so they are rabi crops. Rice, maize, cotton, jowar, bajra, groundnut and soybean are kharif crops, sown with the onset of the monsoon. Barley is rabi, but bajra and soybean are kharif, so option D fails. Zaid crops such as watermelon, cucumber and muskmelon grow in the short summer season between rabi and kharif."
+  },
+  {
+   "id": "q55",
+   "question": "[Q.55 · Geography]\nConsider the following statements:\n1. The Panama Canal joins the Atlantic Ocean with the Pacific Ocean across the Isthmus of Panama.\n2. The Suez Canal is a lock canal that lifts ships over a ridge between the Mediterranean and the Red Sea.\n3. The Kra Isthmus, across which a canal has been proposed to bypass the Strait of Malacca, lies in Thailand.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "Only 1",
+    "Only 1 and 3",
+    "Only 2 and 3",
+    "1, 2 and 3"
+   ],
+   "answer": 1,
+   "explanation": "Statements 1 and 3 are correct. The Panama Canal (opened 1914) crosses the Isthmus of Panama with a system of locks that lift ships to Gatun Lake. Statement 2 is wrong: the Suez Canal (opened 1869) is a sea-level canal with no locks, because the Mediterranean and the Red Sea are at nearly the same level. The Kra Isthmus is the narrowest part of the Malay Peninsula, in southern Thailand."
+  },
+  {
+   "id": "q56",
+   "question": "[Q.56 · Geography]\nWhich one of the following Indian states does NOT share a land border with Myanmar?",
+   "options": [
+    "Nagaland",
+    "Manipur",
+    "Tripura",
+    "Mizoram"
+   ],
+   "answer": 2,
+   "explanation": "Four Indian states border Myanmar: Arunachal Pradesh, Nagaland, Manipur and Mizoram (the India–Myanmar border is about 1,643 km long). Tripura is bordered by Bangladesh on three sides and by Assam and Mizoram, but not by Myanmar. Mizoram is the only state that borders both Myanmar and Bangladesh among these options."
+  },
+  {
+   "id": "q57",
+   "question": "[Q.57 · Geography]\nUnder the Indus Waters Treaty, 1960, which group of rivers was allocated to India for unrestricted use?",
+   "options": [
+    "Ravi, Beas and Sutlej",
+    "Indus, Jhelum and Chenab",
+    "Jhelum, Ravi and Beas",
+    "Chenab, Sutlej and Ravi"
+   ],
+   "answer": 0,
+   "explanation": "The treaty, signed by Nehru and Ayub Khan in Karachi in 1960 with the World Bank as broker, gave the three eastern rivers (Ravi, Beas, Sutlej) to India and the three western rivers (Indus, Jhelum, Chenab) mainly to Pakistan, with limited Indian uses such as run-of-river hydropower. After the Pahalgam terror attack, India announced on 23 April 2025 that it was placing the treaty 'in abeyance'. The Chenab is the trap: it is a western river even though it flows through Jammu."
+  },
+  {
+   "id": "q58",
+   "question": "[Q.58 · Geography]\nThe dense equatorial rainforests of the Amazon basin are locally known as:",
+   "options": [
+    "Pampas",
+    "Llanos",
+    "Taiga",
+    "Selvas"
+   ],
+   "answer": 3,
+   "explanation": "The tropical rainforests of the Amazon are called Selvas. The Pampas are the temperate grasslands of Argentina, the Llanos are the tropical grasslands (savanna) of the Orinoco basin in Venezuela and Colombia, and the Taiga is the coniferous forest belt of northern Eurasia. The Brazilian highland savanna is called Campos."
+  },
+  {
+   "id": "q59",
+   "question": "[Q.59 · Geography]\nAssertion (A): Western disturbances bring winter rainfall to north-west India and snowfall to the western Himalayas.\nReason (R): Western disturbances originate over the Mediterranean region and are carried towards India by the subtropical westerly jet stream.\nSelect the correct answer:",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is not the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answer": 0,
+   "explanation": "Both are true, and R explains A. Western disturbances are extra-tropical low-pressure systems from the Mediterranean that the subtropical westerly jet, which lies south of the Himalayas in winter, steers into north-west India. They give winter rain in Punjab, Haryana and western Uttar Pradesh, which is very useful for the rabi wheat crop. In summer the westerly jet shifts north of the Tibetan plateau and an easterly jet sets in over peninsular India."
+  },
+  {
+   "id": "q60",
+   "question": "[Q.60 · Geography]\nWhich one of the following pairs of waterfall and river is NOT correctly matched?",
+   "options": [
+    "Jog Falls – Sharavathi",
+    "Dudhsagar Falls – Mandovi",
+    "Chitrakote Falls – Indravati",
+    "Dhuandhar Falls – Godavari"
+   ],
+   "answer": 3,
+   "explanation": "Dhuandhar Falls is on the Narmada at Bhedaghat near Jabalpur, so that pair is wrong. Jog Falls (Karnataka) is on the Sharavathi, Dudhsagar (Goa–Karnataka border) is on the Mandovi, and Chitrakote (Bastar, Chhattisgarh) is on the Indravati, a tributary of the Godavari; Chitrakote is often called the 'Niagara of India'."
+  },
+  {
+   "id": "q61",
+   "question": "[Q.61 · Geography]\nConsider the following Himalayan peaks:\n1. Kanchenjunga\n2. Nanga Parbat\n3. Namcha Barwa\n4. Nanda Devi\nWhich of the following is their correct sequence from west to east?",
+   "options": [
+    "4-2-1-3",
+    "4-2-3-1",
+    "2-1-4-3",
+    "2-4-1-3"
+   ],
+   "answer": 3,
+   "explanation": "Nanga Parbat (Gilgit-Baltistan) anchors the western end of the Himalaya, Nanda Devi is in Uttarakhand, Kanchenjunga is on the Sikkim–Nepal border, and Namcha Barwa (Tibet, near the great bend of the Yarlung Tsangpo/Brahmaputra) marks the eastern end. So the order is 2-4-1-3. Kanchenjunga (8,586 m) is the highest peak in India, and Nanda Devi is the highest peak lying wholly within India."
+  },
+  {
+   "id": "q62",
+   "question": "[Q.62 · Geography]\nTwo places lie on the same meridian, one at 10° N latitude and the other at 25° S latitude. Taking 1° of latitude as about 111 km, the distance between them along the meridian is about:",
+   "options": [
+    "1,665 km",
+    "2,775 km",
+    "3,885 km",
+    "4,440 km"
+   ],
+   "answer": 2,
+   "explanation": "The places are on opposite sides of the Equator, so the angular gap is 10° + 25° = 35°, and 35 × 111 km ≈ 3,885 km. The trap is subtracting (25 − 10 = 15° → 1,665 km), which is correct only when both places are in the same hemisphere. A degree of latitude is nearly constant (about 111 km) because meridians are great circles, while a degree of longitude shrinks from about 111 km at the Equator to zero at the poles."
+  },
+  {
+   "id": "q63",
+   "question": "[Q.63 · Environment & Ecology]\nConsider the following statements about the Gulf of Mannar Marine National Park:\n1. It is made up of 21 small islands with fringing coral reefs.\n2. It lies off the coast between Ramanathapuram and Thoothukudi in Tamil Nadu.\n3. It is a habitat of the dugong (sea cow).\nWhich of the statements given above is/are correct?",
+   "options": [
+    "Only 1 and 2",
+    "Only 2 and 3",
+    "1, 2 and 3",
+    "Only 1"
+   ],
+   "answer": 2,
+   "explanation": "All three are correct. The Marine National Park (notified 1986) consists of 21 islands (two are now largely submerged) with coral reefs, seagrass beds and mangroves, along the coast from Rameswaram/Ramanathapuram to Thoothukudi. It is one of the last refuges of the dugong, a seagrass-grazing marine mammal in Schedule I of the Wild Life (Protection) Act. The wider Gulf of Mannar Biosphere Reserve (1989) was the first marine biosphere reserve in South and South-East Asia."
+  },
+  {
+   "id": "q64",
+   "question": "[Q.64 · Environment & Ecology]\nMatch List-I (International convention) with List-II (Year of adoption):\nList-I\na. Ramsar Convention\nb. CITES\nc. Convention on Migratory Species (Bonn)\nd. Convention on Biological Diversity\nList-II\n1. 1973\n2. 1992\n3. 1971\n4. 1979\nSelect the correct answer using the codes given below:",
+   "options": [
+    "a-3, b-1, c-4, d-2",
+    "a-1, b-3, c-4, d-2",
+    "a-3, b-1, c-2, d-4",
+    "a-4, b-1, c-3, d-2"
+   ],
+   "answer": 0,
+   "explanation": "The Ramsar Convention on wetlands was signed at Ramsar, Iran, in 1971; CITES (trade in endangered species) was signed in Washington in 1973; the Bonn Convention on Migratory Species in 1979; and the CBD was opened for signature at the Rio Earth Summit in 1992. So a-3, b-1, c-4, d-2. India hosted CMS COP-13 at Gandhinagar in 2020, and the CBD's Kunming–Montreal Framework (2022) set the '30 by 30' target."
+  },
+  {
+   "id": "q65",
+   "question": "[Q.65 · Bihar]\nThe Gandak (Narayani) river, which enters Bihar near Valmikinagar, joins the Ganga near:",
+   "options": [
+    "Munger",
+    "Buxar",
+    "Hajipur–Sonepur",
+    "More than one of the above"
+   ],
+   "answer": 2,
+   "explanation": "The Gandak rises in the Nepal Himalaya (as the Kali Gandaki), becomes the Narayani in Nepal's Terai, and enters India at the Triveni point near Valmikinagar (West Champaran). It flows south-east and meets the Ganga opposite Patna, between Hajipur (Vaishali) and Sonepur (Saran), the site of the Harihar Kshetra fair. Buxar is where the Ganga enters Bihar, and Munger lies far downstream, so only one option is correct."
+  },
+  {
+   "id": "q66",
+   "question": "[Q.66 · Bihar]\nConsider the following statements:\n1. The Burhi Gandak rises in the glaciers of the Nepal Himalaya.\n2. The Burhi Gandak meets the Ganga near Khagaria.\n3. The Mahananda forms part of Bihar's eastern boundary with West Bengal.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "Only 1 and 2",
+    "Only 2 and 3",
+    "Only 3",
+    "1, 2 and 3"
+   ],
+   "answer": 1,
+   "explanation": "Statements 2 and 3 are correct. Statement 1 is wrong: the Burhi Gandak is not a glacier-fed river; it rises in the Chautarwa Chaur near Bisambharpur in West Champaran and flows roughly parallel to the Gandak, through Muzaffarpur and Samastipur, to join the Ganga near Khagaria (opposite Munger). The Mahananda rises in the Darjeeling hills, flows through Kishanganj, Purnia and Katihar, and marks part of the Bihar–West Bengal boundary before joining the Ganga in Bengal."
+  },
+  {
+   "id": "q67",
+   "question": "[Q.67 · Bihar]\nBhimbandh Wildlife Sanctuary, known for its hot springs, is located in which district of Bihar?",
+   "options": [
+    "Jamui",
+    "Munger",
+    "Nawada",
+    "More than one of the above"
+   ],
+   "answer": 1,
+   "explanation": "Bhimbandh Wildlife Sanctuary (about 682 sq km, notified 1976) lies in the Kharagpur hills of Munger district and is famous for its hot springs. Jamui and Nawada are wrong: Jamui has the Nagi–Nakti bird sanctuaries, and Nawada has Kakolat falls and part of the Gautam Buddha sanctuary area. Munger also has the famous Sita Kund hot spring."
+  },
+  {
+   "id": "q68",
+   "question": "[Q.68 · Bihar]\nNagi and Nakti bird sanctuaries of Bihar, added to the Ramsar list in 2024, are best described as:",
+   "options": [
+    "Oxbow lakes left by the Kosi river",
+    "Man-made reservoirs built mainly for irrigation",
+    "Tal wetlands along the southern bank of the Ganga",
+    "Natural lakes of the Shivalik foothills"
+   ],
+   "answer": 1,
+   "explanation": "Nagi and Nakti in Jamui district are human-made wetlands, created by the Nagi and Nakti dams in a hilly, dry landscape mainly for irrigation; both were declared bird sanctuaries in 1984. They host large winter flocks such as bar-headed geese and red-crested pochard. Kanwar Lake (Begusarai) and Udaipur Jheel (West Champaran), by contrast, are natural oxbow-type wetlands. The June 2024 listing raised India's total to 82 Ramsar sites at that time."
+  },
+  {
+   "id": "q69",
+   "question": "[Q.69 · Bihar]\nAccording to Köppen's classification, most of Bihar falls under which climate type?",
+   "options": [
+    "Aw (tropical savanna)",
+    "Am (tropical monsoon)",
+    "BShw (semi-arid steppe)",
+    "Cwg (monsoon type with dry winter)"
+   ],
+   "answer": 3,
+   "explanation": "Most of Bihar has the Cwg climate: a warm temperate, monsoon type with a dry winter (w), where the hottest month comes before the summer solstice and the monsoon (g, Ganges type). Annual rainfall rises from about 1,000 mm in the south-west to more than 2,000 mm in the north-east, so Kishanganj receives the most rain in Bihar. Aw is the savanna type of much of peninsular India, and BShw is the semi-arid type of parts of Rajasthan and Gujarat."
+  },
+  {
+   "id": "q70",
+   "question": "[Q.70 · Bihar]\nThe quartzite, phyllite and schist of the Kharagpur hills (Munger) and the hills of Jamui belong mainly to which rock system?",
+   "options": [
+    "Dharwar",
+    "Vindhyan",
+    "Gondwana",
+    "Tertiary"
+   ],
+   "answer": 0,
+   "explanation": "These metamorphosed rocks of south-east Bihar (Kharagpur hills, Jamui, parts of Gaya and Nawada) are of the Dharwar system, among the oldest rocks in Bihar, and carry minerals such as mica and quartzite. Vindhyan sedimentary rocks (sandstone, limestone) form the Kaimur–Rohtas plateau, Tertiary rocks form the Shivalik hills of the north-west, and the Ganga plain is made of Quaternary alluvium. Bihar has no significant Gondwana coal after the creation of Jharkhand in 2000."
+  },
+  {
+   "id": "q71",
+   "question": "[Q.71 · Bihar]\nKakolat waterfall, a popular spot in south Bihar, is located in which district?",
+   "options": [
+    "Kaimur",
+    "Rohtas",
+    "Nawada",
+    "More than one of the above"
+   ],
+   "answer": 2,
+   "explanation": "Kakolat falls (about 50 m high) is in the Govindpur block of Nawada district, and a fair is held there on Chait Sankranti. Kaimur and Rohtas are wrong: the Kaimur–Rohtas plateau has other falls such as Telhar Kund (Kaimur) and Manjhar Kund and Dhuan Kund (Rohtas). Only Nawada is correct, so 'More than one of the above' is wrong."
+  },
+  {
+   "id": "q72",
+   "question": "[Q.72 · Bihar]\nThe Vikramshila Setu across the Ganga connects Bhagalpur with:",
+   "options": [
+    "Naugachia",
+    "Begusarai",
+    "Munger",
+    "Hajipur"
+   ],
+   "answer": 0,
+   "explanation": "Vikramshila Setu (opened in 2001, about 4.4–4.7 km long by different measures) links Barari Ghat in Bhagalpur on the south bank with Naugachia on the north bank. Mahatma Gandhi Setu (1982) links Patna with Hajipur, Rajendra Setu (1959), Bihar's first rail-cum-road bridge on the Ganga, links Mokama (Hathidah) with Simaria (Begusarai). Begusarai, Munger and Hajipur are reached by other Ganga bridges, not by Vikramshila Setu."
+  },
+  {
+   "id": "q73",
+   "question": "[Q.73 · Physics]\nIn the photoelectric effect, the maximum kinetic energy of the emitted electrons depends on:",
+   "options": [
+    "The frequency of the incident light",
+    "The intensity of the incident light",
+    "The duration for which light falls on the metal",
+    "The area of the metal surface"
+   ],
+   "answer": 0,
+   "explanation": "By Einstein's photoelectric equation, KEmax = hν − φ, so the energy of the emitted electrons rises with the frequency (ν) of light and is independent of its intensity. Intensity only changes the number of electrons emitted per second. No electrons are emitted below the threshold frequency, however bright the light is. Einstein received the 1921 Nobel Prize in Physics for explaining this effect with light quanta (photons)."
+  },
+  {
+   "id": "q74",
+   "question": "[Q.74 · Physics]\nRed light is used for danger signals because it:",
+   "options": [
+    "Is scattered the most by air molecules",
+    "Has the shortest wavelength among visible colours",
+    "Is absorbed the most by fog and dust",
+    "Is scattered the least and can be seen from a long distance"
+   ],
+   "answer": 3,
+   "explanation": "Rayleigh scattering is inversely proportional to the fourth power of wavelength (∝ 1/λ⁴). Red has the longest wavelength of visible light, so it is scattered least and travels farthest through air, fog and dust. The same law makes the sky blue (blue is scattered strongly) and makes the Sun look red at sunrise and sunset, when its light passes through a long column of air."
+  },
+  {
+   "id": "q75",
+   "question": "[Q.75 · Physics]\nConcave mirrors are used in which of the following?",
+   "options": [
+    "Rear-view mirror of a car",
+    "Shaving mirror",
+    "Reflector of a vehicle headlight",
+    "More than one of the above"
+   ],
+   "answer": 3,
+   "explanation": "Both the shaving mirror and the headlight reflector use concave mirrors, so 'More than one of the above' is correct. A concave mirror held within its focal length gives an enlarged, upright image of the face, and a bulb placed at its focus gives a strong parallel beam. The rear-view mirror is convex, because a convex mirror always gives an erect, diminished image with a wide field of view. Dentists and solar furnaces also use concave mirrors."
+  },
+  {
+   "id": "q76",
+   "question": "[Q.76 · Physics]\nWhen a stationary bus suddenly starts moving, the standing passengers tend to fall backwards. This is due to:",
+   "options": [
+    "Inertia of rest",
+    "Inertia of motion",
+    "Newton's third law of motion",
+    "Centripetal force"
+   ],
+   "answer": 0,
+   "explanation": "The passengers' bodies were at rest and tend to stay at rest (inertia of rest, Newton's first law) while their feet move forward with the bus, so they fall backwards. Inertia of motion explains the opposite case: when a moving bus stops suddenly, passengers lurch forward. Mass is the measure of inertia, so a heavier body is harder to start or stop."
+  },
+  {
+   "id": "q77",
+   "question": "[Q.77 · Physics]\nAn astronaut has a mass of 60 kg on the Earth. If the acceleration due to gravity on the Moon is one-sixth of that on the Earth (take g = 9.8 m/s² on the Earth), the astronaut's weight on the Moon is:",
+   "options": [
+    "588 N",
+    "60 N",
+    "10 N",
+    "None of the above"
+   ],
+   "answer": 3,
+   "explanation": "Weight on the Moon = m × g/6 = 60 × 9.8 / 6 = 98 N, which is not listed, so 'None of the above' is correct. 588 N is the weight on the Earth (60 × 9.8), and 10 N comes from wrongly dividing the mass by 6. The mass stays 60 kg everywhere, because mass is the quantity of matter; only weight (a force) changes with g."
+  },
+  {
+   "id": "q78",
+   "question": "[Q.78 · Physics]\nAn electric iron rated 1100 W is used on a 220 V supply. Which one of the following is the most suitable fuse rating for its circuit?",
+   "options": [
+    "2 A",
+    "3 A",
+    "6 A",
+    "15 A"
+   ],
+   "answer": 2,
+   "explanation": "The current drawn is I = P/V = 1100/220 = 5 A. A fuse should be rated slightly above the normal working current, so 6 A is the best choice. A 2 A or 3 A fuse would blow in normal use, while a 15 A fuse would not melt in time to protect the appliance from a moderate overload. A fuse wire is made of an alloy with a low melting point (such as tin and lead) and is connected in series with the live wire."
+  },
+  {
+   "id": "q79",
+   "question": "[Q.79 · Physics]\nKerosene rises up the wick of a lamp because of:",
+   "options": [
+    "Capillary action",
+    "Viscosity",
+    "Osmosis",
+    "Buoyancy"
+   ],
+   "answer": 0,
+   "explanation": "The narrow gaps between the fibres of the wick act like fine capillary tubes, and surface tension together with the adhesion of kerosene to the fibres pulls the liquid upward (capillarity). The narrower the tube, the higher the rise. Surface tension also explains why small drops are spherical and why a needle can float on water; detergents work partly by lowering surface tension."
+  },
+  {
+   "id": "q80",
+   "question": "[Q.80 · Physics]\nAt what temperature do the Celsius and Fahrenheit scales show the same reading?",
+   "options": [
+    "0°",
+    "−40°",
+    "−273°",
+    "None of the above"
+   ],
+   "answer": 1,
+   "explanation": "Using F = (9/5)C + 32 and setting F = C gives C = −40, so −40 °C = −40 °F. At 0 °C the Fahrenheit reading is 32 °F. −273.15 °C is absolute zero (0 K), the lowest possible temperature, on the Kelvin scale. Normal human body temperature is about 37 °C = 98.6 °F."
+  },
+  {
+   "id": "q81",
+   "question": "[Q.81 · Chemistry]\nRutherford's alpha-particle scattering (gold-foil) experiment showed that:",
+   "options": [
+    "Electrons are embedded in a uniform sphere of positive charge",
+    "Most of the atom is empty space, with its positive charge and mass concentrated in a tiny nucleus",
+    "Electrons revolve only in fixed orbits of definite energy",
+    "Atoms of the same element have different masses"
+   ],
+   "answer": 1,
+   "explanation": "Most alpha particles passed straight through the thin gold foil, a few were deflected, and about 1 in 20,000 bounced back, which showed a tiny, dense, positively charged nucleus with mostly empty space around it (1911). Option A is Thomson's 'plum pudding' model, which this experiment disproved. Option C is Bohr's postulate (1913), which fixed the instability problem of Rutherford's model; option D describes isotopes."
+  },
+  {
+   "id": "q82",
+   "question": "[Q.82 · Chemistry]\nWhich one of the following pairs of ore and metal is NOT correctly matched?",
+   "options": [
+    "Galena – Lead",
+    "Zinc blende – Zinc",
+    "Cinnabar – Mercury",
+    "Haematite – Copper"
+   ],
+   "answer": 3,
+   "explanation": "Haematite (Fe2O3) is an ore of iron, not copper, so that pair is wrong. Galena is PbS (lead), zinc blende (sphalerite) is ZnS (zinc), and cinnabar is HgS (mercury). Common copper ores are copper pyrites (chalcopyrite, CuFeS2), chalcocite (copper glance) and malachite. Sulphide ores are usually concentrated by froth flotation and then roasted."
+  },
+  {
+   "id": "q83",
+   "question": "[Q.83 · Chemistry]\nOrdinary incandescent electric bulbs are commonly filled with which gas to prolong the life of the filament?",
+   "options": [
+    "Neon",
+    "Argon",
+    "Helium",
+    "More than one of the above"
+   ],
+   "answer": 1,
+   "explanation": "Argon, an inert gas (usually mixed with a little nitrogen), does not react with the hot tungsten filament and slows its evaporation. Neon is used in advertising signs because it gives an orange-red glow, and helium, being light and non-flammable, is used in weather balloons and mixed with oxygen for deep-sea diving (to avoid the 'bends'). Only argon is the standard filling gas, so 'More than one of the above' is wrong."
+  },
+  {
+   "id": "q84",
+   "question": "[Q.84 · Chemistry]\nThe alkaline hydrolysis of oils or fats with sodium hydroxide to make soap is called:",
+   "options": [
+    "Saponification",
+    "Hydrogenation",
+    "Esterification",
+    "Fermentation"
+   ],
+   "answer": 0,
+   "explanation": "Saponification: fat (a triglyceride ester) + NaOH → soap (sodium salt of a long-chain fatty acid) + glycerol. Hydrogenation turns vegetable oils into vanaspati ghee with a nickel catalyst, and esterification is the reverse type of reaction, acid + alcohol → ester. Soap does not lather well in hard water because Ca²⁺ and Mg²⁺ ions form insoluble scum; synthetic detergents (sulphonates) do not form scum."
+  },
+  {
+   "id": "q85",
+   "question": "[Q.85 · Chemistry]\nMatch List-I (Common name) with List-II (Chemical formula):\nList-I\na. Dry ice\nb. Laughing gas\nc. Heavy water\nd. Quicklime\nList-II\n1. CaO\n2. D2O\n3. Solid CO2\n4. N2O\nSelect the correct answer using the codes given below:",
+   "options": [
+    "a-3, b-2, c-4, d-1",
+    "a-1, b-4, c-2, d-3",
+    "a-3, b-4, c-2, d-1",
+    "a-4, b-3, c-1, d-2"
+   ],
+   "answer": 2,
+   "explanation": "Dry ice is solid carbon dioxide (it sublimes at −78.5 °C), laughing gas is nitrous oxide (N2O, used as a mild anaesthetic), heavy water is deuterium oxide (D2O, a moderator in nuclear reactors), and quicklime is calcium oxide (CaO). So a-3, b-4, c-2, d-1. Quicklime reacts with water to give slaked lime, Ca(OH)2, in a strongly exothermic reaction."
+  },
+  {
+   "id": "q86",
+   "question": "[Q.86 · Chemistry]\nWhich of the following will show the Tyndall effect when a beam of light is passed through it?",
+   "options": [
+    "Milk",
+    "Sugar solution",
+    "Copper sulphate solution",
+    "More than one of the above"
+   ],
+   "answer": 0,
+   "explanation": "Milk is a colloid (an emulsion of fat droplets in water); its particles, about 1–1000 nm across, are large enough to scatter light and make the path of the beam visible. Sugar and copper sulphate form true solutions, whose particles are too small to scatter light, so only milk qualifies and 'More than one of the above' is wrong. The Tyndall effect is also seen when sunlight enters a dusty or misty room, or a forest canopy."
+  },
+  {
+   "id": "q87",
+   "question": "[Q.87 · Chemistry]\nWhat is the percentage by mass of oxygen in calcium carbonate (CaCO3)? (Atomic masses: Ca = 40, C = 12, O = 16)",
+   "options": [
+    "40%",
+    "12%",
+    "60%",
+    "48%"
+   ],
+   "answer": 3,
+   "explanation": "The molar mass of CaCO3 is 40 + 12 + 3 × 16 = 100 g/mol, and oxygen contributes 48 g, so its share is 48/100 = 48%. Calcium is 40% and carbon 12%. The trap is 60%, which is the oxygen share by number of atoms (3 of 5), not by mass. Limestone, marble and chalk are all forms of calcium carbonate."
+  },
+  {
+   "id": "q88",
+   "question": "[Q.88 · Chemistry]\nSolder, used to join electrical wires, is an alloy of:",
+   "options": [
+    "Copper and zinc",
+    "Iron, chromium and nickel",
+    "Copper and tin",
+    "Tin and lead"
+   ],
+   "answer": 3,
+   "explanation": "Traditional solder is an alloy of tin and lead, with a low melting point (about 183–190 °C), so it melts easily without damaging the parts being joined; lead-free solders now use tin with silver or copper. Copper and zinc make brass, copper and tin make bronze, and iron with chromium and nickel (and a little carbon) makes stainless steel, which resists rusting because chromium forms a protective oxide layer."
+  },
+  {
+   "id": "q89",
+   "question": "[Q.89 · Biology]\nWhich metal is present at the centre of the chlorophyll molecule?",
+   "options": [
+    "Iron",
+    "Copper",
+    "Magnesium",
+    "None of the above"
+   ],
+   "answer": 2,
+   "explanation": "A magnesium ion sits at the centre of the porphyrin ring of chlorophyll, so magnesium deficiency causes yellowing of leaves (chlorosis). Iron is at the centre of the haem group of haemoglobin, and copper is in haemocyanin, the blue blood pigment of some molluscs and arthropods. In photosynthesis the light reactions occur in the thylakoids (water is split and oxygen released) and the dark reactions (Calvin cycle) occur in the stroma."
+  },
+  {
+   "id": "q90",
+   "question": "[Q.90 · Biology]\nThe opening and closing of stomata in leaves is controlled by:",
+   "options": [
+    "Guard cells",
+    "Companion cells",
+    "Root hairs",
+    "Xylem vessels"
+   ],
+   "answer": 0,
+   "explanation": "Each stoma is bordered by two kidney-shaped guard cells; when they take up water and become turgid the pore opens, and when they lose water it closes. Most transpiration (loss of water vapour from aerial parts) takes place through stomata, and it creates the 'transpiration pull' that draws water up through the xylem. Companion cells are found in phloem, root hairs absorb water, and xylem vessels conduct it."
+  },
+  {
+   "id": "q91",
+   "question": "[Q.91 · Biology]\nThe natural pacemaker of the human heart, which starts each heartbeat, is the:",
+   "options": [
+    "Atrioventricular (AV) node",
+    "Sinoatrial (SA) node",
+    "Bundle of His",
+    "More than one of the above"
+   ],
+   "answer": 1,
+   "explanation": "The SA node, in the wall of the right atrium, generates the electrical impulse that starts each heartbeat (about 72 per minute at rest), so it is called the pacemaker. The AV node and the bundle of His only relay the impulse to the ventricles, so 'More than one of the above' is wrong. The human heart has four chambers and supports double circulation: pulmonary (heart–lungs–heart) and systemic (heart–body–heart)."
+  },
+  {
+   "id": "q92",
+   "question": "[Q.92 · Biology]\nAntibodies in the human body are produced by:",
+   "options": [
+    "T-lymphocytes",
+    "Neutrophils",
+    "Platelets",
+    "B-lymphocytes (plasma cells)"
+   ],
+   "answer": 3,
+   "explanation": "B-lymphocytes, when activated by an antigen, turn into plasma cells that secrete antibodies (immunoglobulins), which provide humoral immunity. T-lymphocytes give cell-mediated immunity (helper T cells are the main target of HIV), neutrophils engulf microbes by phagocytosis, and platelets help in blood clotting. Antibodies are Y-shaped proteins made of two heavy and two light chains; IgG is the only class that crosses the placenta."
+  },
+  {
+   "id": "q93",
+   "question": "[Q.93 · Biology]\nKala-azar (visceral leishmaniasis), which is endemic in parts of Bihar, is caused by ____ and transmitted by ____.",
+   "options": [
+    "Plasmodium vivax; female Anopheles mosquito",
+    "Wuchereria bancrofti; Culex mosquito",
+    "Trypanosoma; tsetse fly",
+    "Leishmania donovani; sandfly"
+   ],
+   "answer": 3,
+   "explanation": "Kala-azar is caused by the protozoan Leishmania donovani and spread by the bite of the female sandfly (Phlebotomus argentipes). It damages the spleen, liver and bone marrow. Bihar has historically carried the largest share of India's cases, and the national programme aims to eliminate it (fewer than 1 case per 10,000 people per block). Malaria is caused by Plasmodium and spread by the female Anopheles; Trypanosoma causes sleeping sickness, and Wuchereria causes filariasis."
+  },
+  {
+   "id": "q94",
+   "question": "[Q.94 · Biology]\nWhich nitrogenous base is found in RNA but not in DNA?",
+   "options": [
+    "Thymine",
+    "Adenine",
+    "Uracil",
+    "None of the above"
+   ],
+   "answer": 2,
+   "explanation": "RNA has uracil in place of thymine, so its bases are A, U, G and C, while DNA has A, T, G and C. RNA also has ribose sugar (DNA has deoxyribose) and is usually single-stranded. In the Watson–Crick double helix (1953), adenine pairs with thymine by two hydrogen bonds and guanine with cytosine by three."
+  },
+  {
+   "id": "q95",
+   "question": "[Q.95 · Biology]\nIn a healthy adult human, red blood cells (RBCs) are produced mainly in the:",
+   "options": [
+    "Red bone marrow",
+    "Spleen",
+    "Liver",
+    "Kidney"
+   ],
+   "answer": 0,
+   "explanation": "RBCs are made in the red bone marrow of flat bones and the ends of long bones, a process stimulated by erythropoietin from the kidney. They live about 120 days and are then destroyed mainly in the spleen (the 'graveyard of RBCs') and the liver. In the foetus, RBCs are first made in the yolk sac and then in the liver and spleen. Mature human RBCs have no nucleus, which leaves more room for haemoglobin."
+  },
+  {
+   "id": "q96",
+   "question": "[Q.96 · Biology]\nBile, which emulsifies fats in the small intestine, is produced by the:",
+   "options": [
+    "Gall bladder",
+    "Liver",
+    "Pancreas",
+    "More than one of the above"
+   ],
+   "answer": 1,
+   "explanation": "Bile is produced by the liver, the largest gland of the human body, and only stored and concentrated in the gall bladder, so the gall bladder is the trap answer. Bile contains no digestive enzyme; its bile salts break fat into tiny droplets (emulsification) so that pancreatic lipase can act on them. The pancreas secretes pancreatic juice, not bile, so 'More than one of the above' is wrong."
+  },
+  {
+   "id": "q97",
+   "question": "[Q.97 · Biology]\nConsider the following statements about useful microbes:\n1. Yeast converts sugars into ethanol and carbon dioxide during fermentation.\n2. Penicillin, the first antibiotic, was discovered by Alexander Fleming from the fungus Penicillium.\n3. Lactobacillus converts milk into curd and also increases its vitamin B12 content.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "Only 1 and 2",
+    "Only 2 and 3",
+    "Only 1 and 3",
+    "1, 2 and 3"
+   ],
+   "answer": 3,
+   "explanation": "All three are correct. Yeast (Saccharomyces cerevisiae) ferments sugars to ethanol and CO2, which is used in brewing and in making bread rise. Fleming discovered penicillin in 1928 from the mould Penicillium notatum, and Florey and Chain later developed it as a medicine (Nobel Prize 1945). Lactic acid bacteria (Lactobacillus) curdle milk and also improve its nutritional value by increasing vitamin B12."
+  },
+  {
+   "id": "q98",
+   "question": "[Q.98 · Science & Technology]\nConsider the following statements about India's Gaganyaan programme:\n1. Vyommitra is a half-humanoid robot developed by ISRO to fly aboard the first uncrewed Gaganyaan mission (G1).\n2. The Gaganyaan crew module is designed to return to Earth by splashing down in the sea.\n3. Gaganyaan missions are to be launched by a human-rated version of the PSLV.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "Only 1",
+    "Only 1 and 2",
+    "Only 2 and 3",
+    "1, 2 and 3"
+   ],
+   "answer": 1,
+   "explanation": "Statements 1 and 2 are correct. Vyommitra will occupy a crew seat on G1, monitoring cabin and life-support conditions as a stand-in for astronauts, and the crew module is recovered after a parachute-assisted splashdown in the sea (an uprighting system rights the capsule on the water). Statement 3 is wrong: Gaganyaan uses the human-rated LVM3 (HLVM3), not the PSLV. As of mid-October 2026, ISRO was still targeting G1 for late 2026 after ground tests such as crew–service module separation, with the first crewed flight planned for 2027."
+  },
+  {
+   "id": "q99",
+   "question": "[Q.99 · Science & Technology]\nThe Bharat Forecasting System (BFS), launched by the Ministry of Earth Sciences in May 2025 with a resolution of about 6 km over the tropics, was developed by:",
+   "options": [
+    "Indian Institute of Tropical Meteorology (IITM), Pune",
+    "Space Applications Centre (ISRO), Ahmedabad",
+    "National Remote Sensing Centre, Hyderabad",
+    "Indian Institute of Science, Bengaluru"
+   ],
+   "answer": 0,
+   "explanation": "BFS was developed by IITM Pune and launched on 26 May 2025; it runs on IITM's Arka supercomputer (about 11.77 petaflops) and helps the IMD give localised forecasts down to the panchayat level. Its roughly 6 km grid in the tropics (30° S–30° N) is finer than the earlier 12 km Global Forecast System. It forms part of Mission Mausam, approved in September 2024 to make India 'weather-ready and climate-smart'."
+  },
+  {
+   "id": "q100",
+   "question": "[Q.100 · Science & Technology]\nWhich company was the first to be selected under the IndiaAI Mission (April 2025) to build India's sovereign foundation large language model from scratch?",
+   "options": [
+    "Krutrim (Ola)",
+    "Soket AI",
+    "Sarvam AI",
+    "More than one of the above"
+   ],
+   "answer": 2,
+   "explanation": "The government selected Bengaluru-based Sarvam AI in April 2025 as the first start-up to build India's sovereign LLM under the IndiaAI Mission's foundation-models pillar, with compute from the mission's shared GPU pool. Soket AI, Gnani.ai and Gan.ai were selected later, so 'Soket AI' and 'More than one of the above' are wrong for 'first'. The IndiaAI Mission was approved in March 2024 with an outlay of ₹10,371.92 crore; its common compute pool crossed 38,000 GPUs by late 2025."
+  },
+  {
+   "id": "q101",
+   "question": "[Q.101 · Modern History]\nConsider the following statements:\n1. In the election for the presidency of the Tripuri session of the Indian National Congress (1939), Subhas Chandra Bose defeated Pattabhi Sitaramayya.\n2. Mahatma Gandhi described Pattabhi Sitaramayya's defeat as his own defeat.\n3. After resigning the Congress presidency, Bose formed the Forward Bloc in 1939.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "Only 1 and 2",
+    "Only 2 and 3",
+    "Only 1 and 3",
+    "1, 2 and 3"
+   ],
+   "answer": 3,
+   "explanation": "All three statements are correct. Bose, re-elected in January 1939 against Gandhi's candidate Pattabhi Sitaramayya, faced the Pant resolution at Tripuri (near Jabalpur) asking him to nominate his Working Committee in line with Gandhi's wishes; he resigned in April 1939 and Rajendra Prasad became president. He then formed the Forward Bloc as a left grouping within the Congress. Later, in October 1943, he set up the Provisional Government of Azad Hind at Singapore."
+  },
+  {
+   "id": "q102",
+   "question": "[Q.102 · Modern History]\nThe revolt of the ratings of the Royal Indian Navy in February 1946 began at Bombay on board which signal-training establishment?",
+   "options": [
+    "HMIS Hindustan",
+    "HMIS Narbada",
+    "HMIS Khyber",
+    "HMIS Talwar"
+   ],
+   "answer": 3,
+   "explanation": "The RIN mutiny began on 18 February 1946 on HMIS Talwar in Bombay, over poor food, racial discrimination and the INA trials, and spread to Karachi (where HMIS Hindustan joined), Calcutta and other ports. The Naval Central Strike Committee was headed by M.S. Khan. Sardar Patel and Jinnah persuaded the ratings to surrender on 23 February 1946."
+  },
+  {
+   "id": "q103",
+   "question": "[Q.103 · Modern History]\nConsider the following statements:\n1. The Muslim League called for 'Direct Action Day' on 16 August 1946, which was followed by large-scale riots in Calcutta.\n2. When the Muslim League joined the Interim Government in October 1946, Liaquat Ali Khan became its Finance Member.\n3. M.A. Jinnah joined the Interim Government as a member of the Viceroy's Executive Council.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "Only 1",
+    "Only 1 and 2",
+    "Only 2 and 3",
+    "1, 2 and 3"
+   ],
+   "answer": 1,
+   "explanation": "Statements 1 and 2 are correct. The League withdrew its acceptance of the Cabinet Mission plan and called for Direct Action on 16 August 1946, which led to the 'Great Calcutta Killing'. It joined the Nehru-led Interim Government in October 1946 but sent Liaquat Ali Khan (Finance), not Jinnah, who stayed out; Liaquat's 1947–48 budget was nicknamed the 'poor man's budget'."
+  },
+  {
+   "id": "q104",
+   "question": "[Q.104 · Modern History]\nAfter British Prime Minister Clement Attlee's statement of 20 February 1947, power was transferred under the Indian Independence Act, 1947. Which one of the following was NOT a provision of this Act?",
+   "options": [
+    "Creation of two independent dominions, India and Pakistan, from 15 August 1947",
+    "Abolition of the office of the Secretary of State for India",
+    "The Constituent Assemblies of the two dominions to also act as their central legislatures",
+    "Compulsory merger of every princely state with one of the two dominions"
+   ],
+   "answer": 3,
+   "explanation": "The Act ended British paramountcy over the princely states; they were left free to accede to India or Pakistan (or in theory remain independent), so there was no compulsory merger. The Act created two dominions from 15 August 1947, abolished the office of the Secretary of State for India and let each Constituent Assembly serve as the dominion legislature. Attlee's statement had fixed June 1948 as the deadline for British withdrawal; it was advanced to August 1947."
+  },
+  {
+   "id": "q105",
+   "question": "[Q.105 · Modern History]\nWith reference to Sir Cyril Radcliffe, who chaired the Punjab and Bengal Boundary Commissions in 1947, which of the following is correct?",
+   "options": [
+    "He had not visited India before he was given this task",
+    "The boundary award was made public on 17 August 1947, after independence",
+    "He chaired only the Bengal Boundary Commission",
+    "More than one of the above"
+   ],
+   "answer": 3,
+   "explanation": "A and B are both correct, so D is the answer. Radcliffe, a British lawyer, came to India for the first time in July 1947 and had about five weeks to draw the lines; he chaired both the Punjab and the Bengal commissions, so C is wrong. The award was published on 17 August 1947, two days after independence. Each commission had four Indian judges, two nominated by the Congress and two by the Muslim League."
+  },
+  {
+   "id": "q106",
+   "question": "[Q.106 · Modern History]\nRegarding the integration of princely states after independence, which of the following is correct?",
+   "options": [
+    "The Nawab of Junagadh acceded to Pakistan, but a plebiscite held in February 1948 went overwhelmingly in favour of India",
+    "Hyderabad was integrated after the police action called 'Operation Polo' in September 1948",
+    "Jammu and Kashmir acceded to India after a plebiscite held in 1947",
+    "More than one of the above"
+   ],
+   "answer": 3,
+   "explanation": "A and B are correct, so D is the answer. Junagadh's plebiscite (20 February 1948) favoured India, and Hyderabad surrendered on 17 September 1948 after Operation Polo. C is wrong: Maharaja Hari Singh signed the Instrument of Accession on 26 October 1947 after the tribal invasion, without any plebiscite. Under the Instrument, states initially ceded only defence, external affairs and communications; V.P. Menon was Secretary of the States Ministry under Sardar Patel."
+  },
+  {
+   "id": "q107",
+   "question": "[Q.107 · Bihar]\nPeer Ali, a bookseller who led the uprising of July 1857 in Patna, was hanged on the orders of which Commissioner of Patna?",
+   "options": [
+    "William Tayler",
+    "Vincent Eyre",
+    "Henry Lawrence",
+    "More than one of the above"
+   ],
+   "answer": 0,
+   "explanation": "Commissioner William Tayler crushed the Patna rising of 3 July 1857 and had Peer Ali and several others hanged on 7 July 1857; Tayler was later removed for his harsh and arbitrary measures. Major Vincent Eyre relieved Arrah from Kunwar Singh's siege, and Henry Lawrence died defending the Lucknow Residency. Peer Ali Khan's name is now borne by a park in Patna."
+  },
+  {
+   "id": "q108",
+   "question": "[Q.108 · Bihar]\nConsider the following statements about the Muzaffarpur bomb incident of 30 April 1908:\n1. The intended target was Douglas Kingsford, then District Judge of Muzaffarpur.\n2. The bomb killed two British women, Mrs and Miss Kennedy.\n3. Prafulla Chaki was hanged along with Khudiram Bose.\n4. Khudiram Bose was arrested at Waini (Pusa) railway station.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "Only 1 and 2",
+    "Only 1, 2 and 4",
+    "Only 2 and 3",
+    "1, 2, 3 and 4"
+   ],
+   "answer": 1,
+   "explanation": "Statements 1, 2 and 4 are correct. Kingsford had earlier been the harsh Chief Presidency Magistrate of Calcutta; the bomb thrown at a carriage killed Mrs and Miss Kennedy instead. Statement 3 is wrong: Prafulla Chaki shot himself at Mokama to avoid arrest, while Khudiram, caught at Waini (now Khudiram Bose Pusa station), was hanged in Muzaffarpur jail on 11 August 1908, aged 18."
+  },
+  {
+   "id": "q109",
+   "question": "[Q.109 · Bihar]\nDuring the Civil Disobedience Movement of 1930, besides breaking the salt law, a major form of protest in Bihar districts such as Saran, Bhagalpur (Bihpur) and Munger was refusal to pay which tax?",
+   "options": [
+    "Chaukidari tax",
+    "Pilgrim tax",
+    "Grazing tax",
+    "More than one of the above"
+   ],
+   "answer": 0,
+   "explanation": "In Bihar the no-tax campaign of 1930 was directed against the chaukidari tax, which paid for village watchmen who were seen as agents of the police; the government replied with confiscation of property. Salt was made at places such as Nakhas Pond in Patna. Bihpur in Bhagalpur district, with its Congress ashram, became a noted centre of the campaign."
+  },
+  {
+   "id": "q110",
+   "question": "[Q.110 · Bihar]\nTarapur, where police fired on volunteers trying to hoist the national flag at the police station on 15 February 1932, killing about 34 people, is in which present district of Bihar?",
+   "options": [
+    "Jamui",
+    "Lakhisarai",
+    "Munger",
+    "More than one of the above"
+   ],
+   "answer": 2,
+   "explanation": "The Tarapur firing took place at the Tarapur police station (thana) in Munger district during the second phase of the Civil Disobedience Movement. Around 34 bodies were reportedly found, though only 13 martyrs could be identified; it is often called the biggest police firing after Jallianwala Bagh. 15 February is observed in Bihar as 'Shahid Diwas' in memory of the Tarapur martyrs."
+  },
+  {
+   "id": "q111",
+   "question": "[Q.111 · Bihar]\nWhich of the following is regarded as the first Hindi newspaper of Bihar?",
+   "options": [
+    "The Bihar Herald",
+    "Bihar Bandhu",
+    "Aryavarta",
+    "The Searchlight"
+   ],
+   "answer": 1,
+   "explanation": "Bihar Bandhu, started in 1872 by Keshav Ram Bhatt (it moved its press from Calcutta to Patna in 1874), is regarded as Bihar's first Hindi newspaper; it campaigned for Hindi in Devanagari in the courts. The Bihar Herald (1875) and The Searchlight (1918) were English papers, and Aryavarta was a much later Hindi daily (1940, Darbhanga Raj)."
+  },
+  {
+   "id": "q112",
+   "question": "[Q.112 · Ancient & Medieval History]\nConsider the following statements about the Sudarshan lake in Saurashtra:\n1. It was built by Pushyagupta, a provincial governor of Chandragupta Maurya.\n2. Its repair by the Shaka ruler Rudradaman I is recorded in his Junagadh inscription.\n3. It was repaired again in the reign of the Gupta ruler Skandagupta.\n4. It was located near Pataliputra.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "Only 1 and 2",
+    "Only 1, 2 and 3",
+    "Only 2 and 3",
+    "1, 2, 3 and 4"
+   ],
+   "answer": 1,
+   "explanation": "Statements 1–3 are correct. The Junagadh (Girnar) rock inscription of Rudradaman I (c. 150 CE), the first long inscription in chaste Sanskrit, records that the lake was built under Chandragupta Maurya by Pushyagupta and fitted with conduits under Ashoka by the Yavana Tushaspa. The same rock records its repair under Skandagupta by Chakrapalita, son of governor Parnadatta. Statement 4 is wrong: the lake was near Girnar in Gujarat, far from Pataliputra."
+  },
+  {
+   "id": "q113",
+   "question": "[Q.113 · Ancient & Medieval History]\nWhich of the following pairs of Chinese pilgrim and contemporary Indian ruler is/are correctly matched?\n1. Fa-Hien – Chandragupta II\n2. Hiuen Tsang – Harshavardhana\n3. I-tsing – Kanishka\nSelect the correct answer using the codes given below:",
+   "options": [
+    "Only 1",
+    "Only 1 and 2",
+    "Only 2 and 3",
+    "1, 2 and 3"
+   ],
+   "answer": 1,
+   "explanation": "Pairs 1 and 2 are correct. Fa-Hien (Faxian) visited India c. 399–414 CE in the reign of Chandragupta II, and Hiuen Tsang (Xuanzang) was at Harsha's court and attended the Kannauj and Prayag assemblies (c. 643 CE). I-tsing came in 671–695 CE and studied at Nalanda about five centuries after Kanishka (Kushana, 1st–2nd century CE), so pair 3 is wrong. Hiuen Tsang's account is the Si-yu-ki."
+  },
+  {
+   "id": "q114",
+   "question": "[Q.114 · Ancient & Medieval History]\nWhich one of the following Sanskrit plays was NOT written by Harshavardhana?",
+   "options": [
+    "Nagananda",
+    "Ratnavali",
+    "Mudrarakshasa",
+    "Priyadarshika"
+   ],
+   "answer": 2,
+   "explanation": "Mudrarakshasa, a political drama about Chanakya and Chandragupta Maurya, was written by Vishakhadatta. Harsha is credited with three plays: Nagananda (a Buddhist theme), Ratnavali and Priyadarshika. His court poet Banabhatta wrote the Harshacharita and Kadambari."
+  },
+  {
+   "id": "q115",
+   "question": "[Q.115 · Ancient & Medieval History]\nThe Nasik cave inscription, which praises the Satavahana king Gautamiputra Satakarni as the destroyer of the Shakas, Yavanas and Pahlavas, was issued by",
+   "options": [
+    "Gautami Balashri",
+    "Nayanika",
+    "Rudradaman I",
+    "More than one of the above"
+   ],
+   "answer": 0,
+   "explanation": "The Nasik inscription was issued by his mother, Gautami Balashri, in the reign of their son Vasishthiputra Pulumavi. It celebrates Gautamiputra's victory over the Kshaharata Shaka ruler Nahapana and calls him 'eka brahmana'. Nayanika (Naganika), wife of Satakarni I, issued the Naneghat inscription. Satavahana kings used metronymics (names after their mothers), such as Gautamiputra and Vasishthiputra."
+  },
+  {
+   "id": "q116",
+   "question": "[Q.116 · Ancient & Medieval History]\nThe monolithic rathas (the 'Pancha Rathas') at Mahabalipuram were carved mainly in the reign of which Pallava king, who bore the title 'Mamalla'?",
+   "options": [
+    "Mahendravarman I",
+    "Narasimhavarman II (Rajasimha)",
+    "Nandivarman II",
+    "Narasimhavarman I"
+   ],
+   "answer": 3,
+   "explanation": "Narasimhavarman I (c. 630–668 CE), titled Mamalla ('great wrestler'), gave his name to Mamallapuram; the five rathas are carved from single rocks in his time. He also took the Chalukya capital Vatapi and earned the title Vatapikonda. The Shore Temple and the Kailasanatha temple at Kanchi were built later by Narasimhavarman II (Rajasimha), and Mahendravarman I is known for rock-cut cave temples."
+  },
+  {
+   "id": "q117",
+   "question": "[Q.117 · Ancient & Medieval History]\nConsider the following statements about the Ajivika sect:\n1. Makkhali Gosala, its most famous teacher, was a contemporary of Mahavira and the Buddha.\n2. The Ajivikas believed in niyati, the doctrine that everything is predetermined by fate.\n3. The canonical texts of the Ajivikas survive in full in Pali.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "Only 1",
+    "Only 2",
+    "Only 1 and 2",
+    "1, 2 and 3"
+   ],
+   "answer": 2,
+   "explanation": "Statements 1 and 2 are correct. Makkhali Gosala, once a companion of Mahavira, taught strict determinism (niyati): human effort cannot change one's destiny. Statement 3 is wrong: no Ajivika texts survive, and what we know comes from Buddhist and Jaina sources, which were hostile to them. The Mauryas Ashoka and Dasharatha donated caves to the Ajivikas."
+  },
+  {
+   "id": "q118",
+   "question": "[Q.118 · Ancient & Medieval History]\nThe Persian court customs of 'sijda' (prostration) and 'paibos' (kissing the monarch's feet) were introduced in the Delhi Sultanate by",
+   "options": [
+    "Balban",
+    "Iltutmish",
+    "Alauddin Khalji",
+    "More than one of the above"
+   ],
+   "answer": 0,
+   "explanation": "Balban (1266–87) held that the Sultan was 'Zil-i-Ilahi' (the shadow of God) and introduced sijda and paibos and the Persian festival of Nauroz to raise royal prestige. He broke the power of the Turkan-i-Chahalgani ('the Forty'), the group of nobles formed under Iltutmish. He also set up a separate military department, the Diwan-i-Arz."
+  },
+  {
+   "id": "q119",
+   "question": "[Q.119 · Ancient & Medieval History]\nArrange the following dynasties of the Delhi Sultanate in chronological order:\n1. Sayyid\n2. Khalji\n3. Lodi\n4. Tughlaq\nSelect the correct answer using the codes given below:",
+   "options": [
+    "2, 4, 1, 3",
+    "2, 1, 4, 3",
+    "4, 2, 1, 3",
+    "2, 4, 3, 1"
+   ],
+   "answer": 0,
+   "explanation": "The order is Mamluk (1206–90), Khalji (1290–1320), Tughlaq (1320–1414), Sayyid (1414–51) and Lodi (1451–1526). The Sayyids were founded by Khizr Khan, Timur's nominee, after Timur's invasion of 1398 weakened the Tughlaqs. The Lodi dynasty, the only Afghan dynasty of the Sultanate, ended when Ibrahim Lodi was defeated at Panipat in 1526."
+  },
+  {
+   "id": "q120",
+   "question": "[Q.120 · Art & Culture]\nMatch List-I (Musician) with List-II (Instrument):\nList-I\na. Bismillah Khan\nb. Hariprasad Chaurasia\nc. Zakir Hussain\nd. Amjad Ali Khan\nList-II\n1. Sarod\n2. Tabla\n3. Shehnai\n4. Flute (bansuri)\nSelect the correct answer using the codes given below:",
+   "options": [
+    "a-3, b-2, c-4, d-1",
+    "a-4, b-3, c-2, d-1",
+    "a-3, b-4, c-2, d-1",
+    "a-3, b-4, c-1, d-2"
+   ],
+   "answer": 2,
+   "explanation": "Bismillah Khan – shehnai, Hariprasad Chaurasia – bansuri, Zakir Hussain – tabla and Amjad Ali Khan – sarod, so the code is a-3, b-4, c-2, d-1. Ustad Bismillah Khan was born at Dumraon (Buxar district, Bihar) and received the Bharat Ratna in 2001. Amjad Ali Khan belongs to the Senia Bangash gharana of sarod players."
+  },
+  {
+   "id": "q121",
+   "question": "[Q.121 · Art & Culture]\nThe Kangra school of Pahari painting reached its peak under the patronage of",
+   "options": [
+    "Raja Sansar Chand",
+    "Maharaja Serfoji II",
+    "Sawai Jai Singh II",
+    "Raja Savant Singh"
+   ],
+   "answer": 0,
+   "explanation": "Raja Sansar Chand Katoch (r. 1775–1823) of Kangra was the great patron of the Kangra style, known for lyrical themes from the Gita Govinda and the Bhagavata Purana and for soft, graceful figures. Maharaja Serfoji II of Thanjavur is linked to Tanjore painting, and Raja Savant Singh of Kishangarh (Rajasthani school) to the Bani Thani style. Basohli and Guler are other centres of Pahari painting."
+  },
+  {
+   "id": "q122",
+   "question": "[Q.122 · Bihar]\nWhich ruler of the Haryanka dynasty shifted the capital of Magadha from Rajagriha to Pataliputra?",
+   "options": [
+    "Bimbisara",
+    "Ajatashatru",
+    "Udayin",
+    "More than one of the above"
+   ],
+   "answer": 2,
+   "explanation": "Udayin (Udayabhadra), son of Ajatashatru, founded the city of Pataliputra at the confluence of the Ganga and the Son and made it the capital. Ajatashatru had only built a fort at the village of Pataligrama to fight the Vajjis. Bimbisara, the founder of Haryanka power, ruled from Girivraja/Rajagriha, and the Shishunagas later moved the capital to Vaishali for a time."
+  },
+  {
+   "id": "q123",
+   "question": "[Q.123 · Bihar]\nConsider the following statements about Nalanda:\n1. The Nalanda mahavihara was founded in the reign of the Gupta ruler Kumaragupta I.\n2. The archaeological site of Nalanda Mahavihara was inscribed on the UNESCO World Heritage List in 2014.\n3. The new Nalanda University was set up under an Act of Parliament passed in 2010 and began classes in 2014.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "Only 1",
+    "Only 1 and 3",
+    "Only 2 and 3",
+    "1, 2 and 3"
+   ],
+   "answer": 1,
+   "explanation": "Statements 1 and 3 are correct. Nalanda was founded in the 5th century CE under Kumaragupta I (Shakraditya) and later patronised by Harsha and the Palas; it was destroyed by Bakhtiyar Khalji around 1200 CE. Statement 2 is wrong: the site became a UNESCO World Heritage Site in July 2016, not 2014. The Nalanda University Act, 2010 set up the new university near Rajgir, which started its first session in September 2014."
+  },
+  {
+   "id": "q124",
+   "question": "[Q.124 · Bihar]\nMatch List-I (Craft of Bihar) with List-II (Description):\nList-I\na. Sujini\nb. Sikki\nc. Khatwa\nd. Manjusha\nList-II\n1. Appliqué work, cut cloth stitched on a base fabric\n2. Scroll-like painting on the Bihula–Vishahari legend\n3. Quilted embroidery, associated with Muzaffarpur\n4. Articles woven from golden grass\nSelect the correct answer using the codes given below:",
+   "options": [
+    "a-3, b-4, c-1, d-2",
+    "a-1, b-4, c-3, d-2",
+    "a-3, b-2, c-1, d-4",
+    "a-4, b-3, c-2, d-1"
+   ],
+   "answer": 0,
+   "explanation": "Sujini is quilted embroidery from Muzaffarpur (GI tagged), Sikki items are woven from the golden grass found in Mithila (Madhubani, Sitamarhi, Darbhanga), Khatwa is appliqué work used on canopies and tents, and Manjusha art of Bhagalpur tells the story of Bihula and the snake goddess Vishahari. So the code is a-3, b-4, c-1, d-2. Sujini, Sikki and Manjusha all carry GI tags."
+  },
+  {
+   "id": "q125",
+   "question": "[Q.125 · General Mental Ability]\nIn a certain code, MANGO is written as 13114715, each letter being replaced by its position in the English alphabet. How will LEMON be written in that code?",
+   "options": [
+    "125131514",
+    "125131415",
+    "12513154",
+    "None of the above"
+   ],
+   "answer": 0,
+   "explanation": "L = 12, E = 5, M = 13, O = 15, N = 14, so LEMON = 12-5-13-15-14 = 125131514. Check with the given word: M = 13, A = 1, N = 14, G = 7, O = 15 gives 13114715. Option B swaps O and N."
+  },
+  {
+   "id": "q126",
+   "question": "[Q.126 · General Mental Ability]\nFind the wrong number in the series:\n2, 5, 10, 17, 26, 37, 50, 64",
+   "options": [
+    "26",
+    "37",
+    "50",
+    "64"
+   ],
+   "answer": 3,
+   "explanation": "The terms are n² + 1 for n = 1, 2, 3, …: 2, 5, 10, 17, 26, 37, 50, 65. So the last term should be 65 (8² + 1), not 64. Another way: the differences are 3, 5, 7, 9, 11, 13 and then 15, so 50 + 15 = 65."
+  },
+  {
+   "id": "q127",
+   "question": "[Q.127 · General Mental Ability]\nIn a certain code:\nP + Q means P is the father of Q;\nP − Q means P is the wife of Q;\nP × Q means P is the brother of Q.\nIf A − B + C × D, how is A related to D?",
+   "options": [
+    "Sister",
+    "Mother",
+    "Aunt",
+    "Grandmother"
+   ],
+   "answer": 1,
+   "explanation": "A − B: A is the wife of B. B + C: B is the father of C. C × D: C is the brother of D, so D is also a child of B. A is the wife of B, the father of D, so A is the mother of D. D's gender is not needed; the answer is the same either way."
+  },
+  {
+   "id": "q128",
+   "question": "[Q.128 · General Mental Ability]\nSix friends A, B, C, D, E and F are sitting around a circular table facing the centre. A sits opposite D. B sits second to the right of A. E sits immediately to the right of D. F is not an immediate neighbour of E. Who sits opposite F?",
+   "options": [
+    "C",
+    "B",
+    "E",
+    "A"
+   ],
+   "answer": 2,
+   "explanation": "Place A at seat 1 and number the seats so that the right of each person comes next. D is opposite A at seat 4, B is second to A's right, and E is to D's immediate right. That leaves C and F for the two seats next to A; the seat next to E must be C because F cannot be beside E. The arrangement (anticlockwise from A) is A, C, E, D, B, F, which is unique, and E sits opposite F."
+  },
+  {
+   "id": "q129",
+   "question": "[Q.129 · General Mental Ability]\nWhich of the following best represents the relationship among the classes Doctors, Women and Mothers?",
+   "options": [
+    "Three separate circles that do not touch",
+    "Three circles one inside the other",
+    "A circle for Mothers inside a circle for Women, with a circle for Doctors cutting across both",
+    "A circle for Women inside a circle for Mothers, with a circle for Doctors separate from both"
+   ],
+   "answer": 2,
+   "explanation": "All mothers are women, so the Mothers circle lies inside the Women circle. Some doctors are women and some doctors are mothers, while some are neither (men), so the Doctors circle overlaps both. Option D wrongly puts Women inside Mothers."
+  },
+  {
+   "id": "q130",
+   "question": "[Q.130 · General Mental Ability]\nIf the English alphabet is written in reverse order (Z to A), which letter will be the 7th to the right of the 12th letter from the left?",
+   "options": [
+    "S",
+    "H",
+    "G",
+    "I"
+   ],
+   "answer": 1,
+   "explanation": "In the reversed alphabet, the 12th letter from the left is the 12th from Z, i.e. O (27 − 12 = 15). The 7th to its right is the 19th from the left in the reversed order, i.e. the letter at normal position 27 − 19 = 8, which is H. S is the answer if the order is not reversed (12 + 7 = 19th letter)."
+  },
+  {
+   "id": "q131",
+   "question": "[Q.131 · General Mental Ability]\nStatement: An advertisement says, 'Use our fluoride toothpaste to protect your teeth from decay.'\nAssumptions:\nI. People want to protect their teeth from decay.\nII. No other toothpaste contains fluoride.\nWhich of the assumptions is/are implicit?",
+   "options": [
+    "Only I is implicit",
+    "Only II is implicit",
+    "Both I and II are implicit",
+    "Neither I nor II is implicit"
+   ],
+   "answer": 0,
+   "explanation": "An advertisement promising protection from decay assumes that people care about it, so I is implicit. II is not implicit: the advertiser claims only that its product contains fluoride, not that other brands lack it. Advertisements assume a demand for the benefit offered, not the absence of competitors."
+  },
+  {
+   "id": "q132",
+   "question": "[Q.132 · General Mental Ability]\nIn how many different ways can the letters of the word PATNA be arranged?",
+   "options": [
+    "120",
+    "60",
+    "30",
+    "None of the above"
+   ],
+   "answer": 1,
+   "explanation": "PATNA has 5 letters in which A occurs twice. Number of arrangements = 5! / 2! = 120 / 2 = 60. Option 120 ignores the repeated A."
+  },
+  {
+   "id": "q133",
+   "question": "[Q.133 · Arithmetic/Maths]\nWhat is the sum of the first 20 terms of the arithmetic progression 5, 9, 13, 17, …?",
+   "options": [
+    "820",
+    "780",
+    "860",
+    "None of the above"
+   ],
+   "answer": 2,
+   "explanation": "Here a = 5 and d = 4. S₂₀ = (20/2) × [2 × 5 + (20 − 1) × 4] = 10 × (10 + 76) = 860. The 20th term is 5 + 19 × 4 = 81, and S = 20 × (5 + 81) / 2 = 860 confirms it. 820 is the slip of using 18 instead of 19 for (n − 1): 10 × (10 + 72) = 820."
+  },
+  {
+   "id": "q134",
+   "question": "[Q.134 · Arithmetic/Maths]\nA farmer gave 1/3 of his land to his wife and 1/2 of the remaining land to his son. The rest was divided equally between his two daughters, each of whom got 5 acres. How much land did the farmer have?",
+   "options": [
+    "24 acres",
+    "36 acres",
+    "45 acres",
+    "30 acres"
+   ],
+   "answer": 3,
+   "explanation": "After the wife's share, 2/3 of the land remains; the son gets half of it, i.e. 1/3, leaving 1/3 for the daughters. Each daughter gets 1/6 of the land, so 1/6 of the total = 5 acres and the total = 30 acres. Check: wife 10, son 10, daughters 5 + 5 = 30."
+  },
+  {
+   "id": "q135",
+   "question": "[Q.135 · Bihar]\nThe final electoral roll of Bihar, published on 30 September 2025 after the Special Intensive Revision (SIR) conducted by the Election Commission of India, contained about how many electors?",
+   "options": [
+    "7.89 crore",
+    "7.24 crore",
+    "7.42 crore",
+    "7.36 crore"
+   ],
+   "answer": 2,
+   "explanation": "The final roll had about 7.42 crore electors. The roll stood at about 7.89 crore on 24 June 2025 when the SIR began, the draft roll of 1 August 2025 had about 7.24 crore after some 65 lakh names were removed, and about 21.5 lakh names were added before the final roll. Bihar's SIR was the first such intensive revision in the state since 2003, and the exercise was later extended to other states."
+  },
+  {
+   "id": "q136",
+   "question": "[Q.136 · Bihar]\nNitin Nabin, a five-time MLA from Bihar, took charge in January 2026 as",
+   "options": [
+    "National President of the BJP",
+    "National General Secretary (Organisation) of the BJP",
+    "National President of the BJP Yuva Morcha",
+    "More than one of the above"
+   ],
+   "answer": 0,
+   "explanation": "Nitin Nabin was elected unopposed and took charge as BJP National President on 20 January 2026, succeeding J.P. Nadda; at 45 he is the youngest person to hold the post. He had been appointed National Working President on 14 December 2025. He represents the Bankipur seat of Patna."
+  },
+  {
+   "id": "q137",
+   "question": "[Q.137 · Bihar]\nCricketer Vaibhav Suryavanshi, who received the Pradhan Mantri Rashtriya Bal Puraskar from President Droupadi Murmu in December 2025, belongs to which district of Bihar?",
+   "options": [
+    "Begusarai",
+    "Darbhanga",
+    "Samastipur",
+    "More than one of the above"
+   ],
+   "answer": 2,
+   "explanation": "Vaibhav Suryavanshi is from Samastipur. He received the award (for children aged 5–18) at the Veer Baal Diwas function on 26 December 2025 in the sports category. In IPL 2025, aged 14, he scored a 35-ball century for Rajasthan Royals, the youngest centurion in T20 cricket and the fastest by an Indian in the IPL."
+  },
+  {
+   "id": "q138",
+   "question": "[Q.138 · Bihar]\nThe 2,400 MW (3 × 800 MW) thermal power project at Pirpainti, for which a 25-year power supply agreement was signed with the Bihar government in September 2025, is located in which district and is being developed by which company?",
+   "options": [
+    "Bhagalpur – NTPC Ltd",
+    "Bhagalpur – Adani Power Ltd",
+    "Munger – Adani Power Ltd",
+    "More than one of the above"
+   ],
+   "answer": 1,
+   "explanation": "Pirpainti is in Bhagalpur district, and Adani Power won the project through tariff-based bidding (about ₹6.075 per kWh) on a design, build, finance, own and operate basis; the power supply agreement with Bihar's discoms was signed in September 2025. NTPC's older Kahalgaon super thermal power station is also in Bhagalpur district, which makes A a tempting distractor. Barauni (Begusarai) is another major thermal station in the state."
+  },
+  {
+   "id": "q139",
+   "question": "[Q.139 · Bihar]\nWho was elected Speaker of the 18th Bihar Legislative Assembly on 2 December 2025?",
+   "options": [
+    "Nand Kishore Yadav",
+    "Narendra Narayan Yadav",
+    "Prem Kumar",
+    "Awadh Bihari Choudhary"
+   ],
+   "answer": 2,
+   "explanation": "Senior BJP leader Dr Prem Kumar, MLA from Gaya Town, was elected Speaker unopposed on 2 December 2025. Narendra Narayan Yadav (JD(U)) was the pro-tem Speaker who conducted the election, and Nand Kishore Yadav was Speaker of the 17th Assembly from February 2024. Awadh Bihari Choudhary was Speaker from 2022 to 2024."
+  },
+  {
+   "id": "q140",
+   "question": "[Q.140 · Current Affairs (National)]\nConsider the following statements about the Republic Day celebrations of 2026:\n1. The chief guests were the President of the European Council, António Costa, and the President of the European Commission, Ursula von der Leyen.\n2. It was the first time that more than one foreign leader was chief guest at a Republic Day parade.\n3. The two leaders co-chaired the 16th India–EU Summit in New Delhi on 27 January 2026.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "Only 1",
+    "Only 1 and 3",
+    "Only 2 and 3",
+    "1, 2 and 3"
+   ],
+   "answer": 1,
+   "explanation": "Statements 1 and 3 are correct: the two EU leaders were joint chief guests at the 77th Republic Day and co-chaired the India–EU Summit the next day. Statement 2 is wrong: in 2018 the heads of all ten ASEAN countries were chief guests together. The 2026 celebrations had '150 years of Vande Mataram' as their theme."
+  },
+  {
+   "id": "q141",
+   "question": "[Q.141 · Current Affairs (National)]\nIn September 2025, DRDO and the Strategic Forces Command carried out the first launch of which missile from a rail-based mobile launcher?",
+   "options": [
+    "Agni-V",
+    "Pralay",
+    "Agni-Prime",
+    "More than one of the above"
+   ],
+   "answer": 2,
+   "explanation": "Agni-Prime (Agni-P), a two-stage solid-fuel, canisterised missile with a range of up to about 2,000 km, was test-fired from a specially designed rail-based launcher on 24 September 2025. The launcher can move on the normal rail network without pre-conditions, putting India among a few countries with this capability. A road-mobile version of Agni-Prime had already been inducted."
+  },
+  {
+   "id": "q142",
+   "question": "[Q.142 · Current Affairs (National)]\nWho won the FIDE Chess World Cup 2025, held in Goa in November 2025?",
+   "options": [
+    "Wei Yi",
+    "Arjun Erigaisi",
+    "Nodirbek Yakubboev",
+    "Javokhir Sindarov"
+   ],
+   "answer": 3,
+   "explanation": "Uzbekistan's Javokhir Sindarov, aged 19, beat China's Wei Yi in the rapid tiebreaks of the final on 26 November 2025, becoming the youngest winner of the World Cup. Andrey Esipenko finished third, and the top three qualified for the 2026 Candidates tournament. Sindarov beat his compatriot Nodirbek Yakubboev in the semi-final."
+  },
+  {
+   "id": "q143",
+   "question": "[Q.143 · Current Affairs (National)]\nWhich writer was chosen for the Sahitya Akademi Award 2025 in Hindi (announced in March 2026)?",
+   "options": [
+    "Gagan Gill",
+    "Badri Narayan",
+    "Sanjeev",
+    "Mamta Kalia"
+   ],
+   "answer": 3,
+   "explanation": "Mamta Kalia was chosen for her memoir 'Jeete Jee Allahabad'; the Akademi announced the 2025 awards in 24 languages on 16 March 2026 after a delay from December 2025. Gagan Gill won the Hindi award for 2024 (Main Jab Tak Aayi Bahar), Sanjeev for 2023 and Badri Narayan for 2022. The award carries ₹1 lakh and a copper plaque."
+  },
+  {
+   "id": "q144",
+   "question": "[Q.144 · Miscellaneous]\nThe Mother Tongue Survey of India, which completed field videography of 576 mother tongues, was carried out under which Union Ministry?",
+   "options": [
+    "Ministry of Education",
+    "Ministry of Culture",
+    "Ministry of Home Affairs",
+    "Ministry of Tribal Affairs"
+   ],
+   "answer": 2,
+   "explanation": "The survey was run by the Language Division of the Office of the Registrar General and Census Commissioner, India, which comes under the Ministry of Home Affairs; the MHA annual report for 2021–22 reported its completion. It documents mother tongues returned in two or more censuses, and the recordings are to be archived on an NIC server. The Census is also conducted by the Registrar General under the MHA."
+  },
+  {
+   "id": "q145",
+   "question": "[Q.145 · Current Affairs (International)]\nUnder the arrangement agreed at COP30 in Belém, COP31 (November 2026) is being hosted by Türkiye in Antalya. Which country holds the role of 'President of Negotiations' for COP31?",
+   "options": [
+    "Australia",
+    "Fiji",
+    "Brazil",
+    "More than one of the above"
+   ],
+   "answer": 0,
+   "explanation": "Türkiye (COP31 President Murat Kurum) hosts the summit in Antalya and leads the action agenda, while Australia (Chris Bowen) is President of Negotiations; a pre-COP is to be held in a Pacific island country. It is the first UN climate summit with presidency powers split between two countries. Brazil presided over COP30."
+  },
+  {
+   "id": "q146",
+   "question": "[Q.146 · Current Affairs (International)]\nWhich one of the following sports was NOT part of the programme of the 2026 Commonwealth Games held at Glasgow?",
+   "options": [
+    "Boxing",
+    "Weightlifting",
+    "Wrestling",
+    "Judo"
+   ],
+   "answer": 2,
+   "explanation": "Glasgow 2026 (23 July–2 August 2026) had a slimmed-down programme of 10 sports, dropping wrestling, hockey, cricket, badminton, table tennis, squash and shooting. Boxing, weightlifting, judo, athletics, swimming, gymnastics, track cycling, netball, bowls and 3x3 basketball were held. India won 39 medals (13 gold) and finished fourth, with boxing its best sport."
+  },
+  {
+   "id": "q147",
+   "question": "[Q.147 · Current Affairs (International)]\nConsider the following statements about the Global Innovation Index 2025 released by WIPO:\n1. India was ranked 38th among 139 economies.\n2. Switzerland was ranked first.\n3. India entered the top 25 economies for the first time.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "Only 1 and 2",
+    "Only 2",
+    "Only 1 and 3",
+    "1, 2 and 3"
+   ],
+   "answer": 0,
+   "explanation": "Statements 1 and 2 are correct: India moved up from 39th (2024) to 38th in GII 2025, and Switzerland stayed top, followed by Sweden, the USA, South Korea and Singapore. Statement 3 is wrong since India is 38th, not in the top 25. WIPO lists India as the top economy in the lower-middle-income group."
+  },
+  {
+   "id": "q148",
+   "question": "[Q.148 · Current Affairs (International)]\nBy winning the Australian Open men's singles title in February 2026, who completed a career Grand Slam?",
+   "options": [
+    "Carlos Alcaraz",
+    "Jannik Sinner",
+    "Alexander Zverev",
+    "More than one of the above"
+   ],
+   "answer": 0,
+   "explanation": "Carlos Alcaraz beat Novak Djokovic in the final; the Australian Open was the only major he had not yet won, so he completed the career Grand Slam. The women's title went to Elena Rybakina of Kazakhstan, who beat Aryna Sabalenka. Sinner had won the Australian Open in 2024 and 2025."
+  },
+  {
+   "id": "q149",
+   "question": "[Q.149 · Current Affairs (International)]\nJosé Antonio Kast, who won the December 2025 run-off against Jeannette Jara, was sworn in on 11 March 2026 as the President of which country?",
+   "options": [
+    "Argentina",
+    "Peru",
+    "Colombia",
+    "Chile"
+   ],
+   "answer": 3,
+   "explanation": "Kast, a right-wing leader of the Republican Party, was sworn in as President of Chile at the National Congress in Valparaíso, succeeding Gabriel Boric. He defeated the communist candidate Jeannette Jara in the run-off. Argentina's president is Javier Milei."
+  },
+  {
+   "id": "q150",
+   "question": "[Q.150 · Current Affairs (International)]\nChina launched the Shenzhou-22 spacecraft without a crew in November 2025. What was the main reason?",
+   "options": [
+    "To carry the first foreign astronaut to the Tiangong station",
+    "To give the Tiangong crew a safe return vehicle after a docked Shenzhou capsule's window was cracked, probably by space debris",
+    "To test a crewed lunar landing module",
+    "More than one of the above"
+   ],
+   "answer": 1,
+   "explanation": "Cracks found in the window of Shenzhou-20 made it unsafe, so the Shenzhou-20 crew came home on 14 November 2025 in the Shenzhou-21 capsule, leaving the newly arrived Shenzhou-21 crew without a lifeboat. Shenzhou-22 was launched uncrewed on 25 November 2025 (Beijing time) to fill that gap, the first emergency launch of its kind for China. Shenzhou-21 (launched 31 October 2025) was also the first to reach Tiangong by a fast 3.5-hour rendezvous."
+  }
+ ]
+}
