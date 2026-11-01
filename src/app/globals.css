@@ -882,6 +882,65 @@ html:is([data-reading-theme="sepia"], [data-reading-theme="paper"], [data-readin
   .prose .formula tbody td:nth-child(2):last-child { font-size: 1.02em; }
 }
 
+/* Practice question: question box on the left, a separate answer box on the right, hidden until its <details> is opened */
+.prose .qa {
+  display: grid;
+  grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+  gap: 0.8em 1em;
+  align-items: start;
+  margin: 1.4em 0;
+}
+/* Practice pages use the whole reading column; ordinary paragraphs keep their comfortable measure. */
+.prose:has(.qa) { max-width: none; }
+.prose:has(.qa) > :not(.qa):not(table):not(.formula) { max-width: 72ch; }
+/* An opened answer becomes a full-width box under its question, so long explanations read across, not down. */
+.prose .qa:has(> .qa-a[open]) { grid-template-columns: minmax(0, 1fr); }
+.prose .qa-q {
+  padding: 1em 1.1em;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.025);
+}
+.prose .qa-q > :first-child,
+.prose .qa-a > :nth-child(2) { margin-top: 0; }
+.prose .qa-q p { margin-top: 0.6em; }
+.prose .qa-tag {
+  margin-left: 0.4em;
+  padding: 0.1em 0.55em;
+  border-radius: 999px;
+  border: 1px solid rgba(212, 169, 90, 0.35);
+  font-family: var(--font-sans);
+  font-size: 0.72em;
+  letter-spacing: 0.04em;
+  color: var(--fg-muted);
+  white-space: nowrap;
+}
+.prose .qa-a {
+  border-radius: 12px;
+  border: 1px dashed rgba(212, 169, 90, 0.45);
+  background: rgba(212, 169, 90, 0.05);
+  font-size: 0.94em;
+}
+.prose .qa-a > summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 0.7em 0.9em;
+  font-family: var(--font-sans);
+  font-size: 0.9em;
+  font-weight: 600;
+  color: var(--accent);
+  user-select: none;
+}
+.prose .qa-a > summary::-webkit-details-marker { display: none; }
+.prose .qa-a > summary::before { content: "▸ "; }
+.prose .qa-a[open] > summary::before { content: "▾ "; }
+.prose .qa-a[open] { border-style: solid; }
+.prose .qa-a > :not(summary) { margin: 0.6em 0.9em; }
+.prose .qa-a > :last-child { margin-bottom: 0.9em; }
+@media (max-width: 760px) {
+  .prose .qa { grid-template-columns: minmax(0, 1fr); }
+}
+
 @media (max-width: 640px) {
   .prose { max-width: none; }
   .codeblock pre { border-radius: 10px; padding: 0.9em 1em; }
